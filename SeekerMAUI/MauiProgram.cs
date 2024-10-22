@@ -13,6 +13,7 @@ namespace SeekerMAUI
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("YanoneKaffeesatz-Light.ttf", "YanoneKaffeesatz");
                 });
 
 #if DEBUG
