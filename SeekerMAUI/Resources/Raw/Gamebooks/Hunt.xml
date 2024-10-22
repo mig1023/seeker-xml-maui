@@ -1,0 +1,716 @@
+<Gamebook>
+	<Introduction>
+		<Copyright>
+			<Title>Охота</Title>
+			<Author>Mak_Sim, 2019</Author>
+		</Copyright>
+		<Styles>
+			<Background Value="d1ddcc"/>
+			<Continue Value="668f56"/>
+			<System Value="b3c7aa"/>
+			<StatusBar Value="548141"/>
+			<Color Name="Main, Option" Value="41742c"/>
+		</Styles>
+		<Default>
+			<HideDisabledOption/>
+			<WalkingInCirclesAcceptable/>
+			<FontSize Value="Big"/>
+		</Default>
+	</Introduction>
+	<Paragraphs>
+		<Paragraph No="0">
+			<Text>Вчера вы участвовали в тестировании нового лекарства против насморка.\n\n5 000 рублей на дороге не валяются!\n\nСегодня насморк действительно прошёл, но появились другие тревожные симптомы.\n\nГоловокружение, тошнота и желание укусить Нинку из бухгалтерии за ляжку.\n\nВпрочем, желание кусать Нинку за всякие выпуклые места было и до этого.</Text>
+			<Options>
+				<Start Goto="1"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="1">
+			<Text>Кто вы?\n\nНадо выбрать персонаж, за которого будете играть.</Text>
+			<Options>
+				<Option Goto="33" Text="Водитель Витя">
+					<Trigger Value="Водитель"/>
+				</Option>
+				<Option Goto="33" Text="Уборщица Джамиля">
+					<Trigger Value="Уборщица"/>
+				</Option>
+				<Option Goto="33" Text="Дизайнер Олег">
+					<Trigger Value="Дизайнер"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="2">
+			<Texts>
+				<Text Availability="!Укусил">Тут пусто.\n\nНадо бежать дальше.</Text>
+				<Text Availability="Укусил">Одна из кабинок закрыта.\n\nТам явно кто-то есть.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="40" Availability="!Укусил"/>
+				<Option Goto="56" Text="Подойти к кабинке" Availability="Укусил">
+					<RandomActionAndResponse/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="3">
+			<Texts>
+				<Text Availability="Умный">Какой меткий стрелок!\n\nОн попал вам в голову.\n\nА для умного зомби это важная часть тела!</Text>
+				<Text Availability="!Умный">Какой меткий стрелок!\n\nОн попал вам в голову.\n\nХорошо, что вы тупой зомби и мозги вам не нужны.\n\nИнтересно, каким зомби теперь станет сам Сергей?</Text>
+			</Texts>
+			<Options>
+				<Option Goto="9" Availability="Умный"/>
+				<Option Goto="43" Availability="!Умный">
+					<Bitten Value="1"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="4">
+			<Texts>
+				<Text Availability="Быстрый">Что может противопоставить простой охранник такому быстрому зомби?!</Text>
+				<Text Availability="Умный">Выстоит ли охранник против умного зомби?</Text>
+				<Text Availability="Сильный">Ха! Куда там хилому прапорщику в отставке против такого сильного зомби!</Text>
+			</Texts>
+			<Options>
+				<Option Goto="53"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="5">
+			<Texts>
+				<Text Availability="Укусил">Тут безуспешно пытался спрятаться ваш начальник Рубен.\n\nДля вас укусить его — особенное удовольствие.\n\nЕсть ещё один зомби!</Text>
+				<Text Availability="!Укусил">Тут никого нет.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="39" Text="Бежать дальше" Availability="!Укусил"/>
+				<Option Goto="39" Text="Бежать дальше" Availability="Укусил">
+					<Bitten Value="1"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="6">
+			<Text>Сергей стреляет.\n\nНесколько пуль попадает в вас.\n\nКак можно догадаться, это для зомби не помеха.\n\nКажется, стрелок тоже об этом подумал и явно хочет попасть вам между глаз.\n\nМожет, ну его?</Text>
+			<Options>
+				<Option Goto="48" Text="Убежать"/>
+				<Option Goto="3" Text="Продолжать атаку"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="7">
+			<Text>Ваших боевых навыков недостаточно, чтобы обмануть Андрея.\n\nНо вы его здорово напугали.\n\nТеперь он убежал с криками: "Мы все умрём!"\n\nВроде, это тоже из какого-то фильма, но ваш дохлый мозг не может вспомнить из какого.</Text>
+			<Options>
+				<Option Goto="36"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="8">
+			<Texts>
+				<Text Availability="Умный">Это слишком тупая идея для умного зомби.\n\nВы не будете этого делать.</Text>
+				<Text Availability="Сильный">Вы с грохотом разбиваете довольно прочное стекло и падаете вниз на одного из людей.\n\nОн всмятку. Теперь из этой отбивной можно сделать лишь ужин, а не злобного зомби.\n\nОстальные люди разбегаются, а вы их догнать не можете, так как повредили ноги.\n\nТеперь можно забыть о быстром беге.\n\nНадо было брать перк "акробат".</Text>
+				<Text Availability="Быстрый">Вы не можете разбить прочное стекло.\n\nКакая жалость.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="30"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="9">
+			<Text>Ваше приключение окончено.\n\nВы теперь окончательно мертвы, а зомби-апокалипсис так и не начался.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="10">
+			<Texts>
+				<Text Availability="Водитель">Будучи ещё живым шофёром, вы водили машину довольно резко.</Text>
+				<Text Availability="Быстрый">Вы бежали слишком быстро, а потому не успели затормозить, выбили окно и выпали на улицу.\n\nПомните — вы зомби, а не человек-паук!</Text>
+				<Text Availability="!Быстрый">Отличный трюк!\n\nВы зацепили двоих, прежде чем остальные людишки успели разбежаться.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="9" Availability="Быстрый"/>
+				<Option Goto="22" Availability="!Быстрый">
+					<Bitten Value="2"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="11">
+			<Texts>
+				<Text Availability="Укусил">Тут безуспешно пытался спрятаться ваш начальник Рубен.\n\nДля вас укусить его — особенное удовольствие.\n\nЕсть ещё один зомби!</Text>
+				<Text Availability="!Укусил">Тут никого нет.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="39" Text="Бежать дальше" Availability="!Укусил"/>
+				<Option Goto="39" Text="Бежать дальше" Availability="Укусил">
+					<Bitten Value="1"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="12">
+			<Text>Простой план — самый эффективный.\n\nЧто можно сделать палкой от швабры злобному зомби?!\n\nТеперь Андрей сам живой мертвец.\n\nИнтересно, а за кого он болел, когда смотрел зомби-фильмы?</Text>
+			<Options>
+				<Option Goto="36">
+					<Bitten Value="1"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="13">
+			<Texts>
+				<Text Availability="!Умный">К сожалению, вы слишком тупы, чтобы нагнуться и увидеть хитрого Лёшу под столом.\n\nУрча и топая вы идёте дальше.</Text>
+				<Text Availability="Умный, Укусил">Только умный зомби догадается искать еду под столом.\n\nТак как в мире мертвяков вы — вундеркинд, в армии зомби произошло пополнение.\n\nЕсть успешный укус!</Text>
+				<Text Availability="Умный, !Укусил">Только умный зомби догадается заглянуть под стол.\n\nНо надо быть ещё и ловким, чтобы укусить бойкого Алексея.\n\nВы промазали!</Text>
+			</Texts>
+			<Options>
+				<Option Goto="54" Availability="!Умный"/>
+				<Option Goto="54" Availability="Умный, Укусил">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="54" Availability="Умный, !Укусил"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="14">
+			<Texts>
+				<Text Availability="Уборщица">Уборщица Джамиля всегда умела подкрадываться. Её мало кто замечал.</Text>
+				<Text Availability="Укусил">Удача на вашей стороне!\n\nЕщё один укушенный скоро станет зомби.\n\nОстальные сотрудники в панике разбегаются кто куда.</Text>
+				<Text Availability="!Укусил">Почти получилось, но ваших навыков оказалось недостаточно для этой драки.\n\nДевушка Оля плеснула вам в лицо горячим кофе. Вам не больно, но на мгновение вы ослепли.\n\nТолпе хватило этого времени, чтобы разбежаться.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="22" Availability="Укусил">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="22" Availability="!Укусил"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="15">
+			<Text>Вы выбегаете на стеклянную галерею.\n\nПрямо под вами внизу стоит группа людей.\n\nЧто делать?</Text>
+			<Untriggers>Укусил</Untriggers>
+			<Options>
+				<Option Goto="8" Text="Разбить стекло и прыгнуть вниз"/>
+				<Option Goto="25" Text="Искать лестницу"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="16">
+			<Texts>
+				<Text Availability="Укусил">Тут безуспешно пытался спрятаться ваш начальник Рубен.\n\nДля вас укусить его — особенное удовольствие.\n\nЕсть ещё один зомби!</Text>
+				<Text Availability="!Укусил">Тут никого нет.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="39" Text="Бежать дальше" Availability="Укусил">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="39" Text="Бежать дальше" Availability="!Укусил"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="17">
+			<Texts>
+				<Text Availability="Укусил">Попалась!\n\nДля такой тупой блондинки, как Зинка, стать зомби — хороший карьерный рост.</Text>
+				<Text Availability="!Укусил">Мимо!\n\nУдача тоже имеет значение.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="30" Availability="Укусил">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="30" Availability="!Укусил"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="18">
+			<Text>Спецназ врывается в офис.\n\nСлышны выстрелы.\n\nВы с друзьями атакуете бойцов, стараясь выйти из здания.</Text>
+			<Options>
+				<Option Goto="57"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="19">
+			<Texts>
+				<Text Availability="!Сильный">Саня хоть и тормоз, но довольно сильный мужик.\n\nОн легко отбрасывает такого дохляка как вы.</Text>
+				<Text Availability="Сильный, Укусил">Саня мощный, но вы сильнее.\n\nЕсть первый укус!</Text>
+				<Text Availability="Сильный, !Укусил">Даже сильному зомби нужна удача.\n\nВы промазали!</Text>
+			</Texts>
+			<Options>
+				<Option Goto="54" Availability="!Сильный"/>
+				<Option Goto="54" Availability="Сильный, Укусил">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="54" Availability="Сильный, !Укусил"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="20">
+			<Texts>
+				<Text Availability="!Укусил">Почти получилось, но ваших навыков оказалось недостаточно для этой драки.\n\nДевушка Оля плеснула вам в лицо горячим кофе. Вам не больно, но на мгновение вы ослепли.\n\nТолпе хватило этого времени, чтобы разбежаться.</Text>
+				<Text Availability="Укусил">Удача на вашей стороне!\n\nЕщё один укушенный скоро станет зомби.\n\nОстальные сотрудники в панике разбегаются кто куда.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="22" Availability="Укусил">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="22" Availability="!Укусил"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="21">
+			<Texts>
+				<Text Availability="!Умный">Вы слишком тупы для такого фокуса.\n\nВы ревёте от голода возле двери, но никто, почему-то так и не вышел.\n\nВремя не ждёт. Скоро приедет спецназ.\n\nНадо бежать дальше.</Text>
+				<Text Availability="Умный">Хорошо быть умным зомби!\n\nВы ловко открываете дверь в курилку и начинаете кушать.\n\nК сожалению, табачный дым плохо влияет на ваше здоровье, поэтому вы смогли укусить лишь двоих. Остальные курильщики убежали.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="15" Availability="!Умный"/>
+				<Option Goto="15" Availability="Умный">
+					<Bitten Value="2"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="22">
+			<Text>Вы бежите за коллегами на другой этаж и натыкаетесь на стрельбу.\n\nЭто ваши конкуренты по истреблению человечества.\n\nПрограммист Сергей решил перестрелять коллег и пришёл на работу с ружьём.\n\nНе дайте ему стрелять в вашу еду!\n\nСергей заметил вас и целится из ружья.</Text>
+			<Options>
+				<Option Goto="48" Text="Идти мимо"/>
+				<Option Goto="6" Text="Атаковать в лоб"/>
+				<Option Goto="26" Text="Атаковать уворачиваясь"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="23">
+			<Text>Ваших боевых навыков недостаточно, чтобы обмануть Андрея.\n\nНо вы его здорово напугали.\n\nТеперь он убежал с криками: "Мы все умрём!"\n\nВроде, это тоже из какого-то фильма, но ваш дохлый мозг не может вспомнить из какого.</Text>
+			<Options>
+				<Option Goto="36"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="24">
+			<Text>Но не совсем!\n\nТеперь вы зомби.\n\nНадо выбрать какой вы тип зомби — быстрый, умный или сильный.\n\nВремени на психологические тесты нет и выбрать надо прямо сейчас, пока коллеги не вызвали полицию с автоматами и прочими неприятными для зомби штуками.</Text>
+			<Options>
+				<Option Goto="27" Text="Быстрый">
+					<Trigger Value="Быстрый"/>
+				</Option>
+				<Option Goto="27" Text="Умный">
+					<Trigger Value="Умный"/>
+				</Option>
+				<Option Goto="27" Text="Сильный">
+					<Trigger Value="Сильный"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="25">
+			<Texts>
+				<Text Availability="!Умный">Поиск лестницы — слишком сложная задача для тупого зомби.</Text>
+				<Text Availability="Умный">Слишком поздно — люди разбегаются как кролики.\n\nНо можно попробовать обмануть их, побежав наперерез.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="30" Availability="!Умный"/>
+				<Option Goto="17" Availability="Умный">
+					<RandomBit/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="26">
+			<Texts>
+				<Text Availability="Быстрый">Да, вы очень быстрый зомби!</Text>
+				<Text>Сергей стреляет.\n\nНесколько пуль попадает в вас.\n\nКак можно догадаться, это для зомби не помеха.\n\nКажется, стрелок тоже об этом подумал и явно хочет попасть вам между глаз.\n\nМожет, ну его?</Text>
+			</Texts>
+			<Options>
+				<Option Goto="48" Text="Убежать"/>
+				<Option Goto="3" Text="Продолжать атаку"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="27">
+			<Texts>
+				<Text Availability="Уборщица">В офисе полно грязи.\n\nПора начинать уборку!</Text>
+				<Text Availability="Водитель">Кто заказывал такси "На Дубровку"?\n\nПоездка в ад начинается!</Text>
+				<Text Availability="Дизайнер">Кому был нужен макет?\n\nВам кажется, что тут надо сменить дизайн — добавить красненького!</Text>
+				<Text>Увидев ваше воскрешение, все сразу догадались, что начался зомби-апокалипсис.\n\nНу, а что же это ещё?\n\nБелые безумные глаза, синюшность и крик "мозги"!\n\nТолстуха Галина Павловна быстрее всех сообразила, что происходит и быстро убегает.\n\nЗдоровяк Саня тупит.\n\nМелкий и противный Алексей спрятался под стол.\n\nКого пытаться укусить?</Text>
+			</Texts>
+			<Modifications>
+				<RandomBit/>
+			</Modifications>
+			<Options>
+				<Option Goto="19" Text="Саню"/>
+				<Option Goto="41" Text="Галину Павловну"/>
+				<Option Goto="13" Text="Алексея"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="28">
+			<Texts>
+				<Text>Вы закатываете глаза, скалите зубы, пускаете слюни и с утробным рёвом подходите к толпе.</Text>
+				<Text Availability="Укусил">Удача на вашей стороне!\n\nЕщё один укушенный скоро станет зомби.\n\nОстальные сотрудники в панике разбегаются кто куда.</Text>
+				<Text Availability="!Укусил">Почти получилось, но ваших навыков оказалось недостаточно для этой драки.\n\nДевушка Оля плеснула вам в лицо горячим кофе. Вам не больно, но на мгновение вы ослепли.\n\nТолпе хватило этого времени, чтобы разбежаться.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="22" Availability="Укусил">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="22" Availability="!Укусил"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="29">
+			<Text>Вы у двери генерального директора фирмы.\n\nЭто финальный босс вашего квеста.\n\nЭто самая сложная цель.\n\nУ босса:\n— костюм Dior (+10 к защите от налоговой, +2 к харизме).\n— подарочный самурайский меч (+2 к силе, +1 ловкости, -10% к зарплате сотрудников).\n— ботинки из кожи крокодила (+2 к скорости вывода в офшор).\n— часы Rolex (+10% к харизме, +30% к откатам).\n\nНадо составить стратегию для атаки. Спецназ уже совсем рядом.\n\nШеф увидел вас и встаёт в защитную стойку. Он готов ударить вас, если вы атакуете.\n\nКем он себя возомнил? Самураем?</Text>
+			<Untriggers>Укусил</Untriggers>
+			<Modifications>
+				<RandomBit/>
+			</Modifications>
+			<Options>
+				<Option Goto="51" Text="Атаковать в прыжке"/>
+				<Option Goto="55" Text="Толкнуть на шефа стол"/>
+				<Option Goto="32" Text="Сделать обманное движение"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="30">
+			<Text>Ваше сознание затуманивает голод.\n\nИз этого тумана перед вами внезапно возникают двери туалета.\n\nКуда пойти?</Text>
+			<Untriggers>Укусил</Untriggers>
+			<Modifications>
+				<RandomBit/>
+			</Modifications>
+			<Options>
+				<Option Goto="2" Text="Мужской"/>
+				<Option Goto="35" Text="Женский"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="31">
+			<Texts>
+				<Text Availability="Укусил">Попался!\n\nТеперь в армии зомби будет свой мажор...</Text>
+				<Text Availability="!Укусил">Какая незадача! Вы промазали, а шеф отрубил вам ноги.\n\nТеперь он бежит навстречу спецназу, который уже появился в здании.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="18" Availability="Укусил">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="18" Availability="!Укусил"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="32">
+			<Texts>
+				<Text Availability="Умный">Умный зомби — живой зомби.\n\nОбманное движение сбило вашему противнику прицел.</Text>
+				<Text Availability="!Умный">Такому мёртвому тупице как вы, трудно обмануть опытного топ-менеджера.\n\nНедаром он родственник самого мэра!</Text>
+			</Texts>
+			<Options>
+				<Option Goto="9" Availability="!Укусил, !Умный"/>
+				<Option Goto="58" Availability="Умный"/>
+				<Option Goto="58" Availability="Укусил, !Умный"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="33">
+			<Text>Вскоре в глазах у вас окончательно помутилось и лёгкое недомогание переросло в смертельный случай на работе.\n\nВы умерли.</Text>
+			<Options>
+				<Option Goto="24"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="34">
+			<Text>Голод сводит вас с ума.\n\nТрудно сосредоточиться.\n\nВы выбегаете в коридор и перед вами три закрытые двери.\n\nКакие хитрые людишки и какие хлипкие двери!\n\nКакую дверь ломать?</Text>
+			<Untriggers>Укусил</Untriggers>
+			<Modifications>
+				<RandomBit/>
+			</Modifications>
+			<Options>
+				<Option Goto="16" Text="Бухгалтерия"/>
+				<Option Goto="5" Text="Отдел кадров"/>
+				<Option Goto="11" Text="Кладовка"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="35">
+			<Texts>
+				<Text Availability="!Укусил">Тут пусто.\n\nНадо бежать дальше.</Text>
+				<Text Availability="Укусил">Одна из кабинок закрыта.\n\nТам явно кто-то есть.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="40" Availability="!Укусил"/>
+				<Option Goto="56" Text="Подойти к кабинке" Availability="Укусил">
+					<RandomActionAndResponse/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="36">
+			<Text>Теперь перед вами целая толпа, стоящая рядом с кофейным автоматом.\n\nОни глазеют в огромное окно во всю стену и не замечают ничего вокруг.\n\nСлишком много людей. Это может быть опасно для, пока, одинокого зомби.\n\nОбойти их нельзя — они заняли весь проход. Что делать?</Text>
+			<Untriggers>Укусил</Untriggers>
+			<Options>
+				<Option Goto="10" Text="Атаковать с разбега"/>
+				<Option Goto="28" Text="Испугать">
+					<RandomBit/>
+				</Option>
+				<Option Goto="14" Text="Подкрасться">
+					<RandomBit/>
+				</Option>
+				<Option Goto="20" Text="Просто напасть">
+					<RandomBit/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="37">
+			<Texts>
+				<Text Availability="Быстрый">Вы ловко уклоняетесь от попыток дяди Кости достать вас электрошокером.</Text>
+				<Text Availability="!Быстрый">Дядя Костя ловит вас и бьёт электрошокером.\n\nДурацкая идея с его стороны.\n\nНа вас это не оказывает никакого эффекта, а вот вы успешно кусаете дядю Костю.\n\nЕсть новый зомби!</Text>
+			</Texts>
+			<Options>
+				<Option Goto="34" Availability="Быстрый"/>
+				<Option Goto="34" Availability="!Быстрый">
+					<Bitten Value="1"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="38">
+			<Text>И что теперь делать?</Text>
+			<Modifications>
+				<CleanResponse/>
+				<RandomResponse/>
+			</Modifications>
+			<Options>
+				<Option Goto="47" Text="Постучать в дверь головой" Availability="1действие|2действие|3действие"/>
+				<Option Goto="47" Text="Порычать" Availability="2действие|3действие|4действие"/>
+				<Option Goto="47" Text="Поскрестись в дверь" Availability="3действие|4действие|5действие"/>
+				<Option Goto="47" Text="Попытаться заглянуть сверху" Availability="4действие|5действие|6действие"/>
+				<Option Goto="47" Text="Попытаться заглянуть снизу" Availability="5действие|6действие|7действие"/>
+				<Option Goto="47" Text="Грызть ручку" Availability="6действие|7действие|8действие"/>
+				<Option Goto="47" Text="Скулить" Availability="7действие|8действие|9действие"/>
+				<Option Goto="47" Text="Царапать дверь" Availability="8действие|9действие|10действие"/>
+				<Option Goto="47" Text="Рыгать и реветь" Availability="9действие|10действие|1действие"/>
+				<Option Goto="47" Text="Ждать у двери молча" Availability="10действие|1действие|2действие"/>
+				<Option Goto="52" Text="Проломить дверь" Availability="ЦИКЛ > 4"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="39">
+			<Texts>
+				<Text>В открытом офисном пространстве вы видите менеджера Андрея.\n\nОн помешан на фильмах о зомби и ждал этого момента всю жизнь.\n\nАндрей машет обломком швабры и кричит: "Бейте им в голову!"</Text>
+				<Text Availability="Уборщица">Даже будучи мёртвой, уборщица Джамиля возмущена безответственным обращением с её рабочим инвентарём! Это была ваша любимая швабра!</Text>
+				<Text>Что делать с этим психом? Он может быть опасен.</Text>
+			</Texts>
+			<Untriggers>Укусил</Untriggers>
+			<Options>
+				<Option Goto="7" Text="Обойти сзади"/>
+				<Option Goto="12" Text="Напасть в лоб"/>
+				<Option Goto="23" Text="Притвориться человеком"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="40">
+			<Texts>
+				<Text>Перед вами два электрика.\n\nДядя Паша и Витёк.\n\nЭто очень опасные противники, ведь это они лезут туда, где есть табличка "Не влезай — убьёт!".\n\nВы — сейчас такая ходячая надпись, а бравые электрики не собираются бежать.\n\nУ них есть отвёртки, лестница и шуруповёрт.\n\nЧто делать?</Text>
+				<Text Availability="Водитель">Когда вы были водителем, вы часто выпивали с этими двумя, поэтому знаете их слабые места. У Паши часто подкашиваются ноги, а у Витька плохая координация.</Text>
+			</Texts>
+			<Untriggers>Укусил</Untriggers>
+			<Options>
+				<Option Goto="45" Text="Швырнуть в них стул"/>
+				<Option Goto="45" Text="Толкнуть с разбега"/>
+				<Option Goto="45" Text="Ходить вокруг, стараясь оцарапать"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="41">
+			<Texts>
+				<Text Availability="!Быстрый">Такому медлительному мертвяку, как вы, бойкую толстуху не догнать.</Text>
+				<Text Availability="Быстрый, Укусил">Есть первый укус и новый боец в армии зомби!\n\nБольше эта толстуха не будет воровать вашу еду из холодильника.\n\nПусть сама теперь побегает за своей едой.</Text>
+				<Text Availability="Быстрый, !Укусил">Мало догнать добычу, надо уметь правильно её укусить.\n\nВам стоило получиться этому у акулы или тигра.\n\nГалина Павловна ловко увернулась от ваших зубов.\n\nТеперь их у вас стало меньше и кусать будет сложнее.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="54" Availability="!Быстрый"/>
+				<Option Goto="54" Availability="Быстрый, Укусил">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="54" Availability="Быстрый, !Укусил"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="42">
+			<Texts>
+				<Text Availability="Умный">Удача на стороне мертвецов.\n\nОдин из курильщиков попался в вашу засаду.</Text>
+				<Text Availability="!Умный">Ничего не получается — вас заметили.\n\nОстаётся лишь биться головой о стенку.\n\nТупой зомби! Тупой! Тупой!</Text>
+			</Texts>
+			<Options>
+				<Option Goto="15" Availability="Умный">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="15" Availability="!Умный"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="43">
+			<Texts>
+				<Text>Теперь перед вами курилка.\n\nЭто закрытый пластиковый куб, забитый под завязку вкусной человечиной.\n\nЕсли прорваться внутрь, то нескольких точно можно будет укусить.</Text>
+				<Text Availability="Водитель">Когда вы были живым водителем, вы очень любили это место.\n\nСейчас оно для вас похоже на столовую. Её вы тоже любили.</Text>
+				<Text Availability="Уборщица">Когда вы были живой уборщицей, вы ненавидели это место.\n\nТут всегда было много работы.\n\nНадо бы и сейчас прибраться!</Text>
+			</Texts>
+			<Untriggers>Укусил</Untriggers>
+			<Options>
+				<Option Goto="21" Text="Открыть дверь"/>
+				<Option Goto="44" Text="Проломить дверь с разбегу">
+					<RandomBit/>
+				</Option>
+				<Option Goto="42" Text="Ждать в засаде"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="44">
+			<Texts>
+				<Text Availability="Дизайнер">Фу, какое неэстетичное занятие! Вы же дизайнер, хоть и бывший!</Text>
+				<Text Availability="Укусил">Зомби — сила!\n\nЧеловек, укус, могила!\n\nЕсть ещё два новых бойца в армии мертвецов.\n\nОстальные, к сожалению, из-за вашей неловкости, убежали.</Text>
+				<Text Availability="!Укусил">Сколько бы вы не бились о пластиковую панель — ничего не получилось.\n\nНадо бежать дальше, ведь скоро приедет спецназ и вам нужна целая армия, чтобы справиться с ними.</Text>
+			</Texts>
+			<Untriggers>Укусил</Untriggers>
+			<Options>
+				<Option Goto="15" Availability="Укусил">
+					<Bitten Value="2"/>
+				</Option>
+				<Option Goto="15" Availability="!Укусил"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="45">
+			<Text>Витёк временно вышел из строя.\n\nНадо скорее прикончить второго.\n\nКак это сделать?\n\nПротивник схватил лестницу как копьё и тычет ею в вас.</Text>
+			<Options>
+				<Option Goto="49" Text="Свалить на землю"/>
+				<Option Goto="49" Text="Стремительный укус"/>
+				<Option Goto="49" Text="Сломать шею"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="46">
+			<Texts>
+				<Text Availability="!Мимо">Попался!\n\nТеперь у вас будет новый друг.\n\nПоговорить с ним по душам, конечно нельзя, но трапезу разделить — вполне!</Text>
+				<Text Availability="Мимо">Неудача!\n\nВы промазали, а злобный электрик лупит вас молотком.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="29" Availability="!Мимо">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="9" Availability="Мимо"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="47">
+			<Texts>
+				<Text Availability="1ответ">Раздаётся голос: "Одну минуту!"</Text>
+				<Text Availability="2ответ">За дверью шуршание туалетной бумаги.</Text>
+				<Text Availability="3ответ">За дверью спускают воду.</Text>
+				<Text Availability="4ответ">Раздаётся голос: "Сейчас выйду!"</Text>
+				<Text Availability="5ответ">За дверью утробные звуки.</Text>
+				<Text Availability="6ответ">Мёртвая тишина.</Text>
+				<Text Availability="7ответ">За дверью кряхтение и стон.</Text>
+				<Text Availability="8ответ">За дверью капает вода... Или не вода? Вы слишком тупы, чтобы догадаться.</Text>
+				<Text Availability="9ответ">За дверью кто-то напевает.</Text>
+				<Text Availability="10ответ">За дверью кто-то громко пускает газы.</Text>
+			</Texts>
+			<Modifications>
+				<CleanAction/>
+				<RandomAction/>
+			</Modifications>
+			<Options>
+				<Option Goto="38">
+					<Cycle Value="1"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="48">
+			<Texts>
+				<Text Availability="Умный">Верный ход для умного зомби.</Text>
+				<Text>Да, пока армия мертвецов мала, надо искать лёгкие цели.\n\nСергей стреляет вам вслед.\n\nДве-три пули в спине — это для зомби как иглоукалывание.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="43"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="49">
+			<Text>Снова успех!\n\nВитёк очухался и схватился за молоток.\n\nКакой крутой электрик!\n\nНо и зомби никогда не отступают!\n\nПобеда или смерть...\n\nТочнее, смерть уже есть — осталась победа.</Text>
+			<Modifications>
+				<Bitten Value="1"/>
+				<RandomMiss/>
+			</Modifications>
+			<Options>
+				<Option Goto="46" Text="Прыгнуть"/>
+				<Option Goto="46" Text="Бежать"/>
+				<Option Goto="46" Text="Толкнуть"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="50">
+			<Texts>
+				<Text Availability="Умный, Укусил">Попался!\n\nДядя Костя неосторожно подошёл слишком близко.\n\nТеперь он тоже зомби!</Text>
+				<Text Availability="!Умный">Вы слишком тупы для такого хитрого трюка.\n\nК счастью, охранник тоже не из умников.\n\nОн пытается атаковать вас электрошокером.\n\nГлупый ход.\n\nЭто стоило ему жизни.\n\nТеперь он тоже зомби!</Text>
+				<Text Availability="Умный, !Укусил">Охранник попался на эту уловку, но, к сожалению, смог увернуться от вашей атаки.\n\nТеперь он убегает.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="34" Availability="Умный, Укусил">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="34" Availability="Умный, !Укусил"/>
+				<Option Goto="34" Availability="!Умный">
+					<Bitten Value="1"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="51">
+			<Texts>
+				<Text Availability="Быстрый">Вы очень быстрый зомби.\n\nШеф машет мечом, но смог отрубить вам лишь левую руку.\n\nНу и ладно. Она вам лишь мешала.\n\nТеперь вы стали легче, а значит — ещё быстрее.</Text>
+				<Text Availability="!Быстрый">Медленному зомби тяжело угнаться за жертвой.\n\nПока вы лезете через стол, босс несколько раз бьёт вас мечом.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="9" Availability="Укусил, !Быстрый"/>
+				<Option Goto="58" Availability="Быстрый"/>
+				<Option Goto="58" Availability="!Укусил, !Быстрый"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="52">
+			<Text>Попался, поганец!\n\nНадо было сразу дверь ломать.\n\nТеперь ещё одним зомби больше.\n\nБежим дальше.</Text>
+			<Modifications>
+				<Bitten Value="1"/>
+			</Modifications>
+			<Untriggers>Укусил</Untriggers>
+			<Options>
+				<Option Goto="40"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="53">
+			<Texts>
+				<Text Availability="Укусил">Вам удалось откусить сочный кусок от дяди Кости.\n\nТеперь он с вами заодно.\n\nЧерез пару минут он тоже побежит по коридору в поисках пищи.</Text>
+				<Text Availability="!Укусил">Удивительно, но дядя Костя успешно отбился от нападения.\n\nХорошо, что у вас уже ничего не болит после яростных ударов его дубинки.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="34" Availability="Укусил">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="34" Availability="!Укусил"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="54">
+			<Texts>
+				<Text>Вы бежите по коридору, стукаясь о стенки и утробно урча.\n\nВпереди маячит отставной прапорщик — охранник дядя Костя.\n\nУ него есть дубинка, электрошокер и фуражка.\n\nЧто будете делать?</Text>
+				<Text Availability="Уборщица">У вас есть влажные салфетки и стеклоочиститель.\n\nНо вы зомби и не можете сообразить, как их использовать.</Text>
+				<Text Availability="Водитель">У вас есть ключи от машины.\n\nНо вы зомби и не можете сообразить, как их использовать.</Text>
+				<Text Availability="Дизайнер">У вас есть перо от графического планшета.\n\nНо вы зомби и не можете сообразить, как его использовать.</Text>
+			</Texts>
+			<Untriggers>Укусил</Untriggers>
+			<Options>
+				<Option Goto="4" Text="Кусать! Кусать! Кусать!">
+					<RandomBit/>
+				</Option>
+				<Option Goto="37" Text="Бежать мимо"/>
+				<Option Goto="50" Text="Притвориться мёртвым"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="55">
+			<Texts>
+				<Text Availability="Сильный">Тяжёлый стол для такого сильного зомби, как вы, не помеха.\n\nШеф, придавленный мебелью, машет свои мечом наугад.</Text>
+				<Text Availability="!Сильный">Какой тяжёлый стол!\n\nВам удалось лишь слегка его погрызть и обслюнявить.\n\nВаш босс, удачно прикрываясь мебелью, рубит вас как палкой крапиву.</Text>
+			</Texts>
+			<Options>
+				<Option Goto="9" Availability="Укусил, !Сильный"/>
+				<Option Goto="58" Availability="Сильный">
+					<Bitten Value="1"/>
+				</Option>
+				<Option Goto="58" Availability="!Укусил, !Сильный"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="56">
+			<Text>Что делать дальше?</Text>
+			<Options>
+				<Option Goto="47" Text="Постучать в дверь головой" Availability="1действие"/>
+				<Option Goto="47" Text="Порычать" Availability="2действие"/>
+				<Option Goto="47" Text="Поскрестись в дверь" Availability="3действие"/>
+				<Option Goto="47" Text="Попытаться заглянуть сверху" Availability="4действие"/>
+				<Option Goto="47" Text="Попытаться заглянуть снизу" Availability="5действие"/>
+				<Option Goto="47" Text="Грызть ручку" Availability="6действие"/>
+				<Option Goto="47" Text="Скулить" Availability="7действие"/>
+				<Option Goto="47" Text="Царапать дверь" Availability="8действие"/>
+				<Option Goto="47" Text="Рыгать и реветь" Availability="9действие"/>
+				<Option Goto="47" Text="Ждать у двери молча" Availability="10действие"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="57">
+			<Texts>
+				<Text Availability="УКУШЕННЫЕ >= 10">К этому времени ваши соратники уже покусали столько людей, что спецназ не может убить всех.\n\nТолпа живых мертвецов выбегает на улицу и начинает свой победный геноцид.\n\nЗомби-апокалипсис, который все так долго ждали, начался!</Text>
+				<Text Availability="УКУШЕННЫЕ &lt; 10">Слишком мало мертвецов.\n\nСпецназ перебил всех, включая вас.\n\nЗомби-апокалипсис не случился.</Text>
+			</Texts>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="58">
+			<Text>Вы потеряли ухо, половину левой руки и четыре зуба.\n\nДля зомби это пустяки!\n\nВремя нанести ответный удар!</Text>
+			<Untriggers>Укусил</Untriggers>
+			<Modifications>
+				<RandomBit/>
+			</Modifications>
+			<Options>
+				<Option Goto="31" Text="Укусить в ногу"/>
+				<Option Goto="31" Text="Сделать подсечку"/>
+				<Option Goto="31" Text="Ударить рукой в глаза"/>
+				<Option Goto="31" Text="Обойти сбоку"/>
+				<Option Goto="31" Text="Схватиться за меч"/>
+			</Options>
+		</Paragraph>
+	</Paragraphs>
+</Gamebook>
