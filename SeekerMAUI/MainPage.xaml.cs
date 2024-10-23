@@ -616,7 +616,7 @@ namespace SeekerMAUI
                 List<Output.VerticalText> statusesInBar = Output.StatusBar.Additional(addStatuses);
 
                 foreach (Output.VerticalText status in statusesInBar)
-                    AdditionalStatus.Children.Add(status);
+                    AdditionalStatus.Add(status);
             }
         }
 
