@@ -21,13 +21,13 @@ namespace SeekerMAUI.Output
 
         public static Image GamebookImage(Description gamebookDescr) => new Image
         {
-            Source = gamebookDescr.Illustration,
+            Source = "Cover/" + gamebookDescr.Illustration,
             Aspect = Aspect.AspectFill,
         };
 
         public static Image IllustrationImage(string image) => new Image
         {
-            Source = image,
+            Source = "Images/" + image,
             Aspect = Aspect.AspectFit,
         };
 
