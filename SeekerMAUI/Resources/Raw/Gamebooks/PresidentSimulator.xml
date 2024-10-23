@@ -1,0 +1,980 @@
+<Gamebook>
+	<Introduction>
+		<Copyright>
+			<Title>Симулятор Президента (демократии Южной Америки)</Title>
+			<Author>Степан Оншин, 2023</Author>
+		</Copyright>
+		<Styles>
+			<Main Value="d89757"/>
+			<StatusBar Value="cc5200"/>
+			<Background Value="faddcb"/>
+			<AdditionalStatus Value="db8314"/>
+			<System Value="8c463e"/>
+			<Color Name="Option, Continue" Value="a56245"/>
+			<Color Name="SystemFont, AdditionalFont" Value="ffffff"/>
+		</Styles>
+		<Dictionaries>
+			<TextByYears>
+				<Item Name="1979-1" Value="Вопрос об убыточной речной электростанции"/>
+				<Item Name="1979-2" Value="За кого выдать дочь?"/>
+				<Item Name="1980-1" Value="В горных поселках департамента Кабраль прошли волнения шахтеров. Они требуют повышения зарплат и улучшения условий труда"/>
+				<Item Name="1980-2" Value="Ваша жена прознала об измене"/>
+				<Item Name="1980-3" Value="Ультраправые боевики убили главу церкви — епископа Оскарио|Они обвиняли его в молитвах за мир, а не за победу правительства|А также поддержке профсоюзов, аграрной реформы и демократических выборов"/>
+				<Item Name="1981-1" Value="Новоизбранный парламент обеспокоился амнистией за мелкие кражи"/>
+				<Item Name="1981-2" Value="На фоне массовых протестов рабочих и студентов коммунистический режим Польши объявил военное положение"/>
+				<Item Name="1982-1" Value="Аргентина вторглась на Мальвинские острова оккупированные Великобританией. Народ и армия симпатизируют Аргентине, бизнес надеется на сохранение хороших отношений с Западной Европой. Штаты в стороне"/>
+				<Item Name="1982-2" Value="Губернатор от вашей партии решил выдвинуть свою кандидатуру на праймериз"/>
+				<Item Name="1983-1" Value="Террористы-коммунисты похитили вашего сына, который жил и заканчивал магистратуру в США"/>
+				<Item Name="1983-2" Value="США вторглись и оккупировали маленькую Гренаду в Карибском море"/>
+				<Item Name="1983-3" Value="Ничего не случилось"/>
+				<Item Name="1984-1" Value="1984 год)) вы перечитали книгу"/>
+				<Item Name="1984-2" Value="В семейной жизни важное событие"/>
+				<Item Name="1985-1" Value="Новоизбранный парламент обеспокоился амнистией за мелкие кражи"/>
+				<Item Name="1985-2" Value="У вас диагностировали рак"/>
+				<Item Name="1986-1" Value="Вы на месяц пропали в санатории, это стало темой анекдотов"/>
+				<Item Name="1986-2" Value="Пора думать о преемнике"/>
+			</TextByYears>
+		</Dictionaries>
+		<Default>
+			<HideDisabledOption/>
+			<FontSize Value="Big"/>
+		</Default>
+	</Introduction>
+	<Paragraphs>
+		<Paragraph No="0">
+			<Text>Республика Сан-Стефано — маленькое государство на побережье Карибского моря. Джунгли, горы, речные долины и кровавая история.\n\nВам предстоит возглавить это государство и решать многие проблемы. Будь то крестьяне, восставшие из-за малоземелья, или наркобароны...</Text>
+			<Options>
+				<Start Goto="1"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="1">
+			<Text>Генерал РайОн, правящий в течение 10 лет, пал. На честных выборах народ избрал вас. В Сан-Стефано действует 2 партии. Более правые "Консерваторы" и более левые "Либералы", от какой вы бы хотели баллотироваться?</Text>
+			<Options>
+				<Option Goto="24" Text="Я член консервативной партии">
+					<Trigger Value="Вы из консервативной партии"/>
+					<Trigger Value="Правый провластный парламент"/>
+				</Option>
+				<Option Goto="24" Text="Я член либеральной партии">
+					<Trigger Value="Вы из либеральной партии"/>
+					<Trigger Value="Левый провластный парламент"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="2">
+			<Text>Настало время принимать решения:</Text>
+			<Options>
+				<Option Goto="11" Text="Бомбить города занятые повстанцами" Availability="СИЛА ПОВСТАНЦЕВ > 0">
+					<Rebels Value="-2"/>
+					<Rating Value="-20"/>
+				</Option>
+				<Option Goto="11" Text="Провести волну мобилизации">
+					<Army Value="1"/>
+					<Rating Value="-10"/>
+				</Option>
+				<Option Goto="11" Text="Разрешить применение напалма" Availability="!Огнеметы">
+					<Trigger Value="Огнеметы"/>
+					<Rebels Value="-1"/>
+					<Rating Value="-7"/>
+					<ArmyLoyalty Value="10"/>
+				</Option>
+				<Option Goto="11" Text="Запретить жечь села напалмом" Availability="Огнеметы">
+					<Untrigger Value="Огнеметы"/>
+					<Rebels Value="1"/>
+					<Rating Value="7"/>
+					<ArmyLoyalty Value="-10"/>
+				</Option>
+				<Option Goto="11" Text="Обмен пленными" Availability="СИЛА ВОЙСК > 7">
+					<Rebels Value="1"/>
+					<Army Value="1"/>
+				</Option>
+				<Option Goto="11" Text="Перекупить одного из лидеров боевиков" Availability="МОНЕТКИ > 0">
+					<Rebels Value="-1"/>
+					<Money Value="-1"/>
+				</Option>
+				<Option Goto="11" Text="Сократить военные расходы">
+					<ArmyLoyalty Value="-30"/>
+					<Army Value="-1"/>
+					<Money Value="1"/>
+				</Option>
+				<Option Goto="11" Text="Улучшить снабжение войск" Availability="МОНЕТКИ > 0">
+					<ArmyLoyalty Value="10"/>
+					<Army Value="2"/>
+					<Money Value="-1"/>
+				</Option>
+				<Option Goto="11" Text="Снабдить армию запрашиваемым числом боеприпасов" Availability="МОНЕТКИ > 1">
+					<ArmyLoyalty Value="20"/>
+					<Army Value="3"/>
+					<Rebels Value="-1"/>
+					<Money Value="-2"/>
+				</Option>
+				<Option Goto="11" Text="Союз с правыми боевиками" Availability="Ультраправые террористы, !Союз с правыми">
+					<Trigger Value="Союз с правыми"/>
+					<Rebels Value="-1"/>
+					<Army Value="1"/>
+					<Rating Value="-7"/>
+					<Money Value="1"/>
+				</Option>
+				<Option Goto="11" Text="Расторгнуть союз с правыми боевиками" Availability="Союз с правыми">
+					<Untrigger Value="Союз с правыми"/>
+					<Untrigger Value="Ультраправые террористы"/>
+					<ArmyLoyalty Value="-10"/>
+					<Army Value="-1"/>
+					<Rating Value="10"/>
+				</Option>
+				<Option Goto="19" Text="Бороться с правыми террористами" Availability="Ультраправые террористы, !Союз с правыми">
+					<Untrigger Value="Ультраправые террористы"/>
+				</Option>
+				<Option Goto="11" Text="Наступление в джунгли" Availability="СИЛА ВОЙСК > 6, СИЛА ВОЙСК != 8, СИЛА ПОВСТАНЦЕВ != 6, СИЛА ПОВСТАНЦЕВ != 8">
+					<Rebels Value="-1"/>
+				</Option>
+				<Option Goto="11" Text="Наступление в джунгли" Availability="СИЛА ВОЙСК = 6, СИЛА ПОВСТАНЦЕВ != 6">
+					<Rebels Value="-2"/>
+					<Army Value="-1"/>
+				</Option>
+				<Option Goto="11" Text="Наступление в джунгли" Availability="СИЛА ПОВСТАНЦЕВ = 6">
+					<ArmyLoyalty Value="-20"/>
+					<Army Value="-2"/>
+				</Option>
+				<Option Goto="11" Text="Спровоцировать атаку" Availability="СИЛЫ ВОЙСК И ПОВСТАНЦЕВ РАВНЫ">
+					<Rebels Value="-1"/>
+				</Option>
+				<Option Goto="19" Text="Спровоцировать выступление нелояльных элементов"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="3">
+			<Text>Комиссия по земельной реформе разработала несколько вариантов решения аграрного вопроса. Вариант коммунистов "отнять землю у богатых и раздать крестьянам в личную собственность" не рассматривался, так как сломает всю продуктивность сельского-хозяйства.\n\n1. Профессор Сандатер — работал в правительствах Фрея и Альенде в Чили, он хочет принести на Родину вариант, с экспроприацией наименее продуктивно используемых помещичьих хозяйств и передачу их в временное пользование кредитуемого гос-вом крестьянского кооператива. По истечению времени крестьяне смогут выйти из него, если захотят.\n\n2. Епископ Оскарио — критикует данное решение. Для профилактики коммунизма малоземельным крестьянам нужна частная собственность, пускай экономически по-первой это может оказаться не так продуктивно — "каждому фермеру трактор не дашь", но в перспективе лучше. Необходимо обратиться к варианту реформ Ладежинского. Принудительный выкуп, нормированное распределение за плату.\n\n3. Плантатор Хуан Де-Игнасио — умоляет не делать реформ, бизнес готов улучшить условия труда крестьян.</Text>
+			<Options>
+				<Option Goto="12" Text="Давайте договоримся с бизнесом">
+					<Rating Value="-7"/>
+				</Option>
+				<Option Goto="12" Text="Вариант «как у Ладежинского»">
+					<Trigger Value="РеформаУМ"/>
+				</Option>
+				<Option Goto="12" Text="Сандатер станет министром">
+					<Trigger Value="РеформаРад"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="4">
+			<Text>Министр иностранных дел интересуется с кем провести переговоры?</Text>
+			<Options>
+				<Option Goto="23" Text="Посольство США"/>
+				<Option Goto="6" Text="Восстановить дип.отношения с СССР" Availability="!ПосолСССР">
+					<RelationWithUSSR Value="1"/>
+					<RelationWithUSA Value="-1"/>
+					<Trigger Value="ПосолСССР"/>
+				</Option>
+				<Option Goto="13" Text="Посольство СССР" Availability="ПосолСССР"/>
+				<Option Goto="31" Text="Мирные переговоры с повстанцами" Availability="Повстанцы-коммунисты, !Ультраправые террористы"/>
+				<Option Goto="10" Text="Ужин с директором AmericanOil"/>
+				<Option Goto="34" Text="Переговоры с МВФ об реструктуризации долга"/>
+				<Option Goto="6" Text="Пропустить ход"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="5">
+			<Text>В парламенте идут дебаты по реформе Сандатера. Министр настаивает на номинальной компенсации т.к. помещики занижали цену земли для ухода от налогов, он хочет сохранить деньги для снабжение кооперативов техникой. Многие депутаты и есть помещики, и хотят большую компенсацию или отмены реформы.</Text>
+			<Options>
+				<Option Goto="18" Text="Мы снабдим крестьян техникой, а не помещиков средствами" Availability="!Правый оппозиционный парламент">
+					<AgrarianReform Value="3"/>
+					<Money Value="-1"/>
+					<BusinessLoyalty Value="-30"/>
+					<Untrigger Value="РеформаРад"/>
+				</Option>
+				<Option Goto="18" Text="У Сан-Стефано есть деньги на обе инициативы" Availability="МОНЕТКИ > 1">
+					<AgrarianReform Value="3"/>
+					<Money Value="-2"/>
+					<Untrigger Value="РеформаРад"/>
+				</Option>
+				<Option Goto="18" Text="Важно выплатить компенсацию" Availability="Левый оппозиционный парламент">
+					<AgrarianReform Value="2"/>
+					<Money Value="-1"/>
+					<BusinessLoyalty Value="-10"/>
+					<Untrigger Value="РеформаРад"/>
+				</Option>
+				<Option Goto="18" Text="А можно вообще не тратить денег?" Availability="Расстрелянный парламент">
+					<AgrarianReform Value="2"/>
+					<BusinessLoyalty Value="-30"/>
+					<Untrigger Value="РеформаРад"/>
+				</Option>
+				<Option Goto="18" Text="А можно вообще не тратить денег?" Availability="Левый провластный парламент">
+					<AgrarianReform Value="1"/>
+					<Untrigger Value="РеформаРад"/>
+				</Option>
+				<Option Goto="18" Text="Давайте отложим принятие закона из-за сопротивления парламента">
+					<Untrigger Value="РеформаРад"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="6">
+			<Text>Сначала стоит брать красное, потом синие, затем оранжевое и белое.</Text>
+			<Options>
+				<Option Goto="17" Text="Американское вторжение" Availability="ОТНОШЕНИЯ С США &lt; 1"/>
+				<Option Goto="17" Text="Американское вторжение с базы" Availability="ВоеннаяБаза, ОТНОШЕНИЯ С США &lt; 4"/>
+				<Option Goto="19" Text="Путч" Availability="ЛОЯЛЬНОСТЬ АРМИИ &lt; 50"/>
+				<Option Goto="17" Text="Военный переворот" Availability="ЛОЯЛЬНОСТЬ АРМИИ &lt; 1"/>
+				<Option Goto="15" Text="Массовые протесты" Availability="РЕЙТИНГ &lt; 25"/>
+				<Option Goto="7" Text="Бизнес недоволен" Availability="!БегствоКапиталов, ЛОЯЛЬНОСТЬ БИЗНЕСА &lt; 50">
+					<Rating Value="-15"/>
+					<Money Value="-1"/>
+					<Trigger Value="БегствоКапиталов"/>
+				</Option>
+				<Option Goto="7" Text="Олигархи готовят переворот" Availability="БегствоКапиталов, ЛОЯЛЬНОСТЬ БИЗНЕСА &lt; 31">
+					<Rating Value="-15"/>
+					<Money Value="-1"/>
+					<ArmyLoyalty Value="-15"/>
+				</Option>
+				<Option Goto="7" Text="Коррупционный скандал" Availability="ОТНОШЕНИЯ С США > 4, ЛОЯЛЬНОСТЬ БИЗНЕСА > 49, ЛОЯЛЬНОСТЬ АРМИИ > 29, РЕЙТИНГ > 24, ОТНОШЕНИЯ С СССР > 1, МОНЕТКИ > 0, !Цензура, !БегствоКапиталов, РЕЙТИНГ &lt; 70">
+					<Rating Value="-5"/>
+				</Option>
+				<Option Goto="7" Text="Спокойно продолжить дальше" Availability="ОТНОШЕНИЯ С США > 4, ЛОЯЛЬНОСТЬ БИЗНЕСА > 49, ЛОЯЛЬНОСТЬ АРМИИ > 29, РЕЙТИНГ > 24, ОТНОШЕНИЯ С СССР > 1, МОНЕТКИ > 0, Цензура, !БегствоКапиталов, РЕЙТИНГ &lt; 70"/>
+				<Option Goto="7" Text="СССР снабжает повстанцев" Availability="Повстанцы-коммунисты, ОТНОШЕНИЯ С СССР &lt; 2">
+					<Rebels Value="3"/>
+					<RelationWithUSSR Value="1"/>
+				</Option>
+				<Option Goto="17" Text="Дефолт" Availability="МОНЕТКИ &lt; 1"/>
+				<Option Goto="7" Text="Безработица и инфляция беспокоят населения больше" Availability="БегствоКапиталов, ОТНОШЕНИЯ С США > 4, ОТНОШЕНИЯ С СССР > 1, РЕЙТИНГ > 24, ЛОЯЛЬНОСТЬ БИЗНЕСА > 49, ЛОЯЛЬНОСТЬ АРМИИ > 29, МОНЕТКИ > 0">
+					<Rating Value="-3"/>
+				</Option>
+				<Option Goto="7" Text="Посетить ассоциацию бизнесменов" Availability="БегствоКапиталов, ЛОЯЛЬНОСТЬ БИЗНЕСА > 49, ОТНОШЕНИЯ С США > 4, ОТНОШЕНИЯ С СССР > 1, РЕЙТИНГ > 24, ЛОЯЛЬНОСТЬ АРМИИ > 29, МОНЕТКИ > 0">
+					<Rating Value="10"/>
+					<BusinessLoyalty Value="10"/>
+					<Untrigger Value="БегствоКапиталов"/>
+				</Option>
+				<Option Goto="7" Text="Развестись с женой" Availability="РЕЙТИНГ > 69, !Развод">
+					<Rating Value="-20"/>
+					<Trigger Value="Развод"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="7">
+			<Text>Вместе с командой вы напились и отдохнули.</Text>
+			<Options>
+				<Option Goto="9" Text="Прошло полгода, передохнуть и работать" Availability="!полугодие">
+					<Trigger Value="полугодие"/>
+				</Option>
+				<Option Goto="9" Text="Новый год!" Availability="полугодие, ГОД != 1982, ГОД != 1980, ГОД != 1984, ГОД != 1986">
+					<Untrigger Value="полугодие"/>
+					<Year Value="1"/>
+				</Option>
+				<Option Goto="21" Text="Выборы в Ассамблею" Availability="полугодие, ГОД = 1980">
+					<Untrigger Value="полугодие"/>
+					<Year Value="1"/>
+				</Option>
+				<Option Goto="21" Text="Выборы в Ассамблею" Availability="полугодие, ГОД = 1984">
+					<Untrigger Value="полугодие"/>
+					<Year Value="1"/>
+				</Option>
+				<Option Goto="26" Text="Выборы президента" Availability="полугодие, ГОД = 1982">
+					<Untrigger Value="полугодие"/>
+					<Year Value="1"/>
+				</Option>
+				<Option Goto="17" Text="Конец второго срока" Availability="полугодие, ГОД = 1986">
+					<Year Value="1"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="8">
+			<Text>[пустой параграф]</Text>
+		</Paragraph>
+		<Paragraph No="9">
+			<Text>Ваши экономические и социальные министры в сборе. Пора решать судьбы страны.</Text>
+			<Options>
+				<Option Goto="12" Text="Поднять налоги на доходы богатых" Availability="!Правый оппозиционный парламент">
+					<Money Value="1"/>
+					<Rating Value="2"/>
+					<BusinessLoyalty Value="-20"/>
+				</Option>
+				<Option Goto="12" Text="Поднять акциз на алкоголь для бедных" Availability="!Левый оппозиционный парламент">
+					<Money Value="1"/>
+					<Rating Value="-7"/>
+				</Option>
+				<Option Goto="12" Text="Сократить налоги на бизнес" Availability="МОНЕТКИ > 0, !Левый оппозиционный парламент">
+					<Money Value="-1"/>
+					<Rating Value="+2"/>
+					<BusinessLoyalty Value="20"/>
+				</Option>
+				<Option Goto="12" Text="Сократить налоги для бедных" Availability="МОНЕТКИ > 0, !Правый оппозиционный парламент">
+					<Money Value="-1"/>
+					<Rating Value="+5"/>
+				</Option>
+				<Option Goto="12" Text="Взять в долг у бизнеса (но надо вернуть)" Availability="ЛОЯЛЬНОСТЬ БИЗНЕСА > 50, !Кидала, !Вернуть долг бизнесу">
+					<Money Value="1"/>
+					<Trigger Value="Вернуть долг бизнесу"/>
+				</Option>
+				<Option Goto="12" Text="Вернуть долг бизнесу" Availability="Вернуть долг бизнесу">
+					<Money Value="-1"/>
+					<Untrigger Value="Вернуть долг бизнесу"/>
+				</Option>
+				<Option Goto="12" Text="Больше школ, дорог, ОВД и больниц" Availability="МОНЕТКИ > 1">
+					<Money Value="-2"/>
+					<Rating Value="+15"/>
+					<BusinessLoyalty Value="10"/>
+				</Option>
+				<Option Goto="12" Text="Индексировать пенсии" Availability="Индексации">
+					<Money Value="-1"/>
+					<Rating Value="+15"/>
+					<Untrigger Value="Индексации"/>
+				</Option>
+				<Option Goto="12" Text="Построить важный проект: Университет или порт" Availability="МОНЕТКИ > 0">
+					<Money Value="-1"/>
+					<Rating Value="+10"/>
+				</Option>
+				<Option Goto="12" Text="Начать разработку аграрной реформы" Availability="Аграрный вопрос">
+					<Trigger Value="Комиссия по земельной реформе"/>
+					<Untrigger Value="Аграрный вопрос"/>
+				</Option>
+				<Option Goto="3" Text="Утвердить план аграрной реформы" Availability="Комиссия по земельной реформе">
+					<Untrigger Value="Комиссия по земельной реформе"/>
+				</Option>
+				<Option Goto="25" Text="Сопротивление земельной реформе на местах" Availability="АГРАРНАЯ РЕФОРМА > 0, !ЖалЗемлпю">
+					<Trigger Value="ЖалЗемлпю"/>
+				</Option>
+				<Option Goto="12" Text="Успешная аграрная реформа" Availability="АГРАРНАЯ РЕФОРМА > 2, битваЗаземлю, !Решенный аграрный вопрос">
+					<Rating Value="25"/>
+					<Rebels Value="-3"/>
+					<Trigger Value="Решенный аграрный вопрос"/>
+				</Option>
+				<Option Goto="12" Text="'Рационализировать' социальные расходы">
+					<Money Value="2"/>
+					<Rating Value="-20"/>
+				</Option>
+				<Option Goto="12" Text="Согласовать строительство завода" Availability="ЛОЯЛЬНОСТЬ БИЗНЕСА > 80">
+					<Money Value="1"/>
+					<Rating Value="10"/>
+					<BusinessLoyalty Value="-10"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="10">
+			<Text>Вы пошли ужинать с директором AmericanOil по Сан-Стефано. Эта компания контролирует нефтяные скважины страны, платя копейки.</Text>
+			<Options>
+				<Option Goto="6" Text="Новая скважина в джунглях" Availability="!Повстанцы-коммунисты, !Левый оппозиционный парламент">
+					<Money Value="1"/>
+				</Option>
+				<Option Goto="6" Text="Сан-Стефано национализирует скважины за компенсацию" Availability="AmericanOil, !Правый оппозиционный парламент">
+					<Rating Value="10"/>
+					<RelationWithUSA Value="-1"/>
+					<Untrigger Value="AmericanOil"/>
+				</Option>
+				<Option Goto="6" Text="Мы 'временно' берем скважины под контроль правительства" Availability="AmericanOil, !Правый оппозиционный парламент">
+					<Rating Value="10"/>
+					<Money Value="3"/>
+					<RelationWithUSA Value="-3"/>
+					<RelationWithUSSR Value="1"/>
+					<Untrigger Value="AmericanOil"/>
+				</Option>
+				<Option Goto="6" Text="Больше выплат по концессиям под гарантии собственности" Availability="AmericanOil">
+					<Money Value="2"/>
+					<Untrigger Value="AmericanOil"/>
+				</Option>
+				<Option Goto="4" Text="Снять девушек и вернуться в МИД"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="11">
+			<Text>Национальная Ассамблея открыла новую сессию.</Text>
+			<Options>
+				<Option Goto="18" Text="Запретить критику правительства" Availability="Правый провластный парламент, !Цензура">
+					<Trigger Value="Цензура"/>
+					<Rating Value="-15"/>
+				</Option>
+				<Option Goto="18" Text="Запретить критику правительства" Availability="Левый провластный парламент, !Цензура">
+					<Trigger Value="Цензура"/>
+					<Rating Value="-15"/>
+				</Option>
+				<Option Goto="18" Text="Запретить критику правительства" Availability="Расстрелянный парламент, !Цензура, !Правый провластный парламент, !Левый провластный парламент">
+					<Trigger Value="Цензура"/>
+					<Rating Value="-15"/>
+				</Option>
+				<Option Goto="18" Text="Отменить цензуру" Availability="Цензура">
+					<Untrigger Value="Цензура"/>
+					<Rating Value="5"/>
+				</Option>
+				<Option Goto="5" Text="Внести аграрную реформу Сандатера" Availability="РеформаРад">
+					<Untrigger Value="Комиссия по земельной реформе"/>
+				</Option>
+				<Option Goto="22" Text="Внести аграрную реформу Оскарио" Availability="РеформаУМ">
+					<Untrigger Value="Комиссия по земельной реформе"/>
+				</Option>
+				<Option Goto="28" Text="Какой важный закон предлагает консервативная партия?" Availability="!Левый провластный парламент, !Левый оппозиционный парламент"/>
+				<Option Goto="30" Text="Какой важный закон предлагает либеральная партия?" Availability="!Правый оппозиционный парламент, !Правый провластный парламент"/>
+				<Option Goto="18" Text="Распустить парламент" Availability="ЛОЯЛЬНОСТЬ АРМИИ > 79, РЕЙТИНГ > 50, !Расстрелянный парламент">
+					<ArmyLoyalty Value="-10"/>
+					<Rating Value="-10"/>
+					<Trigger Value="Расстрелянный парламент"/>
+					<Untrigger Value="Правый оппозиционный парламент"/>
+					<Untrigger Value="Левый оппозиционный парламент"/>
+					<Untrigger Value="Правый провластный парламент"/>
+					<Untrigger Value="Левый провластный парламент"/>
+					<BusinessLoyalty Value="-10"/>
+				</Option>
+				<Option Goto="18" Text="Мое величество не желает принимать бывших депутатов" Availability="Расстрелянный парламент"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="12">
+			<Text>Теперь у вас совещание с генералами армии, полиции и разведки.</Text>
+			<Options>
+				<Option Goto="11" Text="Никаких значимых угроз, совещание прошло спокойно и скучно" Availability="!Повстанцы-коммунисты"/>
+				<Option Goto="11" Text="Мы решили спровоцировать коммунистов нарушить перемирие и отнять у них оружие" Availability="Ком.партия, !Повстанцы-коммунисты">
+					<RelationWithUSSR Value="-4"/>
+					<RelationWithUSA Value="3"/>
+					<Untrigger Value="Ком.партия"/>
+					<Trigger Value="Повстанцы-коммунисты"/>
+					<Rebels Value="-4"/>
+					<Rating Value="-20"/>
+					<ArmyLoyalty Value="30"/>
+					<Money Value="1"/>
+				</Option>
+				<Option Goto="2" Text="Индивидуальный террор семей офицеров" Availability="Повстанцы-коммунисты, СИЛА ПОВСТАНЦЕВ &lt; 1">
+					<ArmyLoyalty Value="-5"/>
+				</Option>
+				<Option Goto="2" Text="Повстанцы копят силы и не нападают" Availability="СИЛЫ ВОЙСК НЕ МЕНЬШЕ СИЛЫ ПОВСТАНЦЕВ, СИЛА ПОВСТАНЦЕВ &lt; 4, Повстанцы-коммунисты">
+					<Rebels Value="2"/>
+				</Option>
+				<Option Goto="2" Text="Диверсия повстанцев" Availability="СИЛЫ ВОЙСК НЕ МЕНЬШЕ СИЛЫ ПОВСТАНЦЕВ, СИЛА ПОВСТАНЦЕВ > 3, СИЛА ПОВСТАНЦЕВ &lt; 6, Повстанцы-коммунисты">
+					<Army Value="-1"/>
+				</Option>
+				<Option Goto="2" Text="Успешнейшая диверсия повстанцев" Availability="СИЛЫ ВОЙСК НЕ МЕНЬШЕ СИЛЫ ПОВСТАНЦЕВ, СИЛА ПОВСТАНЦЕВ = 6">
+					<Army Value="-1"/>
+					<Rebels Value="1"/>
+				</Option>
+				<Option Goto="32" Text="Захват посольства США" Availability="СИЛЫ ВОЙСК НЕ МЕНЬШЕ СИЛЫ ПОВСТАНЦЕВ, СИЛА ПОВСТАНЦЕВ > 6, !Был штурм посольства, Повстанцы-коммунисты">
+					<Trigger Value="Был штурм посольства"/>
+				</Option>
+				<Option Goto="2" Text="Штурм города мятежниками" Availability="СИЛЫ ВОЙСК НЕ МЕНЬШЕ СИЛЫ ПОВСТАНЦЕВ, СИЛА ПОВСТАНЦЕВ > 6, Повстанцы-коммунисты">
+					<Army Value="-2"/>
+				</Option>
+				<Option Goto="17" Text="Мятежники идут на столицу" Availability="СИЛА ПОВСТАНЦЕВ = 10">
+					<Army Value="-2"/>
+				</Option>
+				<Option Goto="16" Text="Разведка обнаружила базу повстанцев в Речной Долине. Ее стоит немедленно атаковать" Availability="СИЛА ПОВСТАНЦЕВ = 3, Повстанцы-коммунисты, !Река"/>
+				<Option Goto="16" Text="Разведка обнаружила базу повстанцев в Речной Долине. Ее стоит немедленно атаковать" Availability="СИЛА ПОВСТАНЦЕВ = 4, Повстанцы-коммунисты, !Река"/>
+				<Option Goto="17" Text="Коммунисты идут на столицу!!!" Availability="СИЛЫ ВОЙСК МЕНЬШЕ СИЛЫ ПОВСТАНЦЕВ"/>
+				<Option Goto="11" Text="Покупать лояльность армии" Availability="МОНЕТКИ > 0, !Повстанцы-коммунисты">
+					<ArmyLoyalty Value="20"/>
+					<Money Value="-1"/>
+				</Option>
+				<Option Goto="11" Text="Провести чистки генералов" Availability="!Повстанцы-коммунисты">
+					<Army Value="-1"/>
+					<ArmyLoyalty Value="10"/>
+				</Option>
+				<Option Goto="11" Text="Сократить финансирование войск" Availability="!Повстанцы-коммунисты">
+					<Money Value="1"/>
+					<ArmyLoyalty Value="-10"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="13">
+			<Text>Статный советский посол ИВАН Горумалко вошел во дворец.</Text>
+			<Options>
+				<Option Goto="6" Text="Закупить калашей" Availability="ОТНОШЕНИЯ С СССР > 7">
+					<Money Value="-1"/>
+					<Army Value="2"/>
+				</Option>
+				<Option Goto="4" Text="Что думаете о нашей водке?"/>
+				<Option Goto="6" Text="Начать торговлю медью" Availability="ОТНОШЕНИЯ С СССР > 5, !ТорговляМедью">
+					<Rating Value="10"/>
+					<Money Value="1"/>
+					<BusinessLoyalty Value="10"/>
+					<RelationWithUSA Value="-1"/>
+					<RelationWithUSSR Value="1"/>
+					<Trigger Value="ТорговляМедью"/>
+				</Option>
+				<Option Goto="6" Text="Требовать льготный 'кредит'" Availability="ОТНОШЕНИЯ С СССР > 7, !ТорговляМедью">
+					<Money Value="1"/>
+					<RelationWithUSSR Value="-1"/>
+				</Option>
+				<Option Goto="6" Text="Расторгнуть торговое соглашение" Availability="ТорговляМедью">
+					<RelationWithUSA Value="2"/>
+					<RelationWithUSSR Value="-2"/>
+					<Rating Value="-10"/>
+					<Untrigger Value="ТорговляМедью"/>
+				</Option>
+				<Option Goto="6" Text="Прекратить отношения" Availability="ОТНОШЕНИЯ С СССР &lt; 4">
+					<RelationWithUSSR Value="-1"/>
+					<RelationWithUSA Value="1"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="14">
+			<Text>Пабло, "Uno Canal". В силу галопирующей инфляции, пенсионеры и бюджетники со всей страны спрашивают нас об индексации своих выплат. Как скоро новое правительство обратит внимание на нужды стариков?</Text>
+			<Options>
+				<Option Goto="9" Text="Мы проведем индексации">
+					<Trigger Value="Индексации"/>
+				</Option>
+				<Option Goto="9" Text="Сейчас у страны нет денег, Район сбежал с бюджетом, но вы держитесь">
+					<Rating Value="-10"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="15">
+			<Text>Улицы столицы охватили массовые демонстрации, возглавляемые профсоюзами. Народ требует вашей отставки.</Text>
+			<Options>
+				<Option Goto="17" Text="Я устал, я ухожу"/>
+				<Option Goto="7" Text="Ввести войска" Availability="ЛОЯЛЬНОСТЬ АРМИИ > 59, !Левый оппозиционный парламент, !Правый оппозиционный парламент">
+					<Rating Value="10"/>
+					<ArmyLoyalty Value="-25"/>
+					<Rebels Value="3"/>
+					<Untrigger Value="Сильные профсоюзы"/>
+				</Option>
+				<Option Goto="17" Text="Импичмент" Availability="Левый оппозиционный парламент"/>
+				<Option Goto="17" Text="Импичмент" Availability="Правый оппозиционный парламент"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="16">
+			<Text>Во время нашей успешной операции в провинции Дерар, повстанцы понесли потери и были вынуждены отступить. Оставляя позиции они взорвали дамбу, вызвав в Долинах наводнение. Полковник Эсейра запрашивает разрешение спасать мирных жителей, вместо того чтобы добить повстанцев.</Text>
+			<Options>
+				<Option Goto="2" Text="Добейте выживших мятежников">
+					<Rating Value="-12"/>
+					<Rebels Value="-2"/>
+					<Trigger Value="Река"/>
+				</Option>
+				<Option Goto="2" Text="Спасать мирных граждан от наводнения">
+					<Rating Value="10"/>
+					<Trigger Value="Река"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="17">
+			<Text>Вашей власти пришел конец...</Text>
+			<Options>
+				<Option Goto="29" Text="Казалось бы, на этом история заканчивается...">
+					<PeopleAreCallingBack/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="18">
+			<Text>[text by propertires]</Text>
+			<Options>
+				<Option Goto="4" Text="Продать крупной американской компании" Availability="ГОД = 1979, !полугодие">
+					<Money Value="1"/>
+					<RelationWithUSA Value="1"/>
+					<Rating Value="-6"/>
+				</Option>
+				<Option Goto="4" Text="Разыграть честный аукцион" Availability="ГОД = 1979, !полугодие">
+					<Money Value="1"/>
+					<BusinessLoyalty Value="10"/>
+				</Option>
+				<Option Goto="4" Text="Подарить друзьям-олигархам за символическую плату" Availability="ГОД = 1979, !полугодие">
+					<BusinessLoyalty Value="20"/>
+				</Option>
+				<Option Goto="4" Text="Ничего не делать" Availability="ГОД = 1979, !полугодие">
+					<Rating Value="-5"/>
+					<BusinessLoyalty Value="-10"/>
+				</Option>
+				<Option Goto="4" Text="Осудить социализм" Availability="ГОД = 1981, полугодие">
+					<RelationWithUSSR Value="-1"/>
+					<RelationWithUSA Value="1"/>
+					<Rating Value="10"/>
+				</Option>
+				<Option Goto="4" Text="Не лезть в европейские вопросы" Availability="ГОД = 1981, полугодие"/>
+				<Option Goto="4" Text="Поддержать Аргентину (словесно)" Availability="ГОД = 1982, !полугодие">
+					<ArmyLoyalty Value="10"/>
+					<Rating Value="10"/>
+					<BusinessLoyalty Value="-10"/>
+				</Option>
+				<Option Goto="4" Text="Стоять в стороне" Availability="ГОД = 1982, полугодие">
+					<RelationWithUSA Value="1"/>
+					<BusinessLoyalty Value="10"/>
+				</Option>
+				<Option Goto="4" Text="Осудить США" Availability="ГОД = 1983, полугодие">
+					<RelationWithUSA Value="-1"/>
+					<RelationWithUSSR Value="2"/>
+				</Option>
+				<Option Goto="4" Text="Воздержаться от голосования" Availability="ГОД = 1983, полугодие">
+					<Rating Value="-15"/>
+				</Option>
+				<Option Goto="4" Text="Устроить праздник мира и индейки" Availability="ГОД = 1983, !полугодие, !Повстанцы-коммунисты">
+					<Rating Value="10"/>
+				</Option>
+				<Option Goto="4" Text="Согласиться на выпустить одного вожака" Availability="ГОД = 1983, !полугодие, Повстанцы-коммунисты">
+					<Rebels Value="1"/>
+				</Option>
+				<Option Goto="4" Text="Я назначу награду за их голову" Availability="ГОД = 1983, !полугодие, Повстанцы-коммунисты">
+					<Trigger Value="Мертвый сын"/>
+					<Rating Value="15"/>
+					<ArmyLoyalty Value="15"/>
+					<BusinessLoyalty Value="10"/>
+					<Money Value="-1"/>
+				</Option>
+				<Option Goto="4" Text="Убить губернатора" Availability="ГОД = 1982, полугодие, Расстрелянный парламент"/>
+				<Option Goto="17" Text="Уступить право выдвигаться в президенты" Availability="ГОД = 1982, полугодие"/>
+				<Option Goto="4" Text="Не боюсь этого клоуна, моя партия мне лояльна" Availability="ГОД = 1982, полугодие, РЕЙТИНГ > 44, Вы из либеральной партии, !Смертная казнь"/>
+				<Option Goto="4" Text="Не боюсь этого клоуна, моя партия мне лояльна" Availability="ГОД = 1982, полугодие, РЕЙТИНГ > 44, Вы из консервативной партии, !Сильные профсоюзы"/>
+				<Option Goto="4" Text="Молодой и перспективный офицер" Availability="ГОД = 1979, полугодие">
+					<ArmyLoyalty Value="10"/>
+				</Option>
+				<Option Goto="4" Text="Я не собираюсь лезть в ее личную жизнь" Availability="ГОД = 1979, полугодие">
+					<Rating Value="5"/>
+				</Option>
+				<Option Goto="4" Text="Олигархам и иностранному капиталу стоит выполнить требования" Availability="ГОД = 1980, !полугодие">
+					<Rating Value="10"/>
+					<BusinessLoyalty Value="-20"/>
+					<RelationWithUSSR Value="1"/>
+					<RelationWithUSA Value="-1"/>
+				</Option>
+				<Option Goto="4" Text="Мы восстановим порядок, восстания недопустимы" Availability="ГОД = 1980, !полугодие">
+					<Rating Value="-15"/>
+					<ArmyLoyalty Value="-10"/>
+					<RelationWithUSA Value="1"/>
+					<BusinessLoyalty Value="20"/>
+					<Rebels Value="1"/>
+				</Option>
+				<Option Goto="4" Text="Черт" Availability="ГОД = 1980, полугодие, !Ультраправые террористы"/>
+				<Option Goto="4" Text="Мда" Availability="ГОД = 1980, полугодие, Ультраправые террористы">
+					<Rating Value="-12"/>
+				</Option>
+				<Option Goto="17" Text="Подать в отставку на новый год" Availability="ГОД = 1985, полугодие"/>
+				<Option Goto="4" Text="Согласиться с либералами и провести амнистию" Availability="ГОД = 1981, !полугодие, !Правый оппозиционный парламент»">
+					<Rating Value="5"/>
+				</Option>
+				<Option Goto="4" Text="Согласиться с либералами и провести амнистию" Availability="ГОД = 1985, !полугодие, !Правый оппозиционный парламент»">
+					<Rating Value="5"/>
+				</Option>
+				<Option Goto="4" Text="Согласиться с консерваторами и не проводить" Availability="ГОД = 1981, !полугодие, !Левый оппозиционный парламент»"/>
+				<Option Goto="4" Text="Согласиться с консерваторами и не проводить" Availability="ГОД = 1985, !полугодие, !Левый оппозиционный парламент»"/>
+				<Option Goto="4" Text="Продолжать править" Availability="ГОД = 1985, полугодие"/>
+				<Option Goto="4" Text="Вы стали дедушкой" Availability="ГОД = 1984, полугодие, !ДочьНабогатом"/>
+				<Option Goto="4" Text="Ваша дочь развелась и уехала во Францию" Availability="ГОД = 1984, полугодие, ДочьНабогатом"/>
+				<Option Goto="4" Text="Почитать книгу и посмотреть как коммунисты стреляют друг друга" Availability="ГОД = 1984, !полугодие">
+					<Rebels Value="-1"/>
+				</Option>
+				<Option Goto="4" Text="Поддержать вице-президента" Availability="ГОД = 1986, полугодие"/>
+				<Option Goto="4" Text="Поддержать министра Сандатера" Availability="ГОД = 1986, полугодие, Решенный аграрный вопрос, РеформаРад"/>
+				<Option Goto="4" Text="Поддержать министра обороны" Availability="ГОД = 1986, полугодие, ЛОЯЛЬНОСТЬ АРМИИ > 59"/>
+				<Option Goto="4" Text="Поддержать губернатора провинции Валле" Availability="ГОД = 1986, полугодие, ЛОЯЛЬНОСТЬ БИЗНЕСА > 49"/>
+				<Option Goto="4" Text="Авторитет упал" Availability="ГОД = 1986, !полугодие">
+					<Rating Value="-10"/>
+				</Option>
+				<Option Goto="4" Text="Привлечь советских специалистов" Availability="ГОД = 1979, !полугодие">
+					<RelationWithUSSR Value="1"/>
+				</Option>
+				<Option Goto="4" Text="Я пойду на выборы самостоятельно" Availability="ГОД = 1982, полугодие">
+					<Rating Value="-35"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="19">
+			<Text>Недовольный генерал устроил "Марш Справедливости" на столицу.</Text>
+			<Options>
+				<Option Goto="7" Text="Приказать верным войскам подавить мятеж" Availability="ЛОЯЛЬНОСТЬ АРМИИ > 59">
+					<Army Value="-1"/>
+					<ArmyLoyalty Value="10"/>
+				</Option>
+				<Option Goto="7" Text="Призвать народ к забастовке и сломать ЖД пути" Availability="Сильные профсоюзы, РЕЙТИНГ > 58">
+					<ArmyLoyalty Value="10"/>
+				</Option>
+				<Option Goto="7" Text="Попробовать договориться" Availability="ЛОЯЛЬНОСТЬ АРМИИ > 49">
+					<Money Value="-1"/>
+					<Trigger Value="Ультраправые террористы"/>
+				</Option>
+				<Option Goto="17" Text="Собрать вещи и бежать"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="20">
+			<Text>Мишель. "Радио Свобода". Граждане Сан-Стефано крайне обеспокоены ростом наркотрафика через нашу границу. При этом госдеп США уже давно предложил соглашение об экстрадиции, которое позволит передавать наркобаронов в американские тюрьмы, где у них не будет авторитета и связи с внешним миром. Разумеется, для поддержания договора, придется допустить на территорию страны агентов ОБН и ЦРУ. Как вы относитесь к перспективе подобных соглашений?</Text>
+			<Options>
+				<Option Goto="7" Text="От американцев больше вреда чем пользы">
+					<RelationWithUSSR Value="1"/>
+					<RelationWithUSA Value="-1"/>
+				</Option>
+				<Option Goto="7" Text="Я надеюсь на тесное сотрудничество с США">
+					<Trigger Value="Экстрадиция в США"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="21">
+			<Text>Стартует избирательная кампания в Национальную Ассамблею</Text>
+			<Untriggers>Правый оппозиционный парламент, Правый провластный парламент, Левый оппозиционный парламент, Левый провластный парламент</Untriggers>
+			<Options>
+				<Option Goto="9" Text="На 'честных' выборах назначу консерваторов" Availability="Расстрелянный парламент, Вы из консервативной партии">
+					<Trigger Value="Правый провластный парламент"/>
+					<Rating Value="-10"/>
+					<Untrigger Value="Расстрелянный парламент"/>
+				</Option>
+				<Option Goto="9" Text="На 'честных' выборах назначу либералов" Availability="Расстрелянный парламент, Вы из либеральной партии">
+					<Trigger Value="Левый провластный парламент"/>
+					<Rating Value="-10"/>
+					<Untrigger Value="Расстрелянный парламент"/>
+				</Option>
+				<Option Goto="9" Text="Победили мои либералы" Availability="РЕЙТИНГ > 50, Вы из либеральной партии">
+					<Trigger Value="Левый провластный парламент"/>
+					<Untrigger Value="Расстрелянный парламент"/>
+				</Option>
+				<Option Goto="9" Text="Оппозиционные либералы выиграли выборы" Availability="РЕЙТИНГ &lt; 51, Вы из консервативной партии">
+					<Trigger Value="Левый оппозиционный парламент"/>
+					<Untrigger Value="Расстрелянный парламент"/>
+				</Option>
+				<Option Goto="9" Text="Победили мои консерваторы" Availability="РЕЙТИНГ > 50, Вы из консервативной партии">
+					<Trigger Value="Правый провластный парламент"/>
+					<Untrigger Value="Расстрелянный парламент"/>
+				</Option>
+				<Option Goto="9" Text="Оппозиционные консерваторы выиграли выборы" Availability="РЕЙТИНГ &lt; 51, Вы из либеральной партии">
+					<Trigger Value="Правый оппозиционный парламент"/>
+					<Untrigger Value="Расстрелянный парламент"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="22">
+			<Text>В парламенте состоялись дебаты по реформе епископа Оскарио, в основу которой лег опыт Японии и Тайваня. Суть — принудительный выкуп излишков земли, с последующей продажей крестьянам в рассрочку и скидками. Основная тема дискуссии, что считать излишком. Либералы и социалисты выступают за большие площади, чем консерваторы и националисты т.к. вторые более ориентированные на интересы бизнеса.</Text>
+			<Options>
+				<Option Goto="18" Text="Согласиться с либеральной партией" Availability="!Правый оппозиционный парламент, !Правый провластный парламент">
+					<AgrarianReform Value="4"/>
+					<BusinessLoyalty Value="-40"/>
+					<Money Value="-2"/>
+					<Untrigger Value="РеформаУМ"/>
+				</Option>
+				<Option Goto="18" Text="Согласиться с консерваторами" Availability="!Левый оппозиционный парламент, !Левый провластный парламент">
+					<AgrarianReform Value="3"/>
+					<BusinessLoyalty Value="-30"/>
+					<Money Value="-2"/>
+					<Untrigger Value="РеформаУМ"/>
+				</Option>
+				<Option Goto="18" Text="Временно отозвать реформы из-за сопротивления"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="23">
+			<Text>Американский посол приехал в президентский дворец.</Text>
+			<Options>
+				<Option Goto="6" Text="Согласовать военную базу" Availability="!ВоеннаяБаза">
+					<RelationWithUSA Value="3"/>
+					<RelationWithUSSR Value="-2"/>
+					<Rebels Value="-2"/>
+					<Rating Value="-10"/>
+					<Trigger Value="ВоеннаяБаза"/>
+				</Option>
+				<Option Goto="6" Text="Договор об экстрадиции" Availability="!Экстрадиция в США">
+					<RelationWithUSA Value="1"/>
+					<BusinessLoyalty Value="-10"/>
+					<Trigger Value="Экстрадиция в США"/>
+				</Option>
+				<Option Goto="4" Text="Какая хорошая погода"/>
+				<Option Goto="6" Text="Потребовать вывести войска" Availability="ВоеннаяБаза">
+					<RelationWithUSA Value="-3"/>
+					<RelationWithUSSR Value="2"/>
+					<Rebels Value="1"/>
+					<Rating Value="10"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="24">
+			<Text>Впереди пресс-конференция. Вам предстоит отвечать на вопросы журналистов.\n\nПервой руку подняла молодая, но страшненькая журналистка: "Долорес, газета "Друг Народа". Как известно, Район активно использовал армию не только для войны с повстанцами, в ходе которой правительственными войсками совершались многочисленные преступления против мирного населения, но и для подавления мирных демонстраций, “вертолетных прогулок” c видными оппонентами. Планирует ли новое правительство привлечь к ответственности всех военнослужащих виновных в нарушении прав человека?"\n\nРебята из "Друга народа" — классические демагоги, требующие масштабных чисток армии. Но генералы, отдававшие приказы, наказаны, а рядовые военные переходили на сторону протеста и получили устные гарантии, свое слово плохо не соблюдать.</Text>
+			<Options>
+				<Option Goto="20" Text="Армия просто выполняла приказы, давайте будем благодарны что поддержали нас хотя бы в самый важный момент">
+					<ArmyLoyalty Value="10"/>
+					<Rating Value="-10"/>
+				</Option>
+				<Option Goto="20" Text="Я поручу ВОЕННОЙ прокуратуре арестовать явных преступников"/>
+				<Option Goto="20" Text="Я поручу ГРАЖДАНСКОЙ комиссии расследовать каждый конкретный случай">
+					<ArmyLoyalty Value="-10"/>
+					<Rating Value="5"/>
+					<Army Value="-1"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="25">
+			<Text>Помещики и ультраправые боевики оказывают силовое сопротивление земельной реформе в регионе Дерар, где наиболее остро выражен аграрный вопрос. Полиция, или куплена, или сама запугана.</Text>
+			<Triggers>битваЗаземлю</Triggers>
+			<Options>
+				<Option Goto="12" Text="Губернатор коммунист разберется" Availability="Ком.партия">
+					<AgrarianReform Value="1"/>
+				</Option>
+				<Option Goto="12" Text="Мы бессильны против ультраправых боевиков" Availability="Ультраправые террористы">
+					<Rating Value="-15"/>
+					<AgrarianReform Value="-2"/>
+					<Rebels Value="2"/>
+				</Option>
+				<Option Goto="12" Text="Против ультраправых отрядов мы применим армию" Availability="Ультраправые террористы, !Союз с правыми">
+					<Army Value="-1"/>
+					<ArmyLoyalty Value="-10"/>
+					<Rating Value="10"/>
+				</Option>
+				<Option Goto="12" Text="Запретить помещикам иметь свои отряды" Availability="!Ультраправые террористы, !Правый оппозиционный парламент, !Правый провластный парламент">
+					<BusinessLoyalty Value="-10"/>
+					<Rating Value="10"/>
+					<AgrarianReform Value="-10"/>
+				</Option>
+				<Option Goto="12" Text="Смена комиссара полиции решит проблему" Availability="!Ультраправые террористы"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="26">
+			<Text>Скоро выборы.</Text>
+			<Options>
+				<Option Goto="27" Text="Я иду еще на один срок" Availability="!Вернуть долг бизнесу"/>
+				<Option Goto="27" Text="Эх, долги бизнесу стоило вернуть" Availability="Вернуть долг бизнесу">
+					<Untrigger Value="Вернуть долг бизнесу"/>
+					<Trigger Value="Кидала"/>
+					<BusinessLoyalty Value="-20"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="27">
+			<Text>Вы проводите встречи с избирателями, кампания в разгаре.</Text>
+			<Options>
+				<Option Goto="33" Text="Чудесно" Availability="!Ком.партия"/>
+				<Option Goto="17" Text="В вас стреляли террористы" Availability="Ультраправые террористы, Решенный аграрный вопрос"/>
+				<Option Goto="17" Text="В вас стреляли коммунисты" Availability="АГРАРНАЯ РЕФОРМА > 0, !Решенный аграрный вопрос"/>
+				<Option Goto="33" Text="Пойти на союз с коммунистами" Availability="Ком.партия, Вы из либеральной партии">
+					<Rating Value="10"/>
+					<BusinessLoyalty Value="-10"/>
+					<ArmyLoyalty Value="-20"/>
+					<RelationWithUSA Value="-1"/>
+					<RelationWithUSSR Value="2"/>
+				</Option>
+				<Option Goto="33" Text="Либералы пошли на союз с коммунистами" Availability="Ком.партия, Вы из консервативной партии">
+					<Rating Value="-12"/>
+				</Option>
+				<Option Goto="33" Text="Я верующий католик, какой союз с ком.партией?" Availability="Ком.партия, Вы из либеральной партии">
+					<Rating Value="-5"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="28">
+			<Text>Консервативная партия предлагает новый закон.</Text>
+			<Options>
+				<Option Goto="18" Text="Принять антипрофсоюзный закон" Availability="Сильные профсоюзы">
+					<Rating Value="-15"/>
+					<BusinessLoyalty Value="20"/>
+					<Untrigger Value="Сильные профсоюзы"/>
+					<Money Value="1"/>
+					<Rebels Value="1"/>
+				</Option>
+				<Option Goto="18" Text="Наложить вето на антипрофсоюзный закон" Availability="Сильные профсоюзы">
+					<Rating Value="10"/>
+					<BusinessLoyalty Value="-10"/>
+				</Option>
+				<Option Goto="18" Text="Попросить друзей повременить с антипрофсоюзным законом" Availability="Сильные профсоюзы, Правый провластный парламент"/>
+				<Option Goto="18" Text="Принять какую-то популистскую дичь" Availability="!Сильные профсоюзы">
+					<ModsByArmyForces/>
+				</Option>
+				<Option Goto="18" Text="Отклонить популистскую консервативную идею как анти-научную" Availability="!Сильные профсоюзы"/>
+				<Option Goto="18" Text="Восстановить смертную казнь" Availability="!Смертная казнь">
+					<Army Value="1"/>
+					<ArmyLoyalty Value="10"/>
+					<Trigger Value="Смертная казнь"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="29">
+			<Text>Без вас всё стало так плохо, что вас переизбрали!</Text>
+			<Options>
+				<Option Goto="24" Text="Ну что ж, это воля народа"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="30">
+			<Text>Вы встретились с председателем либеральной партии Диего Ариасом.</Text>
+			<Options>
+				<Option Goto="18" Text="Отменить смертную казнь" Availability="Смертная казнь">
+					<Army Value="-1"/>
+					<Rating Value="5"/>
+					<Untrigger Value="Смертная казнь"/>
+				</Option>
+				<Option Goto="18" Text="Наложить вето на отмену смертной казни" Availability="Смертная казнь">
+					<Army Value="-1"/>
+				</Option>
+				<Option Goto="18" Text="Попросить друзей повременить с реформами" Availability="Левый провластный парламент, Смертная казнь"/>
+				<Option Goto="18" Text="Принять выгодные рабочим поправки в Закон о труде" Availability="!Смертная казнь">
+					<Rating Value="5"/>
+					<BusinessLoyalty Value="-10"/>
+				</Option>
+				<Option Goto="18" Text="Отклонить выгодные рабочим поправки в Закон о труде" Availability="!Смертная казнь">
+					<Rating Value="-10"/>
+					<BusinessLoyalty Value="10"/>
+				</Option>
+				<Option Goto="18" Text="Восстановить влияние профсоюзов" Availability="Сильные профсоюзы">
+					<Rating Value="15"/>
+					<BusinessLoyalty Value="-20"/>
+					<Trigger Value="Сильные профсоюзы"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="31">
+			<Text>Тайные переговоры с повстанцами начались, если генералы, бизнес и американский посол узнают то придут в ярость.\n\nПереговоры возможно только в случае уголовного преследования ультра-правых боевиков.\n\nГлавное условие коммунистов — амнистия с сохранением оружия.\n\nНа втором месте — легализации ком.партии для участия в выборах.\n\nНа третьем — назначение их губернаторами занятых территорий.</Text>
+			<Options>
+				<Option Goto="6" Text="Мы не готовы к этим требованиям"/>
+				<Option Goto="6" Text="Амнистия" Availability="СИЛЫ ВОЙСК БОЛЬШЕ СИЛЫ ПОВСТАНЦЕВ > 4">
+					<Untrigger Value="Повстанцы-коммунисты"/>
+					<ArmyLoyalty Value="-30"/>
+					<RelationWithUSA Value="-2"/>
+					<RelationWithUSSR Value="1"/>
+					<Rating Value="25"/>
+				</Option>
+				<Option Goto="6" Text="Амнистия и ком.партия" Availability="СИЛЫ ВОЙСК БОЛЬШЕ СИЛЫ ПОВСТАНЦЕВ > 2">
+					<Untrigger Value="Повстанцы-коммунисты"/>
+					<Trigger Value="Ком.партия"/>
+					<ArmyLoyalty Value="-40"/>
+					<RelationWithUSA Value="-3"/>
+					<RelationWithUSSR Value="3"/>
+					<Rating Value="25"/>
+					<BusinessLoyalty Value="-30"/>
+				</Option>
+				<Option Goto="6" Text="Амнистия, комп.партия и губернаторы" Availability="СИЛЫ ВОЙСК БОЛЬШЕ СИЛЫ ПОВСТАНЦЕВ > 0">
+					<Untrigger Value="Повстанцы-коммунисты"/>
+					<Trigger Value="Ком.партия"/>
+					<ArmyLoyalty Value="-50"/>
+					<RelationWithUSA Value="-4"/>
+					<RelationWithUSSR Value="5"/>
+					<Rating Value="35"/>
+					<BusinessLoyalty Value="-30"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="32">
+			<Text>Коммунисты захватили в заложники персонал посольства США, требуя обмена пленными.</Text>
+			<Options>
+				<Option Goto="2" Text="Приказать АРМИИ взять штурмом посольство, только военные умеют мочить повстанцев в сортире">
+					<RelationWithUSA Value="-2"/>
+				</Option>
+				<Option Goto="2" Text="Пускай работают профессионалы из полиции" Availability="СИЛА ВОЙСК > 7">
+					<Rating Value="5"/>
+					<RelationWithUSA Value="1"/>
+					<ArmyLoyalty Value="10"/>
+				</Option>
+				<Option Goto="2" Text="Обмен пленными">
+					<Rebels Value="1"/>
+					<ArmyLoyalty Value="-30"/>
+				</Option>
+			</Options>
+		</Paragraph>
+		<Paragraph No="33">
+			<Text>Вы выдвигаетесь на второй срок.</Text>
+			<Untriggers>Правый оппозиционный парламент, Правый провластный парламент, Левый оппозиционный парламент, Левый провластный парламент, Расстрелянный парламент</Untriggers>
+			<Options>
+				<Option Goto="9" Text="Я переизбрался на второй срок" Availability="РЕЙТИНГ > 50, Вы из либеральной партии">
+					<Trigger Value="Левый провластный парламент"/>
+				</Option>
+				<Option Goto="9" Text="Я переизбрался на второй срок" Availability="РЕЙТИНГ > 50, Вы из консервативной партии">
+					<Trigger Value="Правый провластный парламент"/>
+				</Option>
+				<Option Goto="17" Text="Красиво уйти и не идти на второй срок" Availability="РЕЙТИНГ > 50"/>
+				<Option Goto="9" Text="Пускай и проиграл, важно как голоса считают)) профсоюзов все равно нет" Availability="РЕЙТИНГ &lt; 51, !Сильные профсоюзы">
+					<Rating Value="-15"/>
+					<ArmyLoyalty Value="-20"/>
+					<BusinessLoyalty Value="-20"/>
+					<Rebels Value="3"/>
+					<Trigger Value="Расстрелянный парламент"/>
+				</Option>
+				<Option Goto="17" Text="Достойно принять поражение" Availability="РЕЙТИНГ &lt; 51"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="34">
+			<Text>Международный валютный фонд готов выдать новые кредиты, но только если мы выполним одно из условий:</Text>
+			<Options>
+				<Option Goto="6" Text="Грамотная оптимизация военных расходов экспертами фонда">
+					<Money Value="2"/>
+					<Army Value="-1"/>
+					<ArmyLoyalty Value="-40"/>
+				</Option>
+				<Option Goto="6" Text="Повышение пенсионного возраста">
+					<Money Value="2"/>
+					<Rating Value="-15"/>
+				</Option>
+				<Option Goto="6" Text="Девальвация валюты для стимулирования экспорта">
+					<Money Value="2"/>
+					<BusinessLoyalty Value="20"/>
+					<Rating Value="-15"/>
+				</Option>
+			</Options>
+			<Option Goto="4" Text="Боюсь, мы пока не готовы"/>
+		</Paragraph>
+	</Paragraphs>
+</Gamebook>
