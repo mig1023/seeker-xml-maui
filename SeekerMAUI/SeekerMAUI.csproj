@@ -460,7 +460,7 @@
 	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\thracians.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Trail\plan.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Trail\report.jpg" />
-	  <MauiImage Include="Resources\Images\Images\vweapons_plan.jpg" />
+	  <MauiImage Include="Resources\Images\Images\VWeapons\plan.jpg" />
 	  <MauiImage Include="Resources\Images\Images\walkinthepark_part1.jpg" />
 	  <MauiImage Include="Resources\Images\Images\walkinthepark_part2.jpg" />
 	  <MauiImage Include="Resources\Images\Images\wilddeath_choice.jpg" />
