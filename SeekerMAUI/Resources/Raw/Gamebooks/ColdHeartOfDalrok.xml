@@ -236,9 +236,9 @@
 				<Strength Value="-2"/>
 			</Modifications>
 			<Images>
-				<Pic1>
+				<Dalrok1>
 					<Text>Второе слово наверняка имя, а первое? Может быть, «воин»? С этими мыслями вы покидаете берлогу, садитесь на Лучика и направляетесь к реке.</Text>
-				</Pic1>
+				</Dalrok1>
 			</Images>
 			<Options>
 				<Option Goto="82"/>
