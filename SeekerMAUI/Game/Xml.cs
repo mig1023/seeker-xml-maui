@@ -41,7 +41,7 @@ namespace SeekerMAUI.Game
         }
         
         private static string ImageName(XmlNode xmlNode) =>
-            $"{Data.CurrentGamebook}_{xmlNode.Name}.jpg";
+            $"{Data.CurrentGamebook}/{xmlNode.Name}.jpg";
 
         public static string ImageParse(XmlNode xmlNode)
         {
@@ -145,7 +145,6 @@ namespace SeekerMAUI.Game
         private static XmlDocument GetGamebookXmlFile(string name)
         {
             XmlDocument xmlFile = new XmlDocument();
-            //xmlFile.LoadXml(DependencyService.Get<Abstract.IAssets>().GetFromAssets(name));
             xmlFile.LoadXml(ReadResources(name));
 
             return xmlFile;
@@ -216,7 +215,8 @@ namespace SeekerMAUI.Game
                 }
                 else if (xmlNode.Attributes["Items"] != null)
                 {
-                    List<string> lines = xmlNode.Attributes["Items"]
+                    List<string> lines = xmlNode
+                        .Attributes["Items"]
                         .InnerText
                         .Split(',')
                         .Select(x => x.Trim())
@@ -233,7 +233,8 @@ namespace SeekerMAUI.Game
                         .ToList();
 
                     items = xmlNodes
-                        .ToDictionary(x => x.Attributes["Name"].InnerText, x => x.Attributes["Value"].InnerText);
+                        .ToDictionary(x => x.Attributes["Name"].InnerText, 
+                            x => x.Attributes["Value"].InnerText);
                 }
 
                 Data.Constants.LoadDictionary(xmlNode.Name, items);
@@ -389,7 +390,6 @@ namespace SeekerMAUI.Game
             Descriptions = new Dictionary<string, XmlNode>();
 
             XmlDocument xmlFile = new XmlDocument();
-            //xmlFile.LoadXml(DependencyService.Get<Abstract.IAssets>().GetFromAssets(Data.DescriptionXml));
             xmlFile.LoadXml(ReadResources(Data.DescriptionXml));
 
             foreach (XmlNode xmlNode in xmlFile.SelectNodes("Gamebooks/*"))
