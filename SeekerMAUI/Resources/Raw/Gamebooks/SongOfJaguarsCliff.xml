@@ -1598,28 +1598,28 @@
 				<Text Style="Bold">СЕВЕРНАЯ ГРУППА:</Text>
 			</Texts>
 			<Options>
-				<Option Goto="181" Text="Выдвинуть" Image="Pic181"/>
-				<Option Goto="182" Text="Выдвинуть" Image="Pic182"/>
-				<Option Goto="183" Text="Выдвинуть" Image="Pic183"/>
-				<Option Goto="184" Text="Выдвинуть" Image="Pic184">
+				<Option Goto="181" Text="Выдвинуть" Image="Song181"/>
+				<Option Goto="182" Text="Выдвинуть" Image="Song182"/>
+				<Option Goto="183" Text="Выдвинуть" Image="Song183"/>
+				<Option Goto="184" Text="Выдвинуть" Image="Song184">
 					<Text Style="Bold">\nЗАПАДНАЯ ГРУППА:</Text>
 				</Option>
-				<Option Goto="185" Text="Выдвинуть" Image="Pic185"/>
-				<Option Goto="186" Text="Выдвинуть" Image="Pic186"/>
-				<Option Goto="187" Text="Выдвинуть" Image="Pic187"/>
-				<Option Goto="188" Text="Выдвинуть" Image="Pic188">
+				<Option Goto="185" Text="Выдвинуть" Image="Song185"/>
+				<Option Goto="186" Text="Выдвинуть" Image="Song186"/>
+				<Option Goto="187" Text="Выдвинуть" Image="Song187"/>
+				<Option Goto="188" Text="Выдвинуть" Image="Song188">
 					<Text Style="Bold">\nЮЖНАЯ ГРУППА:</Text>
 				</Option>
-				<Option Goto="189" Text="Выдвинуть" Image="Pic189"/>
-				<Option Goto="190" Text="Выдвинуть" Image="Pic190"/>
-				<Option Goto="191" Text="Выдвинуть" Image="Pic191"/>
-				<Option Goto="192" Text="Выдвинуть" Image="Pic192">
+				<Option Goto="189" Text="Выдвинуть" Image="Song189"/>
+				<Option Goto="190" Text="Выдвинуть" Image="Song190"/>
+				<Option Goto="191" Text="Выдвинуть" Image="Song191"/>
+				<Option Goto="192" Text="Выдвинуть" Image="Song192">
 					<Text Style="Bold">\nВОСТОЧНАЯ ГРУППА:</Text>
 				</Option>
-				<Option Goto="193" Text="Выдвинуть" Image="Pic193"/>
-				<Option Goto="194" Text="Выдвинуть" Image="Pic194"/>
-				<Option Goto="195" Text="Выдвинуть" Image="Pic195"/>
-				<Option Goto="196" Text="Выдвинуть" Image="Pic196">
+				<Option Goto="193" Text="Выдвинуть" Image="Song193"/>
+				<Option Goto="194" Text="Выдвинуть" Image="Song194"/>
+				<Option Goto="195" Text="Выдвинуть" Image="Song195"/>
+				<Option Goto="196" Text="Выдвинуть" Image="Song196">
 					<Text>Так же можно:</Text>
 				</Option>
 				<Option Goto="170" Text="Подумать ещё немного и ничего не трогпть"/>
