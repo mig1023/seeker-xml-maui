@@ -454,10 +454,10 @@
 	  <MauiImage Include="Resources\Images\Images\SwampFever\spectralbushes.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SwampFever\sulfurcavity.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SwampFever\tugofwar.jpg" />
-	  <MauiImage Include="Resources\Images\Images\thosewhoareabouttodie_essedarius.jpg" />
-	  <MauiImage Include="Resources\Images\Images\thosewhoareabouttodie_retiarius.jpg" />
-	  <MauiImage Include="Resources\Images\Images\thosewhoareabouttodie_secutor.jpg" />
-	  <MauiImage Include="Resources\Images\Images\thosewhoareabouttodie_thracians.jpg" />
+	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\essedarius.jpg" />
+	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\retiarius.jpg" />
+	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\secutor.jpg" />
+	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\thracians.jpg" />
 	  <MauiImage Include="Resources\Images\Images\trail_plan.jpg" />
 	  <MauiImage Include="Resources\Images\Images\trail_report.jpg" />
 	  <MauiImage Include="Resources\Images\Images\vweapons_plan.jpg" />
