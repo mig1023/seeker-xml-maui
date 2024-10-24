@@ -391,7 +391,7 @@
 	  <MauiImage Include="Resources\Images\Images\Nightmare\focus.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\internet.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\jungle.jpg" />
-	  <MauiImage Include="Resources\Images\Images\Nightmare\magic.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Nightmare\spell.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\night.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare1.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare2.jpg" />
