@@ -381,8 +381,8 @@
 	  <MauiImage Include="Resources\Images\Images\ColdHeartOfDalrok\dalrok8.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ColdHeartOfDalrok\dalrok9.jpg" />
 	  <MauiImage Include="Resources\Images\Images\DeathOfAntiquary\parrot.jpg" />
-	  <MauiImage Include="Resources\Images\Images\Genesis\plan1.jpg" />
-	  <MauiImage Include="Resources\Images\Images\Genesis\plan2.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Genesis\genesis1.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Genesis\genesis2.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\allday.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\circus.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\diary.jpg" />
