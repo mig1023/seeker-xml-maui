@@ -48,7 +48,7 @@ namespace SeekerMAUI.Game
             if (xmlNode == null)
                 return String.Empty;
             else
-                return $"{Data.CurrentGamebook}_{xmlNode.InnerText}.jpg";
+                return $"{Data.CurrentGamebook}/{xmlNode.InnerText}.jpg";
         }
 
         public static Dictionary<string, string> ImagesParse(XmlNode xmlNode)
