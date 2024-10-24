@@ -421,11 +421,11 @@
 	  <MauiImage Include="Resources\Images\Images\Pawn\move30.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Pawn\move6.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Pawn\move7.jpg" />
-	  <MauiImage Include="Resources\Images\Images\seatales_easternshores.jpg" />
-	  <MauiImage Include="Resources\Images\Images\seatales_fever.jpg" />
-	  <MauiImage Include="Resources\Images\Images\seatales_interactivenovel.jpg" />
-	  <MauiImage Include="Resources\Images\Images\seatales_northernshores.jpg" />
-	  <MauiImage Include="Resources\Images\Images\seatales_space.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SeaTales\easternshores.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SeaTales\fever.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SeaTales\interactivenovel.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SeaTales\northernshores.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SeaTales\space.jpg" />
 	  <MauiImage Include="Resources\Images\Images\sheriff_place.jpg" />
 	  <MauiImage Include="Resources\Images\Images\sheriff_woman.jpg" />
 	  <MauiImage Include="Resources\Images\Images\silentschool_chess.jpg" />
