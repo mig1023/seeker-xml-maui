@@ -2169,12 +2169,12 @@
 		<Paragraph No="210">
 			<Text>Потеряв три минуты, я нашёл абзац, где написано, что сначала нужно выдвинуть...</Text>
 			<Images>
-				<Pic192>
+				<Song192>
 					<Text>...затем...</Text>
-				</Pic192>
-				<Pic181>
+				</Song192>
+				<Song181>
 					<Text>(время -3)</Text>
-				</Pic181>
+				</Song181>
 			</Images>
 			<Modifications>
 				<Time Value="-3"/>
