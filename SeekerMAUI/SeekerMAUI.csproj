@@ -380,7 +380,7 @@
 	  <MauiImage Include="Resources\Images\Images\ColdHeartOfDalrok\pic7.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ColdHeartOfDalrok\pic8.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ColdHeartOfDalrok\pic9.jpg" />
-	  <MauiImage Include="Resources\Images\Images\deathofantiquary_parrot.jpg" />
+	  <MauiImage Include="Resources\Images\Images\DeathOfAntiquary\parrot.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Genesis\plan1.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Genesis\plan2.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\allday.jpg" />
@@ -428,7 +428,7 @@
 	  <MauiImage Include="Resources\Images\Images\SeaTales\space.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Sheriff\place.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Sheriff\woman.jpg" />
-	  <MauiImage Include="Resources\Images\Images\silentschool_chess.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SilentSchool\chess.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\pic153.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\pic181.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\pic182.jpg" />
