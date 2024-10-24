@@ -426,8 +426,8 @@
 	  <MauiImage Include="Resources\Images\Images\SeaTales\interactivenovel.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SeaTales\northernshores.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SeaTales\space.jpg" />
-	  <MauiImage Include="Resources\Images\Images\sheriff_place.jpg" />
-	  <MauiImage Include="Resources\Images\Images\sheriff_woman.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Sheriff\place.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Sheriff\woman.jpg" />
 	  <MauiImage Include="Resources\Images\Images\silentschool_chess.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\pic153.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\pic181.jpg" />
