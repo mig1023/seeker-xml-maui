@@ -458,8 +458,8 @@
 	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\retiarius.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\secutor.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\thracians.jpg" />
-	  <MauiImage Include="Resources\Images\Images\trail_plan.jpg" />
-	  <MauiImage Include="Resources\Images\Images\trail_report.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Trail\plan.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Trail\report.jpg" />
 	  <MauiImage Include="Resources\Images\Images\vweapons_plan.jpg" />
 	  <MauiImage Include="Resources\Images\Images\walkinthepark_part1.jpg" />
 	  <MauiImage Include="Resources\Images\Images\walkinthepark_part2.jpg" />
