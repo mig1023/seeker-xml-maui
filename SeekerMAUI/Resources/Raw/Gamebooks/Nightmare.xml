@@ -40,7 +40,7 @@
 				<Option Goto="1078" Text="Каникулы в джунглях" Image="Jungle">
 					<Text Style="Small, Upper">Deep in the Jungle of Doom, 1996</Text>
 				</Option>
-				<Option Goto="1214" Text="Заклятие чародея" Image="Magic">
+				<Option Goto="1214" Text="Заклятие чародея" Image="Spell">
 					<Text Style="Small, Upper">Under the Magician's Spell, 1996</Text>
 				</Option>
 				<Option Goto="410" Text="Дневник сумасшедшей мумии" Image="Diary">
