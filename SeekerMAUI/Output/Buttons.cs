@@ -28,6 +28,7 @@ namespace SeekerMAUI.Output
                 BackgroundColor = (enabled ? Color.FromHex(color) : Colors.Gray),
                 FontFamily = Interface.TextFontFamily(standart: true),
                 FontSize = Interface.Font(NamedSize.Default),
+                LineBreakMode = LineBreakMode.WordWrap,
             };
 
             actionButton.Clicked += onClick;
@@ -71,6 +72,7 @@ namespace SeekerMAUI.Output
                 FontFamily = Interface.TextFontFamily(standart: true),
                 FontSize = Interface.Font(NamedSize.Default),
                 IsVisible = String.IsNullOrEmpty(option.Input),
+                LineBreakMode = LineBreakMode.WordWrap,
             };
 
             if (optionButton.IsEnabled)
@@ -90,6 +92,7 @@ namespace SeekerMAUI.Output
                 Text = text.ToUpper(),
                 BackgroundColor = (String.IsNullOrEmpty(color) ? Colors .LightGray : Color.FromHex(color)),
                 FontFamily = Interface.TextFontFamily(standart: true),
+                LineBreakMode = LineBreakMode.WordWrap,
             };
 
             if (anywayLarge || Game.Settings.IsEnabled("LargeAddButtons"))
@@ -122,6 +125,7 @@ namespace SeekerMAUI.Output
                 FontSize = Device.GetNamedSize(NamedSize.Micro, typeof(Label)),
                 Padding = 0,
                 HorizontalOptions = LayoutOptions.FillAndExpand,
+                LineBreakMode = LineBreakMode.WordWrap,
             };
 
             systemButton.Clicked += onClick;
@@ -137,6 +141,7 @@ namespace SeekerMAUI.Output
                 BackgroundColor = Color.FromHex(gamebook.BookColor),
                 FontFamily = Interface.TextFontFamily(),
                 FontSize = Interface.Font(NamedSize.Default),
+                LineBreakMode = LineBreakMode.WordWrap,
             };
 
             gamebookButton.Clicked += onClick;
@@ -172,6 +177,7 @@ namespace SeekerMAUI.Output
                 FontFamily = Interface.TextFontFamily(),
                 FontSize = Interface.Font(NamedSize.Default),
                 Margin = new Thickness(0, 30),
+                LineBreakMode = LineBreakMode.WordWrap,
             };
 
             button.Clicked += onClick;
@@ -191,6 +197,7 @@ namespace SeekerMAUI.Output
                 BackgroundColor = Color.FromHex(color),
                 FontFamily = Interface.TextFontFamily(),
                 FontSize = Interface.Font(NamedSize.Default),
+                LineBreakMode = LineBreakMode.WordWrap,
             };
 
             button.Margin = new Thickness(0, topMargin ? 30 : 0, 0, bottomMargin ? 30 : 0);
@@ -215,6 +222,7 @@ namespace SeekerMAUI.Output
                 BackgroundColor = color,
                 FontFamily = Interface.TextFontFamily(),
                 FontSize = Interface.Font(NamedSize.Default),
+                LineBreakMode = LineBreakMode.WordWrap,
             };
 
             gameoverButton.Clicked += onClick;
