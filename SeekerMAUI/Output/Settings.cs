@@ -53,9 +53,9 @@ namespace SeekerMAUI.Output
             {
                 Text = "{",
                 VerticalOptions = LayoutOptions.CenterAndExpand,
-                FontSize = 50,
+                FontSize = 60,
                 FontFamily = "RobotoFontThin",
-                Margin = new Thickness(0, -10, 0, 0),
+                Margin = new Thickness(5, -10, 5, 0),
             };
 
             stackLayout.Children.Add(brace);
