@@ -54,7 +54,7 @@ namespace SeekerMAUI.Output
                 Text = "{",
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 FontSize = 50,
-                FontFamily = Interface.TextFontFamily("RobotoFontThin"),
+                FontFamily = "RobotoFontThin",
                 Margin = new Thickness(0, -10, 0, 0),
             };
 

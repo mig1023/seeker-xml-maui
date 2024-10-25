@@ -135,8 +135,6 @@ namespace SeekerMAUI.Output
 
         public static string TextFontFamily(bool bold = false, bool italic = false, bool standart = false)
         {
-            return "YanoneKaffeesatz";
-
             string font = String.Empty;
             int fontSetting = Game.Settings.GetValue("FontType");
             string addLine = String.Empty;
@@ -162,16 +160,8 @@ namespace SeekerMAUI.Output
             {
                 font = $"{Game.Data.Constants.GetFont()}{addLine}";
             }
-            
-            return TextFontFamily(font);
-        }
 
-        public static string TextFontFamily(string fontName)
-        {
-            OnPlatform<string> OnPlatformDic = (OnPlatform<string>)App.Current.Resources[fontName];
-            var fontFamily = OnPlatformDic.Platforms.FirstOrDefault((arg) => arg.Platform.FirstOrDefault() == Device.RuntimePlatform).Value;
-
-            return fontFamily.ToString();
+            return font;
         }
 
         public static double FontSize(TextFontSize size)
