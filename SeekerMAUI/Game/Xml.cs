@@ -402,7 +402,7 @@ namespace SeekerMAUI.Game
             SettingsData = new List<XmlNode>();
 
             XmlDocument xmlFile = new XmlDocument();
-            xmlFile.LoadXml(DependencyService.Get<Abstract.IAssets>().GetFromAssets(Data.SettingsXml));
+            xmlFile.LoadXml(ReadResources(Data.SettingsXml));
 
             foreach (XmlNode xmlNode in xmlFile.SelectNodes("Settings/Setting"))
                 SettingsData.Add(xmlNode);

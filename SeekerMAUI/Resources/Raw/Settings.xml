@@ -1,0 +1,87 @@
+<Settings>
+	<Setting>
+		<Name>Основной шрифт</Name>
+		<Type>FontType</Type>
+		<Options>
+			<Option>Yanone</Option>
+			<Option>Roboto</Option>
+			<Option>Daray</Option>
+			<Option>St.Sign</Option>
+		</Options>
+		<Description>Выбор шрифта определяет не только отображение текста параграфов, но и текст кнопок, а также меню. Будьте внимательны: не любой шрифт хорошо подойдёт под настройки некоторых игры.</Description>
+	</Setting>
+	<Setting>
+		<Name>Размер шрифта</Name>
+		<Type>FontSize</Type>
+		<Options>
+			<Option>Настройки игры</Option>
+			<Option>Очень мелкий</Option>
+			<Option>Мелкий</Option>
+			<Option>Нормальный</Option>
+			<Option>Крупный</Option>
+		</Options>
+	</Setting>
+	<Setting>
+		<Name>Текст по ширине</Name>
+		<Type>Justyfy</Type>
+	</Setting>
+	<Setting>
+		<Name>Красная строка вместо отступа</Name>
+		<Type>RedStyle</Type>
+	</Setting>
+	<Setting>
+		<Name>Недоступные опции</Name>
+		<Type>DisabledOption</Type>
+		<Options>
+			<Option>Настройки игры</Option>
+			<Option>Отображать</Option>
+			<Option>Скрывать</Option>
+		</Options>
+		<Description>Многие игры содержат дополнительные опции выбора, зависящие от параметров персонажа или найденных артефактов. Другие содержат секретные переходы, которые появляются только при особых условиях. Отображаются ли такие опции выбора в меню параграфа обычно зависит от настроек конкретной игры.</Description>
+	</Setting>
+	<Setting>
+		<Name>Скрыть меню</Name>
+		<Type>SystemMenu</Type>
+	</Setting>
+	<Setting>
+		<Name>Большие кнопки доп.опций</Name>
+		<Type>LargeAddButtons</Type>
+		<Description>Кнопки дополнительных опций (таких как еда или лечение) будут такого же размера, как и обычные кнопки.</Description>
+	</Setting>
+	<Setting>
+		<Name>Сортировка</Name>
+		<Type>Sort</Type>
+		<Options>
+			<Option>По умолчанию</Option>
+			<Option>По названию</Option>
+			<Option>По автору</Option>
+			<Option>По объёму</Option>
+			<Option>По числу параграфов</Option>
+			<Option>По длине параграфов</Option>
+			<Option>По году издания</Option>
+			<Option>По тематике</Option>
+			<Option>По времени прохождения</Option>
+			<Option>По рандому</Option>
+		</Options>
+		<Description>Выбор порядка отображения книг-игр на начальном экране.</Description>
+	</Setting>
+	<Setting>
+		<Name>Без оформления</Name>
+		<Type>WithoutStyles</Type>
+		<Description>Вариант игры в высоком контрасте, без цветового оформления и без рисунков и иллюстраций.</Description>
+	</Setting>
+	<Setting>
+		<Name>Мгновенная прокрутка</Name>
+		<Type>WithoutScrolling</Type>
+		<Description>При переходе или возвращении на другую страницу будет мгновенный переход к её началу, а не плавный.</Description>
+	</Setting>
+	<Setting>
+		<Name>Режим аудиокниги</Name>
+		<Type>Audiobook</Type>
+	</Setting>
+	<Setting>
+		<Name>Данные отладки</Name>
+		<Type>Debug</Type>
+		<Description>Отображение внутренних настроек, переменных, ключей, а так же пройденного пути в хронологии параграфов.</Description>
+	</Setting>
+</Settings>
