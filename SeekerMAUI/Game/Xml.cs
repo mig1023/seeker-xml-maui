@@ -373,7 +373,8 @@ namespace SeekerMAUI.Game
             }
             else
             {
-                return $"#{StringParse(xmlNode[name])}";
+                string color = StringParse(xmlNode[name]);
+                return String.IsNullOrEmpty(color) ? String.Empty : $"#{color}";
             }
         }
 
