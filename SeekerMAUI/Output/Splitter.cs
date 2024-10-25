@@ -1,4 +1,5 @@
-﻿using SeekerMAUI.Gamebook;
+﻿using Microsoft.Maui.Controls.Shapes;
+using SeekerMAUI.Gamebook;
 using System;
 
 namespace SeekerMAUI.Output
@@ -44,7 +45,7 @@ namespace SeekerMAUI.Output
         public static View Line(Thickness? thickness, Color? color) => new BoxView
         {
             HeightRequest = 1,
-            WidthRequest = 10,
+            HorizontalOptions = LayoutOptions.Fill,
             Color = color ?? Colors.Black,
             Margin = thickness ?? new Thickness(0),
         };

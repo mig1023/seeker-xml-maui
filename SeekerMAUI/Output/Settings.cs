@@ -76,7 +76,7 @@ namespace SeekerMAUI.Output
         }
 
         private static void Splitter(ref StackLayout settings) =>
-            settings.Children.Add(Output.Splitter.Line(new Thickness(0, 15), Colors.LightGray));
+            settings.Children.Add(Output.Splitter.Line(new Thickness(0, 15), Colors.Gray));
 
         private static void SettingButton(string settingName, SettingMethod Click, ref StackLayout settings, bool spacer = false)
         {
