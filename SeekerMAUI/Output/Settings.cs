@@ -76,7 +76,7 @@ namespace SeekerMAUI.Output
         }
 
         private static void Splitter(ref StackLayout settings) =>
-            settings.Children.Add(Output.Splitter.Line(new Thickness(0, 15), Colors.Gray));
+            settings.Children.Add(Output.Splitter.Line(new Thickness(0, 15), Colors.LightGray));
 
         private static void SettingButton(string settingName, SettingMethod Click, ref StackLayout settings, bool spacer = false)
         {
@@ -106,12 +106,15 @@ namespace SeekerMAUI.Output
                 Text = settingDescription,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 FontSize = Interface.Font(NamedSize.Micro),
+                TextColor = Colors.Gray,
+                Margin = new Thickness(20, 0, 0, 0),
             };
 
             settings.Children.Add(description);
         }
 
-        private static void SettingOption(string settingName, string settingType, List<string> options, ref StackLayout settings)
+        private static void SettingOption(string settingName, string settingType,
+            List<string> options, ref StackLayout settings)
         {
             StackLayout stackLayout = new StackLayout
             {
@@ -121,7 +124,7 @@ namespace SeekerMAUI.Output
 
             Label settingTitle = new Label
             {
-                Text = $"{settingName}:",
+                Text = settingName,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 FontSize = Interface.Font(NamedSize.Small),
             };
@@ -142,6 +145,8 @@ namespace SeekerMAUI.Output
             }
             else
             {
+                settingTitle.Margin = new Thickness(0, 0, 0, 10);
+
                 Picker settingPicker = new Picker
                 {
                     HorizontalOptions = LayoutOptions.FillAndExpand,
@@ -149,6 +154,7 @@ namespace SeekerMAUI.Output
                     FontSize = Interface.Font(NamedSize.Medium),
                     HorizontalTextAlignment = TextAlignment.Center,
                     BackgroundColor = Constants.PICKER_BACKGROUND,
+                    Margin = new Thickness(5, 0, 0, 10),
                 };
 
                 settingPicker.SelectedIndexChanged += (sender, e) => SettingChanged(sender, settingType);
