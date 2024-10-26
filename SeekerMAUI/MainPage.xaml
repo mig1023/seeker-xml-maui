@@ -74,15 +74,22 @@
                 Grid.ColumnSpan="2" 
                 Padding="5, 0, 5, 0" 
                 Wrap="Wrap"/>
+            
+            <Border
+                x:Name="AdditionalStatusBorder"
+                Grid.Column="1"
+                Grid.Row="0"
+                StrokeThickness="0"
+                BackgroundColor="Red">
+                
+                <GraphicsView 
+                    x:Name="AdditionalStatus" 
+                    IsVisible="False" 
+                    Drawable="{StaticResource drawable}"
+                    HorizontalOptions="Fill" 
+                    VerticalOptions="Fill" />
 
-            <GraphicsView 
-                x:Name="AdditionalStatus" 
-                IsVisible="False" 
-                Drawable="{StaticResource drawable}"
-                HorizontalOptions="Fill" 
-                VerticalOptions="Fill" 
-                Grid.Column="1" 
-                Grid.Row="0"/>
+            </Border>
 
         </Grid>
     </ContentPage.Content>
