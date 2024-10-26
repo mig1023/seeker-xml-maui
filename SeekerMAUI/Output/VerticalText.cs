@@ -6,31 +6,19 @@ namespace SeekerMAUI.Output
     {
         public List<string> statusLines { get; set; }
 
-        private float XPosition(int index)
-        {
-            int count = statusLines.Count;
-            double heightPart = (int)DeviceDisplay.MainDisplayInfo.Width / count;
-
-            if (index == 0)
-            {
-                return 10;
-            }
-            else
-            {
-                return (float)heightPart * index;
-            }
-        }
-
         public void Draw(ICanvas canvas, RectF dirtyRect)
         {
             canvas.FontSize = 12;
             canvas.Rotate(90);
 
             int index = 0;
+            int count = statusLines.Count;
+            double heightPart = (int)DeviceDisplay.MainDisplayInfo.Width / count;
 
             foreach (var status in statusLines)
             {
-                canvas.DrawString(status, XPosition(index), -5, HorizontalAlignment.Left);
+                float xpos = (float)((heightPart * index) + (heightPart / 2));
+                canvas.DrawString(status, xpos, -5, HorizontalAlignment.Center);
                 index += 1;
             }
         }
