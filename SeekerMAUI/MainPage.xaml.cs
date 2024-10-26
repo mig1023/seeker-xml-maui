@@ -554,7 +554,6 @@ namespace SeekerMAUI
         private void UpdateStatus()
         {
             Status.Children.Clear();
-            AdditionalStatus.Children.Clear();
 
             List<string> statuses = (Game.Data.Actions == null ? null : Game.Data.Actions.Status());
 
@@ -613,10 +612,9 @@ namespace SeekerMAUI
 
                 AdditionalStatus.IsVisible = true;
 
-                List<Output.VerticalText> statusesInBar = Output.StatusBar.Additional(addStatuses);
-
-                foreach (Output.VerticalText status in statusesInBar)
-                    AdditionalStatus.Add(status);
+                var verticalText = new Output.VerticalText();
+                verticalText.statusLines = addStatuses;
+                AdditionalStatus.Drawable = verticalText;
             }
         }
 

@@ -36,32 +36,5 @@ namespace SeekerMAUI.Output
 
             return statusLabels;
         }
-
-        public static List<VerticalText> Additional(List<string> statusLines)
-        {
-            List<VerticalText> statusLabels = new List<VerticalText>();
-
-            bool whiteColor = !String.IsNullOrEmpty(Game.Data.Constants.GetColor(ColorTypes.AdditionalFont));
-            bool equalParts = Game.Data.Constants.GetBool("EqualPartsInStatuses");
-
-            double heightPart = statusLines.Count == 0 ? 1 :
-                (int)Application.Current.MainPage.Height / statusLines.Sum(x => Clear(x));
-
-            foreach (string status in statusLines)
-            {
-                VerticalText text = new VerticalText
-                {
-                    Value = status,
-                    WhiteColor = whiteColor,
-                };
-
-                if (!equalParts)
-                    text.HeightRequest = Clear(status) * heightPart;
-
-                statusLabels.Add(text);
-            }
-
-            return statusLabels;
-        }
     }
 }

@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:output="clr-namespace:SeekerMAUI.Output"
              x:Class="SeekerMAUI.MainPage"
              Shell.NavBarIsVisible="False">
-
+    
+    <ContentPage.Resources>
+        <output:VerticalText x:Key="drawable"/>
+    </ContentPage.Resources>
+    
     <ContentPage.Content>
         <Grid
             x:Name="MainGrid"
@@ -70,15 +75,15 @@
                 Padding="5, 0, 5, 0" 
                 Wrap="Wrap"/>
 
-            <FlexLayout 
+            <GraphicsView 
                 x:Name="AdditionalStatus" 
                 IsVisible="False" 
-                Direction="Column" 
-                HorizontalOptions="CenterAndExpand" 
-                VerticalOptions="FillAndExpand" 
+                Drawable="{StaticResource drawable}"
+                HorizontalOptions="Fill" 
+                VerticalOptions="Fill" 
                 Grid.Column="1" 
-                Grid.Row="0" 
-                Padding="0, 0, 0, 0"/>
+                Grid.Row="0"/>
+
         </Grid>
     </ContentPage.Content>
 
