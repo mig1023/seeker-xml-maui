@@ -1688,8 +1688,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="558" Text="Если ваши слова достаточно убедительны"/>
-				<Option Goto="464" Text="Если нет"/>
+				<Option Goto="558" Text="Ваши слова достаточно убедительны"/>
+				<Option Goto="464" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="231">
