@@ -2329,8 +2329,8 @@
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="10" Text="Если вы победили"/>
-				<Option Goto="634" Text="Если противник снизил вашу СИЛУ до 2"/>
+				<Option Goto="10" Text="Вы победили"/>
+				<Option Goto="634" Text="Противник снизил вашу СИЛУ до 2"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="320">
