@@ -2470,8 +2470,8 @@
 				<Skill/>
 			</Actions>
 			<Options>
-				<Option Goto="663" Text="Если сумма выпавших цифр больше вашей ЛОВКОСТИ"/>
-				<Option Goto="209" Text="Если меньше или равна ей"/>
+				<Option Goto="663" Text="Сумма выпавших цифр больше вашей ЛОВКОСТИ"/>
+				<Option Goto="209" Text="Сумма меньше или равна ей"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="340">
