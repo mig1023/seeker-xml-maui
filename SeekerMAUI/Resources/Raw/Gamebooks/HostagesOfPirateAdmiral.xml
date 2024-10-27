@@ -2775,8 +2775,8 @@
 		<Paragraph No="385">
 			<Text>Можно попытаться выжечь замок лучом бластера, но для этого нужно не меньше двух зарядов.</Text>
 			<Options>
-				<Option Goto="275" Text="Если два заряда найдутся"/>
-				<Option Goto="650" Text="Если нет"/>
+				<Option Goto="275" Text="Два заряда найдутся"/>
+				<Option Goto="650" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="386">
