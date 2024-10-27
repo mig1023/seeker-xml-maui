@@ -3159,8 +3159,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="238" Text="Если Тимс поверит вам"/>
-				<Option Goto="538" Text="Если же решит, что его обманывают, то драки не миновать"/>
+				<Option Goto="238" Text="Тимс поверил вам"/>
+				<Option Goto="538" Text="Он решил, что его обманывают и драки не миновать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="439">
