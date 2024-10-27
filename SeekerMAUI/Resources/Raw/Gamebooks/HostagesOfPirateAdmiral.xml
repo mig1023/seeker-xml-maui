@@ -2526,8 +2526,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="569" Text="Если окружающие проглотят эту сказочку"/>
-				<Option Goto="429" Text="Если у них возникнут сомнения"/>
+				<Option Goto="569" Text="Окружающие проглотили эту сказочку"/>
+				<Option Goto="429" Text="У них возникли сомнения"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="348">
