@@ -2007,7 +2007,7 @@
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="99" Text="Если вы победили"/>
+				<Option Goto="99" Text="Вы победили"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="278">
