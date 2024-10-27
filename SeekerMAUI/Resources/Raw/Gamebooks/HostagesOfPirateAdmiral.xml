@@ -192,8 +192,8 @@
 				<Skill/>
 			</Actions>
 			<Options>
-				<Option Goto="342" Text="Если сумма выпавших очков больше вашей ЛОВКОСТИ"/>
-				<Option Goto="626" Text="Если меньше или равна ей"/>
+				<Option Goto="342" Text="Сумма выпавших очков больше вашей ЛОВКОСТИ"/>
+				<Option Goto="626" Text="Сумма меньше или равна ей"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="23">
