@@ -1330,7 +1330,7 @@
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="56" Text="Если вы победили"/>
+				<Option Goto="56" Text="Вы победили"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="181">
