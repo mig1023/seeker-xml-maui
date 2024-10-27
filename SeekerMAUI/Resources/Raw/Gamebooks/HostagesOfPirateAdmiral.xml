@@ -740,8 +740,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="323" Text="Если удастся успокоить беднягу"/>
-				<Option Goto="401" Text="Если нет"/>
+				<Option Goto="323" Text="Удалось успокоить беднягу"/>
+				<Option Goto="401" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="100">
