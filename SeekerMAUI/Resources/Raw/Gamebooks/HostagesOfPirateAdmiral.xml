@@ -2609,8 +2609,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="425" Text="Если землянин поверит вам"/>
-				<Option Goto="159" Text="Если он все же примет вас за попавшего в беду пирата"/>
+				<Option Goto="425" Text="Землянин поверил вам"/>
+				<Option Goto="159" Text="Он все же примет вас за попавшего в беду пирата"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="360">
