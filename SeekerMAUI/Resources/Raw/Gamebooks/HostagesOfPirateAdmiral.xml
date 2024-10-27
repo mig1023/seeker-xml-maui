@@ -3000,7 +3000,7 @@
 			<Actions>
 				<Fight>
 					<Enemy Name="ЛОСЬ" Skill="9" Strength="10"/>
-					<Text>Если вы победили, можете продолжать путь:</Text>
+					<Text>Если вы победили, можете продолжать путь...</Text>
 				</Fight>
 			</Actions>
 			<Options>
@@ -3036,7 +3036,7 @@
 			<Text>Луч срезает ветви рядом с вами. Тут уже не до разговоров.</Text>
 			<Options>
 				<Option Goto="261" Text="Будете стрелять в ответ"/>
-				<Option Goto="353" Text="Если не можете или не хотите сделать этого"/>
+				<Option Goto="353" Text="Не можете или не хотите сделать этого"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="422">
