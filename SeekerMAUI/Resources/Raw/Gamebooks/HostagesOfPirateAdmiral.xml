@@ -3169,8 +3169,8 @@
 				<Skill/>
 			</Actions>
 			<Options>
-				<Option Goto="151" Text="Если она вас не подведет"/>
-				<Option Goto="669" Text="Если не справитесь"/>
+				<Option Goto="151" Text="Она вас не подвела"/>
+				<Option Goto="669" Text="Вы не справились"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="440">
