@@ -3277,8 +3277,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="383" Text="Если этот человек поверит вам"/>
-				<Option Goto="159" Text="Если нет"/>
+				<Option Goto="383" Text="Этот человек поверил вам"/>
+				<Option Goto="159" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="454">
