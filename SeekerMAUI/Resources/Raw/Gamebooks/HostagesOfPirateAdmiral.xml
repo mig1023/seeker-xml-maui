@@ -4644,12 +4644,13 @@
 				<Fight>
 					<Enemy Name="РОБОТ-ОХОТНИК" Skill="10" Strength="10"/>
 					<DevastatingAttack Value="3"/>
+					<HeroWoundsLimit/>
 					<Text Style="Small">Каждый удачный удар робота вычтет 3 из вашей СИЛЬЕ.</Text>
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="245" Text="Если вы победили"/>
-				<Option Goto="525" Text="Но если ваша СИЛА снизилась до 3"/>
+				<Option Goto="245" Text="Вы победили"/>
+				<Option Goto="525" Text="Ваша СИЛА снизилась до 2"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="648">
