@@ -4828,8 +4828,8 @@
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="208" Text="Если вы снизили СИЛУ наглеца до 2"/>
-				<Option Goto="72" Text="Но если противник снизил вашу СИЛУ до 2"/>
+				<Option Goto="208" Text="Вы снизили СИЛУ наглеца до 2"/>
+				<Option Goto="72" Text="Противник снизил вашу СИЛУ до 2"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="673">
