@@ -3881,7 +3881,7 @@
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="670" Text="Если вы победили"/>
+				<Option Goto="670" Text="Вы победили"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="539">
