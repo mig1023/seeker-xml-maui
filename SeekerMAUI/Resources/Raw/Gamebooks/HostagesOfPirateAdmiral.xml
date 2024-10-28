@@ -4875,8 +4875,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="411" Text="Если вам поверят"/>
-				<Option Goto="301" Text="Если нет"/>
+				<Option Goto="411" Text="Вам поверили"/>
+				<Option Goto="301" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="679">
