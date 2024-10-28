@@ -3919,8 +3919,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="411" Text="Если эти парни признают вас своим союзником"/>
-				<Option Goto="301" Text="Если нет"/>
+				<Option Goto="411" Text="Эти парни признают вас своим союзником"/>
+				<Option Goto="301" Text="Они вам не поверили"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="544">
