@@ -3330,7 +3330,7 @@
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="510" Text="Если вы победили"/>
+				<Option Goto="510" Text="Вы победили"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="461">
