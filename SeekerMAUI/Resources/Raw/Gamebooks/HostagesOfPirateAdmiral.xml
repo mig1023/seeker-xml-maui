@@ -4767,8 +4767,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="2" Text="Если рассказ прозвучит убедительно"/>
-				<Option Goto="324" Text="Если в него вкралась фальшивая нотка"/>
+				<Option Goto="2" Text="Рассказ прозвуал убедительно"/>
+				<Option Goto="324" Text="В него вкралась фальшивая нотка"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="666">
