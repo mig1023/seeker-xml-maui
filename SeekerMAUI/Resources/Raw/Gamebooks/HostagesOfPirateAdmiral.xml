@@ -4602,8 +4602,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="258" Text="Если ваш вид внушает доверие"/>
-				<Option Goto="458" Text="Если нет"/>
+				<Option Goto="258" Text="Ваш вид внушил доверие"/>
+				<Option Goto="458" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="643">
