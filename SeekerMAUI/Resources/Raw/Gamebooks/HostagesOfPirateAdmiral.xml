@@ -3818,10 +3818,11 @@
 				<Option Goto="177" Text="Также можно сразу отступить"/>
 				<Fight>
 					<Enemy Name="ОБЕЗЬЯНА" Skill="10" Strength="10"/>
+					<EnemyWoundsLimit/>
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="19" Text="Если вы снизили СИЛУ обезьяны до 2"/>
+				<Option Goto="19" Text="Вы снизили СИЛУ обезьяны до 2"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="530">
