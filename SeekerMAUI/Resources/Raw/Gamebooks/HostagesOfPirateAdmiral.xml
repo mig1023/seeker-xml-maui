@@ -4103,8 +4103,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="269" Text="Если слова ваши звучат правдиво"/>
-				<Option Goto="97" Text="Если же незнакомец все-таки примет вас за пирата"/>
+				<Option Goto="269" Text="Ваши слова звучат правдиво"/>
+				<Option Goto="97" Text="Незнакомец все-таки принял вас за пирата"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="572">
