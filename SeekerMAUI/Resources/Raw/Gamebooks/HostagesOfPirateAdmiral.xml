@@ -3526,8 +3526,8 @@
 				<Charm/>
 			</Actions>
 			<Options>
-				<Option Goto="622" Text="Если произведете на незнакомца хорошее впечатление"/>
-				<Option Goto="220" Text="Если нет"/>
+				<Option Goto="622" Text="Произвели на незнакомца хорошее впечатление"/>
+				<Option Goto="220" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="489">
