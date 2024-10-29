@@ -4755,6 +4755,9 @@
 		</Paragraph>
 		<Paragraph No="635">
 			<Text>Что-то обжигает вам шею (вычтите 2 из своей СИЛЫ).</Text>
+			<Modifications>
+				<Strength Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="361"/>
 			</Options>
