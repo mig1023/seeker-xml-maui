@@ -1993,6 +1993,9 @@
 		</Paragraph>
 		<Paragraph No="263">
 			<Text>Мясо жесткое, волокнистое, пахнет дымом, но оно прибавляет 1 к вашей СИЛЕ.</Text>
+			<Modifications>
+				<Strength Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="357"/>
 			</Options>
