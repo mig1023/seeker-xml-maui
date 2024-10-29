@@ -4740,6 +4740,9 @@
 		</Paragraph>
 		<Paragraph No="633">
 			<Text>Обратный путь уменьшает вашу СИЛУ еще на 1, но зато вы без приключений возвращаетесь на плетеную тропинку и идете дальше - на юг.</Text>
+			<Modifications>
+				<Strength Value="-1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="5"/>
 			</Options>
