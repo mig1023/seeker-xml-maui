@@ -2802,6 +2802,9 @@
 		</Paragraph>
 		<Paragraph No="371">
 			<Text>Ничто не тревожит ваш сон. Просыпаетесь вы бодрым и готовым к любым подвигам (прибавьте 2 к СИЛЕ).</Text>
+			<Modifications>
+				<Strength Value="2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="69"/>
 			</Options>
