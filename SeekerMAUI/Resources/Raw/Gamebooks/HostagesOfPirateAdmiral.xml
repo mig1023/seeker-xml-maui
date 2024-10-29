@@ -1861,6 +1861,9 @@
 		</Paragraph>
 		<Paragraph No="246">
 			<Text>Яростными рывками пытаетесь вы уплыть прочь, но безжалостные щупальца вцепляются в вас, рвут кожу (вычтите 3 из своей СИЛЫ). От сражения не уйти...</Text>
+			<Modifications>
+				<Strength Value="-3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="166"/>
 			</Options>
