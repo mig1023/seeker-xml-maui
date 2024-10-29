@@ -3039,6 +3039,9 @@
 		</Paragraph>
 		<Paragraph No="403">
 			<Text>Вы собираетесь бежать, но отвратительная ящерица успевает еще раз плюнуть вдогонку (вычтите 2 из своей СИЛЫ).</Text>
+			<Modifications>
+				<Strength Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="51"/>
 			</Options>
