@@ -4147,6 +4147,9 @@
 		</Paragraph>
 		<Paragraph No="552">
 			<Text>Вы быстро очищаете тарелки. Никакой отравы! Еда вкусная, ароматная, она прибавит 5 к вашей СИЛЕ.</Text>
+			 <Modifications>
+				<Strength Value="5"/>
+			</Modifications>
 			<Options>
 				<Option Goto="104"/>
 			</Options>
