@@ -5004,7 +5004,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="632">
-			<Text>Месиво не отличается приятным вкусом, но все же это еда (прибавьте 1 к СИЛЕ).</Text>
+			<Texts>
+				<Text>Месиво не отличается приятным вкусом, но все же это еда.</Text>
+				<Text Style="Small">Прибавьте 1 к СИЛЕ.</Text>
+			</Texts>
 			<Modifications>
 				<Strength Value="1"/>
 			</Modifications>
