@@ -11,6 +11,7 @@
 			<Color Name="ButtonFont, StatusFont, StatusBorder, Border" Value="000000"/>
 		</Styles>
 		<Lists>
+			<WithoutStatuses Items="0, 1, 109, 217, 325"/>
 			<WithoutStaticsButtons Items="0, 1, 109, 217, 325"/>
 		</Lists>
 		<Dictionaries>
