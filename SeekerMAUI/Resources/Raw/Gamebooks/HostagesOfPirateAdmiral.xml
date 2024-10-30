@@ -10,6 +10,9 @@
 			<Color Name="Main, Action, Option, StatusBar, Continue" Value="ffffff"/>
 			<Color Name="ButtonFont, StatusFont, StatusBorder, Border" Value="000000"/>
 		</Styles>
+		<Lists>
+			<WithoutStaticsButtons Items="0, 1, 109, 217, 325"/>
+		</Lists>
 		<Dictionaries>
 			<Skills ItemsByOrder=", 8, 10, 12, 9, 11, 9, 10, 8, 9, 10, 11"/>
 			<Strengths ItemsByOrder=", 22, 20, 16, 18, 20, 20, 16, 24, 22, 18, 20"/>
