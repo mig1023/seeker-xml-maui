@@ -2942,7 +2942,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="371">
-			<Text>Ничто не тревожит ваш сон. Просыпаетесь вы бодрым и готовым к любым подвигам (прибавьте 2 к СИЛЕ).</Text>
+			<Texts>
+				<Text>Ничто не тревожит ваш сон. Просыпаетесь вы бодрым и готовым к любым подвигам.</Text>
+				<Text Style="Small">Прибавьте 2 к СИЛЕ.</Text>
+			</Texts>
 			<Modifications>
 				<Strength Value="2"/>
 			</Modifications>
