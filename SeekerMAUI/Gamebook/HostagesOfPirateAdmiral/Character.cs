@@ -46,8 +46,6 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
             set => _blaster = Game.Param.Setter(value, _blaster, this);
         }
 
-        public int GateCode { get; set; }
-        public string Equipment { get; set; }
         public List<bool> Luck { get; set; }
         public int Coins { get; set; }
 
@@ -64,8 +62,6 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
             Charm = Constants.Charms[dice];
 
             Blaster = 1;
-            GateCode = 0;
-            Equipment = String.Empty;
             Coins = 0;
 
             Luck = new List<bool> { false, true, true, true, true, true, true };
@@ -84,13 +80,11 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
             Strength = this.Strength,
             Charm = this.Charm,
             Blaster = this.Blaster,
-            GateCode = this.GateCode,
-            Equipment = this.Equipment,
             Coins = this.Coins,
         };
 
         public override string Save() => String.Join("|",
-            MaxSkill, Skill, MaxStrength, Strength, Charm, Blaster, GateCode, Equipment, Coins,
+            MaxSkill, Skill, MaxStrength, Strength, Charm, Blaster, Coins,
             String.Join(",", Luck.Select(x => x ? "1" : "0")));
 
         public override void Load(string saveLine)
@@ -103,11 +97,9 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
             Strength = int.Parse(save[3]);
             Charm = int.Parse(save[4]);
             Blaster = int.Parse(save[5]);
-            GateCode = int.Parse(save[6]);
-            Equipment = save[7];
-            Coins = int.Parse(save[8]);
+            Coins = int.Parse(save[6]);
 
-            Luck = save[9].Split(',').Select(x => x == "1").ToList();
+            Luck = save[7].Split(',').Select(x => x == "1").ToList();
 
             IsProtagonist = true;
         }
