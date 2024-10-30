@@ -68,6 +68,8 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
 
             for (int i = 0; i < 2; i++)
                 Luck[Game.Dice.Roll()] = false;
+
+            Game.Healing.Add(name: "Попить", healing: 2, portions: 2);
         }
 
         public Character Clone() => new Character()
