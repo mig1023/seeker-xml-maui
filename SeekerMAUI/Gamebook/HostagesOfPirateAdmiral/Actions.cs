@@ -315,7 +315,12 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
         public override bool IsHealingEnabled() =>
             Character.Protagonist.Strength < Character.Protagonist.MaxStrength;
 
-        public override void UseHealing(int healingLevel) =>
-            Character.Protagonist.Strength += healingLevel;
+        public override void UseHealing(int healingLevel)
+        {
+            if (healingLevel < 0)
+                Character.Protagonist.Strength = Character.Protagonist.MaxStrength;
+            else
+                Character.Protagonist.Strength += healingLevel;
+        }
     }
 }
