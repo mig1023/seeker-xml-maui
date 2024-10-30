@@ -2062,7 +2062,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="263">
-			<Text>Мясо жесткое, волокнистое, пахнет дымом, но оно прибавляет 1 к вашей СИЛЕ.</Text>
+			<Texts>
+				<Text>Мясо жесткое, волокнистое, пахнет дымом...</Text>
+				<Text Style="Small">...но оно прибавляет 1 к вашей СИЛЕ.</Text>
+			</Texts>
 			<Modifications>
 				<Strength Value="1"/>
 			</Modifications>
