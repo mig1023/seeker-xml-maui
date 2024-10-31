@@ -1179,6 +1179,7 @@
 			<Actions>
 				<Skill/>
 			</Actions>
+			<Triggers>светозащитные очки</Triggers>
 			<Options>
 				<Option Goto="4" Text="Сумма выпавших чисел больше вашей ЛОВКОСТИ"/>
 				<Option Goto="250" Text="Сумма меньше или равна ей"/>
