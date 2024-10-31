@@ -29,6 +29,12 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
                     option.Goto = int.Parse(link[random.Next(link.Count())]);
                 }
 
+                foreach (XmlNode optionMod in xmlOption.SelectNodes("*"))
+                {
+                    if (!optionMod.Name.StartsWith("Text"))
+                        option.Do.Add(Xml.ModificationParse(optionMod, new Modification()));
+                }
+
                 paragraph.Options.Add(option);
             }
 
