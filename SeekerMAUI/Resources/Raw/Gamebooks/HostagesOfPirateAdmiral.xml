@@ -4395,8 +4395,10 @@
 		</Paragraph>
 		<Paragraph No="529">
 			<Actions>
-				<Option Goto="317" Text="Вместо боя вы можете пустить в ход бластер"/>
-				<Option Goto="177" Text="Также можно сразу отступить"/>
+				<Option Goto="317" Text="Вместо боя вы можете пустить в ход бластер" Availability="БЛАСТЕР >= 0">
+					<Blaster Value="-1">
+				</Option>
+				<Option Goto="177" Text="Можете сразу отступить"/>
 				<Fight>
 					<Enemy Name="ОБЕЗЬЯНА" Skill="10" Strength="10"/>
 					<EnemyWoundsLimit/>
