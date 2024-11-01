@@ -3559,7 +3559,9 @@
 				<Strength Value="-1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="561" Text="Бластер заряжен и вы пустить его в ход"/>
+				<Option Goto="561" Text="Бластер заряжен и вы пустить его в ход" Availability="БЛАСТЕР >= 0">
+					<Blaster Value="-1">
+				</Option>
 				<Option Goto="621" Text="Не можете или не хотите стрелять"/>
 			</Options>
 		</Paragraph>
