@@ -4421,6 +4421,7 @@
 			<Options>
 				<Option Goto="497" Text="Воспользоваться ключом из ярко-красного металла" Availability="ярко-красный ключ"/>
 				<Option Goto="447" Text="Использовать отмычку" Availability="отмычка"/>
+				<Option Goto="351" Text="Воспользоваться ключом-насадкой" Availability="ключ-насадка"/>
 				<Option Goto="147" Text="Ничего не подходит"/>
 			</Options>
 		</Paragraph>
