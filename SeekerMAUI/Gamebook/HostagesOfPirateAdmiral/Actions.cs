@@ -243,6 +243,12 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
                             $"{Game.Dice.Symbol(protagonistRollSecond)} + " +
                             $"{protagonistSkill} = {protagonistHitStrength}");
 
+                        if (Game.Option.IsTriggered("без ножа"))
+                        {
+                            protagonistHitStrength -= 1;
+                            fight.Add($"GRAY|Из-за отсутствия ножа, мощность удара снижена на 1 и равна {protagonistHitStrength}");
+                        }
+
                         if (HitPenalty)
                         {
                             protagonistHitStrength -= 1;
