@@ -4791,7 +4791,7 @@
 			<Text>От дерева ведут две дорожки:</Text>
 			<Options>
 				<Option Goto="5" Text="Одна уводит немного левее"/>
-				<Option Goto="153" Text="Другая - правее">
+				<Option Goto="157" Text="Другая - правее">
 					<Text>По какой из них вы пойдете?</Text>
 				</Option>
 			</Options>
