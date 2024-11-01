@@ -290,10 +290,15 @@
 			<Options>
 				<Option Goto="534" Text="Вы не можете выстрелить ни разу" Availability="БЛАСТЕР &lt; 1" Singleton="БЛАСТЕР &lt; 1"/>
 				<Option Goto="122" Text="У вас есть два заряда" Availability="БЛАСТЕР >= 1"  Singleton="БЛАСТЕР >= 1">
+					<Blaster Value="-2">
 					<Text>Если заряд только один - попробуйте выстрелить в один из уязвимых центров. Но куда именно пошлете вы драгоценный заряд?</Text>
 				</Option>
-				<Option Goto="64" Text="В смотровую щель"/>
-				<Option Goto="164" Text="Под кожух"/>
+				<Option Goto="64" Text="В смотровую щель">
+					<Blaster Value="-1">
+				</Option>
+				<Option Goto="164" Text="Под кожух">
+					<Blaster Value="-1">
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="31">
