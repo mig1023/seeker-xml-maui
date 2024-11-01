@@ -175,7 +175,9 @@
 		<Paragraph No="17">
 			<Text>Как же вы намерены его атаковать?</Text>
 			<Options>
-				<Option Goto="173" Text="Пустите в ход бластер"/>
+				<Option Goto="173" Text="Пустите в ход бластер" Availability="БЛАСТЕР >= 0">
+					<Blaster Value="-1">
+				</Option>
 				<Option Goto="573" Text="Сберечь заряд и обойтись без стрельбы"/>
 			</Options>
 		</Paragraph>
