@@ -1296,7 +1296,7 @@
 		<Paragraph No="162">
 			<Text>Дверь не заперта. Толкнув ее, вы оказываетесь в темном узеньком коридорчике.</Text>
 			<Options>
-				<Option Goto="600" Text="Включить фонарик" Availability="фонарик"/>
+				<Option Goto="132" Text="Включить фонарик" Availability="фонарик"/>
 				<Option Goto="630"/>
 			</Options>
 		</Paragraph>
