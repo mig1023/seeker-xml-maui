@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SeekerMAUI.Game;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -63,6 +64,7 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
             return enemies;
         }
 
+
         private static string Numbers()
         {
             string luckListShow = String.Empty;
@@ -125,6 +127,21 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
 
             return luckRecovery;
         }
+
+        public List<string> SimpleOneDice()
+        {
+            var dice = Game.Dice.Roll();
+            var isOdd = dice % 2 == 0;
+            var line = isOdd ? String.Empty : "НЕ";
+
+            Buttons.Disable(isOdd, "Выпало четное число", "Выпало нечетное");
+
+            return new List<string> {
+                $"BIG|Кубик: {Dice.Symbol(dice)}",
+                $"BIG|BOLD|Выпало {line}ЧЁТНОЕ число!"
+            };
+        }
+    
 
         public List<string> Charm()
         {
@@ -246,7 +263,9 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
                         if (Game.Option.IsTriggered("без ножа"))
                         {
                             protagonistHitStrength -= 1;
-                            fight.Add($"GRAY|Из-за отсутствия ножа, мощность удара снижена на 1 и равна {protagonistHitStrength}");
+
+                            fight.Add($"GRAY|Из-за отсутствия ножа, " +
+                                $"мощность удара снижена на 1 и равна {protagonistHitStrength}");
                         }
 
                         if (HitPenalty)
