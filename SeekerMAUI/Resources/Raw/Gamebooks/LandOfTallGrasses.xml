@@ -47,5 +47,12 @@
 				<Option Goto="77" Text="Нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="6">
+			<Text>Встаете, отряхиваясь, потирая ушибленное место. Надо решать, куда идти:</Text>
+			<Options>
+				<Option Goto="28" Text="Направо, к зарослям высокой острой травы-порея"/>
+				<Option Goto="181" Text="Налево, к небольшому холму, поросшему мягкими гусиными лапками"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
