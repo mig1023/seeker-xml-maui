@@ -71,5 +71,11 @@
 				</Option>
 			</Options>
 		</Paragraph>
+		<Paragraph No="9">
+			<Text>Вас, точно заправский асс-истребитель, атакует оса-одиночка. Сражайтесь.\n\nОса-одиночка.\n\nСила - 15 Мастерство - 15</Text>
+			<Options>
+				<Option Goto="27" Text="Если вы с ней справились"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
