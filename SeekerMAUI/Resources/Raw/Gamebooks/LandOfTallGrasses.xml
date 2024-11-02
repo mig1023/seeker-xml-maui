@@ -237,5 +237,11 @@
 				<Option Goto="122" Text="Налево"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="35">
+			<Text>Не дожидаясь, пока медведка придет в себя, быстро уходите. Пробежав минут пятнадцать по изрытой норами земле, останавливаетесь отдышаться.</Text>
+			<Options>
+				<Option Goto="74"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
