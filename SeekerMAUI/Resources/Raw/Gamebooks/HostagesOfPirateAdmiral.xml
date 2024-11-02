@@ -29,8 +29,8 @@
 			<Charm>Проверить обаяние</Charm>
 			<Skill>Проверить ловкость</Skill>
 			<LuckRecovery>Восстановить 1 цифру удачи</LuckRecovery>
-			<SimpleOneDice>Бросить кубик</SimpleOneDice>
 			<Break>Ломать дверь</Break>
+			<Button Action="SimpleOneDice, DiceWay">Бросить кубики</Button>
 			<Button Action="DiceWounds, SimpleTwoDice">Бросить кубики</Button>
 		</Buttons>
 	</Introduction>
@@ -5235,7 +5235,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="629">
-			<Text>Бросьте кубик. Выпало:</Text>
+			<Actions>
+				<DiceWay>
+					<Text>Выпало:</Text>
+				</DiceWay>
+			</Actions>
 			<Options>
 				<Option Goto="93" Text="1"/>
 				<Option Goto="666" Text="2"/>
