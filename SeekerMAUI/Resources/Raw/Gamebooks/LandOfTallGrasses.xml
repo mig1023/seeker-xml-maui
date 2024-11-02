@@ -177,5 +177,12 @@
 				<Option Goto="3"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="26">
+			<Text>Довольно толстая, похожая на шелковою нить с липкими узелками, паучья сеть опутывала вас все больше и больше, несмотря на усилия освободиться.\n\nПроверьте свою удачу:</Text>
+			<Options>
+				<Option Goto="11" Text="Вам повезло"/>
+				<Option Goto="99" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
