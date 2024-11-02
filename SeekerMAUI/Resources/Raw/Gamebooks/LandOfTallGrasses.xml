@@ -184,5 +184,12 @@
 				<Option Goto="99" Text="Нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="27">
+			<Text>Расправившись с осой, оглядываетесь по сторонам и замечаете недалеко от места побоища пещеру.</Text>
+			<Options>
+				<Option Goto="168" Text="Залезете туда и посмотрите, пригодна ли она для ночлега"/>
+				<Option Goto="10" Text="Пойдете дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
