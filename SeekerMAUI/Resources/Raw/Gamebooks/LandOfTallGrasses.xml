@@ -156,5 +156,12 @@
 				<Option Goto="256"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="23">
+			<Text>Почувствовав на спине нежелательного наездника, гусеница выпустила в вас целый заряд ядовитой жидкости из отростка на конце спины.\n\nБросьте кубик и определите:</Text>
+			<Options>
+				<Option Goto="240" Text="Удача с вами"/>
+				<Option Goto="155" Text="Она капризно отвернулась"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
