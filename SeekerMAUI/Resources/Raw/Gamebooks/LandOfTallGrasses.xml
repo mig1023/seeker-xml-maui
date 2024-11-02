@@ -125,5 +125,11 @@
 				<Option Goto="88"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="18">
+			<Text>Езда на строптивой гусенице утомила вас (-2 силы), и чтобы утолить голод и жажду, надо спешиться и отдохнуть.</Text>
+			<Options>
+				<Option Goto="7"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
