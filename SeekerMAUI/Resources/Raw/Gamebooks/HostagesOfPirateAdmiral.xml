@@ -33,6 +33,9 @@
 			<Button Action="SimpleOneDice, DiceWay">Бросить кубики</Button>
 			<Button Action="DiceWounds, SimpleTwoDice">Бросить кубики</Button>
 		</Buttons>
+		<Default>
+			<HideDisabledOption/>
+		</Default>
 	</Introduction>
 	<Paragraphs>
 		<Paragraph No="0">
