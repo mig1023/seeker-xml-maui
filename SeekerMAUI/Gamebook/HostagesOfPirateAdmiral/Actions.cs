@@ -141,7 +141,41 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
                 $"BIG|BOLD|Выпало {line}ЧЁТНОЕ число!"
             };
         }
-    
+
+        public List<string> SimpleTwoDice()
+        {
+            var game = new List<string> { "ИГРА в КОСТИ:" };
+
+            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+
+            var protagonist = firstDice + secondDice;
+
+            game.Add("Вы бросаете кубики: " +
+                $"{Dice.Symbol(firstDice)} + {Dice.Symbol(secondDice)} = {protagonist}");
+
+            Game.Dice.DoubleRoll(out firstDice, out secondDice);
+
+            var enemy = firstDice + secondDice;
+
+            game.Add("Противник бросает кубики: " +
+                $"{Dice.Symbol(firstDice)} + {Dice.Symbol(secondDice)} = {enemy}");
+
+            if (protagonist >= enemy)
+            {
+                var line = protagonist >= enemy ?
+                    "столько же, но будем считать, что больше" : "больше";
+
+                game.Add($"BIG|GOOD|У вас выпало {line} - вы победили! :)");
+                Buttons.Disable("Противнику повезло больше");
+            }
+            else
+            {
+                game.Add("BIG|BAD|У вас выпало меньше - вы проиграли :(");
+                Buttons.Disable("Выпало четное число");
+            }
+
+            return game;
+        }
 
         public List<string> Charm()
         {
