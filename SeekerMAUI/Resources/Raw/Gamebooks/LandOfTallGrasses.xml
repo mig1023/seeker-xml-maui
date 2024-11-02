@@ -95,5 +95,11 @@
 				<Option Goto="265"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="13">
+			<Text>Муравьи, подняв кверху передние лапы и раскрыв могучие челюсти, дружно встречают вашу атаку. Сражайтесь.\n\nПервый муравей\n\nСила - 7 Мастерство - 6\n\nВторой муравей\n\nСила - 8 Мастерство - 7</Text>
+			<Options>
+				<Option Goto="25" Text="Если победили"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
