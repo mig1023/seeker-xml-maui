@@ -255,5 +255,11 @@
 				<Option Goto="139" Text="Если вы победили"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="38">
+			<Text>Немного подумав и потерев ушибленное место (-1 сила), подбираете рюкзак и высыпавшиеся из карманов вещи. Делать нечего: нужно идти дальше и искать профессора.</Text>
+			<Options>
+				<Option Goto="225"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
