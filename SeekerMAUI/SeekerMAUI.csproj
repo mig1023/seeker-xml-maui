@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.20348.0</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.18362.0</TargetFrameworks>
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net8.0-tizen</TargetFrameworks> -->
 
@@ -33,9 +33,10 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.20348.0</SupportedOSPlatformVersion>
-		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.20348.0</TargetPlatformMinVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.18362.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.18362.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<Platforms>AnyCPU;x64</Platforms>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -57,6 +58,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\AppIcon\seeker.png" />
+	  <None Remove="Resources\Fonts\YanoneKaffeesatz-Italic.ttf" />
 	  <None Remove="Resources\Images\Cover\adventuresofabeardlessdeceiver.jpg" />
 	  <None Remove="Resources\Images\Cover\alamutfortress.jpg" />
 	  <None Remove="Resources\Images\Cover\alcatraz.jpg" />
@@ -89,6 +91,7 @@
 	  <None Remove="Resources\Images\Cover\insight.jpg" />
 	  <None Remove="Resources\Images\Cover\invisiblefront.jpg" />
 	  <None Remove="Resources\Images\Cover\keperlace.jpg" />
+	  <None Remove="Resources\Images\Cover\landoftallgrasses.jpg" />
 	  <None Remove="Resources\Images\Cover\landofunwarybears.jpg" />
 	  <None Remove="Resources\Images\Cover\lasthokku.jpg" />
 	  <None Remove="Resources\Images\Cover\legendsalwayslie.jpg" />
@@ -295,6 +298,7 @@
 	  <MauiImage Include="Resources\Images\Cover\insight.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\invisiblefront.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\keperlace.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\landoftallgrasses.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\landofunwarybears.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\lasthokku.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\legendsalwayslie.jpg" />
