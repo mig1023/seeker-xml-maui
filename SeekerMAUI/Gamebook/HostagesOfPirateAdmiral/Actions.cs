@@ -172,7 +172,7 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
             else
             {
                 game.Add("BIG|BAD|У вас выпало меньше - вы проиграли :(");
-                Buttons.Disable("Выпало четное число");
+                Buttons.Disable("Вы эту партию выиграли");
             }
 
             return game;
