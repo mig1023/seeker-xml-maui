@@ -1,4 +1,5 @@
-﻿using SeekerMAUI.Game;
+﻿using Microsoft.Maui.Controls.Shapes;
+using SeekerMAUI.Game;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -144,7 +145,7 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
 
         public List<string> SimpleTwoDice()
         {
-            var game = new List<string> { "ИГРА в КОСТИ:" };
+            var game = new List<string> { "Игра в кости:" };
 
             Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
 
@@ -175,6 +176,38 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
             }
 
             return game;
+        }
+
+        public List<string> Break()
+        {
+            var breakingDoor = new List<string> { "Ломаете дверь:" };
+
+            var succesBreaked = false;
+
+            while (!succesBreaked && (Character.Protagonist.Strength > 0))
+            {
+                Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+
+                if (firstDice == secondDice)
+                {
+                    succesBreaked = true;
+                }
+                else
+                {
+                    Character.Protagonist.Strength -= 1;
+                }
+
+                var result = succesBreaked ?
+                    "удачный, дверь поддалась!" : "неудачный, -1 сила";
+
+                breakingDoor.Add($"Удар: " +
+                    $"{Game.Dice.Symbol(firstDice)} + " +
+                    $"{Game.Dice.Symbol(secondDice)} = {result}");
+            }
+
+            breakingDoor.Add(Result(succesBreaked, "ДВЕРЬ ВЗЛОМАНА", "ВЫ УБИЛИСЬ ОБ ДВЕРЬ"));
+
+            return breakingDoor;
         }
 
         public List<string> Charm()
