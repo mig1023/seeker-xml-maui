@@ -178,6 +178,21 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
             return game;
         }
 
+        public List<string> DiceWay()
+        {
+            var dice = Game.Dice.Roll();
+
+            for (int i = 1; i <= 6; i++)
+            {
+                if (i != dice)
+                    Buttons.Disable(i.ToString());
+            }
+
+            return new List<string> {
+                $"BIG|BOLD|На кубике выпало: {Dice.Symbol(dice)}",
+            };
+        }
+
         public List<string> Break()
         {
             var breakingDoor = new List<string> { "Ломаете дверь:" };
