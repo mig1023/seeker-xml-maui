@@ -62,5 +62,14 @@
 				<Option Goto="120" Text="Прямо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="8">
+			<Text>Идете направо. Туннель петляет между корнями каких-то растений, потом снова раздваивается.</Text>
+			<Options>
+				<Option Goto="193" Text="Одна ветка идет вверх"/>
+				<Option Goto="44" Text="Другая вниз">
+					<Text>Выберите направление и идите.</Text>
+				</Option>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
