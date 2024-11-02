@@ -55,7 +55,7 @@ namespace SeekerMAUI
 
             Button button = option as Button;
 
-            if (button.Text == name)
+            if (button.Text.ToUpper() == name.ToUpper())
             {
                 button.IsEnabled = false;
                 button.BackgroundColor = Colors.Gray;
@@ -607,7 +607,7 @@ namespace SeekerMAUI
 
                 MainGrid.ColumnDefinitions[1].Width = 20;
 
-                AdditionalStatus.BackgroundColor = String.IsNullOrEmpty(backgroundColor) ?
+                AdditionalStatusBorder.BackgroundColor = String.IsNullOrEmpty(backgroundColor) ?
                     Colors.Gray : Color.FromHex(backgroundColor);
 
                 AdditionalStatus.IsVisible = true;
