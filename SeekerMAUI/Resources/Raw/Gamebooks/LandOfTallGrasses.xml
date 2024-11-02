@@ -54,5 +54,13 @@
 				<Option Goto="181" Text="Налево, к небольшому холму, поросшему мягкими гусиными лапками"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="7">
+			<Text>Немного отдохнув, встаете и выходите из-под листа. Куда пойдете:</Text>
+			<Options>
+				<Option Goto="225" Text="Направо"/>
+				<Option Goto="148" Text="Налево"/>
+				<Option Goto="120" Text="Прямо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
