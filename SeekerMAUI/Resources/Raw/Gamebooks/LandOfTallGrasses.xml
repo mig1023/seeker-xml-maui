@@ -40,5 +40,12 @@
 				<Option Goto="228"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="5">
+			<Text>Не успеваете сделать и пяти шагов, как тут же проваливаетесь в какую-то глубокую нору. Пролетев приличное расстояние, падаете, ушибив ногу (-2 силы). Зажгите фонарик и проверьте удачу.</Text>
+			<Options>
+				<Option Goto="78" Text="Вам повезло"/>
+				<Option Goto="77" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
