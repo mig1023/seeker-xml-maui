@@ -279,5 +279,14 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="42">
+			<Text>Прежде чем прыгать, проверьте свою удачу!</Text>
+			<Options>
+				<Option Goto="206" Text="Вам повезло"/>
+				<Option Goto="128" Text="Нет">
+					<Text>Но помните, что удача - барышня капризная и в последний момент может выбросить такой фортель, что. Ну, вы сами на своей дубленой шкуре не раз это испытывали.</Text>
+				</Option>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
