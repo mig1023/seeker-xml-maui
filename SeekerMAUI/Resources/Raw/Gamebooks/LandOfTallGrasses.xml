@@ -631,5 +631,11 @@
 				<Option Goto="23"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="96">
+			<Text>В этой подводной тюрьме вам делать нечего и, вдохнув побольше воздуха, ныряете.</Text>
+			<Options>
+				<Option Goto="187"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
