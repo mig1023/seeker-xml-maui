@@ -759,5 +759,15 @@
 				<Option Goto="210" Text="Пойдете налево"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="116">
+			<Text>Своими тушами медведки забаррикадировали проход как вниз. Так и вверх. Что будете делать:</Text>
+			<Options>
+				<Option Goto="139" Text="Пойдете по маленькому боковому ходу">
+					<Text>Попытаетесь сдвинуть медведку, заслонившую рукав туннеля, ведущего...</Text>
+				</Option>
+				<Option Goto="142" Text="Вниз"/>
+				<Option Goto="125" Text="Вверх"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
