@@ -600,5 +600,11 @@
 				<Option Goto="234"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="91">
+			<Text>Огромная мышь в мгновение ока, раскрыв пасть, хватает вас и светлячка своими страшными зубами и с удовольствием съедает.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
