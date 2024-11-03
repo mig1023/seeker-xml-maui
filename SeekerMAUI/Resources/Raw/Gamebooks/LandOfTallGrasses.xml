@@ -451,5 +451,13 @@
 				<Option Goto="114"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="68">
+			<Text>Заглянув в правый рукав туннеля и ничего не увидев, смотрите налево - темень и там. Не решаясь углубляться в муравейник, выкрикиваете имя профессора. Не получив ответа, выходите. Куда пойдете:</Text>
+			<Options>
+				<Option Goto="213" Text="Вверх"/>
+				<Option Goto="126" Text="Налево"/>
+				<Option Goto="219" Text="Вниз"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
