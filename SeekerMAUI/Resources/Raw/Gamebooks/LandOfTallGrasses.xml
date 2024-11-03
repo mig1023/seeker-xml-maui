@@ -856,5 +856,12 @@
 				<Option Goto="174" Text="Если победа за вами"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="130">
+			<Text>Сражаться с явно превосходящим противником не рискуете и, повернув назад, бежите к центральному туннелю. Куда пойдете:</Text>
+			<Options>
+				<Option Goto="237" Text="Налево"/>
+				<Option Goto="50" Text="Прямо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
