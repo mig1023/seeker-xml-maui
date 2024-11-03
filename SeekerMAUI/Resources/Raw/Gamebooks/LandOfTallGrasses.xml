@@ -381,5 +381,12 @@
 				<Option Goto="204" Text="Посчитав дело проигранным, выпьете «Увеличитель» и отправитесь домой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="57">
+			<Text>Что есть духу мчитесь, не разбирая дороги, и всего разгону влетаете в какую-то пещеру. Проверьте еще раз свою удачу.</Text>
+			<Options>
+				<Option Goto="247" Text="Вам повезло"/>
+				<Option Goto="220" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
