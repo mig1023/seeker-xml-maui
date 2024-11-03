@@ -318,5 +318,12 @@
 				<Option Goto="89" Text="Парализатором"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="47">
+			<Text>Убив проволочника, вы тем самым отрезали себе путь на поверхность. Возвращайтесь в туннель с медведками и попробуйте сдвинуть одну из туш, забаррикадировавшие проходы:</Text>
+			<Options>
+				<Option Goto="142" Text="Вниз"/>
+				<Option Goto="125" Text="Вверх"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
