@@ -863,5 +863,12 @@
 				<Option Goto="50" Text="Прямо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="131">
+			<Text>Идете направо и попадаете в длинный коридор, заканчивающийся большой круглой пещерой с двумя выходами. Куда пойдете:</Text>
+			<Options>
+				<Option Goto="277" Text="Направо"/>
+				<Option Goto="221" Text="Налево"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
