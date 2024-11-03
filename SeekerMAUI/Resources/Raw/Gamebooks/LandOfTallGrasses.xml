@@ -510,5 +510,12 @@
 				<Option Goto="48"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="77">
+			<Text>Оглядев при помощи фонарика пещеру, куда свалились, выясняете, что она цилиндрообразная, глубокая, и внизу ее есть два хода. Куда пойдете:</Text>
+			<Options>
+				<Option Goto="8" Text="Направо"/>
+				<Option Goto="136" Text="Налево"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
