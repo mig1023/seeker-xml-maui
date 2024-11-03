@@ -732,5 +732,11 @@
 				<Option Goto="138" Text="Продолжите путь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="112">
+			<Text>Муравей-солдат\n\nСила - 13 Мастерство - 13</Text>
+			<Options>
+				<Option Goto="230" Text="Если вы победили"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
