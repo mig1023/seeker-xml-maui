@@ -992,5 +992,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="151">
+			<Text>Только успеваете добраться к черешку листа, как какая-то тень быстро промелькнула над головой. Проверьте свою удачу.</Text>
+			<Options>
+				<Option Goto="86" Text="Вам повезло"/>
+				<Option Goto="33" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
