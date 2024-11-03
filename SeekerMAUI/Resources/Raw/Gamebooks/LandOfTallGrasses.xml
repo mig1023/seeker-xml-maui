@@ -781,5 +781,11 @@
 				<Option Goto="227"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="119">
+			<Text>Пролетев по вертикальному стволу пещеры около метра, падаете и, ударившись о дно, теряете сознание.</Text>
+			<Options>
+				<Option Goto="184"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
