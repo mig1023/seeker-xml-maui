@@ -338,5 +338,11 @@
 				<Option Goto="94"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="50">
+			<Text>Недолго думая, идете прямо и через некоторое время оказываетесь в камере с почти взрослыми осами, которые моментально набрасываются на непрошенного гостя...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
