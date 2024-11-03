@@ -830,5 +830,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="126">
+			<Text>Идете в коридор налево и попадаете в небольшую круглую комнату, из которой ведут еще два выхода. Куда пойдете:</Text>
+			<Options>
+				<Option Goto="231" Text="Направо"/>
+				<Option Goto="179" Text="Налево"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
