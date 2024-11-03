@@ -769,5 +769,11 @@
 				<Option Goto="125" Text="Вверх"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="117">
+			<Text>Настороженно посмотрев на слишком общительного муравья, обходите его и идете дальше. Задерживаться по пустякам нечего. Нужно скорее спасать профессора.</Text>
+			<Options>
+				<Option Goto="234"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
