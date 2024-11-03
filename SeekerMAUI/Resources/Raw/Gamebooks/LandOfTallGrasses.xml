@@ -751,5 +751,13 @@
 				<Option Goto="4"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="115">
+			<Text>Не удержавшись на спине обалдевшей жужелицы, скатываетесь на землю, а ваш взбесившийся «конь» галопом несется в заросли травяного леса. Что будете делать:</Text>
+			<Options>
+				<Option Goto="14" Text="Отдохнете"/>
+				<Option Goto="34" Text="Пойдете направо"/>
+				<Option Goto="210" Text="Пойдете налево"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
