@@ -1320,5 +1320,11 @@
 				<Option Goto="186"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="203">
+			<Text>Медведка выглядит слишком грозно, да и чего ради рисковать, если можно попытаться уйти от опасности. Повернувшись, мчитесь что есть духу назад по туннелю.</Text>
+			<Options>
+				<Option Goto="71"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
