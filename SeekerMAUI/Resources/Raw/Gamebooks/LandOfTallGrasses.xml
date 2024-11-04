@@ -1005,5 +1005,11 @@
 				<Option Goto="244"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="153">
+			<Text>Поход к воде решаете перенести на полчаса и, поискав немного, находите небольшую пещерку. Предварительно забаррикадировав вход валуном, засыпаете.</Text>
+			<Options>
+				<Option Goto="211"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
