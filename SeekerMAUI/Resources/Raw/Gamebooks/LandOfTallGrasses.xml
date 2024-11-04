@@ -1586,5 +1586,11 @@
 				<Option Goto="202"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="245">
+			<Text>Оса\n\nСила - 13 Мастерство - 15</Text>
+			<Options>
+				<Option Goto="258" Text="Вы победили, что было так мало вероятно"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
