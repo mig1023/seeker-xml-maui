@@ -1702,5 +1702,15 @@
 				<Option Goto="242"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="263">
+			<Text>Задрав голову в надежде на то, что это профессор, смотрите вверх. Но все ваши ожидания рухнули : гигантская оса, пчелиный волк, влезает в туннель.\n\nЧто будете делать:</Text>
+			<Options>
+				<Option Goto="250" Text="Сражаться">
+					<Text>Побежите:</Text>
+				</Option>
+				<Option Goto="237" Text="Налево"/>
+				<Option Goto="50" Text="Прямо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
