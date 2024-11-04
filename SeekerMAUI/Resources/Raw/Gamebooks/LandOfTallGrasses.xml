@@ -1465,5 +1465,11 @@
 				<Option Goto="255"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="226">
+			<Text>Сев под широкий лист подорожника, подкрепляетесь бутербродом с ветчиной и сыром, запивая все это крепким кофе из термоса (+2 силы).</Text>
+			<Options>
+				<Option Goto="7"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
