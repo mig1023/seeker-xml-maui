@@ -1177,5 +1177,11 @@
 				<Option Goto="231"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="180">
+			<Text>Что есть мочи несетесь, спотыкаясь, падая, вставая и вновь летя вперед. Но мышь, расправившись со светлячком, настигает и вас...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
