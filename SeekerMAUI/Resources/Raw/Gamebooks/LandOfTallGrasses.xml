@@ -1604,5 +1604,13 @@
 				<Option Goto="72"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="248">
+			<Text>Подойдя поближе к муравейнику, задумываетесь, в какой вход войти. Пойдете в тот, что...</Text>
+			<Options>
+				<Option Goto="59" Text="Справа от вас"/>
+				<Option Goto="213" Text="Прямо перед вами"/>
+				<Option Goto="126" Text="Слева от вас"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
