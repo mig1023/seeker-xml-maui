@@ -1683,5 +1683,11 @@
 				<Option Goto="156"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="260">
+			<Text>Пока решаете сложнейшую проблему, что делать с ненужным пистолетом, муравьи, похоже, приняли решение. Развернувшись, быстро побежали вниз.</Text>
+			<Options>
+				<Option Goto="190"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
