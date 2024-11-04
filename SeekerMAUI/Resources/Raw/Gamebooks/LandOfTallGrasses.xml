@@ -1677,5 +1677,11 @@
 				<Option Goto="273"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="259">
+			<Text>Пока сражались за рюкзак с одним муравьем, второй уволок одежду. Но вы рады тому, что хоть «Увеличитель» остался, а одежду можно смастерить.</Text>
+			<Options>
+				<Option Goto="156"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
