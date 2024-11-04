@@ -1107,5 +1107,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="169">
+			<Text>Немного отдышавшись и придя в себя, чувствуете, что голодны не меньше чудовища, которое вас чуть не слопало. Поев (+2 силы), продолжаете свой опасный путь.</Text>
+			<Options>
+				<Option Goto="225"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
