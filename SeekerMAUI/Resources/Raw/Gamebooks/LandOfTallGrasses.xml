@@ -1259,5 +1259,11 @@
 				<Option Goto="198"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="193">
+			<Text>Нет, вам совсем не нравится это мрачное подземелье и бродить по нему не намерены. Нужно идти вверх - там, наверное, может быть выход.</Text>
+			<Options>
+				<Option Goto="20"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
