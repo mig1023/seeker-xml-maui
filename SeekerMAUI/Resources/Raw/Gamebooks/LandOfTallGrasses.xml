@@ -1638,5 +1638,13 @@
 				<Option Goto="6"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="253">
+			<Text>Куда пойдете:</Text>
+			<Options>
+				<Option Goto="225" Text="Направо"/>
+				<Option Goto="148" Text="Налево"/>
+				<Option Goto="120" Text="Прямо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
