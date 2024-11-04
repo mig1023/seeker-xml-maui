@@ -1580,5 +1580,11 @@
 				<Option Goto="39"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="244">
+			<Text>Подойдя к кусту, пробираетесь сквозь густую поросль к стволу дерева и попадаете на утоптанную дорожку. Интересно, кто ее проложил?</Text>
+			<Options>
+				<Option Goto="202"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
