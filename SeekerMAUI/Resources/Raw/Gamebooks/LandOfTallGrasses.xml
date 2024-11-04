@@ -1296,5 +1296,11 @@
 				<Option Goto="176" Text="Попробуете при помощи естественного фонарика путешествовать ночью"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="199">
+			<Text>Первая личинка\n\nСила - 8 Мастерство - 6\n\nВторая личинка\n\nСила - 8 Мастерство - 8</Text>
+			<Options>
+				<Option Goto="175" Text="Если удалось победить их"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
