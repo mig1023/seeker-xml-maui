@@ -1696,5 +1696,11 @@
 				<Option Goto="130" Text="Удерёте"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="262">
+			<Text>Воздух в легких уже на исходе, а порвать плотную сеть-паутину и выбраться из сети никак не удается. Плывите вдоль нее и постарайтесь найти ее конец.</Text>
+			<Options>
+				<Option Goto="242"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
