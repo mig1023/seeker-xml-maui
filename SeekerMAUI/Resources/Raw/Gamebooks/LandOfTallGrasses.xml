@@ -1625,5 +1625,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="251">
+			<Text>Вцепившись в жука и напрягая все силы, чтобы не упасть, бешено скачете по травяному лесу. Но силы постепенно тают. Надо срочно что-то делать.</Text>
+			<Options>
+				<Option Goto="14" Text="Спрыгнете со своего «коня»"/>
+				<Option Goto="161" Text="Попытаетесь найти способ его усмирить"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
