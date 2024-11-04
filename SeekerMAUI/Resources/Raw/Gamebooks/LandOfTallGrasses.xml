@@ -1240,5 +1240,11 @@
 				<Option Goto="209"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="190">
+			<Text>Не долго думая, спускаетесь вниз и уходите из опасного места.</Text>
+			<Options>
+				<Option Goto="274"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
