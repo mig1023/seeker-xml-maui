@@ -1023,5 +1023,15 @@
 				<Option Goto="212"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="156">
+			<Text>Соорудив себе из листьев что-то наподобие набедренной повязки, одеваете на плечи значительно отощавший рюкзак. Что теперь:</Text>
+			<Options>
+				<Option Goto="118" Text="Залезете на растение повыше, чтобы осмотреться">
+					<Text>Пойдете:</Text>
+				</Option>
+				<Option Goto="76" Text="Направо"/>
+				<Option Goto="132" Text="Налево"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
