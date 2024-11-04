@@ -1574,5 +1574,11 @@
 				<Option Goto="96" Text="Поплывете искать настоящий выход на поверхность озера"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="243">
+			<Text>Справившись с этим чудовищем, садитесь на выступающий из стены корень и отдыхаете некоторое время (+1 сила).</Text>
+			<Options>
+				<Option Goto="39"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
