@@ -1077,5 +1077,11 @@
 				<Option Goto="46"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="164">
+			<Text>Видя, что удирать и прятаться вам некуда, решаете сражаться.\n\nМуха-толкунчик\n\nСила - 12 Мастерство - 10</Text>
+			<Options>
+				<Option Goto="106" Text="Вы победили страшилище, что было очень нелегко"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
