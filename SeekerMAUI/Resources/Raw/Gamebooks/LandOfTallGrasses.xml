@@ -1671,5 +1671,11 @@
 				<Option Goto="1"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="258">
+			<Text>Оставив труп осы, выбираетесь из гнезда, спускаетесь вниз, с горечью думая о несправедливой участи профессора Луценко.</Text>
+			<Options>
+				<Option Goto="273"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
