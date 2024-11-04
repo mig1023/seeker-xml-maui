@@ -1101,5 +1101,11 @@
 				<Option Goto="35"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="168">
+			<Text>Осторожно заходите вовнутрь пещеры и тут же, кто-то черный, мохнатый и огромный, набрасывается на вас. Поиски профессора закончены...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
