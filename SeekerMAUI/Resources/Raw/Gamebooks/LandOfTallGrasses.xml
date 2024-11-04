@@ -1496,5 +1496,12 @@
 				<Option Goto="70"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="231">
+			<Text>Коридор, которым вы идете, раздваивается. Куда пойдете:</Text>
+			<Options>
+				<Option Goto="221" Text="Направо"/>
+				<Option Goto="277" Text="Налево"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
