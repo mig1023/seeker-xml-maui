@@ -1017,5 +1017,11 @@
 				<Option Goto="167"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="155">
+			<Text>Яд, попав вам на кожу, проникает через поры в организм и вы, потеряв сознание, падаете с гусеницы на землю...</Text>
+			<Options>
+				<Option Goto="212"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
