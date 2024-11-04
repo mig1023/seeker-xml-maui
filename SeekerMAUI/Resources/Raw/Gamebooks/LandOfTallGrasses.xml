@@ -1332,5 +1332,11 @@
 				<Option Goto="257"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="205">
+			<Text>Огромная черная мышь, сделав гигантский прыжок, хватает несчастного светлячка лапами и отправляет в зубастую пасть. Не ждите, пока это же будет и с вами! Бегите...</Text>
+			<Options>
+				<Option Goto="180"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
