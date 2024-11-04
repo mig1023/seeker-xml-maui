@@ -1446,5 +1446,11 @@
 				<Option Goto="162"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="223">
+			<Text>Медведка\n\nСила - 12 Мастерство - 12</Text>
+			<Options>
+				<Option Goto="40" Text="Вы победили, что было очень непросто"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
