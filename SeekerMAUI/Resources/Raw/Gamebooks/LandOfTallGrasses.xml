@@ -1724,5 +1724,12 @@
 				<Option Goto="249"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="266">
+			<Text>Озеро настолько опасно, что доплыть к листу вам поможет только чудо и удача. Проверьте ее!</Text>
+			<Options>
+				<Option Goto="232" Text="Удача с вами"/>
+				<Option Goto="217" Text="Удача, капризно надув губы, повернулась спиной"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
