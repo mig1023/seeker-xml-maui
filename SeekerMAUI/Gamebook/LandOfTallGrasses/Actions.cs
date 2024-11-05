@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SeekerMAUI.Gamebook.CreatureOfHavoc;
+using System;
 
 namespace SeekerMAUI.Gamebook.LandOfTallGrasses
 {
@@ -29,6 +30,98 @@ namespace SeekerMAUI.Gamebook.LandOfTallGrasses
                 enemies.Add($"{enemy.Name}\nмастерство {enemy.Skill}  сила {enemy.Strength}");
 
             return enemies;
+        }
+
+        private static bool NoMoreEnemies(List<Character> enemies) =>
+            enemies.Where(x => x.Strength > 0).Count() == 0;
+
+        public List<string> Fight()
+        {
+            List<string> fight = new List<string>();
+
+            List<Character> FightEnemies = new List<Character>();
+
+            foreach (Character enemy in Enemies)
+                FightEnemies.Add(enemy.Clone());
+
+            int round = 1;
+
+            while (true)
+            {
+                fight.Add($"HEAD|BOLD|Раунд: {round}");
+
+                int protagonistDice = Game.Dice.Roll();
+
+                int protagonistHit = protagonistDice + Character.Protagonist.Skill;
+
+                fight.Add($"Ваш удар: " +
+                    $"{Game.Dice.Symbol(protagonistDice)} + " +
+                    $"{Character.Protagonist.Skill} = {protagonistHit}");
+
+                EnemyHit max = null, min = null;
+
+                foreach (Character enemy in FightEnemies)
+                {
+                    if (enemy.Strength <= 0)
+                        continue;
+
+                    int enemyDice = Game.Dice.Roll();
+
+                    int enemyHit = enemyDice + enemy.Skill;
+
+                    fight.Add($"{enemy.Name} (сила {enemy.Strength}): " +
+                        $"{Game.Dice.Symbol(enemyDice)} + " +
+                        $"{enemy.Skill} = {enemyHit}");
+
+                    if ((max == null) || (max.Hit < enemyHit))
+                        max = new EnemyHit(enemy.Name, enemyHit, enemy);
+
+                    if ((min == null) || (min.Hit > enemyHit))
+                        min = new EnemyHit(enemy.Name, enemyHit, enemy);
+                }
+
+                if (protagonistHit > max.Hit)
+                {
+                    fight.Add($"BOLD|GOOD|{min.Name} ранен");
+
+                    min.Link.Strength -= 3;
+
+                    if (NoMoreEnemies(FightEnemies))
+                    {
+                        fight.Add(String.Empty);
+                        fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
+                        return fight;
+                    }
+                }
+                else if (protagonistHit < max.Hit)
+                {
+                    fight.Add($"BOLD|BAD|{max.Name} ранил вас");
+
+                    Character.Protagonist.Strength -= 3;
+
+                    if (Character.Protagonist.Strength <= 0)
+                    {
+                        fight.Add(String.Empty);
+                        fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
+                        return fight;
+                    }
+                }
+                else
+                {
+                    fight.Add("BOLD|Ничья в раунде");
+                }
+
+                if ((RoundsToWin > 0) && (RoundsToWin <= round))
+                {
+                    fight.Add(String.Empty);
+                    fight.Add("BAD|Отведённые на победу раунды истекли.");
+                    return fight;
+                }
+
+                fight.Add(String.Empty);
+
+                round += 1;
+            }
         }
     }
 }
