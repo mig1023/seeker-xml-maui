@@ -1796,5 +1796,16 @@
 				<Option Goto="125" Text="Отодвинете другое, освобождая вход в коридор, ведущий вверх"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="277">
+			<Text>Этот туннель выводит на улицу, и вы оказываетесь снова перед выбором. Войти во вход:</Text>
+			<Options>
+				<Option Goto="59" Text="Справа"/>
+				<Option Goto="213" Text="Прямо"/>
+				<Option Goto="126" Text="Налево">
+					<Text>Или выпить «Увеличитель»...</Text>
+				</Option>
+				<Option Goto="182"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
