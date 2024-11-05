@@ -82,7 +82,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="9">
-			<Text>Вас, точно заправский асс-истребитель, атакует оса-одиночка. Сражайтесь.\n\nОса-одиночка.\n\nСила - 15 Мастерство - 15</Text>
+			<Text>Вас, точно заправский ас-истребитель, атакует оса-одиночка:</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Оса-одиночка" Skill="15" Strength="15"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="27" Text="Если вы с ней справились"/>
 			</Options>
