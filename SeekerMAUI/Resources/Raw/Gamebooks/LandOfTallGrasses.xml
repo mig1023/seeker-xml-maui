@@ -1391,7 +1391,14 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="199">
-			<Text>Первая личинка\n\nСила - 8 Мастерство - 6\n\nВторая личинка\n\nСила - 8 Мастерство - 8</Text>
+			<Actions>
+				<Fight>
+					<Enemies>
+						<Enemy Name="Первая личинка" Skill="6" Strength="8"/>
+						<Enemy Name="Вторая личинка" Skill="8" Strength="8"/>
+					</Enemies>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="175" Text="Если удалось победить их"/>
 			</Options>
