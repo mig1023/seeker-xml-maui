@@ -1,4 +1,5 @@
-﻿using SeekerMAUI.Gamebook.CreatureOfHavoc;
+﻿using SeekerMAUI.Game;
+using SeekerMAUI.Gamebook.CreatureOfHavoc;
 using System;
 
 namespace SeekerMAUI.Gamebook.LandOfTallGrasses
@@ -30,6 +31,26 @@ namespace SeekerMAUI.Gamebook.LandOfTallGrasses
                 enemies.Add($"{enemy.Name}\nмастерство {enemy.Skill}  сила {enemy.Strength}");
 
             return enemies;
+        }
+
+        public List<string> Luck()
+        {
+            var luck = new List<string> { "Проверка удачи:" };
+            var dice = Game.Dice.Roll();
+            luck.Add($"BOLD|BIG|Бросаем кубик: {Game.Dice.Symbol(dice)}");
+
+            if (dice >= Character.Protagonist.Luck)
+            {
+                luck.Add("Выпавшее значение больше или равно значению удачи!");
+                luck.Add("GOOD|BIG|BOLD|Вам повезло! :)");
+            }
+            else
+            {
+                luck.Add("Выпавшее значение меньше значения удачи!");
+                luck.Add("BAD|BIG|BOLD|Вам НЕ повезло! :(");
+            }
+
+            return luck;
         }
 
         private static bool NoMoreEnemies(List<Character> enemies) =>
