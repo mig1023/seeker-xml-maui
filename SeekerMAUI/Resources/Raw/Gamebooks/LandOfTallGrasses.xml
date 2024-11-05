@@ -793,7 +793,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="112">
-			<Text>Муравей-солдат\n\nСила - 13 Мастерство - 13</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Муравей-солдат" Skill="13" Strength="13"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="230" Text="Если вы победили"/>
 			</Options>
