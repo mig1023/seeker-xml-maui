@@ -1702,7 +1702,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="245">
-			<Text>Оса\n\nСила - 13 Мастерство - 15</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Оса" Skill="15" Strength="13"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="258" Text="Вы победили, что было так мало вероятно"/>
 			</Options>
