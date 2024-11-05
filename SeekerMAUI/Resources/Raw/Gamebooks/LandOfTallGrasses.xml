@@ -1553,7 +1553,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="223">
-			<Text>Медведка\n\nСила - 12 Мастерство - 12</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Медведка" Skill="12" Strength="12"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="40" Text="Вы победили, что было очень непросто"/>
 			</Options>
