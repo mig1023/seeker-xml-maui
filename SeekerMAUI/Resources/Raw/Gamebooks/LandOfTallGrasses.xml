@@ -328,6 +328,9 @@
 		</Paragraph>
 		<Paragraph No="42">
 			<Text>Прежде чем прыгать, проверьте свою удачу!</Text>
+			<Actions>
+				<Luck/>
+			</Actions>
 			<Options>
 				<Option Goto="206" Text="Вам повезло"/>
 				<Option Goto="128" Text="Нет">
