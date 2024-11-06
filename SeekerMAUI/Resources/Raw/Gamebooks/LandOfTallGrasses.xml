@@ -55,6 +55,9 @@
 			<Actions>
 				<Luck/>
 			</Actions>
+			<Modifications>
+				<Strength Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="78" Text="Вам повезло"/>
 				<Option Goto="77" Text="Нет"/>
