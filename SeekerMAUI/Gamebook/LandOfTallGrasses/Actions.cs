@@ -134,8 +134,11 @@ namespace SeekerMAUI.Gamebook.LandOfTallGrasses
 
                 if ((RoundsToWin > 0) && (RoundsToWin <= round))
                 {
+                    Character.Protagonist.Strength = 0;
+
                     fight.Add(String.Empty);
-                    fight.Add("BAD|Отведённые на победу раунды истекли.");
+                    fight.Add("BAD|Отведённые на победу раунды истекли...");
+                    fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
                     return fight;
                 }
 
