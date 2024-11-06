@@ -314,6 +314,9 @@
 		</Paragraph>
 		<Paragraph No="38">
 			<Text>Немного подумав и потерев ушибленное место (-1 сила), подбираете рюкзак и высыпавшиеся из карманов вещи. Делать нечего: нужно идти дальше и искать профессора.</Text>
+			<Modifications>
+				<Strength Value="-1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="225"/>
 			</Options>
