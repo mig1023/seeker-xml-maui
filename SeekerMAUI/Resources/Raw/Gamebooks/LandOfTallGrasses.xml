@@ -1339,6 +1339,9 @@
 		</Paragraph>
 		<Paragraph No="178">
 			<Text>Вы очень голодны и поэтому решаете поесть сами, а потом добывать еду для жука. Сев под листом какого-то растения, начинаете трапезу (+2 силы). Поев, идете на охоту.</Text>
+			<Modifications>
+				<Strength Value="2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="194"/>
 			</Options>
