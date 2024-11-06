@@ -111,6 +111,9 @@
 					<Enemy Name="Паук" Skill="13" Strength="13"/>
 				</Fight>
 			</Actions>
+			<Modifications>
+				<Skill Value="-3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="30" Text="Если победили"/>
 			</Options>
