@@ -1919,7 +1919,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="249">
-			<Text>Бросьте кубик.</Text>
+			<Actions>
+				<SimpleDice/>
+			</Actions>
 			<Options>
 				<Option Goto="93" Text="Если у вас выпало 4 и больше"/>
 				<Option Goto="171" Text="Если меньше четырех"/>
