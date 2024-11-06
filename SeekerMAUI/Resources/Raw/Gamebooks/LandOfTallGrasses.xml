@@ -184,7 +184,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="18">
-			<Text>Езда на строптивой гусенице утомила вас (-2 силы), и чтобы утолить голод и жажду, надо спешиться и отдохнуть.</Text>
+			<Texts>
+				<Text>Езда на строптивой гусенице утомила вас...</Text>
+				<Text Style="Small">-2 силы</Text>
+				<Text>...и чтобы утолить голод и жажду, надо спешиться и отдохнуть.</Text>
+			</Texts>
 			<Modifications>
 				<Strength Value="-2"/>
 			</Modifications>
