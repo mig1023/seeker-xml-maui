@@ -1789,6 +1789,9 @@
 		</Paragraph>
 		<Paragraph No="243">
 			<Text>Справившись с этим чудовищем, садитесь на выступающий из стены корень и отдыхаете некоторое время (+1 сила).</Text>
+			<Modifications>
+				<Strength Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="39"/>
 			</Options>
