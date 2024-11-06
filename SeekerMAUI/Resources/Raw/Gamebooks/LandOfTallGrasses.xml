@@ -1669,6 +1669,9 @@
 		</Paragraph>
 		<Paragraph No="226">
 			<Text>Сев под широкий лист подорожника, подкрепляетесь бутербродом с ветчиной и сыром, запивая все это крепким кофе из термоса (+2 силы).</Text>
+			<Modifications>
+				<Strength Value="2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="7"/>
 			</Options>
