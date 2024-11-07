@@ -6209,34 +6209,29 @@
 			<Text>Пистолет здесь обойдется вам в 4 экю, шпага — в 3, во столько же пули и порох на пять выстрелов, кинжал — в 2, лошадь — в 6. После этого вы едете дальше.</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ПИСТОЛЕТ</Head>
 					<Price>400</Price>
 					<Multiple/>
 					<Benefit Name="Pistols" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ШПАГА</Head>
 					<Price>300</Price>
 					<Multiple/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ПОРОХ И ПУЛИ на 5 выстрелов</Head>
 					<Price>300</Price>
 					<Multiple/>
 					<Benefit Name="BulletsAndGubpowder" Value="5"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>КИНЖАЛ</Head>
 					<Price>200</Price>
 					<Multiple/>
 					<Benefit Name="Daggers" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ЛОШАДЬ</Head>
 					<Price>600</Price>
 					<Multiple/>
