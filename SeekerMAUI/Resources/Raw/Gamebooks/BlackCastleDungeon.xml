@@ -10122,7 +10122,6 @@
 			</Texts>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Trigger>Banana</Trigger>
 					<Head>БАНАН</Head>
 					<Price>21</Price>
