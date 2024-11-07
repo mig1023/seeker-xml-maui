@@ -1231,34 +1231,29 @@
 			<Text>Если хотите что-нибудь купить или продать, то цены на рынке следующие:</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ЛОШАДЬ</Head>
 					<Price>500</Price>
 					<Multiple/>
 					<Benefit Name="Horses" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ПИСТОЛЕТ</Head>
 					<Price>300</Price>
 					<Multiple/>
 					<Benefit Name="Pistols" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ШПАГА</Head>
 					<Price>300</Price>
 					<Multiple/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>КИНЖАЛ</Head>
 					<Price>300</Price>
 					<Multiple/>
 					<Benefit Name="Daggers" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ПОРОХ И ПУЛИ на 3 выстрела</Head>
 					<Price>200</Price>
 					<Multiple/>
