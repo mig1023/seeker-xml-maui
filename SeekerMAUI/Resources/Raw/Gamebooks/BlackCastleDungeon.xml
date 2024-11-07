@@ -8017,28 +8017,24 @@
 			<Text>Вы не ошиблись – этот человек торговец, обосновавшийся в лесу не так давно. По его словам, опасностей вокруг нет никаких, все это сказки да слухи, распускаемые теми, кому хочется прослыть героями, побывав в самом обычном лесу. Он предлагает вам свои товары:</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ЯБЛОКО</Head>
 					<Price>1</Price>
 					<Benefit Name="Healing" Value="Съесть яблоко,2"/>
 					<Text>Добавит 2 ВЫНОСЛИВОСТЬ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>МАНДАРИН</Head>
 					<Price>2</Price>
 					<Benefit Name="Healing" Value="Съесть мандарин,3"/>
 					<Text>Добавит 3 ВЫНОСЛИВОСТИ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>АПЕЛЬСИН</Head>
 					<Price>1</Price>
 					<Benefit Name="Healing" Value="Съесть апельсин,2"/>
 					<Text>Добавит 2 ВЫНОСЛИВОСТЬ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Trigger>Banana</Trigger>
 					<Head>БАНАН</Head>
 					<Price>2</Price>
@@ -8046,14 +8042,12 @@
 					<Text>Добавит 3 ВЫНОСЛИВОСТИ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ГРУША</Head>
 					<Price>1</Price>
 					<Benefit Name="Healing" Value="Съесть грушу,2"/>
 					<Text>Добавит 2 ВЫНОСЛИВОСТИ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>МОЛОКО</Head>
 					<Price>2</Price>
 					<Benefit Name="Endurance" Value="4"/>
@@ -8074,28 +8068,24 @@
 					<Text>Кроме фруктов, у него еще есть:</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>СЫР</Head>
 					<Price>3</Price>
 					<Benefit Name="Healing" Value="Съесть сыр,4"/>
 					<Text>Добавит 4 ВЫНОСЛИВОСТИ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>КОЛБАСА</Head>
 					<Price>3</Price>
 					<Benefit Name="Healing" Value="Съесть колбасу,5"/>
 					<Text>Добавит 5 ВЫНОСЛИВОСТИ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ХЛЕБ</Head>
 					<Price>3</Price>
 					<Benefit Name="Healing" Value="Съесть хлеб,4"/>
 					<Text>Добавит 4 ВЫНОСЛИВОСТИ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>МЯСО</Head>
 					<Price>4</Price>
 					<Benefit Name="Healing" Value="Съесть мясо,6"/>
