@@ -4701,9 +4701,7 @@
 		<Paragraph No="562">
 			<Text>Проверьте свою ловкость.</Text>
 			<Actions>
-				<Skill>
-					<Button>Проверить ловкость</Button>
-				</Skill>
+				<Skill/>
 			</Actions>
 			<Options>
 				<Option Goto="282" Text="Успешно"/>
