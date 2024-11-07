@@ -1010,9 +1010,7 @@
 		<Paragraph No="119">
 			<Text>Что ж, рискните еще раз.</Text>
 			<Actions>
-				<GameOfDice>
-					<Button>Кинуть кубики</Button>
-				</GameOfDice>
+				<GameOfDice/>
 			</Actions>
 			<Options>
 				<Option Goto="311" Text="Выиграли"/>
