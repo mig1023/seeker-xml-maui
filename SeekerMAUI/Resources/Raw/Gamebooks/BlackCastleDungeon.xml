@@ -4101,7 +4101,6 @@
 			<Text>Крестьянин говорит, что и сам может вам продать еду, и приглашает к себе домой. Однако вы не решаетесь заходить в хату, и он выносит во двор то, что может предложить. Тут вас ожидает сразу два сюрприза. Во-первых, еда совсем не такая, какую вы ожидали встретить в деревне. Крестьянин принес:</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>АНАНАС</Head>
 					<Price>2</Price>
 					<Multiple/>
@@ -4109,7 +4108,6 @@
 					<Text>Добавит 3 ВЫНОСЛИВОСТЬ.</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Trigger>Banana</Trigger>
 					<Head>БАНАН</Head>
 					<Price>2</Price>
@@ -4118,34 +4116,28 @@
 					<Text>Добавит 2 ВЫНОСЛИВОСТИ.\n\nНо он притащил еще и кучу вещей, которые, как он считает, могут пригодиться в дороге.</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>КРАСИВЫЙ КУСОЧЕК ДЕРЕВА</Head>
 					<Price>1</Price>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Trigger>CurlyKey</Trigger>
 					<Head>ФИГУРНЫЙ КЛЮЧ</Head>
 					<Price>2</Price>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ПОПОНА ДЛЯ ЛОШАДИ</Head>
 					<Price>5</Price>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Trigger>PieceOfMetal</Trigger>
 					<Head>БЛЕСТЯЩИЙ КУСОК МЕТАЛЛА</Head>
 					<Price>3</Price>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>СДЕЛАННУЮ ИЗ ЗОЛОТА УСТРИЦУ</Head>
 					<Price>8</Price>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Trigger>SilverBracelet</Trigger>
 					<Head>СЕРЕБРЯНЫЙ БРАСЛЕТ</Head>
 					<Price>4</Price>
