@@ -339,13 +339,20 @@ namespace SeekerMAUI
                         StackLayout actionPlace = Output.Interface.ActionPlace();
 
                         foreach (View enemy in Output.Interface.Represent(action.Do(out _, "Representer")))
+                        {
                             actionPlace.Children.Add(enemy);
+                        }
 
                         if (!action.Type.Contains("-"))
                         {
-                            EventHandler actionClick = (object sender, EventArgs e) => Action_Click(action, actionPlace);
+                            EventHandler actionClick =
+                                (object sender, EventArgs e) => Action_Click(action, actionPlace);
+
                             bool enabled = action.IsButtonEnabled();
-                            actionPlace.Children.Add(Output.Buttons.Action(action.ButtonText(), actionClick, enabled));
+                            var name = action.ButtonText();
+                            var button = Output.Buttons.Action(name, actionClick, enabled);
+
+                            actionPlace.Children.Add(button);
                         }
                         else
                         {

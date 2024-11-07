@@ -57,7 +57,18 @@ namespace SeekerMAUI.Prototypes
                 return Button;
 
             Dictionary<string, string> texts = Data.Constants.ButtonText();
-            return texts.ContainsKey(Type) ? texts[Type] : String.Empty;
+
+            if (texts.ContainsKey(Type))
+                return texts[Type];
+
+            if (Type == "Get")
+            {
+                return (Price > 0 ? "Купить" : "Выбрать");
+            }
+            else
+            {
+                return String.Empty;
+            }
         }
                         
         public virtual List<string> Status() =>
