@@ -4557,9 +4557,7 @@
 		<Paragraph No="543">
 			<Text>Что ж, сыграйте еще партию.</Text>
 			<Actions>
-				<GameOfDice>
-					<Button>Кинуть кубики</Button>
-				</GameOfDice>
+				<GameOfDice/>
 			</Actions>
 			<Options>
 				<Option Goto="389" Text="Выиграете"/>
