@@ -29,7 +29,6 @@
 			<Luck>Проверить удачу</Luck>
 			<LuckRecovery>Восстановить 1 цифру удачи</LuckRecovery>
 			<LuckLose>Потерять 1 цифру удачи</LuckLose>
-			<Get>Выбрать</Get>
 			<DiceWounds>Испытать судьбу</DiceWounds>
 			<SimpleDice>Бросьте кубик</SimpleDice>
 			<SeaBattle>Морской бой</SeaBattle>
@@ -1282,88 +1281,75 @@
 			<Text>Обойдя весь рынок и прилично утомившись, вы присмотрели всего несколько вещей, которые, с одной стороны, могут быть по карману, а с другой, — полезны. Покупайте, что хотите, не забывая только о количестве денег.</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Пузырек</Head>
 					<Price>2</Price>
 					<Benefit Name="Trigger" Value="Пузырек с черной краской"/>
 					<Text>...с черной краской.</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Cтрела для лука</Head>
 					<Multiple/>
 					<Price>3</Price>
 					<Benefit Name="Arrows" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Рыбья кость на бронзовой цепочке</Head>
 					<Price>3</Price>
 					<Text>...продаваемая как амулет бога Юрайи.</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Моток самой обычной веревки</Head>
 					<Price>4</Price>
 					<Benefit Name="Trigger" Value="Моток веревки"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Сбор сушеных трав</Head>
 					<Price>4</Price>
 					<Benefit Name="Trigger" Value="Сбор сушеных трав"/>
 					<Text>...который может действовать как снотворное.</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Другой сбор</Head>
 					<Price>4</Price>
 					<Benefit Name="Trigger" Value="Сбор для пробуждения от чар"/>
 					<Text>...который якобы должен помочь пробудиться от чар.</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Маленький флакончик с жидкостью</Head>
 					<Price>4</Price>
 					<Benefit Name="Trigger" Value="Противоядие"/>
 					<Text>...преподносимой как противоядие от всех известных и неизвестных науке ядов.</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Листик неизвестного вам растения слэкш</Head>
 					<Price>5</Price>
 					<Benefit Name="Trigger" Value="Слэкш"/>
 					<Text>...который должен издавать протяжный стон, если воздух вокруг станет непригодным или опасным для дыхания.</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Защищающий от холода плащ</Head>
 					<Price>5</Price>
 					<Benefit Name="Trigger" Value="Защищающий от холода плащ"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Веточка орти</Head>
 					<Price>6</Price>
 					<Benefit Name="Trigger" Value="Веточка орти"/>
 					<Text>...уже упоминавшаяся ранее.</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Горшочек с гнилушками</Head>
 					<Price>6</Price>
 					<Benefit Name="Trigger" Value="Горшочек с гнилушками"/>
 					<Text>...который сможет при необходимости один раз осветить вам путь в темноте.</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Меч из отличного закаленного налья</Head>
 					<Price>9</Price>
 					<Benefit Name="Trigger" Value="Меч из отличного закаленного налья"/>
 					<Text>...который прибавит 1 к вашей МОЩНОСТИ удара.</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Кольчуга</Head>
 					<Price>9</Price>
 					<Benefit Name="Trigger" Value="Кольчуга"/>
