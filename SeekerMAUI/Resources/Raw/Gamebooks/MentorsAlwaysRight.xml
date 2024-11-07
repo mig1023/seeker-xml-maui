@@ -856,30 +856,25 @@
 			<Text>— Вы спасли мою жизнь, так что цены будут чисто символические, — приговаривает торговец, открывая короб. Ассортимент весьма пестрый, но вас могут заинтересовать следующие вещи:</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Фигурная серебряная чаша</Head>
 					<Triggers>Vessel</Triggers>
 					<Price>3</Price>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Расшитый золотыми нитями пояс</Head>
 					<Trigger>GoldEmbroideredBelt</Trigger>
 					<Price>5</Price>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Рубиновые серьги</Head>
 					<Price>3</Price>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Моток веревки</Head>
 					<Trigger>Rope</Trigger>
 					<Price>2</Price>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Бурдюк с водой (добавит 3 ЖИЗНИ)</Head>
 					<Price>4</Price>
 					<Text>Если у вас есть серебряный подсвечник, торговец может купить его у вас за три золотых:</Text>
