@@ -3482,38 +3482,32 @@
 			<Text>Прогуливаясь по базару, вы обнаруживаете следующие предметы, выставленные на продажу:</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Противогаз</Head>
 					<Price>15</Price>
 					<Trigger>Противогаз</Trigger>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Фонарик</Head>
 					<Price>8</Price>
 					<Trigger>Фонарик</Trigger>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Аптечка</Head>
 					<Price>8</Price>
 					<Trigger>Аптечка</Trigger>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Порция еды</Head>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Food" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Поляризационные очки</Head>
 					<Price>6</Price>
 					<Trigger>Поляризационные очки</Trigger>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Нейлоновая веревка</Head>
 					<Price>3</Price>
 					<Trigger>Веревка</Trigger>
