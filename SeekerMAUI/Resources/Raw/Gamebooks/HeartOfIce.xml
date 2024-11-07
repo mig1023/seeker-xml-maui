@@ -3835,26 +3835,22 @@
 			<Text>Изучив ассортимент товаров, выложенных на рыночных прилавках, вы торгуетесь, пока не удается согласовать следующие цены:</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Порция еды</Head>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Food" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Нейлоновая веревка</Head>
 					<Price>2</Price>
 					<Trigger>Веревка</Trigger>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Лампа</Head>
 					<Trigger>Лампа</Trigger>
 					<Price>3</Price>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>Аптечка</Head>
 					<Price>12</Price>
 					<Trigger>Аптечка</Trigger>
