@@ -1550,31 +1550,26 @@
 			</Texts>
 			<Actions>
 				<Get>
-					<Button>Добавить</Button>
 					<Head>СИЛА</Head>
 					<Stat>Strength</Stat>
 					<StatStep>2</StatStep>
 				</Get>
 				<Get>
-					<Button>Добавить</Button>
 					<Head>ЛОВКОСТЬ</Head>
 					<Stat>Skill</Stat>
 					<StatStep>2</StatStep>
 				</Get>
 				<Get>
-					<Button>Добавить</Button>
 					<Head>МУДРОСТЬ</Head>
 					<Stat>Wisdom</Stat>
 					<StatStep>2</StatStep>
 				</Get>
 				<Get>
-					<Button>Добавить</Button>
 					<Head>ХИТРОСТЬ</Head>
 					<Stat>Cunning</Stat>
 					<StatStep>2</StatStep>
 				</Get>
 				<Get>
-					<Button>Добавить</Button>
 					<Head>КРАСНОРЕЧИЕ</Head>
 					<Stat>Oratory</Stat>
 					<StatStep>2</StatStep>
