@@ -1466,33 +1466,28 @@
 			<Text>Торговые ряды предлагают на ваш выбор все, что только душе угодно. Если хотите купить один или несколько пистолетов, то каждый обойдется по 3 экю, шпага или кинжал два, пара прочных ботфорт — одно, пули и порох на 5 выстрелов — столько же.</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ПИСТОЛЕТ</Head>
 					<Price>300</Price>
 					<Multiple/>
 					<Benefit Name="Pistols" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ШПАГА</Head>
 					<Price>200</Price>
 					<Multiple/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>КИНЖАЛ</Head>
 					<Price>200</Price>
 					<Multiple/>
 					<Benefit Name="Daggers" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>БОТФОРТЫ</Head>
 					<Price>200</Price>
 					<Multiple/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ПОРОХ И ПУЛИ на 5 выстрелов</Head>
 					<Price>100</Price>
 					<Multiple/>
