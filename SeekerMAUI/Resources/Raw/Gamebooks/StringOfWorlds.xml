@@ -1997,9 +1997,7 @@
 		<Paragraph No="235">
 			<Text>Проверьте свою ловкость.</Text>
 			<Actions>
-				<Skill>
-					<Button>Проверить ловкость</Button>
-				</Skill>
+				<Skill/>
 			</Actions>
 			<Options>
 				<Option Goto="435" Text="Успешно"/>
