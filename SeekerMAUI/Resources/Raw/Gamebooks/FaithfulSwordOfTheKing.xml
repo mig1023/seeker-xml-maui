@@ -3354,34 +3354,29 @@
 			<Text>До Люберсака, стоящего на реке Везер, все обходится без приключений. В этом городке есть небольшой рынок, где вы можете пополнить свои запасы или, наоборот, что-то продать, если нужны деньги. Пистолет стоит 3 экю, шпага или кинжал — 2, пули и порох на 4 выстрела — одно, аркебуза — полтора. После этого стоит побыстрее отправиться дальше, чтобы засветло добраться до Лиможа.</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ПИСТОЛЕТ</Head>
 					<Price>300</Price>
 					<Multiple/>
 					<Benefit Name="Pistols" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ШПАГА</Head>
 					<Price>200</Price>
 					<Multiple/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>КИНЖАЛ</Head>
 					<Price>200</Price>
 					<Multiple/>
 					<Benefit Name="Daggers" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ПОРОХ И ПУЛИ на 4 выстрела</Head>
 					<Price>100</Price>
 					<Multiple/>
 					<Benefit Name="BulletsAndGubpowder" Value="4"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>АРКЕБУЗА</Head>
 					<Price>150</Price>
 					<Multiple/>
