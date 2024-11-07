@@ -5884,28 +5884,24 @@
 			<Text>Пистолет в Туре стоит два с половиной экю; порох и пули на каждые пять выстрелов — полтора экю, кинжал — 3, еда в дорогу — 2 экю за каждые 2 СИЛЫ.</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ПИСТОЛЕТ</Head>
 					<Price>250</Price>
 					<Multiple/>
 					<Benefit Name="Pistols" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ПОРОХ И ПУЛИ на 5 выстрелов</Head>
 					<Price>150</Price>
 					<Multiple/>
 					<Benefit Name="BulletsAndGubpowder" Value="5"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>КИНЖАЛ</Head>
 					<Price>300</Price>
 					<Multiple/>
 					<Benefit Name="Daggers" Value="1"/>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ЕДА В ДОРОГУ</Head>
 					<Price>200</Price>
 					<Multiple/>
