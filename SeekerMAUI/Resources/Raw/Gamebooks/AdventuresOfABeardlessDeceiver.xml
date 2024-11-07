@@ -763,27 +763,22 @@
 			</Texts>
 			<Actions>
 				<Get>
-					<Button>Добавить</Button>
 					<Head>СИЛА</Head>
 					<Stat>Strength</Stat>
 				</Get>
 				<Get>
-					<Button>Добавить</Button>
 					<Head>ЛОВКОСТЬ</Head>
 					<Stat>Skill</Stat>
 				</Get>
 				<Get>
-					<Button>Добавить</Button>
 					<Head>МУДРОСТЬ</Head>
 					<Stat>Wisdom</Stat>
 				</Get>
 				<Get>
-					<Button>Добавить</Button>
 					<Head>ХИТРОСТЬ</Head>
 					<Stat>Cunning</Stat>
 				</Get>
 				<Get>
-					<Button>Добавить</Button>
 					<Head>КРАСНОРЕЧИЕ</Head>
 					<Stat>Oratory</Stat>
 					<Text>Сердечно поблагодарив аксакалов, джигит покидает их юрту. В поисках ночлега Алдар спрашивает совета у охранников на входе, которые указывают ему на шатры для гостей праздника.</Text>
