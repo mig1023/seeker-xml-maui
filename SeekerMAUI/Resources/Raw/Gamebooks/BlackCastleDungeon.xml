@@ -1600,28 +1600,24 @@
 			<Text>Вы не ошиблись — этот человек торговец, обосновавшийся в лесу не так давно. По его словам, опасностей вокруг нет никаких, все это сказки да слухи, распускаемые теми, кому хочется прослыть героями, побывав в самом обычном лесу. Он предлагает вам свои товары:</Text>
 			<Actions>
 				<Get>
-					<Button>Купить</Button>
 					<Head>ЯБЛОКО</Head>
 					<Price>1</Price>
 					<Benefit Name="Healing" Value="Съесть яблоко,1"/>
 					<Text Style="Small">Добавит 1 ВЫНОСЛИВОСТЬ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>МАНДАРИН</Head>
 					<Price>2</Price>
 					<Benefit Name="Healing" Value="Съесть мандарин,2"/>
 					<Text Style="Small">Добавит 2 ВЫНОСЛИВОСТИ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>АПЕЛЬСИН</Head>
 					<Price>1</Price>
 					<Benefit Name="Healing" Value="Съесть апельсин,1"/>
 					<Text Style="Small">Добавит 1 ВЫНОСЛИВОСТЬ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Trigger>Banana</Trigger>
 					<Head>БАНАН</Head>
 					<Price>2</Price>
@@ -1629,7 +1625,6 @@
 					<Text Style="Small">Добавит 2 ВЫНОСЛИВОСТИ</Text>
 				</Get>
 				<Get>
-					<Button>Купить</Button>
 					<Head>МОЛОКО</Head>
 					<Price>2</Price>
 					<Benefit Name="Endurance" Value="3"/>
