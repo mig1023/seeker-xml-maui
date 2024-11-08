@@ -29,6 +29,7 @@
 		<Buttons>
 			<Fight>Сражаться</Fight>
 			<Luck>Проверить удачу</Luck>
+			<ThreeDice>Кинуть три кубика</ThreeDice>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -930,9 +931,7 @@
 				<Text>Затем киньте кубик 3 раза.</Text>
 			</Texts>
 			<Actions>
-				<ThreeDice>
-					<Button>Кинуть три кубика</Button>
-				</ThreeDice>
+				<ThreeDice/>
 			</Actions>
 			<Modifications>
 				<Endurance Value="-4"/>
