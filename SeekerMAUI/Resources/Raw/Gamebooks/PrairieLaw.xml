@@ -743,9 +743,7 @@
 		<Paragraph No="74">
 			<Text>Проверьте свое обаяние:</Text>
 			<Actions>
-				<Charm>
-					<Button>Проверить обаяние</Button>
-				</Charm>
+				<Charm/>
 			</Actions>
 			<Options>
 				<Option Goto="328" Text="Производите впечатление порядочного человека"/>
