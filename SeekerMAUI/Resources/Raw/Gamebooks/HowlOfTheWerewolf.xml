@@ -1819,9 +1819,7 @@
 		<Paragraph No="168">
 			<Text>Кто окажется сильнее?</Text>
 			<Actions>
-				<Transformation>
-					<Button>Узнать</Button>
-				</Transformation>
+				<Transformation/>
 			</Actions>
 			<Options>
 				<Option Goto="342" Text="Человек"/>
