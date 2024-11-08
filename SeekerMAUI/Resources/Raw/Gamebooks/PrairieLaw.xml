@@ -26,6 +26,7 @@
 			<LuckRecovery>Восстановить 1 цифру удачи</LuckRecovery>
 			<Charm>Проверить обаяние</Charm>
 			<Skill>Проверить ловкость</Skill>
+			<DiceGame>Бросить кубик</DiceGame>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -294,9 +295,7 @@
 		<Paragraph No="29">
 			<Text>Без особой охоты соглашаетесь вы сыграть – но только одну партию. Бросьте кубик:</Text>
 			<Actions>
-				<DiceGame>
-					<Button>Бросить кубик</Button>
-				</DiceGame>
+				<DiceGame/>
 			</Actions>
 			<Options>
 				<Option Goto="531" Text="Выпало четное число, вы выиграли"/>
