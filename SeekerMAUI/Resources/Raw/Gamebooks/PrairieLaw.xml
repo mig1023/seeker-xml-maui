@@ -325,7 +325,6 @@
 			</Texts>
 			<Actions>
 				<Get>
-					<Button>Заплатить</Button>
 					<Head>Два патрона</Head>
 					<Price>50</Price>
 					<Multiple/>
