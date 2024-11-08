@@ -4486,9 +4486,7 @@
 		<Paragraph No="427">
 			<Text>«Друг» — говорите вы, но человек и не думает опускать пистолет, вглядываясь вам в лицо. Кто окажется сильнее?</Text>
 			<Actions>
-				<Transformation>
-					<Button>Узнать</Button>
-				</Transformation>
+				<Transformation/>
 			</Actions>
 			<Options>
 				<Option Goto="506" Text="Человек"/>
