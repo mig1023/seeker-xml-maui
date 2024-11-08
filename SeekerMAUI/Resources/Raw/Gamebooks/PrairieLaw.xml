@@ -25,6 +25,7 @@
 			<Luck>Проверить удачу</Luck>
 			<LuckRecovery>Восстановить 1 цифру удачи</LuckRecovery>
 			<Charm>Проверить обаяние</Charm>
+			<Skill>Проверить ловкость</Skill>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -77,9 +78,7 @@
 		<Paragraph No="6">
 			<Text>Проверьте свою ловкость:</Text>
 			<Actions>
-				<Skill>
-					<Button>Проверить ловкость</Button>
-				</Skill>
+				<Skill/>
 			</Actions>
 			<Options>
 				<Option Goto="151" Text="Ловкости не хватило"/>
