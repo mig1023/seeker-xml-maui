@@ -549,9 +549,7 @@
 		<Paragraph No="50">
 			<Text>Проверьте свое обаяние:</Text>
 			<Actions>
-				<Charm>
-					<Button>Проверить обаяние</Button>
-				</Charm>
+				<Charm/>
 			</Actions>
 			<Options>
 				<Option Goto="340" Text="Клятва прозвучала достаточно убедительно"/>
