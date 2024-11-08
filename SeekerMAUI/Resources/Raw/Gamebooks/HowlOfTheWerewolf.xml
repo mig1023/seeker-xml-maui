@@ -2488,9 +2488,7 @@
 					<Specificity>StoneGriffin</Specificity>
 					<Text>Статуя сделана из прочного камня, поэтому каждый удачный ваш удар отнимет у него на 1 Выносливость меньше. Победив каменного стража, снова подходите к зеркалу. Проверьте свое Мастерство:</Text>
 				</Fight>
-				<Mastery>
-					<Button>Проверить мастерство</Button>
-				</Mastery>
+				<Mastery/>
 			</Actions>
 			<Modifications>
 				<Anxiety Value="1"/>
