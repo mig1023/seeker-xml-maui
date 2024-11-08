@@ -26,6 +26,7 @@
 			<Luck>Проверить удачу</Luck>
 			<Skill>Проверить ловкость</Skill>
 			<DiceWound>Стрельба</DiceWound>
+			<FortunetellersAmbush>Кинуть кубики</FortunetellersAmbush>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -2451,9 +2452,7 @@
 		<Paragraph No="259">
 			<Text>Женщина быстро выкрикивает какую-то команду, и из последней повозки выглядывает человек с двумя пистолетами в руках. Звучат выстрелы. Киньте кубик два раза и сложите выпавшие числа:</Text>
 			<Actions>
-				<FortunetellersAmbush>
-					<Button>Кинуть кубики</Button>
-				</FortunetellersAmbush>
+				<FortunetellersAmbush/>
 			</Actions>
 			<Options>
 				<Option Goto="182" Text="Получилось четное число"/>
