@@ -24,6 +24,7 @@
 		<Buttons>
 			<Fight>Сражаться</Fight>
 			<Luck>Проверить удачу</Luck>
+			<Skill>Проверить ловкость</Skill>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -1655,9 +1656,7 @@
 		<Paragraph No="174">
 			<Text>Киньте кубик дважды. Сумма выпавших чисел больше вашей ЛОВКОСТИ?</Text>
 			<Actions>
-				<Skill>
-					<Button>Проверить ловкость</Button>
-				</Skill>
+				<Skill/>
 			</Actions>
 			<Options>
 				<Option Goto="430" Text="Ловкости хватило"/>
