@@ -3712,9 +3712,7 @@
 		<Paragraph No="420">
 			<Text>Сумеете ли вы убедительно солгать?</Text>
 			<Actions>
-				<Charm>
-					<Button>Проверить обаяние</Button>
-				</Charm>
+				<Charm/>
 			</Actions>
 			<Options>
 				<Option Goto="520" Text="Вам удалось обмануть эту женщину, явно неглупую и наблюдательную"/>
