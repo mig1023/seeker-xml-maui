@@ -24,6 +24,7 @@
 			<Fight>Сражаться</Fight>
 			<Luck>Проверить удачу</Luck>
 			<LuckRecovery>Восстановить 1 цифру удачи</LuckRecovery>
+			<Charm>Проверить обаяние</Charm>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -47,9 +48,7 @@
 		<Paragraph No="2">
 			<Text>Проверьте свое обаяние:</Text>
 			<Actions>
-				<Charm>
-					<Button>Проверить обаяние</Button>
-				</Charm>
+				<Charm/>
 			</Actions>
 			<Options>
 				<Option Goto="441" Text="Оно не подвело вас"/>
