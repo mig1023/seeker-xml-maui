@@ -27,6 +27,7 @@
 			<Skill>Проверить ловкость</Skill>
 			<DiceWound>Стрельба</DiceWound>
 			<FortunetellersAmbush>Кинуть кубики</FortunetellersAmbush>
+			<DicesDoubles>Проверить на дубли</DicesDoubles>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -2904,9 +2905,7 @@
 		<Paragraph No="303">
 			<Text>Выхватив шпагу, перерубаете пополам змею, обвившую ногу Арбалета. Остаются еще две. Киньте за каждую из них кубик два раза...</Text>
 			<Actions>
-				<DicesDoubles>
-					<Button>Проверить на дубли</Button>
-				</DicesDoubles>
+				<DicesDoubles/>
 			</Actions>
 			<Options>
 				<Option Goto="644" Text="Выпали одинаковые числа"/>
