@@ -1703,9 +1703,7 @@
 		<Paragraph No="186">
 			<Text>Вы прицеливаетесь на всем скаку...</Text>
 			<Actions>
-				<Skill>
-					<Button>Проверить ловкость</Button>
-				</Skill>
+				<Skill/>
 			</Actions>
 			<Options>
 				<Option Goto="631" Text="Ловкости не хватило"/>
