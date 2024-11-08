@@ -895,9 +895,7 @@
 		<Paragraph No="77">
 			<Text>Не зная, что делать с жезлом, вы швыряете его в монстра, как копье. Проверьте свое Мастерство:</Text>
 			<Actions>
-				<Mastery>
-					<Button>Проверить мастерство</Button>
-				</Mastery>
+				<Mastery/>
 			</Actions>
 			<Options>
 				<Option Goto="22" Text="Вам удалось попасть"/>
