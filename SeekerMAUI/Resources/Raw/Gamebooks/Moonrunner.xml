@@ -30,7 +30,7 @@
 			<Fight>Сражаться</Fight>
 			<Luck>Проверить удачу</Luck>
 			<ThreeDice>Кинуть три кубика</ThreeDice>
-			<DiceWounds>Кинуть кубик</DiceWounds>
+			<Button Action="DiceWounds, SpellsDice">Кинуть кубик</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -2270,7 +2270,6 @@
 			<Text>Выпавшее на кубике число покажет заклинание, которое он на вас направит. На столько же уменьшится его магическая Сила Нотуры.</Text>
 			<Actions>
 				<SpellsDice>
-					<Button>Кинуть кубик</Button>
 					<Text>Если выпадет заклинание, на которое не хватит силы или которое уже было, киньте кубик снова. И так, пока магическая сила не уменьшится до нуля.\n\nЗаклинания:</Text>
 				</SpellsDice>
 			</Actions>
