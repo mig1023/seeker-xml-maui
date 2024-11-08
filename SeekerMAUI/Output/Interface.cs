@@ -375,7 +375,8 @@ namespace SeekerMAUI.Output
                 Spacing = Constants.ACTIONPLACE_SPACING,
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 Padding = Constants.ACTIONPLACE_PADDING,
-                BackgroundColor = Colors.LightGray
+                BackgroundColor = Colors.LightGray,
+                Margin = new Thickness(0, 5, 0, 5),
             };
 
             if (ColorFormConstants(ColorTypes.ActionBox, out string color))
