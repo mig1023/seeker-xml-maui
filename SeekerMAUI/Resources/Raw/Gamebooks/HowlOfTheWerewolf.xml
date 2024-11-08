@@ -36,6 +36,7 @@
 			<WolfFight>Сражаться с волками</WolfFight>
 			<Luck>Проверить удачу</Luck>
 			<Transformation>Узнать</Transformation>
+			<Mastery>Проверить мастерство</Mastery>
 			<Button Action="Dice, DiceGold, DiceAnxiety, DiceWounds, DicesRestore, DicesEndurance">Кинуть кубик</Button>
 		</Buttons>
 	</Introduction>
@@ -503,9 +504,7 @@
 		<Paragraph No="42">
 			<Text>...и вот вы стоите рядом с раскачивающимся, острым как бритва лезвием. Нужно успокоиться, потом выбрать верный, единственно верный момент и прыгнуть вперед. Проверьте свое Мастерство.</Text>
 			<Actions>
-				<Mastery>
-					<Button>Проверить мастерство</Button>
-				</Mastery>
+				<Mastery/>
 			</Actions>
 			<Options>
 				<Option Goto="208" Text="Все в порядке"/>
