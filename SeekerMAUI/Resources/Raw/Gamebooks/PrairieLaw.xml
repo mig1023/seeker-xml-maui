@@ -30,6 +30,7 @@
 			<SellNuggets>Продать самородки</SellNuggets>
 			<DiceWounds>Кинуть кубик</DiceWounds>
 			<RedOrBlackGame>Поставить на красное или на чёрное</RedOrBlackGame>
+			<DoubleGame>Поставить на цифры</DoubleGame>
 			<Button Action="DiceGame, DiceLtlGame">Бросить кубик</Button>
 		</Buttons>
 	</Introduction>
@@ -2195,7 +2196,6 @@
 					<Text>Ставка на цифру рискованнее. Вы ставите доллар и бросаете кубик дважды. Если выпадут одинаковые цифры, ставка возвращается к вам увеличенной в пять раз; если разные – вы проигрываете.</Text>
 				</RedOrBlackGame>
 				<DoubleGame>
-					<Button>Поставить на цифры</Button>
 					<Roulette/>
 					<Text>Играть можно только на наличные, в долг здесь не верят.</Text>
 				</DoubleGame>
