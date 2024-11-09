@@ -2052,8 +2052,8 @@
 				<Luck/>
 			</Actions>
 			<Options>
-				<Option Goto="232" Text="Удача с вами"/>
-				<Option Goto="217" Text="Удача, капризно надув губы, повернулась спиной"/>
+				<Option Goto="232" Text="Удача с вами" Tag="Win"/>
+				<Option Goto="217" Text="Удача, капризно надув губы, повернулась спиной" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="267">
