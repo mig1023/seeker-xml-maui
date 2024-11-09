@@ -8136,8 +8136,8 @@
 				<Test Success="Adventurism: +1; Heroism: +5; Inspiration: +5; Вы поразили врага насмерть!" Fail="Противник сумел-таки отразить Ваш сложнейший выпад!"/>
 			</Actions>
 			<Options>			
-				<Option Goto="770" Text="Если Вы выдержали проверку"/>
-				<Option Goto="800" Text="Если же нет - возвращайтесь и испытайте судьбу снова"/>
+				<Option Goto="770" Text="Если Вы выдержали проверку" Tag="Win"/>
+				<Option Goto="800" Text="Если же нет - возвращайтесь и испытайте судьбу снова" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="806">
