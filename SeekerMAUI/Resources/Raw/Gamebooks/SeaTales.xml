@@ -7399,8 +7399,8 @@
 				<Test Success="Вы сумели продержаться до прихода своих. А когда они оттеснили пиратов, прерванная дуэль продолжилась!"/>
 			</Actions>
 			<Options>
-				<Option Goto="800" Text="Всё успешно"/>
-				<Option Goto="720" Text="Нет"/>
+				<Option Goto="800" Text="Всё успешно" Tag="Win"/>
+				<Option Goto="720" Text="Нет" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="742">
