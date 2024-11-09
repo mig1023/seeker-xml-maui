@@ -7641,8 +7641,8 @@
 				<Test Success="Adventurism: +2; Heroism: +15; Inspiration: +15; В скором времени Ваша команда одерживает верх, и последний сопротивляющийся флибустьер падает замертво!" Fail="Эти пираты оказались не так-то просты!"/>
 			</Actions>
 			<Options>
-				<Option Goto="660" Text="Всё хорошо"/>
-				<Option Goto="760" Text="Если же нет"/>
+				<Option Goto="660" Text="Всё хорошо" Tag="Win"/>
+				<Option Goto="760" Text="Если же нет" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="767">
