@@ -9085,8 +9085,8 @@
 				<Redirect/>
 			</Modifications>
 			<Options>
-				<Option Goto="926" Text="Всё путём"/>
-				<Option Goto="1160" Text="Не хотите её проходить"/>
+				<Option Goto="926" Text="Всё путём" Tag="Win"/>
+				<Option Goto="1160" Text="Не хотите её проходить" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="877">
