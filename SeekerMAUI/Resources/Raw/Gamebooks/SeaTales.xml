@@ -8067,8 +8067,8 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="808" Text="Всё хорошо"/>
-				<Option Goto="820" Text="Не очень..."/>
+				<Option Goto="808" Text="Всё хорошо" Tag="Win"/>
+				<Option Goto="820" Text="Не очень..." Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="799">
