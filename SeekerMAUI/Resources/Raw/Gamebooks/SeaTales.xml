@@ -9275,8 +9275,8 @@
 		<Paragraph No="891">
 			<Text>Жуткий круговорот! Спасайтесь!</Text>
 			<Options>
-				<Option Goto="659" Text="Всё плохо"/>
-				<Option Goto="1141" Text="Всё хорошо"/>
+				<Option Goto="659" Text="Всё плохо" Tag="Win"/>
+				<Option Goto="1141" Text="Всё хорошо" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="892">
