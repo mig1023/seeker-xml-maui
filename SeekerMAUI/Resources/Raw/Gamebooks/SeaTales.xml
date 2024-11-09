@@ -8786,8 +8786,8 @@
 				<Redirect/>
 			</Modifications>
 			<Options>
-				<Option Goto="1269" Text="Всё прошло удачно"/>
-				<Option Goto="962" Text="Не очень..."/>
+				<Option Goto="1269" Text="Всё прошло удачно" Tag="Win"/>
+				<Option Goto="962" Text="Не очень..." Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="853">
