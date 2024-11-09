@@ -14,10 +14,6 @@ namespace SeekerMAUI.Gamebook.SeaTales
 
         public static Dictionary<string, string> Properties { get; set; }
 
-        public static List<string> SuccessButtons { get; set; }
-
-        public static List<string> FailButtons { get; set; }
-
         public static Dictionary<int, string> GetRangeTypes { get; set; }
 
         public static Dictionary<int, string> GetBattleTypes { get; set; }

@@ -184,14 +184,14 @@ namespace SeekerMAUI.Gamebook.SeaTales.Parts
                 test.Add("BIG|GOOD|BOLD|Проверка УСПЕШНО пройдена! :)");
                 AdditionalEffects(action, ref test, action.Success, good: true);
 
-                Game.Buttons.Disable(String.Join(",", Constants.FailButtons));
+                Game.Buttons.Disable("Fail");
             }
             else
             {
                 test.Add("BIG|BAD|BOLD|Проверка ПРОВАЛЕНА :(");
                 AdditionalEffects(action, ref test, action.Fail, good: false);
 
-                Game.Buttons.Disable(String.Join(",", Constants.SuccessButtons));
+                Game.Buttons.Disable("Win");
             }
 
             return test;
