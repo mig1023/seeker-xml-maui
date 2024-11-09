@@ -73,6 +73,7 @@ namespace SeekerMAUI.Output
                 FontSize = Interface.Font(NamedSize.Default),
                 IsVisible = String.IsNullOrEmpty(option.Input),
                 LineBreakMode = LineBreakMode.WordWrap,
+                BindingContext = option.Tag,
             };
 
             if (optionButton.IsEnabled)

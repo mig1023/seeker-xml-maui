@@ -15,6 +15,7 @@ namespace SeekerMAUI.Game
         public string Input { get; set; }
         public string Style { get; set; }
         public string Image { get; set; }
+        public string Tag { get; set; }
 
         public List<Abstract.IModification> Do { get; set; }
 

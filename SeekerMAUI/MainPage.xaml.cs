@@ -55,7 +55,11 @@ namespace SeekerMAUI
 
             Button button = option as Button;
 
-            if (button.Text.ToUpper() == name.ToUpper())
+            var tag = button.BindingContext as string;
+            var disabledByTag = tag.ToUpper() == name.ToUpper();
+            var disabledByText = button.Text.ToUpper() == name.ToUpper();
+
+            if (disabledByTag || disabledByText)
             {
                 button.IsEnabled = false;
                 button.BackgroundColor = Colors.Gray;

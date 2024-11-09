@@ -177,6 +177,7 @@ namespace SeekerMAUI.Prototypes
             Aftertexts = TextsParse(xmlOption),
             Style = Xml.StringParse(xmlOption.Attributes["Style"]),
             Image = Xml.ImageParse(xmlOption.Attributes["Image"]),
+            Tag = Xml.StringParse(xmlOption.Attributes["Tag"]),
             Do = new List<Abstract.IModification>(),
         };
             
