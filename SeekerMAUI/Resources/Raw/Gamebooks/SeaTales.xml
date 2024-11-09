@@ -11150,8 +11150,8 @@
 				<Travel Value="1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="818" Text="Всё успешно"/>
-				<Option Goto="962" Text="Нет"/>
+				<Option Goto="818" Text="Всё успешно" Tag="Win"/>
+				<Option Goto="962" Text="Нет" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1025">
