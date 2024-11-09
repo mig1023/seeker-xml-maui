@@ -1155,10 +1155,10 @@
 				<Luck/>
 			</Actions>
 			<Options>
-				<Option Goto="51" Text="Если удачливы">
+				<Option Goto="51" Text="Если удачливы" Tag="Win">
 					<Text>Если нет, то жужелица полакомится довольно необычным для нее блюдом...</Text>
 				</Option>
-				<Gameover/>
+				<Gameover Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="148">
