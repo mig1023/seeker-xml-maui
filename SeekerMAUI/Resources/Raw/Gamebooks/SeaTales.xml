@@ -11072,8 +11072,8 @@
 				<Inspiration Value="5"/>
 			</Modifications>
 			<Options>
-				<Option Goto="989" Text="Если победил Ваш фаворит"/>
-				<Option Goto="867" Text="А если нет..."/>
+				<Option Goto="989" Text="Если победил Ваш фаворит" Tag="Win"/>
+				<Option Goto="867" Text="А если нет..." Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1020">
