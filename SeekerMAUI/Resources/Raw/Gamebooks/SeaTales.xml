@@ -13142,8 +13142,8 @@
 				<Redirect/>
 			</Modifications>
 			<Options>
-				<Option Goto="1439" Text="Всё успешно"/>
-				<Option Goto="878" Text="Не очень..."/>
+				<Option Goto="1439" Text="Всё успешно" Tag="Win"/>
+				<Option Goto="878" Text="Не очень..." Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1176">
