@@ -6950,8 +6950,8 @@
 				<Test Success="Adventurism: +1; Heroism: +5; Inspiration: +5"/>
 			</Actions>
 			<Options>
-				<Option Goto="809" Text="Если она успешна"/>
-				<Option Goto="701" Text="Если нет - неприятель задал Вашим людям перцу и придётся ещё повоевать... Возвращайтесь и испытайте судьбу снова!"/>
+				<Option Goto="809" Text="Если она успешна" Tag="Win"/>
+				<Option Goto="701" Text="Если нет - неприятель задал Вашим людям перцу и придётся ещё повоевать... Возвращайтесь и испытайте судьбу снова!" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="703">
