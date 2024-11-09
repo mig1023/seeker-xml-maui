@@ -374,8 +374,8 @@
 				<Luck/>
 			</Actions>
 			<Options>
-				<Option Goto="206" Text="Вам повезло"/>
-				<Option Goto="128" Text="Нет">
+				<Option Goto="206" Text="Вам повезло" Tag="Win"/>
+				<Option Goto="128" Text="Нет" Tag="Fail">
 					<Text>Но помните, что удача - барышня капризная и в последний момент может выбросить такой фортель, что. Ну, вы сами на своей дубленой шкуре не раз это испытывали.</Text>
 				</Option>
 			</Options>
