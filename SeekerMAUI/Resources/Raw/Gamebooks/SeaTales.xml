@@ -10834,8 +10834,8 @@
 				<Redirect/>
 			</Modifications>
 			<Options>
-				<Option Goto="1395" Text="Всё хорошо"/>
-				<Option Goto="965" Text="Нет"/>
+				<Option Goto="1395" Text="Всё хорошо" Tag="Win"/>
+				<Option Goto="965" Text="Нет" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1003">
