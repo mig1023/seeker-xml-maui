@@ -6846,8 +6846,8 @@
 				<Redirect/>
 			</Modifications>
 			<Options>
-				<Option Goto="690" Text="Если проверка пройдена - то возвращайтесь и испытайте судьбу снова!"/>
-				<Option Goto="1160" Text="Если же нет..."/>
+				<Option Goto="690" Text="Если проверка пройдена - то возвращайтесь и испытайте судьбу снова!" Tag="Win"/>
+				<Option Goto="1160" Text="Если же нет..." Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="693">
