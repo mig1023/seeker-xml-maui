@@ -7242,8 +7242,8 @@
 				<Test Success="Артиллерийский залп серьёзно ранил Дагона!" Fail="Adventurism: +1; Heroism: +5; Inspiration: +5; Вы ранили его, но не так сильно, как хотелось бы..."/>
 			</Actions>
 			<Options>
-				<Option Goto="767" Text="Если она успешна"/>
-				<Option Goto="721" Text="Если же нет - возвращайтесь и испытайте судьбу снова"/>
+				<Option Goto="767" Text="Если она успешна" Tag="Win"/>
+				<Option Goto="721" Text="Если же нет - возвращайтесь и испытайте судьбу снова" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="727">
