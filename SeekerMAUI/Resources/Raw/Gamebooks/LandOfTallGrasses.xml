@@ -1169,7 +1169,7 @@
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="239" Text="Вы побеждили жужелицу"/>
+				<Option Goto="239" Text="Вы победили жужелицу"/>
 				<Option Goto="147" Text="Вы были ранены хоть раз"/>
 			</Options>
 		</Paragraph>
