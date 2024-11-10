@@ -99,14 +99,24 @@ namespace SeekerMAUI.Output
             Label discliamerText = new Label
             {
                 Text = text,
-                Margin = (bold ? new Thickness(5, 5, 5, 0) : new Thickness(5, 0, 5, 5)),
             };
 
             if (bold)
+            {
                 discliamerText.FontAttributes = FontAttributes.Bold;
+                discliamerText.Margin = new Thickness(5, 5, 5, 0);
+                discliamerText.TextColor = Colors.Black;
+            }
+            else
+            {
+                discliamerText.Margin = new Thickness(5);
+                discliamerText.TextColor = Colors.Gray;
+            }
 
             if (little)
+            {
                 discliamerText.FontSize = Interface.Font(NamedSize.Micro);
+            }
 
             return LinkedElement(discliamerText, click);
         }
