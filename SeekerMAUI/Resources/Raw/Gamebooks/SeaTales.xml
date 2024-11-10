@@ -15889,8 +15889,8 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="1419" Text="Всё хорошо"/>
-				<Option Goto="878" Text="Нет"/>
+				<Option Goto="1419" Text="Всё хорошо" Tag="Win"/>
+				<Option Goto="878" Text="Нет" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1413">
