@@ -15,7 +15,7 @@ namespace SeekerMAUI.Output
         public static string BOOKMARK_SAVE_HOLDER = "Название закладки";
         public static string BOOKMARK_LOAD_HEAD = "Вернуться к закладке:";
         public static string BOOKMARK_REMOVE = "X";
-        public static string DISCLAIMER_LINK = "➝ подробнее";
+        public static string DISCLAIMER_LINK = " ➝ подробнее";
         public static string DISCLAIMER_LINK_OPENED = "⤵";
 
         public static Color BACKGROUND = Color.FromHex("#f7f7f7");
