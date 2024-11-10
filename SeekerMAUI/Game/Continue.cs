@@ -26,7 +26,7 @@ namespace SeekerMAUI.Game
         public static bool IsGameSaved()
         {
             string value = Preferences.Default.Get(Data.CurrentGamebook, String.Empty);
-            return String.IsNullOrEmpty(value);
+            return !String.IsNullOrEmpty(value);
         }
 
         public static void SaveCurrentGame() =>
