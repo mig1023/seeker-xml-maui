@@ -208,16 +208,19 @@ namespace SeekerMAUI
 
             Text.Children.Add(Output.Interface.Text(errMessage));
 
-            Options.Children.Add(Output.Buttons.ClosePage((s, arg) => Gamebooks(toMain: true)));
+            Options.Children.Add(Output.Buttons.ClosePage(
+                (s, arg) => Gamebooks(toMain: true)));
         }
 
         private async void Speach(string text)
         {
-            List<string> lines = text.Split(new string[] { "\\n\\n" }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            List<string> lines = text.Split(new string[] { "\\n\\n" },
+                StringSplitOptions.RemoveEmptyEntries).ToList();
 
             foreach (string line in lines)
             {
-                List<string> phrases = line.Split(new string[] { "." }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                List<string> phrases = line.Split(new string[] { "." },
+                    StringSplitOptions.RemoveEmptyEntries).ToList();
 
                 foreach (string phrase in phrases)
                     await TextToSpeech.SpeakAsync(phrase.Trim());
