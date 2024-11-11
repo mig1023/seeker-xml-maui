@@ -42,11 +42,46 @@ namespace SeekerMAUI
             UpdateStatus();
 
             if (toMain)
-                ScrollToTop();
+                ScrollToTop(true);
         }
 
-        private void ScrollToTop() =>
-            MainScroll.ScrollToAsync(MainScroll, ScrollToPosition.Start, !Game.Settings.IsEnabled("WithoutScrolling"));
+        private Object FindByStyleId(string name)
+        {
+            var elements = this.GetVisualTreeDescendants().OfType<Element>().ToList();
+
+            foreach (Element element in elements)
+            {
+                if (!(element is Image))
+                    continue;
+
+                var styleId = element.StyleId.ToString();               
+
+                if (styleId == name)
+                    return element;
+            }
+
+            return null;
+        }
+
+        private void ScrollToTop(bool mainPage = false)
+        {
+            Element scrollTo = MainScroll;
+
+            if (mainPage && !String.IsNullOrEmpty(Game.Data.CurrentGamebook))
+            {
+                var image = $"cover{Game.Data.CurrentGamebook}.jpg";
+                Element element = FindByStyleId(image) as Element;
+
+                if (element != null)
+                {
+                    scrollTo = element;
+                }
+            }
+
+            MainScroll.ScrollToAsync(scrollTo, ScrollToPosition.Start,
+                !Game.Settings.IsEnabled("WithoutScrolling"));
+        }
+            
 
         private void DisableOptionByName(View option, string name)
         {

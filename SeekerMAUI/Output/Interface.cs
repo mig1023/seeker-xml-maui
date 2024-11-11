@@ -21,6 +21,7 @@ namespace SeekerMAUI.Output
 
         public static Image GamebookImage(Description gamebookDescr) => new Image
         {
+            StyleId = "cover" + gamebookDescr.Illustration, 
             Source = "Cover/" + gamebookDescr.Illustration,
             Aspect = Aspect.AspectFill,
         };
