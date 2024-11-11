@@ -561,13 +561,13 @@ namespace SeekerMAUI
         {
             StackLayout systemLayout = Output.Interface.SystemMenu();
 
-            systemLayout.Children.Add(Output.Buttons.System("Выйти",
+            systemLayout.Children.Add(Output.Buttons.System("ВЫЙТИ",
                 (object sender, EventArgs e) => System.Diagnostics.Process.GetCurrentProcess().Kill()));
 
-            systemLayout.Children.Add(Output.Buttons.System("Закладки",
+            systemLayout.Children.Add(Output.Buttons.System("ЗАКЛАДКИ",
                 (object sender, EventArgs e) => this.Bookmarks_Click()));
 
-            systemLayout.Children.Add(Output.Buttons.System("На главную",
+            systemLayout.Children.Add(Output.Buttons.System("НА ГЛАВНУЮ",
                 (object sender, EventArgs e) => this.Gamebooks(toMain: true)));
 
             return systemLayout;
