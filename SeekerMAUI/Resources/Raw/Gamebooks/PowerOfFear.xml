@@ -1007,8 +1007,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="91" Text="Проверка удачна"/>
-				<Option Goto="169" Text="Удача от вас отвернулась"/>
+				<Option Goto="91" Text="Проверка удачна" Tag="Win"/>
+				<Option Goto="169" Text="Удача от вас отвернулась" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="105">
