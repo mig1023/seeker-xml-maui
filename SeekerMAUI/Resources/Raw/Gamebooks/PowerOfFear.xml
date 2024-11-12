@@ -1714,8 +1714,8 @@
 				<Hitpoints Value="-2"/>
 			</Modifications>
 			<Options>
-				<Option Goto="52" Text="Проверка удачна" Availability="Knowledge"/>
-				<Option Goto="202" Text="Проверка неудачна" Availability="Knowledge"/>
+				<Option Goto="52" Text="Проверка удачна" Availability="Knowledge" Tag="Win"/>
+				<Option Goto="202" Text="Проверка неудачна" Availability="Knowledge" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="177">
