@@ -7097,8 +7097,8 @@
 				<Coin/>
 			</Actions>
 			<Options>
-				<Option Goto="1120" Text="Если выпал орел - иди налево"/>
-				<Option Goto="1180" Text="Если выпала решка - иди направо"/>
+				<Option Goto="1120" Text="Если выпал орел - иди налево" Tag="Head"/>
+				<Option Goto="1180" Text="Если выпала решка - иди направо" Tag="Tail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1124">
