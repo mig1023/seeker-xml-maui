@@ -2020,8 +2020,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="212" Text="Проверка удачна" Availability="Agility"/>
-				<Option Goto="215" Text="Проверка неудачна" Availability="Agility"/>
+				<Option Goto="212" Text="Проверка удачна" Availability="Agility" Tag="Win"/>
+				<Option Goto="215" Text="Проверка неудачна" Availability="Agility" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="211">
