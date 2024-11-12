@@ -5637,8 +5637,8 @@
 				<Coin/>
 			</Actions>
 			<Options>
-				<Option Goto="908" Text="Выпал «орёл» - нажимай на кнопку «Стоп»"/>
-				<Option Goto="846" Text="Выпала «решка» - нажми на кнопку «План Б»"/>
+				<Option Goto="908" Text="Выпал «орёл» - нажимай на кнопку «Стоп»" Tag="Head"/>
+				<Option Goto="846" Text="Выпала «решка» - нажми на кнопку «План Б»" Tag="Tail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="892">
