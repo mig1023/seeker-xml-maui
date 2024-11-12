@@ -2178,8 +2178,8 @@
 				<Hitpoints Value="-1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="222" Text="Вам повезло" Availability="Luck"/>
-				<Option Goto="62" Text="Проверка неудачна" Availability="Luck"/>
+				<Option Goto="222" Text="Вам повезло" Availability="Luck" Tag="Win"/>
+				<Option Goto="62" Text="Проверка неудачна" Availability="Luck" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="229">
