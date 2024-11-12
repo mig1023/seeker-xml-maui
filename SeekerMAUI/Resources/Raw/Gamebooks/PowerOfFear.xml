@@ -422,8 +422,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="28" Text="Вам повезло"/>
-				<Option Goto="69" Text="Удача от вас отвернулась"/>
+				<Option Goto="28" Text="Вам повезло" Tag="Win"/>
+				<Option Goto="69" Text="Удача от вас отвернулась" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="42">
