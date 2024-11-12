@@ -5145,8 +5145,8 @@
 				<Arrows Value="-1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="104" Text="Удачливы"/>
-				<Option Goto="328" Text="Вы промахнулись, и остается только уехать прочь"/>
+				<Option Goto="104" Text="Удачливы" Tag="Win"/>
+				<Option Goto="328" Text="Вы промахнулись, и остается только уехать прочь" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="604">
