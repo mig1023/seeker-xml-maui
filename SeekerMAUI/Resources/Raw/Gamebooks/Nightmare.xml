@@ -1867,8 +1867,8 @@
 				<Coin/>
 			</Actions>
 			<Options>
-				<Option Goto="309" Text="Если выпал орел - беги в Арктику"/>
-				<Option Goto="339" Text="Если выпала решка - торопись в горы"/>
+				<Option Goto="309" Text="Если выпал орел - беги в Арктику" Tag="Head"/>
+				<Option Goto="339" Text="Если выпала решка - торопись в горы" Tag="Tail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="291">
