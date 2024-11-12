@@ -128,12 +128,9 @@ namespace SeekerMAUI.Gamebook.ColdHeartOfDalrok
 
         public List<string> Luck()
         {
-            string luck = "Боги не отвернулись от вас, Повезло, Удачливы, Фортуна за вас";
-            string fail = "Вы неудачливы, Нет, Она хмурится и отворачивается, Нет - вы промахнулись";
-
             if (Game.Option.IsTriggered("Месть Темеса"))
             {
-                Game.Buttons.Disable(luck);
+                Game.Buttons.Disable("Win");
                 Game.Option.Trigger("Месть Темеса", remove: true);
                 
                 return new List<string>
@@ -157,7 +154,7 @@ namespace SeekerMAUI.Gamebook.ColdHeartOfDalrok
 
             luckCheck.Add(Result(isLuck, "УСПЕХ", "НЕУДАЧА"));
 
-            Game.Buttons.Disable(isLuck, luck, fail);
+            Game.Buttons.Disable(isLuck, "Win", "Fail");
 
             Character.Protagonist.Luck[goodLuck] = !Character.Protagonist.Luck[goodLuck];
 
