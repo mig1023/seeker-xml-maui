@@ -9170,8 +9170,8 @@
 				<Coin/>
 			</Actions>
 			<Options>
-				<Option Goto="1462" Text="Выпала решка"/>
-				<Option Goto="1381" Text="Выпал орёл"/>
+				<Option Goto="1462" Text="Выпала решка" Tag="Tail"/>
+				<Option Goto="1381" Text="Выпал орёл" Tag="Head"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1458">
