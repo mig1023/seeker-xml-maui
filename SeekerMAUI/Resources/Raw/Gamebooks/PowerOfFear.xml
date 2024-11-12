@@ -1289,8 +1289,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="163" Text="Проверка удачна" Availability="Strength"/>
-				<Option Goto="220" Text="Проверка неудачна" Availability="Strength"/>
+				<Option Goto="163" Text="Проверка удачна" Availability="Strength" Tag="Win"/>
+				<Option Goto="220" Text="Проверка неудачна" Availability="Strength" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="136">
