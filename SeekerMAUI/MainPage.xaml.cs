@@ -100,7 +100,7 @@ namespace SeekerMAUI
             if (disabledByTag || disabledByText)
             {
                 button.IsEnabled = false;
-                button.BackgroundColor = Colors.Gray;
+                button.BackgroundColor = Colors.LightGray;
             }
         }
 
