@@ -2540,8 +2540,8 @@
 				<Goodluck/>
 			</Actions>
 			<Options>
-				<Option Goto="112" Text="Вам повезло"/>
-				<Option Goto="41" Text="Не повезло"/>
+				<Option Goto="112" Text="Вам повезло" Tag="Win"/>
+				<Option Goto="41" Text="Не повезло" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="344">
