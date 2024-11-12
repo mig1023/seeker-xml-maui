@@ -5092,8 +5092,8 @@
 				<Arrows Value="-1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="655" Text="Удачливы"/>
-				<Option Goto="237" Text="Нет"/>
+				<Option Goto="655" Text="Удачливы" Tag="Win"/>
+				<Option Goto="237" Text="Нет" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="598">
