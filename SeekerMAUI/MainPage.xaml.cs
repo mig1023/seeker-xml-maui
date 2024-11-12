@@ -65,7 +65,9 @@ namespace SeekerMAUI
 
         private void ScrollToTop(bool mainPage = false)
         {
-            Element scrollTo = MainScroll;
+            var scrollTo = MainScroll as Element;
+            var position = ScrollToPosition.Start;
+            var animation = !Game.Settings.IsEnabled("WithoutScrolling");
 
             if (mainPage && !String.IsNullOrEmpty(Game.Data.CurrentGamebook))
             {
@@ -75,11 +77,12 @@ namespace SeekerMAUI
                 if (element != null)
                 {
                     scrollTo = element;
+                    position = ScrollToPosition.Center;
                 }
             }
 
-            MainScroll.ScrollToAsync(scrollTo, ScrollToPosition.Start,
-                !Game.Settings.IsEnabled("WithoutScrolling"));
+            Dispatcher.Dispatch(
+                () => MainScroll.ScrollToAsync(scrollTo, position, animation));
         }
             
 
