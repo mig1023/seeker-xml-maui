@@ -22,10 +22,6 @@
 		</Options>
 	</Setting>
 	<Setting>
-		<Name>Текст по ширине</Name>
-		<Type>Justyfy</Type>
-	</Setting>
-	<Setting>
 		<Name>Красная строка вместо отступа</Name>
 		<Type>RedStyle</Type>
 	</Setting>
