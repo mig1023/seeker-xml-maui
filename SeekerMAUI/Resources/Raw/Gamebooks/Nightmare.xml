@@ -6534,8 +6534,8 @@
 				<Coin/>
 			</Actions>
 			<Options>
-				<Option Goto="1052" Text="Выпал орел"/>
-				<Option Goto="1027" Text="Выпал решка"/>
+				<Option Goto="1052" Text="Выпал орел" Tag="Head"/>
+				<Option Goto="1027" Text="Выпал решка" Tag="Tail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1034">
