@@ -210,11 +210,11 @@ namespace SeekerMAUI.Output
             }
         }
 
-        public static ExtendedLabel Text(Text text)
+        public static Label Text(Text text)
         {
             bool selected = text.Selected || text.Box;
 
-            ExtendedLabel label = Text(RedStyle(text.Content.Trim()), italic: text.Italic,
+            Label label = Text(RedStyle(text.Content.Trim()), italic: text.Italic,
                 upper: text.Upper, size: text.Size, selected: selected);
 
             label.FontFamily = TextFontFamily(bold: text.Bold, italic: text.Italic);
@@ -301,18 +301,15 @@ namespace SeekerMAUI.Output
             return grid;
         }
 
-        public static ExtendedLabel Text(string text, bool defaultParams = false,
+        public static Label Text(string text, bool defaultParams = false,
             bool italic = false, bool bold = false, bool upper = false,
             TextFontSize size = TextFontSize.Nope, bool selected = false)
         {
-            bool justyfy = defaultParams ? false : (Game.Settings.IsEnabled("Justyfy"));
-
-            ExtendedLabel label = new ExtendedLabel
+            Label label = new Label
             {
                 FontSize = FontSize(defaultParams ? TextFontSize.Normal : TextFontSize.Little),
                 Text = Regex.Unescape(RedStyle(text)),
                 FontFamily = TextFontFamily(bold: bold),
-                JustifyText = justyfy,
                 LineHeight = Constants.LINE_HEIGHT,
             };
 
