@@ -75,8 +75,8 @@
 				<Goodluck/>
 			</Actions>
 			<Options>
-				<Option Goto="352" Text="Удача на его стороне"/>
-				<Option Goto="133" Text="Удача его подвела"/>
+				<Option Goto="352" Text="Удача на его стороне" Tag="Win"/>
+				<Option Goto="133" Text="Удача его подвела" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="4">
