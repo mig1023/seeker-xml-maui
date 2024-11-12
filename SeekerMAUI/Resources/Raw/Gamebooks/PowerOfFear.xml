@@ -635,8 +635,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="92" Text="Проверка удачна" Availability="Knowledge"/>
-				<Option Goto="126" Text="Проверка неудачна" Availability="Knowledge"/>
+				<Option Goto="92" Text="Проверка удачна" Availability="Knowledge" Tag="Win"/>
+				<Option Goto="126" Text="Проверка неудачна" Availability="Knowledge" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="66">
