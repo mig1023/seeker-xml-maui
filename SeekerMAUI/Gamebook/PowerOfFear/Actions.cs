@@ -233,7 +233,7 @@ namespace SeekerMAUI.Gamebook.PowerOfFear
                 lines.Add($"Выпавшее значение {result} больше уровня навыка!");
                 lines.Add($"BIG|BAD|BOLD|Проверка провалена :(");
 
-                Game.Buttons.Disable("Проверка удачна, Вам повезло");
+                Game.Buttons.Disable("Fail");
 
                 if (HitpointsLoss)
                 {
@@ -246,8 +246,7 @@ namespace SeekerMAUI.Gamebook.PowerOfFear
                 lines.Add($"Выпавшее значение {result} не превышает уровня навыка!");
                 lines.Add($"BIG|GOOD|BOLD|Проверка успешно пройдена :)");
 
-                Game.Buttons.Disable("Проверка неудачна, " +
-                    "Удача от вас отвернулась, Не получилось");
+                Game.Buttons.Disable("Win");
 
                 if (HitpointsLoss)
                 {
