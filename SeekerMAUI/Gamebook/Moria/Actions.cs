@@ -200,14 +200,14 @@ namespace SeekerMAUI.Gamebook.Moria
                 diceCheck.Add("На кубике выпал: Орел");
                 diceCheck.Add("BIG|GOOD|BOLD|Удача на вашей стороне! :)");
 
-                Game.Buttons.Disable("Удача его подвела, Не повезло");
+                Game.Buttons.Disable("Fail");
             }
             else
             {
                 diceCheck.Add("На кубике выпала: Решка");
                 diceCheck.Add("BIG|BAD|BOLD|Удача отвернулась от вас! :(");
 
-                Game.Buttons.Disable("Удача на его стороне, Отряду повезло, Вам повезло");
+                Game.Buttons.Disable("Win");
             }
 
             return diceCheck;
