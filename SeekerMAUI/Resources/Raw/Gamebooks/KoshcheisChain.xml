@@ -712,5 +712,12 @@
 				<Option Goto="297"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="106">
+			<Text>Хотя эта надпись сделана на мёртвом языке, вы расшифровываете её: "ВХОДИ, ДАБЫ ПОЗНАТЬ СЕБЯ".</Text>
+			<Options>
+				<Option Goto="262" Text="Если решитесь войти в комнату"/>
+				<Option Goto="266" Text="Если хотите подняться по центральной лестнице"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
