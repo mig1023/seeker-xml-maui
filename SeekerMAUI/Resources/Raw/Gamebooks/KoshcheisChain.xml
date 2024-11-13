@@ -405,5 +405,11 @@
 				<Option Goto="216" Text="ВОЛШЕБНОЕ КОЛЬЦО, обеспечит вам"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="61">
+			<Text>Деревянный идол советует вам осмотреть здание у подножия каменного холма.\n\nУ вас нет оснований не доверять его совету.</Text>
+			<Options>
+				<Option Goto="14"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
