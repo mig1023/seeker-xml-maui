@@ -518,5 +518,12 @@
 				<Option Goto="264" Text="Если же нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="77">
+			<Text>Сколько порций зелья скорости у вас имеется?</Text>
+			<Options>
+				<Option Goto="293" Text="Если две, то дайте одну и Савелию"/>
+				<Option Goto="196" Text="Если одна"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
