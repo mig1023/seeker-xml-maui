@@ -726,5 +726,12 @@
 				<Option Goto="272" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="108">
+			<Text>Призрак бросает свои кости и выигрывает 4 очка.\n\nБросайте свою игральную кость, пытаясь уравнять или же набрать больше очков, чем ваш противник.</Text>
+			<Options>
+				<Option Goto="47" Text="Если это вам удаётся"/>
+				<Option Goto="278" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
