@@ -385,5 +385,11 @@
 				<Option Goto="274"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="58">
+			<Text>Неожиданно вы чувствуете: мозг окутывается туманом. Вокруг вас начинает происходить что-то колдовское...</Text>
+			<Options>
+				<Option Goto="288"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
