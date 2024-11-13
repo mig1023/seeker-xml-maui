@@ -40,5 +40,11 @@
 				<Option Goto="56"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="5">
+			<Text>Чудище падает на землю, словно сломанная игрушка. Вы хватаете старика за руку и тащите его к ущелью. Похоже, что вы собираетесь рискнуть переправиться.</Text>
+			<Options>
+				<Option Goto="36"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
