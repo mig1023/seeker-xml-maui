@@ -495,5 +495,14 @@
 				<Option Goto="286" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="74">
+			<Text>Вы берёте бокал и яблоко. Яблоко сразу же превращается в извивающуюся змею, а из бокала вам в лицо поднимается ядовитый газ.\n\nБросьте игральную кость один раз.</Text>
+			<Options>
+				<Option Goto="228" Text="Очки от 0 до 2"/>
+				<Option Goto="117" Text="Очки от 2 до 4"/>
+				<Option Goto="251" Text="Очки от 5 до 6"/>
+				<Option Goto="251" Text="ВОЛШЕБНОЕ КОЛЬЦО"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
