@@ -312,5 +312,11 @@
 				<Option Goto="190"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="47">
+			<Text>Призрак с замогильным воем исчезает.</Text>
+			<Options>
+				<Option Goto="261"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
