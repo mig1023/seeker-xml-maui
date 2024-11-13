@@ -661,5 +661,11 @@
 				<Option Goto="83" Text="Если хотите сразиться с монстром"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="98">
+			<Text>Вы отдёргиваете руку, решив, что достаточно выведали у идола. Идёте прочь и присоединяетесь к старику, который ждёт вас в конце аллеи.</Text>
+			<Options>
+				<Option Goto="275"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
