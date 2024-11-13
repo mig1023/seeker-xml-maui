@@ -142,5 +142,15 @@
 				<Option Goto="39" Text="Очки от 5 до 6"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="21">
+			<Text>Вы решаете воспользоваться:</Text>
+			<Options>
+				<Option Goto="153" Text="Зельем для полёта"/>
+				<Option Goto="188" Text="Ковром-самолётом">
+					<Text>Если вы не хотите ни того, ни другого, можете попытаться пересечь зал...</Text>
+				</Option>
+				<Option Goto="177"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
