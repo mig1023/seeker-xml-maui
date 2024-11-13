@@ -358,5 +358,11 @@
 				<Option Goto="64"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="54">
+			<Text>Вы слушаете усыпляющую музыку, от которой можно никогда не проснуться. Но музыка становится чуть тише, и вы торопливо выбегаете из комнаты через дверь в противоположной стене.</Text>
+			<Options>
+				<Option Goto="90"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
