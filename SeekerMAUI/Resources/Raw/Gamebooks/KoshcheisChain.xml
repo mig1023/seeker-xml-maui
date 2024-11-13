@@ -603,5 +603,12 @@
 				<Option Goto="44" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="90">
+			<Text>Длинный коридор ведёт вас вперёд.\n\nНаконец вы подходите к месту, где он разветвляется.</Text>
+			<Options>
+				<Option Goto="17" Text="Можете повернуть налево"/>
+				<Option Goto="70" Text="Можно пойти в проход, открывшийся прямо перед вами. Он отмечен искусно разукрашенной перекладиной"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
