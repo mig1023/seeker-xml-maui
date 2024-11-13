@@ -551,5 +551,11 @@
 				<Option Goto="55" Text="Если же нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="82">
+			<Text>Одна из змей укусила вас в руку, и вы чувствуете, что её яд проникает вам в кровь.\n\nВы теряете 6 пунктов Силы.\n\nЕсли вы ещё живы</Text>
+			<Options>
+				<Option Goto="275"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
