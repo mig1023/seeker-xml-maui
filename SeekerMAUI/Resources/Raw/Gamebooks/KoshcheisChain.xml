@@ -459,5 +459,12 @@
 				<Option Goto="236"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="69">
+			<Text>Вы бросаете вазу на каменный пол, она разбивается.\n\nВы мчитесь к моментально захлопнувшейся двери.\n\nБросьте кость два раза, пытаясь уменьшить или уравнять очки с вашей Ловкостью.</Text>
+			<Options>
+				<Option Goto="157" Text="Если вам это удаётся"/>
+				<Option Goto="86" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
