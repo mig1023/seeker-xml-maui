@@ -292,5 +292,11 @@
 				<Option Goto="229"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="44">
+			<Text>Вы подвернули лодыжку и падаете прямо под беспощадно надвигающийся валун.\n\nВаше приключение завершается.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
