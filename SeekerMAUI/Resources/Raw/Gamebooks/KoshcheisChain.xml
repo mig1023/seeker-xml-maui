@@ -680,5 +680,12 @@
 				<Option Goto="93"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="101">
+			<Text>Вы прыгаете в центр комнаты.\n\nБросьте игральную кость дважды.</Text>
+			<Options>
+				<Option Goto="204" Text="Если сумма выпавших очков не превысит, либо будет равна показателю вашей Ловкости, либо выпадет ВОЛШЕБНОЕ КОЛЬЦО"/>
+				<Option Goto="244" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
