@@ -298,5 +298,13 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="45">
+			<Text>45.</Text>
+			<Options>
+				<Option Goto="213" Text="Если вы воспользуетесь ковром-самолётом"/>
+				<Option Goto="135" Text="Если зельем для полётов"/>
+				<Option Goto="264" Text="Если попытаетесь перепрыгнуть через преграду"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
