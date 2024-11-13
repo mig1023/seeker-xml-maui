@@ -21,5 +21,11 @@
 				<Option Goto="65"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="2">
+			<Text>Сделайте глоток воды, освежитесь, и у вас появилось 2 пункта Силы. Вычеркните из ЛИЧНОГО ЛИСТКА одну порцию воды.</Text>
+			<Options>
+				<Option Goto="294"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
