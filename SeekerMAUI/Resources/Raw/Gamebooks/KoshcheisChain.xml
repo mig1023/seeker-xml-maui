@@ -640,5 +640,11 @@
 				<Option Goto="287" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="95">
+			<Text>Яд растекается по вашим венам. Вскоре начинается головокружение, вас бросает во все стороны, наконец ваше сознание меркнет.\n\nВаше приключение здесь заканчивается.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
