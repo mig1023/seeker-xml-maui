@@ -227,5 +227,12 @@
 				<Option Goto="195"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="34">
+			<Text>Идол говорит, что вам пригодятся вторая половинка каменной пластинки, волшебная верёвка и сверкающий жезл.</Text>
+			<Options>
+				<Option Goto="130" Text="Если вы хотите задать ещё один вопрос, заплатите копейку"/>
+				<Option Goto="14" Text="В противном же случае возвращайтесь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
