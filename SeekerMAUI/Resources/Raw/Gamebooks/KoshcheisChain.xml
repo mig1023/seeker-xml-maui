@@ -91,5 +91,11 @@
 				<Option Goto="50" Text="Если желаете немного отдохнуть"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="13">
+			<Text>Вы не можете разжать пальцы, чувствуете на своём лице мертвящий холод, когда вас медленно пригибают к полу.\n\nВаше приключение здесь заканчивается.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
