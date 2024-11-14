@@ -1411,5 +1411,11 @@
 				<Option Goto="238"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="212">
+			<Text>Деревянная статуя сталкивает вас прямо в воду. Вы попадаете прямо в когти поднимающихся со дна огромных волосатых рук.\n\nВаше приключение заканчивается.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
