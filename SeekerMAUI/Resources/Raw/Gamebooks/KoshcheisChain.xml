@@ -1253,5 +1253,12 @@
 				<Option Goto="200"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="189">
+			<Text>Вы проскальзываете в отверстие между опускающейся каменной притолокой и полом.\n\nБросьте кость два раза.</Text>
+			<Options>
+				<Option Goto="157" Text="Если сумма выпавших очков не превысит, либо будет равна показателю вашей Ловкости"/>
+				<Option Goto="86" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
