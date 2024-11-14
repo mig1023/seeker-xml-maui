@@ -1152,5 +1152,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="173">
+			<Text>Вы взбираетесь на алтарь. У вас начинается головокружение, комната вращается перед глазами. Вам кажется, что вы перенеслись в волшебный мир.</Text>
+			<Options>
+				<Option Goto="225"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
