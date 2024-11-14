@@ -1108,5 +1108,11 @@
 				<Option Goto="245" Text="Если нет, - поднимайтесь на возвышение к ларцу с Цепью"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="166">
+			<Text>Вы пролезаете в отверстие в стене и сворачиваете направо по пологому коридору, ведущему на запад.</Text>
+			<Options>
+				<Option Goto="193"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
