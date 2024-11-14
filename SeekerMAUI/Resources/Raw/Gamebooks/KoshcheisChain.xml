@@ -1095,5 +1095,11 @@
 				<Option Goto="90"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="164">
+			<Text>Вы тащитесь по пересечённой местности, обходя скалистое ущелье. Жажда продолжает мучить вас. Вы теряете 2 пункта Силы.\n\nЕсли вы выжили</Text>
+			<Options>
+				<Option Goto="113"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
