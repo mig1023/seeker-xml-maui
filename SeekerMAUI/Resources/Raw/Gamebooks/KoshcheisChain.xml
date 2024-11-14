@@ -1042,5 +1042,11 @@
 				<Option Goto="9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="156">
+			<Text>Вы отбросили змей прочь и хватаетесь за рычаг.\n\nОдна из змей кусает вас в запястье, и вы теряете 6 пунктов Силы.\n\nЕсли вы всё ещё живы</Text>
+			<Options>
+				<Option Goto="220"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
