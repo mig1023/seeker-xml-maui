@@ -1101,5 +1101,12 @@
 				<Option Goto="113"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="165">
+			<Text>У вас есть две половины каменной пластинки с выгравированными на ней загадочными письменами?</Text>
+			<Options>
+				<Option Goto="221" Text="Если да"/>
+				<Option Goto="245" Text="Если нет, - поднимайтесь на возвышение к ларцу с Цепью"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
