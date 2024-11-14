@@ -1227,5 +1227,11 @@
 				<Option Goto="186"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="185">
+			<Text>Вы чувствуете, что можете видеть третьим глазом, даже если он и брошен в мешок.\n\nСделайте в ЛИЧНОМ ЛИСТКЕ пометку, что оставили его там</Text>
+			<Options>
+				<Option Goto="166"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
