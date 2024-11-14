@@ -808,5 +808,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="121">
+			<Text>Вы очень устали от свалившихся на вас трудностей.\n\nХотите сразиться с Фёдором и его дружками?</Text>
+			<Options>
+				<Option Goto="87" Text="Если да"/>
+				<Option Goto="28" Text="Если не хотите с ними связываться"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
