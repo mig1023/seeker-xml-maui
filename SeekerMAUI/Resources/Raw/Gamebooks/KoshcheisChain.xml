@@ -1341,5 +1341,11 @@
 				<Option Goto="166"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="202">
+			<Text>Ваша жажда всё увеличивается. Вы чувствуете, что теряете 3 пункта Силы. Если вы всё ещё живы</Text>
+			<Options>
+				<Option Goto="294"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
