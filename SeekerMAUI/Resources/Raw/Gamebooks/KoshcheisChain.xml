@@ -1309,5 +1309,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="197">
+			<Text>Верх арки левого входа искусно украшен резьбой, изображающей фигуры воинов.</Text>
+			<Options>
+				<Option Goto="72" Text="Если хотите пройти под аркой"/>
+				<Option Goto="85" Text="Если хотите свернуть к правой арке"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
