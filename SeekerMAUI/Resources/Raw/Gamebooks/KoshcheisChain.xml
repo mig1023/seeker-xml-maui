@@ -1120,5 +1120,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="168">
+			<Text>Вы должны бежать, если хотите скрыться от него. Кажется, можно спрятаться за углом здания.\n\nЧтобы бежать быстрее, вы можете бросить вазу, которую несёте в руках.</Text>
+			<Options>
+				<Option Goto="276" Text="Если да"/>
+				<Option Goto="104" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
