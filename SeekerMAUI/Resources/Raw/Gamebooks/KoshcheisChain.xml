@@ -885,5 +885,11 @@
 				<Option Goto="57"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="132">
+			<Text>Вы обнаруживаете за цоколем узкую дверь и входите в неё.\n\nКоридор вьётся по спирали. Вы чувствуете одурманивающее действие колдовской силы.</Text>
+			<Options>
+				<Option Goto="147"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
