@@ -1275,5 +1275,12 @@
 				<Option Goto="105"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="192">
+			<Text>Коридор перед вами разветвляется. Вы видите каменную плиту с изображениями змеи над проходом. Рядом с ней лежит искусно вырезанный камень.</Text>
+			<Options>
+				<Option Goto="149" Text="Вы можете пойти прямо"/>
+				<Option Goto="29" Text="Можете свернуть направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
