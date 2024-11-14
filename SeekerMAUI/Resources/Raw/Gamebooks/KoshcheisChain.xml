@@ -917,5 +917,12 @@
 				<Option Goto="256"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="137">
+			<Text>Вам было бы легче бежать без старинной вазы в руках.</Text>
+			<Options>
+				<Option Goto="41" Text="Если хотите бросить её"/>
+				<Option Goto="290" Text="Если продолжаете нести вазу"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
