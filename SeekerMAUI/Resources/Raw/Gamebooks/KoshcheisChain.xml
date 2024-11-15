@@ -1735,5 +1735,11 @@
 				<Option Goto="261"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="261">
+			<Text>Вы выбегаете из комнаты с дико колотящимся сердцем, благодаря судьбу, что остались живы. Выходите в коридор, ведущий вверх, и идёте по нему.</Text>
+			<Options>
+				<Option Goto="192"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
