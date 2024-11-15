@@ -1767,5 +1767,13 @@
 				<Option Goto="62"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="266">
+			<Text>266.</Text>
+			<Options>
+				<Option Goto="223" Text="Можете достать ключ, если он у вас есть"/>
+				<Option Goto="211" Text="Или бутылку с волшебной водой"/>
+				<Option Goto="238" Text="Если у вас нет волшебных предметов и вы собираетесь осмотреть другой конец коридора"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
