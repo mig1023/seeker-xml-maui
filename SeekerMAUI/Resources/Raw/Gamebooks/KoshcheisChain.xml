@@ -1749,5 +1749,11 @@
 				<Option Goto="62" Text="Вы можете открыть тяжёлую дверь и пройти через пиршественный зал"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="263">
+			<Text>Вы стараетесь расчистить от фигурок проход к двери. Это удаётся, и вы проходите через пиршественный зал.</Text>
+			<Options>
+				<Option Goto="62"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
