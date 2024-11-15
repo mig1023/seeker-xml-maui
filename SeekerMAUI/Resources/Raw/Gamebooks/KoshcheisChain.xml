@@ -1840,5 +1840,13 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="277">
+			<Text>Сколько энергетических стрел осталось в вашем жезле?</Text>
+			<Options>
+				<Option Goto="100" Text="Три"/>
+				<Option Goto="8" Text="Две"/>
+				<Option Goto="231" Text="Одна"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
