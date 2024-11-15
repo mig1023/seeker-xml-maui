@@ -1922,5 +1922,11 @@
 				<Option Goto="292" Text="Если же вазы у вас никогда не было"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="289">
+			<Text>Демон проглатывает вас, как свою ритуальную жертву. И ваше приключение на этом заканчивается.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
