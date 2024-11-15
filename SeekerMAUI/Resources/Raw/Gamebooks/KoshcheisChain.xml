@@ -1664,5 +1664,11 @@
 				<Option Goto="257" Text="Хотите пойти налево"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="250">
+			<Text>Вы отдёргиваете руку, решив, что с вас достаточно идолов, и, выйдя из капища, направляетесь в сторону холма</Text>
+			<Options>
+				<Option Goto="31"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
