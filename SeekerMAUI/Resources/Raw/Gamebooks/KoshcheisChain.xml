@@ -1808,5 +1808,11 @@
 				<Option Goto="267" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="272">
+			<Text>У вас нет ни капли воды. Изнемогая от жажды, вы теряете 3 пункта Силы. Если вы ещё живы</Text>
+			<Options>
+				<Option Goto="116"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
