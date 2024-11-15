@@ -1902,5 +1902,11 @@
 				<Option Goto="190" Text="Если предпочитаете пойти на площадь, где играют дети"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="286">
+			<Text>Вы играете на флейте красивую древнюю мелодию.</Text>
+			<Options>
+				<Option Goto="266"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
