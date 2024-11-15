@@ -1848,5 +1848,11 @@
 				<Option Goto="231" Text="Одна"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="278">
+			<Text>Смертельный холод леденит вашу кровь. Вы не можете даже вдохнуть разреженный воздух.\n\nИ ваше приключение заканчивается.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
