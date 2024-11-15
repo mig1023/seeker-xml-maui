@@ -1524,5 +1524,11 @@
 				<Option Goto="146"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="229">
+			<Text>Вы поднимаетесь наверх и входите в большое помещение. Выходы из него зияют справа и слева от вас.</Text>
+			<Options>
+				<Option Goto="186"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
