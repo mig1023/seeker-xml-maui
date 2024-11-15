@@ -1854,5 +1854,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="279">
+			<Text>К своему удивлению, вы слышите впереди себя из-за поворота коридора человеческие голоса. Кто-то к вам приближается.</Text>
+			<Options>
+				<Option Goto="235" Text="Вы хотите погасить факел и спрятаться в одной из ниш"/>
+				<Option Goto="146" Text="Хотите смело войти в коридор"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
