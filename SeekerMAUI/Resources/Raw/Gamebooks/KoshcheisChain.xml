@@ -1682,5 +1682,11 @@
 				<Option Goto="136"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="253">
+			<Text>Фёдор побеждён, его дружки разбегаются кто куда. Решив их не преследовать, вы отправляетесь поговорить с играющими на базарной площади детьми.</Text>
+			<Options>
+				<Option Goto="190"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
