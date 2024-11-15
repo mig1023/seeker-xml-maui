@@ -1542,5 +1542,12 @@
 				<Option Goto="93"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="232">
+			<Text>Несколько часов вы бредёте по залитому лунным светом лесу. Наконец вы видите на мрачной поляне одинокую грязную хижину.\n\nХотите подойти к ней?</Text>
+			<Options>
+				<Option Goto="170" Text="Если да"/>
+				<Option Goto="39" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
