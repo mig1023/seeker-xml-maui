@@ -1688,5 +1688,12 @@
 				<Option Goto="190"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="254">
+			<Text>Дважды бросьте игральную кость.</Text>
+			<Options>
+				<Option Goto="263" Text="Если сумма выпавших очков будет меньше или равна показателю вашей Ловкости"/>
+				<Option Goto="18" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
