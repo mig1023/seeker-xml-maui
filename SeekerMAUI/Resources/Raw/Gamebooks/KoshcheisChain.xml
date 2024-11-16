@@ -5,7 +5,8 @@
 			<Author>Василий Шувалов, 1992</Author>
 		</Copyright>
 		<Styles>
-			<Color Name="Main, Action, Option, StatusBar, Continue" Value="79acbf"/>
+			<Color Name="Main, Action, Option, StatusBar, Continue" Value="8d9c9f"/>
+			<ButtonFont Value="000000"/>
 		</Styles>
 	</Introduction>
 	<Paragraphs>

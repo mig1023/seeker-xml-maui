@@ -1064,6 +1064,9 @@
 		<Size>23058</Size>
 		<Playthrough>На часок-полтора</Playthrough>
 		<Setting>Приключения</Setting>
-		<Color>79acbf</Color>
+		<Colors>
+			<Book>8d9c9f</Book>
+			<Font>000000</Font>
+		</Colors>
 	</KoshcheisChain>
 </Gamebooks>
