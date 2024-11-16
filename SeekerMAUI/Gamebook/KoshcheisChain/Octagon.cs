@@ -28,6 +28,9 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             return result;
         }
 
+        public static int RingValueFuse(int dice) =>
+            dice == 7 ? 0 : dice;
+
         public static void DoubleRoll(out int firstDice, out int secondDice)
         {
             firstDice = Roll();
