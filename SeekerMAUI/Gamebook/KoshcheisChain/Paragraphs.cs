@@ -29,6 +29,9 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 action.Fights.Add(fight);
             }
 
+            if (action.Type == "Option")
+                action.Option = OptionParse(xmlAction);
+
             return action;
         }
     }
