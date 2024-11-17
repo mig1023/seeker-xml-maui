@@ -124,11 +124,7 @@ namespace SeekerMAUI.Gamebook.DangerFromBehindTheSnowWall
                         enemy.Strength -= Character.Protagonist.Damage;
 
                         if (NoMoreEnemies(FightEnemies))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
-                        }
+                            return Win(fight);
                     }
                     else if (protagonistHitStrength > enemyHitStrength)
                     {
@@ -143,11 +139,7 @@ namespace SeekerMAUI.Gamebook.DangerFromBehindTheSnowWall
                         Character.Protagonist.Strength -= enemy.Damage;
 
                         if (Character.Protagonist.Strength <= 0)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                            return fight;
-                        }
+                            return Fail(fight);
                     }
                     else
                     {
