@@ -31,6 +31,9 @@
 		</Paragraph>
 		<Paragraph No="2">
 			<Text>Сделайте глоток воды, освежитесь, и у вас появилось 2 пункта Силы. Вычеркните из ЛИЧНОГО ЛИСТКА одну порцию воды.</Text>
+			<Modifications>
+				<Strength Value="2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="294"/>
 			</Options>
