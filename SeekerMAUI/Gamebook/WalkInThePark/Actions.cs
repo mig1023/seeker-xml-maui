@@ -520,11 +520,7 @@ namespace SeekerMAUI.Gamebook.WalkInThePark
                             Character.Protagonist.GetHealth(part1) - damage);
 
                         if (Character.Protagonist.GetHealth(part1) <= 0)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Ты ПРОИГРАЛ :(");
-                            return fight;
-                        }
+                            return Fail(fight, you: true);
                     }
                     else
                     {
