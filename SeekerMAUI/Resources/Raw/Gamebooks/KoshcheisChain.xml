@@ -307,7 +307,7 @@
 				<Option Goto="77" Text="Есть зелье">
 					<Text>Если нет, то придётся сражаться...</Text>
 				</Option>
-				<Option Goto="126"/>
+				<Option Goto="125"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="37">
