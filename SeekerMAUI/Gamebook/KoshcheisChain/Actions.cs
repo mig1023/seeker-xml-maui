@@ -1,12 +1,11 @@
-﻿using SeekerMAUI.Gamebook.CreatureOfHavoc;
-using System;
+﻿using System;
 
 namespace SeekerMAUI.Gamebook.KoshcheisChain
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
         public string EnemyName = String.Empty;
-        public int EnemyStrngth = 0;
+        public int EnemyStrength = 0;
 
         public List<Fight> Fights { get; set; } 
 
@@ -37,7 +36,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             }
             else
             {
-                return new List<string> { $"{EnemyName}\nсила {EnemyStrngth}" };
+                return new List<string> { $"{EnemyName}\nсила {EnemyStrength}" };
             }
         }
 
@@ -62,7 +61,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             while (true)
             {
                 fight.Add($"HEAD|BOLD|Раунд: {round}");
-                fight.Add($"{EnemyName} (сила {EnemyStrngth})");
+                fight.Add($"{EnemyName} (сила {EnemyStrength})");
 
                 Octagon.DoubleRoll(out int firstDice, out int secondDice);
 
@@ -86,9 +85,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                     }
                     else if (ring.Hero == "win")
                     {
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                        return fight;
+                        return Win(fight);
                     }
                 }
                 else
@@ -103,17 +100,12 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
                     if (act.Hero == "win")
                     {
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                        return fight;
+                        return Win(fight);
                     }
                     else if (act.Hero == "dead")
                     {
                         Character.Protagonist.Strength = 0;
-
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                        return fight;
+                        return Fail(fight);
                     }
                     else if (!String.IsNullOrEmpty(act.Hero))
                     {
@@ -121,23 +113,15 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                         Character.Protagonist.Strength += bonus;
 
                         if (Character.Protagonist.Strength <= 0)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                            return fight;
-                        }
+                            return Fail(fight);
                     }
                     else if (!String.IsNullOrEmpty(act.Enemy))
                     {
                         var bonus = int.Parse(act.Enemy);
-                        EnemyStrngth += bonus;
+                        EnemyStrength += bonus;
 
-                        if (EnemyStrngth <= 0)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
-                        }
+                        if (EnemyStrength <= 0)
+                            return Win(fight);
                     }
                 }
 
