@@ -157,9 +157,7 @@ namespace SeekerMAUI.Gamebook.AlamutFortress
 
                         if (NoMoreEnemies(FightEnemies))
                         {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
+                            return Win(fight);
                         }
                         else
                         {
@@ -180,12 +178,9 @@ namespace SeekerMAUI.Gamebook.AlamutFortress
 
                     if (diabolicalMeanness)
                     {
-                        fight.Add($"BAD|BOLD|Дьявольская атака! {enemy.Name} убил вас!");
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-
                         Character.Protagonist.Hitpoints = 0;
-                        return fight;
+                        fight.Add($"BAD|BOLD|Дьявольская атака! {enemy.Name} убил вас!");
+                        return Fail(fight);
                     }
 
                     int hitPointsLoses = protagonistHitStrength - enemyHitStrength;
@@ -199,11 +194,7 @@ namespace SeekerMAUI.Gamebook.AlamutFortress
                         enemy.Hitpoints -= hitPointsLoses;
 
                         if (NoMoreEnemies(FightEnemies))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
-                        }
+                            return Win(fight);
                     }
                     else if (hitPointsLoses > 0)
                     {
@@ -217,11 +208,7 @@ namespace SeekerMAUI.Gamebook.AlamutFortress
                         Character.Protagonist.Hitpoints += hitPointsLoses;
 
                         if (Character.Protagonist.Hitpoints <= 0)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                            return fight;
-                        }
+                            return Fail(fight);
                     }
                     else
                     {
