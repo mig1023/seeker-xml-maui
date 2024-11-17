@@ -365,11 +365,7 @@ namespace SeekerMAUI.Gamebook.Moonrunner
                             bool enemyLost = Fights.NoMoreEnemies(FightEnemies, WoundsLimit);
 
                             if (enemyLost)
-                            {
-                                fight.Add(String.Empty);
-                                fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                                return fight;
-                            }
+                                return Win(fight);
                         }
                     }
                     else if (protagonistHitStrength > enemyHitStrength)
@@ -383,11 +379,7 @@ namespace SeekerMAUI.Gamebook.Moonrunner
                         Character.Protagonist.Endurance -= (DevastatingAttack > 0 ? DevastatingAttack : 2);
 
                         if (Character.Protagonist.Endurance <= 0)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                            return fight;
-                        }
+                            return Fail(fight);
 
                         if (EnemyMasteryInc)
                         {
