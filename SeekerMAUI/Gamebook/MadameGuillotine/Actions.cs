@@ -168,11 +168,7 @@ namespace SeekerMAUI.Gamebook.MadameGuillotine
                         }
 
                         if (NoMoreEnemies(FightEnemies))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
-                        }
+                            return Win(fight);
                     }
 
                     fight.Add($"{enemy.Name} атакует вас (у вас {Character.Protagonist.Wounds} " +
@@ -217,11 +213,7 @@ namespace SeekerMAUI.Gamebook.MadameGuillotine
                     }
 
                     if (Character.Protagonist.Wounds == Character.Protagonist.Hitpoints)
-                    {
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                        return fight;
-                    }
+                        return Fail(fight);
 
                     attackAlready = true;
 
