@@ -907,7 +907,7 @@
 		<Paragraph No="117">
 			<Text>Есть у вас перчатки, пропитанные настоем змеиного корня?</Text>
 			<Options>
-				<Option Goto="162" Text="Да"/>
+				<Option Goto="152" Text="Да"/>
 				<Option Goto="51" Text="Нет"/>
 			</Options>
 		</Paragraph>
