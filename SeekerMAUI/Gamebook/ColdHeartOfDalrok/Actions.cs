@@ -542,9 +542,7 @@ namespace SeekerMAUI.Gamebook.ColdHeartOfDalrok
                         if (enemy.Loyalty <= 3)
                         {
                             fight.Add($"GOOD|{enemy.Name} обращается в позорное бегство :)");
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
+                            return Win(fight);
                         }
                     }
 
@@ -552,9 +550,8 @@ namespace SeekerMAUI.Gamebook.ColdHeartOfDalrok
                     {
                         fight.Add($"GOOD|{enemy.Name} не будет испытывать свою судьбу: " +
                             $"он обращается в позорное бегство :)");
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                        return fight;
+
+                        return Win(fight);
                     }
 
                     if (!attackAlready)
@@ -634,11 +631,7 @@ namespace SeekerMAUI.Gamebook.ColdHeartOfDalrok
                         }
 
                         if (NoMoreEnemies(FightEnemies))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
-                        }
+                            return Win(fight);
                     }
                     else if (protagonistHit > enemyHit)
                     {
@@ -674,11 +667,7 @@ namespace SeekerMAUI.Gamebook.ColdHeartOfDalrok
                         bool limit = HeroWoundsLimit && (Character.Protagonist.Strength <= 2);
 
                         if ((Character.Protagonist.Strength <= 0) || limit)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                            return fight;
-                        }
+                            return Fail(fight);
 
                         bool lastDoomed = LastIsDoomed && LastEnemy(FightEnemies);
 
@@ -712,11 +701,7 @@ namespace SeekerMAUI.Gamebook.ColdHeartOfDalrok
                             fight.Add($"GOOD|{enemy.Name} обращается в позорное бегство :)");
 
                         if (NoMoreEnemies(FightEnemies))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
-                        }
+                            return Win(fight);
                     }
 
                     if ((RoundsToWin > 0) && (RoundsToWin <= round))
