@@ -1247,11 +1247,14 @@
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="9" Text="Если вы побеждаете"/>
+				<Option Goto="9" Text="Вы победили"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="156">
 			<Text>Вы отбросили змей прочь и хватаетесь за рычаг.\n\nОдна из змей кусает вас в запястье, и вы теряете 6 пунктов Силы.</Text>
+			<Modifications>
+				<Strength Value="-6"/>
+			</Modifications>
 			<Options>
 				<Option Goto="220" Text="Если вы ещё живы..."/>
 			</Options>
