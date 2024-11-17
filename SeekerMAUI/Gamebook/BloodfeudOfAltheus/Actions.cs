@@ -572,11 +572,7 @@ namespace SeekerMAUI.Gamebook.BloodfeudOfAltheus
                         bool enemyLost = Fights.NoMoreEnemies(FightEnemies, noHealthy: !FightToDeath);
 
                         if (enemyLost)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
-                        }
+                            return Win(fight);
                     }
                     else
                     {
@@ -650,11 +646,7 @@ namespace SeekerMAUI.Gamebook.BloodfeudOfAltheus
                         }
 
                         if (Character.Protagonist.Health <= 0)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                            return fight;
-                        }
+                            return Fail(fight);
                     }
                     else
                     {
