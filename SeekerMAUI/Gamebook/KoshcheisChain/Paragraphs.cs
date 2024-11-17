@@ -15,7 +15,17 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
             var enemy = xmlAction.SelectSingleNode("Enemy");
             action.EnemyName = Xml.StringParse(enemy.Attributes["Name"]);
-            action.EnemyStrngth = Xml.IntParse(enemy.Attributes["Strength"]);
+
+            var strength = enemy.Attributes["Strength"].InnerText;
+
+            if (strength == "mirror")
+            {
+                action.EnemyStrength = Character.Protagonist.Strength;
+            }
+            else
+            {
+                action.EnemyStrength = Xml.IntParse(strength);
+            }
 
             action.Fights = new List<Fight>();
 
