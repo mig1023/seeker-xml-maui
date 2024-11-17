@@ -153,8 +153,7 @@ namespace SeekerMAUI.Gamebook.ProjectOne
                                     fight.Add(String.Format("BAD|Выпал дубль {0}!",
                                         ones ? "единиц" : "шестёрок"));
 
-                                    fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                                    return fight;
+                                    return Fail(fight);
                                 }
                             }
                         }
@@ -183,11 +182,7 @@ namespace SeekerMAUI.Gamebook.ProjectOne
                             enemy.Endurance -= (Hyenas ? 1 : 2);
 
                             if (NoMoreEnemies(FightEnemies))
-                            {
-                                fight.Add(String.Empty);
-                                fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                                return fight;
-                            }
+                                return Win(fight);
 
                             enemyAttackCount = 0;
                         }
@@ -220,11 +215,7 @@ namespace SeekerMAUI.Gamebook.ProjectOne
                             bool allyLost = FightAllies.Where(x => x.Endurance > 0).Count() == 0;
 
                             if (allyLost)
-                            {
-                                fight.Add(String.Empty);
-                                fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                                return fight;
-                            }
+                                return Fail(fight);
                         }
                         else
                         {
