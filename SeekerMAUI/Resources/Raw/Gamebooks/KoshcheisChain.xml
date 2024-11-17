@@ -2138,6 +2138,9 @@
 		</Paragraph>
 		<Paragraph No="272">
 			<Text>У вас нет ни капли воды. Изнемогая от жажды, вы теряете 3 пункта Силы.</Text>
+			<Modifications>
+				<Strength Value="-3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="116" Text="Если вы ещё живы..."/>
 			</Options>
