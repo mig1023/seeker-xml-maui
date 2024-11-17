@@ -475,12 +475,10 @@ namespace SeekerMAUI.Gamebook.FaithfulSwordOfTheKing
                             fight.Add($"BAD|{enemy.Name} ранил вас");
                             Character.Protagonist.Strength -= 2;
 
-                            if ((Character.Protagonist.Strength <= 0) || (HeroWoundsLimit && (Character.Protagonist.Strength <= 2)))
-                            {
-                                fight.Add(String.Empty);
-                                fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                                return fight;
-                            }
+                            var failByLimit = HeroWoundsLimit && (Character.Protagonist.Strength <= 2);
+
+                            if ((Character.Protagonist.Strength <= 0) || failByLimit)
+                                return Fail(fight);
 
                             bool swordAndDagger = (Character.Protagonist.MeritalArt == Character.MeritalArts.SwordAndDagger);
 
@@ -488,8 +486,10 @@ namespace SeekerMAUI.Gamebook.FaithfulSwordOfTheKing
                             {
                                 fight.Add($"GOOD|{enemy.Name} ранен вашим кинжалом");
 
-                                bool wound = Fencing.EnemyWound(Character.Protagonist, ref enemyInFight, FightEnemies,
-                                    protagonistRoll, WoundsToWin, ref enemyWounds, ref fight, EnemyWoundsLimit, dagger: true);
+                                bool wound = Fencing.EnemyWound(Character.Protagonist,
+                                    ref enemyInFight, FightEnemies, protagonistRoll, 
+                                    WoundsToWin, ref enemyWounds, ref fight, 
+                                    EnemyWoundsLimit, dagger: true);
 
                                 if (wound)
                                     return fight;
@@ -505,10 +505,8 @@ namespace SeekerMAUI.Gamebook.FaithfulSwordOfTheKing
 
                     if ((RoundsToWin > 0) && (RoundsToWin <= round))
                     {
-                        fight.Add(String.Empty);
                         fight.Add("BAD|Отведённые на победу раунды истекли.");
-                        fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                        return fight;
+                        return Fail(fight);
                     }
 
                     fight.Add(String.Empty);
