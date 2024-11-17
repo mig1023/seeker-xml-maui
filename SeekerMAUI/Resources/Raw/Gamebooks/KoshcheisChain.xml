@@ -661,6 +661,9 @@
 		</Paragraph>
 		<Paragraph No="82">
 			<Text>Одна из змей укусила вас в руку, и вы чувствуете, что её яд проникает вам в кровь.\n\nВы теряете 6 пунктов Силы.</Text>
+			<Modifications>
+				<Strength Value="-6"/>
+			</Modifications>
 			<Options>
 				<Option Goto="275" Text="Если вы ещё живы..."/>
 			</Options>
