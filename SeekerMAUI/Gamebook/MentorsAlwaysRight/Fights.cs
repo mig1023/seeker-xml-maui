@@ -73,14 +73,6 @@ namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
             return true;
         }
 
-        public static List<string> LostFight(List<string> fight)
-        {
-            fight.Add(String.Empty);
-            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-
-            return fight;
-        }
-
         public static bool IsPoisonedBlade() =>
             Game.Option.IsTriggered("PoisonedBlade")
             &&

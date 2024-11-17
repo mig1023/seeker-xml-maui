@@ -626,7 +626,7 @@ namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
                         woundLine = 0;
 
                         if (Character.Protagonist.Hitpoints <= 0)
-                            return Fights.LostFight(fight);
+                            return Fail(fight);
                     }
                     else if (warriorFight && (firstProtagonistRoll == secondProtagonistRoll) && (firstProtagonistRoll == 6) && (!ReactionFight || !reactionFail))
                     {
@@ -712,7 +712,7 @@ namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
                             Character.Protagonist.Hitpoints -= Fights.HitWounds(ref fight, (Wound > 0 ? Wound : 2), wolf);
 
                         if (Character.Protagonist.Hitpoints <= 0)
-                            return Fights.LostFight(fight);
+                            return Fail(fight);
                     }
                     else
                     {
@@ -730,7 +730,7 @@ namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
                     if ((RoundsToWin > 0) && (RoundsToWin <= round))
                     {
                         fight.Add("BAD|Отведённые на победу раунды истекли.");
-                        return Fights.LostFight(fight);
+                        return Fail(fight);
                     }
 
                     if ((DeathLimit > 0) && (death >= DeathLimit))
