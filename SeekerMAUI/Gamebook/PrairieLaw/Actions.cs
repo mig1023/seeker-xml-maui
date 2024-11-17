@@ -517,11 +517,7 @@ namespace SeekerMAUI.Gamebook.PrairieLaw
                         bool enemyLost = Fights.NoMoreEnemies(FightEnemies, EnemyWoundsLimit);
 
                         if (enemyLost)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
-                        }
+                            return Win(fight);
                     }
                     else if (protagonistHitStrength > enemyHitStrength)
                     {
@@ -533,12 +529,10 @@ namespace SeekerMAUI.Gamebook.PrairieLaw
 
                         Character.Protagonist.Strength -= (firefight ? 3 : 2);
 
-                        if ((Character.Protagonist.Strength <= 0) || (HeroWoundsLimit && (Character.Protagonist.Strength <= 2)))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                            return fight;
-                        }
+                        var failByLimit = HeroWoundsLimit && (Character.Protagonist.Strength <= 2);
+
+                        if ((Character.Protagonist.Strength <= 0) || failByLimit)
+                            return Fail(fight);
                     }
                     else
                     {
