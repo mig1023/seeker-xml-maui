@@ -509,32 +509,25 @@ namespace SeekerMAUI.Gamebook.LordOfTheSteppes
                 bool enemyLost = FightEnemies
                     .Where(x => (x.Endurance > 0) || (x.MaxEndurance == 0)).Count() == 0;
 
-                if (enemyLost || ((WoundsToWin > 0) && (WoundsToWin <= enemyWounds)))
-                {
-                    fight.Add(String.Empty);
-                    fight.Add("BIG|GOOD|ВЫ ПОБЕДИЛИ :)");
-                    return fight;
-                }
+                bool winByWounds = (WoundsToWin > 0) && (WoundsToWin <= enemyWounds);
+
+                if (enemyLost || winByWounds)
+                    return Win(fight);
 
                 bool allyLost = FightAllies.Where(x => x.Endurance > 0).Count() == 0;
 
                 if (allyLost)
                 {
-                    fight.Add(String.Empty);
-                    fight.Add("BIG|BAD|ВЫ ПРОИГРАЛИ :(");
-
                     if (NotToDeath)
                         Character.Protagonist.Endurance += 1;
 
-                    return fight;
+                    return Fail(fight);
                 }
 
                 if ((RoundsToWin > 0) && (RoundsToWin <= round))
                 {
-                    fight.Add(String.Empty);
                     fight.Add("BAD|Отведённые на победу раунды истекли.");
-                    fight.Add("BIG|BAD|ВЫ ПРОИГРАЛИ :(");
-                    return fight;
+                    return Fail(fight);
                 }
 
                 fight.Add(String.Empty);
