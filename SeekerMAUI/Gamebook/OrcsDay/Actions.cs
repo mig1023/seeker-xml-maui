@@ -390,9 +390,7 @@ namespace SeekerMAUI.Gamebook.OrcsDay
                     }
                     else
                     {
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|BAD|Ты ПРОИГРАЛ :(");
-                        return fight;
+                        return Fail(fight);
                     }
                 }
 
@@ -424,10 +422,7 @@ namespace SeekerMAUI.Gamebook.OrcsDay
                 if (enemy.Hitpoints <= 0)
                 {
                     Fights.WinTriggers(enemy.Name, GirlHelp);
-
-                    fight.Add(String.Empty);
-                    fight.Add("BIG|GOOD|Ты ПОБЕДИЛ :)");
-                    return fight;
+                    return Win(fight);
                 }
                 
                 fight.Add(String.Empty);
