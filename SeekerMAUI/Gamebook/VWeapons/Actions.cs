@@ -251,10 +251,7 @@ namespace SeekerMAUI.Gamebook.VWeapons
                         fight.Add("Ваши ранения слишком страшны, вы не способны противостоять противнику в этом бою...");
                         Character.Protagonist.Dead = true;
 
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-
-                        return fight;
+                        return Fail(fight);
                     } 
                     else
                     {
@@ -273,11 +270,7 @@ namespace SeekerMAUI.Gamebook.VWeapons
                     }
 
                     if (Fights.NoMoreEnemies(FightEnemies))
-                    {
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                        return fight;
-                    }
+                        return Win(fight);
 
                     fight.Add(String.Empty);
                 }
