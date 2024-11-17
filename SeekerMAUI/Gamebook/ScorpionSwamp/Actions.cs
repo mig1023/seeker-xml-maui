@@ -239,11 +239,7 @@ namespace SeekerMAUI.Gamebook.ScorpionSwamp
                         firstBlood = true;
 
                         if (NoMoreEnemies(FightEnemies))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
-                        }
+                            return Win(fight);
                     }
                     else if (protagonistHitStrength > enemyHitStrength)
                     {
@@ -258,11 +254,7 @@ namespace SeekerMAUI.Gamebook.ScorpionSwamp
                         firstBlood = true;
 
                         if (Character.Protagonist.Endurance <= 0)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                            return fight;
-                        }
+                            return Fail(fight);
                     }
                     else
                     {
