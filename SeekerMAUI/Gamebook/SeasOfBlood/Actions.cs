@@ -241,11 +241,7 @@ namespace SeekerMAUI.Gamebook.SeasOfBlood
                         }
 
                         if (NoMoreEnemies(FightEnemies))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Ты ПОБЕДИЛ :)");
-                            return fight;
-                        }
+                            return Win(fight, you: true);
                     }
                     else if ((protagonistHitStrength > enemyHitStrength) && !Leech)
                     {
@@ -294,11 +290,7 @@ namespace SeekerMAUI.Gamebook.SeasOfBlood
                         }
 
                         if (Character.Protagonist.Endurance <= 0)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Ты ПРОИГРАЛ :(");
-                            return fight;
-                        }
+                            return Fail(fight, you: true);
                     }
                     else if (!Leech)
                     {
@@ -373,11 +365,7 @@ namespace SeekerMAUI.Gamebook.SeasOfBlood
                     Character.Protagonist.TeamSize -= 2;
 
                     if (Character.Protagonist.TeamSize <= 0)
-                    {
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|BAD|Ты ПРОИГРАЛИ :(");
-                        return fight;
-                    }
+                        return Fail(fight, you: true);
                 }
                 else
                 {
