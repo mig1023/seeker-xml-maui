@@ -1600,6 +1600,9 @@
 		</Paragraph>
 		<Paragraph No="202">
 			<Text>Ваша жажда всё увеличивается. Вы чувствуете, что теряете 3 пункта Силы.</Text>
+			<Modifications>
+				<Strength Value="-3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="294" Text="Если вы ещё живы..."/>
 			</Options>
