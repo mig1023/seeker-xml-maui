@@ -375,19 +375,13 @@ namespace SeekerMAUI.Gamebook.YounglingTournament
                     }
                 }
 
-                fight.Add(String.Empty);
-
                 if (Character.Protagonist.Hitpoints <= 0)
-                {
-                    fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                    return fight;
-                }
+                    return Fail(fight);
 
                 if (FightEnemies.Keys.Where(x => x.Hitpoints > 0).Count() == 0)
-                {
-                    fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                    return fight;
-                }
+                    return Win(fight);
+
+                fight.Add(String.Empty);
 
                 round += 1;
             }
@@ -430,10 +424,7 @@ namespace SeekerMAUI.Gamebook.YounglingTournament
                     int enemyLimit = (EnemyHitpointsLimith > 0 ? EnemyHitpointsLimith : 0);
 
                     if ((FightEnemies.Keys.Where(x => x.Hitpoints > enemyLimit).Count() == 0))
-                    {
-                        fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                        return fight;
-                    }
+                        return Win(fight);
                 }
 
                 if (Game.Option.IsTriggered("Скоростная атака") && (round > 3) && !rapidAttack)
