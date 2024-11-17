@@ -1042,6 +1042,9 @@
 		</Paragraph>
 		<Paragraph No="131">
 			<Text>Вы зажигаете факел и освещаете себе путь. Вдруг чувствуете сильную боль в спине, будто в неё вонзились чьи-то когти. И вы теряете 6 пунктов Силы; и если вы всё ещё живы...</Text>
+			<Modifications>
+				<Strength Value="-6"/>
+			</Modifications>
 			<Options>
 				<Option Goto="57"/>
 			</Options>
