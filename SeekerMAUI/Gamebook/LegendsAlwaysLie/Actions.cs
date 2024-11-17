@@ -136,7 +136,8 @@ namespace SeekerMAUI.Gamebook.LegendsAlwaysLie
 
             if (!goodReaction && Game.Option.IsTriggered("WardSave"))
             {
-                reaction.Add("GOOD|Вы не смогли среагировать, но духи земли и камня не забывают добра: они помогли вам!");
+                reaction.Add("GOOD|Вы не смогли среагировать, " +
+                    "но духи земли и камня не забывают добра: они помогли вам!");
                 goodReaction = true;
                 Game.Option.Trigger("WardSave", remove: true);
             }
@@ -459,7 +460,7 @@ namespace SeekerMAUI.Gamebook.LegendsAlwaysLie
                         fight.Add($"BAD|{wounds[1].TrimStart()} нанесли дополнительный урон: {wound}");
 
                         if (Character.Protagonist.Hitpoints <= 0)
-                            return Fights.Lost(fight);
+                            return Fail(fight);
                     }
                     else
                     {
@@ -611,7 +612,7 @@ namespace SeekerMAUI.Gamebook.LegendsAlwaysLie
                         }
 
                         if (Character.Protagonist.Hitpoints <= 0)
-                            return Fights.Lost(fight);
+                            return Fail(fight);
                     }
                     else
                     {
@@ -634,7 +635,7 @@ namespace SeekerMAUI.Gamebook.LegendsAlwaysLie
                             Character.Protagonist.ConneryHitpoints -= 2;
 
                             if (Character.Protagonist.ConneryHitpoints <= 0)
-                                return Fights.Lost(fight);
+                                return Fail(fight);
                         }
                         else
                         {
@@ -655,7 +656,7 @@ namespace SeekerMAUI.Gamebook.LegendsAlwaysLie
                     if ((RoundsToWin > 0) && (RoundsToWin <= round))
                     {
                         fight.Add("BAD|Отведённые на победу раунды истекли.");
-                        return Fights.Lost(fight);
+                        return Fail(fight);
                     }
 
                     fight.Add(String.Empty);

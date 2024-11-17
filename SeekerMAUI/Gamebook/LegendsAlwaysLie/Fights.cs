@@ -28,13 +28,5 @@ namespace SeekerMAUI.Gamebook.LegendsAlwaysLie
                 return true;
             }
         }
-
-        public static List<string> Lost(List<string> fight)
-        {
-            fight.Add(String.Empty);
-            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-
-            return fight;
-        }
     }
 }
