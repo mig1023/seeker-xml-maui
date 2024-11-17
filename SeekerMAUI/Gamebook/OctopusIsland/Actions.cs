@@ -193,11 +193,7 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
                         Character.Protagonist.Hitpoint -= 2;
 
                         if (!Fights.SetCurrentWarrior(ref fight))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                            return fight;
-                        }
+                            return Fail(fight);
                     }
                     else
                     {
