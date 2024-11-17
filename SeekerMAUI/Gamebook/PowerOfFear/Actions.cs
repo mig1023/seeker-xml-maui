@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SeekerMAUI.Gamebook.KoshcheisChain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -301,9 +302,7 @@ namespace SeekerMAUI.Gamebook.PowerOfFear
 
                 lines.Add("GOOD|BOLD|Враг повержен «Жестоким ударом»!");
                 lines.Add("Вы только лишь потеряли 1 ед. Здоровья по условиям применения этого состояния");
-                lines.Add("GOOD|BIG|Вы победили :)");
-
-                return lines;
+                return Win(lines);
             }
 
             if (Game.Option.IsTriggered("Злость"))
@@ -415,8 +414,7 @@ namespace SeekerMAUI.Gamebook.PowerOfFear
                         Character.Protagonist.Hitpoints = hiptoints;
 
                     lines.Add("BAD|BOLD|Противник победил!");
-                    lines.Add("BAD|BIG|Вы проиграли :(");
-                    return lines;
+                    return Fail(lines);
                 }
                 else if (enemyAttack < heroAttack)
                 {
@@ -425,8 +423,7 @@ namespace SeekerMAUI.Gamebook.PowerOfFear
 
                     lines.Add($"Ваша атака ({heroAttack} ед.) сильнее, чем у противника ({enemyAttack} ед.)!");
                     lines.Add("GOOD|BOLD|Противник повержен!");
-                    lines.Add("GOOD|BIG|Вы победили :)");
-                    return lines;
+                    return Win(lines);
                 }
                 else
                 {
