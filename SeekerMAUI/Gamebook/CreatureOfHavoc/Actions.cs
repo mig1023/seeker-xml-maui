@@ -314,10 +314,7 @@ namespace SeekerMAUI.Gamebook.CreatureOfHavoc
                             }
                             else
                             {
-                                fight.Add(string.Empty);
-                                fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-
-                                return fight;
+                                return Win(fight);
                             }
                         }
                         else
@@ -325,10 +322,7 @@ namespace SeekerMAUI.Gamebook.CreatureOfHavoc
                             Character.Protagonist.Endurance = 0;
 
                             fight.Add("BAD|Вы смертельно ранены шершнем");
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-
-                            return fight;
+                            return Fail(fight);
                         }
                     } 
                     else if ((doubleSixes || (protagonistHitStrength > enemyHitStrength)) && !attackAlready)
@@ -350,12 +344,7 @@ namespace SeekerMAUI.Gamebook.CreatureOfHavoc
                         bool enemyLost = Enemy.NoMore(FightEnemies);
 
                         if (enemyLost || ((WoundsToWin > 0) && (WoundsToWin <= enemyWounds)))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-
-                            return fight;
-                        }
+                            return Win(fight);
                     }
                     else if (protagonistHitStrength > enemyHitStrength)
                     {
@@ -375,11 +364,8 @@ namespace SeekerMAUI.Gamebook.CreatureOfHavoc
 
                     if ((RoundsToWin > 0) && (RoundsToWin <= round))
                     {
-                        fight.Add(String.Empty);
                         fight.Add("BAD|Отведённые на победу раунды истекли.");
-                        fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-
-                        return fight;
+                        return Fail(fight);
                     }
 
                     if ((RoundsToFight > 0) && (RoundsToFight <= round))
