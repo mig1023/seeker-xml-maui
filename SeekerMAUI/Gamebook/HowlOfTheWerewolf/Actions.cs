@@ -637,12 +637,10 @@ namespace SeekerMAUI.Gamebook.HowlOfTheWerewolf
                             fight.Add($"BAD|Изменение увеличилось на единицу и достигло {Character.Protagonist.Change}");
                         }
 
-                        if ((Character.Protagonist.Endurance <= 0) || ((WoundsToWin > 0) && (WoundsToWin <= enemyWounds)))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                            return fight;
-                        }
+                        var failByWounds = (WoundsToWin > 0) && (WoundsToWin <= enemyWounds);
+
+                        if ((Character.Protagonist.Endurance <= 0) || failByWounds)
+                            return Fail(fight);
                     }
                     else
                     {
