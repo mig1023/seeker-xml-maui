@@ -198,9 +198,7 @@ namespace SeekerMAUI.Gamebook.WrongWayGoBack
                 if (heroRollFirst == heroRollSecond)
                 {
                     fight.Add($"GOOD|Ты выкинул дубль!!");
-                    fight.Add(String.Empty);
-                    fight.Add("BIG|GOOD|Ты ПОБЕДИЛ :)");
-                    return fight;
+                    return Win(fight, you: true);
                 }
 
                 Game.Dice.DoubleRoll(out int enemyRollFirst, out int enemyRollSecond);
@@ -214,9 +212,7 @@ namespace SeekerMAUI.Gamebook.WrongWayGoBack
                 if (enemyRollFirst == enemyRollSecond)
                 {
                     fight.Add($"BAD|Он выкинул дубль!!");
-                    fight.Add(String.Empty);
-                    fight.Add("BIG|BAD|Ты ПРОИГРАЛ :(");
-                    return fight;
+                    return Fail(fight, you: true);
                 }
 
                 if (heroHitStrength > enemyHitStrength)
@@ -240,11 +236,7 @@ namespace SeekerMAUI.Gamebook.WrongWayGoBack
                     }
 
                     if (enemy.Hitpoints <= 2)
-                    {
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|GOOD|Ты ПОБЕДИЛ :)");
-                        return fight;
-                    }
+                        return Win(fight, you: true);
                 }
                 else if (heroHitStrength < enemyHitStrength)
                 {
@@ -254,11 +246,7 @@ namespace SeekerMAUI.Gamebook.WrongWayGoBack
                     Character.Protagonist.Hitpoints -= 2;
 
                     if (Character.Protagonist.Hitpoints <= 2)
-                    {
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|BAD|Ты ПРОИГРАЛ :(");
-                        return fight;
-                    }
+                        return Fail(fight, you: true);
                 }
                 else
                 {
