@@ -43,11 +43,15 @@ namespace SeekerMAUI.Gamebook.LandOfTallGrasses
             {
                 luck.Add("Выпавшее значение больше или равно значению удачи!");
                 luck.Add("GOOD|BIG|BOLD|Вам повезло! :)");
+
+                Game.Buttons.Disable("Fail");
             }
             else
             {
                 luck.Add("Выпавшее значение меньше значения удачи!");
                 luck.Add("BAD|BIG|BOLD|Вам НЕ повезло! :(");
+
+                Game.Buttons.Disable("Win");
             }
 
             return luck;
@@ -108,11 +112,7 @@ namespace SeekerMAUI.Gamebook.LandOfTallGrasses
                     min.Link.Strength -= 3;
 
                     if (NoMoreEnemies(FightEnemies))
-                    {
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                        return fight;
-                    }
+                        return Win(fight);
                 }
                 else if (protagonistHit < max.Hit)
                 {
@@ -121,11 +121,7 @@ namespace SeekerMAUI.Gamebook.LandOfTallGrasses
                     Character.Protagonist.Strength -= 3;
 
                     if (Character.Protagonist.Strength <= 0)
-                    {
-                        fight.Add(String.Empty);
-                        fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                        return fight;
-                    }
+                        return Fail(fight);
                 }
                 else
                 {
@@ -136,10 +132,8 @@ namespace SeekerMAUI.Gamebook.LandOfTallGrasses
                 {
                     Character.Protagonist.Strength = 0;
 
-                    fight.Add(String.Empty);
                     fight.Add("BAD|Отведённые на победу раунды истекли...");
-                    fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                    return fight;
+                    return Fail(fight);
                 }
 
                 fight.Add(String.Empty);
