@@ -1797,6 +1797,9 @@
 		</Paragraph>
 		<Paragraph No="228">
 			<Text>Вы вдыхаете ядовитый дым, вытекающий из кубка, и теряете 3 пункта Силы. Почувствовав головокружение, отнимите 1 пункт из своей Ловкости.</Text>
+			<Modifications>
+				<Strength Value="-3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="146" Text="Если вы ещё живы..."/>
 			</Options>
