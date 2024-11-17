@@ -374,11 +374,7 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
                         bool enemyLost = NoMoreEnemies(FightEnemies, EnemyWoundsLimit);
 
                         if (enemyLost)
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-                            return fight;
-                        }
+                            return Win(fight);
                     }
                     else if (protagonistHitStrength > enemyHitStrength)
                     {
@@ -390,12 +386,10 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
 
                         Character.Protagonist.Strength -= (DevastatingAttack > 0 ? DevastatingAttack : 2);
 
-                        if ((Character.Protagonist.Strength <= 0) || (HeroWoundsLimit && (Character.Protagonist.Strength <= 2)))
-                        {
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                            return fight;
-                        }
+                        var failByLimit = HeroWoundsLimit && (Character.Protagonist.Strength <= 2);
+
+                        if ((Character.Protagonist.Strength <= 0) || failByLimit)
+                            return Fail(fight);
                     }
                     else
                     {
@@ -406,10 +400,8 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
 
                     if ((RoundsToWin > 0) && (RoundsToWin <= round))
                     {
-                        fight.Add(String.Empty);
                         fight.Add("BAD|Отведённые на победу раунды истекли.");
-                        fight.Add("BIG|BAD|Вы ПРОИГРАЛИ :(");
-                        return fight;
+                        return Fail(fight);
                     }
 
                     fight.Add(String.Empty);
