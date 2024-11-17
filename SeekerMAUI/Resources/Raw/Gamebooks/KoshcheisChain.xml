@@ -40,6 +40,10 @@
 		</Paragraph>
 		<Paragraph No="3">
 			<Text>Вы падаете затылком на мостовую и сильно ушибаетесь.\n\nТеряете 3 пункта Силы и 1 пункт Ловкости.\n\nЕсли вы остаётесь при этом в живых, то можете:</Text>
+			<Modifications>
+				<Strength Value="-3"/>
+				<Skill Value="-1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="67" Text="Попытаться вскарабкаться на забор в полной экипировке"/>
 				<Option Goto="24" Text="Спрятать вещи в тени"/>
