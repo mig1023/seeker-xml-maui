@@ -436,8 +436,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="206" Text="Вам хватило экстрасенсорных способностей"/>
-				<Option Goto="295" Text="Не хватило"/>
+				<Option Goto="206" Text="Вам хватило экстрасенсорных способностей" Tag="Win"/>
+				<Option Goto="295" Text="Не хватило" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="53">
