@@ -102,6 +102,7 @@
 			<Actions>
 				<Reaction>
 					<Button>Реагируйте ещё раз</Button>
+					<Damage Name="Hitpoints" Value="-3"/>
 					<Text>Если вы не успеет увернуться, то теряете 3 ЖИЗНИ.</Text>
 				</Reaction>
 			</Actions>
