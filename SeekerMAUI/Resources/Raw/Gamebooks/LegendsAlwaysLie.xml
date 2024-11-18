@@ -1443,10 +1443,10 @@
 				</Reaction>
 			</Actions>
 			<Options>
-				<Option Goto="125">
+				<Option Goto="125" Tag="Win">
 					<Text>Если хоть раз не удалось, то линия вашей судьбы оборвется здесь, в грязи богом забытого ущелья...</Text>
 				</Option>
-				<Gameover/>
+				<Gameover Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="143">
