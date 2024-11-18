@@ -4517,10 +4517,10 @@
 				<Reaction/>
 			</Actions>
 			<Options>
-				<Option Goto="548" Text="Успели">
+				<Option Goto="548" Text="Успели" Tag="Win">
 					<Text>Если ни то, ни другое у вас не выйдет, то два арбалетных болта прервут ваш полет самым неприятным образом...</Text>
 				</Option>
-				<Gameover/>
+				<Gameover Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="490">
