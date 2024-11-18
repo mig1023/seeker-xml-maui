@@ -143,10 +143,7 @@ namespace SeekerMAUI.Gamebook.LegendsAlwaysLie
             }
 
             reaction.Add(Result(goodReaction, "СРЕАГИРОВАЛИ", "НЕ СРЕАГИРОВАЛИ"));
-
-            Game.Buttons.Disable(goodReaction,
-                "Успели, Очутились на другом берегу, Все в порядке, Вы были быстрее дракона",
-                "Нет, Ушли под воду");
+            Game.Buttons.Disable(goodReaction, "Win", "Fail");
 
             if (goodReaction && (Benefit != null))
                 Benefit.Do();
