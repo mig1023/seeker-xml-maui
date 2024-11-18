@@ -3334,8 +3334,8 @@
 				<Reaction/>
 			</Actions>
 			<Options>
-				<Option Goto="440" Text="Успели"/>
-				<Option Goto="9" Text="Нет"/>
+				<Option Goto="440" Text="Успели" Tag="Win"/>
+				<Option Goto="9" Text="Нет" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="361">
