@@ -643,8 +643,8 @@
 				</Text>
 			</Actions>
 			<Options>
-				<Option Goto="250" Text="Получилось"/>
-				<Option Goto="264" Text="Не получилось"/>
+				<Option Goto="250" Text="Получилось" Tag="Win"/>
+				<Option Goto="264" Text="Не получилось" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="77">
