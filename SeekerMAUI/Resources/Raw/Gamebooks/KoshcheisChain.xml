@@ -511,8 +511,8 @@
 				</Text>
 			</Actions>
 			<Options>
-				<Option Goto="215" Text="Это удалось"/>
-				<Option Goto="212" Text="Не удалось"/>
+				<Option Goto="215" Text="Это удалось" Tag="Win"/>
+				<Option Goto="212" Text="Не удалось" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="61">
