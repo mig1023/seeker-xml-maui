@@ -678,8 +678,8 @@
 				<Reaction/>
 			</Actions>
 			<Options>
-				<Option Goto="271" Text="Все в порядке"/>
-				<Option Goto="112" Text="Чуть притормозили"/>
+				<Option Goto="271" Text="Все в порядке" Tag="Win"/>
+				<Option Goto="112" Text="Чуть притормозили" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="71">
