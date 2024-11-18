@@ -253,10 +253,10 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="42" Text="Вам повезло">
+				<Option Goto="42" Text="Вам повезло" Tag="Win">
 					<Text>Если нет, то оставьте под стеной всё, кроме меча, факела и каменной пластинки...</Text>
 				</Option>
-				<Option Goto="24"/>
+				<Option Goto="24" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="29">
