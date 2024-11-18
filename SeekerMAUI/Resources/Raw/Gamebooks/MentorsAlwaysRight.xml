@@ -3581,7 +3581,7 @@
 				</Reaction>
 			</Actions>
 			<Options>
-				<Option Goto="323" Text="Вам это удалось">
+				<Option Goto="323" Text="Вам это удалось" Tag="Win">
 					<Text>Если же вы сочтете белые ступеньки слишком опасными, то можете попробовать:</Text>
 				</Option>
 				<Option Goto="290" Text="Ступить на черную"/>
