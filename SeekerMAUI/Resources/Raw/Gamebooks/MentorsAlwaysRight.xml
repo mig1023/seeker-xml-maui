@@ -2837,10 +2837,10 @@
 				<Reaction/>
 			</Actions>
 			<Options>
-				<Option Goto="462" Text="Ваша скорость на высоте">
+				<Option Goto="462" Text="Ваша скорость на высоте" Tag="Win">
 					<Text>Иначе удар ядовитого хвоста положит конец вашему походу...</Text>
 				</Option>
-				<Gameover/>
+				<Gameover Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="302">
