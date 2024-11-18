@@ -4042,13 +4042,16 @@
 			<Actions>
 				<Reaction>
 					<Damage Name="Hitpoints" Value="-30"/>
-					<Text>Если реакция подведет вас, то атака джинна будет смертельной, и ваше приключение окончено...\n\nЕсли же ваши рефлексы на высоте, то вы несомненно успеете — но что именно?</Text>
+					<Text>Если реакция подведет вас, то атака джинна будет смертельной, и ваше приключение окончено...</Text>
 				</Reaction>
 			</Actions>
 			<Options>
-				<Option Goto="558" Text="Встретить противника ударом меча"/>
-				<Option Goto="594" Text="Ударить его СГУСТКОМ" Availability="ЗАКЛЯТИЙ > 0"/>
-				<Option Goto="415" Text="Присесть на месте"/>
+				<Gameover Tag="Fail">
+					<Text>Если же ваши рефлексы на высоте, то вы несомненно успеете — но что именно?</Text>
+				</Gameover>
+				<Option Goto="558" Text="Встретить противника ударом меча" Tag="Win"/>
+				<Option Goto="594" Text="Ударить его СГУСТКОМ" Availability="ЗАКЛЯТИЙ > 0" Tag="Win"/>
+				<Option Goto="415" Text="Присесть на месте" Tag="Win"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="406">
