@@ -3598,9 +3598,9 @@
 				<Hitpoints Value="-3"/>
 			</Modifications>
 			<Options>
-				<Option Goto="325" Text="Все в порядке"/>
-				<Option Goto="380" Text="Нет, но еще есть крохотный шанс поставить ЗАСЛОН" Availability="ЗАКЛЯТИЙ > 0"/>
-				<Option Goto="314" Text="Заклинаний в запасе у вас нет, или вы из экономии не хотите этого делать"/>
+				<Option Goto="325" Text="Все в порядке" Tag="Win"/>
+				<Option Goto="380" Text="Нет, но еще есть крохотный шанс поставить ЗАСЛОН" Availability="ЗАКЛЯТИЙ > 0" Tag="Fail"/>
+				<Option Goto="314" Text="Заклинаний в запасе у вас нет, или вы из экономии не хотите этого делать" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="361">
