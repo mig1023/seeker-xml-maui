@@ -722,7 +722,7 @@
 				</Reaction>
 			</Actions>
 			<Options>
-				<Option Goto="193" Text="Вырвались из обители гулов"/>
+				<Option Goto="193" Text="Вырвались из обители гулов" Tag="Win"/>
 				<Option Goto="464" Text="Одна из тварей ухватила-таки вас за плечо"/>
 			</Options>
 		</Paragraph>
