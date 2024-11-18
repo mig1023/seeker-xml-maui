@@ -6008,11 +6008,11 @@
 				</Reaction>
 			</Actions>
 			<Options>
-				<Option Goto="661" Text="Снаряд достигнет своей цели">
+				<Option Goto="661" Text="Снаряд достигнет своей цели" Tag="Fail">
 					<Text>Если же вы быстры как ветер, то вы успеете отбить летящий шар. В этом случае:</Text>
 				</Option>
-				<Option Goto="638" Text="У вас в руках орочий яхан"/>
-				<Option Goto="652" Text="Обычный ведьмачий меч"/>
+				<Option Goto="638" Text="У вас в руках орочий яхан" Tag="Win"/>
+				<Option Goto="652" Text="Обычный ведьмачий меч" Tag="Win"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="607">
