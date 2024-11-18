@@ -283,8 +283,8 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="98" Text="Получилось"/>
-				<Option Goto="82" Text="Не удалось"/>
+				<Option Goto="98" Text="Получилось" Tag="Win"/>
+				<Option Goto="82" Text="Не удалось" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="33">
