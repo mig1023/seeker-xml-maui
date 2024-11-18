@@ -126,12 +126,11 @@ namespace SeekerMAUI.Gamebook.ScorpionSwamp
             {
                 Character.Protagonist.Luck += 2;
                 enduranceCheck.Add($"GOOD|Удача увеличена на 2 единицы");
-                Game.Buttons.Disable("Ты приземляешься прямо на голову ужасающему чудовищу");
+                Game.Buttons.Disable("Fail");
             }
             else
             {
-                Game.Buttons.Disable("Ты удачно перепрыгиваешь через медленно " +
-                    "приближающегося Монстра и сломя голову несешься по тропинке");
+                Game.Buttons.Disable("Win");
             }
 
             return enduranceCheck;
