@@ -1989,8 +1989,8 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="263" Text="Проскочить удалось"/>
-				<Option Goto="18" Text="Не удалось"/>
+				<Option Goto="263" Text="Проскочить удалось" Tag="Win"/>
+				<Option Goto="18" Text="Не удалось" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="247">
