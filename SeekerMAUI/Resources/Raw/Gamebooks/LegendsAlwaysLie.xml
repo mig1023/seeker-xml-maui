@@ -3539,8 +3539,8 @@
 				</Reaction>
 			</Actions>
 			<Options>
-				<Option Goto="305" Text="Очутились на другом берегу"/>
-				<Option Goto="393" Text="Ушли под воду"/>
+				<Option Goto="305" Text="Очутились на другом берегу" Tag="Win"/>
+				<Option Goto="393" Text="Ушли под воду" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="356">
