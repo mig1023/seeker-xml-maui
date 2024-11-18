@@ -6,8 +6,10 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
     {
         public string EnemyName = String.Empty;
         public int EnemyStrength = 0;
-
-        public List<Fight> Fights { get; set; } 
+        
+        public List<Fight> Fights { get; set; }
+        public bool ByExtrasensory { get; set; }
+        public bool RingEffect { get; set; }
 
         public override List<string> AdditionalStatus()
         {
@@ -128,6 +130,40 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 round += 1;
                 fight.Add(String.Empty);
             }
+        }
+
+        public List<string> Test()
+        {
+            Octagon.DoubleRoll(out int firstDice, out int secondDice);
+            var level = ByExtrasensory ? Character.Protagonist.Extrasensory : Character.Protagonist.Skill;
+            var passed = (firstDice + secondDice) <= level;
+            string passedLine = (passed ? "<= " : "> ") + level.ToString();
+            string levelType = ByExtrasensory ? "экстрасенсорных способностей " : "ловкости ";
+
+            if (RingEffect && (firstDice == 7) || (secondDice == 7))
+            {
+                passed = true;
+                passedLine = "- выпало волшебное кольцо!";
+            }
+
+            List<string> test = new List<string> {
+                $"Проверка {levelType}: " +
+                $"{Octagon.Symbol(firstDice)} + " +
+                $"{Octagon.Symbol(secondDice)} " +
+                $"{passedLine}" };
+
+            if (passed)
+            {
+                test.Add("BIG|GOOD|УСПЕХ :)");
+                Game.Buttons.Disable("Fail");
+            }
+            else
+            {
+                test.Add("BIG|BAD|НЕУДАЧА :(");
+                Game.Buttons.Disable("Win");
+            }
+
+            return test;
         }
     }
 }
