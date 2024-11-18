@@ -2940,8 +2940,8 @@
 				<Reaction/>
 			</Actions>
 			<Options>
-				<Option Goto="15" Text="Успели"/>
-				<Option Goto="502" Text="Нет"/>
+				<Option Goto="15" Text="Успели" Tag="Win"/>
+				<Option Goto="502" Text="Нет" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="313">
