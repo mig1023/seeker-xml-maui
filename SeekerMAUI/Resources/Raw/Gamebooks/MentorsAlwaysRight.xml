@@ -2813,8 +2813,8 @@
 				<Hitpoints Value="-1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="178" Text="Успели"/>
-				<Option Goto="460" Text="Нет"/>
+				<Option Goto="178" Text="Успели" Tag="Win"/>
+				<Option Goto="460" Text="Нет" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="300">
