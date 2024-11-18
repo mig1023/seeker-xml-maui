@@ -761,8 +761,8 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="208" Text="Вам удалось ускользнуть от него"/>
-				<Option Goto="44" Text="Ловкости не хватило"/>
+				<Option Goto="208" Text="Вам удалось ускользнуть от него" Tag="Win"/>
+				<Option Goto="44" Text="Ловкости не хватило" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="90">
