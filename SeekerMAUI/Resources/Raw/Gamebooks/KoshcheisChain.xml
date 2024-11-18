@@ -508,7 +508,7 @@
 			<Actions>	
 				<Test>
 					<RingEffect/>
-				</Text>
+				</Test>
 			</Actions>
 			<Options>
 				<Option Goto="215" Text="Это удалось" Tag="Win"/>
