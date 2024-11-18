@@ -640,7 +640,7 @@
 			<Actions>	
 				<Test>
 					<RingEffect/>
-				</Text>
+				</Test>
 			</Actions>
 			<Options>
 				<Option Goto="250" Text="Получилось" Tag="Win"/>
