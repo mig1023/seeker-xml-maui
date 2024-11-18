@@ -1657,8 +1657,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="263" Text="Получилось"/>
-				<Option Goto="18" Text="Не получилось"/>
+				<Option Goto="263" Text="Получилось" Tag="Win"/>
+				<Option Goto="18" Text="Не получилось"  Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="205">
