@@ -4475,11 +4475,11 @@
 				<Reaction/>
 			</Actions>
 			<Options>
-				<Option Goto="546" Text="Успели">
+				<Option Goto="546" Text="Успели" Tag="Win">
 					<Text>Иначе теряете 3 ЖИЗНИ и принимаете бой...</Text>
 				</Option>
 				<Option Goto="245">
-					<Hitpoints Value="-3"/>
+					<Hitpoints Value="-3" Tag="Fail"/>
 				</Option>
 			</Options>
 		</Paragraph>
