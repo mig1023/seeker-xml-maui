@@ -4865,10 +4865,10 @@
 				<Reaction/>
 			</Actions>
 			<Options>
-				<Option Goto="476" Text="Успели">
+				<Option Goto="476" Text="Успели" Tag="Win">
 					<Text>Если же ваша реакция запаздывает, то, увы, эльфийская стрела положит конец вашему походу...</Text>
 				</Option>
-				<Gameover/>
+				<Gameover Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="530">
