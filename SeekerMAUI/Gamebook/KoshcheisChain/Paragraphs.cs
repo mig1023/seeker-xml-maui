@@ -49,5 +49,8 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
             return action;
         }
+
+        public override Option OptionParse(XmlNode xmlOption) =>
+            OptionParseWithDo(xmlOption, new Modification());
     }
 }
