@@ -161,9 +161,11 @@ namespace SeekerMAUI.Prototypes
         public string Result(bool resultOk, string good, string bad) =>
             resultOk ? $"BIG|GOOD|{good} :)" : $"BIG|BAD|{bad} :(";
 
-        public List<string> Win(List<string> fight, bool you = false)
+        public List<string> Win(List<string> fight,
+            bool you = false, bool withoutSpace = false)
         {
-            fight.Add(String.Empty);
+            if (!withoutSpace)
+                fight.Add(String.Empty);
 
             string line = you ? "Ты ПОБЕДИЛ" : "Вы ПОБЕДИЛИ";
             fight.Add($"BIG|GOOD|{line} :)");
@@ -171,12 +173,14 @@ namespace SeekerMAUI.Prototypes
             return fight;
         }
 
-        public List<string> Fail(List<string> fight, bool you = false)
+        public List<string> Fail(List<string> fight,
+            bool you = false, bool withoutSpace = false)
         {
-            fight.Add(String.Empty);
+            if (!withoutSpace)
+                fight.Add(String.Empty);
 
             string line = you ? "Ты ПРОИГРАЛ" : "Вы ПРОИГРАЛИ";
-            fight.Add($"BIG|BAD|Вы {line} :(");
+            fight.Add($"BIG|BAD|{line} :(");
 
             return fight;
         }
