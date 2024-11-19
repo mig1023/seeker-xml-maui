@@ -46,11 +46,11 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
         {
             if (!String.IsNullOrEmpty(fight.Hero) && fight.Hero != "win")
             {
-                return "BAD|";
+                return "BOLD|BAD|";
             }
             else
             {
-                return "GOOD|";
+                return "BOLD|GOOD|";
             }
         }
 
