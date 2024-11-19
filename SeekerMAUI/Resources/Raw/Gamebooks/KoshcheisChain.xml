@@ -1120,6 +1120,9 @@
 					<Dice Min="ring" Act="Вам выпало ВОЛШЕБНОЕ КОЛЬЦО, ваша Сила восстановилась." Hero="restore"/>
 				</Fight>
 			</Actions>
+			<Modifications>
+				<Money Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="112" Text="Вы победили"/>
 			</Options>
