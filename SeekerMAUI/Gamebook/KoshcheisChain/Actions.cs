@@ -208,14 +208,15 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
         {
             Octagon.DoubleRoll(out int firstDice, out int secondDice);
             var dices = firstDice + secondDice;
-            var dicesLine = dices > 12 ? String.Empty : $" = {dices}";
+            var ring = (firstDice == 7) || (secondDice == 7);
+            var dicesLine = ring ? String.Empty : $" = {dices}";
 
             var game = new List<string> { 
                 "Вы сделали ставку в 2 копейки",
                 $"BIG|Ваш бросок: {Octagon.Symbol(firstDice)} + " +
                 $"{Octagon.Symbol(secondDice)}{dicesLine}" };
 
-            if ((firstDice == 7) || (secondDice == 7))
+            if (ring)
             {
                 game.Add("GOOD|Вам выпало волшебное кольцо!");
                 dices = 12;
