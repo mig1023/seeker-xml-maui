@@ -13,6 +13,12 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
         {
             var action = (Actions)ActionTemplate(xmlAction, new Actions());
 
+            if (action.Type == "Option")
+            {
+                action.Option = OptionParse(xmlAction);
+                return action;
+            }
+
             var enemy = xmlAction.SelectSingleNode("Enemy");
             action.EnemyName = Xml.StringParse(enemy.Attributes["Name"]);
             action.ByExtrasensory = Xml.BoolParse(xmlAction["ByExtrasensory"]);
@@ -40,9 +46,6 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
                 action.Fights.Add(fight);
             }
-
-            if (action.Type == "Option")
-                action.Option = OptionParse(xmlAction);
 
             return action;
         }
