@@ -1,5 +1,4 @@
 ﻿using System;
-using static Android.Icu.Text.AlphabeticIndex.Bucket;
 
 namespace SeekerMAUI.Gamebook.KoshcheisChain
 {
@@ -191,7 +190,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
             var dice = Game.Dice.Roll();
 
-            diceGame.Add($"Вы выбросили: {Game.Dice.Symbol(dice)}");
+            diceGame.Add($"BIG|Вы выбросили: {Game.Dice.Symbol(dice)}");
 
             if (dice >= 4)
             {
@@ -209,11 +208,12 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
         {
             Octagon.DoubleRoll(out int firstDice, out int secondDice);
             var dices = firstDice + secondDice;
+            var dicesLine = dices > 12 ? String.Empty : $" = {dices}";
 
             var game = new List<string> { 
                 "Вы сделали ставку в 2 копейки",
                 $"BIG|Ваш бросок: {Octagon.Symbol(firstDice)} + " +
-                $"{Octagon.Symbol(secondDice)} = {dices}" };
+                $"{Octagon.Symbol(secondDice)}{dicesLine}" };
 
             if ((firstDice == 7) || (secondDice == 7))
             {
