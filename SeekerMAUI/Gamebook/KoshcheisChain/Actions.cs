@@ -257,5 +257,29 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
             return game;
         }
+
+        public List<string> PathByDice()
+        {
+            var dice = Octagon.Roll();
+
+            if (RingEffect && (dice == 7))
+            {
+                // nothing to do
+            }
+            else if (dice < 3)
+            {
+                Game.Buttons.Disable("Path3, Path5");
+            }
+            else if (dice < 5)
+            {
+                Game.Buttons.Disable("Path0, Path5");
+            }
+            else
+            {
+                Game.Buttons.Disable("Path0, Path3");
+            }
+
+            return new List<string> { $"BIG|Вы выбросили: {Octagon.Symbol(dice)}" };
+        }
     }
 }
