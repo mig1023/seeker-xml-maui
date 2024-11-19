@@ -153,15 +153,18 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
         public List<string> Test()
         {
             Octagon.DoubleRoll(out int firstDice, out int secondDice);
+
             var level = ByExtrasensory ? Character.Protagonist.Extrasensory : Character.Protagonist.Skill;
             var passed = (firstDice + secondDice) <= level;
-            string passedLine = (passed ? "<= " : "> ") + level.ToString();
-            string levelType = ByExtrasensory ? "экстрасенсорных способностей " : "ловкости ";
+            var passedLine = (passed ? "<= " : "> ") + level.ToString();
+            var levelType = ByExtrasensory ? "экстрасенсорных способностей " : "ловкости ";
+            var ring = (firstDice == 7) || (secondDice == 7);
 
-            if (RingEffect && (firstDice == 7) || (secondDice == 7))
+            if (RingEffect && ring)
             {
                 passed = true;
                 passedLine = "- выпало волшебное кольцо!";
+                Game.Buttons.Disable("WinWithoutRing");
             }
 
             var test = new List<string> {
@@ -174,11 +177,17 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             {
                 test.Add("BIG|GOOD|УСПЕХ :)");
                 Game.Buttons.Disable("Fail");
+
+                if (RingEffect && !ring)
+                    Game.Buttons.Disable("WinWithRing");
             }
             else
             {
                 test.Add("BIG|BAD|НЕУДАЧА :(");
                 Game.Buttons.Disable("Win");
+
+                if (RingEffect)
+                    Game.Buttons.Disable("WinWithRing, WinWithoutRing");
             }
 
             return test;
