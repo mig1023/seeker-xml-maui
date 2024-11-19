@@ -11,6 +11,8 @@
 		</Styles>
 		<Buttons>
 			<Fight>Сражаться</Fight>
+			<Test>Проверить</Test>
+			<Button Action="Gambling, GameOfDice">Играть</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
