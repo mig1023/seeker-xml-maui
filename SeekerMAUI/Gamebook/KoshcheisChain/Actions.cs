@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Android.Net.Http;
+using System;
 
 namespace SeekerMAUI.Gamebook.KoshcheisChain
 {
@@ -39,6 +40,24 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             else
             {
                 return new List<string> { $"{EnemyName}\nсила {EnemyStrength}" };
+            }
+        }
+
+        public override bool Availability(string option)
+        {
+            if (String.IsNullOrEmpty(option))
+            {
+                return true;
+            }
+            else
+            {
+                int level = Game.Services.LevelParse(option);
+
+                if (option.Contains("КОПЕЕК >="))
+                    return level <= Character.Protagonist.Money;
+
+                else
+                    return AvailabilityTrigger(option);
             }
         }
 
