@@ -1103,7 +1103,7 @@
 				<Money Value="-1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="143" Text="Да"/>
+				<Option Goto="143" Text="Да" Availability="КОПЕЕК >= 1"/>
 				<Option Goto="217" Text="Нет"/>
 			</Options>
 		</Paragraph>
