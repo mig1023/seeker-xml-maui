@@ -1,4 +1,5 @@
 ﻿using System;
+using static Android.Icu.Text.AlphabeticIndex.Bucket;
 
 namespace SeekerMAUI.Gamebook.KoshcheisChain
 {
@@ -186,7 +187,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
         public List<string> GameOfDice()
         {
-            var diceGame = new List<string> { };
+            var diceGame = new List<string>();
 
             var dice = Game.Dice.Roll();
 
@@ -202,6 +203,49 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 Game.Buttons.Disable("Win");
                 return Fail(diceGame);
             }
+        }
+
+        public List<string> Gambling()
+        {
+            Octagon.DoubleRoll(out int firstDice, out int secondDice);
+            var dices = firstDice + secondDice;
+
+            var game = new List<string> { 
+                "Вы сделали ставку в 2 копейки",
+                $"BIG|Ваш бросок: {Octagon.Symbol(firstDice)} + " +
+                $"{Octagon.Symbol(secondDice)} = {dices}" };
+
+            if ((firstDice == 7) || (secondDice == 7))
+            {
+                game.Add("GOOD|Вам выпало волшебное кольцо!");
+                dices = 12;
+            }
+
+            if (dices < 3)
+            {
+                game.Add("BAD|BOLD|Вас обвиняют в обмане.");
+                Game.Buttons.Disable("Win, Fail, Again");
+            }
+            else if (dices < 7)
+            {
+                Character.Protagonist.Money -= 2;
+                game.Add("BAD|BOLD|Вы проигрываете свою ставку в две копейки.");
+                Game.Buttons.Disable("EpicFail, Win");
+            }
+            else if (dices < 12)
+            {
+                Character.Protagonist.Money += 2;
+                game.Add("GOOD|BOLD|Вы выигрываете четыре серебряных копеечки (двойную ставку).");
+                Game.Buttons.Disable("EpicFail, Fail");
+            }
+            else
+            {
+                Character.Protagonist.Money += 8;
+                game.Add("GOOD|BOLD|Вы выигрываете кон из 10 серебряных копеек!");
+                Game.Buttons.Disable("EpicFail, Fail");
+            }
+
+            return game;
         }
     }
 }
