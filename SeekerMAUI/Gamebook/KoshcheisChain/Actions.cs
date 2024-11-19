@@ -195,12 +195,12 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             if (dice >= 4)
             {
                 Game.Buttons.Disable("Fail");
-                return Win(diceGame);
+                return Win(diceGame, withoutSpace: true);
             }
             else
             {
                 Game.Buttons.Disable("Win");
-                return Fail(diceGame);
+                return Fail(diceGame, withoutSpace: true);
             }
         }
 
