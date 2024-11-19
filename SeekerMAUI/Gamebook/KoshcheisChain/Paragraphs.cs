@@ -19,6 +19,9 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 return action;
             }
 
+            action.ByExtrasensory = Xml.BoolParse(xmlAction["ByExtrasensory"]);
+            action.RingEffect = Xml.BoolParse(xmlAction["RingEffect"]);
+
             if (action.Type != "Fight")
             {
                 return action;
@@ -26,8 +29,6 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
             var enemy = xmlAction.SelectSingleNode("Enemy");
             action.EnemyName = Xml.StringParse(enemy.Attributes["Name"]);
-            action.ByExtrasensory = Xml.BoolParse(xmlAction["ByExtrasensory"]);
-            action.RingEffect = Xml.BoolParse(xmlAction["RingEffect"]);
 
             var strength = enemy.Attributes["Strength"].InnerText;
 
