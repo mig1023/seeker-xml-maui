@@ -19,6 +19,11 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 return action;
             }
 
+            if (action.Type != "Fight")
+            {
+                return action;
+            }
+
             var enemy = xmlAction.SelectSingleNode("Enemy");
             action.EnemyName = Xml.StringParse(enemy.Attributes["Name"]);
             action.ByExtrasensory = Xml.BoolParse(xmlAction["ByExtrasensory"]);
