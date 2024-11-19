@@ -1,5 +1,4 @@
-﻿using Android.Net.Http;
-using System;
+﻿using System;
 
 namespace SeekerMAUI.Gamebook.KoshcheisChain
 {
@@ -165,7 +164,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 passedLine = "- выпало волшебное кольцо!";
             }
 
-            List<string> test = new List<string> {
+            var test = new List<string> {
                 $"Проверка {levelType}: " +
                 $"{Octagon.Symbol(firstDice)} + " +
                 $"{Octagon.Symbol(secondDice)} " +
@@ -183,6 +182,26 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             }
 
             return test;
+        }
+
+        public List<string> GameOfDice()
+        {
+            var diceGame = new List<string> { };
+
+            var dice = Game.Dice.Roll();
+
+            diceGame.Add($"Вы выбросили: {Game.Dice.Symbol(dice)}");
+
+            if (dice >= 4)
+            {
+                Game.Buttons.Disable("Fail");
+                return Win(diceGame);
+            }
+            else
+            {
+                Game.Buttons.Disable("Win");
+                return Fail(diceGame);
+            }
         }
     }
 }
