@@ -69,6 +69,10 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 {
                     return level <= Character.Protagonist.Staff;
                 }
+                else if (option.Contains("ЖЕЗЛ ="))
+                {
+                    return level == Character.Protagonist.Staff;
+                }
                 else if (option.Contains(","))
                 {
                     var options = option.Split(",");
