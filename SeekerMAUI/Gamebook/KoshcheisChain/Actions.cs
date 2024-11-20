@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace SeekerMAUI.Gamebook.KoshcheisChain
 {
@@ -67,6 +68,20 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                     }
 
                     return false;
+                }
+                else if (option.Contains("Флейта и верёвка"))
+                {
+                    var flute = Game.Option.IsTriggered("Флейта");
+                    var rope = Game.Option.IsTriggered("Верёвка");
+
+                    if (option.Contains("!"))
+                    {
+                        return !flute || !rope;
+                    }
+                    else
+                    {
+                        return flute && rope;
+                    }
                 }
                 else
                 {
