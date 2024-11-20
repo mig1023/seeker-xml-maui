@@ -627,8 +627,8 @@
 		<Paragraph No="73">
 			<Text>Имеется ли у вас волшебная верёвка?</Text>
 			<Options>
-				<Option Goto="141" Text="Да"/>
-				<Option Goto="286" Text="Нет"/>
+				<Option Goto="141" Text="Да" Availability="Верёвка"/>
+				<Option Goto="286" Text="Нет" Availability="!Верёвка"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="74">
