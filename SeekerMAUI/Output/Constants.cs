@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using static SeekerMAUI.Output.Interface;
+﻿using static SeekerMAUI.Output.Interface;
 using static SeekerMAUI.Output.Buttons;
 using static SeekerMAUI.Game.Data;
 
@@ -17,6 +16,8 @@ namespace SeekerMAUI.Output
         public static string BOOKMARK_REMOVE = "X";
         public static string DISCLAIMER_LINK = " ➝ подробнее";
         public static string DISCLAIMER_LINK_OPENED = "⤵";
+        public static string COLOR_WHITE = "#ffffff";
+        public static string COLOR_BLACK = "#000000";
 
         public static Color BACKGROUND = Color.FromHex("#f7f7f7");
         public static Color LINK_COLOR_DEFAULT = Colors.Black;

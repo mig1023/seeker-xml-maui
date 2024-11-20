@@ -228,6 +228,9 @@ namespace SeekerMAUI.Output
             return close;
         }
 
+        private static string LinkColorFuse(string color) =>
+            color == Constants.COLOR_WHITE ? Constants.COLOR_BLACK : color;
+
         public static void Gamebook(Description gamebook, ref StackLayout options)
         {
             Frame border = new Frame
@@ -243,7 +246,7 @@ namespace SeekerMAUI.Output
                 Margin = new Thickness(0, 0, 0, 5),
             };
 
-            Label change = Link(gamebook.BookColor);
+            Label change = Link(LinkColorFuse(gamebook.BookColor));
 
             textLayout.Children.Add(LinkedElement(GamebookDisclaimer(gamebook), OpenTapped(border, change, gamebook)));
             textLayout.Children.Add(LinkedElement(change, OpenTapped(border, change, gamebook)));
