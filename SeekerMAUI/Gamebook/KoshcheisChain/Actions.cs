@@ -53,10 +53,25 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 int level = Game.Services.LevelParse(option);
 
                 if (option.Contains("КОПЕЕК >="))
+                {
                     return level <= Character.Protagonist.Money;
+                }
+                else if (option.Contains(","))
+                {
+                    var options = option.Split(",");
 
+                    foreach (var opt in options)
+                    {
+                        if (Game.Option.IsTriggered(opt.Trim()))
+                            return true;
+                    }
+
+                    return false;
+                }
                 else
+                {
                     return AvailabilityTrigger(option);
+                }
             }
         }
 
