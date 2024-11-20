@@ -37,6 +37,13 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             set => _money = Game.Param.Setter(value, _money, this);
         }
 
+        private int _staff;
+        public int Staff
+        {
+            get => _staff;
+            set => _staff = Game.Param.Setter(value, _staff, this);
+        }
+
         public override void Init()
         {
             base.Init();
@@ -46,6 +53,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             Skill = Octagon.RollValue() + 4;
             Extrasensory = Octagon.RollValue(dices: 2) + 3;
             Money = 30;
+            Staff = 0;
         }
 
         public Character Clone() => new Character()
@@ -57,10 +65,11 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             Skill = this.Skill,
             Extrasensory = this.Extrasensory,
             Money = this.Money,
+            Staff = this.Staff,
         };
 
         public override string Save() => String.Join("|",
-            MaxStrength, Strength, Skill, Extrasensory, Money);
+            MaxStrength, Strength, Skill, Extrasensory, Money, Staff);
 
         public override void Load(string saveLine)
         {
@@ -71,6 +80,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             Skill = int.Parse(save[2]);
             Extrasensory = int.Parse(save[3]);
             Money = int.Parse(save[4]);
+            Staff = int.Parse(save[5]);
 
             IsProtagonist = true;
         }

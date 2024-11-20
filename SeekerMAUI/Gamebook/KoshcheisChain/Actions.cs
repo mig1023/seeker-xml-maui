@@ -17,13 +17,21 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             var money = Character.Protagonist.Money;
             var line = Game.Services.CoinsNoun(money, "ейка", "ейки", "еек");
 
-            return new List<string>
+            var statuses = new List<string>
             {
                 $"Сила: {Character.Protagonist.Strength}/{Character.Protagonist.MaxStrength}",
                 $"Экстрасенсорика: {Character.Protagonist.Extrasensory}",
                 $"Ловкость: {Character.Protagonist.Skill}",
                 $"Богатство: {money} коп{line}",
             };
+
+            if (Character.Protagonist.Staff > 0)
+            {
+                var staff = Character.Protagonist.Staff;
+                statuses.Add($"Жезл: {staff} стрел");
+            }
+
+            return statuses;
         }
 
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
@@ -56,6 +64,10 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 if (option.Contains("КОПЕЕК >="))
                 {
                     return level <= Character.Protagonist.Money;
+                }
+                else if (option.Contains("ЖЕЗЛ >="))
+                {
+                    return level <= Character.Protagonist.Staff;
                 }
                 else if (option.Contains(","))
                 {
