@@ -62,7 +62,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             {
                 return true;
             }
-            else
+            else if (option.Contains("="))
             {
                 int level = Game.Services.LevelParse(option);
 
@@ -78,44 +78,48 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 {
                     return level == Character.Protagonist.Staff;
                 }
-                else if (option.Contains(","))
+                else
                 {
-                    var options = option.Split(",");
-
-                    foreach (var opt in options)
-                    {
-                        if (Game.Option.IsTriggered(opt.Trim()))
-                            return true;
-                    }
-
-                    return false;
+                    return true;
                 }
-                else if (option.Contains("Два зелья быстроты"))
-                {
-                    var count = Game.Data.Triggers
-                        .Where(x => x == "Зелье быстроты")
-                        .Count();
+            }
+            else if (option.Contains(","))
+            {
+                var options = option.Split(",");
 
-                    return count >= 2;
+                foreach (var opt in options)
+                {
+                    if (Game.Option.IsTriggered(opt.Trim()))
+                        return true;
                 }
-                else if (option.Contains("Флейта и верёвка"))
-                {
-                    var flute = Game.Option.IsTriggered("Флейта");
-                    var rope = Game.Option.IsTriggered("Верёвка");
 
-                    if (option.Contains("!"))
-                    {
-                        return !flute || !rope;
-                    }
-                    else
-                    {
-                        return flute && rope;
-                    }
+                return false;
+            }
+            else if (option.Contains("Два зелья быстроты"))
+            {
+                var count = Game.Data.Triggers
+                    .Where(x => x == "Зелье быстроты")
+                    .Count();
+
+                return count >= 2;
+            }
+            else if (option.Contains("Флейта и верёвка"))
+            {
+                var flute = Game.Option.IsTriggered("Флейта");
+                var rope = Game.Option.IsTriggered("Верёвка");
+
+                if (option.Contains("!"))
+                {
+                    return !flute || !rope;
                 }
                 else
                 {
-                    return AvailabilityTrigger(option);
+                    return flute && rope;
                 }
+            }
+            else
+            {
+                return AvailabilityTrigger(option);
             }
         }
 
