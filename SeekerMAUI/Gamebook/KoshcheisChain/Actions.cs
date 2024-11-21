@@ -90,6 +90,14 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
                     return false;
                 }
+                else if (option.Contains("Два зелья быстроты"))
+                {
+                    var count = Game.Data.Triggers
+                        .Where(x => x == "Зелье быстроты")
+                        .Count();
+
+                    return count >= 2;
+                }
                 else if (option.Contains("Флейта и верёвка"))
                 {
                     var flute = Game.Option.IsTriggered("Флейта");
