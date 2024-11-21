@@ -12,6 +12,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
         public bool ByExtrasensory { get; set; }
         public bool RingEffect { get; set; }
         public bool Forward { get; set; }
+        public int StrengthLimit { get; set; }
 
         public override List<string> AdditionalStatus()
         {
@@ -182,7 +183,9 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                         var bonus = int.Parse(act.Hero);
                         Character.Protagonist.Strength += bonus;
 
-                        if (!Forward && Character.Protagonist.Strength <= 0)
+                        var limit = StrengthLimit > 0 ? StrengthLimit : 0;
+
+                        if (!Forward && Character.Protagonist.Strength <= limit)
                             return Fail(fight);
                     }
                     else if (!String.IsNullOrEmpty(act.Enemy))
