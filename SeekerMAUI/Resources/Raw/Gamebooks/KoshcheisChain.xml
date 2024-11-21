@@ -709,8 +709,8 @@
 		<Paragraph No="77">
 			<Text>Сколько порций зелья скорости у вас имеется?</Text>
 			<Options>
-				<Option Goto="293" Text="Есть две порции - дайте одну и Савелию"/>
-				<Option Goto="196" Text="Есть только одна"/>
+				<Option Goto="293" Text="Есть две порции - дайте одну и Савелию" Availability="Два зелья быстроты"/>
+				<Option Goto="196" Text="Есть только одна" Availability="Зелье быстроты"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="78">
