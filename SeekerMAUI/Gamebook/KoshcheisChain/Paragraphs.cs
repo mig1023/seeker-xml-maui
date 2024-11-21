@@ -27,18 +27,20 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 return action;
             }
 
-            var enemy = xmlAction.SelectSingleNode("Enemy");
-            action.EnemyName = Xml.StringParse(enemy.Attributes["Name"]);
+            action.Forward = Xml.BoolParse(xmlAction["Forward"]);
 
-            var strength = enemy.Attributes["Strength"].InnerText;
+            if (!action.Forward)
+            {
+                var enemy = xmlAction.SelectSingleNode("Enemy");
+                action.EnemyName = Xml.StringParse(enemy.Attributes["Name"]);
 
-            if (strength == "mirror")
-            {
-                action.EnemyStrength = Character.Protagonist.Strength;
-            }
-            else
-            {
-                action.EnemyStrength = Xml.IntParse(strength);
+                var strength = enemy.Attributes["Strength"].InnerText;
+
+                if (strength == "mirror")
+                {
+                    action.EnemyStrength = strength == "mirror" ?
+                        Character.Protagonist.Strength : Xml.IntParse(strength);
+                }
             }
 
             action.Fights = new List<Fight>();

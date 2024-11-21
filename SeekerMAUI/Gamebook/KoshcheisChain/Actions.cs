@@ -11,6 +11,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
         public List<Fight> Fights { get; set; }
         public bool ByExtrasensory { get; set; }
         public bool RingEffect { get; set; }
+        public bool Forward { get; set; }
 
         public override List<string> AdditionalStatus()
         {
@@ -126,8 +127,11 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
             while (true)
             {
-                fight.Add($"HEAD|BOLD|Раунд: {round}");
-                fight.Add($"{EnemyName} (сила {EnemyStrength})");
+                if (!Forward)
+                {
+                    fight.Add($"HEAD|BOLD|Раунд: {round}");
+                    fight.Add($"{EnemyName} (сила {EnemyStrength})");
+                }
 
                 Octagon.DoubleRoll(out int firstDice, out int secondDice);
 
@@ -171,14 +175,14 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                     else if (act.Hero == "dead")
                     {
                         Character.Protagonist.Strength = 0;
-                        return Fail(fight);
+                        return Forward ? fight : Fail(fight);
                     }
                     else if (!String.IsNullOrEmpty(act.Hero))
                     {
                         var bonus = int.Parse(act.Hero);
                         Character.Protagonist.Strength += bonus;
 
-                        if (Character.Protagonist.Strength <= 0)
+                        if (!Forward && Character.Protagonist.Strength <= 0)
                             return Fail(fight);
                     }
                     else if (!String.IsNullOrEmpty(act.Enemy))
@@ -189,6 +193,11 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                         if (EnemyStrength <= 0)
                             return Win(fight);
                     }
+                }
+
+                if (Forward)
+                {
+                    return fight;
                 }
 
                 round += 1;
