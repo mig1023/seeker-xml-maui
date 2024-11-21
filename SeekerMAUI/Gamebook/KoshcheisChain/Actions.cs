@@ -41,9 +41,12 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
         public override List<string> Representer()
         {
-            var enemy = new List<string>();
-
-            if (String.IsNullOrEmpty(EnemyName))
+            if (Price > 0)
+            {
+                var line = Game.Services.CoinsNoun(Price, "ейка", "ейки", "еек");
+                return new List<string> { $"{Head}\n{Price} коп{line}" };
+            }
+            else if (String.IsNullOrEmpty(EnemyName))
             {
                 return new List<string>();
             }
@@ -107,6 +110,9 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
                 }
             }
         }
+
+        public override bool IsButtonEnabled(bool secondButton = false) =>
+            !Used && !((Price > 0) && (Character.Protagonist.Money < Price));
 
         private string ActColors(Fight fight)
         {
@@ -338,6 +344,14 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             }
 
             return new List<string> { $"BIG|Вы выбросили: {Octagon.Symbol(dice)}" };
+        }
+
+        public List<string> Get()
+        {
+            Character.Protagonist.Money -= Price;
+            Used = true;
+
+            return new List<string> { "RELOAD" };
         }
     }
 }
