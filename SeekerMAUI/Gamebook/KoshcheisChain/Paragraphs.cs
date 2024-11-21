@@ -1,5 +1,4 @@
 ﻿using System.Xml;
-using Microsoft.Maui.Platform;
 using SeekerMAUI.Game;
 
 namespace SeekerMAUI.Gamebook.KoshcheisChain
@@ -58,5 +57,8 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
 
         public override Option OptionParse(XmlNode xmlOption) =>
             OptionParseWithDo(xmlOption, new Modification());
+
+        public override Abstract.IModification ModificationParse(XmlNode xmlModification) =>
+            Xml.ModificationParse(xmlModification, new Modification());
     }
 }
