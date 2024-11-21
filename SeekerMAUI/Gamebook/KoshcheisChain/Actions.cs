@@ -349,7 +349,9 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
         public List<string> Get()
         {
             Character.Protagonist.Money -= Price;
-            Used = true;
+
+            if (!Multiple)
+                Used = true;
 
             return new List<string> { "RELOAD" };
         }
