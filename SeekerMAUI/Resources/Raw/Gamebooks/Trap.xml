@@ -688,5 +688,11 @@
 				<Option Goto="105"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="105">
+			<Text>Через час дорога приводит вас к мосту через реку.</Text>
+			<Options>
+				<Option Goto="106"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
