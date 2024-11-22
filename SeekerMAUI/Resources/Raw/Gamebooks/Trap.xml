@@ -615,5 +615,11 @@
 				<Option Goto="94"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="92">
+			<Text>Крестьяне смотрят на вас с изумлением и ужасом. «Да шучу я, — успокаиваете вы их и добавляете, — Некромант мертв, а вы свободны».</Text>
+			<Options>
+				<Option Goto="91"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
