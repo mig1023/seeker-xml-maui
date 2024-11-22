@@ -465,5 +465,11 @@
 				<Option Goto="68"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="68">
+			<Text>Превозмогая жжение в глазах, вы достаете меч и пытаетесь проткнуть им одного из трех Некросов, которые кружат перед вами.</Text>
+			<Options>
+				<Option Goto="69"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
