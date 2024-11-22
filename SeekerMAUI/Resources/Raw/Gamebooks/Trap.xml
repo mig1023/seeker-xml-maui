@@ -1,0 +1,29 @@
+<Gamebook>
+	<Introduction>
+		<Copyright>
+			<Title>Ловушка</Title>
+			<Author>Денис Репин, 2016</Author>
+		</Copyright>
+		<Styles>
+			<StatusBar Value="2a2a2a"/>
+			<Main Value="151515"/>
+			<Action Value="3f3f3f"/>
+			<Option Value="696969"/>
+			<System Value="f9f9f9"/>
+		</Styles>
+	</Introduction>
+	<Paragraphs>
+		<Paragraph No="0">
+			<Text>Корабль, на котором вы плыли, разбился, я вас выбросило на берег неизвестного королевства. Одна из самых оригинальных завязок для игр нашего времени, не правда ли? У вас есть цель. Но стоит ли к ней идти?...</Text>
+			<Options>
+				<Start Goto="1"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="1">
+			<Text>END</Text>
+			<Options>
+				<Option Goto="65"/>
+			</Options>
+		</Paragraph>
+	</Paragraphs>
+</Gamebook>
