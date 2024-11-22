@@ -639,5 +639,11 @@
 				<Option Goto="102"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="97">
+			<Text>Карл: «Зеленокожие? Ну, они такие же, как и мы, только кожа у них зеленая».</Text>
+			<Options>
+				<Option Goto="129"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
