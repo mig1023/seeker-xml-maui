@@ -25,5 +25,11 @@
 				<Option Goto="3"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="2">
+			<Text>Надпись на камне:\n\n«Прийдет гирой и спосёт диревню.\n\nСтароста му....\n\nГенриетта я тебя лю..»</Text>
+			<Options>
+				<Option Goto="5"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
