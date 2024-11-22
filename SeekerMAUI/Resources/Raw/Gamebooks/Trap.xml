@@ -124,5 +124,11 @@
 				<Option Goto="9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="16">
+			<Text>Карл: «До тебя было 58 претендентов на героя. Но, ни один из них не оправдал наших надежд и не вернулся из башни некроманта».</Text>
+			<Options>
+				<Option Goto="9"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
