@@ -578,5 +578,11 @@
 				<Option Goto="86" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="86">
+			<Text>Спустившись вниз по лестнице, вы видите охранника валяющегося на полу без сознания.\n\nПод лестницей есть еще одна дверь, ведущая, вероятно, в подвал башни.</Text>
+			<Options>
+				<Option Goto="88"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
