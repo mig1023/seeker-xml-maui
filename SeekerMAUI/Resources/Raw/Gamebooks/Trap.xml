@@ -633,5 +633,11 @@
 				<Option Goto="95"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="95">
+			<Text>Вы проснулись в отличном настроении (не забудьте восстановить 25 баллов здоровья и отнять одну еду). Все крестьяне уже покинули башню. Вы выходите на улицу.</Text>
+			<Options>
+				<Option Goto="102"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
