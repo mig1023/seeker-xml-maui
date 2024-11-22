@@ -527,5 +527,12 @@
 				<Option Goto="79"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="78">
+			<Text>Некрос: «Безнравственно? Тогда нам больше не о чем говорить. Надеюсь ты сам найдешь выход».\n\nЕго слова прозвучали угрожающе.</Text>
+			<Options>
+				<Option Goto="103" Text="Хотите покинуть башню"/>
+				<Option Goto="61" Text="нападете на некроманта"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
