@@ -489,5 +489,11 @@
 				<Option Goto="72"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="72">
+			<Text>Никромангус. Атака 12.\n\nЕсли вы победили.</Text>
+			<Options>
+				<Option Goto="73"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
