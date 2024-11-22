@@ -521,5 +521,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="77">
+			<Text>Идти дальше по тоннелю вам не хочется, поэтому остается только обыскать труп некроманта и его комнату</Text>
+			<Options>
+				<Option Goto="79"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
