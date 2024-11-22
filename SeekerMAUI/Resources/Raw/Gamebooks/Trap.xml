@@ -309,5 +309,12 @@
 				<Option Goto="44"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="44">
+			<Text>Некрос: «Ну да ладно, хватит расспросов, у меня к тебе есть определенное предложение. Ты можешь выслушать его и обдумать».</Text>
+			<Options>
+				<Option Goto="45" Text="Хотите выслушать некроманта"/>
+				<Option Goto="61" Text="нападете"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
