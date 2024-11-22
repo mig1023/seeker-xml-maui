@@ -242,5 +242,11 @@
 				<Option Goto="34" Text="сначала осмотрите дверь, ведущую вероятно вниз в подвал башни"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="34">
+			<Text>Дверь заперта, скорее всего, каким-то заклинанием. Вам не удается ее открыть. Поэтому остается только подняться наверх.</Text>
+			<Options>
+				<Option Goto="35"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
