@@ -477,5 +477,11 @@
 				<Option Goto="79"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="70">
+			<Text>Вы кидаете книгу под ноги магу, она открывается и...</Text>
+			<Options>
+				<Option Goto="71"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
