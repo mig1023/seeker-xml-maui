@@ -715,5 +715,11 @@
 				<Option Goto="115" Text="Нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="109">
+			<Text>Откупорив крышку и опустошив флакон, вы довольные собой, отправляетесь обратно в башню некроманта за наградой.</Text>
+			<Options>
+				<Option Goto="110"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
