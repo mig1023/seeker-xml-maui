@@ -446,5 +446,11 @@
 				<Option Goto="65"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="65">
+			<Text>Решив, что артефакт вам больше не понадобиться, вы выбрасываете его. Теперь пора обыскать комнату и труп мага.</Text>
+			<Options>
+				<Option Goto="79"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
