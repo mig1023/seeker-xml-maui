@@ -571,5 +571,12 @@
 				<Option Goto="85"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="85">
+			<Text>85.</Text>
+			<Options>
+				<Option Goto="87" Text="Если вы убили охранника на входе"/>
+				<Option Goto="86" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
