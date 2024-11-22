@@ -303,5 +303,11 @@
 				<Option Goto="44" Text="нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="43">
+			<Text>Некрос усмехнулся: «При этом ты только что прикончил одного из жителей деревни. По-твоему это законно?»</Text>
+			<Options>
+				<Option Goto="44"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
