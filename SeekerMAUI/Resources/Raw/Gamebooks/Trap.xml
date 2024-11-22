@@ -408,5 +408,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="59">
+			<Text>Некрос: «Что случилось? Хм. Тем, кому хватило ума не связываться со мной просто ушли.\n\nОстальные. Остальные мертвы».</Text>
+			<Options>
+				<Option Goto="40"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
