@@ -596,5 +596,11 @@
 				<Option Goto="90"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="89">
+			<Text>И, правда! Какой смысл спасать деревенских бездельников? У нас есть дела поважнее. Вы покидаете башню некроманта.</Text>
+			<Options>
+				<Option Goto="99"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
