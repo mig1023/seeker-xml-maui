@@ -420,5 +420,12 @@
 				<Option Goto="40"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="61">
+			<Text>61.</Text>
+			<Options>
+				<Option Goto="62" Text="Хотите нанести внезапный удар"/>
+				<Option Goto="66" Text="используете артефакт"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
