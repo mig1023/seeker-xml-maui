@@ -534,5 +534,11 @@
 				<Option Goto="61" Text="нападете на некроманта"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="79">
+			<Text>Обшарив карманы халата Некроса, вы извлекаете связку ключей. Подойдя к запертому комоду в углу комнаты и подобрав нужный ключ, вы отпираете замок.</Text>
+			<Options>
+				<Option Goto="80"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
