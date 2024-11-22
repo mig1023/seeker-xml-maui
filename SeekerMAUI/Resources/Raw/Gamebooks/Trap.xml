@@ -565,5 +565,11 @@
 				<Option Goto="84"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="84">
+			<Text>Ничего страшного не произошло. Еще раз, осмотревшись вокруг, и не заметив ничего интересного, вы решаете покинуть комнату.</Text>
+			<Options>
+				<Option Goto="85"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
