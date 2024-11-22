@@ -71,5 +71,22 @@
 				<Option Goto="9" Text="Или у вас есть какие-либо вопросы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="9">
+			<Text>Кларь: «Конечно, задавай».</Text>
+			<Options>
+				<Option Goto="19" Text="Когда закончите расспрос">
+					<Text>Вопросы:</Text>
+				</Option>
+				<Option Goto="10" Text="«Что это за место?»"/>
+				<Option Goto="11" Text="«Кто вы такие?»"/>
+				<Option Goto="14" Text="«Кто такой этот Некрос?»"/>
+				<Option Goto="13" Text="«Почему именно я должен с ним справиться?»"/>
+				<Option Goto="12" Text="«Где находиться ближайший город и как туда добраться?»"/>
+				<Option Goto="15" Text="«Не выбрасывало ли на берег рядом с деревней еще кого-нибудь?»"/>
+				<Option Goto="16" Text="«А сколько было попыток справиться с Некросом?»"/>
+				<Option Goto="17" Text="«Что будет с деревней, если некроманта не трогать?»"/>
+				<Option Goto="18" Text="Передумали сражаться"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
