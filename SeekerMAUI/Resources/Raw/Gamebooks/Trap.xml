@@ -130,5 +130,11 @@
 				<Option Goto="9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="17">
+			<Text>Кларь: «Что произойдет? Ну смотри, некромант каждую неделю гробит одного жителя. В деревне осталось 372 человека. Значит через 7 лет и 8 недель деревня исчезнет».</Text>
+			<Options>
+				<Option Goto="9"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
