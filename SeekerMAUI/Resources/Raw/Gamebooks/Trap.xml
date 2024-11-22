@@ -509,5 +509,11 @@
 				<Option Goto="76" Text="Если же нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="75">
+			<Text>Вы как можно тише достаете меч и молниеносно вонзаете его в спину мага. Последние слова, что Некрос произнес в своей жизни: «Это про. противозаконно».</Text>
+			<Options>
+				<Option Goto="77"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
