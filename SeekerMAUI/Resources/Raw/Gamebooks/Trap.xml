@@ -337,5 +337,11 @@
 				<Option Goto="49" Text="промолчать"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="48">
+			<Text>Некрос: «Понимаешь ли, добавление зелий в питьевую воду — это незаконная деятельность, поэтому мне нужен человек, которому это безразлично».</Text>
+			<Options>
+				<Option Goto="49"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
