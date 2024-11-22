@@ -621,5 +621,11 @@
 				<Option Goto="91"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="93">
+			<Text>Вы встаете с кресла и идете к выходу из башни. На улице совсем стемнело. Пора поискать место для ночлега.</Text>
+			<Options>
+				<Option Goto="100"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
