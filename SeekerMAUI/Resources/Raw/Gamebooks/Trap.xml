@@ -452,5 +452,12 @@
 				<Option Goto="79"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="66">
+			<Text>Какой именно артефакт вы взяли с собой.</Text>
+			<Options>
+				<Option Goto="67" Text="Хрустальный шар"/>
+				<Option Goto="70" Text="книгу"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
