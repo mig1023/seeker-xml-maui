@@ -58,5 +58,11 @@
 				<Option Goto="288" Text="Нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="7">
+			<Text>«Отлично! Тогда иди к нашим местным магам. Они объяснят, что да как.» — староста подводит вас к избушке с вывеской «Деревенский магический клуб» и вталкивает внутрь закрывая дверь.</Text>
+			<Options>
+				<Option Goto="8"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
