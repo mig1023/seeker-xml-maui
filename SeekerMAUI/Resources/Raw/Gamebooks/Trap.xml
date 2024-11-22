@@ -100,5 +100,11 @@
 				<Option Goto="9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="12">
+			<Text>Карл: «Ближайший город. Хм. Это Эндинг. Как выйдешь из деревни — иди по дороге, не сворачивая».</Text>
+			<Options>
+				<Option Goto="9"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
