@@ -235,5 +235,12 @@
 				<Option Goto="33"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="33">
+			<Text>Обыскав труп, вы понимаете, что кроме ножа (+1 к атаке цена 20) больше взять нечего. Что же дальше?</Text>
+			<Options>
+				<Option Goto="35" Text="Хотите подняться по лестнице"/>
+				<Option Goto="34" Text="сначала осмотрите дверь, ведущую вероятно вниз в подвал башни"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
