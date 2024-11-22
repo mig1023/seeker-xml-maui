@@ -296,5 +296,12 @@
 				<Option Goto="42"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="42">
+			<Text>42.</Text>
+			<Options>
+				<Option Goto="43" Text="Если вы убили привратника внизу"/>
+				<Option Goto="44" Text="нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
