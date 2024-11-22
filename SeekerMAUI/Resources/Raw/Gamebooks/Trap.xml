@@ -254,5 +254,11 @@
 				<Option Goto="38"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="36">
+			<Text>«Не интересует», — с этими словами привратник захлопнул дверь перед вашим носом. Придется еще раз постучать. Когда дверь открылась вам остается лишь атаковать его.</Text>
+			<Options>
+				<Option Goto="30"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
