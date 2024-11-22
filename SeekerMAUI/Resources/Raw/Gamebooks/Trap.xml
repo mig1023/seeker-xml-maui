@@ -663,5 +663,11 @@
 				<Option Goto="101"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="101">
+			<Text>Проснулись вы рано утром. Ночной дождь стих, небо прояснилось.\n\nВы не выспались, но пора продолжать путь</Text>
+			<Options>
+				<Option Goto="104"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
