@@ -229,5 +229,11 @@
 				<Option Goto="33"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="32">
+			<Text>Привратник. Атака 10.\n\nПосле окончания боя</Text>
+			<Options>
+				<Option Goto="33"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
