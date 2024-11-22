@@ -248,5 +248,11 @@
 				<Option Goto="35"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="35">
+			<Text>Поднявшись по винтовой лестнице наверх, вы натыкаетесь на дверь. Она не заперта, поэтому вы машинально ее приоткрываете.</Text>
+			<Options>
+				<Option Goto="38"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
