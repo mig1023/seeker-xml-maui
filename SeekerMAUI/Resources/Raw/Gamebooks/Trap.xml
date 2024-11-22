@@ -39,5 +39,11 @@
 				<Option Goto="288" Text="извинитесь и покинете деревню"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="4">
+			<Text>Староста хватает вас за рукав и тащит к огромному камню на площади.</Text>
+			<Options>
+				<Option Goto="2"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
