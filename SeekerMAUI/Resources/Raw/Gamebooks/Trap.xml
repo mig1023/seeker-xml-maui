@@ -669,5 +669,12 @@
 				<Option Goto="104"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="102">
+			<Text>На улице светло и прохладно после ночного дождя.</Text>
+			<Options>
+				<Option Goto="98" Text="От башни отходит широкая дорога на северо-запад, вы можете пойти по ней"/>
+				<Option Goto="117" Text="вернуться в деревню за наградой тем же путем, что вы сюда пришли"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
