@@ -721,5 +721,11 @@
 				<Option Goto="110"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="110">
+			<Text>Скоро вы снова сидели в уютном кресле возле камина и беседовали с Некросом.</Text>
+			<Options>
+				<Option Goto="111"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
