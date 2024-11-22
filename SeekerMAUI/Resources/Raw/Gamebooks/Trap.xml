@@ -708,5 +708,12 @@
 				<Option Goto="116" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="108">
+			<Text>Вероятно, это та самая река, в которую некромант поручил вылить содержимое флакона.</Text>
+			<Options>
+				<Option Goto="109" Text="Хотите выполнить задание Некроса"/>
+				<Option Goto="115" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
