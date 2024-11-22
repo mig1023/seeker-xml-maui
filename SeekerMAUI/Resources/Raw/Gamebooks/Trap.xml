@@ -682,5 +682,11 @@
 				<Option Goto="100"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="104">
+			<Text>На северо-запад от башни отходит широкая дорога. Идти обратно в деревню не имеет никакого смысла, так что остается только отправиться по ней.</Text>
+			<Options>
+				<Option Goto="105"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
