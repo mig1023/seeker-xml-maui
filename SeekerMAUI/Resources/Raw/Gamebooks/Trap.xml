@@ -889,5 +889,11 @@
 				<Option Goto="137"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="137">
+			<Text>А, нет, сдохла. Дальше придется идти пешком.</Text>
+			<Options>
+				<Option Goto="138"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
