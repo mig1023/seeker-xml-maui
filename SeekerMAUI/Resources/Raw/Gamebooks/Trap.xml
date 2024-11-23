@@ -1152,5 +1152,12 @@
 				<Option Goto="183"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="177">
+			<Text>Зеленокожий специалист достает какие-то бумаги и тычет в них: «Вам нужно подписать здесь, здесь и еще вот здесь».</Text>
+			<Options>
+				<Option Goto="178" Text="Можете сказать Элони, чтобы она подписала документы"/>
+				<Option Goto="182" Text="просто уйти"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
