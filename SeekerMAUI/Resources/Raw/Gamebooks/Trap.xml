@@ -859,5 +859,11 @@
 				<Option Goto="133"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="132">
+			<Text>Вы завершили задание «Деревенский некромант». Прибавьте +1 к любому навыку.</Text>
+			<Options>
+				<Option Goto="131"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
