@@ -1036,5 +1036,12 @@
 				<Option Goto="160" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="159">
+			<Text>159.</Text>
+			<Options>
+				<Option Goto="208" Text="Если вы догадались, кто убил бывшую жену призрака на кладбище, то можете, как только появиться свободное время, наведаться туда"/>
+				<Option Goto="160" Text="А теперь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
