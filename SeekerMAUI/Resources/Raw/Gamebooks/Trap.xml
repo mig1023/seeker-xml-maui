@@ -1322,5 +1322,11 @@
 				<Option Goto="150"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="204">
+			<Text>Парк чудесное место для отдыха, но вы ведь совсем не устали.\n\nПравда, ведь? Поэтому, стоит вернуться на городскую площадь.</Text>
+			<Options>
+				<Option Goto="150"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
