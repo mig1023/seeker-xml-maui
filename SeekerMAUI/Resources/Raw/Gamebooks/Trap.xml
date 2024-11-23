@@ -1279,5 +1279,11 @@
 				<Option Goto="197"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="197">
+			<Text>Квест «Работа для Элони» провален. Вам стоит подумать о ночлеге.</Text>
+			<Options>
+				<Option Goto="202"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
