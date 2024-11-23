@@ -1089,5 +1089,11 @@
 				<Option Goto="167"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="167">
+			<Text>«Это камнеукладчица. Работа преимущественно на свежем воздухе, вдали от городской суеты. Полное содержание, проживание и питание. Возможности карьерного роста»</Text>
+			<Options>
+				<Option Goto="168"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
