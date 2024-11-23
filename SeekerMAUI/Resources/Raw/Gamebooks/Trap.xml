@@ -1134,5 +1134,11 @@
 				<Option Goto="176" Text="«Я всего лишь хотел прочитать его мысли с помощью одного кольца. Сам не ожидал, что так получиться»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="174">
+			<Text>«Какой ты добрый»,— с этими словами Элони обняла вас».</Text>
+			<Options>
+				<Option Goto="183"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
