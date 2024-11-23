@@ -1229,5 +1229,11 @@
 				<Option Goto="181"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="189">
+			<Text>Если вы член гильдии, можете здесь бесплатно переночевать (+25 здоровья). Если нет, то вам здесь делать нечего.</Text>
+			<Options>
+				<Option Goto="150"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
