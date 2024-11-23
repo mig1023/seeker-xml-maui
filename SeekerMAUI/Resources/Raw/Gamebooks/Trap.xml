@@ -1401,5 +1401,11 @@
 				<Option Goto="216" Text="Все-таки доведете начатое до конца"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="216">
+			<Text>Вы берете лопату и копаете могилу Мелоди. Очень скоро черенок лопаты упирается в гроб. Вы открываете крышку.</Text>
+			<Options>
+				<Option Goto="217"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
