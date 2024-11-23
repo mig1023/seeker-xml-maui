@@ -1022,5 +1022,12 @@
 				<Option Goto="157"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="157">
+			<Text>Элони: «Понимаете, мне нужна работа, чтобы платить за еду и жилье. Не могли бы вы мне помочь?»\n\nВы можете сказать:</Text>
+			<Options>
+				<Option Goto="158" Text="«Да»"/>
+				<Option Goto="203" Text="«Нет»"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
