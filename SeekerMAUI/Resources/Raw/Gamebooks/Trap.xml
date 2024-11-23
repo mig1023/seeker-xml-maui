@@ -815,5 +815,12 @@
 				<Option Goto="125"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="125">
+			<Text>Какие пугливые жители.</Text>
+			<Options>
+				<Option Goto="126" Text="Вы можете пограбить их дома"/>
+				<Option Goto="127" Text="просто покинуть деревню"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
