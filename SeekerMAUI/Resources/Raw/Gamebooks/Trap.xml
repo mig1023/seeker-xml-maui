@@ -1309,5 +1309,12 @@
 				<Option Goto="202"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="202">
+			<Text>Куда вы направитесь?</Text>
+			<Options>
+				<Option Goto="144" Text="В таверну"/>
+				<Option Goto="205" Text="на кладбище"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
