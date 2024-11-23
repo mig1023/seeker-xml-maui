@@ -1303,5 +1303,11 @@
 				<Option Goto="181"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="201">
+			<Text>Начало смеркаться. Пора подумать о ночлеге.</Text>
+			<Options>
+				<Option Goto="202"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
