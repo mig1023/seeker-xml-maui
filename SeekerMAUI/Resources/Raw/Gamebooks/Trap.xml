@@ -1267,5 +1267,11 @@
 				<Option Goto="195"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="195">
+			<Text>«Ох уж эти провинциалы. Никогда не замечают своей удачи»,— с этими словами герцог пришпорил коня и поскакал своей дорогой.</Text>
+			<Options>
+				<Option Goto="196"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
