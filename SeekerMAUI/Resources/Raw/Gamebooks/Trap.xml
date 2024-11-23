@@ -1235,5 +1235,11 @@
 				<Option Goto="150"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="190">
+			<Text>Выйдя из увеселительного заведения, вы какое-то время идете, молча.</Text>
+			<Options>
+				<Option Goto="191"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
