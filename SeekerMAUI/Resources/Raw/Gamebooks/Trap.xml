@@ -1297,5 +1297,11 @@
 				<Option Goto="200"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="200">
+			<Text>Очень скоро они скрылись от вашего взора.</Text>
+			<Options>
+				<Option Goto="181"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
