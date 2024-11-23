@@ -1114,5 +1114,11 @@
 				<Option Goto="171"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="171">
+			<Text>Н... да. Как-то не удачно получилось. Вы берете за руку и быстро выходите из конторы</Text>
+			<Options>
+				<Option Goto="173"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
