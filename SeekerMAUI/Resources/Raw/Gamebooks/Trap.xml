@@ -1159,5 +1159,12 @@
 				<Option Goto="182" Text="просто уйти"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="178">
+			<Text>Элони: «Ну, я даже не знаю. А ты уверен, что мне это подходит?»\n\nМожете ответить:</Text>
+			<Options>
+				<Option Goto="179" Text="«Да, безусловно»"/>
+				<Option Goto="182" Text="просто уйти"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
