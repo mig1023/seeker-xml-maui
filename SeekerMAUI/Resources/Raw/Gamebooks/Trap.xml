@@ -984,5 +984,12 @@
 				<Option Goto="205" Text="на городское кладбище"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="151">
+			<Text>151.</Text>
+			<Options>
+				<Option Goto="152" Text="Если вы в парке первый раз"/>
+				<Option Goto="204" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
