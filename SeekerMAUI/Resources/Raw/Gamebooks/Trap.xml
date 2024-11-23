@@ -733,5 +733,11 @@
 				<Option Goto="112"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="112">
+			<Text>Отнимите у себя 300 очков кармы. Вы вновь направляетесь к мосту.</Text>
+			<Options>
+				<Option Goto="116"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
