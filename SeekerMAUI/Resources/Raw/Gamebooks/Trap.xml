@@ -763,5 +763,11 @@
 				<Option Goto="114"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="117">
+			<Text>Путь до деревни весьма не близок и не очень приятен. Но мысль о неотвратимой награде греет вашу душу.</Text>
+			<Options>
+				<Option Goto="118"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
