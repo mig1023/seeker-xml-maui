@@ -1291,5 +1291,11 @@
 				<Option Goto="200"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="199">
+			<Text>«Спасибо тебе, ты мне очень помог»,— Элони поцеловала вас в щечку, вскочила на коня и обхватила герцога руками.</Text>
+			<Options>
+				<Option Goto="200"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
