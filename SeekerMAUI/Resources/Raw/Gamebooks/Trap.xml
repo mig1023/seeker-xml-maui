@@ -739,5 +739,11 @@
 				<Option Goto="116"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="113">
+			<Text>Староста: «Очень жаль. Ну что, пора поговорить о награде».</Text>
+			<Options>
+				<Option Goto="128"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
