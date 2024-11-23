@@ -1178,5 +1178,11 @@
 				<Option Goto="181"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="181">
+			<Text>Квест «Работа для Элони» завершен. Прибавьте 1 бал к вашему обаянию.</Text>
+			<Options>
+				<Option Goto="201"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
