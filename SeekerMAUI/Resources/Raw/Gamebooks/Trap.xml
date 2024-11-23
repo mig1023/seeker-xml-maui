@@ -965,5 +965,11 @@
 				<Option Goto="149"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="149">
+			<Text>С первыми лучами солнца вы встаете совершенно не выспавшийся и отправляетесь в город.</Text>
+			<Options>
+				<Option Goto="150"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
