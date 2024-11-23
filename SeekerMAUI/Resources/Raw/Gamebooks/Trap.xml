@@ -1376,5 +1376,11 @@
 				<Option Goto="208"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="212">
+			<Text>Я не буду это комментировать...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
