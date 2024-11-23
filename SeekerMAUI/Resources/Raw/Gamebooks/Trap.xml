@@ -865,5 +865,11 @@
 				<Option Goto="131"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="133">
+			<Text>С утра вы просыпаетесь отдохнувшим. Ваша лошадь спит, свернувшись у дерева. Вы пинаете ее.\n\nПохоже она сдохла</Text>
+			<Options>
+				<Option Goto="134"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
