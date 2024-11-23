@@ -997,5 +997,11 @@
 				<Option Goto="153"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="153">
+			<Text>Какая чушь. Вам здесь совершенно нечего делать. Только вы собрались уходить, как вдруг кто-то трогает вас за плечё. Вы оборачиваетесь и...</Text>
+			<Options>
+				<Option Goto="155"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
