@@ -1335,5 +1335,12 @@
 				<Option Goto="206" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="206">
+			<Text>206.</Text>
+			<Options>
+				<Option Goto="222" Text="Если вы выполнили квест «Мясо»"/>
+				<Option Goto="223" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
