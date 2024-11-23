@@ -1083,5 +1083,11 @@
 				<Option Goto="182" Text="можете просто уйти"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="166">
+			<Text>На зеленом лице появляется чувство радости: «Конечно. У Нас ест прекраснейшая вакансия, которая как раз ей подойдет. Это...»</Text>
+			<Options>
+				<Option Goto="167"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
