@@ -1184,5 +1184,11 @@
 				<Option Goto="201"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="182">
+			<Text>Вы берете Элони за руку и выходите из конторы. Элони: «А почему мы ушли?»\n\nВы: «Это тебе не подходит».\n\nЭлони: «А, ну тогда ладно».</Text>
+			<Options>
+				<Option Goto="183"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
