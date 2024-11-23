@@ -1140,5 +1140,11 @@
 				<Option Goto="183"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="175">
+			<Text>«О! Хорошо, что ты на моей стороне»,— Элони прижалась к вам плечом.</Text>
+			<Options>
+				<Option Goto="183"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
