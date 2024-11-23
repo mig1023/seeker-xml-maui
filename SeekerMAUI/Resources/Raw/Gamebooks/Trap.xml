@@ -1261,5 +1261,11 @@
 				<Option Goto="199" Text="не вмешиваться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="194">
+			<Text>Вы говорите: «Вот, что герцог, как там тебя. Убирался бы та ...далее идет нецензурная брань».</Text>
+			<Options>
+				<Option Goto="195"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
