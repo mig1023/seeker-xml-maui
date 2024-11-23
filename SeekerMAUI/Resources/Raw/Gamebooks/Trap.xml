@@ -1316,5 +1316,11 @@
 				<Option Goto="205" Text="на кладбище"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="203">
+			<Text>«Ну и ладно»,— Элони разворачивается и уходит. Вам же остается лишь вернуться на площадь.</Text>
+			<Options>
+				<Option Goto="150"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
