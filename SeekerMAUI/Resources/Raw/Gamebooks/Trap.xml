@@ -853,5 +853,11 @@
 				<Option Goto="132"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="131">
+			<Text>Деревня позади. Начало смеркаться. Уже через полчаса вы решаете остановиться и устроиться на ночлег</Text>
+			<Options>
+				<Option Goto="133"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
