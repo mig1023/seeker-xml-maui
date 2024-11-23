@@ -908,5 +908,11 @@
 				<Option Goto="141" Text="«Я представитель иностранного государства и у меня здесь важное дело»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="140">
+			<Text>Стражник (высокомерно, насмешливым тоном): «Что ж, это не запрещено».</Text>
+			<Options>
+				<Option Goto="142"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
