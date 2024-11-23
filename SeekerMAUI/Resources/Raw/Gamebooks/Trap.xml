@@ -1328,5 +1328,12 @@
 				<Option Goto="150"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="205">
+			<Text>205.</Text>
+			<Options>
+				<Option Goto="145" Text="Если вы на кладбище первый раз"/>
+				<Option Goto="206" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
