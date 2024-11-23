@@ -877,5 +877,11 @@
 				<Option Goto="135"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="135">
+			<Text>Делая время от времени остановки, чтобы поесть и отдохнуть, вы к вечеру добираетесь до дорожного столба с надписью «Эндинг 4 или»». Отлично. Еще минут 20 и будем на месте.</Text>
+			<Options>
+				<Option Goto="136"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
