@@ -1348,5 +1348,15 @@
 				<Option Goto="213"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="208">
+			<Text>Так кто же убил бывшую жену призрака?</Text>
+			<Options>
+				<Option Goto="207" Text="Мелоди"/>
+				<Option Goto="209" Text="Мелони"/>
+				<Option Goto="210" Text="Элони"/>
+				<Option Goto="211" Text="Саманта"/>
+				<Option Goto="212" Text="Дженифер"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
