@@ -751,5 +751,11 @@
 				<Option Goto="139"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="115">
+			<Text>Вы кидаете флакон подальше в лес. Сворачиваете шею крысте и выбрасываете ее труп туда же.</Text>
+			<Options>
+				<Option Goto="116"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
