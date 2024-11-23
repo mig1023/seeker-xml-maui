@@ -1342,5 +1342,11 @@
 				<Option Goto="223" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="207">
+			<Text>Все верно. Если Мелони как раз и была женой человека, призрак, которого достает всех на кладбище, то, вероятно, вы сможете решить эту проблему.</Text>
+			<Options>
+				<Option Goto="213"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
