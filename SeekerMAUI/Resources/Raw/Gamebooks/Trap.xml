@@ -971,5 +971,18 @@
 				<Option Goto="150"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="150">
+			<Text>Вот вы и в Эндинге. Можно заняться поисками шефа, или работы, или просто побродить по улочкам города. Вы можете посетить:</Text>
+			<Options>
+				<Option Goto="151" Text="Городской парк"/>
+				<Option Goto="220" Text="Гильдию темных магов"/>
+				<Option Goto="259" Text="Торговца оружием"/>
+				<Option Goto="164" Text="Лавку мага"/>
+				<Option Goto="294" Text="Ростовщическую контору Мейбраха, Хэермана и Киршмана"/>
+				<Option Goto="409" Text="Городскую библиотеку"/>
+				<Option Goto="144" Text="Если устали, можно пойти поспать в таверну (10 золотых)"/>
+				<Option Goto="205" Text="на городское кладбище"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
