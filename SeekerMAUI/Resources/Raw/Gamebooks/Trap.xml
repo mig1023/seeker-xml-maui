@@ -828,5 +828,11 @@
 				<Option Goto="127"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="127">
+			<Text>У одного из домов стоить старая кляча. Похоже это единственная в настоящее время лошадь в деревне. Вы присваиваете ее себе и покидаете это чудесное, гостеприимное местечко.</Text>
+			<Options>
+				<Option Goto="131"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
