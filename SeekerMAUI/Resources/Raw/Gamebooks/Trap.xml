@@ -1394,5 +1394,12 @@
 				<Option Goto="215"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="215">
+			<Text>215.</Text>
+			<Options>
+				<Option Goto="223" Text="Стоит ли заниматься этим делом, ведь можно найти занятие и получше"/>
+				<Option Goto="216" Text="Все-таки доведете начатое до конца"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
