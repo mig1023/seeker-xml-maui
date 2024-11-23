@@ -1108,5 +1108,11 @@
 				<Option Goto="170"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="170">
+			<Text>Раздается хлопок. Вы еле успеваете отскочить от стола. Голова зеленокожего разлетается на кусочки, забрызгав стол зеленой кровью и серым мозгом.</Text>
+			<Options>
+				<Option Goto="171"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
