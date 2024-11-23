@@ -1358,5 +1358,11 @@
 				<Option Goto="212" Text="Дженифер"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="209">
+			<Text>Может быть, вы перепутали буквы в имени. Попробуйте еще раз.</Text>
+			<Options>
+				<Option Goto="208"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
