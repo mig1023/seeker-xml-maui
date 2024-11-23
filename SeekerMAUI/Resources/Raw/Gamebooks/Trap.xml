@@ -1043,5 +1043,11 @@
 				<Option Goto="160" Text="А теперь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="160">
+			<Text>Лицо Элони просто светиться от счастья: «И куда мы пойдем?»\n\n«Мы пойдем в город. В большом городе всегда много работы», — отвечаете вы</Text>
+			<Options>
+				<Option Goto="161"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
