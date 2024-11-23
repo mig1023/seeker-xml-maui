@@ -1364,5 +1364,11 @@
 				<Option Goto="208"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="210">
+			<Text>Ну, разве эта милая девушка способна причинить вред? Она же кузнечика не обидит.</Text>
+			<Options>
+				<Option Goto="208"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
