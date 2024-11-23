@@ -1102,5 +1102,11 @@
 				<Option Goto="177" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="169">
+			<Text>Зеленокожий: «Ой, что-то голова побаливает» Ваше кольцо с топазом начало светиться, вы трете его, пытаясь прочитать мысли.</Text>
+			<Options>
+				<Option Goto="170"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
