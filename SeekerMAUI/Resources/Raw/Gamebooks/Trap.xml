@@ -790,5 +790,11 @@
 				<Option Goto="122" Text="«Это я его прикончил»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="121">
+			<Text>Староста: «Мы так и подумали. Лучше поговорим о награде»...</Text>
+			<Options>
+				<Option Goto="128"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
