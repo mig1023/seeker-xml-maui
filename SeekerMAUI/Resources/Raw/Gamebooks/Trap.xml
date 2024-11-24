@@ -1916,5 +1916,13 @@
 				<Option Goto="299"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="299">
+			<Text>Ростовщик: «Если вы такой умный, почему вы так плохо одеваетесь?»</Text>
+			<Options>
+				<Option Goto="300" Text="Хотите дать ему в морду"/>
+				<Option Goto="301" Text="спросите насчет работы"/>
+				<Option Goto="313" Text="уйдете"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
