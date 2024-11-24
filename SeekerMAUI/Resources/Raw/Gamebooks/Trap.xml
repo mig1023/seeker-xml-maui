@@ -1479,5 +1479,11 @@
 				<Option Goto="228" Text="Положительна"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="228">
+			<Text>Лукреция: «Боюсь, мы не принимаем таких как вы. Вам лучше уйти». Вы выходите из помещения и закрываете за собой дверь.</Text>
+			<Options>
+				<Option Goto="150"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
