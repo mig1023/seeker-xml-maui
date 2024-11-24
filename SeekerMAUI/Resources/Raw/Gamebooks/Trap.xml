@@ -1999,5 +1999,12 @@
 				<Option Goto="312"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="312">
+			<Text>Вы получили квест «Долг платежом опасен».</Text>
+			<Options>
+				<Option Goto="314" Text="Если намерены его выполнять"/>
+				<Option Goto="313" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
