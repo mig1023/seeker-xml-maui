@@ -1890,5 +1890,11 @@
 				<Option Goto="295" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="295">
+			<Text>Здесь вам совершенно нечего делать.</Text>
+			<Options>
+				<Option Goto="150"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
