@@ -1563,5 +1563,12 @@
 				<Option Goto="241"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="241">
+			<Text>Вы выходите в приемную и задумываетесь.</Text>
+			<Options>
+				<Option Goto="150" Text="Может магистр спятил и стоит ли работать на сумасшедших, не лучше ли уйти"/>
+				<Option Goto="242" Text="все же опять отправиться в библиотеку"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
