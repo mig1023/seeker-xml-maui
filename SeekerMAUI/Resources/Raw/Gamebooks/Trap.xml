@@ -1834,5 +1834,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="284">
+			<Text>Гонец закричал. Вы быстро подскакиваете к нему, хватаете за камзол и выбрасываете в окно.</Text>
+			<Options>
+				<Option Goto="273"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
