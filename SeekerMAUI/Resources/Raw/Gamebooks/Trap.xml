@@ -1666,5 +1666,11 @@
 				<Option Goto="287"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="257">
+			<Text>Не дожидаясь вашего ответа, королевский посланник бросается бежать. Вскоре вы теряете его из виду.</Text>
+			<Options>
+				<Option Goto="258"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
