@@ -2125,5 +2125,11 @@
 				<Option Goto="335" Text="оставите её в покое"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="331">
+			<Text>Теперь вы всегда можете сказать, что, по крайней мере, одна женщина потеряла из-за вас голову. Вы быстро покидаете это место... (336)</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
