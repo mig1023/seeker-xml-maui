@@ -1660,5 +1660,11 @@
 				<Option Goto="257" Text="может быть, подумаете"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="256">
+			<Text>«Аааа!» — закричал гонец, когда ваш меч проткнул его сердце. Что ж, теперь осталось собрать его вещи и покинуть поскорее это место.</Text>
+			<Options>
+				<Option Goto="287"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
