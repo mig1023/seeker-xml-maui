@@ -2099,5 +2099,12 @@
 				<Option Goto="327"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="327">
+			<Text>К вам быстро приближаются двое громил, вооруженных дубинами.</Text>
+			<Options>
+				<Option Goto="354" Text="Можно броситься бежать, но тогда, тело Миранды придется бросить"/>
+				<Option Goto="328" Text="Будете сражаться с ними"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
