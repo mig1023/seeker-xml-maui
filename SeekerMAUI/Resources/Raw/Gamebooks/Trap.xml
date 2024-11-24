@@ -2065,5 +2065,12 @@
 				<Option Goto="323"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="322">
+			<Text>Элизабет: «О, мальчик совсем не опытен. Думаю, я могла бы просветить тебя. Скажем за 30 золотых».</Text>
+			<Options>
+				<Option Goto="318" Text="Отдадите ей деньги"/>
+				<Option Goto="355" Text="откажетесь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
