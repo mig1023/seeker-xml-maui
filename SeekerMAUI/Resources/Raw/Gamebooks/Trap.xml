@@ -1582,5 +1582,12 @@
 				<Option Goto="244"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="244">
+			<Text>Вы выполнили квест «Один из темных». +1 к любому вашему навыку и минус 50 кармы. Теперь вы можете есть и ночевать бесплатно в комнате отдыха гильдии.</Text>
+			<Options>
+				<Option Goto="248" Text="Если хотите спросить магистра о работе"/>
+				<Option Goto="150" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
