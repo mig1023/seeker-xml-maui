@@ -1672,5 +1672,11 @@
 				<Option Goto="258"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="258">
+			<Text>Впрочем, все его вещи у вас и задание почти выполнено.</Text>
+			<Options>
+				<Option Goto="263"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
