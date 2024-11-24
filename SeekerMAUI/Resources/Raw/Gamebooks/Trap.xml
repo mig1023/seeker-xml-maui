@@ -1734,5 +1734,12 @@
 				<Option Goto="278" Text="сразу же нанесете внезапный удар по одному из стражников"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="268">
+			<Text>268.</Text>
+			<Options>
+				<Option Goto="269" Text="Если ваше обаяние 12 или больше"/>
+				<Option Goto="277" Text="если меньше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
