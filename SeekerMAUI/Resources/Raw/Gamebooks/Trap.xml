@@ -1784,5 +1784,11 @@
 				<Option Goto="276"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="276">
+			<Text>Нужно срочно уходить. Действие зелья закончиться с минуты на минуту.</Text>
+			<Options>
+				<Option Goto="287"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
