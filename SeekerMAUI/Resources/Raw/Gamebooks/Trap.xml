@@ -2034,5 +2034,12 @@
 				<Option Goto="317" Text="Или забудете на время о делах, и решите немного отдохнуть"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="317">
+			<Text>«Ох. Отлично! Ты не пожалеешь. Это будет стоить 20 золотых. Деньги вперед».</Text>
+			<Options>
+				<Option Goto="318" Text="Можете отдать деньги"/>
+				<Option Goto="355" Text="отказаться"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
