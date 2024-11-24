@@ -1543,5 +1543,13 @@
 				<Option Goto="238"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="238">
+			<Text>Чезарино по-прежнему в своем кабинете. Как только вы вошли, он сразу же задает вам вопрос: «Так вы уже выучили «Никронумерокрон»»\n\nМожете ответить:</Text>
+			<Options>
+				<Option Goto="243" Text="«Да»"/>
+				<Option Goto="240" Text="«Нет»"/>
+				<Option Goto="239" Text="«Эту книгу невозможно выучить»"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
