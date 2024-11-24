@@ -1766,5 +1766,11 @@
 				<Option Goto="273"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="273">
+			<Text>Вы посмотрели вниз. Похоже гонец все еще жив! Вот ведь, зараза, живучий, шевелиться еще, пытается встать. Надо срочно что-то придумать.</Text>
+			<Options>
+				<Option Goto="274"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
