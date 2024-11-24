@@ -1772,5 +1772,11 @@
 				<Option Goto="274"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="274">
+			<Text>Вы смотрите по сторонам. В комнате на столе стоит огромный бюст, возможно, какого-нибудь монарха. Немного поразмыслив, вы берете этот бюст и бросаете в окно.</Text>
+			<Options>
+				<Option Goto="275"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
