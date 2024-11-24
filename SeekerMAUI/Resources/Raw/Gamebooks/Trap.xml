@@ -2006,5 +2006,11 @@
 				<Option Goto="313" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="313">
+			<Text>Вы прощаетесь и выходите из ростовщической конторы.</Text>
+			<Options>
+				<Option Goto="150"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
