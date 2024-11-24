@@ -1472,5 +1472,12 @@
 				<Option Goto="150" Text="просто уйдете"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="227">
+			<Text>227.</Text>
+			<Options>
+				<Option Goto="229" Text="Ваша карма равна нулю или отрицательна"/>
+				<Option Goto="228" Text="Положительна"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
