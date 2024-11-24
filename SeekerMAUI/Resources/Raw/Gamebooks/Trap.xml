@@ -2086,5 +2086,12 @@
 				<Option Goto="338" Text="Предложите ей уединиться в каком-нибудь месте"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="325">
+			<Text>Вы быстрым рывком сближаетесь, и хватаете Миранду за горло.</Text>
+			<Options>
+				<Option Goto="326" Text="Если ваша ловкость 9 и выше"/>
+				<Option Goto="332" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
