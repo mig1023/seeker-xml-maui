@@ -2078,5 +2078,13 @@
 				<Option Goto="324"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="324">
+			<Text>Вы подходите к Миранде. Она улыбается вам: «Тебе помочь, красавчик?» Что вы намерены делать?</Text>
+			<Options>
+				<Option Goto="325" Text="Нападете на неё сразу"/>
+				<Option Goto="337" Text="Скажете, что пришли сюда забрать долг Мейбраха"/>
+				<Option Goto="338" Text="Предложите ей уединиться в каком-нибудь месте"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
