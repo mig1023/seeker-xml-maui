@@ -1858,5 +1858,12 @@
 				<Option Goto="150"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="288">
+			<Text>На север от деревни отходит широкая дорога. Идти пешком не так интересно как ехать верхом.</Text>
+			<Options>
+				<Option Goto="127" Text="Может попробовать увести у местных жителей лошадь"/>
+				<Option Goto="289" Text="Все-таки не стоит рисковать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
