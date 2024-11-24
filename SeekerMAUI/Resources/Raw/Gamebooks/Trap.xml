@@ -1551,5 +1551,11 @@
 				<Option Goto="239" Text="«Эту книгу невозможно выучить»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="239">
+			<Text>Магистр: «Невозможно? Боюсь, я в вас ошибся. Вы нам не подходите». Вам остается лишь покинуть гильдию.</Text>
+			<Options>
+				<Option Goto="150"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
