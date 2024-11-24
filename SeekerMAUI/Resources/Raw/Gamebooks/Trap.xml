@@ -1883,5 +1883,12 @@
 				<Option Goto="164"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="294">
+			<Text>294.</Text>
+			<Options>
+				<Option Goto="296" Text="Если вы здесь первый раз"/>
+				<Option Goto="295" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
