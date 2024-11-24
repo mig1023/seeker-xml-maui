@@ -2047,5 +2047,11 @@
 				<Option Goto="319"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="319">
+			<Text>Из-за многочисленных жалоб моралистов параграф удален.</Text>
+			<Options>
+				<Option Goto="320"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
