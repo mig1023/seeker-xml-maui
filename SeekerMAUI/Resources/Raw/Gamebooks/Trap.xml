@@ -2018,5 +2018,14 @@
 				<Option Goto="315"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="315">
+			<Text>Девушка говорит: «Красавчик, хочешь поразвлечься? Я Элизабет».\n\nМожете ответить:</Text>
+			<Options>
+				<Option Goto="317" Text="«Да»"/>
+				<Option Goto="321" Text="«Нет»"/>
+				<Option Goto="322" Text="«Что вы имеете в виду?»"/>
+				<Option Goto="316" Text="«Я ищу Миранду. Она здесь работает?»"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
