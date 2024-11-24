@@ -1753,5 +1753,12 @@
 				<Option Goto="271"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="271">
+			<Text>Вы можете сказать:</Text>
+			<Options>
+				<Option Goto="272" Text="«Меня зовут <вымышленное имя>, мне нужно срочно задать вам несколько вопросов»"/>
+				<Option Goto="282" Text="«На этот раз тебе не уйти. Сейчас ты умрешь»"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
