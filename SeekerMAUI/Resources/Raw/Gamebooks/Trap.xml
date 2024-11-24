@@ -1815,5 +1815,11 @@
 				<Option Goto="285"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="281">
+			<Text>Ваш меч попадает в одну из пластин доспехов стражника, не причинив ему никакого вреда. А вот кому сейчас точно будет нанесен урон алебардами, так это вам...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
