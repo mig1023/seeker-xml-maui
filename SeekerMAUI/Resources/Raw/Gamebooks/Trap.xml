@@ -1697,5 +1697,11 @@
 				<Option Goto="262" Text="стащите гонца с лошади"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="262">
+			<Text>Легко ухватив край камзола гонца, вы быстро стаскиваете его на землю. Напуганная лошадь ускакала. А вам пора побеседовать с королевским посланником.</Text>
+			<Options>
+				<Option Goto="255"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
