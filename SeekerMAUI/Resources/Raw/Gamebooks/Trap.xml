@@ -1778,5 +1778,11 @@
 				<Option Goto="275"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="275">
+			<Text>Да, точно в цель. Вы попали гонцу прямо в голову. Правда, головой теперь это трудно назвать...</Text>
+			<Options>
+				<Option Goto="276"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
