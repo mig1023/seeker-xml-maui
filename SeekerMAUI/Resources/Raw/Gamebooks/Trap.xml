@@ -1962,5 +1962,11 @@
 				<Option Goto="307"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="306">
+			<Text>А, нет, показалось.</Text>
+			<Options>
+				<Option Goto="307"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
