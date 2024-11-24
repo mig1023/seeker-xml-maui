@@ -1974,5 +1974,12 @@
 				<Option Goto="308"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="308">
+			<Text>308.</Text>
+			<Options>
+				<Option Goto="309" Text="Если у вас есть кольцо для чтения мыслей, и вы хотите им воспользоваться"/>
+				<Option Goto="310" Text="Если же нет, или не хотите"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
