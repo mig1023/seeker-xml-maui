@@ -1465,5 +1465,12 @@
 				<Option Goto="150" Text="Извиниться и уйти"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="226">
+			<Text>226.</Text>
+			<Options>
+				<Option Goto="227" Text="Лукреция: «У нас есть работа, только для членов гильдии». Скажете, что хотите вступить в гильдию"/>
+				<Option Goto="150" Text="просто уйдете"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
