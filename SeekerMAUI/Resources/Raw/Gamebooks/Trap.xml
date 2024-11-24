@@ -1633,5 +1633,11 @@
 				<Option Goto="252"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="252">
+			<Text>Гонца сложно не узнать, так как все они носят форменную одежду, а на груди лошади стоит клеймо КПС (Королевская почтовая служба).</Text>
+			<Options>
+				<Option Goto="253"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
