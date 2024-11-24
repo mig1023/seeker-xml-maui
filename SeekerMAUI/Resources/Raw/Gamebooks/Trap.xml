@@ -1537,5 +1537,11 @@
 				<Option Goto="237"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="237">
+			<Text>Ну, все, хватит, пора возвращаться к магистру.</Text>
+			<Options>
+				<Option Goto="238"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
