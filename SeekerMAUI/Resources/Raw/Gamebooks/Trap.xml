@@ -1809,5 +1809,11 @@
 				<Option Goto="280"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="280">
+			<Text>Стражник. Атака 15.\n\nЕсли вы победили</Text>
+			<Options>
+				<Option Goto="285"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
