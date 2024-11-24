@@ -1968,5 +1968,11 @@
 				<Option Goto="307"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="307">
+			<Text>Вы открываете дверь и входите в кабинет мистера Мейбраха. Зеленокожий хозяин кабинета сидит за столом, уткнувшись в бумаги, и что-то пишет.</Text>
+			<Options>
+				<Option Goto="308"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
