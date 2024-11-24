@@ -1557,5 +1557,11 @@
 				<Option Goto="150"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="240">
+			<Text>Магистр: «Нет? Тогда, что вы здесь делаете? Отправляйтесь в библиотеку и продолжайте учить».</Text>
+			<Options>
+				<Option Goto="241"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
