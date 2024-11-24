@@ -1570,5 +1570,11 @@
 				<Option Goto="242" Text="все же опять отправиться в библиотеку"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="242">
+			<Text>Походив по залу библиотеки и почитав названия книг, вы снова решаете вернуться к магистру</Text>
+			<Options>
+				<Option Goto="238"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
