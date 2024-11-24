@@ -1505,5 +1505,12 @@
 				<Option Goto="232"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="232">
+			<Text>«Да не смотрите на меня так. Это всего лишь рептилии из местного болота,— магистр немного помолчал,— Так вы все еще хотите к нам присоединиться?»\n\nМожете ответить:</Text>
+			<Options>
+				<Option Goto="233" Text="«Да»"/>
+				<Option Goto="150" Text="«Нет»"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
