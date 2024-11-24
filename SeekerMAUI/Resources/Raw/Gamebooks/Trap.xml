@@ -1439,5 +1439,11 @@
 				<Option Goto="222"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="222">
+			<Text>Можете спокойно выбрать себе место между могилок, поесть и поспать (+25 здоровья), укрывшись тряпьем, которое натаскали для вас местные бродяги. А утром.</Text>
+			<Options>
+				<Option Goto="150"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
