@@ -1936,5 +1936,11 @@
 				<Option Goto="302"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="302">
+			<Text>Вы подходите к указанной двери и хотите её открыть, как вдруг...</Text>
+			<Options>
+				<Option Goto="303"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
