@@ -1930,5 +1930,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="301">
+			<Text>Ростовщик: «По вопросам трудоустройства обращайтесь к мистеру Мейбраху, вторая дверь налево».</Text>
+			<Options>
+				<Option Goto="302"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
