@@ -1741,5 +1741,11 @@
 				<Option Goto="277" Text="если меньше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="269">
+			<Text>«Хо... Хорошо, проходите»,— с этими словами стражник отошел от двери, пропуская вас. Вы входите в дверь.</Text>
+			<Options>
+				<Option Goto="270"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
