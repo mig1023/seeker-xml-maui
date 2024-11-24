@@ -2059,5 +2059,11 @@
 				<Option Goto="324"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="321">
+			<Text>Девушка: «Тогда какого лешего тебе здесь нужно?» Вы говорите, что ищете Миранду, по очень важному делу.</Text>
+			<Options>
+				<Option Goto="323"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
