@@ -1910,5 +1910,11 @@
 				<Option Goto="313" Text="попрощаетесь и уйдете"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="298">
+			<Text>Вы говорите: «Один процент в день это же 3741% годовых по сложным процентам, или 365% по простым».</Text>
+			<Options>
+				<Option Goto="299"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
