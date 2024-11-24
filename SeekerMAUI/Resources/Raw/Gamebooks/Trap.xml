@@ -2106,5 +2106,11 @@
 				<Option Goto="328" Text="Будете сражаться с ними"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="328">
+			<Text>Двое громил. Общая атака 16.\n\nЕсли вы победили.</Text>
+			<Options>
+				<Option Goto="330"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
