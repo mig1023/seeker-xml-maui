@@ -1614,5 +1614,12 @@
 				<Option Goto="249"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="249">
+			<Text>Вы выходите из гильдии.</Text>
+			<Options>
+				<Option Goto="250" Text="Можете отправиться выполнять поручение"/>
+				<Option Goto="150" Text="пойти по своим делам, но помните, в таком случае задание будет провалено, и вы автоматически исключаетесь из гильдии"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
