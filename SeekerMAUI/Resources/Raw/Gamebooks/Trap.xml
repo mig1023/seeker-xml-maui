@@ -1796,5 +1796,12 @@
 				<Option Goto="278"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="278">
+			<Text>278.</Text>
+			<Options>
+				<Option Goto="279" Text="Если ваша ловкость 10 или больше"/>
+				<Option Goto="281" Text="если меньше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
