@@ -2326,5 +2326,12 @@
 				<Option Goto="415"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="415">
+			<Text>Вы получили квест «Настоящая литература требует жертв».</Text>
+			<Options>
+				<Option Goto="416" Text="Если намерены его выполнять"/>
+				<Option Goto="150" Text="если у вас другие планы"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
