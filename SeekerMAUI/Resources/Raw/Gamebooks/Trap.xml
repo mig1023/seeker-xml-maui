@@ -2149,5 +2149,11 @@
 				<Option Goto="354"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="335">
+			<Text>Так и не решившись, вы покидаете это место.</Text>
+			<Options>
+				<Option Goto="354"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
