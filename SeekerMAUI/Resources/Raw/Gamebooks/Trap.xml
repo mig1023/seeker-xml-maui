@@ -2408,5 +2408,13 @@
 				<Option Goto="431" Text="направо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="428">
+			<Text>Вскоре вы оказываетесь на развилке. Можете пойти:</Text>
+			<Options>
+				<Option Goto="431" Text="налево"/>
+				<Option Goto="432" Text="прямо"/>
+				<Option Goto="433" Text="направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
