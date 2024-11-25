@@ -2263,5 +2263,11 @@
 				<Option Goto="354"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="353">
+			<Text>Миранда сбежала, а вам лучше как можно скорее свалить отсюда.</Text>
+			<Options>
+				<Option Goto="354"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
