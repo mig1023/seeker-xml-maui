@@ -2251,5 +2251,11 @@
 				<Option Goto="352" Text="Может быть, не стоит"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="351">
+			<Text>Положив голову в мешок (-50 кармы) вы покидаете помещение, ковыляя и пытаясь прикрыть кровоточащие раны.</Text>
+			<Options>
+				<Option Goto="336"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
