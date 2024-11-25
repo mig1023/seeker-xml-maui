@@ -2393,5 +2393,12 @@
 				<Option Goto="426"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="426">
+			<Text>Пещера сырая темная и неуютная. Высота стен позволяет вам идти не сутулясь. Очень скоро появляется первая развилка.\n\nКуда вы пойдете:</Text>
+			<Options>
+				<Option Goto="427" Text="налево"/>
+				<Option Goto="428" Text="направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
