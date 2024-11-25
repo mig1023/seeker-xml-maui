@@ -2137,5 +2137,11 @@
 				<Option Goto="333"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="333">
+			<Text>К вам уже приближаются двое громил с дубинами.\n\nОбщая атака 16.\n\nЕсли вы победили, можете забрать одну дубину (+2 к атаке, цена 400).</Text>
+			<Options>
+				<Option Goto="334"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
