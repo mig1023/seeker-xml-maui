@@ -2363,5 +2363,11 @@
 				<Option Goto="421"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="421">
+			<Text>Вы, совершенно ошарашенный, машинально выходите из дома, идете на задний двор. Отвязываете поводья первой попавшейся лошади и садитесь на неё...</Text>
+			<Options>
+				<Option Goto="422"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
