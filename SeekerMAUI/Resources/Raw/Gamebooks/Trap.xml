@@ -2440,5 +2440,12 @@
 				<Option Goto="439" Text="четвертый"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="432">
+			<Text>Не может быть — опять развилка. Куда пойдете:</Text>
+			<Options>
+				<Option Goto="439" Text="налево"/>
+				<Option Goto="433" Text="направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
