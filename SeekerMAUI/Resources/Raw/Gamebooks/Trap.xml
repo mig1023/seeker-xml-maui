@@ -2143,5 +2143,11 @@
 				<Option Goto="334"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="334">
+			<Text>До Миранды вам больше не добраться. Придется заняться другими делами.</Text>
+			<Options>
+				<Option Goto="354"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
