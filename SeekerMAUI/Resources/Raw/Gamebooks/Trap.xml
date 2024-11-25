@@ -2431,5 +2431,14 @@
 				<Option Goto="436" Text="направо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="431">
+			<Text>Снова развилка. Перед вами входы в четыре туннеля. С лева на право:</Text>
+			<Options>
+				<Option Goto="436" Text="Первый"/>
+				<Option Goto="431" Text="второй"/>
+				<Option Goto="438" Text="третий"/>
+				<Option Goto="439" Text="четвертый"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
