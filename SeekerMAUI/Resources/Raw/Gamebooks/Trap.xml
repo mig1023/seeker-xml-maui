@@ -2232,5 +2232,11 @@
 				<Option Goto="348" Text="Догнать её"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="348">
+			<Text>Вы доползаете до Миранды и хватаете её за ногу...</Text>
+			<Options>
+				<Option Goto="349"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
