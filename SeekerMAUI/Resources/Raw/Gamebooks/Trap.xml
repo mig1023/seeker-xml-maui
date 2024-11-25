@@ -2275,5 +2275,11 @@
 				<Option Goto="201"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="355">
+			<Text>Разумеется, вы отказываетесь. Вы сюда не развлекаться пришли. Вам нужна Миранда и точка.</Text>
+			<Options>
+				<Option Goto="323"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
