@@ -2381,5 +2381,11 @@
 				<Option Goto="424"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="424">
+			<Text>К вечеру вы все же нашли вход в пещеру, указанную на карте, хотя для этого и пришлось свернуть с дороги, и пробираться через чащу. Пора устраиваться на ночлег.</Text>
+			<Options>
+				<Option Goto="425"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
