@@ -2206,5 +2206,11 @@
 				<Option Goto="344" Text="Попытаетесь догнать её"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="344">
+			<Text>Вы одним рывком перелетаете через полкомнаты и у самой двери хватаете Миранду за руку.</Text>
+			<Options>
+				<Option Goto="345"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
