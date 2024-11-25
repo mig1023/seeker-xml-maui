@@ -2219,5 +2219,11 @@
 				<Option Goto="346" Text="Попытаетесь остановить"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="346">
+			<Text>Вы с трудом поднимаетесь, добегаете до окна и железной хваткой беретесь за плечи девушки.</Text>
+			<Options>
+				<Option Goto="347"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
