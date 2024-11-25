@@ -2244,5 +2244,12 @@
 				<Option Goto="350"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="350">
+			<Text>350.</Text>
+			<Options>
+				<Option Goto="351" Text="У вас есть возможность прикончить Миранду, отрезать ей голову, положить в мешок, но стоит ли.."/>
+				<Option Goto="352" Text="Может быть, не стоит"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
