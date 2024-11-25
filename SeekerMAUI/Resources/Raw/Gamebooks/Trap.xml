@@ -2257,5 +2257,11 @@
 				<Option Goto="336"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="352">
+			<Text>Решив, что после всего что было, у вас не поднимается рука на девушку, вы покидаете помещение, ковыляя и пытаясь прикрыть кровоточащие раны.</Text>
+			<Options>
+				<Option Goto="354"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
