@@ -2187,5 +2187,11 @@
 				<Option Goto="343" Text="Скажете, что пришли за долгом Мейбраха"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="341">
+			<Text>Вы хватаете Миранду за шею обеими руками и душите её. Она даже не может закричать. Кажется это совсем не сложно.</Text>
+			<Options>
+				<Option Goto="342"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
