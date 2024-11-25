@@ -2294,5 +2294,12 @@
 				<Option Goto="150" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="410">
+			<Text>Можно сказать:</Text>
+			<Options>
+				<Option Goto="408" Text="«Я здесь новичок, не могли бы вы рассказать мне немного о стране»"/>
+				<Option Goto="411" Text="«Я ищу одного человека, не могли бы вы мне помочь»"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
