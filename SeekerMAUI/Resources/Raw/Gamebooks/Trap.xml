@@ -3085,5 +3085,11 @@
 				<Option Goto="545" Text="нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="543">
+			<Text>Девушка даже не пыталась сопротивляться. Один удар и все кончено (-50 кармы).</Text>
+			<Options>
+				<Option Goto="533"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
