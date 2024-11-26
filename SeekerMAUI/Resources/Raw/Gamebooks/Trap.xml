@@ -2520,5 +2520,11 @@
 				<Option Goto="444" Text="направо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="444">
+			<Text>Впереди замаячил свет. Вы ускоряете шаг. Да это же выход из пещеры.</Text>
+			<Options>
+				<Option Goto="445"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
