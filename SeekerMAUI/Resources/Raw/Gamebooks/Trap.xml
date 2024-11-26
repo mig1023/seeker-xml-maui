@@ -2660,5 +2660,11 @@
 				<Option Goto="478" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="476">
+			<Text>Стрела попала ему в шею. Зеленокожий упал и больше не двигался.</Text>
+			<Options>
+				<Option Goto="477"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
