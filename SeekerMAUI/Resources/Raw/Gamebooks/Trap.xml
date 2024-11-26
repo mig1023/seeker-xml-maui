@@ -2691,5 +2691,13 @@
 				<Option Goto="481" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="481">
+			<Text>У вас в руках заряженный арбалет.</Text>
+			<Options>
+				<Option Goto="482" Text="Может быть, выстрелить в него"/>
+				<Option Goto="483" Text="лучше броситься бежать, хотя, вряд ли вы уйдете, если он захочет вас догнать"/>
+				<Option Goto="486" Text="а может просто бросить арбалет, постоять и подождать, пока он приблизиться"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
