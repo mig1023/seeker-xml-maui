@@ -3146,5 +3146,11 @@
 				<Option Goto="555"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="555">
+			<Text>Вы проснулись в холодном поту. Уже утро. Можно позавтракать и отправляться в пещеру.</Text>
+			<Options>
+				<Option Goto="556"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
