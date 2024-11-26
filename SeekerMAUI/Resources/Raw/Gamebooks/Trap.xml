@@ -2898,5 +2898,12 @@
 				<Option Goto="550"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="514">
+			<Text>514.</Text>
+			<Options>
+				<Option Goto="515" Text="Может помочь девушке"/>
+				<Option Goto="495" Text="сошлетесь на большую занятость и поспешите дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
