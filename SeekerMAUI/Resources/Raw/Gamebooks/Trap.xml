@@ -2774,5 +2774,11 @@
 				<Option Goto="494"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="494">
+			<Text>Вы обыскиваете тела напавших на вас бандитов. Пара обычных мечей (+2 к атаке, цена 200 каждый), деньги (+250 золотых). А вот мешок...</Text>
+			<Options>
+				<Option Goto="496"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
