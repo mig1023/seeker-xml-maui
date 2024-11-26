@@ -3052,5 +3052,12 @@
 				<Option Goto="513"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="538">
+			<Text>Это как раз тот случай, когда сфера льда может пригодиться. Но нужно решить, в кого её бросить.</Text>
+			<Options>
+				<Option Goto="539" Text="В Айрин"/>
+				<Option Goto="542" Text="в чудовище"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
