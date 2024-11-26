@@ -2532,5 +2532,11 @@
 				<Option Goto="442"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="453">
+			<Text>Вы проснулись. Почему у вас связаны руки? И голова раскалывается. И лежите вы в какой-то яме. И вообще тут очень холодно. Сверху раздаются голоса...</Text>
+			<Options>
+				<Option Goto="454"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
