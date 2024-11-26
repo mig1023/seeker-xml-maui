@@ -2488,5 +2488,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="439">
+			<Text>Вскоре тоннель поворачивает налево. Вы идете достаточно долго, как вдруг...</Text>
+			<Options>
+				<Option Goto="443"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
