@@ -2848,5 +2848,12 @@
 				<Option Goto="506"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="506">
+			<Text>506.</Text>
+			<Options>
+				<Option Goto="507" Text="Хотите попросить варвара уйти"/>
+				<Option Goto="509" Text="забудете об этом"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
