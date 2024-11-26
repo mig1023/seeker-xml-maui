@@ -2482,5 +2482,11 @@
 				<Option Goto="443" Text="направо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="438">
+			<Text>Вы проваливаетесь в яму с шипами...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
