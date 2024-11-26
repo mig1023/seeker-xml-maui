@@ -3028,5 +3028,11 @@
 				<Option Goto="466"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="534">
+			<Text>Вы легко уворачиваетесь от всех выпадов Айрин. Выбрав удобный момент, вы перехватываете копье девушки и, применив небольшое усилие, сбрасываете её к чудовищу.</Text>
+			<Options>
+				<Option Goto="535"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
