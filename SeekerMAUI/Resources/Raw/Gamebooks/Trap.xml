@@ -3046,5 +3046,11 @@
 				<Option Goto="533"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="537">
+			<Text>Решив, что на сегодня довольно, вы покидаете пещеру. На выходе можно немного отдохнуть.</Text>
+			<Options>
+				<Option Goto="513"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
