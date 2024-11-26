@@ -2646,5 +2646,12 @@
 				<Option Goto="474"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="474">
+			<Text>Карлик быстро убегает. Еще немного и он скроется в лесу.</Text>
+			<Options>
+				<Option Goto="475" Text="Можете выстрелить в него из арбалета"/>
+				<Option Goto="479" Text="дадите ему уйти"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
