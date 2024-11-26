@@ -2950,5 +2950,11 @@
 				<Option Goto="523"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="522">
+			<Text>Айрин (не своим голосом): «Ты не понимаешь? В чем смысл твоих пустых скитаний по миру? Когда ты можешь стать частью хозяина».</Text>
+			<Options>
+				<Option Goto="523"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
