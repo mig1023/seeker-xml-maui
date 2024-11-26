@@ -2874,5 +2874,11 @@
 				<Option Goto="511" Text="а затем.."/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="510">
+			<Text>Содержание записки: «Хозяин голоден. Хозяин призывает меня. Эти голоса. Я должна найти еду».\n\nДалее</Text>
+			<Options>
+				<Option Goto="466"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
