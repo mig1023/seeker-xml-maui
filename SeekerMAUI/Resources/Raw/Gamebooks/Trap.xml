@@ -2730,5 +2730,11 @@
 				<Option Goto="487"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="487">
+			<Text>Варвар: «Вниар муару угры»\n\nВы (не решительно): «Что? Простите».\n\nВарвар (жестикулируя кулаками): «Грыи ры даму».\n\nТак, кажется у нас проблемы с пониманием или...</Text>
+			<Options>
+				<Option Goto="488"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
