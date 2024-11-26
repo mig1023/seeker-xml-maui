@@ -2786,5 +2786,11 @@
 				<Option Goto="509"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="496">
+			<Text>В мешке оказываются... ваши вещи. Верните себе весь инвентарь. Еще там были 270 золотых, еда на б дней, карта восточных скал и тетрадь с записями, что-то вроде дневника.</Text>
+			<Options>
+				<Option Goto="497"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
