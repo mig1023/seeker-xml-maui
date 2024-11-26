@@ -2666,5 +2666,11 @@
 				<Option Goto="477"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="477">
+			<Text>Запишите слово «выстрел».</Text>
+			<Options>
+				<Option Goto="480"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
