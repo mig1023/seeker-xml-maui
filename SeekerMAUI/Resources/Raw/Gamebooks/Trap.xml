@@ -2798,5 +2798,11 @@
 				<Option Goto="498"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="498">
+			<Text>Вы идете по лесу несколько часов., начинает смеркаться, пора устраиваться на ночлег. Вы разводите костер и укладываетесь спать.</Text>
+			<Options>
+				<Option Goto="499"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
