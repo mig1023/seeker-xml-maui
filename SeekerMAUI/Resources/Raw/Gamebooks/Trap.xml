@@ -2964,5 +2964,12 @@
 				<Option Goto="538" Text="Если у вас есть сфера льда"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="524">
+			<Text>Подбросьте монетку.</Text>
+			<Options>
+				<Option Goto="526" Text="Если выпал орел"/>
+				<Option Goto="525" Text="если решка"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
