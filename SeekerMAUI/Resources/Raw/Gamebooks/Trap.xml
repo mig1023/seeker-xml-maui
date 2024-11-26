@@ -2880,5 +2880,11 @@
 				<Option Goto="466"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="511">
+			<Text>Остается решить брать с собой копье (+3 к атаке, цена 1000) или нет...</Text>
+			<Options>
+				<Option Goto="512"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
