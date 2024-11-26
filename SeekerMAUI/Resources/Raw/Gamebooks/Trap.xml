@@ -2711,5 +2711,11 @@
 				<Option Goto="484"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="484">
+			<Text>Через какое-то время вы понимаете, что никто за вами не гонится. Можно остановиться и отдышаться. Вокруг лес. Вы заглядываете в мешок.</Text>
+			<Options>
+				<Option Goto="496"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
