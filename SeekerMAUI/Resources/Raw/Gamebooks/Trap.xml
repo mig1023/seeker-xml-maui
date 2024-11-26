@@ -3010,5 +3010,11 @@
 				<Option Goto="531"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="531">
+			<Text>Это чудовище поблагодарило вас за обед (-80 кармы).</Text>
+			<Options>
+				<Option Goto="533"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
