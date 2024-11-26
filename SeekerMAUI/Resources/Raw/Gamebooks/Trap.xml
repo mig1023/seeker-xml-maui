@@ -2590,5 +2590,11 @@
 				<Option Goto="462"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="462">
+			<Text>Внезапно вы услышали звук глухого удара. Лидер дернулся, перестал смеяться, уронил арбалет.</Text>
+			<Options>
+				<Option Goto="473"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
