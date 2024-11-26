@@ -2998,5 +2998,11 @@
 				<Option Goto="533"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="529">
+			<Text>Вы осторожно подходите к краю и бросаете несчастную курицу чудовищу.</Text>
+			<Options>
+				<Option Goto="530"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
