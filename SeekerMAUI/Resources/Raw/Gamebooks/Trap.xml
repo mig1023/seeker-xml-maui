@@ -2762,5 +2762,11 @@
 				<Option Goto="489"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="492">
+			<Text>Мисарг радостно пожимает вам руку (ваши суставы тревожно похрустывают) и дружески хлопает вас по плечу (-10 здоровья). Запишите слово «варвар».</Text>
+			<Options>
+				<Option Goto="494"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
