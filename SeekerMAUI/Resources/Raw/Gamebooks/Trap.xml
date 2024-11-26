@@ -2861,5 +2861,11 @@
 				<Option Goto="508"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="508">
+			<Text>Мисарг погрустнел. Но разведя руками и легонько похлопав вас по плечу (-5 здоровья) развернулся и пошел в лес. Вычеркните слово «варвар».</Text>
+			<Options>
+				<Option Goto="509"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
