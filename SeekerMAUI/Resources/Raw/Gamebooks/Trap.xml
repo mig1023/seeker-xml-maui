@@ -3034,5 +3034,11 @@
 				<Option Goto="535"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="535">
+			<Text>Раздается жуткий крик, затем еще один и еще... Чудовище никуда не спешит. Крики стихли. Внезапно вы, как будто уловили мысли чудовища...</Text>
+			<Options>
+				<Option Goto="536"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
