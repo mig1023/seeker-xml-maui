@@ -2494,5 +2494,18 @@
 				<Option Goto="443"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="440">
+			<Text>Впереди опять развилка.</Text>
+			<Options>
+				<Option Goto="444" Text="Налево"/>
+				<Option Goto="441" Text="Направо"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="441">
+			<Text>Ну, вот похоже и все. Факел догорел и погас. Вы в полной темноте. Вы продолжаете идти вперед спотыкаясь. Это конец. Без света здесь не выжить и не выбраться. Время остановиться подумать о прошлом. Как вы прожили свою жизнь. Все ли сделали, что хотели...</Text>
+			<Options>
+				<Option Goto="444"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
