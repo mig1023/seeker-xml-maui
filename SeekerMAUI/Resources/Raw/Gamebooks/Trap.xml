@@ -2984,5 +2984,13 @@
 				<Option Goto="532" Text="оставите в покое"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="527">
+			<Text>Догнать и поймать её не составляет никакого труда. Но что теперь.</Text>
+			<Options>
+				<Option Goto="538" Text="Хотите прикончить её"/>
+				<Option Goto="529" Text="скормите той твари на нижнем уровне"/>
+				<Option Goto="532" Text="А может просто отпустить её"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
