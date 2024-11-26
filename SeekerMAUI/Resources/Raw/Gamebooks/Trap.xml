@@ -2653,5 +2653,12 @@
 				<Option Goto="479" Text="дадите ему уйти"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="475">
+			<Text>475.</Text>
+			<Options>
+				<Option Goto="476" Text="Если ваша ловкость 10 и больше"/>
+				<Option Goto="478" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
