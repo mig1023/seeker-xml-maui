@@ -2705,5 +2705,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="483">
+			<Text>Вы бросаете арбалет, хватаете какой-то мешок, брошенный грабителями, и бежите в противоположную от варвара сторону.</Text>
+			<Options>
+				<Option Goto="484"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
