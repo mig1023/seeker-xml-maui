@@ -2855,5 +2855,11 @@
 				<Option Goto="509" Text="забудете об этом"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="507">
+			<Text>Вы: «Вот что, Мисарг, я не могу дальше путешествовать в компании человека убивающего по прихоти».</Text>
+			<Options>
+				<Option Goto="508"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
