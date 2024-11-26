@@ -2923,5 +2923,12 @@
 				<Option Goto="518"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="518">
+			<Text>Вы оборачиваетесь и видите у вашей груди копье, наставленное темной фигурой Айрин.</Text>
+			<Options>
+				<Option Goto="519" Text="Попробуете поговорить с ней"/>
+				<Option Goto="523" Text="Используете что-нибудь другое"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
