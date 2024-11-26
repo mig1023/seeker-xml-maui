@@ -2571,5 +2571,11 @@
 				<Option Goto="467" Text="Может быть просто, помолчать и посмотреть, что будет дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="459">
+			<Text>Лидер нажал на спуск. Стрела пронзила вас...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
