@@ -2622,5 +2622,11 @@
 				<Option Goto="472" Text="промолчите"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="470">
+			<Text>Рик: «Конечно я знаю, где она находиться. Это...»</Text>
+			<Options>
+				<Option Goto="471"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
