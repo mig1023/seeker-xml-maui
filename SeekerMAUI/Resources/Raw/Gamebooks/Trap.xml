@@ -2507,5 +2507,11 @@
 				<Option Goto="444"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="442">
+			<Text>Сегодняшний день вас утомил. Вы разводите костер, ужинаете и ложитесь спать.</Text>
+			<Options>
+				<Option Goto="453"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
