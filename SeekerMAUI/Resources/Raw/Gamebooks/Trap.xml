@@ -2678,5 +2678,11 @@
 				<Option Goto="480"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="479">
+			<Text>Зеленокожий карлик скрылся в лесу.</Text>
+			<Options>
+				<Option Goto="480"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
