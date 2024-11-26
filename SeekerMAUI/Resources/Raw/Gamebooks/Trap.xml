@@ -2750,5 +2750,11 @@
 				<Option Goto="492" Text="взять его с собой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="490">
+			<Text>Мисарг явно разочарован вашим решением. Он даже предлагает подраться с вами, чтобы показать, насколько он хороший воин.</Text>
+			<Options>
+				<Option Goto="493"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
