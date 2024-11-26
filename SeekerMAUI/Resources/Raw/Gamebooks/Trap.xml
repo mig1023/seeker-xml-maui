@@ -3140,5 +3140,11 @@
 				<Option Goto="555"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="554">
+			<Text>Генерал: «Милорд, простите, но я не понял ничего из того, что вы сказали».</Text>
+			<Options>
+				<Option Goto="555"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
