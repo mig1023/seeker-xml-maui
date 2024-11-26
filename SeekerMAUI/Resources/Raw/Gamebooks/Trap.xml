@@ -2886,5 +2886,11 @@
 				<Option Goto="512"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="512">
+			<Text>Изучать пещеру вам не хочется. Здесь таких пещер десятки. Поэтому вы просто идете дальше.</Text>
+			<Options>
+				<Option Goto="513"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
