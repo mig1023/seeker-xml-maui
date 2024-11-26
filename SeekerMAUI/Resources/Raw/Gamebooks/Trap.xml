@@ -2756,5 +2756,11 @@
 				<Option Goto="493"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="491">
+			<Text>Внутренний голос подсказывает вам, что это не самое лучшее решение. Подумайте еще раз.</Text>
+			<Options>
+				<Option Goto="489"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
