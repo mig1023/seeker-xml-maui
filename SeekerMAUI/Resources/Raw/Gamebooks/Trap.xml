@@ -2526,5 +2526,11 @@
 				<Option Goto="445"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="445">
+			<Text>Как это приятно, снова увидеть солнечный свет, вздохнуть чистым воздухом и... наступить на экскременты какого-то животного!</Text>
+			<Options>
+				<Option Goto="442"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
