@@ -2699,5 +2699,11 @@
 				<Option Goto="486" Text="а может просто бросить арбалет, постоять и подождать, пока он приблизиться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="482">
+			<Text>Воин легко отбивает вашу стрелу секирой, в три прыжка оказывается рядом с вами и наносит всего один удар...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
