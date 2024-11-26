@@ -2944,5 +2944,11 @@
 				<Option Goto="523"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="521">
+			<Text>Айрин: «Ничего личного. Твоя жизнь в обмен на мою».</Text>
+			<Options>
+				<Option Goto="523"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
