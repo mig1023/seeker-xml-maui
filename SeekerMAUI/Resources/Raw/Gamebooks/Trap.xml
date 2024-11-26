@@ -2634,5 +2634,11 @@
 				<Option Goto="473"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="472">
+			<Text>Рик: «Что-то я разболтался. Пора заканчивать». Он вскинул арбалет, целясь вам в лицо.</Text>
+			<Options>
+				<Option Goto="471"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
