@@ -3134,5 +3134,11 @@
 				<Option Goto="554" Text="«Отпустите эту группу на свободу. Каждый имеет право на моральные убеждения»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="553">
+			<Text>Генерал: «Будет исполнено милорд».</Text>
+			<Options>
+				<Option Goto="555"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
