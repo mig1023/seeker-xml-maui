@@ -2468,5 +2468,12 @@
 				<Option Goto="441" Text="направо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="436">
+			<Text>Новая развилка.</Text>
+			<Options>
+				<Option Goto="441" Text="Налево"/>
+				<Option Goto="437" Text="направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
