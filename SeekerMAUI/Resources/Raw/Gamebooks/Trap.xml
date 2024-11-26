@@ -2780,5 +2780,11 @@
 				<Option Goto="496"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="495">
+			<Text>Айрин: «Ты ничтожество. Сейчас ты умрешь»\n\nАйрин. Атака 10.\n\nЕсли вы победили</Text>
+			<Options>
+				<Option Goto="509"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
