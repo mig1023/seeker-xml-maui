@@ -2628,5 +2628,11 @@
 				<Option Goto="471"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="471">
+			<Text>Вы услышали глухой удар. Тело Рика дернулось. Он выронил арбалет.</Text>
+			<Options>
+				<Option Goto="473"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
