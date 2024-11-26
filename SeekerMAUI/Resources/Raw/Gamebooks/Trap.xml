@@ -2971,5 +2971,11 @@
 				<Option Goto="525" Text="если решка"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="525">
+			<Text>Вы читаете заклинание и... Ничего не происходит. Резкий удар копьем сталкивает вас в пропасть...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
