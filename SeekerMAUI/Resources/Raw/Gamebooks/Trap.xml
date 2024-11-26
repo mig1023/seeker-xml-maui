@@ -2603,5 +2603,11 @@
 				<Option Goto="513" Text="а затем.."/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="467">
+			<Text>Несколько секунд все молчали. Затем...</Text>
+			<Options>
+				<Option Goto="459"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
