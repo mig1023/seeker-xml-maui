@@ -2538,5 +2538,11 @@
 				<Option Goto="454"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="454">
+			<Text>У вас исчез инвентарь и доспехи.</Text>
+			<Options>
+				<Option Goto="456"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
