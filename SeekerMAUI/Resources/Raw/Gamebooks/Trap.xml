@@ -3247,5 +3247,12 @@
 				<Option Goto="586" Text="нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="582">
+			<Text>Вы можете сказать:</Text>
+			<Options>
+				<Option Goto="583" Text="«Мисарг, ты можешь открыть эту дверь?»"/>
+				<Option Goto="585" Text="«Дальше я намерен идти один. Ты должен вернуться обратно»"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
