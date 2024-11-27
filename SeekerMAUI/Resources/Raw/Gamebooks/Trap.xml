@@ -3318,5 +3318,11 @@
 				<Option Goto="593"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="593">
+			<Text>Как только вы переступаете порог, дверь резко и неожиданно захлопывается. Вы оказались в абсолютной темноте...</Text>
+			<Options>
+				<Option Goto="594"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
