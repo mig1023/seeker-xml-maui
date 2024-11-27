@@ -3350,5 +3350,11 @@
 				<Option Goto="596"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="598">
+			<Text>Голос: «Вижу, ты не очень разговорчив. Пожалуй, начну я».</Text>
+			<Options>
+				<Option Goto="596"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
