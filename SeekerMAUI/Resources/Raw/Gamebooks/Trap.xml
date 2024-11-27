@@ -3664,5 +3664,11 @@
 				<Option Goto="652" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="649">
+			<Text>Глядя какое-то время в ваши честные и открытые глаза Алистер хмуриться, щуриться, улыбается, но, похоже, ничего не может в них прочитать.</Text>
+			<Options>
+				<Option Goto="665"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
