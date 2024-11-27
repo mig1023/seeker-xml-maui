@@ -3387,5 +3387,11 @@
 				<Option Goto="604"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="604">
+			<Text>Вы передразниваете: «Я все знаю. Я все слышал. Может, объяснишь немного, что здесь все-таки происходит».\n\nЛорд: «Ну, если кратко. Я - это ты».</Text>
+			<Options>
+				<Option Goto="605"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
