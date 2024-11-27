@@ -3570,5 +3570,11 @@
 				<Option Goto="639"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="633">
+			<Text>Спустившись вниз по лестнице, вы направились по последнему, оставшемуся у вас адресу.</Text>
+			<Options>
+				<Option Goto="634"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
