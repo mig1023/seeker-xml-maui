@@ -3736,5 +3736,11 @@
 				<Option Goto="660"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="660">
+			<Text>Раздался звук, такой, будто кто-то в глубине коридоров постоянно бьёт в барабан. Скорее всего, сработал сигнал тревоги.</Text>
+			<Options>
+				<Option Goto="662"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
