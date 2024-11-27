@@ -3306,5 +3306,11 @@
 				<Option Goto="589" Text="если меньше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="591">
+			<Text>Каким-то чудом вам удается увернуться из цепкого захвата и скрыться за дверью.</Text>
+			<Options>
+				<Option Goto="593"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
