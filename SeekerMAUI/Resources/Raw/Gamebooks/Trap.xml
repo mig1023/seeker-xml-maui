@@ -3724,5 +3724,11 @@
 				<Option Goto="660"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="658">
+			<Text>Вы выхватываете меч, перекатываетесь по столу и перерезаете горло начальнику службы безопасности королевы.</Text>
+			<Options>
+				<Option Goto="657"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
