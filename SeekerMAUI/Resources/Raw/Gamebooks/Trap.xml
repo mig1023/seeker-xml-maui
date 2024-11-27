@@ -3293,5 +3293,11 @@
 				<Option Goto="590" Text="Попробуете молниеносно вырваться из его рук и скрыться за дверью"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="589">
+			<Text>Варвар одним ударом кулака прекратил вашу болтовню навсегда.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
