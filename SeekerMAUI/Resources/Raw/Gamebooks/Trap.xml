@@ -3690,5 +3690,11 @@
 				<Option Goto="654" Text="сопротивляться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="653">
+			<Text>Через несколько секунд вы были разоружены и связаны...\n\nНа следующее утро ваш изуродованный труп в какой-то канаве обгладывали крысы.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
