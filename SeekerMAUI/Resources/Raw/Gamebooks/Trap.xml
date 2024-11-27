@@ -3506,5 +3506,11 @@
 				<Option Goto="620"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="623">
+			<Text>Лорд: «А сейчас я переправлю тебя в Эндинг».\n\nВас окружило синее свечение. Комната исчезла.</Text>
+			<Options>
+				<Option Goto="624"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
