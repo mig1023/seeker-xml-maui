@@ -3356,5 +3356,12 @@
 				<Option Goto="596"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="599">
+			<Text>599.</Text>
+			<Options>
+				<Option Goto="600" Text="Соврете, что вы обычный путешественник"/>
+				<Option Goto="602" Text="Скажете правду и кратко изложите ему свою историю"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
