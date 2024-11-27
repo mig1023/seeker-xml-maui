@@ -3221,5 +3221,11 @@
 				<Option Goto="570"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="570">
+			<Text>К сожалению, размер доспехов вам не подходит. Обыскав помещение, вы находите запас еды (+10).\n\nТеперь можно идти дальше...</Text>
+			<Options>
+				<Option Goto="579"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
