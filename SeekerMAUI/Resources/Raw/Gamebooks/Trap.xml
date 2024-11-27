@@ -3766,5 +3766,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="665">
+			<Text>Алистер: «Ну, что ж. У меня больше нет вопросов».</Text>
+			<Options>
+				<Option Goto="667" Text="Если у вас записано слово «таблетка»"/>
+				<Option Goto="670" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
