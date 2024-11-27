@@ -3631,5 +3631,11 @@
 				<Option Goto="644"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="644">
+			<Text>Смех стих. Повисло неловкое молчание.\n\nОдин из стражников: «Ну, нам так-то приказано пропускать всех кто знает это имя. Пройдемте за мной».</Text>
+			<Options>
+				<Option Goto="648"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
