@@ -3469,5 +3469,11 @@
 				<Option Goto="623"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="617">
+			<Text>В сундуке оказалось 3547 золотых монет. Несколько свитков с неизвестными заклинаниями и дневник, вероятнее всего бывшей хозяйки дома.</Text>
+			<Options>
+				<Option Goto="629"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
