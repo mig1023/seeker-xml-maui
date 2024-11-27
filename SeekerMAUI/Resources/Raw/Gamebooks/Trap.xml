@@ -3363,5 +3363,11 @@
 				<Option Goto="602" Text="Скажете правду и кратко изложите ему свою историю"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="600">
+			<Text>Вы начинаете подбирать красивые факты. Лорд резко прерывает вас своим смехом.</Text>
+			<Options>
+				<Option Goto="601"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
