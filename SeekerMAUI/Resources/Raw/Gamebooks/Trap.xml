@@ -3494,5 +3494,11 @@
 				<Option Goto="614"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="621">
+			<Text>Вы кидаете таблетку в правый дальний угол помещения. Опять слышен легкий щелчок, затем звон лезвий.</Text>
+			<Options>
+				<Option Goto="622"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
