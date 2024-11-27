@@ -3312,5 +3312,11 @@
 				<Option Goto="593"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="592">
+			<Text>За дверью очень темно, но вы решаетесь войти, так как часть света попадает из туннеля.</Text>
+			<Options>
+				<Option Goto="593"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
