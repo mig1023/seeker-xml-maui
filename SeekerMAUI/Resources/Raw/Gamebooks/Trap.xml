@@ -3260,5 +3260,12 @@
 				<Option Goto="584"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="584">
+			<Text>584.</Text>
+			<Options>
+				<Option Goto="585" Text="Хотите попросить варвара уйти"/>
+				<Option Goto="586" Text="Забудете о нем и попробуете открыть дверь самостоятельно, может книга заклинаний пригодиться"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
