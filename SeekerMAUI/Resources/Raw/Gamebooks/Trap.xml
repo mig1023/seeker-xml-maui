@@ -3299,5 +3299,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="590">
+			<Text>590.</Text>
+			<Options>
+				<Option Goto="591" Text="Если ваша ловкость 14 и более"/>
+				<Option Goto="589" Text="если меньше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
