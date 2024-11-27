@@ -3773,5 +3773,12 @@
 				<Option Goto="670" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="667">
+			<Text>667.</Text>
+			<Options>
+				<Option Goto="668" Text="Может быть, стоит рассказать начальнику службы безопасности королевы о таблетке у вас внутри (разумеется, слегка приврав)"/>
+				<Option Goto="670" Text="Лучше промолчать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
