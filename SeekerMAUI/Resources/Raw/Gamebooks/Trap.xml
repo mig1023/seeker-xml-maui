@@ -3279,5 +3279,12 @@
 				<Option Goto="587"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="587">
+			<Text>Дверь легко открывается.</Text>
+			<Options>
+				<Option Goto="588" Text="Если у вас записано слово «варвар»"/>
+				<Option Goto="592" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
