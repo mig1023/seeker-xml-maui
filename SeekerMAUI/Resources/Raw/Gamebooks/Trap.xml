@@ -3338,5 +3338,11 @@
 				<Option Goto="598" Text="Можете помолчать и подождать, что будет дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="596">
+			<Text>Голос: «Я... Я старый колдун. Можешь называть меня лорд... Прежде чем ты узнаешь кто я, ответь. Кто ты такой?»</Text>
+			<Options>
+				<Option Goto="599"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
