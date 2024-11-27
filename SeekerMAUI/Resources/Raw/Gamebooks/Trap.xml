@@ -3344,5 +3344,11 @@
 				<Option Goto="599"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="597">
+			<Text>Голос: «Это место - мое убежище. А...»</Text>
+			<Options>
+				<Option Goto="596"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
