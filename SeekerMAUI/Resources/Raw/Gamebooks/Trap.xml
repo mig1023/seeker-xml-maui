@@ -3412,5 +3412,11 @@
 				<Option Goto="609"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="608">
+			<Text>Лорд: «Рад, что ты мне поверил. Теперь мне, возможно, даже не придется использовать насилие».</Text>
+			<Options>
+				<Option Goto="609"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
