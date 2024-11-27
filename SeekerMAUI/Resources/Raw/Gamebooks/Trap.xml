@@ -3488,5 +3488,11 @@
 				<Option Goto="620"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="620">
+			<Text>Лорд: «Сделай два шага назад, два вправо и два вперёд»</Text>
+			<Options>
+				<Option Goto="614"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
