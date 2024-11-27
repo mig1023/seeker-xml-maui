@@ -3856,5 +3856,11 @@
 				<Option Goto="682"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="680">
+			<Text>Беатрикс: «Жаль, очень жаль. Он был очень сильным человеком и заслужил лучшей участи».</Text>
+			<Options>
+				<Option Goto="682"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
