@@ -3196,5 +3196,11 @@
 				<Option Goto="565"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="565">
+			<Text>Второй стражник, почесав шлем сказал: «Ну... в принципе». Первый стражник: «Ладно, пусть идет».</Text>
+			<Options>
+				<Option Goto="579"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
