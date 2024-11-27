@@ -3544,5 +3544,12 @@
 				<Option Goto="633"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="629">
+			<Text>Обойдя и осмотрев дом, вы нашли на втором этаже в одной из комнат запертый сундук.</Text>
+			<Options>
+				<Option Goto="617" Text="Если у вас есть свиток открывания замков, вы можете его использовать"/>
+				<Option Goto="735" Text="Теперь остается лишь перекусить и ложиться спать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
