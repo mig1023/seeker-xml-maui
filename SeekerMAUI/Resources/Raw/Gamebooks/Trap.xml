@@ -3482,5 +3482,11 @@
 				<Option Goto="621" Text="выбросите её в темноту"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="619">
+			<Text>Вы вытираете грязную таблетку об одежду и проглатываете её. Запишите слово «таблетка»</Text>
+			<Options>
+				<Option Goto="620"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
