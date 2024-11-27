@@ -3330,5 +3330,13 @@
 				<Option Goto="595"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="595">
+			<Text>Вы:</Text>
+			<Options>
+				<Option Goto="596" Text="«Кто ты такой?»"/>
+				<Option Goto="597" Text="«Что это за место»"/>
+				<Option Goto="598" Text="Можете помолчать и подождать, что будет дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
