@@ -3512,5 +3512,11 @@
 				<Option Goto="624"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="624">
+			<Text>Вы почувствовали себя легко и свободно. Да вы же падаете! До земли еще метра два.</Text>
+			<Options>
+				<Option Goto="625"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
