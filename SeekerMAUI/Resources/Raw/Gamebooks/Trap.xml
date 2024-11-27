@@ -3233,5 +3233,12 @@
 				<Option Goto="580"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="580">
+			<Text>Наконец вы уткнулись в огромную (метра три высотой и шириной) металлическую дверь. Дверь заперта.</Text>
+			<Options>
+				<Option Goto="581" Text="Если у вас записано слово «варвар»"/>
+				<Option Goto="586" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
