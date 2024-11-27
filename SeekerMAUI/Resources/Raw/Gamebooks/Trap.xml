@@ -3657,5 +3657,12 @@
 				<Option Goto="673" Text="«Конечно, слышал. Я даже с ним встречался по дороге сюда»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="648">
+			<Text>648.</Text>
+			<Options>
+				<Option Goto="649" Text="Если ваше обаяние больше или равно 9"/>
+				<Option Goto="652" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
