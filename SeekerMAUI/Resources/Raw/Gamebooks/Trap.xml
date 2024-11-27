@@ -3431,5 +3431,11 @@
 				<Option Goto="612" Text="Можете просто сделать, что говорят"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="611">
+			<Text>Лорд: «Ну, я нахожусь здесь уже 10 лет, я мог бы подождать еще пару месяцев, пока ты стоишь здесь и думаешь...»</Text>
+			<Options>
+				<Option Goto="612"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
