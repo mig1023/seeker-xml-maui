@@ -4541,5 +4541,11 @@
 				<Option Goto="789" Text="«У меня есть ещё вопросы»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="788">
+			<Text>Элис фыркнула: «Жестоко?! После всего, что он сделал мне и моей семье? Впрочем, я подумаю над твоими словами».</Text>
+			<Options>
+				<Option Goto="789"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
