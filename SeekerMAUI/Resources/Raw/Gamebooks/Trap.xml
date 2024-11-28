@@ -4131,5 +4131,12 @@
 				<Option Goto="727"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="723">
+			<Text>723.</Text>
+			<Options>
+				<Option Goto="630" Text="Если у вас записано слово «надет»"/>
+				<Option Goto="629" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
