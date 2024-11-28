@@ -4118,5 +4118,12 @@
 				<Option Goto="732" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="721">
+			<Text>Вы опять услышали голос в голове: «Давай же быстрее убей её и возьми кольцо! Чего ты ждёшь? Действие зелья может закончиться в любую минуту».</Text>
+			<Options>
+				<Option Goto="722" Text="Сделаете, как он говорит"/>
+				<Option Goto="724" Text="нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
