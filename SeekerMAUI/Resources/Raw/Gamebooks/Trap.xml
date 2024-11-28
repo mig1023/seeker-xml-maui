@@ -3956,5 +3956,13 @@
 				<Option Goto="696"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="696">
+			<Text>696.</Text>
+			<Options>
+				<Option Goto="698" Text="Недалеко от дворца вы видели лавку мага"/>
+				<Option Goto="697" Text="Кроме того, охранявший вашу комнату стражник сказал, что вы можете подойти в мастерскую дворца и взять себе любое понравившееся вам оружие"/>
+				<Option Goto="700" Text="Если же вам не хочется тратить на это время"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
