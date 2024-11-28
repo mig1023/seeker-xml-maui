@@ -4480,5 +4480,11 @@
 				<Option Goto="778"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="778">
+			<Text>У вас нет выбора, вы должны защитить Элис.\n\nАлистер Дид	Атака 25\n\nЕсли победили</Text>
+			<Options>
+				<Option Goto="779"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
