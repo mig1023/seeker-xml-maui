@@ -4026,5 +4026,12 @@
 				<Option Goto="631"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="707">
+			<Text>Вы слышите странный звук у себя в вещмешке. Открыв его, вы понимаете, что звук идет от золотого браслета.</Text>
+			<Options>
+				<Option Goto="708" Text="Хотите надеть его на руку"/>
+				<Option Goto="710" Text="нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
