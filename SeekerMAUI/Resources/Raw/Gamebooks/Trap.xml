@@ -4292,5 +4292,12 @@
 				<Option Goto="748" Text="«Возможно, я могу вам чем-нибудь помочь?»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="748">
+			<Text>Элис сказала: «Если хочешь мне помочь, то, прежде всего, отдай кольцо».</Text>
+			<Options>
+				<Option Goto="755" Text="Вы можете отдать девушке защитное кольцо"/>
+				<Option Goto="749" Text="Отказать ей"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
