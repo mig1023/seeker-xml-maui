@@ -3932,5 +3932,11 @@
 				<Option Goto="693"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="692">
+			<Text>«Ещё это, - Алистер протянул вам большой кошель, - Здесь 1000 золотых на покрытие мелких расходов».</Text>
+			<Options>
+				<Option Goto="693"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
