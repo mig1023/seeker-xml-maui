@@ -4152,5 +4152,11 @@
 				<Option Goto="728" Text="попробуете порвать цепочку браслета"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="726">
+			<Text>«Ну, хорошо, хорошо! Я сделаю, по-твоему», - кричите вы. Звук в голове исчезает.</Text>
+			<Options>
+				<Option Goto="722"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
