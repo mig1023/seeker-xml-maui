@@ -4247,5 +4247,11 @@
 				<Option Goto="746" Text="Не говорить этого"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="741">
+			<Text>Вы называете своё имя. Кольцо, разумеется, у вас, и сюда вы попали с помощью магии.\n\nВы: «Может быть, теперь вы скажете, как к вам обращаться?»</Text>
+			<Options>
+				<Option Goto="742"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
