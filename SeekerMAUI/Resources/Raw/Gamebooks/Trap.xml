@@ -3950,5 +3950,11 @@
 				<Option Goto="695"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="695">
+			<Text>Проснувшись утром и съев салат из мидий, вы преступили к составлению плана действий.</Text>
+			<Options>
+				<Option Goto="696"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
