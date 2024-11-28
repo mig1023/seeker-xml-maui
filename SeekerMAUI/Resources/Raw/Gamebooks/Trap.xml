@@ -4228,5 +4228,11 @@
 				<Option Goto="741" Text="Может быть, просто представиться и всё объяснить"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="738">
+			<Text>Найдя подходящее место, и разведя костёр, вы легли головой на вещмешок и закрыли глаза.</Text>
+			<Options>
+				<Option Goto="735"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
