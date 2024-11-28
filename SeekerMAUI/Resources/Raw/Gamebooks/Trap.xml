@@ -4374,5 +4374,12 @@
 				<Option Goto="761"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="761">
+			<Text>761.</Text>
+			<Options>
+				<Option Goto="762" Text="Если у вас есть с собой дневник некроманта"/>
+				<Option Goto="764" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
