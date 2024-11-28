@@ -4189,5 +4189,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="732">
+			<Text>Нужно решить, что делать с девушкой.</Text>
+			<Options>
+				<Option Goto="722" Text="Прикончить её"/>
+				<Option Goto="733" Text="Оставить в живых"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
