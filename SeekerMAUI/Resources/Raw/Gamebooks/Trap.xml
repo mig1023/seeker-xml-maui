@@ -4362,5 +4362,11 @@
 				<Option Goto="759"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="759">
+			<Text>Элис: «Прости, что пришлось это сделать. Я должна была понять, что ты за человек».\n\nВы потёрли шею руками, кажется всё в порядке: «Ну и что теперь?»</Text>
+			<Options>
+				<Option Goto="760"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
