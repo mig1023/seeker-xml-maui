@@ -4066,5 +4066,12 @@
 				<Option Goto="713" Text="использовать что-нибудь из своего вещмешка"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="713">
+			<Text>713.</Text>
+			<Options>
+				<Option Goto="714" Text="Вы можете использовать защитный эликсир"/>
+				<Option Goto="878" Text="экспериментальный эликсир из фляжки"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
