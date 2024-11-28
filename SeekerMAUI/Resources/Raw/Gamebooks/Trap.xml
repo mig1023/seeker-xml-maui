@@ -4177,5 +4177,11 @@
 				<Option Goto="840"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="730">
+			<Text>Цепочка рвётся. Звук исчез. Вы делаете несколько глубоких вдохов. Вычеркните слово «надет» и запишите фразу «сила решает».</Text>
+			<Options>
+				<Option Goto="732"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
