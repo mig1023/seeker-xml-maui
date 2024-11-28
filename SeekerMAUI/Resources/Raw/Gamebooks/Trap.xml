@@ -4528,5 +4528,11 @@
 				<Option Goto="787"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="786">
+			<Text>Челюсть у Алистера отвисла, и он несколько секунд смотрел так на вас, а затем сказал: «Продолжай...»</Text>
+			<Options>
+				<Option Goto="766"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
