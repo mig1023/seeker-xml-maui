@@ -3919,5 +3919,12 @@
 				<Option Goto="690"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="690">
+			<Text>«Вот, - Алистер протянул вам два свитка, - Это свитки быстрого перемещения. Один доставит вас на болота, а второй вернёт обратно во дворец».</Text>
+			<Options>
+				<Option Goto="691" Text="Если у вас записана фраза «материальная помощь»"/>
+				<Option Goto="692" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
