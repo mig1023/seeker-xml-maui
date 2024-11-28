@@ -3895,5 +3895,11 @@
 				<Option Goto="688"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="686">
+			<Text>Беатрикс произнесла медленно, угрожающим тоном: «Это не просьба, а приказ».</Text>
+			<Options>
+				<Option Goto="688"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
