@@ -4343,5 +4343,12 @@
 				<Option Goto="756"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="756">
+			<Text>756.</Text>
+			<Options>
+				<Option Goto="758" Text="Если ваша карма ноль или более"/>
+				<Option Goto="757" Text="Если ваша карма отрицательна"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
