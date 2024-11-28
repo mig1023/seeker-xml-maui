@@ -4467,5 +4467,12 @@
 				<Option Goto="776"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="776">
+			<Text>776.</Text>
+			<Options>
+				<Option Goto="780" Text="Если у вас записано слово «дневник»"/>
+				<Option Goto="777" Text="«артефакт»"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
