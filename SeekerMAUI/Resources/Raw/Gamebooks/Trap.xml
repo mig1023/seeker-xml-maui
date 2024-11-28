@@ -4356,5 +4356,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="758">
+			<Text>Элис посмотрела очень внимательно в ваши глаза и сказала стражу: «Отпусти его». Спираль исчезла. Страж больше не появлялся.</Text>
+			<Options>
+				<Option Goto="759"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
