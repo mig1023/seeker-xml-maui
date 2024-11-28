@@ -3883,5 +3883,11 @@
 				<Option Goto="687" Text="«Я сделаю всё, как вы просите»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="684">
+			<Text>Беатрикс повысила голос, в нём зазвучали нотки угрозы: «Не забывай, с кем разговариваешь».</Text>
+			<Options>
+				<Option Goto="688"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
