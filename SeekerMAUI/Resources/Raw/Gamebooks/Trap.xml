@@ -4240,5 +4240,12 @@
 				<Option Goto="741"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="740">
+			<Text>740.</Text>
+			<Options>
+				<Option Goto="800" Text="Вы можете сказать: «Я, наверное, отдам кольцо Эрику-некроманту. Мы с ним старые знакомые. Я разве не упоминал об этом»"/>
+				<Option Goto="746" Text="Не говорить этого"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
