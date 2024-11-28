@@ -3938,5 +3938,11 @@
 				<Option Goto="693"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="693">
+			<Text>Алистер: «Можете, есть, спать в своей комнате, выходить в город. Я выпишу вам пропуск. Советую сегодня хорошо отдохнуть».</Text>
+			<Options>
+				<Option Goto="694"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
