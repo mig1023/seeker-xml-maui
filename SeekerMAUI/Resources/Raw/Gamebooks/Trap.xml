@@ -3944,5 +3944,11 @@
 				<Option Goto="694"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="694">
+			<Text>Вы и сами ощущаете, что устали за сегодня. В вашей комнате на столе вас ждала индейка с яблоками в винном соусе. Поужинав, вы легли на кровать и отключились.</Text>
+			<Options>
+				<Option Goto="695"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
