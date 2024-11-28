@@ -4516,5 +4516,11 @@
 				<Option Goto="784"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="784">
+			<Text>Вы вошли уже в знакомый просторный зал, по периметру которого стояла стража. Подошли к трону. На нём в золотом платье и со скипетром в руках сидела Элис.</Text>
+			<Options>
+				<Option Goto="785"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
