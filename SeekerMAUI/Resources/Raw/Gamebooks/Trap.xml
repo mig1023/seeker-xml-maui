@@ -4234,5 +4234,11 @@
 				<Option Goto="735"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="739">
+			<Text>«Это вряд ли», - девушка так настойчиво на вас уставилась, что вы решили представиться</Text>
+			<Options>
+				<Option Goto="741"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
