@@ -4299,5 +4299,12 @@
 				<Option Goto="749" Text="Отказать ей"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="749">
+			<Text>Элис: «Пока ты не вернёшь мне кольцо, я не смогу доверять тебе. А тогда нам не о чем больше разговаривать».</Text>
+			<Options>
+				<Option Goto="755" Text="Отдадите кольцо"/>
+				<Option Goto="750" Text="нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
