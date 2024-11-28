@@ -3983,5 +3983,12 @@
 				<Option Goto="698"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="700">
+			<Text>700.</Text>
+			<Options>
+				<Option Goto="701" Text="Если у вас записано слово «свидетель»"/>
+				<Option Goto="702" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
