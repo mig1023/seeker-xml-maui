@@ -4319,5 +4319,11 @@
 				<Option Goto="754" Text="уйти в лес и устроиться там, на ночлег"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="752">
+			<Text>Вы устраиваетесь поудобней на диване и закрываете глаза.</Text>
+			<Options>
+				<Option Goto="753"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
