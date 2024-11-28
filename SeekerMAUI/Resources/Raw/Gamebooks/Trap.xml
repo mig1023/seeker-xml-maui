@@ -4099,5 +4099,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="718">
+			<Text>Вы подходите к существу и протыкаете его копьём. Древко копья частично обуглилось, наконечник оплавился и отвалился. Теперь копьё можно выбрасывать.</Text>
+			<Options>
+				<Option Goto="720"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
