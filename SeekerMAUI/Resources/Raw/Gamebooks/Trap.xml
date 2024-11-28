@@ -4171,5 +4171,11 @@
 				<Option Goto="731" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="729">
+			<Text>Проснувшись утром, вы решаете больше не терять время в этих болотах, а поскорее вернуться во дворец.</Text>
+			<Options>
+				<Option Goto="840"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
