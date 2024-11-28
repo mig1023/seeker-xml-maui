@@ -4105,5 +4105,11 @@
 				<Option Goto="720"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="719">
+			<Text>Вы подходите к существу и бьете его мечом. Меч оплавился. Теперь этому оружию место на помойке...</Text>
+			<Options>
+				<Option Goto="720"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
