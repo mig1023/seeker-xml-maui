@@ -4183,5 +4183,11 @@
 				<Option Goto="732"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="731">
+			<Text>В глазах темнеет. Ваше бездыханное тело падает на пол...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
