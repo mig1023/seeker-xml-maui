@@ -3990,5 +3990,11 @@
 				<Option Goto="702" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="701">
+			<Text>Коробка и браслет, скорее всего, изъяты стражниками, возможно даже уничтожены, поэтому возвращаться в гостиницу нет смысла.</Text>
+			<Options>
+				<Option Goto="703"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
