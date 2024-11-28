@@ -4158,5 +4158,11 @@
 				<Option Goto="722"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="727">
+			<Text>Вы открываете глаза. Вы отключились на час, или около того. Действие магии закончилось. Можно пройтись по дому и осмотреться.</Text>
+			<Options>
+				<Option Goto="723"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
