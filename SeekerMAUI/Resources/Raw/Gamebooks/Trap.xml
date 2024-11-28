@@ -4534,5 +4534,12 @@
 				<Option Goto="766"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="787">
+			<Text>Вы: «Что теперь будет с Биметриксом?»\n\nЭлис: «О! Думаю, его ждут незабываемые дни и ночи в моей пыточной камере».\n\nМожете сказать:</Text>
+			<Options>
+				<Option Goto="788" Text="«Это слишком жестоко для вас»"/>
+				<Option Goto="789" Text="«У меня есть ещё вопросы»"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
