@@ -3901,5 +3901,11 @@
 				<Option Goto="688"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="687">
+			<Text>Беатрикс благодушным тоном сказала: «Не прошу, а приказываю. Но я ценю твоё рвение».\n\nЗапишите фразу «материальная помощь».</Text>
+			<Options>
+				<Option Goto="688"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
