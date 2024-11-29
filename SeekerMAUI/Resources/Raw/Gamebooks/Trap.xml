@@ -4715,5 +4715,12 @@
 				<Option Goto="815"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="815">
+			<Text>815.</Text>
+			<Options>
+				<Option Goto="816" Text="Если у вас записана фраза «сила решает»"/>
+				<Option Goto="824" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
