@@ -4676,5 +4676,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="809">
+			<Text>Вы приподнялись и обернулись. На месте дома горели развалины. Смеркалось. Вы направились к лесу искать место для ночлега.</Text>
+			<Options>
+				<Option Goto="738"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
