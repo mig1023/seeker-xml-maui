@@ -4866,5 +4866,11 @@
 				<Option Goto="840" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="839">
+			<Text>Всё. Это конец...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
