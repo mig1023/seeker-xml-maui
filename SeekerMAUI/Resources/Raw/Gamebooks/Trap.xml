@@ -4734,5 +4734,11 @@
 				<Option Goto="824"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="818">
+			<Text>Лорд Эрик: «Да, но при этом весьма спорные и не дальновидные решения.</Text>
+			<Options>
+				<Option Goto="825"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
