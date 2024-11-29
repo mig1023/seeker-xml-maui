@@ -4747,5 +4747,11 @@
 				<Option Goto="823" Text="«Я слушаю, продолжай»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="820">
+			<Text>Лорд Эрик: «Ну, тогда мне остаётся лишь посвятить тебя в завершающую часть моего плана».</Text>
+			<Options>
+				<Option Goto="821"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
