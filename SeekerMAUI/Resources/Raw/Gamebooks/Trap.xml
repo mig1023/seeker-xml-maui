@@ -4651,5 +4651,11 @@
 				<Option Goto="805"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="805">
+			<Text>До вас, наконец-то, дошло. Это же заклинание ускоряющейся, расширяющейся стены огня. Единственное разумное решение в такой ситуации... Бежать!!!</Text>
+			<Options>
+				<Option Goto="806"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
