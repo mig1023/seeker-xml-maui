@@ -4778,5 +4778,11 @@
 				<Option Goto="819"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="825">
+			<Text>Лорд Эрик: «Стоит признаться, я слегка разочарован твоими действиями. Эта бывшая принцесса может доставить в будущем неприятности».</Text>
+			<Options>
+				<Option Goto="819"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
