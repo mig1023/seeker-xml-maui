@@ -4606,5 +4606,11 @@
 				<Option Goto="799"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="798">
+			<Text>Элис: «Ничего? Ну ладно. Как хочешь». Запишите слово «альтруист».</Text>
+			<Options>
+				<Option Goto="799"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
