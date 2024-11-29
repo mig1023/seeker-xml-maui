@@ -4841,5 +4841,11 @@
 				<Option Goto="832"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="835">
+			<Text>Эскобальд: «Очень жаль».</Text>
+			<Options>
+				<Option Goto="832"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
