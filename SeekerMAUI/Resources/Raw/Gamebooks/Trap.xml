@@ -4627,5 +4627,11 @@
 				<Option Goto="807" Text="просто постоите и подождёте"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="801">
+			<Text>Вы читаете заклинание со свитка, что-то щёлкает и дверь открывается.</Text>
+			<Options>
+				<Option Goto="804"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
