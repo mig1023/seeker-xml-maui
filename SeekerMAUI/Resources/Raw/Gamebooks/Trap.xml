@@ -4759,5 +4759,11 @@
 				<Option Goto="822"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="822">
+			<Text>Эрик произнёс заклинание. Вы действительно легко его запомнили. Затем тёмный лорд сказал: «Надеюсь, ты сделаешь правильный выбор».</Text>
+			<Options>
+				<Option Goto="827"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
