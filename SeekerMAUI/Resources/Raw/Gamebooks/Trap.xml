@@ -4588,5 +4588,11 @@
 				<Option Goto="793"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="795">
+			<Text>Элис покачала головой: «Прости, это не в моих силах».</Text>
+			<Options>
+				<Option Goto="793"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
