@@ -4728,5 +4728,11 @@
 				<Option Goto="812"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="817">
+			<Text>Лорд Эрик: «Да, и при этом очень мудрые и своевременные решения».</Text>
+			<Options>
+				<Option Goto="824"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
