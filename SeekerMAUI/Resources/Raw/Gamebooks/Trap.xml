@@ -4633,5 +4633,11 @@
 				<Option Goto="804"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="802">
+			<Text>Дверь слетает с петель.</Text>
+			<Options>
+				<Option Goto="804"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
