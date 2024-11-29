@@ -4582,5 +4582,11 @@
 				<Option Goto="798" Text="«Мне ничего не нужно»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="794">
+			<Text>Элис рассмеялась: «Очень хорошая шутка. Но с другими королями я повторять её не советую».</Text>
+			<Options>
+				<Option Goto="793"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
