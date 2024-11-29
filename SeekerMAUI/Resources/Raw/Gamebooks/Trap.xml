@@ -4772,5 +4772,11 @@
 				<Option Goto="826" Text="«У меня есть ещё вопросы»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="824">
+			<Text>Лорд Эрик: «Я рад, что ты сделал всё как нужно. Эта зеленокожая принцесса больше не помешает».</Text>
+			<Options>
+				<Option Goto="819"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
