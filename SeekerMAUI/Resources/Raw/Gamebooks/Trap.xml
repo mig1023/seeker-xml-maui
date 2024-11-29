@@ -4835,5 +4835,11 @@
 				<Option Goto="835" Text="«Не думаю, что я справлюсь»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="834">
+			<Text>Эскобальд: «Прекрасно!»\n\nЗапишите ключевую фразу «тёмный лорд».</Text>
+			<Options>
+				<Option Goto="832"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
