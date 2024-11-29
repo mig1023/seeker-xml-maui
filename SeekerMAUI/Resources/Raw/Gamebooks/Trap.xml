@@ -4639,5 +4639,11 @@
 				<Option Goto="804"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="803">
+			<Text>Вы говорите: «Элис, принцесса, я просто пошутил. Ты, что, повелась?»</Text>
+			<Options>
+				<Option Goto="807"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
