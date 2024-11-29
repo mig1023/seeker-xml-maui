@@ -4859,5 +4859,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="838">
+			<Text>838.</Text>
+			<Options>
+				<Option Goto="839" Text="Если у вас записано слово «таблетка»"/>
+				<Option Goto="840" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
