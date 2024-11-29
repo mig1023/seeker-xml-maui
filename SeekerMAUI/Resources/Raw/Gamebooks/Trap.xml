@@ -4722,5 +4722,11 @@
 				<Option Goto="824" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="816">
+			<Text>Вы: «Как видишь, я вполне могу самостоятельно и без твоих указаний принимать решения»</Text>
+			<Options>
+				<Option Goto="812"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
