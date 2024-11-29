@@ -4663,5 +4663,12 @@
 				<Option Goto="809"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="807">
+			<Text>Какое-то время ничего не происходит. Затем вы чувствуете запах гари.</Text>
+			<Options>
+				<Option Goto="806" Text="Может быть лучше покинуть дом"/>
+				<Option Goto="808" Text="Постоять и подождать ещё"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
