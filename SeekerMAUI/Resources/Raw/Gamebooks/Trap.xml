@@ -4853,5 +4853,11 @@
 				<Option Goto="837"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="837">
+			<Text>Если записана фраза «тёмный лорд», то (Финал 3). Если нет (Финал 4).</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
