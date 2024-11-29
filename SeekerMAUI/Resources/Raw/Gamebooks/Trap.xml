@@ -4612,5 +4612,11 @@
 				<Option Goto="799"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="799">
+			<Text>Элис: «Что ж. Тебе лучше всего сейчас вернуться в империю. О расходах не беспокойся... И... Я уверена, мы с тобой ещё увидимся» (Финал 1).</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
