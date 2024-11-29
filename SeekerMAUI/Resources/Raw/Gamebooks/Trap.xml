@@ -4702,5 +4702,12 @@
 				<Option Goto="818" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="813">
+			<Text>813.</Text>
+			<Options>
+				<Option Goto="824" Text="Если у вас записана фраза «смерть на взлёте»"/>
+				<Option Goto="825" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
