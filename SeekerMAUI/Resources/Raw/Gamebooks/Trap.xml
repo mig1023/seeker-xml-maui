@@ -4657,5 +4657,11 @@
 				<Option Goto="806"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="806">
+			<Text>Вы слетаете вниз по лестнице, ощущая спиной жар. Выбежав из дома, вы слышите взрыв, и падаете на землю.</Text>
+			<Options>
+				<Option Goto="809"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
