@@ -4688,5 +4688,12 @@
 				<Option Goto="811"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="811">
+			<Text>811.</Text>
+			<Options>
+				<Option Goto="814" Text="Если у вас записано слово «боль»"/>
+				<Option Goto="813" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
