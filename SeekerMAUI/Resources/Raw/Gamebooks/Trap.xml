@@ -5213,5 +5213,11 @@
 				<Option Goto="1010"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1009">
+			<Text>Под угрозой казни всем зеленокожим Ремовии было приказано покинуть страну в течение нескольких месяцев. Не желая испытывать судьбу, все они так и поступили.</Text>
+			<Options>
+				<Option Goto="1010"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
