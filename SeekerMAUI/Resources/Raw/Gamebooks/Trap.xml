@@ -5251,5 +5251,11 @@
 				<Option Goto="1016" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1015">
+			<Text>...И казнили.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
