@@ -5117,5 +5117,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="878">
+			<Text>Вы выпили экспериментальный эликсир из фляжки.</Text>
+			<Options>
+				<Option Goto="879" Text="Если записано слово «надет»"/>
+				<Option Goto="880" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
