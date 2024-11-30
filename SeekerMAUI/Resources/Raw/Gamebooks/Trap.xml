@@ -5257,5 +5257,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1016">
+			<Text>Вам попался очень хороший адвокат, который доказал, что нарушение приказа на нейтральной территории не может караться смертной казнью. Поэтому вас направили на рудники.</Text>
+			<Options>
+				<Option Goto="1017"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
