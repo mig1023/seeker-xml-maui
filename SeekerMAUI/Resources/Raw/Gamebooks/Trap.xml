@@ -5111,5 +5111,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="877">
+			<Text>Быстро и решительно вы покидаете королевский дворец (Финал 5).</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
