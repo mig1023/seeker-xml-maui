@@ -5232,5 +5232,11 @@
 				<Option Goto="1013" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1012">
+			<Text>...И уснули навсегда...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
