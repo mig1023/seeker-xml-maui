@@ -5225,5 +5225,12 @@
 				<Option Goto="1011"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1011">
+			<Text>1011.</Text>
+			<Options>
+				<Option Goto="1012" Text="Если ваша отрицательная карма -550 или хуже"/>
+				<Option Goto="1013" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
