@@ -5004,5 +5004,11 @@
 				<Option Goto="864" Text="Брунгильда"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="860">
+			<Text>Мимо.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
