@@ -5066,5 +5066,11 @@
 				<Option Goto="871"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="870">
+			<Text>Невероятно!!! Вам дали уйти. И даже не пришлось проливать ни чью кровь (Финал 5).</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
