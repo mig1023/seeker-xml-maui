@@ -4973,5 +4973,12 @@
 				<Option Goto="856"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="856">
+			<Text>856.</Text>
+			<Options>
+				<Option Goto="858" Text="Если у вас есть способность «просто жуть» или ваша отрицательная карма -300 и хуже"/>
+				<Option Goto="857" Text="Если же нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
