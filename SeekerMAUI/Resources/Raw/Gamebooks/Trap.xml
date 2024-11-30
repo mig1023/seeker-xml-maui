@@ -5194,5 +5194,12 @@
 				<Option Goto="1007"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1006">
+			<Text>1006.</Text>
+			<Options>
+				<Option Goto="1009" Text="Если у вас записана фраза «защитник зелёных»"/>
+				<Option Goto="1008" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
