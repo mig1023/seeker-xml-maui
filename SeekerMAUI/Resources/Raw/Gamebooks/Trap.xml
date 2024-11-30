@@ -5124,5 +5124,11 @@
 				<Option Goto="880" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="879">
+			<Text>Браслет обжег вашу кожу и слетел с руки. Надеть его больше не получиться. Вычеркните слово «надет».</Text>
+			<Options>
+				<Option Goto="880"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
