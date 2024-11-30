@@ -5022,5 +5022,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="863">
+			<Text>Нет, ...удалено цензурой..., это его троюродный брат.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
