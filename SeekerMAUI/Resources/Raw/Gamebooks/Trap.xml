@@ -4993,5 +4993,16 @@
 				<Option Goto="868" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="859">
+			<Text>Вы должны назвать настоящее имя королевы.</Text>
+			<Options>
+				<Option Goto="860" Text="Густаво"/>
+				<Option Goto="861" Text="Елизавета"/>
+				<Option Goto="862" Text="Моцарелли"/>
+				<Option Goto="865" Text="Биметрикс"/>
+				<Option Goto="863" Text="Некрос"/>
+				<Option Goto="864" Text="Брунгильда"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
