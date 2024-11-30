@@ -4897,5 +4897,11 @@
 				<Option Goto="845" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="844">
+			<Text>Беатрикс: «Ты мудро поступил, уничтожив некроманта в образе этой зеленокожей ведьмы. Я думаю, все условия нашей сделки выполнены».</Text>
+			<Options>
+				<Option Goto="846"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
