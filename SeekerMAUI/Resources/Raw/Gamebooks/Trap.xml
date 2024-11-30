@@ -5034,5 +5034,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="865">
+			<Text>865.</Text>
+			<Options>
+				<Option Goto="866" Text="Если у вас записано слово «дрожь»"/>
+				<Option Goto="869" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
