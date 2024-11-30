@@ -4980,5 +4980,11 @@
 				<Option Goto="857" Text="Если же нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="857">
+			<Text>Беатрикс закричала: «Стража, убить его, немедленно!!!» Вас одновременно атаковали 25 или 30 человек...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
