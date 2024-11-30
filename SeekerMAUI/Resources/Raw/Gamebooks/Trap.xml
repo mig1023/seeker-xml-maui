@@ -5010,5 +5010,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="861">
+			<Text>Вы, наверное, любите историю?</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
