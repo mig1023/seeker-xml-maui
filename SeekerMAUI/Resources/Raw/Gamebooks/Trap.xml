@@ -5054,5 +5054,11 @@
 				<Option Goto="870"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="868">
+			<Text>Вы: «Твои дела меня больше не интересуют. Самое разумное - разойтись мирно».\n\nБеатрикс: «Хорошо. Нам ни к чему лишнее кровопролитие».</Text>
+			<Options>
+				<Option Goto="870"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
