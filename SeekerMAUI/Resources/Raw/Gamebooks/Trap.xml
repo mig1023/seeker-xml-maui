@@ -4986,5 +4986,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="858">
+			<Text>Повисла пауза. Вы заметили, как левая рука Беатрикс стала немного подёргиваться. Запишите ключевое слово «дрожь».</Text>
+			<Options>
+				<Option Goto="859" Text="Если вы знаете, кто скрывается под личиной королевы"/>
+				<Option Goto="868" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
