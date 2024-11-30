@@ -5170,5 +5170,11 @@
 				<Option Goto="1004" Text="если «альтруизм»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1002">
+			<Text>Там вас ждал шикарный замок. Конечно, строители халтурили, и отделка была далека от завершения, но все же, вы получили, что хотели.</Text>
+			<Options>
+				<Option Goto="1005"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
