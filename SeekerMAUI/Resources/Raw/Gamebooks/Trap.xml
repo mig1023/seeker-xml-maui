@@ -4878,5 +4878,11 @@
 				<Option Goto="841"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="841">
+			<Text>Вы вернулись в свою комнату, приняли ванну, переоделись, поели.\n\nЕсли желаете выпить какие-либо напитки из своего запаса, то сейчас самое время.</Text>
+			<Options>
+				<Option Goto="842"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
