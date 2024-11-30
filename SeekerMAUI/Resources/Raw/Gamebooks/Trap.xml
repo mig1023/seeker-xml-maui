@@ -5078,5 +5078,12 @@
 				<Option Goto="872"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="872">
+			<Text>872.</Text>
+			<Options>
+				<Option Goto="874" Text="Если вы пили защитный эликсир"/>
+				<Option Goto="872" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
