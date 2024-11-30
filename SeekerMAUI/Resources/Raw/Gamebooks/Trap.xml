@@ -4915,5 +4915,11 @@
 				<Option Goto="847"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="847">
+			<Text>Беатрикс: «Надеюсь этого достаточно?»\n\nВы: «Думаю да».\n\nБеатрикс (очень тихим голосом): «Как жаль».\n\nВы: «Что простите?»</Text>
+			<Options>
+				<Option Goto="848"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
