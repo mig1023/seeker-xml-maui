@@ -5016,5 +5016,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="862">
+			<Text>Скучаете по сыру заморскому, да?</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
