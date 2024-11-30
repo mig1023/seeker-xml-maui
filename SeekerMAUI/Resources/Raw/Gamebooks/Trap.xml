@@ -5188,5 +5188,11 @@
 				<Option Goto="1005"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1005">
+			<Text>Элис никогда вас больше не навещала, и приглашений во дворец вы тоже больше не получали. Через некоторое время вас потянуло поездить по Ремовии.</Text>
+			<Options>
+				<Option Goto="1007"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
