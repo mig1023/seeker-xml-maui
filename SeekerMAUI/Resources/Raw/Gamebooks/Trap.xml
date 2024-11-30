@@ -4948,5 +4948,12 @@
 				<Option Goto="852"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="852">
+			<Text>852.</Text>
+			<Options>
+				<Option Goto="853" Text="Если у вас записано слово «недоверие»"/>
+				<Option Goto="854" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
