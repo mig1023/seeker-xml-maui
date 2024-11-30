@@ -5028,5 +5028,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="864">
+			<Text>Подобные имена сводят с ума. О Генриета, о Брунгильда. Дас ист... Впрочем, о чём это я?</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
