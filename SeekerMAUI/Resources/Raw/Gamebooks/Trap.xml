@@ -4955,5 +4955,11 @@
 				<Option Goto="854" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="853">
+			<Text>Беатрикс: «Ты говоришь разумно, но сомневаюсь, что выйдя из этого зала, ты тут же не забудешь, всё, что обещал.</Text>
+			<Options>
+				<Option Goto="871"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
