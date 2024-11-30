@@ -4929,5 +4929,12 @@
 				<Option Goto="859" Text="Может, стоит разоблачить королеву"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="849">
+			<Text>849.</Text>
+			<Options>
+				<Option Goto="851" Text="Если ваше обаяние 15 и более"/>
+				<Option Goto="850" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
