@@ -5162,5 +5162,13 @@
 				<Option Goto="1001"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1001">
+			<Text>1001.</Text>
+			<Options>
+				<Option Goto="1002" Text="Если у вас записано слово «замок»"/>
+				<Option Goto="1003" Text="если «бордель»"/>
+				<Option Goto="1004" Text="если «альтруизм»"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
