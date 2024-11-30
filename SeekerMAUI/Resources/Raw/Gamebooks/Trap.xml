@@ -4961,5 +4961,11 @@
 				<Option Goto="871"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="854">
+			<Text>Королева задумалась. Некоторое время вы молчали. Затем Беатрикс сказала: «Хорошо. Я сохраню тебе жизнь. Ты выйдешь отсюда целым и невредимым».</Text>
+			<Options>
+				<Option Goto="870"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
