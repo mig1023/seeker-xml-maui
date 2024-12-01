@@ -784,9 +784,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="119">
+			<Text>Вы убили охранника на входе в башню?</Text>
 			<Options>
-				<Option Goto="120" Text="Вы убили охранника на входе в башню"/>
-				<Option Goto="128" Text="Не убивали"/>
+				<Option Goto="120" Text="Да"/>
+				<Option Goto="128" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="120">
