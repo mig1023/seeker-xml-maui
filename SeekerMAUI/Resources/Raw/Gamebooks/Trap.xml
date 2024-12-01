@@ -4673,9 +4673,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="811">
+			<Text>У вас записано слово «боль»?</Text>
 			<Options>
-				<Option Goto="814" Text="У вас записано слово «боль»"/>
-				<Option Goto="813" Text="Не записано"/>
+				<Option Goto="814" Text="Да"/>
+				<Option Goto="813" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="812">
