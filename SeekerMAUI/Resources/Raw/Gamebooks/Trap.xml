@@ -1964,10 +1964,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="308">
-			<Text>308.</Text>
+			<Text>У вас есть кольцо для чтения мыслей, и вы хотите им воспользоваться?</Text>
 			<Options>
-				<Option Goto="309" Text="Если у вас есть кольцо для чтения мыслей, и вы хотите им воспользоваться"/>
-				<Option Goto="310" Text="Если же нет, или не хотите"/>
+				<Option Goto="309" Text="Да"/>
+				<Option Goto="310" Text="Кольца нет, или не хотите им пользоваться"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="309">
@@ -1991,8 +1991,8 @@
 		<Paragraph No="312">
 			<Text>Вы получили квест «Долг платежом опасен».</Text>
 			<Options>
-				<Option Goto="314" Text="Если намерены его выполнять"/>
-				<Option Goto="313" Text="Если нет"/>
+				<Option Goto="314" Text="Намерены его выполнять"/>
+				<Option Goto="313" Text="Не намерены"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="313">
