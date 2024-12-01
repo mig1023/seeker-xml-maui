@@ -994,8 +994,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="151">
+			<Text>Вы в парке первый раз?</Text>
 			<Options>
-				<Option Goto="152" Text="Вы в парке первый раз"/>
+				<Option Goto="152" Text="Да"/>
 				<Option Goto="204" Text="Нет"/>
 			</Options>
 		</Paragraph>
