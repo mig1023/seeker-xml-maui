@@ -89,7 +89,7 @@
 				<Option Goto="17" Text="«Что будет с деревней, если некроманта не трогать?»">
 					<Text>А если передумали сражаться...</Text>
 				</Option>
-				<Option Goto="18" Text=""/>
+				<Option Goto="18"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="10">
@@ -2562,7 +2562,7 @@
 				<Option Goto="468" Text="«Может, перед тем как меня убить хотя бы представитесь»">
 					<Text>Может быть просто, помолчать и посмотреть, что будет дальше...</Text>
 				</Option>
-				<Option Goto="467" Text=""/>
+				<Option Goto="467"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="459">
