@@ -4680,14 +4680,14 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="812">
-			<Text>У вас записано слово «смерть на взлёте»?</Text>
+			<Text>У вас записана фраза «смерть на взлёте»?</Text>
 			<Options>
 				<Option Goto="817" Text="Да"/>
 				<Option Goto="818" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="813">
-			<Text>У вас записано слово «смерть на взлёте»?</Text>
+			<Text>У вас записана фраза «смерть на взлёте»?</Text>
 			<Options>
 				<Option Goto="824" Text="Да"/>
 				<Option Goto="825" Text="Нет"/>
@@ -4700,9 +4700,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="815">
+			<Text>У вас записана фраза «смерть на взлёте»?</Text>
 			<Options>
-				<Option Goto="816" Text="У вас записана фраза «сила решает»"/>
-				<Option Goto="824" Text="Не записана"/>
+				<Option Goto="816" Text="Да"/>
+				<Option Goto="824" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="816">
