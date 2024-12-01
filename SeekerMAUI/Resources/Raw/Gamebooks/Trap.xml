@@ -5007,31 +5007,31 @@
 		<Paragraph No="860">
 			<Text>Мимо...</Text>
 			<Options>
-				<Gameover/>
+				<Option Goto="859"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="861">
 			<Text>Вы, наверное, любите историю?</Text>
 			<Options>
-				<Gameover/>
+				<Option Goto="859"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="862">
 			<Text>Скучаете по сыру заморскому, да?</Text>
 			<Options>
-				<Gameover/>
+				<Option Goto="859"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="863">
 			<Text>Нет, &lt;удалено цензурой&gt;, это его троюродный брат.</Text>
 			<Options>
-				<Gameover/>
+				<Option Goto="859"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="864">
 			<Text>Подобные имена сводят с ума. О Генриета, о Брунгильда. Дас ист... Впрочем, о чём это я?</Text>
 			<Options>
-				<Gameover/>
+				<Option Goto="859"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="865">
