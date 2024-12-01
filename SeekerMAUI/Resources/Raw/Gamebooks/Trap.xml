@@ -2394,9 +2394,9 @@
 		<Paragraph No="428">
 			<Text>Вскоре вы оказываетесь на развилке. Можете пойти:</Text>
 			<Options>
-				<Option Goto="431" Text="налево"/>
-				<Option Goto="432" Text="прямо"/>
-				<Option Goto="433" Text="направо"/>
+				<Option Goto="431" Text="Налево"/>
+				<Option Goto="432" Text="Прямо"/>
+				<Option Goto="433" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="429">
@@ -2409,18 +2409,18 @@
 		<Paragraph No="430">
 			<Text>Опять развилка. Пойдете:</Text>
 			<Options>
-				<Option Goto="434" Text="налево"/>
-				<Option Goto="435" Text="прямо"/>
-				<Option Goto="436" Text="направо"/>
+				<Option Goto="434" Text="Налево"/>
+				<Option Goto="435" Text="Прямо"/>
+				<Option Goto="436" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="431">
 			<Text>Снова развилка. Перед вами входы в четыре туннеля. С лева на право:</Text>
 			<Options>
 				<Option Goto="436" Text="Первый"/>
-				<Option Goto="431" Text="второй"/>
-				<Option Goto="438" Text="третий"/>
-				<Option Goto="439" Text="четвертый"/>
+				<Option Goto="431" Text="Второй"/>
+				<Option Goto="438" Text="Третий"/>
+				<Option Goto="439" Text="Четвертый"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="432">
