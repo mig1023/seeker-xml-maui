@@ -1801,9 +1801,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="278">
+			<Text>Ваша ловкость 10 или больше?</Text>
 			<Options>
-				<Option Goto="279" Text="Ваша ловкость 10 или больше"/>
-				<Option Goto="281" Text="Меньше"/>
+				<Option Goto="279" Text="Да"/>
+				<Option Goto="281" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="279">
