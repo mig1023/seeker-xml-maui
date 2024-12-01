@@ -4359,9 +4359,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="761">
+			<Text>У вас есть с собой дневник некроманта?</Text>
 			<Options>
-				<Option Goto="762" Text="У вас есть с собой дневник некроманта"/>
-				<Option Goto="764" Text="Дневника нет"/>
+				<Option Goto="762" Text="Да"/>
+				<Option Goto="764" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="762">
