@@ -4933,9 +4933,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="852">
+			<Text>У вас записано слово «недоверие»?</Text>
 			<Options>
-				<Option Goto="853" Text="У вас записано слово «недоверие»"/>
-				<Option Goto="854" Text="Не записано"/>
+				<Option Goto="853" Text="Да"/>
+				<Option Goto="854" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="853">
