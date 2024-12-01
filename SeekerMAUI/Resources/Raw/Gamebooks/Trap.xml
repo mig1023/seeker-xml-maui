@@ -5019,9 +5019,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="865">
+			<Text>У вас записано слово «дрожь»?</Text>
 			<Options>
-				<Option Goto="866" Text="У вас записано слово «дрожь»"/>
-				<Option Goto="869" Text="Не записано"/>
+				<Option Goto="866" Text="Да"/>
+				<Option Goto="869" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="866">
