@@ -1888,9 +1888,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="294">
+			<Text>Вы здесь первый раз?</Text>
 			<Options>
-				<Option Goto="296" Text="Вы здесь первый раз"/>
-				<Option Goto="295" Text="Уже бывали тут"/>
+				<Option Goto="296" Text="Да"/>
+				<Option Goto="295" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="295">
