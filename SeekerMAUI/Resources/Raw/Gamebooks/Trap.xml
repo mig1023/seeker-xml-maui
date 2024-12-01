@@ -1464,9 +1464,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="227">
+			<Text>Ваша карма равна нулю или отрицательна?</Text>
 			<Options>
-				<Option Goto="229" Text="Ваша карма равна нулю или отрицательна"/>
-				<Option Goto="228" Text="Положительна"/>
+				<Option Goto="229" Text="Да"/>
+				<Option Goto="228" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="228">
@@ -4317,9 +4318,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="756">
+			<Text>Ваша карма равна нулю или выше?</Text>
 			<Options>
-				<Option Goto="758" Text="Карма ноль или более"/>
-				<Option Goto="757" Text="Карма отрицательна"/>
+				<Option Goto="758" Text="Да"/>
+				<Option Goto="757" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="757">
@@ -4781,9 +4783,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="831">
+			<Text>Ваша карма -500 или хуже?</Text>
 			<Options>
-				<Option Goto="833" Text="Ваша карма отрицательная -500 или хуже"/>
-				<Option Goto="832" Text="Карма лучше -500"/>
+				<Option Goto="833" Text="Да"/>
+				<Option Goto="832" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="832">
@@ -5183,10 +5186,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="1011">
-			<Text>1011.</Text>
+			<Text>Ваша карма -550 или хуже?</Text>
 			<Options>
-				<Option Goto="1012" Text="Если ваша отрицательная карма -550 или хуже"/>
-				<Option Goto="1013" Text="если нет"/>
+				<Option Goto="1012" Text="Да"/>
+				<Option Goto="1013" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1012">
@@ -5202,10 +5205,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="1014">
-			<Text>1014.</Text>
+			<Text>Ваша карма -550 или хуже</Text>
 			<Options>
-				<Option Goto="1015" Text="Если ваша отрицательная карма -550 или хуже"/>
-				<Option Goto="1016" Text="если нет"/>
+				<Option Goto="1015" Text="Да"/>
+				<Option Goto="1016" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1015">
