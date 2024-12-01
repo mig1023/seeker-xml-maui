@@ -4384,9 +4384,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="765">
+			<Text>У вас записано слово:</Text>
 			<Options>
-				<Option Goto="772" Text="У вас записано слово «дневник»"/>
-				<Option Goto="767" Text="Записано слово «артефакт»"/>
+				<Option Goto="772" Text="«Дневник»"/>
+				<Option Goto="767" Text="«Артефакт»"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="766">
