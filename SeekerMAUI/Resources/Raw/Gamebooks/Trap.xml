@@ -193,9 +193,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="25">
+			<Text>Ваше обаяние 11 и выше?</Text>
 			<Options>
-				<Option Goto="26" Text="Ваше обаяние 11 и выше"/>
-				<Option Goto="27" Text="Меньше"/>
+				<Option Goto="26" Text="Да"/>
+				<Option Goto="27" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="26">
