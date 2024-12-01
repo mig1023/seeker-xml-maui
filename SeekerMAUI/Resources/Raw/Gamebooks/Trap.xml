@@ -1332,9 +1332,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="205">
+			<Text>Вы на кладбище первый раз?</Text>
 			<Options>
-				<Option Goto="145" Text="Вы на кладбище первый раз"/>
-				<Option Goto="206" Text="Уже бывали"/>
+				<Option Goto="145" Text="Да"/>
+				<Option Goto="206" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="206">
