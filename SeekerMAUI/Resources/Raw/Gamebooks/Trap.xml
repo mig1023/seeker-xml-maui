@@ -703,9 +703,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="106">
+			<Text>Вы убили Некроса?</Text>
 			<Options>
-				<Option Goto="116" Text="Вы убили Некроса"/>
-				<Option Goto="107" Text="Не убивали"/>
+				<Option Goto="116" Text="Да"/>
+				<Option Goto="107" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="107">
