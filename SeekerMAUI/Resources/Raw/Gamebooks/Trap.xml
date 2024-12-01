@@ -4687,9 +4687,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="813">
+			<Text>У вас записано слово «смерть на взлёте»?</Text>
 			<Options>
-				<Option Goto="824" Text="У вас записана фраза «смерть на взлёте»"/>
-				<Option Goto="825" Text="Не записана"/>
+				<Option Goto="824" Text="Да"/>
+				<Option Goto="825" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="814">
