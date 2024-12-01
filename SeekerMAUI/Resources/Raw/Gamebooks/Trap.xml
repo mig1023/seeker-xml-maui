@@ -1874,10 +1874,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="294">
-			<Text>294.</Text>
 			<Options>
-				<Option Goto="296" Text="Если вы здесь первый раз"/>
-				<Option Goto="295" Text="если нет"/>
+				<Option Goto="296" Text="Вы здесь первый раз"/>
+				<Option Goto="295" Text="Уже бывали тут"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="295">
@@ -1895,9 +1894,9 @@
 		<Paragraph No="297">
 			<Text>За дверью оказывается небольшая комната. Вдоль противоположной от входа стены стоит стол, за ним сидит зеленокожий. Он приветствует вас и приглашает сесть на стул рядом со столом: «Добрый день. Желаете оформить ссуду. Наша процентная ставка недавно была снижена до 1% по годовому кредиту &lt;пауза&gt;, в день».</Text>
 			<Options>
-				<Option Goto="298" Text="Хотите сказать что-нибудь умное"/>
-				<Option Goto="301" Text="спросите насчет работы"/>
-				<Option Goto="313" Text="попрощаетесь и уйдете"/>
+				<Option Goto="298" Text="Сказать что-нибудь умное"/>
+				<Option Goto="301" Text="Спросить насчет работы"/>
+				<Option Goto="313" Text="Попрощаться и уйти"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="298">
@@ -1909,9 +1908,9 @@
 		<Paragraph No="299">
 			<Text>Ростовщик: «Если вы такой умный, почему вы так плохо одеваетесь?»</Text>
 			<Options>
-				<Option Goto="300" Text="Хотите дать ему в морду"/>
-				<Option Goto="301" Text="спросите насчет работы"/>
-				<Option Goto="313" Text="уйдете"/>
+				<Option Goto="300" Text="Дать ему в морду"/>
+				<Option Goto="301" Text="Спросить насчет работы"/>
+				<Option Goto="313" Text="Уйти"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="300">
@@ -1933,17 +1932,17 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="303">
-			<Text>303.</Text>
+			<Text>Есть ли у вас кольцо, для чтения мыслей?</Text>
 			<Options>
-				<Option Goto="304" Text="Если у вас есть кольцо, для чтения мыслей"/>
-				<Option Goto="306" Text="Если нет"/>
+				<Option Goto="304" Text="Да"/>
+				<Option Goto="306" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="304">
 			<Text>Кольцо светиться.</Text>
 			<Options>
-				<Option Goto="305" Text="Вы можете им воспользоваться"/>
-				<Option Goto="307" Text="Нет"/>
+				<Option Goto="305" Text="Воспользоваться им"/>
+				<Option Goto="307" Text="Не делать этого"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="305">
