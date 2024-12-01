@@ -305,9 +305,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="42">
+			<Text>Вы убили привратника внизу?</Text>
 			<Options>
-				<Option Goto="43" Text="Вы убили привратника внизу"/>
-				<Option Goto="44" Text="Не убивали"/>
+				<Option Goto="43" Text="Да"/>
+				<Option Goto="44" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="43">
