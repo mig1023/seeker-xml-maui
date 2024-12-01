@@ -3536,9 +3536,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="631">
+			<Text>У вас записано слово «свидетель»?</Text>
 			<Options>
-				<Option Goto="710" Text="У вас записано слово «свидетель»"/>
-				<Option Goto="707" Text="Не записано"/>
+				<Option Goto="710" Text="Да"/>
+				<Option Goto="707" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="632">
