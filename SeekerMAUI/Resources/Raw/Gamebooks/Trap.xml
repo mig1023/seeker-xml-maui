@@ -2426,43 +2426,43 @@
 		<Paragraph No="432">
 			<Text>Не может быть — опять развилка. Куда пойдете:</Text>
 			<Options>
-				<Option Goto="439" Text="налево"/>
-				<Option Goto="433" Text="направо"/>
+				<Option Goto="439" Text="Налево"/>
+				<Option Goto="433" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="433">
 			<Text>Вскоре вас поджидает новая развилка. Пойдете:</Text>
 			<Options>
-				<Option Goto="439" Text="налево"/>
-				<Option Goto="443" Text="направо"/>
+				<Option Goto="439" Text="Налево"/>
+				<Option Goto="443" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="434">
 			<Text>Очередная развилка.</Text>
 			<Options>
 				<Option Goto="440" Text="Налево"/>
-				<Option Goto="435" Text="направо"/>
+				<Option Goto="435" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="435">
 			<Text>Опять развилка.</Text>
 			<Options>
 				<Option Goto="440" Text="Налево"/>
-				<Option Goto="441" Text="направо"/>
+				<Option Goto="441" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="436">
 			<Text>Новая развилка.</Text>
 			<Options>
 				<Option Goto="441" Text="Налево"/>
-				<Option Goto="437" Text="направо"/>
+				<Option Goto="437" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="437">
 			<Text>Снова развилка.</Text>
 			<Options>
 				<Option Goto="441" Text="Налево"/>
-				<Option Goto="443" Text="направо"/>
+				<Option Goto="443" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="438">
@@ -2499,8 +2499,8 @@
 		<Paragraph No="443">
 			<Text>Не может быть. Это же... очередная развилка. Куда пойдете:</Text>
 			<Options>
-				<Option Goto="441" Text="налево"/>
-				<Option Goto="444" Text="направо"/>
+				<Option Goto="441" Text="Налево"/>
+				<Option Goto="444" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="444">
