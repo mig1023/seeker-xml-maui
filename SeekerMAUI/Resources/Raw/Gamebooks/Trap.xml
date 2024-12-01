@@ -1382,7 +1382,7 @@
 		<Paragraph No="212">
 			<Text>Я не буду это комментировать...</Text>
 			<Options>
-				<Gameover/>
+				<Option Goto="208"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="213">
@@ -5245,7 +5245,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="1014">
-			<Text>Ваша карма -550 или хуже</Text>
+			<Text>Ваша карма -550 или хуже?</Text>
 			<Options>
 				<Option Goto="1015" Text="Да"/>
 				<Option Goto="1016" Text="Нет"/>
