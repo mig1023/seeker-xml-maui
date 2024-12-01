@@ -2634,9 +2634,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="475">
+			<Text>Ваша ловкость равна 10 или больше?</Text>
 			<Options>
-				<Option Goto="476" Text="Ваша ловкость 10 и больше"/>
-				<Option Goto="478" Text="Меньше"/>
+				<Option Goto="476" Text="Да"/>
+				<Option Goto="478" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="476">
@@ -2784,9 +2785,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="499">
+			<Text>У вас записано слово «варвар»?</Text>
 			<Options>
-				<Option Goto="500" Text="У вас записано слово «варвар»"/>
-				<Option Goto="501" Text="Не записано"/>
+				<Option Goto="500" Text="Да"/>
+				<Option Goto="501" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="500">
@@ -3632,9 +3634,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="648">
+			<Text>Ваше обаяние больше или равно 9?</Text>
 			<Options>
-				<Option Goto="649" Text="Ваше обаяние больше или равно 9"/>
-				<Option Goto="652" Text="Ниже"/>
+				<Option Goto="649" Text="Да"/>
+				<Option Goto="652" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="649">
@@ -4895,9 +4898,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="849">
+			<Text>Ваше обаяние 15 и более?</Text>
 			<Options>
-				<Option Goto="851" Text="Ваше обаяние 15 и более"/>
-				<Option Goto="850" Text="Ниже"/>
+				<Option Goto="851" Text="Да"/>
+				<Option Goto="850" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="850">
