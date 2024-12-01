@@ -1429,9 +1429,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="220">
+			<Text>Вы в гильдии темных магов первый раз?</Text>
 			<Options>
-				<Option Goto="224" Text="Вы в гильдии темных магов первый раз"/>
-				<Option Goto="189" Text="Уже были тут"/>
+				<Option Goto="224" Text="Да"/>
+				<Option Goto="189" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="221">
@@ -1590,9 +1591,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="245">
+			<Text>У вас есть письмо от Некроса с рекомендациями?</Text>
 			<Options>
-				<Option Goto="246" Text="У вас есть письмо от Некроса с рекомендациями"/>
-				<Option Goto="231" Text="Письма нет"/>
+				<Option Goto="246" Text="Да"/>
+				<Option Goto="231" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="246">
