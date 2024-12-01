@@ -2725,9 +2725,9 @@
 		<Paragraph No="489">
 			<Text>Вы сглотнули слюну. Мисарг говорит, что ему наскучило слоняться одному и он с радостью присоединиться к вам. По его мнению, вы отличный компаньон и хороший собеседник. При этих словах варвар демонстрирует вам свою улыбку из ослепительно желтых и кривых зубов.</Text>
 			<Options>
-				<Option Goto="490" Text="Можете вежливо ему отказать"/>
-				<Option Goto="491" Text="отказать в грубой форме"/>
-				<Option Goto="492" Text="взять его с собой"/>
+				<Option Goto="490" Text="Вежливо ему отказать"/>
+				<Option Goto="491" Text="Отказать в грубой форме"/>
+				<Option Goto="492" Text="Взять его с собой"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="490">
@@ -2761,9 +2761,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="495">
-			<Text>Айрин: «Ты ничтожество. Сейчас ты умрешь»\n\nАйрин. Атака 10.\n\nЕсли вы победили</Text>
+			<Text>Айрин: «Ты ничтожество. Сейчас ты умрешь»\n\nАйрин. Атака 10.</Text>
 			<Options>
-				<Option Goto="509"/>
+				<Option Goto="509" Text="Вы победили"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="496">
@@ -2785,10 +2785,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="499">
-			<Text>499.</Text>
 			<Options>
-				<Option Goto="500" Text="Если у вас записано слово «варвар»"/>
-				<Option Goto="501" Text="Если нет"/>
+				<Option Goto="500" Text="У вас записано слово «варвар»"/>
+				<Option Goto="501" Text="Не записано"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="500">
@@ -2818,8 +2817,8 @@
 		<Paragraph No="504">
 			<Text>Девушка: «Меня зовут Айрин, мне срочно нужна ваша помощь, — её глаза блеснули красноватым оттенком, — Моя сестренка попала в беду в этой пещере. Её завалило камнями, если срочно не помочь она погибнет».</Text>
 			<Options>
-				<Option Goto="505" Text="Если у вас записано слово «варвар»"/>
-				<Option Goto="514" Text="если нет"/>
+				<Option Goto="505" Text="У вас записано слово «варвар»"/>
+				<Option Goto="514" Text="Не записано"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="505">
@@ -2829,10 +2828,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="506">
-			<Text>506.</Text>
 			<Options>
-				<Option Goto="507" Text="Хотите попросить варвара уйти"/>
-				<Option Goto="509" Text="забудете об этом"/>
+				<Option Goto="507" Text="Попросить варвара уйти"/>
+				<Option Goto="509" Text="Забудете об этом"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="507">
