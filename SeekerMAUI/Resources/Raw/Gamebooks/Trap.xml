@@ -2802,7 +2802,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="495">
-			<Text>Айрин: «Ты ничтожество. Сейчас ты умрешь»\n\nАйрин. Атака 10.</Text>
+			<Text>Айрин: «Ты ничтожество. Сейчас ты умрешь».</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Айрин" Attack="10"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="509" Text="Вы победили"/>
 			</Options>
