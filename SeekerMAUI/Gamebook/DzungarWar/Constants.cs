@@ -5,5 +5,7 @@ namespace SeekerMAUI.Gamebook.DzungarWar
     class Constants : Prototypes.Constants, Abstract.IConstants
     {
         public static Dictionary<string, string> StatNames { get; set; }
+
+        public static Dictionary<string, string> Availabilities { get; set; }
     }
 }
