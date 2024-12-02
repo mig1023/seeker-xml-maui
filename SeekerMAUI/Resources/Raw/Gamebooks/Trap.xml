@@ -4744,6 +4744,7 @@
 		</Paragraph>
 		<Paragraph No="798">
 			<Text>Элис: «Ничего? Ну ладно. Как хочешь». Запишите слово «альтруист».</Text>
+			<Triggers>альтруист</Triggers>
 			<Options>
 				<Option Goto="799"/>
 			</Options>
@@ -5308,7 +5309,7 @@
 			<Options>
 				<Option Goto="1002" Text="«Замок»" Availability="замок"/>
 				<Option Goto="1003" Text="«Бордель»" Availability="бордель"/>
-				<Option Goto="1004" Text="«Альтруизм»"/>
+				<Option Goto="1004" Text="«Альтруизм»" Availability="альтруист"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1002">
