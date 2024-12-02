@@ -11,6 +11,12 @@
 			<Option Value="696969"/>
 			<System Value="f9f9f9"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="КАРМА" Value="Karma"/>
+				<Item Name="ОБАЯНИЕ" Value="Danger"/>
+			</Availabilities>
+		</Dictionaries>
 		<Buttons>
 			<Fight>Сражаться</Fight>
 		</Buttons>
