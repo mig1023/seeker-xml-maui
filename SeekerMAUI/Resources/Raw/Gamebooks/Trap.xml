@@ -4330,8 +4330,8 @@
 		<Paragraph No="735">
 			<Text>У вас записано слово «свидетель»?</Text>
 			<Options>
-				<Option Goto="729" Text="Да"/>
-				<Option Goto="810" Text="Нет"/>
+				<Option Goto="729" Text="Да" Availability="свидетель"/>
+				<Option Goto="810" Text="Нет" Availability="!свидетель"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="736">
