@@ -2126,7 +2126,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="328">
-			<Text>Двое громил. Общая атака 16.</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Двое громил" Attack="16"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="330" Text="Вы победили"/>
 			</Options>
