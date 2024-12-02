@@ -2737,6 +2737,7 @@
 		</Paragraph>
 		<Paragraph No="477">
 			<Text>Запишите слово «выстрел».</Text>
+			<Triggers>выстрел</Triggers>
 			<Options>
 				<Option Goto="480"/>
 			</Options>
