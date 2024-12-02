@@ -11,6 +11,9 @@
 			<Option Value="696969"/>
 			<System Value="f9f9f9"/>
 		</Styles>
+		<Buttons>
+			<Fight>Сражаться</Fight>
+		</Buttons>
 	</Introduction>
 	<Paragraphs>
 		<Paragraph No="0">
@@ -236,7 +239,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="32">
-			<Text>Привратник. Атака 10.</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Привратник" Attack="10"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="33" Text="После окончания боя"/>
 			</Options>
