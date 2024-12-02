@@ -3076,6 +3076,9 @@
 		</Paragraph>
 		<Paragraph No="528">
 			<Text>Вы сворачиваете птице голову и выбрасываете труп (-50 кармы)...</Text>
+			<Modifications>
+				<Karma Value="-50"/>
+			</Modifications>
 			<Options>
 				<Option Goto="533"/>
 			</Options>
