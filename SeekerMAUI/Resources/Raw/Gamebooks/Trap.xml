@@ -4599,7 +4599,7 @@
 			<Text>У вас записано слово:</Text>
 			<Options>
 				<Option Goto="780" Text="«Дневник»" Availability="дневник"/>
-				<Option Goto="777" Text="«Артефакт»"/>
+				<Option Goto="777" Text="«Артефакт»" Availability="артефакт"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="777">
