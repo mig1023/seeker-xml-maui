@@ -5305,7 +5305,7 @@
 		<Paragraph No="1001">
 			<Text>У вас записано слово:</Text>
 			<Options>
-				<Option Goto="1002" Text="«Замок»"/>
+				<Option Goto="1002" Text="«Замок»" Availability="замок"/>
 				<Option Goto="1003" Text="«Бордель»"/>
 				<Option Goto="1004" Text="«Альтруизм»"/>
 			</Options>
