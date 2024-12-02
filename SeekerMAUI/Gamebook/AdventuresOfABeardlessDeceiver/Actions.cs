@@ -158,23 +158,12 @@ namespace SeekerMAUI.Gamebook.AdventuresOfABeardlessDeceiver
             {
                 foreach (string oneOption in option.Split(','))
                 {
-                    if (oneOption.Contains(">") || oneOption.Contains("<"))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(oneOption);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("ТАНЬГА >=") && (level > Character.Protagonist.Tanga))
-                            return false;
-
-                        else if (oneOption.Contains("СЛАВА_АКЫНА >=") && (level > Character.Protagonist.AkynGlory))
-                            return false;
-
-                        else if (oneOption.Contains("ПОПУЛЯРНОСТЬ >") && (level >= Character.Protagonist.Popularity))
-                            return false;
-
-                        else if (oneOption.Contains("ЕДИНИЦЫ_ВРЕМЕНИ >") && (level >= Character.Protagonist.UnitOfTime))
-                            return false;
-
-                        else if (oneOption.Contains("ЕДИНИЦЫ_ВРЕМЕНИ <=") && (level < Character.Protagonist.UnitOfTime))
+                        if (fail)
                             return false;
                     }
                     else if (oneOption.Contains("!"))
