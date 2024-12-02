@@ -48,29 +48,17 @@ namespace SeekerMAUI.Gamebook.Ants
             {
                 foreach (string oneOption in option.Split(','))
                 {
-                    if (oneOption.Contains(">") || oneOption.Contains("<") || oneOption.Contains("="))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
                         int level = Game.Services.LevelParse(oneOption);
 
                         if (oneOption.Contains("ДАЙС =") && !Character.Protagonist.Dice[level])
                             return false;
 
-                        if (oneOption.Contains("КОЛИЧЕСТВО >=") && (level > Character.Protagonist.Quantity))
-                            return false;
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("КОЛИЧЕСТВО <") && (level <= Character.Protagonist.Quantity))
-                            return false;
-
-                        if (oneOption.Contains("ВРАГ >=") && (level > Character.Protagonist.EnemyHitpoints))
-                            return false;
-
-                        if (oneOption.Contains("ВРАГ <") && (level <= Character.Protagonist.EnemyHitpoints))
-                            return false;
-
-                        if (oneOption.Contains("ЗАЩИТА >=") && (level > Character.Protagonist.Defence))
-                            return false;
-
-                        if (oneOption.Contains("СТАРТ =") && (Character.Protagonist.Start != level))
+                        if (fail)
                             return false;
                     }
                     else if (oneOption.Contains("!"))

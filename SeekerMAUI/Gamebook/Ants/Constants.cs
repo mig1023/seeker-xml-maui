@@ -8,6 +8,8 @@ namespace SeekerMAUI.Gamebook.Ants
 
         public static Dictionary<string, string> Government { get; set; }
 
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         public static List<string> EndingOne { get; set; }
 
         public static List<string> EndingTwo { get; set; }
