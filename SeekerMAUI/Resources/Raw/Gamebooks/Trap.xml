@@ -3097,6 +3097,9 @@
 		</Paragraph>
 		<Paragraph No="531">
 			<Text>Это чудовище поблагодарило вас за обед (-80 кармы).</Text>
+			<Modifications>
+				<Karma Value="-80"/>
+			</Modifications>
 			<Options>
 				<Option Goto="533"/>
 			</Options>
