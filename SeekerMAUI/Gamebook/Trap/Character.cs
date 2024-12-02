@@ -2,5 +2,73 @@
 
 namespace SeekerMAUI.Gamebook.Trap
 {
-    class Character : Prototypes.Character, Abstract.ICharacter { }
+    class Character : Prototypes.Character, Abstract.ICharacter
+    {
+        public static Character Protagonist { get; set; }
+        public override void Set(object character) =>
+            Protagonist = (Character)character;
+
+        private int _strength;
+        public int Strength
+        {
+            get => _strength;
+            set => _strength = Game.Param.Setter(value, _strength, this);
+        }
+
+        private int _skill;
+        public int Skill
+        {
+            get => _skill;
+            set => _skill = Game.Param.Setter(value, _skill, this);
+        }
+
+        private int _charm;
+        public int Charm
+        {
+            get => _charm;
+            set => _charm = Game.Param.Setter(value, _charm, this);
+        }
+
+        private int _hitpoints;
+        public int Hitpoints
+        {
+            get => _hitpoints;
+            set => _hitpoints = Game.Param.Setter(value, _hitpoints, this);
+        }
+
+        public override void Init()
+        {
+            base.Init();
+
+            Strength = 8;
+            Skill = 8;
+            Charm = 8;
+            Hitpoints = 100;
+        }
+
+        public Character Clone() => new Character()
+        {
+            IsProtagonist = this.IsProtagonist,
+            Name = this.Name,
+            Strength = this.Strength,
+            Skill = this.Skill,
+            Charm = this.Charm,
+            Hitpoints = this.Hitpoints,
+        };
+
+        public override string Save() => String.Join("|",
+            Strength, Skill, Charm, Hitpoints);
+
+        public override void Load(string saveLine)
+        {
+            string[] save = saveLine.Split('|');
+
+            Strength = int.Parse(save[0]);
+            Skill = int.Parse(save[1]);
+            Charm = int.Parse(save[2]);
+            Hitpoints = int.Parse(save[3]);
+
+            IsProtagonist = true;
+        }
+    }
 }
