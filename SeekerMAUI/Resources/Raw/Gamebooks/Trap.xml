@@ -1825,7 +1825,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="280">
-			<Text>Стражник. Атака 15.</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Стражник" Attack="15"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="285" Text="Вы победили"/>
 			</Options>
