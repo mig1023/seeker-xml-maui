@@ -2321,6 +2321,9 @@
 		</Paragraph>
 		<Paragraph No="351">
 			<Text>Положив голову в мешок (-50 кармы) вы покидаете помещение, ковыляя и пытаясь прикрыть кровоточащие раны.</Text>
+			<Modifications>
+				<Karma Value="-50"/>
+			</Modifications>
 			<Options>
 				<Option Goto="336"/>
 			</Options>
