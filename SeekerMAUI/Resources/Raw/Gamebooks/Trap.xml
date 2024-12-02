@@ -3331,8 +3331,8 @@
 		<Paragraph No="580">
 			<Text>Наконец вы уткнулись в огромную (метра три высотой и шириной) металлическую дверь. Дверь заперта.</Text>
 			<Options>
-				<Option Goto="581" Text="У вас записано слово «варвар»"/>
-				<Option Goto="586" Text="Не записано"/>
+				<Option Goto="581" Text="У вас записано слово «варвар»" Availability="варвар"/>
+				<Option Goto="586" Text="Не записано" Availability="!варвар"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="581">
