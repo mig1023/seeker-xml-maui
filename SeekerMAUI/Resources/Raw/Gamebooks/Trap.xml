@@ -3181,6 +3181,9 @@
 		</Paragraph>
 		<Paragraph No="543">
 			<Text>Девушка даже не пыталась сопротивляться. Один удар и все кончено (-50 кармы).</Text>
+			<Modifications>
+				<Karma Value="-50"/>
+			</Modifications>
 			<Options>
 				<Option Goto="533"/>
 			</Options>
