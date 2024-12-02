@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Microsoft.Maui.Controls.Shapes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text.RegularExpressions;
 
 namespace SeekerMAUI.Game
@@ -77,6 +79,40 @@ namespace SeekerMAUI.Game
 
             else
                 return true;
+        }
+
+        public static bool AvailabilityByСomparison(string option) =>
+            option.Contains(">") || option.Contains("<") || option.Contains("=");
+
+        public static bool AvailabilityByProperty(object protagonist, string option,
+            Dictionary<string, string> properties, bool onlyFailTrueReturn = false)
+        {
+            foreach (var property in properties)
+            {
+                if (!option.Contains(property.Key))
+                    continue;
+
+                var value = (int)protagonist
+                    .GetType()
+                    .GetProperty(property.Value)
+                    .GetValue(protagonist, null);
+
+                var level = LevelParse(option);
+
+                var result = LevelAvailability(property.Key, option, value, level);
+
+                if (onlyFailTrueReturn)
+                {
+                    if (!result)
+                        return true;
+                }
+                else
+                {
+                    return result;
+                }
+            }
+
+            return !onlyFailTrueReturn;
         }
 
         public static bool DoNothing() =>
