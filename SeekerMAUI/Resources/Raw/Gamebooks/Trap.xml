@@ -2821,6 +2821,9 @@
 		</Paragraph>
 		<Paragraph No="494">
 			<Text>Вы обыскиваете тела напавших на вас бандитов. Пара обычных мечей (+2 к атаке, цена 200 каждый), деньги (+250 золотых). А вот мешок...</Text>
+			<Modifications>
+				<Equipment Value="пару мечей,2,400"/>
+			</Modifications>
 			<Options>
 				<Option Goto="496"/>
 			</Options>
