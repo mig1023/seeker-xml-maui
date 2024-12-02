@@ -28,6 +28,11 @@
 				<Item Name="Oratory" Value="красноречия"/>
 				<Item Name="Danger" Value="опасности"/>
 			</StatNames>
+			<Availabilities>
+				<Item Name="ТАНЬГА" Value="Tanga"/>
+				<Item Name="ОПАСНОСТЬ" Value="Danger"/>
+				<Item Name="БЛАГОСКЛОННОСТЬ" Value="Favour"/>
+			</Availabilities>
 		</Dictionaries>
 		<Buttons>
 			<Test>Проверить</Test>
