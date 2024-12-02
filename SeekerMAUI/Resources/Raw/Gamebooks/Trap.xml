@@ -4452,8 +4452,8 @@
 		<Paragraph No="756">
 			<Text>Ваша карма равна нулю или выше?</Text>
 			<Options>
-				<Option Goto="758" Text="Да"/>
-				<Option Goto="757" Text="Нет"/>
+				<Option Goto="758" Text="Да" Availability="КАРМА > -1"/>
+				<Option Goto="757" Text="Нет" Availability="КАРМА &lt; 0"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="757">
