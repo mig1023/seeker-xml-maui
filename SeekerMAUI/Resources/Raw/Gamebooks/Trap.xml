@@ -4296,6 +4296,7 @@
 		</Paragraph>
 		<Paragraph No="730">
 			<Text>Цепочка рвётся. Звук исчез. Вы делаете несколько глубоких вдохов. Вычеркните слово «надет» и запишите фразу «сила решает».</Text>
+			<Untriggers>надет</Untriggers>
 			<Options>
 				<Option Goto="732"/>
 			</Options>
