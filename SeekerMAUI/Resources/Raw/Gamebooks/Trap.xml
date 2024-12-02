@@ -2147,6 +2147,9 @@
 		</Paragraph>
 		<Paragraph No="326">
 			<Text>Одного удара мечем достаточно, чтобы тело Миранды обмякло. Вы опускаете её на землю. (-50 кармы) Женский визг раздается со всех сторон.</Text>
+			<Modifications>
+				<Karma Value="-50"/>
+			</Modifications>
 			<Options>
 				<Option Goto="327"/>
 			</Options>
