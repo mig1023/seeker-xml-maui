@@ -4984,8 +4984,8 @@
 		<Paragraph No="838">
 			<Text>У вас записано слово «таблетка»?</Text>
 			<Options>
-				<Option Goto="839" Text="Да"/>
-				<Option Goto="840" Text="Нет"/>
+				<Option Goto="839" Text="Да" Availability="таблетка"/>
+				<Option Goto="840" Text="Нет" Availability="!таблетка"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="839">
