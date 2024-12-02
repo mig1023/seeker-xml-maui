@@ -4511,7 +4511,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="778">
-			<Text>У вас нет выбора, вы должны защитить Элис.\n\nАлистер Дид	Атака 25</Text>
+			<Text>У вас нет выбора, вы должны защитить Элис.</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Алистер Дид" Attack="25"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="779" Text="Вы победили"/>
 			</Options>
