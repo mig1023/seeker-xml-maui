@@ -4695,6 +4695,7 @@
 		</Paragraph>
 		<Paragraph No="791">
 			<Text>Элис задумалась: «В принципе, неплохая идея. Я обдумаю её».\n\nЗапишите фразу «защитник зелёных».</Text>
+			<Triggers>защитник зелёных</Triggers>
 			<Options>
 				<Option Goto="792"/>
 			</Options>
