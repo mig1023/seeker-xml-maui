@@ -2835,6 +2835,7 @@
 		</Paragraph>
 		<Paragraph No="492">
 			<Text>Мисарг радостно пожимает вам руку (ваши суставы тревожно похрустывают) и дружески хлопает вас по плечу (-10 здоровья). Запишите слово «варвар».</Text>
+			<Triggers>варвар</Triggers>
 			<Options>
 				<Option Goto="494"/>
 			</Options>
@@ -2886,8 +2887,8 @@
 		<Paragraph No="499">
 			<Text>У вас записано слово «варвар»?</Text>
 			<Options>
-				<Option Goto="500" Text="Да"/>
-				<Option Goto="501" Text="Нет"/>
+				<Option Goto="500" Text="Да" Availability="варвар"/>
+				<Option Goto="501" Text="Нет" Availability="!варвар"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="500">
