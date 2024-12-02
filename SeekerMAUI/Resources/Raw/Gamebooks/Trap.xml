@@ -4247,6 +4247,7 @@
 			<Modifications>
 				<Karma Value="-300"/>
 			</Modifications>
+			<Triggers>смерть на взлёте</Triggers>
 			<Options>
 				<Option Goto="727"/>
 			</Options>
