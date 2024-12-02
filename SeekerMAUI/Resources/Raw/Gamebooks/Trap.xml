@@ -506,9 +506,13 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="72">
-			<Text>Никромангус. Атака 12.</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Никромангус" Attack="12"/>
+				</Fight>
+			</Actions>
 			<Options>
-				<Option Goto="73" Text="Если вы победили"/>
+				<Option Goto="73" Text="Вы победили"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="73">
