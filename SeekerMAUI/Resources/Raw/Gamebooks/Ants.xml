@@ -40,6 +40,12 @@
 				<Item Name="Невероятное прохождение игры! Ваше звание: Муравьиный небожитель." Value="290"/>
 				<Item Name="Легендарное прохождение игры! Ваше звание: Муравьиный бог." Value="300"/>
 			</Rating>
+			<Availabilities>
+				<Item Name="КОЛИЧЕСТВО" Value="Quantity"/>
+				<Item Name="ВРАГ" Value="EnemyHitpoints"/>
+				<Item Name="ЗАЩИТА" Value="Defence"/>
+				<Item Name="СТАРТ" Value="Start"/>
+			</Availabilities>
 		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
