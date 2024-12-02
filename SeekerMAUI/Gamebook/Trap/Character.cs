@@ -36,6 +36,8 @@ namespace SeekerMAUI.Gamebook.Trap
             set => _hitpoints = Game.Param.Setter(value, _hitpoints, this);
         }
 
+        public List<string> Equipment { get; set; }
+
         public override void Init()
         {
             base.Init();
@@ -44,6 +46,8 @@ namespace SeekerMAUI.Gamebook.Trap
             Skill = 8;
             Charm = 8;
             Hitpoints = 100;
+
+            Equipment = new List<string>();
         }
 
         public Character Clone() => new Character()
@@ -57,7 +61,7 @@ namespace SeekerMAUI.Gamebook.Trap
         };
 
         public override string Save() => String.Join("|",
-            Strength, Skill, Charm, Hitpoints);
+            Strength, Skill, Charm, Hitpoints, String.Join(";", Equipment));
 
         public override void Load(string saveLine)
         {
@@ -67,6 +71,8 @@ namespace SeekerMAUI.Gamebook.Trap
             Skill = int.Parse(save[1]);
             Charm = int.Parse(save[2]);
             Hitpoints = int.Parse(save[3]);
+
+            Equipment = save[4].Split(';').ToList();
 
             IsProtagonist = true;
         }
