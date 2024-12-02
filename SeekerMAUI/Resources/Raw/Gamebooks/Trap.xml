@@ -5251,6 +5251,7 @@
 		</Paragraph>
 		<Paragraph No="879">
 			<Text>Браслет обжег вашу кожу и слетел с руки. Надеть его больше не получиться. Вычеркните слово «надет».</Text>
+			<Untriggers>надет</Untriggers>
 			<Options>
 				<Option Goto="880"/>
 			</Options>
