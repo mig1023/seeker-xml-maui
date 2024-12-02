@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace SeekerMAUI.Gamebook.Trap
 {
@@ -26,10 +26,56 @@ namespace SeekerMAUI.Gamebook.Trap
             }
             else
             {
-                return new List<string> { $"{EnemyName}\nАтака {EnemyAttack}" };
+                return new List<string> { $"{EnemyName.ToUpper()}\nАтака {EnemyAttack}" };
             }
         }
 
+        public List<string> Fight()
+        {
+            List<string> fight = new List<string>();
 
+            int heroAttack = Character.Protagonist.Strength;
+
+            fight.Add($"ВАША АТАКА: Сила = {heroAttack}");
+
+            foreach (string equip in Character.Protagonist.Equipment)
+            {
+                string[] data = equip.Split(",");
+                fight.Add($"GRAY|+{data[1]} за {data[0]}");
+                heroAttack += int.Parse(data[1]);
+            }
+
+            fight.Add($"ИТОГО: Атака = {heroAttack}\n");
+            fight.Add($"{EnemyName.ToUpper()}: Атака = {EnemyAttack}\n");
+
+            if (heroAttack > EnemyAttack)
+            {
+                fight.Add($"BOLD|GOOD|Ваша атака выше, чем у противника!");
+                fight.Add($"Вы побеждаете без потери здоровья!");
+            }
+            else if (heroAttack == EnemyAttack)
+            {
+                fight.Add($"BOLD|Ваши атаки с противником равны!");
+                fight.Add($"BAD|Вы побеждаете, потеряв 25 баллов здоровья!");
+
+                Character.Protagonist.Hitpoints -= 25;
+            }
+            else if ((heroAttack + 1) == EnemyAttack)
+            {
+                fight.Add($"BOLD|Ваша атака на единицу меньше, чем у противника!");
+                fight.Add($"BAD|Вы побеждаете, потеряв 75 баллов здоровья!");
+
+                Character.Protagonist.Hitpoints -= 75;
+            }
+            else
+            {
+                fight.Add($"BOLD|BAD|Ваша атака более чем на единицу меньше, чем у противника!");
+                fight.Add($"BAD|Вы погибаете в этом бою...");
+
+                Character.Protagonist.Hitpoints = 0;
+            }
+
+            return fight;
+        }
     }
 }
