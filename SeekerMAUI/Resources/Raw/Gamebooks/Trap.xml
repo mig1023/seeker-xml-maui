@@ -3082,6 +3082,9 @@
 		</Paragraph>
 		<Paragraph No="533">
 			<Text>Вы подбираете дорожную сумку Айрин, копье (+3 к атаке, цена 1000), и направляетесь к выходу.\n\nНичего не мешает вам в этой прогулке по вонючей пещере.</Text>
+			<Modifications>
+				<Equipment Value="копье,3,1000"/>
+			</Modifications>
 			<Options>
 				<Option Goto="466"/>
 			</Options>
