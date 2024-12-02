@@ -3377,8 +3377,8 @@
 		<Paragraph No="587">
 			<Text>Дверь легко открывается.</Text>
 			<Options>
-				<Option Goto="588" Text="У вас записано слово «варвар»"/>
-				<Option Goto="592" Text="Не записано"/>
+				<Option Goto="588" Text="У вас записано слово «варвар»" Availability="варвар"/>
+				<Option Goto="592" Text="Не записано" Availability="!варвар"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="588">
