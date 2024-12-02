@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SeekerMAUI.Game;
+using System;
 
 namespace SeekerMAUI.Gamebook.Trap
 {
@@ -33,8 +34,10 @@ namespace SeekerMAUI.Gamebook.Trap
         public int Hitpoints
         {
             get => _hitpoints;
-            set => _hitpoints = Game.Param.Setter(value, _hitpoints, this);
+            set => _hitpoints = Game.Param.Setter(value, max: 100, _hitpoints, this);
         }
+
+        public int Karma { get; set; }
 
         public List<string> Equipment { get; set; }
 
@@ -46,6 +49,7 @@ namespace SeekerMAUI.Gamebook.Trap
             Skill = 8;
             Charm = 8;
             Hitpoints = 100;
+            Karma = 0;
 
             Equipment = new List<string>();
         }
@@ -58,10 +62,11 @@ namespace SeekerMAUI.Gamebook.Trap
             Skill = this.Skill,
             Charm = this.Charm,
             Hitpoints = this.Hitpoints,
+            Karma = this.Karma,
         };
 
         public override string Save() => String.Join("|",
-            Strength, Skill, Charm, Hitpoints, String.Join(";", Equipment));
+            Strength, Skill, Charm, Hitpoints, Karma, String.Join(";", Equipment));
 
         public override void Load(string saveLine)
         {
@@ -71,8 +76,9 @@ namespace SeekerMAUI.Gamebook.Trap
             Skill = int.Parse(save[1]);
             Charm = int.Parse(save[2]);
             Hitpoints = int.Parse(save[3]);
+            Karma = int.Parse(save[4]);
 
-            Equipment = save[4].Split(';').ToList();
+            Equipment = save[5].Split(';').ToList();
 
             IsProtagonist = true;
         }
