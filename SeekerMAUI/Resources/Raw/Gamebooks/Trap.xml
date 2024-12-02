@@ -2189,6 +2189,9 @@
 		</Paragraph>
 		<Paragraph No="334">
 			<Text>До Миранды вам больше не добраться. Придется заняться другими делами.</Text>
+			<Modifications>
+				<Equipment Value="дубину,2,400"/>
+			</Modifications>
 			<Options>
 				<Option Goto="354"/>
 			</Options>
