@@ -4932,8 +4932,8 @@
 		<Paragraph No="831">
 			<Text>Ваша карма -500 или хуже?</Text>
 			<Options>
-				<Option Goto="833" Text="Да"/>
-				<Option Goto="832" Text="Нет"/>
+				<Option Goto="833" Text="Да" Availability="КАРМА &lt; -499"/>
+				<Option Goto="832" Text="Нет" Availability="КАРМА > -500"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="832">
