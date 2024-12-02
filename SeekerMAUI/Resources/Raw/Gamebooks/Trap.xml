@@ -3871,8 +3871,8 @@
 		<Paragraph No="665">
 			<Text>Алистер: «Ну, что ж. У меня больше нет вопросов».</Text>
 			<Options>
-				<Option Goto="667" Text="У вас записано слово «таблетка»"/>
-				<Option Goto="670" Text="Не записано"/>
+				<Option Goto="667" Text="У вас записано слово «таблетка»" Availability="таблетка"/>
+				<Option Goto="670" Text="Не записано" Availability="!таблетка"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="667">
