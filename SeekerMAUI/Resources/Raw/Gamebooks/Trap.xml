@@ -4974,6 +4974,7 @@
 		</Paragraph>
 		<Paragraph No="834">
 			<Text>Эскобальд: «Прекрасно!»\n\nЗапишите ключевую фразу «тёмный лорд».</Text>
+			<Triggers>тёмный лорд</Triggers>
 			<Options>
 				<Option Goto="832"/>
 			</Options>
