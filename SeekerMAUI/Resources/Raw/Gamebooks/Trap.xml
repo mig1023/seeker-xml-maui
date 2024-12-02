@@ -5245,8 +5245,8 @@
 		<Paragraph No="878">
 			<Text>Вы выпили экспериментальный эликсир из фляжки.</Text>
 			<Options>
-				<Option Goto="879" Text="Записано слово «надет»"/>
-				<Option Goto="880" Text="Не записано"/>
+				<Option Goto="879" Text="Записано слово «надет»" Availability="надет"/>
+				<Option Goto="880" Text="Не записано" Availability="!надет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="879">
