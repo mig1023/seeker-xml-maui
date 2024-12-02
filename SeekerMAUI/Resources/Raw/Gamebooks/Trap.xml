@@ -3957,6 +3957,7 @@
 		</Paragraph>
 		<Paragraph No="679">
 			<Text>Королева рассмеялась: «И это после всего, что я для него сделала». Её смех сменился долгим кашлем. Затем Беатрикс продолжила: «Впрочем, судя по твоим словам, ты либо доверяешь мне, либо слишком глуп».\n\nЗапишите слово «недоверие».</Text>
+			<Triggers>недоверие</Triggers>
 			<Options>
 				<Option Goto="682"/>
 			</Options>
@@ -5077,8 +5078,8 @@
 		<Paragraph No="852">
 			<Text>У вас записано слово «недоверие»?</Text>
 			<Options>
-				<Option Goto="853" Text="Да"/>
-				<Option Goto="854" Text="Нет"/>
+				<Option Goto="853" Text="Да" Availability="недоверие"/>
+				<Option Goto="854" Text="Нет" Availability="!недоверие"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="853">
