@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace SeekerMAUI.Gamebook.Trap
 {
@@ -27,6 +27,23 @@ namespace SeekerMAUI.Gamebook.Trap
             else
             {
                 return new List<string> { $"{EnemyName.ToUpper()}\nАтака {EnemyAttack}" };
+            }
+        }
+
+        public override bool Availability(string option)
+        {
+            if (String.IsNullOrEmpty(option))
+            {
+                return true;
+            }
+            else if (Game.Services.AvailabilityByСomparison(option))
+            {
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
+            }
+            else
+            {
+                return AvailabilityTrigger(option);
             }
         }
 
