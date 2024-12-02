@@ -12,7 +12,7 @@ namespace SeekerMAUI.Gamebook.Trap
             $"Сила: {Character.Protagonist.Strength}",
             $"Ловкость: {Character.Protagonist.Skill}",
             $"Обаяние: {Character.Protagonist.Charm}",
-            $"Здоровье: {Character.Protagonist.Hitpoints}",
+            $"Здоровье: {Character.Protagonist.Hitpoints}/100",
         };
 
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
