@@ -31,6 +31,13 @@
 				<Item Name="Selfcontrol75" Value="Самообладание 75"/>
 				<Item Name="Selfcontrol100" Value="Самообладание 100"/>
 			</CharactersParams>
+			<Availabilities>
+				<Item Name="ПЛАНИРОВАНИЕ" Value="Planning"/>
+				<Item Name="ПОДГОТОВКА" Value="Preparation"/>
+				<Item Name="ВЕЗЕНИЕ" Value="Luck"/>
+				<Item Name="МОРАЛЬ" Value="Morality"/>
+				<Item Name="КАРЬЕРИЗМ" Value="Careerism"/>
+			</Availabilities>
 		</Dictionaries>
 		<Buttons>
 			<Test>Пройти проверку</Test>
