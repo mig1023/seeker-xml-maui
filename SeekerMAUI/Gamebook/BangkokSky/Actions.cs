@@ -149,25 +149,10 @@ namespace SeekerMAUI.Gamebook.BangkokSky
             {
                 return true;
             }
-            else if (option.Contains("РАНЕНИЙ >="))
+            else if (Game.Services.AvailabilityByСomparison(option))
             {
-                return Character.Protagonist.Wounds >= Game.Services.LevelParse(option);
-            }
-            else if (option.Contains("РАНЕНИЙ <"))
-            {
-                return Character.Protagonist.Wounds < Game.Services.LevelParse(option);
-            }
-            else if (option.Contains("УВАЖЕНИЕ >="))
-            {
-                return Character.Protagonist.Respect >= Game.Services.LevelParse(option);
-            }
-            else if (option.Contains("УВАЖЕНИЕ <"))
-            {
-                return Character.Protagonist.Respect < Game.Services.LevelParse(option);
-            }
-            else if (option.Contains("ДЕНЕГ >="))
-            {
-                return Character.Protagonist.Money >= Game.Services.LevelParse(option);
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
             }
             else
             {

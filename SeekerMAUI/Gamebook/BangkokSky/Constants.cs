@@ -6,6 +6,8 @@ namespace SeekerMAUI.Gamebook.BangkokSky
     {
         public static Dictionary<string, string> StatNames { get; set; }
 
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         public static List<string> TestLevelNames { get; set; }
     }
 }
