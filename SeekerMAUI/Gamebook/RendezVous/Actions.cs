@@ -25,18 +25,13 @@ namespace SeekerMAUI.Gamebook.RendezVous
             {
                 foreach (string oneOption in option.Split(','))
                 {
-                    if (oneOption.Contains(">") || oneOption.Contains("<"))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(oneOption);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("ОСОЗНАНИЕ >") && (level >= Character.Protagonist.Awareness))
-                        {
+                        if (fail)
                             return false;
-                        }
-                        else if (oneOption.Contains("ОСОЗНАНИЕ <=") && (level < Character.Protagonist.Awareness))
-                        {
-                            return false;
-                        }
                     }
                     else if (oneOption.Contains("!"))
                     {
