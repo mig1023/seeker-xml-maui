@@ -12,6 +12,12 @@
 			<System Value="f9f9f9"/>
 			<Color Name="ActionBox, Continue" Value="e6d9ae"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="ПИЛОТ" Value=""/>
+				<Item Name="БИБЛИОТЕКА" Value=""/>
+			</Availabilities>
+		</Dictionaries>
 		<Buttons>
 			<FireFight>Перестрелка</FireFight>
 			<ForceTest>Пройти проверку</ForceTest>
