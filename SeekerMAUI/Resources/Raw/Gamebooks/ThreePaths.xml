@@ -10,6 +10,11 @@
 			<Continue Value="6fc5c5"/>
 			<Color Name="Main, Option" Value="009999"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="ВРЕМЯ" Value="Time"/>
+			</Availabilities>
+		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
