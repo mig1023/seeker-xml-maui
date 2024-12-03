@@ -26,22 +26,23 @@ namespace SeekerMAUI.Gamebook.UndergroundRoad
                 foreach (string oneOption in option.Split(','))
                 {
                     string opt = oneOption.Trim();
+                    var hero = Character.Protagonist;
 
                     if (opt.Contains("РАНЕН"))
                     {
-                        if ((opt == "!РАНЕН ДВАЖДЫ") && (Character.Protagonist.Wounds > 1))
+                        if ((opt == "!РАНЕН ДВАЖДЫ") && (hero.Wounds > 1))
                         {
                             return false;
                         }
-                        else if ((opt == "!РАНЕН") && (Character.Protagonist.Wounds > 0))
+                        else if ((opt == "!РАНЕН") && (hero.Wounds > 0))
                         {
                             return false;
                         }
-                        else if ((opt == "РАНЕН ДВАЖДЫ") && Character.Protagonist.Wounds < 2)
+                        else if ((opt == "РАНЕН ДВАЖДЫ") && (hero.Wounds < 2))
                         {
                             return false;
                         }
-                        else if ((opt == "РАНЕН") && Character.Protagonist.Wounds < 1)
+                        else if ((opt == "РАНЕН") && (hero.Wounds < 1))
                         {
                             return false;
                         }
