@@ -24,7 +24,12 @@ namespace SeekerMAUI.Gamebook.ThoseWhoAreAboutToDie
             }
             else if (option.Contains("|"))
             {
-                return option.Split('|').Where(x => !Params.Fail(x) || Game.Option.IsTriggered(x.Trim())).Count() > 0;
+                var avail = option
+                    .Split('|')
+                    .Where(x => !Params.Fail(x) || Game.Option.IsTriggered(x.Trim()))
+                    .Count() > 0;
+
+                return avail;
             }
             else
             {
