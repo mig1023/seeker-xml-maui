@@ -18,6 +18,15 @@
 			<WithoutStatuses Items="0, 714, 715, 716"/>
 			<WithoutStaticsButtons Items="0, 687, 714, 715, 701, 702"/>
 		</Lists>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="ЗОЛОТО" Value="Gold"/>
+				<Item Name="ЗАКЛЯТИЙ" Value="Magicpoints"/>
+				<Item Name="ЭЛИКСИР" Value="Elixir"/>
+				<Item Name="ВРЕМЯ ДЛЯ ЧТЕНИЯ" Value="TimeForReading"/>
+				<Item Name="ДОВЕРИЕ" Value="ConneryTrust"/>
+			</Availabilities>
+		</Dictionaries>
 		<Default>
 			<FontSize Value="Little"/>
 		</Default>
