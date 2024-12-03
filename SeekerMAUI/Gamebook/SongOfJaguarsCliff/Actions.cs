@@ -93,39 +93,13 @@ namespace SeekerMAUI.Gamebook.SongOfJaguarsCliff
             {
                 foreach (string oneOption in option.Split(','))
                 {
-                    if (oneOption.Contains(">") || oneOption.Contains("<") || oneOption.Contains("="))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(option);
-                        Character hero = Character.Protagonist;
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (option.Contains("ДОЛЛАРЫ >=") && (hero.Dollars < level))
-                        {
+                        if (fail)
                             return false;
-                        }
-                        else if (option.Contains("АВТОРИТЕТ =") && (hero.Authority != level))
-                        {
-                            return false;
-                        }
-                        else if (option.Contains("АВТОРИТЕТ !=") && (hero.Authority == level))
-                        {
-                            return false;
-                        }
-                        else if (option.Contains("АВТОРИТЕТ <=") && (hero.Authority > level))
-                        {
-                            return false;
-                        }
-                        else if (option.Contains("АВТОРИТЕТ >=") && (hero.Authority < level))
-                        {
-                            return false;
-                        }
-                        else if (option.Contains("ВРЕМЯ <=") && (hero.Time > level))
-                        {
-                            return false;
-                        }
-                        else if (option.Contains("ВРЕМЯ >=") && (hero.Time < level))
-                        {
-                            return false;
-                        }
                     }
                     else if (oneOption.Contains("!"))
                     {
