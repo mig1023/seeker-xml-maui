@@ -115,14 +115,6 @@ namespace SeekerMAUI.Gamebook.ConquistadorDiary
 
                 return negative ? !isTriggered : isTriggered;
             }
-            else if (option.Contains(">"))
-            {
-                return Character.Protagonist.Score > Game.Services.LevelParse(option);
-            }
-            else if (option.Contains("<"))
-            {
-                return Character.Protagonist.Score < Game.Services.LevelParse(option);
-            }
             else
             {
                 return AvailabilityTrigger(option.Trim());
