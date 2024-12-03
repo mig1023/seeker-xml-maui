@@ -33,19 +33,14 @@ namespace SeekerMAUI.Gamebook.HostagesOfPirateAdmiral
             {
                 return true;
             }
+            else if (Game.Services.AvailabilityByСomparison(option))
+            {
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
+            }
             else
             {
-                string[] values = option.Split(new string[] { ">=", "<", " " }, StringSplitOptions.RemoveEmptyEntries);
-                int level = (values.Length > 1 ? int.Parse(values[1]) : 0);
-
-                if (option.Contains("БЛАСТЕР >="))
-                    return level <= Character.Protagonist.Blaster;
-
-                else if (option.Contains("БЛАСТЕР <"))
-                    return level > Character.Protagonist.Blaster;
-
-                else
-                    return AvailabilityTrigger(option);
+                return AvailabilityTrigger(option);
             }
         }
 
