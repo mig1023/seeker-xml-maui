@@ -15,6 +15,12 @@
 			<Continue Value="2f2f2f"/>
 			<SystemFont Value="a8a8a8"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="СИЛА СЕРДЦА МОНАХА" Value="MonksHeart"/>
+				<Item Name="ВРЕМЯ" Value="Time"/>
+			</Availabilities>
+		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
