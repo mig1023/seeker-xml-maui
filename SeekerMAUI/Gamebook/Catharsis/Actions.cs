@@ -62,28 +62,15 @@ namespace SeekerMAUI.Gamebook.Catharsis
             {
                 foreach (string oneOption in option.Split(','))
                 {
-                    if (oneOption.Contains("="))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(oneOption);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("СТЕЛС") && (level > Character.Protagonist.Stealth))
-                            return false;
-
-                        else if (oneOption.Contains("МЕТКОСТЬ") && (level > Character.Protagonist.Accuracy))
-                            return false;
-
-                        else if (oneOption.Contains("РУКОПАШКА") && (level > Character.Protagonist.Fight))
-                            return false;
-
-                        else if (oneOption.Contains("АУРА <") && (level <= Character.Protagonist.Aura))
-                            return false;
-
-                        else if (oneOption.Contains("АУРА >") && (level > Character.Protagonist.Aura))
-                            return false;
-
-                        else if (oneOption.Contains("ЗДОРОВЬЕ") && (level > Character.Protagonist.Life))
+                        if (fail)
                             return false;
                     }
+
                     else if (!Game.Option.IsTriggered(oneOption.Trim()))
                     {
                         return false;
