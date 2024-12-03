@@ -34,6 +34,18 @@
 				<Item Name="1986-1" Value="Вы на месяц пропали в санатории, это стало темой анекдотов"/>
 				<Item Name="1986-2" Value="Пора думать о преемнике"/>
 			</TextByYears>
+			<Availabilities>
+				<Item Name="РЕЙТИНГ" Value="Rating"/>
+				<Item Name="ГОД" Value="InnerYear"/>
+				<Item Name="ОТНОШЕНИЯ С США" Value="RelationWithUSA"/>
+				<Item Name="ОТНОШЕНИЯ С СССР" Value="RelationWithUSSR"/>
+				<Item Name="МОНЕТКИ" Value="Money"/>
+				<Item Name="ЛОЯЛЬНОСТЬ БИЗНЕСА" Value="BusinessLoyalty"/>
+				<Item Name="ЛОЯЛЬНОСТЬ АРМИИ" Value="ArmyLoyalty"/>
+				<Item Name="СИЛА ВОЙСК" Value="Army"/>
+				<Item Name="СИЛА ПОВСТАНЦЕВ" Value="Rebels"/>
+				<Item Name="АГРАРНАЯ РЕФОРМА" Value="AgrarianReform"/>
+			</Availabilities>
 		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
