@@ -8,6 +8,8 @@ namespace SeekerMAUI.Gamebook.HowlOfTheWerewolf
 
         public static Dictionary<int, string> GetPassageName { get; set; }
 
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         public static int GetUlrichMastery() => 8;
 
         public static int GetVanRichtenMastery() => 10;

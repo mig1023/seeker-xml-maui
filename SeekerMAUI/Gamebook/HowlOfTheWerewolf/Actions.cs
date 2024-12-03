@@ -380,17 +380,12 @@ namespace SeekerMAUI.Gamebook.HowlOfTheWerewolf
             {
                 foreach (string oneOption in option.Split(','))
                 {
-                    if (oneOption.Contains(">") || oneOption.Contains("<"))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(oneOption);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (option.Contains("ЗОЛОТО >=") && (level > Character.Protagonist.Gold))
-                            return false;
-
-                        if (option.Contains("КИНЖАЛЫ >=") && (level > Character.Protagonist.SilverDaggers))
-                            return false;
-
-                        if (option.Contains("КИНЖАЛЫ <") && (level <= Character.Protagonist.SilverDaggers))
+                        if (fail)
                             return false;
                     }
                     else if (oneOption.Contains("!"))
