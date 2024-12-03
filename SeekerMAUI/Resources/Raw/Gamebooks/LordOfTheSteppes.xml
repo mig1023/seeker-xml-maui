@@ -23,6 +23,9 @@
 				<Item Name="Endurance" Value="14"/>
 				<Item Name="Initiative" Value="10"/>
 			</GetStartValues>
+			<Availabilities>
+				<Item Name="МОНЕТ" Value="Coins"/>
+			</Availabilities>
 		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
