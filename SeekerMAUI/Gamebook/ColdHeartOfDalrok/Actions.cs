@@ -78,10 +78,10 @@ namespace SeekerMAUI.Gamebook.ColdHeartOfDalrok
             {
                 return true;
             }
-            else if (option.Contains("ДЕНЕГ >="))
+            else if (Game.Services.AvailabilityByСomparison(option))
             {
-                int level = Game.Services.LevelParse(option);
-                return Character.Protagonist.Coins >= level;
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
             }
             else if (option == "Стрельба из лука")
             {
