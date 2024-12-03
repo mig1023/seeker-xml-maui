@@ -11,5 +11,7 @@ namespace SeekerMAUI.Gamebook.PrairieLaw
         public static Dictionary<int, int> Charms { get; set; }
 
         public static Dictionary<int, string> LuckList { get; set; }
+
+        public static Dictionary<string, string> Availabilities { get; set; }
     }
 }

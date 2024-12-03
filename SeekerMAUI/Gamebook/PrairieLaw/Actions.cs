@@ -86,21 +86,22 @@ namespace SeekerMAUI.Gamebook.PrairieLaw
             {
                 foreach (string oneOption in option.Split(','))
                 {
-                    if (oneOption.Contains("="))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
                         int level = Game.Services.LevelParse(oneOption);
 
-                        if (option.Contains("ЦЕНТОВ >=") && (level > Character.Protagonist.Cents))
+                        if (option.Contains("ШКУР >=") && (level > Character.Protagonist.AnimalSkins.Count))
+                        {
                             return false;
+                        }
+                        else if (Game.Services.AvailabilityByСomparison(oneOption))
+                        {
+                            var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                                oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        else if (option.Contains("САМОРОДКОВ >=") && (level > Character.Protagonist.Nuggets))
-                            return false;
-
-                        else if (option.Contains("ПАТРОНОВ >=") && (level > Character.Protagonist.Cartridges))
-                            return false;
-
-                        else if (option.Contains("ШКУР >=") && (level > Character.Protagonist.AnimalSkins.Count))
-                            return false;
+                            if (fail)
+                                return false;
+                        }                        
                     }
                     else if (!Game.Option.IsTriggered(oneOption.Trim()))
                     {
