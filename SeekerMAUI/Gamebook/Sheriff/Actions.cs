@@ -11,17 +11,13 @@ namespace SeekerMAUI.Gamebook.Sheriff
 
             foreach (string oneOption in option.Split(','))
             {
-                if (oneOption.Contains(">") || oneOption.Contains("<"))
+                if (Game.Services.AvailabilityByСomparison(oneOption))
                 {
-                    int level = Game.Services.LevelParse(oneOption);
+                    var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                        oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                    if (oneOption.Contains("ВЖУХ >=") && (level > Character.Protagonist.Whoosh))
+                    if (fail)
                         return false;
-
-                    if (oneOption.Contains("ВЖУХ <") && (level <= Character.Protagonist.Whoosh))
-                        return false;
-
-                    return true;
                 }
                 else if (oneOption.Contains("!"))
                 {

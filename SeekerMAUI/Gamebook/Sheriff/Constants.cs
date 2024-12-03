@@ -7,5 +7,7 @@ namespace SeekerMAUI.Gamebook.Sheriff
         public static List<string> CleaningNotebookList { get; set; }
 
         public static Dictionary<string, int> Levels { get; set; }
+
+        public static Dictionary<string, string> Availabilities { get; set; }
     }
 }
