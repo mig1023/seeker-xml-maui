@@ -8,6 +8,13 @@
 			<Color Name="Main, Option, Continue, System, StatusFont, StatusBorder, Font" Value="cc5000"/>
 			<Color Name="Background, ButtonFont, StatusBar" Value="000000"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="ЖИЗНЕЙ" Value="Hitpoints"/>
+				<Item Name="СЮРИКЕНЫ" Value="Shuriken"/>
+				<Item Name="СТРЕЛЫ" Value="Arrows"/>
+			</Availabilities>
+		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
 			<FontSize Value="Big"/>
