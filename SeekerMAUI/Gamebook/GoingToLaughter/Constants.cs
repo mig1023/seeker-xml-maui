@@ -33,6 +33,8 @@ namespace SeekerMAUI.Gamebook.GoingToLaughter
 
         public static Dictionary<string, string> ParamNames { get; set; }
 
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         public static List<string> SleepCleaningSurvive { get; set; }
     }
 }

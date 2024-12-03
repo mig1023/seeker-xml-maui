@@ -134,26 +134,12 @@ namespace SeekerMAUI.Gamebook.GoingToLaughter
                     List<string> advantages = Character.Protagonist.Disadvantages;
                     List<string> disadvantages = Character.Protagonist.Disadvantages;
 
-                    if (oneOption.Contains(">") || oneOption.Contains("<"))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(oneOption);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("БАЛАНС <=") && (level < Character.Protagonist.Balance))
-                            return false;
-
-                        if (oneOption.Contains("ГЕРОИЗМ >=") && (level > Character.Protagonist.Heroism))
-                            return false;
-
-                        if (oneOption.Contains("ЗЛОДЕЙСТВО >=") && (level > Character.Protagonist.Villainy))
-                            return false;
-
-                        if (oneOption.Contains("ЗЛОДЕЙСТВО <") && (level <= Character.Protagonist.Villainy))
-                            return false;
-
-                        if (oneOption.Contains("ПРЕДЛОЖЕНИЕ >=") && (level > Character.Protagonist.AbubakarOffer))
-                            return false;
-
-                        if (oneOption.Contains("ПРЕДЛОЖЕНИЕ <") && (level <= Character.Protagonist.AbubakarOffer))
+                        if (fail)
                             return false;
                     }
                     else if (oneOption.Contains("!"))
