@@ -27,6 +27,10 @@
 				<Item Name="2" Value="первое окно"/>
 				<Item Name="3" Value="второе окно"/>
 			</GetPassageName>
+			<Availabilities>
+				<Item Name="ЗОЛОТО" Value="Gold"/>
+				<Item Name="КИНЖАЛЫ" Value="SilverDaggers"/>
+			</Availabilities>
 		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
