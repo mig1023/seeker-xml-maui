@@ -80,29 +80,12 @@ namespace SeekerMAUI.Gamebook.Insight
             {
                 foreach (string oneOption in option.Split(','))
                 {
-                    if (oneOption.Contains(">") || oneOption.Contains("<") || oneOption.Contains("="))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(option);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("АУРА >") && (level >= Character.Protagonist.Aura))
-                            return false;
-
-                        if (oneOption.Contains("АУРА <") && (level <= Character.Protagonist.Aura))
-                            return false;
-
-                        if (oneOption.Contains("ЛОВКОСТЬ >") && (level >= Character.Protagonist.Skill))
-                            return false;
-
-                        if (oneOption.Contains("ЛОВКОСТЬ <") && (level <= Character.Protagonist.Skill))
-                            return false;
-
-                        if (oneOption.Contains("МЕТКОСТЬ >") && (level >= Character.Protagonist.Weapon))
-                            return false;
-
-                        if (oneOption.Contains("МЕТКОСТЬ =") && (level != Character.Protagonist.Weapon))
-                            return false;
-
-                        if (oneOption.Contains("МЕТКОСТЬ <") && (level >= Character.Protagonist.Weapon))
+                        if (fail)
                             return false;
                     }
                     else if (oneOption.Contains("!"))

@@ -60,7 +60,6 @@ namespace SeekerMAUI.Gamebook.Insight
 
             return Xml.ModificationParse(xmlModification, modification);
         }
-            
 
         private static Option GetEvidenceSearch(int id, XmlNode xmlParagraph)
         {
