@@ -72,23 +72,12 @@ namespace SeekerMAUI.Gamebook.VWeapons
             {
                 foreach (string oneOption in option.Split(','))
                 {
-                    if (oneOption.Contains(">") || oneOption.Contains("<"))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(oneOption);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("ПАТРОНЫ >=") && (level > Character.Protagonist.Cartridges))
-                            return false;
-
-                        if (oneOption.Contains("ПОДОЗРЕНИЕ >=") && (level > Character.Protagonist.Suspicions))
-                            return false;
-
-                        if (oneOption.Contains("ПОДОЗРЕНИЕ <") && (level <= Character.Protagonist.Suspicions))
-                            return false;
-
-                        if (oneOption.Contains("ВРЕМЯ >=") && (level > Character.Protagonist.Time))
-                            return false;
-
-                        if (oneOption.Contains("ВРЕМЯ <") && (level <= Character.Protagonist.Time))
+                        if (fail)
                             return false;
                     }
                     else if (oneOption.Contains("!"))
