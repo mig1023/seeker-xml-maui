@@ -12,6 +12,10 @@
 			<Strengths ItemsByOrder=", 22, 20, 16, 18, 20, 20, 16, 24, 22, 18, 20"/>
 			<Charms ItemsByOrder=", 8, 6, 5, 8, 6, 7, 7, 7, 6, 7, 5"/>
 			<LuckList Items="1:①, 2:②, 3:③, 4:④, 5:⑤, 6:⑥, 11:❶, 12:❷, 13:❸, 14:❹, 15:❺, 16:❻"/>
+			<Availabilities>
+				<Item Name="БЛАСТЕР" Value="Blaster"/>
+				<Item Name="МОНЕТ" Value="Coins"/>
+			</Availabilities>
 		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
