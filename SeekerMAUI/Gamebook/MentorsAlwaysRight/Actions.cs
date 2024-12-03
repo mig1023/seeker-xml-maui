@@ -461,15 +461,9 @@ namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
             {
                 return true;
             }
-            else if (option.Contains(">") || option.Contains("<"))
+            else if (Game.Services.AvailabilityByСomparison(option))
             {
-                int level = Game.Services.LevelParse(option);
-
-                if (option.Contains("ЗОЛОТО >=") && (level > Character.Protagonist.Gold))
-                    return false;
-
-                if (option.Contains("СИЛА >=") && (level > Character.Protagonist.Strength))
-                    return false;
+                return Game.Services.AvailabilityByProperty(Character.Protagonist, option, Constants.Availabilities);
             }
             else if (option == "ВОЛК")
             {
