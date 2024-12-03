@@ -30,26 +30,12 @@ namespace SeekerMAUI.Gamebook.PrisonerOfMoritaiCastle
             {
                 foreach (string oneOption in option.Split(','))
                 {
-                    if (oneOption.Contains(">") || oneOption.Contains("<"))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(option);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("ЖИЗНЕЙ >") && (level >= Character.Protagonist.Hitpoints))
-                            return false;
-
-                        if (oneOption.Contains("ЖИЗНЕЙ <=") && (level < Character.Protagonist.Hitpoints))
-                            return false;
-
-                        if (oneOption.Contains("СЮРИКЕНЫ >") && (level >= Character.Protagonist.Shuriken))
-                            return false;
-
-                        if (oneOption.Contains("СЮРИКЕНЫ <=") && (level < Character.Protagonist.Shuriken))
-                            return false;
-
-                        if (oneOption.Contains("СТРЕЛЫ >") && (level >= Character.Protagonist.Arrows))
-                            return false;
-
-                        if (oneOption.Contains("СТРЕЛЫ <=") && (level < Character.Protagonist.Arrows))
+                        if (fail)
                             return false;
                     }
                     else if (oneOption.Contains("ЕСТЬ ЛЕКАРСТВА"))
