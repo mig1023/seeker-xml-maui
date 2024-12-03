@@ -62,26 +62,10 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             {
                 return true;
             }
-            else if (option.Contains("="))
+            else if (Game.Services.AvailabilityByСomparison(option))
             {
-                int level = Game.Services.LevelParse(option);
-
-                if (option.Contains("КОПЕЕК >="))
-                {
-                    return level <= Character.Protagonist.Money;
-                }
-                else if (option.Contains("ЖЕЗЛ >="))
-                {
-                    return level <= Character.Protagonist.Staff;
-                }
-                else if (option.Contains("ЖЕЗЛ ="))
-                {
-                    return level == Character.Protagonist.Staff;
-                }
-                else
-                {
-                    return true;
-                }
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
             }
             else if (option.Contains(","))
             {
