@@ -18,6 +18,11 @@
 				<Item Name="Skill" Value="10"/>
 				<Item Name="Weapon" Value="3"/>
 			</GetStartValues>
+			<Availabilities>
+				<Item Name="АУРА" Value="Aura"/>
+				<Item Name="ЛОВКОСТЬ" Value="Skill"/>
+				<Item Name="МЕТКОСТЬ" Value="Weapon"/>
+			</Availabilities>
 		</Dictionaries>
 	</Introduction>
 	<Paragraphs>
