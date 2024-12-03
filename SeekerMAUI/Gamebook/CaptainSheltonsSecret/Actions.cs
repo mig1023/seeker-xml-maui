@@ -39,9 +39,10 @@ namespace SeekerMAUI.Gamebook.CaptainSheltonsSecret
 
                 return count == 0;
             }
-            else if (option.Contains("ЗОЛОТО >="))
+            else if (Game.Services.AvailabilityByСomparison(option))
             {
-                return int.Parse(option.Split('=')[1]) <= Character.Protagonist.Gold;
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
             }
             else
             {

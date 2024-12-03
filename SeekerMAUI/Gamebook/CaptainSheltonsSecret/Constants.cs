@@ -9,5 +9,7 @@ namespace SeekerMAUI.Gamebook.CaptainSheltonsSecret
         public static Dictionary<int, int> Endurances { get; set; }
 
         public static Dictionary<int, string> LuckList { get; set; }
+
+        public static Dictionary<string, string> Availabilities { get; set; }
     }
 }
