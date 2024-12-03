@@ -257,33 +257,26 @@ namespace SeekerMAUI.Gamebook.LegendsAlwaysLie
                     if (oneOption.Contains(">") || oneOption.Contains("<"))
                     {
                         int level = Game.Services.LevelParse(oneOption);
+                        bool warrior = Character.Protagonist.Specialization == Character.SpecializationType.Warrior;
 
                         if (orLogic && oneOption.Contains("ЗОЛОТО >=") && (level <= Character.Protagonist.Gold))
+                        {
                             return true;
-
-                        if (oneOption.Contains("ЗОЛОТО >=") && (level > Character.Protagonist.Gold))
+                        }
+                        else if (oneOption.Contains("ЗАКЛЯТИЙ (!воин) >") && ((level >= Character.Protagonist.Magicpoints) ||
+                                warrior))
+                        {
                             return false;
+                        }
+                        else if (Game.Services.AvailabilityByСomparison(oneOption))
+                        {
+                            var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                                oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("ЗАКЛЯТИЙ >") && (level >= Character.Protagonist.Magicpoints))
-                            return false;
-
-                        if (oneOption.Contains("ЭЛИКСИР >") && (level >= Character.Protagonist.Elixir))
-                            return false;
-
-                        if (oneOption.Contains("ЗАКЛЯТИЙ (!воин) >") && ((level >= Character.Protagonist.Magicpoints) ||
-                                (Character.Protagonist.Specialization == Character.SpecializationType.Warrior)))
-                            return false;
-
-                        if (oneOption.Contains("ВРЕМЯ ДЛЯ ЧТЕНИЯ >") && (level >= Character.Protagonist.TimeForReading))
-                            return false;
-
-                        if (oneOption.Contains("ДОВЕРИЕ >") && (level >= Character.Protagonist.ConneryTrust))
-                            return false;
-                        
-                        if (oneOption.Contains("ДОВЕРИЕ <=") && (level < Character.Protagonist.ConneryTrust))
-                            return false;
-
-                        if (option.Contains("ВОИН") || option.Contains("МАГ") || option.Contains("МЕТАТЕЛЬ"))
+                            if (fail)
+                                return false;
+                        }
+                        else if (option.Contains("ВОИН") || option.Contains("МАГ") || option.Contains("МЕТАТЕЛЬ"))
                         {
                             string type = option.Replace("!", String.Empty);
                             Character.SpecializationType spec = Constants.GetSpecializationType()[type];

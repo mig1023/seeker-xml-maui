@@ -11,5 +11,7 @@ namespace SeekerMAUI.Gamebook.LegendsAlwaysLie
             ["МАГ"] = Character.SpecializationType.Wizard,
             ["МЕТАТЕЛЬ"] = Character.SpecializationType.Thrower,
         };
+
+        public static Dictionary<string, string> Availabilities { get; set; }
     }
 }
