@@ -78,20 +78,7 @@ namespace SeekerMAUI.Gamebook.SilentSchool
             {
                 foreach (string oneOption in option.Split(','))
                 {
-                    if (oneOption.Contains(">") || oneOption.Contains("<"))
-                    {
-                        int level = Game.Services.LevelParse(option);
-
-                        if (oneOption.Contains("ГРААЛЬ >=") && (level > Character.Protagonist.Grail))
-                            return false;
-
-                        if (oneOption.Contains("РАНА >=") && (level > Character.Protagonist.HarmSelfAlready))
-                            return false;
-
-                        if (oneOption.Contains("РАНА <") && (level <= Character.Protagonist.HarmSelfAlready))
-                            return false;
-                    }
-                    else if (oneOption.Contains("ОРУЖИЕ"))
+                    if (oneOption.Contains("ОРУЖИЕ"))
                     {
                         string value = oneOption.Split('=')[1].Trim();
 
@@ -103,6 +90,14 @@ namespace SeekerMAUI.Gamebook.SilentSchool
                         {
                             return false;
                         }
+                    }
+                    else if (Game.Services.AvailabilityByСomparison(oneOption))
+                    {
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
+
+                        if (fail)
+                            return false;
                     }
                     else if (oneOption.Contains("!"))
                     {
