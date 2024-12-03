@@ -32,21 +32,9 @@ namespace SeekerMAUI.Gamebook.RockOfTerror
             {
                 return true;
             }
-            else if (option.Contains(">") || option.Contains("<"))
+            else if (Game.Services.AvailabilityByСomparison(option))
             {
-                int level = Game.Services.LevelParse(option);
-
-                if (option.Contains("СИЛА СЕРДЦА МОНАХА >=") && (level > Character.Protagonist.MonksHeart))
-                    return false;
-
-                else if (option.Contains("ВРЕМЯ >=") && (level > Character.Protagonist.Time))
-                    return false;
-
-                else if (option.Contains("ВРЕМЯ <") && (level < Character.Protagonist.Time))
-                    return false;
-
-                else
-                    return true;
+                return Game.Services.AvailabilityByProperty(Character.Protagonist, option, Constants.Availabilities);
             }
             else
             {
