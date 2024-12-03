@@ -23,6 +23,13 @@
 				<Item Name="Accuracy" Value="10"/>
 				<Item Name="Stealth" Value="3"/>
 			</GetStartValues>
+			<Availabilities>
+				<Item Name="СТЕЛС" Value="Stealth"/>
+				<Item Name="МЕТКОСТЬ" Value="Accuracy"/>
+				<Item Name="РУКОПАШКА" Value="Fight"/>
+				<Item Name="АУРА" Value="Aura"/>
+				<Item Name="ЗДОРОВЬЕ" Value="Life"/>
+			</Availabilities>
 		</Dictionaries>
 	</Introduction>
 	<Paragraphs>
