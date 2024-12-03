@@ -6,6 +6,8 @@ namespace SeekerMAUI.Gamebook.Moonrunner
     {
         public static Dictionary<int, string> SpellsList { get; set; }
 
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         public static List<string> Skills { get; set; }
     }
 }
