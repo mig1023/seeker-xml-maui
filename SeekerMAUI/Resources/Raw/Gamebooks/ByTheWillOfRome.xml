@@ -12,6 +12,12 @@
 			<Action Value="6d0101"/>
 			<System Value="d1b5b5"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="СЕСТЕРЦИЕВ" Value="Sestertius"/>
+				<Item Name="ДИСЦИПЛИНА" Value="Discipline"/>
+			</Availabilities>
+		</Dictionaries>
 		<Buttons>
 			<Get>Купить</Get>
 		</Buttons>
