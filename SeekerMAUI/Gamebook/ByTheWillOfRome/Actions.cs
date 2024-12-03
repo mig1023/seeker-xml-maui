@@ -109,15 +109,13 @@ namespace SeekerMAUI.Gamebook.ByTheWillOfRome
 
                 foreach (string oneOption in options)
                 {
-                    if (oneOption.Contains(">") || oneOption.Contains("<"))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(oneOption);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("СЕСТЕРЦИЕВ >=") && (level <= Character.Protagonist.Sestertius))
-                            return true;
-
-                        if (oneOption.Contains("ДИСЦИПЛИНА >=") && (level <= Character.Protagonist.Discipline))
-                            return true;
+                        if (fail)
+                            return false;
                     }
                     else if (oneOption.Contains("!"))
                     {
