@@ -6,6 +6,8 @@ namespace SeekerMAUI.Gamebook.YounglingTournament
     {
         public static int GetMaxTechniqueValue() => 4;
 
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         public static Dictionary<Character.SwordTypes, string> SwordSkillsNames() =>
             new Dictionary<Character.SwordTypes, string>
         {

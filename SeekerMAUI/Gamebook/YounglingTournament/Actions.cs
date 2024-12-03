@@ -73,15 +73,15 @@ namespace SeekerMAUI.Gamebook.YounglingTournament
                     {
                         return false;
                     }
-                    else if (oneOption.Contains(">") || oneOption.Contains("<"))
+                    else if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
+
+                        if (fail)
+                            return false;
+
                         int level = Game.Services.LevelParse(option);
-
-                        if (oneOption.Contains("ПИЛОТ >") && (level >= Character.Protagonist.Pilot))
-                            return false;
-
-                        if (oneOption.Contains("БИБЛИОТЕКА <=") && (level < Character.Protagonist.Reading))
-                            return false;
 
                         if (oneOption.Contains("УКОЛОВ >") && (level >= Character.Protagonist.Thrust))
                             return false;
