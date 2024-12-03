@@ -8,6 +8,11 @@
 			<StatusBar Value="003153"/>
 			<SystemFont Value="dce3e5"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="ПОСВЯЩЕНИЕ" Value="Initiation"/>
+			</Availabilities>
+		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
