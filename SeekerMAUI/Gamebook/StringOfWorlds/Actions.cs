@@ -60,28 +60,22 @@ namespace SeekerMAUI.Gamebook.StringOfWorlds
             {
                 return true;
             }
+            else if (Game.Services.AvailabilityByСomparison(option))
+            {
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
+            }
+            else if (option.Contains("ОЧКИ"))
+            {
+                return Character.Protagonist.Equipment == "Очки";
+            }
+            else if (option.Contains("ЗАЖИГАЛКА"))
+            {
+                return Character.Protagonist.Equipment == "Зажигалка";
+            }
             else
             {
-                string[] values = option.Split(new string[] { ">=", "<", " " }, StringSplitOptions.RemoveEmptyEntries);
-                int level = (values.Length > 1 ? int.Parse(values[1]) : 0);
-
-                if (option.Contains("БЛАСТЕР >="))
-                    return level <= Character.Protagonist.Blaster;
-
-                else if (option.Contains("МОНЕТ >="))
-                    return level <= Character.Protagonist.Coins;
-
-                else if (option.Contains("БЛАСТЕР <"))
-                    return level > Character.Protagonist.Blaster;
-
-                else if (option.Contains("ОЧКИ"))
-                    return Character.Protagonist.Equipment == "Очки";
-
-                else if (option.Contains("ЗАЖИГАЛКА"))
-                    return Character.Protagonist.Equipment == "Зажигалка";
-
-                else
-                    return AvailabilityTrigger(option);
+                return AvailabilityTrigger(option);
             }
         }
 

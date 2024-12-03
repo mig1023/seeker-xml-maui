@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
 using static SeekerMAUI.Output.Buttons;
 using static SeekerMAUI.Game.Data;
 
@@ -8,6 +6,8 @@ namespace SeekerMAUI.Gamebook.StringOfWorlds
 {
     class Constants : Prototypes.Constants, Abstract.IConstants
     {
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         private static int ColorShiftAmount = 45;
         private static List<int> LastColor = new List<int>();
         private static List<int> StatusColor = null;
