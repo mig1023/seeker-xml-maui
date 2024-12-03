@@ -10,6 +10,11 @@
 			<Color Name="Main, Action, Option, StatusBar, Continue" Value="ffffff"/>
 			<Color Name="ButtonFont, StatusFont, StatusBorder, Border" Value="000000"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="ОСОЗНАНИЕ" Value="Awareness"/>
+			</Availabilities>
+		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
