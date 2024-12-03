@@ -25,6 +25,13 @@
 				<Item Name="Diplomacy" Value="дипломатия"/>
 				<Item Name="ConcreteJungle" Value="бетонные джунгли"/>
 			</StatNames>
+			<Dictionaries>
+				<Availabilities>
+					<Item Name="РАНЕНИЙ" Value="Wounds"/>
+					<Item Name="УВАЖЕНИЕ" Value="Respect"/>
+					<Item Name="ДЕНЕГ" Value="Money"/>
+				</Availabilities>
+			</Dictionaries>
 		</Dictionaries>
 		<Buttons>
 			<Test>Выполнить проверку</Test>
