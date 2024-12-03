@@ -34,6 +34,12 @@
 				<Item Name="Buffoonery" Value="Шутовству"/>
 				<Item Name="Inspiration" Value="Вдохновению"/>
 			</ParamNames>
+			<Availabilities>
+				<Item Name="БАЛАНС" Value="Balance"/>
+				<Item Name="ГЕРОИЗМ" Value="Heroism"/>
+				<Item Name="ЗЛОДЕЙСТВО" Value="Villainy"/>
+				<Item Name="ПРЕДЛОЖЕНИЕ" Value="AbubakarOffer"/>
+			</Availabilities>
 		</Dictionaries>
 		<Default>
 			<StartParagraph Value="1392"/>
