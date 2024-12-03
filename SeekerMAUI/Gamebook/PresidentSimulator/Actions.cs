@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
+using Android.Net.Http;
 using SeekerMAUI.Game;
 
 namespace SeekerMAUI.Gamebook.PresidentSimulator
@@ -46,38 +47,12 @@ namespace SeekerMAUI.Gamebook.PresidentSimulator
             {
                 foreach (string line in option.Split(','))
                 {
-                    if (line.Contains(">") || line.Contains("<") || line.Contains("="))
+                    if (Game.Services.AvailabilityByСomparison(line))
                     {
-                        int level = Services.LevelParse(line);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            line, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (!Services.LevelAvailability("РЕЙТИНГ", line, Character.Protagonist.Rating, level))
-                            return false;
-
-                        else if (!Services.LevelAvailability("ГОД", line, Character.Protagonist.InnerYear, level))
-                            return false;
-
-                        else if (!Services.LevelAvailability("ОТНОШЕНИЯ С США", line, Character.Protagonist.RelationWithUSA, level))
-                            return false;
-
-                        else if (!Services.LevelAvailability("ОТНОШЕНИЯ С СССР", line, Character.Protagonist.RelationWithUSSR, level))
-                            return false;
-
-                        else if (!Services.LevelAvailability("МОНЕТКИ", line, Character.Protagonist.Money, level))
-                            return false;
-
-                        else if (!Services.LevelAvailability("ЛОЯЛЬНОСТЬ БИЗНЕСА", line, Character.Protagonist.BusinessLoyalty, level))
-                            return false;
-
-                        else if (!Services.LevelAvailability("ЛОЯЛЬНОСТЬ АРМИИ", line, Character.Protagonist.ArmyLoyalty, level))
-                            return false;
-
-                        else if (!Services.LevelAvailability("СИЛА ВОЙСК", line, Character.Protagonist.Army, level))
-                            return false;
-
-                        else if (!Services.LevelAvailability("СИЛА ПОВСТАНЦЕВ", line, Character.Protagonist.Rebels, level))
-                            return false;
-
-                        else if (!Services.LevelAvailability("АГРАРНАЯ РЕФОРМА", line, Character.Protagonist.AgrarianReform, level))
+                        if (fail)
                             return false;
                     }
                     else if (line == "СИЛЫ ВОЙСК И ПОВСТАНЦЕВ РАВНЫ")
