@@ -16,6 +16,12 @@
 		<Lists>
 			<GetApartments Items="один, два, три, один, два, три"/>
 		</Lists>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="НЕДОВОЛЬСТВО" Value="Dissatisfaction"/>
+				<Item Name="ВЕРБОВКА" Value="Recruitment"/>
+			</Availabilities>
+		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
