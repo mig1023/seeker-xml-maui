@@ -25,17 +25,10 @@ namespace SeekerMAUI.Gamebook.Hunt
             }
             else if (!option.Contains(","))
             {
-                if (option.Contains("ЦИКЛ >"))
+                if (Game.Services.AvailabilityByСomparison(option))
                 {
-                    return Character.Protagonist.Cycle > Game.Services.LevelParse(option);
-                }
-                else if (option.Contains("УКУШЕННЫЕ >="))
-                {
-                    return Character.Protagonist.Bitten >= Game.Services.LevelParse(option);
-                }
-                else if (option.Contains("УКУШЕННЫЕ <"))
-                {
-                    return Character.Protagonist.Bitten < Game.Services.LevelParse(option);
+                    return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                        option, Constants.Availabilities);
                 }
                 else
                 {
