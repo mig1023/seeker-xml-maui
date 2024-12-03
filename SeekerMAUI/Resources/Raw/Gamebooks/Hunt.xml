@@ -11,6 +11,12 @@
 			<StatusBar Value="548141"/>
 			<Color Name="Main, Option" Value="41742c"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="ЦИКЛ" Value="Cycle"/>
+				<Item Name="УКУШЕННЫЕ" Value="Bitten"/>
+			</Availabilities>
+		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
 			<WalkingInCirclesAcceptable/>
