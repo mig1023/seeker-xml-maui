@@ -17,6 +17,10 @@
 		<Dictionaries>
 			<Skills ItemsByOrder="12, 8, 10, 7, 9, 11"/>
 			<Strengths ItemsByOrder="22, 18, 14, 24, 16, 20"/>
+			<Availabilities>
+				<Item Name="ДЕНЬ" Value="Day"/>
+				<Item Name="ЭКЮ" Value="Ecu"/>
+			</Availabilities>
 		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
