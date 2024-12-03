@@ -17,13 +17,10 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
             {
                 return true;
             }
-            else if (option.Contains(">"))
+            else if (Game.Services.AvailabilityByСomparison(option))
             {
-                return Character.Protagonist.Initiation > Game.Services.LevelParse(option);
-            }
-            else if (option.Contains("<"))
-            {
-                return Character.Protagonist.Initiation < Game.Services.LevelParse(option);
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
             }
             else
             {

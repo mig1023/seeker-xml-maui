@@ -5,6 +5,8 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
 {
     class Constants : Prototypes.Constants, Abstract.IConstants
     {
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         public static void ChangeBackground()
         {
             Character.Protagonist.BackColor = Colors.Mod(Character.Protagonist.BackColor);
