@@ -8,6 +8,8 @@ namespace SeekerMAUI.Gamebook.FaithfulSwordOfTheKing
 
         public static Dictionary<int, int> Strengths { get; set; }
 
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         public static Dictionary<Character.MeritalArts, string> MeritalArtsNames = 
             new Dictionary<Character.MeritalArts, string>
         {

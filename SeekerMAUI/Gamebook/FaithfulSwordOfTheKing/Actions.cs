@@ -82,23 +82,10 @@ namespace SeekerMAUI.Gamebook.FaithfulSwordOfTheKing
             {
                 return true;
             }
-            else if (option.Contains("="))
+            else if (Game.Services.AvailabilityByСomparison(option))
             {
-                int value = int.Parse(option.Split('=')[1]);
-
-                if (option.Contains("ДЕНЬ >=") && (value > Character.Protagonist.Day))
-                    return false;
-
-                else if (option.Contains("ДЕНЬ =") && (value != Character.Protagonist.Day))
-                    return false;
-
-                else if (option.Contains("ДЕНЬ <=") && (value < Character.Protagonist.Day))
-                    return false;
-
-                else if (option.Contains("ЭКЮ >=") && (value > Character.Protagonist.Ecu))
-                    return false;
-
-                return true;
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
             }
             else if (Enum.TryParse(option, out Character.MeritalArts value))
             {
