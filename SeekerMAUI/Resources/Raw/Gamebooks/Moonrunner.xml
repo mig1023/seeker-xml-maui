@@ -25,6 +25,11 @@
 				<Item Name="5" Value="пятое"/>
 				<Item Name="6" Value="шестое"/>
 			</SpellsList>
+			<Availabilities>
+				<Item Name="ВЫНОСЛИВОСТЬ" Value="Endurance"/>
+				<Item Name="ЗОЛОТО" Value="Gold"/>
+				<Item Name="ПРЕДЛОЖЕНИЕ" Value="Offer"/>
+			</Availabilities>
 		</Dictionaries>
 		<Buttons>
 			<Fight>Сражаться</Fight>
