@@ -9,6 +9,12 @@
 			<AdditionalStatus Value="c6cdcf"/>
 			<ButtonFont Value="000000"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="КОПЕЕК" Value="Money"/>
+				<Item Name="ЖЕЗЛ" Value="Staff"/>
+			</Availabilities>
+		</Dictionaries>
 		<Buttons>
 			<Fight>Сражаться</Fight>
 			<Test>Проверить</Test>
