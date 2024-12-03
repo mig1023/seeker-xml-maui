@@ -6,6 +6,8 @@ namespace SeekerMAUI.Gamebook.LordOfTheSteppes
     {
         public static Dictionary<string, int> GetStartValues { get; set; }
 
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         public static Dictionary<Character.SpecialTechniques, string> TechniquesNames() =>
             new Dictionary<Character.SpecialTechniques, string>
         {

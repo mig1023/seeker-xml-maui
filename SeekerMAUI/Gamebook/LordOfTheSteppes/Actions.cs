@@ -155,18 +155,14 @@ namespace SeekerMAUI.Gamebook.LordOfTheSteppes
             {
                 return option.Split('|').Where(x => Game.Option.IsTriggered(x.Trim())).Count() > 0;
             }
+            else if (Game.Services.AvailabilityByСomparison(option))
+            {
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
+            }
             else
             {
-                if (option.Contains(">") || option.Contains("<"))
-                {
-                    int coins = int.Parse(option.Split('=')[1]);
-                    return !(option.Contains("МОНЕТ >=") && (coins > Character.Protagonist.Coins));
-                }
-                else
-                {
-                    return Game.Option.IsTriggered(option);
-                }
-                    
+                return AvailabilityTrigger(option);
             }
         }
 
