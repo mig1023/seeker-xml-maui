@@ -9,5 +9,7 @@ namespace SeekerMAUI.Gamebook.BlackCastleDungeon
         public static int ThirdPartStartParagraph = 752;
 
         public static List<string> StaticSpells { get; set; }
+
+        public static Dictionary<string, string> Availabilities { get; set; }
     }
 }

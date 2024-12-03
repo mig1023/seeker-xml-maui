@@ -134,13 +134,14 @@ namespace SeekerMAUI.Gamebook.BlackCastleDungeon
             {
                 return true;
             }
-            else if (option.Contains("ЗОЛОТО >="))
-            {
-                return int.Parse(option.Split('=')[1]) <= Character.Protagonist.Gold;
-            }
             else if (option.Contains("ЗАКЛЯТИЕ"))
             {
                 return Character.Protagonist.Spells.Contains(option);
+            }
+            else if (Game.Services.AvailabilityByСomparison(option))
+            {
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
             }
             else
             {
