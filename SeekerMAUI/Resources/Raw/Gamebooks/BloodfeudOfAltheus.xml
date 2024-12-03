@@ -23,6 +23,10 @@
 				<Item Name="2" Value="ранен"/>
 				<Item Name="3" Value="здоров"/>
 			</HealthLine>
+			<Availabilities>
+				<Item Name="СЛАВА" Value="Glory"/>
+				<Item Name="ПОЗОР" Value="Shame"/>
+			</Availabilities>
 		</Dictionaries>
 		<Buttons>
 			<Fight>Сражаться</Fight>
