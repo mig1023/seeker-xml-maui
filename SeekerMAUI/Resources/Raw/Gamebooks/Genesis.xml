@@ -25,6 +25,13 @@
 				<Item Name="Weapon" Value="15"/>
 				<Item Name="Stealth" Value="3"/>
 			</GetStartValues>
+			<Availabilities>
+				<Item Name="СТЕЛС" Value="Stealth"/>
+				<Item Name="ЛОВКОСТЬ" Value="Skill"/>
+				<Item Name="ХОЛОДНОЕ ОРУЖИЕ" Value="Weapon"/>
+				<Item Name="АУРА" Value="Aura"/>
+				<Item Name="ЗДОРОВЬЕ" Value="Life"/>
+			</Availabilities>
 		</Dictionaries>
 	</Introduction>
 	<Paragraphs>
