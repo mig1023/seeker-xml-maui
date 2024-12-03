@@ -167,30 +167,19 @@ namespace SeekerMAUI.Gamebook.BloodfeudOfAltheus
                 }
                     
                 if (option.Contains("ВОСКРЕШЕНИЕ"))
+                {
                     return Resurrection.IsPosible();
-
-                values = option.Split('>', '=');
-                int level = (values.Length > 1 ? int.Parse(values[1]) : 0);
-
-                if (option.Contains("СЛАВА >"))
-                {
-                    return level < Character.Protagonist.Glory;
-                }
-                else if (option.Contains("СЛАВА <="))
-                {
-                    return level >= Character.Protagonist.Glory;
-                }
-                    
-                if (option.Contains("ПОЗОР >"))
-                {
-                    return level < Character.Protagonist.Shame;
-                }
-                else if (option.Contains("ПОЗОР <="))
-                {
-                    return level >= Character.Protagonist.Shame;
                 }
 
-                return AvailabilityTrigger(option);
+                if (Game.Services.AvailabilityByСomparison(option))
+                {
+                    return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                        option, Constants.Availabilities);
+                }
+                else
+                {
+                    return AvailabilityTrigger(option);
+                }
             }
         }
 
