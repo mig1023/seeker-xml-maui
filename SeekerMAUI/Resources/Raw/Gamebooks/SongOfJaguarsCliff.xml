@@ -13,6 +13,13 @@
 		<Lists>
 			<PriorityNames Items="стреляет первым,,,пропускает ход"/>
 		</Lists>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="ДОЛЛАРЫ" Value="Dollars"/>
+				<Item Name="АВТОРИТЕТ" Value="Authority"/>
+				<Item Name="ВРЕМЯ" Value="Time"/>
+			</Availabilities>
+		</Dictionaries>
 		<Buttons>
 			<Fight>Перестрелка</Fight>
 			<Get>Купить</Get>
