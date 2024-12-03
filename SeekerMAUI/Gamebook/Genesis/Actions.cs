@@ -43,7 +43,6 @@ namespace SeekerMAUI.Gamebook.Genesis
             return !(disabledByBonusesRemove || disabledByBonusesAdd);
         }
 
-
         public override bool Availability(string option)
         {
             if (String.IsNullOrEmpty(option))
@@ -52,7 +51,12 @@ namespace SeekerMAUI.Gamebook.Genesis
             }
             else if (option.Contains("|"))
             {
-                return option.Split('|').Where(x => Game.Option.IsTriggered(x.Trim())).Count() > 0;
+                bool avail = option
+                    .Split('|')
+                    .Where(x => Game.Option.IsTriggered(x.Trim()))
+                    .Count() > 0;
+
+                return avail;
             }
             else
             {
@@ -60,28 +64,19 @@ namespace SeekerMAUI.Gamebook.Genesis
                 {
                     if (oneOption.Contains("РАНЕНИЯ"))
                     {
-                        int woundsCount = Game.Data.Triggers.Where(x => x == "Ранение").Count();
+                        int woundsCount = Game.Data.Triggers
+                            .Where(x => x == "Ранение")
+                            .Count();
 
                         if (woundsCount < 3)
                             return false;
                     }
-                    else if (oneOption.Contains("="))
+                    else if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(oneOption);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("СТЕЛС") && (level > Character.Protagonist.Stealth))
-                            return false;
-
-                        else if (oneOption.Contains("ЛОВКОСТЬ") && (level > Character.Protagonist.Skill))
-                            return false;
-
-                        else if (oneOption.Contains("ХОЛОДНОЕ ОРУЖИЕ") && (level > Character.Protagonist.Weapon))
-                            return false;
-
-                        else if (oneOption.Contains("АУРА") && (level > Character.Protagonist.Aura))
-                            return false;
-
-                        else if (oneOption.Contains("ЗДОРОВЬЕ") && (level > Character.Protagonist.Life))
+                        if (fail)
                             return false;
                     }
                     else if (!Game.Option.IsTriggered(oneOption.Trim()))
