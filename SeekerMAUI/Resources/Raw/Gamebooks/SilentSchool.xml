@@ -11,6 +11,12 @@
 			<Option Value="686868"/>
 			<System Value="eeeeee"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="ГРААЛЬ" Value="Grail"/>
+				<Item Name="РАНА" Value="HarmSelfAlready"/>
+			</Availabilities>
+		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
