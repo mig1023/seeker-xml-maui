@@ -6,6 +6,8 @@ namespace SeekerMAUI.Gamebook.Cyberpunk
     {
         public static Dictionary<string, string> CharactersParams { get; set; }
 
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         public static List<string> NormalizationParams { get; set; }
     }
 }

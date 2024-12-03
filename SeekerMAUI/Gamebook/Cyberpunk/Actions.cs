@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Android.Net.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -88,26 +89,10 @@ namespace SeekerMAUI.Gamebook.Cyberpunk
             {
                 return (Character.Protagonist.BlackMarket == Character.Protagonist.Clan);
             }
-            else if (option.Contains(">") || option.Contains("<") || option.Contains("="))
+            else if (Game.Services.AvailabilityByСomparison(option))
             {
-                int level = Game.Services.LevelParse(option);
-
-                if (option.Contains("ПЛАНИРОВАНИЕ <=") && (level < Character.Protagonist.Planning))
-                    return false;
-
-                else if (option.Contains("ПОДГОТОВКА <=") && (level < Character.Protagonist.Preparation))
-                    return false;
-
-                else if (option.Contains("ВЕЗЕНИЕ <=") && (level < Character.Protagonist.Luck))
-                    return false;
-
-                else if (option.Contains("МОРАЛЬ =") && (level != Character.Protagonist.Morality))
-                    return false;
-
-                else if (option.Contains("КАРЬЕРИЗМ =") && (level != Character.Protagonist.Careerism))
-                    return false;
-
-                return true;
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
             }
             else
             {
