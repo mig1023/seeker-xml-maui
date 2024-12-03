@@ -22,20 +22,12 @@ namespace SeekerMAUI.Gamebook.InvisibleFront
 
                 foreach (string oneOption in options)
                 {
-                    if (oneOption.Contains(">") || oneOption.Contains("<"))
+                    if (Game.Services.AvailabilityByСomparison(oneOption))
                     {
-                        int level = Game.Services.LevelParse(oneOption);
+                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (oneOption.Contains("НЕДОВОЛЬСТВО >") && (level >= Character.Protagonist.Dissatisfaction))
-                            return false;
-
-                        else if (oneOption.Contains("НЕДОВОЛЬСТВО <=") && (level < Character.Protagonist.Dissatisfaction))
-                            return false;
-
-                        else if (oneOption.Contains("ВЕРБОВКА >") && (level >= Character.Protagonist.Recruitment))
-                            return false;
-
-                        else if (oneOption.Contains("ВЕРБОВКА <=") && (level < Character.Protagonist.Recruitment))
+                        if (fail)
                             return false;
                     }
                     else if (oneOption.Contains("!"))
