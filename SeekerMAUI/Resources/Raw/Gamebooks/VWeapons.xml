@@ -21,6 +21,11 @@
 				<Item Name="рук" Value="Hands"/>
 				<Item Name="ног" Value="Legs"/>
 			</HealingParts>
+			<Availabilities>
+				<Item Name="ПАТРОНЫ" Value="Cartridges"/>
+				<Item Name="ПОДОЗРЕНИЕ" Value="Suspicions"/>
+				<Item Name="ВРЕМЯ" Value="Time"/>
+			</Availabilities>
 		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
