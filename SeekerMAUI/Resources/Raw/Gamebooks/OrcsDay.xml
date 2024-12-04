@@ -404,8 +404,8 @@
 				<Orcishness Value="-1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="94" Text="Успешно"/>
-				<Option Goto="41" Text="Провально"/>
+				<Option Goto="94" Text="Успешно" Tag="Win"/>
+				<Option Goto="41" Text="Провально" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="25">
