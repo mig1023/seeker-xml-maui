@@ -675,11 +675,11 @@
 				<WayBack Value="42"/>
 			</Modifications>
 			<Options>
-				<Option Goto="62" Text="Провально">
+				<Option Goto="62" Text="Провально" Tag="Fail">
 					<Text>Если преуспеешь, значит, в тебе слишком много от орка — и ты...</Text>
 				</Option>
-				<Option Goto="53" Text="Атакуешь его"/>
-				<Option Goto="55" Text="Хочешь предпринять последнюю отчаянную попытку преодолеть свою Оркишность"/>
+				<Option Goto="53" Text="Атакуешь его" Tag="Win"/>
+				<Option Goto="55" Text="Хочешь предпринять последнюю отчаянную попытку преодолеть свою Оркишность" Tag="Win"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="43">
