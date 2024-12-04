@@ -262,8 +262,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="11" Text="Ты смог убедить орков идти вместе с тобой биться с Мортимером"/>
-				<Option Goto="68" Text="В обратном случае орки нападают на тебя"/>
+				<Option Goto="11" Text="Ты смог убедить орков идти вместе с тобой биться с Мортимером" Tag="Win"/>
+				<Option Goto="68" Text="В обратном случае орки нападают на тебя" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 			<Paragraph No="17">
