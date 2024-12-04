@@ -954,8 +954,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="82" Text="Успешно"/>
-				<Option Goto="53" Text="В противном случае орк тебе не поверит"/>
+				<Option Goto="82" Text="Успешно" Tag="Win"/>
+				<Option Goto="53" Text="В противном случае орк тебе не поверит" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="63">
