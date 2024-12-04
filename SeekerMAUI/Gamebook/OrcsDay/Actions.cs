@@ -164,18 +164,7 @@ namespace SeekerMAUI.Gamebook.OrcsDay
                 Game.Option.Trigger("Зомби-тролль");
             }
 
-            Game.Buttons.Disable(okResult,
-                "Успешно," +
-                "Ты смог убедить орков идти вместе с тобой биться с Мортимером," +
-                "Твой разум победил орочью натуру и вы попытаетесь договориться," +
-                "Повезло," +
-                "При успехе приключенцы присоединяются к тебе",
-                "Провально," +
-                "В обратном случае орки нападают на тебя," +
-                "Перейти к подсчёту результатов," +
-                "Не повезло," +
-                "В противном случае орк тебе не поверит," +
-                "В случае провала приключенцы присоединяются к Мортимеру");
+            Game.Buttons.Disable(okResult, "Win", "Fail");
 
             return testLines;
         }
@@ -193,9 +182,7 @@ namespace SeekerMAUI.Gamebook.OrcsDay
 
             testLines.Add(Result(okResult, "УСПЕШНО", "НЕУДАЧНО"));
 
-            Game.Buttons.Disable(okResult,
-                "Успешно",
-                "Если ты провалился, в тебе ещё слишком много от орка, чтобы отказаться от его предложения");
+            Game.Buttons.Disable(okResult, "Win", "Fail");
 
             return testLines;
         }
