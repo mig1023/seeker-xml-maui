@@ -169,11 +169,11 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="68" Text="Если проверка провалилась, с орками придётся драться">
+				<Option Goto="68" Text="Если проверка провалилась, с орками придётся драться" Tag="Fail">
 					<Text>Если проверка успешна и...</Text>
 				</Option>
-				<Option Goto="3" Text="Тебе хочется открыть дверь и узнать, чего они хотели"/>
-				<Option Goto="47" Text="Тебе просто хочется уйти"/>
+				<Option Goto="3" Text="Тебе хочется открыть дверь и узнать, чего они хотели" Tag="Win"/>
+				<Option Goto="47" Text="Тебе просто хочется уйти" Tag="Win"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="11">
