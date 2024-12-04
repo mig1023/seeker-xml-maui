@@ -783,8 +783,8 @@
 				<Orcishness Value="-2"/>
 			</Modifications>
 			<Options>
-				<Option Goto="95" Text="Успешно"/>
-				<Option Goto="37" Text="Провально"/>
+				<Option Goto="95" Text="Успешно" Tag="Win"/>
+				<Option Goto="37" Text="Провально" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="49">
