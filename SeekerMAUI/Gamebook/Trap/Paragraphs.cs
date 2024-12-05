@@ -11,6 +11,7 @@ namespace SeekerMAUI.Gamebook.Trap
         public override Abstract.IActions ActionParse(XmlNode xmlAction)
         {
             var action = (Actions)ActionTemplate(xmlAction, new Actions());
+            action.Stat = Xml.StringParse(xmlAction["Stat"]);
 
             if (action.Type == "Option")
             {

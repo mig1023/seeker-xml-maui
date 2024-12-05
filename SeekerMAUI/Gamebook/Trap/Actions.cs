@@ -5,6 +5,8 @@ namespace SeekerMAUI.Gamebook.Trap
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
+        public string Stat { get; set; }
+
         public string EnemyName = String.Empty;
         public int EnemyAttack = 0;
 
@@ -34,13 +36,43 @@ namespace SeekerMAUI.Gamebook.Trap
 
         public override List<string> Representer()
         {
-            if (String.IsNullOrEmpty(EnemyName))
+            if (!String.IsNullOrEmpty(Stat))
+            {
+                int currentStat = GetProperty(Character.Protagonist, Stat);
+                string count = Game.Services.CoinsNoun(currentStat, "единица", "единицы", "единиц");
+                return new List<string> { $"{Head}\n{currentStat} {count}" };
+            }
+            else if (String.IsNullOrEmpty(EnemyName))
             {
                 return new List<string>();
             }
             else
             {
                 return new List<string> { $"{EnemyName.ToUpper()}\nАтака {EnemyAttack}" };
+            }
+        }
+
+        public override bool IsButtonEnabled(bool secondButton = false)
+        {
+            var isStartSetting = Game.Data.CurrentParagraphID == 1018;
+
+            if (isStartSetting && secondButton)
+            {
+                return GetProperty(Character.Protagonist, Stat) > 8;
+            }
+            else if (isStartSetting && !secondButton)
+            {
+                var bonuses = Character.Protagonist.StatBonuses > 0;
+                var max = Character.Protagonist.StatBonuses >= 12;
+                return bonuses && !max;
+            }
+            else if (Used)
+            {
+                return false;
+            }
+            else
+            {
+                return Character.Protagonist.Gold >= Price;
             }
         }
 
@@ -123,5 +155,27 @@ namespace SeekerMAUI.Gamebook.Trap
                 return new List<string> { "BIG|BOLD|На монетке выпала РЕШКА" };
             }
         }
+
+        public List<string> Get()
+        {
+            if ((Price > 0) && (Character.Protagonist.Gold >= Price))
+            {
+                Character.Protagonist.Gold -= Price;
+
+                Used = true;
+
+                if (Benefit != null)
+                    Benefit.Do();
+            }
+            else if (!String.IsNullOrEmpty(Stat))
+            {
+                ChangeProtagonistParam(Stat, Character.Protagonist, "StatBonuses");
+            }
+
+            return new List<string> { "RELOAD" };
+        }
+
+        public List<string> Decrease() =>
+            ChangeProtagonistParam(Stat, Character.Protagonist, "StatBonuses", decrease: true);
     }
 }

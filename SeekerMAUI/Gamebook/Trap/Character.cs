@@ -46,6 +46,8 @@ namespace SeekerMAUI.Gamebook.Trap
 
         public int Karma { get; set; }
 
+        public int StatBonuses { get; set; }
+
         public List<string> Equipment { get; set; }
 
         public override void Init()
@@ -58,6 +60,7 @@ namespace SeekerMAUI.Gamebook.Trap
             Hitpoints = 100;
             Karma = 0;
             Gold = 0;
+            StatBonuses = 6;
 
             Equipment = new List<string>();
         }
@@ -72,10 +75,12 @@ namespace SeekerMAUI.Gamebook.Trap
             Hitpoints = this.Hitpoints,
             Karma = this.Karma,
             Gold = this.Gold,
+            StatBonuses = this.StatBonuses,
         };
 
         public override string Save() => String.Join("|",
-            Strength, Skill, Charm, Hitpoints, Karma, Gold, String.Join(";", Equipment));
+            Strength, Skill, Charm, Hitpoints, Karma, Gold,
+            StatBonuses, String.Join(";", Equipment));
 
         public override void Load(string saveLine)
         {
@@ -87,8 +92,9 @@ namespace SeekerMAUI.Gamebook.Trap
             Hitpoints = int.Parse(save[3]);
             Karma = int.Parse(save[4]);
             Gold = int.Parse(save[5]);
+            StatBonuses = int.Parse(save[6]);
 
-            Equipment = save[6].Split(';').ToList();
+            Equipment = save[7].Split(';').ToList();
 
             IsProtagonist = true;
         }
