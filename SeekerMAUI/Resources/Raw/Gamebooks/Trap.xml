@@ -2200,10 +2200,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="325">
-			<Text>Вы быстрым рывком сближаетесь, и хватаете Миранду за горло.</Text>
+			<Text>Вы быстрым рывком сближаетесь, и хватаете Миранду за горло.\n\nВаша ловкость 9 и выше?</Text>
 			<Options>
-				<Option Goto="326" Text="Ваша ловкость 9 и выше"/>
-				<Option Goto="332" Text="Ниже"/>
+				<Option Goto="326" Text="Да" Availability="ЛОВКОСТЬ >= 9"/>
+				<Option Goto="332" Text="Нет" Availability="ЛОВКОСТЬ &lt; 9"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="326">
