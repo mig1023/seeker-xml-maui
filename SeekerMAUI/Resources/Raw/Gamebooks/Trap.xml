@@ -3149,7 +3149,7 @@
 				<Option Goto="538" Text="У вас есть сфера льда">
 					<Text>Если ваша ловкость 14 или больше можно попробовать столкнуть Айрин к чудовищу...</Text>
 				</Option>
-				<Option Goto="534" Text="Попробовать"/>
+				<Option Goto="534" Text="Попробовать" Availability="ЛОВКОСТЬ >= 14"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="524">
