@@ -187,7 +187,7 @@
 				<Option Goto="23" Text="Постучать в дверь">
 					<Text>А если позволяет ловкость (должна быть равна 12 или больше) можно попытаться открыть замок...</Text>
 				</Option>
-				<Option Goto="37" Text="Открыть замок"/>
+				<Option Goto="37" Text="Открыть замок" Availability="ЛОВКОСТЬ >= 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="23">
