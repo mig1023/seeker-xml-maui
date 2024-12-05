@@ -22,6 +22,7 @@
 		</Dictionaries>
 		<Buttons>
 			<Fight>Сражаться</Fight>
+			<RollCoin>Подбросить монетку</RollCoin>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -3154,7 +3155,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="524">
-			<Text>Подбросьте монетку.</Text>
+			<Actions>
+				<RollCoin/>
+			</Actions>
 			<Options>
 				<Option Goto="526" Text="Выпал орел"/>
 				<Option Goto="525" Text="Выпала решка"/>
