@@ -4160,6 +4160,9 @@
 		</Paragraph>
 		<Paragraph No="691">
 			<Text>«Ещё это, - Алистер протянул вам большой кошель, - Здесь 2000 золотых на покрытие расходов».</Text>
+			<Modifications>
+				<Gold Value="2000"/>
+			</Modifications>
 			<Options>
 				<Option Goto="693"/>
 			</Options>
