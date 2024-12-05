@@ -2303,7 +2303,9 @@
 		<Paragraph No="338">
 			<Text>Миранда: «Это будет стоить тебе 30 золотых. Деньги вперед».</Text>
 			<Options>
-				<Option Goto="339" Text="Отдать ей деньги"/>
+				<Option Goto="339" Text="Отдать ей деньги" Availability="ДЕНЬГИ > 30">
+					<Gold Value="-30"/>
+				</Option>
 				<Option Goto="325" Text="Просто напасть на неё"/>
 			</Options>
 		</Paragraph>
