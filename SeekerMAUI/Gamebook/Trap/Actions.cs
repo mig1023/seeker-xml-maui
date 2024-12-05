@@ -38,9 +38,9 @@ namespace SeekerMAUI.Gamebook.Trap
         {
             if (!String.IsNullOrEmpty(Stat))
             {
-                int currentStat = GetProperty(Character.Protagonist, Stat);
-                string count = Game.Services.CoinsNoun(currentStat, "единица", "единицы", "единиц");
-                return new List<string> { $"{Head}\n{currentStat} {count}" };
+                var currentStat = GetProperty(Character.Protagonist, Stat);
+                var line = currentStat > 8 ? " (+" + (currentStat - 8) + ")" : String.Empty;
+                return new List<string> { $"{Head}\n{currentStat} единиц{line}" };
             }
             else if (String.IsNullOrEmpty(EnemyName))
             {
@@ -63,7 +63,7 @@ namespace SeekerMAUI.Gamebook.Trap
             else if (isStartSetting && !secondButton)
             {
                 var bonuses = Character.Protagonist.StatBonuses > 0;
-                var max = Character.Protagonist.StatBonuses >= 12;
+                var max = GetProperty(Character.Protagonist, Stat) >= 12;
                 return bonuses && !max;
             }
             else if (Used)
