@@ -3830,8 +3830,8 @@
 		<Paragraph No="648">
 			<Text>Ваше обаяние больше или равно 9?</Text>
 			<Options>
-				<Option Goto="649" Text="Да"/>
-				<Option Goto="652" Text="Нет"/>
+				<Option Goto="649" Text="Да" Availability="ОБАЯНИЕ >= 9"/>
+				<Option Goto="652" Text="Нет" Availability="ОБАЯНИЕ &lt; 9"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="649">
