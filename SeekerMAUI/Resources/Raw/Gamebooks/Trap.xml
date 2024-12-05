@@ -3672,6 +3672,9 @@
 		</Paragraph>
 		<Paragraph No="617">
 			<Text>В сундуке оказалось 3547 золотых монет. Несколько свитков с неизвестными заклинаниями и дневник, вероятнее всего бывшей хозяйки дома.</Text>
+			<Modifications>
+				<Gold Value="3547"/>
+			</Modifications>
 			<Options>
 				<Option Goto="629"/>
 			</Options>
