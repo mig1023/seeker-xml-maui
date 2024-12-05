@@ -2178,7 +2178,9 @@
 		<Paragraph No="322">
 			<Text>Элизабет: «О, мальчик совсем не опытен. Думаю, я могла бы просветить тебя. Скажем за 30 золотых».</Text>
 			<Options>
-				<Option Goto="318" Text="Отдадите ей деньги"/>
+				<Option Goto="318" Text="Отдадите ей деньги" Availability="ДЕНЬГИ > 30">
+					<Gold Value="-30"/>
+				</Option>
 				<Option Goto="355" Text="Откажетесь"/>
 			</Options>
 		</Paragraph>
