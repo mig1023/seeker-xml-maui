@@ -1228,6 +1228,9 @@
 		</Paragraph>
 		<Paragraph No="181">
 			<Text>Квест «Работа для Элони» завершен. Прибавьте 1 бал к вашему обаянию.</Text>
+			<Modifications>
+				<Charm Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="201"/>
 			</Options>
