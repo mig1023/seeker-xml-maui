@@ -5157,8 +5157,8 @@
 		<Paragraph No="849">
 			<Text>Ваше обаяние 15 и более?</Text>
 			<Options>
-				<Option Goto="851" Text="Да"/>
-				<Option Goto="850" Text="Нет"/>
+				<Option Goto="851" Text="Да" Availability="ОБАЯНИЕ >= 15"/>
+				<Option Goto="850" Text="Нет" Availability="ОБАЯНИЕ &lt; 15"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="850">
