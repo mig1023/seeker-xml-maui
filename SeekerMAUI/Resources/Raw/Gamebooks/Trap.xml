@@ -210,8 +210,8 @@
 		<Paragraph No="25">
 			<Text>Ваше обаяние 11 и выше?</Text>
 			<Options>
-				<Option Goto="26" Text="Да"/>
-				<Option Goto="27" Text="Нет"/>
+				<Option Goto="26" Text="Да" Availability="ОБАЯНИЕ >= 11"/>
+				<Option Goto="27" Text="Нет" Availability="ОБАЯНИЕ &lt; 11"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="26">
@@ -2262,9 +2262,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="336">
-			<Text>Вы относите голову Мейбраху и получаете 500 золотых и теряете 50 баллов кармы. Квест «Долг платежом опасен» завершен. У вас появился перк «Потрошитель», который дает +1 к обаянию, при запугивании.</Text>
+			<Text>Вы относите голову Мейбраху и получаете 500 золотых и теряете 50 баллов кармы. Квест «Долг платежом опасен» завершен. У вас появился перк «Потрошитель», который дает +1 к обаянию.</Text>
 			<Modifications>
 				<Karma Value="-50"/>
+				<Charm Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="354"/>
