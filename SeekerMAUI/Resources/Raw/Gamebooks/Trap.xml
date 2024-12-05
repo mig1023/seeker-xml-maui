@@ -1493,6 +1493,9 @@
 		</Paragraph>
 		<Paragraph No="222">
 			<Text>Можете спокойно выбрать себе место между могилок, поесть и поспать (+25 здоровья), укрывшись тряпьем, которое натаскали для вас местные бродяги. А утром...</Text>
+			<Modifications>
+				<Hitpoints Value="25"/>
+			</Modifications>
 			<Options>
 				<Option Goto="150"/>
 			</Options>
