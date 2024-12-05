@@ -234,6 +234,9 @@
 		</Paragraph>
 		<Paragraph No="29">
 			<Text>Не успев закончить фразу, вы получаете удар промеж ушей (-10 здоровья) и падаете на крыльцо.\n\nПривратник достает нож.</Text>
+			<Modifications>
+				<Hitpoints Value="-10"/>
+			</Modifications>
 			<Options>
 				<Option Goto="32"/>
 			</Options>
