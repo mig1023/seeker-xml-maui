@@ -1040,7 +1040,7 @@
 				<Option Goto="409" Text="Городскую библиотеку">
 					<Text>Если устали, можно пойти поспать...</Text>
 				</Option>
-				<Option Goto="144" Text="В таверну (10 золотых)"/>
+				<Option Goto="144" Text="В таверну (10 золотых)" Availability="ДЕНЬГИ >= 10"/>
 				<Option Goto="205" Text="На городское кладбище"/>
 			</Options>
 		</Paragraph>
@@ -1228,6 +1228,9 @@
 		</Paragraph>
 		<Paragraph No="180">
 			<Text>Специалист: «Благодарим вас за сотрудничество. Вот ваше вознаграждение (+100 золотых). Надеемся в будущем работать с вами». И бла, бла, бла...\n\nВы выходите из конторы со смешанными чувствами.</Text>
+			<Modifications>
+				<Gold Value="100"/>
+			</Modifications>
 			<Options>
 				<Option Goto="181"/>
 			</Options>
