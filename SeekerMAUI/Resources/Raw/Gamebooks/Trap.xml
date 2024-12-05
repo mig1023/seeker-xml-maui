@@ -2704,6 +2704,9 @@
 		</Paragraph>
 		<Paragraph No="461">
 			<Text>Вторая стрела вошла вам в плечо (-25 здоровья). Лидер опять начал перезаряжать арбалет. «Я тебе что, мешок в тире?» — невольно вырвалось у вас. Все трое дружно заржали.</Text>
+			<Modifications>
+				<Hitpoints Value="-25"/>
+			</Modifications>
 			<Options>
 				<Option Goto="462"/>
 			</Options>
