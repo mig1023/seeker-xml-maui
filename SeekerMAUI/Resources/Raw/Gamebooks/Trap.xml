@@ -1937,6 +1937,9 @@
 		</Paragraph>
 		<Paragraph No="285">
 			<Text>Можете взять себе алебарду и почистить карманы стражников (+100 золотых).</Text>
+			<Modifications>
+				<Gold Value="100"/>
+			</Modifications>
 			<Options>
 				<Option Goto="286"/>
 			</Options>
