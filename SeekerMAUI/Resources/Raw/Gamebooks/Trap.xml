@@ -2143,9 +2143,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="317">
-			<Text>«Ох. Отлично! Ты не пожалеешь. Это будет стоить 20 золотых. Деньги вперед».</Text>
+			<Text>«Ох... Отлично! Ты не пожалеешь. Это будет стоить 20 золотых. Деньги вперед».</Text>
 			<Options>
-				<Option Goto="318" Text="Отдать деньги"/>
+				<Option Goto="318" Text="Отдать деньги" Availability="ДЕНЬГИ > 20">
+					<Gold Value="-20"/>
+				</Option>
 				<Option Goto="355" Text="Отказаться"/>
 			</Options>
 		</Paragraph>
