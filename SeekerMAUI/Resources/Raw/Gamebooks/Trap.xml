@@ -2288,6 +2288,7 @@
 			<Modifications>
 				<Karma Value="-50"/>
 				<Charm Value="1"/>
+				<Gold Value="500"/>
 			</Modifications>
 			<Options>
 				<Option Goto="354"/>
