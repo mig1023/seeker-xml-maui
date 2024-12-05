@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 
 namespace SeekerMAUI.Gamebook.Trap
 {
@@ -105,6 +106,22 @@ namespace SeekerMAUI.Gamebook.Trap
             }
 
             return fight;
+        }
+
+        public List<string> RollCoin()
+        {
+            var coin = Game.Dice.Roll() % 2 == 0;
+
+            if (coin)
+            {
+                Game.Buttons.Disable("Выпала решка");
+                return new List<string> { "BIG|BOLD|На монетке выпал ОРЁЛ" };
+            }
+            else
+            {
+                Game.Buttons.Disable("Выпал орел");
+                return new List<string> { "BIG|BOLD|На монетке выпала РЕШКА" };
+            }
         }
     }
 }
