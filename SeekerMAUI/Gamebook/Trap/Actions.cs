@@ -12,8 +12,21 @@ namespace SeekerMAUI.Gamebook.Trap
             $"Сила: {Character.Protagonist.Strength}",
             $"Ловкость: {Character.Protagonist.Skill}",
             $"Обаяние: {Character.Protagonist.Charm}",
-            $"Здоровье: {Character.Protagonist.Hitpoints}/100",
         };
+
+        public override List<string> AdditionalStatus()
+        {
+            var karm = Character.Protagonist.Karma < 0 ? "минус " : String.Empty;
+            var money = Character.Protagonist.Gold;
+            var gold = Game.Services.CoinsNoun(money, "ой", "ых", "ых");
+
+            return new List<string>
+            {
+                $"Здоровье: {Character.Protagonist.Hitpoints}/100",
+                $"Карма: {karm}{Character.Protagonist.Karma}",
+                $"Деньги: {Character.Protagonist.Gold} золот{gold}",
+            };
+        }
 
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
             GameOverBy(Character.Protagonist.Hitpoints, out toEndParagraph, out toEndText);
@@ -49,9 +62,8 @@ namespace SeekerMAUI.Gamebook.Trap
 
         public List<string> Fight()
         {
-            List<string> fight = new List<string>();
-
-            int heroAttack = Character.Protagonist.Strength;
+            var fight = new List<string>();
+            var heroAttack = Character.Protagonist.Strength;
 
             fight.Add($"ВАША АТАКА: Сила = {heroAttack}");
 

@@ -30,6 +30,13 @@ namespace SeekerMAUI.Gamebook.Trap
             set => _charm = Game.Param.Setter(value, _charm, this);
         }
 
+        private int _gold;
+        public int Gold
+        {
+            get => _gold;
+            set => _gold = Game.Param.Setter(value, _gold, this);
+        }
+
         private int _hitpoints;
         public int Hitpoints
         {
@@ -50,6 +57,7 @@ namespace SeekerMAUI.Gamebook.Trap
             Charm = 8;
             Hitpoints = 100;
             Karma = 0;
+            Gold = 0;
 
             Equipment = new List<string>();
         }
@@ -63,10 +71,11 @@ namespace SeekerMAUI.Gamebook.Trap
             Charm = this.Charm,
             Hitpoints = this.Hitpoints,
             Karma = this.Karma,
+            Gold = this.Gold,
         };
 
         public override string Save() => String.Join("|",
-            Strength, Skill, Charm, Hitpoints, Karma, String.Join(";", Equipment));
+            Strength, Skill, Charm, Hitpoints, Karma, Gold, String.Join(";", Equipment));
 
         public override void Load(string saveLine)
         {
@@ -77,8 +86,9 @@ namespace SeekerMAUI.Gamebook.Trap
             Charm = int.Parse(save[2]);
             Hitpoints = int.Parse(save[3]);
             Karma = int.Parse(save[4]);
+            Gold = int.Parse(save[5]);
 
-            Equipment = save[5].Split(';').ToList();
+            Equipment = save[6].Split(';').ToList();
 
             IsProtagonist = true;
         }
