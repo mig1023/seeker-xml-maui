@@ -17,7 +17,7 @@
 		<Buttons>
 			<Fight>Сражаться</Fight>
 			<Luck>Проверить удачу</Luck>
-			<SimpleDice>Проверить удачу</SimpleDice>
+			<RollDice>Бросить кубик</RollDice>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -1724,11 +1724,11 @@
 		<Paragraph No="224">
 			<Text>Придя в себя и почувствовав на себе наездника, жужелица взбесилась: она металась из стороны в сторону и брыкалась не хуже необъезженной лошади. Удастся ли удержаться на ней?</Text>
 			<Actions>
-				<SimpleDice/>
+				<RollDice/>
 			</Actions>
 			<Options>
-				<Option Goto="251" Text="Если у вас выпало 4 и больше"/>
-				<Option Goto="115" Text="Если меньше четырех"/>
+				<Option Goto="251" Text="Если у вас выпало 4 и больше" Tag="More"/>
+				<Option Goto="115" Text="Если меньше четырех" Tag="Less"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="225">
@@ -1920,11 +1920,11 @@
 		</Paragraph>
 		<Paragraph No="249">
 			<Actions>
-				<SimpleDice/>
+				<RollDice/>
 			</Actions>
 			<Options>
-				<Option Goto="93" Text="Если у вас выпало 4 и больше"/>
-				<Option Goto="171" Text="Если меньше четырех"/>
+				<Option Goto="93" Text="Если у вас выпало 4 и больше" Tag="More"/>
+				<Option Goto="171" Text="Если меньше четырех" Tag="Less"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="250">
