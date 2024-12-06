@@ -54,17 +54,22 @@ namespace SeekerMAUI.Gamebook.Trap
 
         public override bool IsButtonEnabled(bool secondButton = false)
         {
-            var isStartSetting = Game.Data.CurrentParagraphID == 1018;
+            var getButton = Type == "Get";
+            var getDecreaseButton = Type == "Get-Decrease";
 
-            if (isStartSetting && secondButton)
+            if (getDecreaseButton && secondButton)
             {
                 return GetProperty(Character.Protagonist, Stat) > 8;
             }
-            else if (isStartSetting && !secondButton)
+            else if (getDecreaseButton && !secondButton)
             {
                 var bonuses = Character.Protagonist.StatBonuses > 0;
                 var max = GetProperty(Character.Protagonist, Stat) >= 12;
                 return bonuses && !max;
+            }
+            else if (getButton)
+            {
+                return Character.Protagonist.StatBonuses > 0;
             }
             else if (Used)
             {
