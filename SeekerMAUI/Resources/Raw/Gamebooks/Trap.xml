@@ -42,7 +42,6 @@
 			</Modifications>
 			<Options>
 				<Option Goto="3"/>
-				<Option Goto="164" Text="TEST"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="2">
