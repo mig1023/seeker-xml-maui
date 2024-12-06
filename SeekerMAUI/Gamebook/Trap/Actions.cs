@@ -36,7 +36,12 @@ namespace SeekerMAUI.Gamebook.Trap
 
         public override List<string> Representer()
         {
-            if (!String.IsNullOrEmpty(Stat))
+            if (Price > 0)
+            {
+                string gold = Game.Services.CoinsNoun(Price, "золотой", "золотых", "золотых");
+                return new List<string> { $"{Head}\n{Price} {gold}" };
+            }
+            else if (!String.IsNullOrEmpty(Stat))
             {
                 var currentStat = GetProperty(Character.Protagonist, Stat);
                 var line = currentStat > 8 ? " (+" + (currentStat - 8) + ")" : String.Empty;
