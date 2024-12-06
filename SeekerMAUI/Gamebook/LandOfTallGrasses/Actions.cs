@@ -56,6 +56,13 @@ namespace SeekerMAUI.Gamebook.LandOfTallGrasses
             return luck;
         }
 
+        public List<string> RollDice()
+        {
+            var dice = Game.Dice.Roll();
+            Game.Buttons.Disable(dice >= 4, "More", "Less");
+            return new List<string> { "BIG|BOLD|На кубике выпало: " + Game.Dice.Symbol(dice) };
+        }
+
         private static bool NoMoreEnemies(List<Character> enemies) =>
             enemies.Where(x => x.Strength > 0).Count() == 0;
 
