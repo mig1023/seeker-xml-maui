@@ -660,7 +660,7 @@ namespace SeekerMAUI
                 MainGrid.ColumnDefinitions[1].Width = 20;
 
                 AdditionalStatusBorder.BackgroundColor = String.IsNullOrEmpty(backgroundColor) ?
-                    Colors.Gray : Color.FromHex(backgroundColor);
+                    Colors.LightGray : Color.FromHex(backgroundColor);
 
                 AdditionalStatus.IsVisible = true;
 
