@@ -923,7 +923,28 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="132">
-			<Text>Вы завершили задание «Деревенский некромант». Прибавьте +1 к любому навыку.</Text>
+			<Text>Вы завершили задание «Деревенский некромант». Прибавьте +1 к любому навыку:</Text>
+			<Actions>
+				<Get>
+					<Button>Добавить</Button>
+					<Head>СИЛА</Head>
+					<Stat>Strength</Stat>
+				</Get>
+				<Get>
+					<Button>Добавить</Button>
+					<Head>ЛОВКОСТЬ</Head>
+					<Stat>Skill</Stat>
+				</Get>
+				<Get>
+					<Button>Добавить</Button>
+					<Head>ОБАЯНИЕ</Head>
+					<Stat>Charm</Stat>
+					<Text>После этого можно и поспать...</Text>
+				</Get>
+			</Actions>
+			<Modifications>
+				<StatBonuses Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="131"/>
 			</Options>
