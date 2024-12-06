@@ -93,7 +93,7 @@ namespace SeekerMAUI
 
             Button button = option as Button;
 
-            var tag = button.BindingContext as string;
+            var tag = button.BindingContext as string ?? String.Empty;
             var disabledByTag = tag.ToUpper() == name.ToUpper();
             var disabledByText = button.Text.ToUpper() == name.ToUpper();
 
