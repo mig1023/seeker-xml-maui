@@ -1,5 +1,4 @@
 ﻿using SeekerMAUI.Game;
-using SeekerMAUI.Gamebook.CreatureOfHavoc;
 using System;
 
 namespace SeekerMAUI.Gamebook.LandOfTallGrasses

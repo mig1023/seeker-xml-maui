@@ -8,11 +8,26 @@ namespace SeekerMAUI.Gamebook.LandOfTallGrasses
         public override void Set(object character) =>
             Protagonist = (Character)character;
 
-        public int Skill { get; set; }
+        private int _skill;
+        public int Skill
+        {
+            get => _skill;
+            set => _skill = Game.Param.Setter(value, _skill, this);
+        }
 
-        public int Strength { get; set; }
+        private int _strength;
+        public int Strength
+        {
+            get => _strength;
+            set => _strength = Game.Param.Setter(value, _strength, this);
+        }
 
-        public int Luck { get; set; }
+        private int _luck;
+        public int Luck
+        {
+            get => _luck;
+            set => _luck = Game.Param.Setter(value, _luck, this);
+        }
 
         public override void Init()
         {
