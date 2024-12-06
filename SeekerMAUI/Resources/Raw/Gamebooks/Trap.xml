@@ -1681,9 +1681,28 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="244">
-			<Text>Вы выполнили квест «Один из темных». +1 к любому вашему навыку и минус 50 кармы. Теперь вы можете есть и ночевать бесплатно в комнате отдыха гильдии.</Text>
+			<Text>Вы выполнили квест «Один из темных». +1 к любому вашему навыку и минус 50 кармы:</Text>
+			<Actions>
+				<Get>
+					<Button>Добавить</Button>
+					<Head>СИЛА</Head>
+					<Stat>Strength</Stat>
+				</Get>
+				<Get>
+					<Button>Добавить</Button>
+					<Head>ЛОВКОСТЬ</Head>
+					<Stat>Skill</Stat>
+				</Get>
+				<Get>
+					<Button>Добавить</Button>
+					<Head>ОБАЯНИЕ</Head>
+					<Stat>Charm</Stat>
+					<Text>Теперь вы можете есть и ночевать бесплатно в комнате отдыха гильдии.</Text>
+				</Get>
+			</Actions>
 			<Modifications>
 				<Karma Value="-50"/>
+				<StatBonuses Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="248" Text="Спросить магистра о работе"/>
