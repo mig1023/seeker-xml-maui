@@ -19,6 +19,11 @@ namespace SeekerMAUI.Gamebook.Trap
                 return action;
             }
 
+            if (xmlAction["Benefit"] != null)
+            {
+                action.Benefit = ModificationParse(xmlAction["Benefit"]);
+            }
+
             if (action.Type != "Fight")
             {
                 return action;

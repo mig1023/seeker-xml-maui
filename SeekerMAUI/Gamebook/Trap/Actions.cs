@@ -182,5 +182,11 @@ namespace SeekerMAUI.Gamebook.Trap
 
         public List<string> Decrease() =>
             ChangeProtagonistParam(Stat, Character.Protagonist, "StatBonuses", decrease: true);
+
+        public override bool IsHealingEnabled() =>
+            Character.Protagonist.Hitpoints < 100;
+
+        public override void UseHealing(int healingLevel) =>
+            Character.Protagonist.Hitpoints += healingLevel;
     }
 }
