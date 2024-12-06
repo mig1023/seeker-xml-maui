@@ -24,7 +24,7 @@ namespace SeekerMAUI.Gamebook.AdventuresOfABeardlessDeceiver
             else if (!String.IsNullOrEmpty(Stat))
             {
                 int currentStat = GetProperty(Character.Protagonist, Stat);
-                string count = Game.Services.CoinsNoun(currentStat - 1, "единица", "единицы", "единицы");
+                string count = Game.Services.CoinsNoun(currentStat - 1, "единица", "единицы", "единиц");
                 string diffLine = currentStat > 1 ? $"\n+{currentStat - 1} {count}" : String.Empty;
 
                 return new List<string> { $"{Head}{diffLine}" };
