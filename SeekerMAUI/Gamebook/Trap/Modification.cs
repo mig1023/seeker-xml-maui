@@ -10,6 +10,11 @@ namespace SeekerMAUI.Gamebook.Trap
             {
                 Character.Protagonist.Equipment.Add(ValueString);
             }
+            else if (Name == "StrengthAndSkill")
+            {
+                Character.Protagonist.Strength += 2;
+                Character.Protagonist.Skill += 2;
+            }
             else
             {
                 base.Do(Character.Protagonist);
