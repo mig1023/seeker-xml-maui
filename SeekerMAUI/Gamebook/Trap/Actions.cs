@@ -62,7 +62,15 @@ namespace SeekerMAUI.Gamebook.Trap
             var getButton = Type == "Get";
             var getDecreaseButton = Type == "Get-Decrease";
 
-            if (getDecreaseButton && secondButton)
+            if ((Price > 0) && Used)
+            {
+                return false;
+            }
+            else if (Price > 0)
+            {
+                return Character.Protagonist.Gold >= Price;
+            }
+            else if (getDecreaseButton && secondButton)
             {
                 return GetProperty(Character.Protagonist, Stat) > 8;
             }
