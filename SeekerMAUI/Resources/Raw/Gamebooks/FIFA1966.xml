@@ -116,5 +116,11 @@
 				<Option Goto="41" Text="Матч окончен"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="13">
+			<Text>Удар из-за пределов штрафной, но далеко в сторону от ворот.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
