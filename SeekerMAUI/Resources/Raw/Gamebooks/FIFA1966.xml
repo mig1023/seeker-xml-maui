@@ -337,5 +337,11 @@
 				<Option Goto="25" Text="МЫ - ЧЕМПИОНЫ!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="42">
+			<Text>Дальний удар, но его уверенно парирует наш вратарь!</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
