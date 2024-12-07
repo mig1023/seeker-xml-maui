@@ -856,5 +856,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="100">
+			<Text>Опасный, опаснейший удар по воротам сборной Советского Союза!\n\nНаш вратарь на высоте!</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
