@@ -302,5 +302,14 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="37">
+			<Text>37.</Text>
+			<Options>
+				<Option Goto="53" Text="Теперь нам предстоит побороться за бронзовые медали"/>
+				<Option Goto="112" Text="Сборная СССР завоевала серебряные медали"/>
+				<Option Goto="103" Text="К сожалению, команда СССР покидает команду после первого же тура"/>
+				<Option Goto="8" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
