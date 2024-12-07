@@ -669,5 +669,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="76">
+			<Text>Дальний удар! Мяч летит прямо в угол - но, увы, задевает кого-то из игроков и пролетает далеко в стороне от ворот.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
