@@ -745,5 +745,11 @@
 				<Option Goto="39" Text="Против кого послабее"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="85">
+			<Text>Опасный удар со штрафного! Но наш голкипер успешно предотвращает угрозу воротам.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
