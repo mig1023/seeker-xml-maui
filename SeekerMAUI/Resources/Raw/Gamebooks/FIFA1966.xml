@@ -85,5 +85,11 @@
 				<Option Goto="33" Text="Сборная СССР покидает чемпионат мира"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="9">
+			<Text>Опасный момент, но увы, никто из наших футболистов не среагировал как надо...</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
