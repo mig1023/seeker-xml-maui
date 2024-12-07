@@ -186,5 +186,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="24">
+			<Text>Опасный момент у ворот соперников!! Выход один на один... Но увы, полуметра не хватило нашему игроку...</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
