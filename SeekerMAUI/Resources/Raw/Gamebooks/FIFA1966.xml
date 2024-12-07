@@ -645,5 +645,11 @@
 				<Option Goto="113" Text="Поставить на дальние удары, стандартные положения и внезапные передвижения игроков атаки"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="72">
+			<Text>Опасный момент у ворот сборной СССР!\n\nК счастью, все кончилось удачно!</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
