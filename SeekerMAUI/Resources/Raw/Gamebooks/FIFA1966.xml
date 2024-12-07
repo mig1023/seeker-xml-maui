@@ -311,5 +311,11 @@
 				<Option Goto="8" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="38">
+			<Text>Ах, какой неприятный момент! К счастью для сборной СССР, мяч миновал ворота...</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
