@@ -27,5 +27,12 @@
 				<Option Goto="83" Text="Умелец раскрывать таланты игроков"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="2">
+			<Text>Итак, капитаны команд и судья отправляются под трибуны, дабы там жребием решить исход матча.\n\nЧто вы посоветуете выбрать своему капитану?</Text>
+			<Options>
+				<Option Goto="114" Text="Орла"/>
+				<Option Goto="114" Text="Решку"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
