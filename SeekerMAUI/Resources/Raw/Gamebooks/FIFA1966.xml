@@ -404,5 +404,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="52">
+			<Text>Добро пожаловать в Англию!\n\nВас приветствует лев Вилли, символ турнира.</Text>
+			<Options>
+				<Option Goto="94" Text="Проследовать к месту проведения матчей"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
