@@ -152,5 +152,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="19">
+			<Text>Воспользовавшись неудачной игрой вратаря соперников, наша команда забивает гол. Оппоненты апеллируют к судье, утверждая, что было нападение на вратаря - но безрезультатно.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
