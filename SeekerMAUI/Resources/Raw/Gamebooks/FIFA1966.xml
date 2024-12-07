@@ -826,5 +826,11 @@
 				<Option Goto="98" Text="Выйти поскорее на тренировку"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="95">
+			<Text>Ах, какой момент! Лишь волнение не позволило игроку команды соперника завершить комбинацию точным ударом.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
