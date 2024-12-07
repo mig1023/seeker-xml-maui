@@ -657,5 +657,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="74">
+			<Text>Подача углового, однако особой опасности удар по воротам не представлял...</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
