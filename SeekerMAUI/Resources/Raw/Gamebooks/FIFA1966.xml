@@ -795,5 +795,11 @@
 				<Option Goto="53" Text="Мы dsikb d aby"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="90">
+			<Text>Атака на ворота сборной СССР, но, к счастью, защита сыграла уверенно.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
