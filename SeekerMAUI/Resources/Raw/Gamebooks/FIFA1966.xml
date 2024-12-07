@@ -330,5 +330,12 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="41">
+			<Text>41.</Text>
+			<Options>
+				<Option Goto="112" Text="Сборная СССР завоевала серебряные медали!"/>
+				<Option Goto="25" Text="МЫ - ЧЕМПИОНЫ!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
