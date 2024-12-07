@@ -140,5 +140,11 @@
 				<Option Goto="119" Text="Команды вот-вот выйдут на поле"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="17">
+			<Text>Опаснейший момент у ворот сборной Советского Союза!\n\nПросто чудом мяч не оказался в сетке!!</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
