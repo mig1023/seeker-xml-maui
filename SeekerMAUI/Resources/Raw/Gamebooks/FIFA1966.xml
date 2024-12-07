@@ -936,5 +936,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="109">
+			<Text>Вот сейчас мяч вполне мог оказаться в сетке ворот нашей команды.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
