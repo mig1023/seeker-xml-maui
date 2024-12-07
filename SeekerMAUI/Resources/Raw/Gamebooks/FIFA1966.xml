@@ -711,5 +711,11 @@
 				<Option Goto="21" Text="Жаль"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="81">
+			<Text>Гол! Мяч влетает в ворота наших соперников!</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
