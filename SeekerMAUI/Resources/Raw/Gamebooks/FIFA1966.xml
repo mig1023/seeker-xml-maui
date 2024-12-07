@@ -918,5 +918,11 @@
 				<Option Goto="29" Text="Посмотрев на противника в деле, вы вдруг отчетливо видите, чем его пронять"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="106">
+			<Text>Атака на ворота нашей сборной, опасный момент - но наш вратарь на высоте!</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
