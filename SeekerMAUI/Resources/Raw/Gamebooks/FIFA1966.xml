@@ -236,5 +236,17 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="29">
+			<Text>Советская команда атакует\n\nСоветская команда играет в эти минуты от обороны\n\nСоветская команда ищет удачи у ворот противника\n\nСоветская команда держится своих ворот\n\nКоманда явно восприняла то, что вы ей сказали в перерыве\n\nКоманда явно восприняла то, что вы ей сказали в перерыве</Text>
+			<Options>
+				<Option Goto="32" Text="!"/>
+				<Option Goto="77" Text="!"/>
+				<Option Goto="27" Text="!"/>
+				<Option Goto="7" Text="!"/>
+				<Option Goto="69" Text="!"/>
+				<Option Goto="102" Text="!"/>
+				<Option Goto="70" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
