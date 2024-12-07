@@ -174,5 +174,11 @@
 				<Option Goto="66" Text="Следим за ходом игры"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="22">
+			<Text>Может быть опасно... Но защитник нашей команды уверенно разряжает обстановку...</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
