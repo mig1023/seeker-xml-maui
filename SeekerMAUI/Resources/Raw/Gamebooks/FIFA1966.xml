@@ -870,5 +870,21 @@
 				<Option Goto="113" Text="Ведущим игрокам отрядим опекунов, а играть будем в свою игру, пусть противник приспосабливается"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="102">
+			<Text>Сборная СССР в атаке!\n\nОппоненты атакуют!\n\nНа поле идет позиционная борьба без преимущества одной из команд.</Text>
+			<Options>
+				<Option Goto="78" Text="!"/>
+				<Option Goto="6" Text="!"/>
+				<Option Goto="76" Text="!"/>
+				<Option Goto="129" Text="!"/>
+				<Option Goto="74" Text="!"/>
+				<Option Goto="34" Text="!"/>
+				<Option Goto="31" Text="!"/>
+				<Option Goto="28" Text="!"/>
+				<Option Goto="88" Text="!"/>
+				<Option Goto="99" Text="!"/>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
