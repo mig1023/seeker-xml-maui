@@ -832,5 +832,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="96">
+			<Text>Ох, какая ошибка защитника! Нет, и пас тоже отличный, и технику игрок соперника продемонстрировал прекрасный, но без этой ошибки, вероятно, гол бы не был возможен...</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
