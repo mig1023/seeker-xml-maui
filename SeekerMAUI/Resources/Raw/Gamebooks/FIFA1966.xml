@@ -256,5 +256,11 @@
 				<Option Goto="113" Text="Каждый жесткий прием противника должен быть доведен до сведения судьи"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="31">
+			<Text>Дальний удар, но совсем в сторону от ворот</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
