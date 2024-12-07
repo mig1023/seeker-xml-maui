@@ -705,5 +705,11 @@
 				<Option Goto="113" Text="Играем в свою игру, и предельно внимательно следим за оппонентами"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="80">
+			<Text>Дальний удар игрока сборной СССР - но прямо в руки вратарю!</Text>
+			<Options>
+				<Option Goto="21" Text="Жаль"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
