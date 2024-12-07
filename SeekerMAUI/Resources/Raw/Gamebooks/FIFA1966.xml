@@ -472,5 +472,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="60">
+			<Text>Сборная СССР опасно атакует... Но ей чуть-чуть не хватает удачи...</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
