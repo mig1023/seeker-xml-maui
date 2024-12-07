@@ -410,5 +410,17 @@
 				<Option Goto="94" Text="Проследовать к месту проведения матчей"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="53">
+			<Text>Команды покидают поле...</Text>
+			<Options>
+				<Option Goto="52" Text="!"/>
+				<Option Goto="15" Text="!"/>
+				<Option Goto="16" Text="!"/>
+				<Option Goto="14" Text="!"/>
+				<Option Goto="121" Text="!"/>
+				<Option Goto="8" Text="!"/>
+				<Option Goto="12" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
