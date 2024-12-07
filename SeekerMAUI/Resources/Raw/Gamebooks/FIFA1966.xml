@@ -284,5 +284,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="34">
+			<Text>Отлично играет наш голкипер!</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
