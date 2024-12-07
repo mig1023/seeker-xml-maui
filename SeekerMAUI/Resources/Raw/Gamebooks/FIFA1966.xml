@@ -180,5 +180,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="23">
+			<Text>Отличный прострел вдоль ворот!\n\nНо, к сожалению, никто из игроков советской команды не сумел завершить усилия партнеров...</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
