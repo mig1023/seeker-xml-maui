@@ -1,0 +1,29 @@
+<Gamebook>
+	<Introduction>
+		<Copyright>
+			<Title>1966</Title>
+			<Author>Владимир Носов, 2023</Author>
+		</Copyright>
+		<Styles>
+			<Main Value="ea0001"/>
+			<Color Name="System, Option, Continue" Value="161de9"/>
+		</Styles>
+		<Default>
+			<HideDisabledOption/>
+		</Default>
+	</Introduction>
+	<Paragraphs>
+		<Paragraph No="0">
+			<Text>Год 1966.\n\nСборная Советского Союза, победитель Олимпиады-1956, чемпионата Европы-1960 и финалист чемпионата Европы-1964, готовится к чемпионату мира 1966 года, который пройдет в Англии.\n\nВам предстоит руководить командой в этих ответственных матчах.</Text>
+			<Options>
+				<Start Goto="1"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="1">
+			<Text>END</Text>
+			<Options>
+				<Option Goto="0"/>
+			</Options>
+		</Paragraph>
+	</Paragraphs>
+</Gamebook>

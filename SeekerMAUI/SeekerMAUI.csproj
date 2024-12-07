@@ -81,6 +81,7 @@
 	  <None Remove="Resources\Images\Cover\deathofantiquary.jpg" />
 	  <None Remove="Resources\Images\Cover\dzungarwar.jpg" />
 	  <None Remove="Resources\Images\Cover\faithfulswordoftheking.jpg" />
+	  <None Remove="Resources\Images\Cover\fifa1966.jpg" />
 	  <None Remove="Resources\Images\Cover\genesis.jpg" />
 	  <None Remove="Resources\Images\Cover\goingtolaughter.jpg" />
 	  <None Remove="Resources\Images\Cover\heartofice.jpg" />
@@ -290,6 +291,7 @@
 	  <MauiImage Include="Resources\Images\Cover\deathofantiquary.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\dzungarwar.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\faithfulswordoftheking.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\fifa1966.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\genesis.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\goingtolaughter.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\heartofice.jpg" />

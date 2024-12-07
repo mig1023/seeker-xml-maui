@@ -1080,4 +1080,15 @@
 		<Setting>Фэнтези</Setting>
 		<Color>151515</Color>
 	</Trap>
+	<FIFA1966>
+		<Title>1966</Title>
+		<Author>Владимир Носов</Author>
+		<Year>2023</Year>
+		<Text>Сборная СССР по футболу готовится выступить на чемпионате мира 1966 года. Каким он станет для нее? Многое зависит от тренера, многое от игроков, очень многое от взаимодействия первого и вторых, и кое-что от воли случая.</Text>
+		<Paragraphs>1</Paragraphs>
+		<Size>1</Size>
+		<Playthrough>На полчаса</Playthrough>
+		<Setting>Спорт</Setting>
+		<Color>ea0001</Color>
+	</FIFA1966>
 </Gamebooks>
