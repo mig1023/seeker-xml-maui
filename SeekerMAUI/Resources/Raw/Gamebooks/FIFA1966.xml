@@ -599,5 +599,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="68">
+			<Text>Спорный момент в штрафной нашей сборной. Соперники требуют пенальти - но судья непреклонен.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
