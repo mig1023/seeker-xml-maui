@@ -850,5 +850,11 @@
 				<Option Goto="119" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="99">
+			<Text>Опасный момент... Но все под контролем у советских футболистов!</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
