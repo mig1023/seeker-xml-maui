@@ -366,5 +366,11 @@
 				<Option Goto="104" Text="Он исправится, я беру это на себя"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="46">
+			<Text>Опасная подача в штрафную, однако наш вратарь начеку!</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
