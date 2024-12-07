@@ -105,5 +105,16 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="12">
+			<Text>Сборная СССР одержала победу!\n\nСборная СССР потерпела поражение\n\nНичья</Text>
+			<Options>
+				<Option Goto="2" Text="Переходим к последнему способу определить победителя, а именно жребию"/>
+				<Option Goto="21" Text="Дополнительное время!"/>
+				<Option Goto="65" Text="Матч окончен"/>
+				<Option Goto="3" Text="Матч окончен"/>
+				<Option Goto="126" Text="Матч окончен"/>
+				<Option Goto="41" Text="Матч окончен"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
