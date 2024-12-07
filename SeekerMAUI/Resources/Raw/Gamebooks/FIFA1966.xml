@@ -324,5 +324,11 @@
 				<Option Goto="35" Text="Поездку в Западную Европу, игры с Бельгией и Францией"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="40">
+			<Text>Наши футболисты пытаются использовать дальние удары. Однако не всегда эффективно...</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
