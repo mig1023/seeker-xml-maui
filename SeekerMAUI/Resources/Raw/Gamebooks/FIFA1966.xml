@@ -99,5 +99,11 @@
 				<Option Goto="113" Text="Ведущим игрокам отрядим опекунов, а играть будем в свою игру, пусть противник приспосабливается"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="11">
+			<Text>...и мяч влетает в ворота сборной Советского Союза.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
