@@ -430,5 +430,11 @@
 				<Option Goto="113" Text="Предписать защитникам действовать коллективно и по обстоятельствам"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="55">
+			<Text>Хорошая атака советских футболистов!\n\nНо мяч оказывается в руках у голкипера.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
