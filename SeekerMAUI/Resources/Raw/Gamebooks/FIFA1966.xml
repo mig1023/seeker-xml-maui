@@ -380,5 +380,11 @@
 				<Option Goto="113" Text="Играем в свою игру, и предельно внимательно следим за оппонентами"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="48">
+			<Text>Прекрасно играет наш вратарь, пресекая атаку оппонентов.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
