@@ -296,5 +296,11 @@
 				<Option Goto="119" Text="Матч вот-вот начнется"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="36">
+			<Text>Отличный дальний удар, но начеку голкипер команды соперника</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
