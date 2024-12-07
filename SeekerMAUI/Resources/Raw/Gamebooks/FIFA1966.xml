@@ -813,5 +813,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="93">
+			<Text>Наш форвард рискнул нанести удар с острого угла, но не рассчитал свои силы.</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
