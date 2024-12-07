@@ -621,5 +621,21 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="70">
+			<Text>Сборная СССР в атаке!\n\nОппоненты атакуют!\n\nНа поле идет позиционная борьба без преимущества одной из команд.</Text>
+			<Options>
+				<Option Goto="23" Text="!"/>
+				<Option Goto="97" Text="!"/>
+				<Option Goto="36" Text="!"/>
+				<Option Goto="123" Text="!"/>
+				<Option Goto="9" Text="!"/>
+				<Option Goto="108" Text="!"/>
+				<Option Goto="128" Text="!"/>
+				<Option Goto="49" Text="!"/>
+				<Option Goto="92" Text="!"/>
+				<Option Goto="122" Text="!"/>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
