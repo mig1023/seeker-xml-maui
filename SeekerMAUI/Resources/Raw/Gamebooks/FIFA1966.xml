@@ -448,7 +448,7 @@
 				<Option Goto="45" Text="Да"/>
 				<Option Goto="45" Text="Нет"/>
 				<Option Goto="45" Text="Будете настаивать"/>
-				<Option Goto="45" Text="Отложите вопрос "на потом""/>
+				<Option Goto="45" Text="Отложите вопрос «на потом»"/>
 				<Option Goto="45" Text="Попробуете их реализовать в периферийном клубе"/>
 			</Options>
 		</Paragraph>
@@ -1069,6 +1069,12 @@
 		</Paragraph>
 		<Paragraph No="128">
 			<Text>Дальний удар по воротам нашей команды, но неопасный...</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="129">
+			<Text>Хлесткий удар - но мимо ворот...</Text>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
