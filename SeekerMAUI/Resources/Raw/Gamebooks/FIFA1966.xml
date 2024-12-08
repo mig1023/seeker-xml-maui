@@ -966,5 +966,11 @@
 				<Option Goto="119" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="114">
+			<Text>Итак, судья и капитаны появляются из-под трибуны\n\nВыпал орел\n\nВыпала решка\n\nМы победили!!\n\nУвы нам...</Text>
+			<Options>
+				<Option Goto="12" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
