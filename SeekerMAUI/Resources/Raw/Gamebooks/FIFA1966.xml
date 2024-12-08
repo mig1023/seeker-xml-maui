@@ -1002,5 +1002,11 @@
 				<Option Goto="113" Text="Предписать защитникам действовать коллективно и по обстоятельствам"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="118">
+			<Text>Сборная СССР забивает гол!</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
