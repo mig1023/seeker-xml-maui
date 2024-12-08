@@ -1030,5 +1030,11 @@
 				<Option Goto="82" Text="Следующий поединок, последний на групповом этапе"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="122">
+			<Text>Мяч влетает в сетку ворот советской команды</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
