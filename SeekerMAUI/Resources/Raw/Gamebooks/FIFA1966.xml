@@ -40,8 +40,12 @@
 		<Paragraph No="2">
 			<Text>Итак, капитаны команд и судья отправляются под трибуны, дабы там жребием решить исход матча.\n\nЧто вы посоветуете выбрать своему капитану?</Text>
 			<Options>
-				<Option Goto="114" Text="Орла"/>
-				<Option Goto="114" Text="Решку"/>
+				<Option Goto="114" Text="Орла">
+					<Set Path="орел-решка" Value="1"/>
+				</Option>
+				<Option Goto="114" Text="Решку">
+					<Set Path="орел-решка" Value="2"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="3">
