@@ -1008,5 +1008,15 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="119">
+			<Text>119.</Text>
+			<Options>
+				<Option Goto="21" Text="Мы будем искать счастья у чужих ворот"/>
+				<Option Goto="21" Text="Мы будем играть от обороны"/>
+				<Option Goto="21" Text="Применим резкие смены темпа"/>
+				<Option Goto="21" Text="Начинаем осторожно и действуем по обстоятельствам"/>
+				<Option Goto="21" Text="Если хорошенько сесть и подумать, проработать и учесть все детали, то... пожалуй, мы получим заметное преимущество"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
