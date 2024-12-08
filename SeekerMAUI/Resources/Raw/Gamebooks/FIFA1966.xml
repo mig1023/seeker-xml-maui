@@ -1018,5 +1018,11 @@
 				<Option Goto="21" Text="Если хорошенько сесть и подумать, проработать и учесть все детали, то... пожалуй, мы получим заметное преимущество"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="120">
+			<Text>Удар! И мяч оказывается в воротах советской команды...</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
