@@ -1061,5 +1061,11 @@
 				<Option Goto="58" Text="Сборная СССР завоевала бронзовые медали"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="127">
+			<Text>Прорыв, передача в центр, удар головой!\n\nМяч в воротах!</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
