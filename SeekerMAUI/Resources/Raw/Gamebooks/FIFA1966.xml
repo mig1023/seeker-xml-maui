@@ -1054,5 +1054,12 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="126">
+			<Text>126.</Text>
+			<Options>
+				<Option Goto="73" Text="Сборная СССР заняла почетное четвертое место"/>
+				<Option Goto="58" Text="Сборная СССР завоевала бронзовые медали"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
