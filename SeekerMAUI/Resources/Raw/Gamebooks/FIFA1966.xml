@@ -1036,5 +1036,11 @@
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="123">
+			<Text>Дальний удар, но выше ворот</Text>
+			<Options>
+				<Option Goto="21" Text="!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
