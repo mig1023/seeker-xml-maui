@@ -25,7 +25,7 @@ namespace SeekerMAUI.Gamebook.SeaTales
 
         private static Dictionary<int, IParts> Parts = new Dictionary<int, IParts>();
 
-        public IParts NewPart(int part)
+        private IParts NewPart(int part)
         {
             switch(part)
             {
