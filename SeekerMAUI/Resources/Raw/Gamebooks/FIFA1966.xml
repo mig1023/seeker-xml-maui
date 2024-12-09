@@ -142,6 +142,9 @@
 		</Paragraph>
 		<Paragraph No="11">
 			<Text>...и мяч влетает в ворота сборной Советского Союза.</Text>
+			<Modifications>
+				<Add Path="расходники/вороги" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
