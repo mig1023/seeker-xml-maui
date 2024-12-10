@@ -79,6 +79,7 @@
 	  <None Remove="Resources\Images\Cover\damanskiy.jpg" />
 	  <None Remove="Resources\Images\Cover\dangerfrombehindthesnowwall.jpg" />
 	  <None Remove="Resources\Images\Cover\deathofantiquary.jpg" />
+	  <None Remove="Resources\Images\Cover\diversant.jpg" />
 	  <None Remove="Resources\Images\Cover\dzungarwar.jpg" />
 	  <None Remove="Resources\Images\Cover\faithfulswordoftheking.jpg" />
 	  <None Remove="Resources\Images\Cover\fifa1966.jpg" />
@@ -289,6 +290,7 @@
 	  <MauiImage Include="Resources\Images\Cover\damanskiy.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\dangerfrombehindthesnowwall.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\deathofantiquary.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\diversant.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\dzungarwar.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\faithfulswordoftheking.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\fifa1966.jpg" />

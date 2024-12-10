@@ -1,0 +1,29 @@
+<Gamebook>
+	<Introduction>
+		<Copyright>
+			<Title>Диверсант</Title>
+			<Author>Павел Горохов, 2010</Author>
+		</Copyright>
+		<Styles>
+			<Main Value="4b5320"/>
+			<Continue Value="5d6436"/>
+			<System Value="434a1c"/>
+			<Background Value="708238"/>
+			<Color Name="Font, SystemFontt" Value="d4d9c3"/>
+		</Styles>
+	</Introduction>
+	<Paragraphs>
+		<Paragraph No="0">
+			<Text>START</Text>
+			<Options>
+				<Start Goto="1"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="1">
+			<Text>END</Text>
+			<Options>
+				<Option Goto="0"/>
+			</Options>
+		</Paragraph>
+	</Paragraphs>
+</Gamebook>
