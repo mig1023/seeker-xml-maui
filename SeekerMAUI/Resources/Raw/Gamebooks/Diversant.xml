@@ -443,5 +443,11 @@
 				<Option Goto="64" Text="Ich werde dir die Zigarette geben, nachdem ich die rote Fahne uber Rejchstagom aufpflanzen werde"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="61">
+			<Text>Прямолинейности вам не занимать. Немец опешил от такого ответа. Он никак не ожидал услышать: «русский диверсант идет». Но он моментально пришел в себя и нажал на курок автомата.</Text>
+			<Options>
+				<Option Goto="9"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
