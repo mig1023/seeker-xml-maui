@@ -740,5 +740,11 @@
 				<Option Goto="98"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="106">
+			<Text>Вы крадетесь к следующему дому. Стоп! Впереди двое немцев с собаками. Патруль. Лучше вернуться пока вас не заметили.</Text>
+			<Options>
+				<Option Goto="74"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
