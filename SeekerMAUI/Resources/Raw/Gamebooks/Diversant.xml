@@ -508,5 +508,11 @@
 				<Option Goto="9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="71">
+			<Text>Вы кидаетесь к окну. Слишком поздно. Немцы сомкнули кольцо. Вы начинаете отстреливаться. Они подходят все ближе. Что же делать?!</Text>
+			<Options>
+				<Option Goto="72"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
