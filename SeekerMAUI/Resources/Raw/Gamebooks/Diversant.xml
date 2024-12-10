@@ -674,5 +674,13 @@
 				<Option Goto="96" Text="Пойдете дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="96">
+			<Text>Вы толкаете пленника в спину, чтобы он шел быстрее. Кажется, никакого подходящего транспорта больше нет.</Text>
+			<Options>
+				<Option Goto="89" Text="Пойдете пешком"/>
+				<Option Goto="94" Text="Вернетесь к легковому автомобилю"/>
+				<Option Goto="97" Text="Вернетесь к грузовику"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
