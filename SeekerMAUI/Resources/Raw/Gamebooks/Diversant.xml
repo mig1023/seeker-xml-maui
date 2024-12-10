@@ -701,5 +701,11 @@
 				<Option Goto="2"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="100">
+			<Text>На полном ходу вы врезаетесь в грузовик. Обе машины разбиты. Вы ударились головой и потеряли сознание.</Text>
+			<Options>
+				<Option Goto="91"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
