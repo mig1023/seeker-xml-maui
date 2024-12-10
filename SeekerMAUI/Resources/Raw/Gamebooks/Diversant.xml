@@ -435,5 +435,13 @@
 				<Option Goto="9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="60">
+			<Text>«Свои! Я из хозподразделения», - отвечаете вы немцу. Он заметно расслабился и отвел от вас ствол автомата в сторону.\n\n«Sie bewirten Sie mich von der Zigarette nicht?» - снова спросил немец. Слово за вами.</Text>
+			<Options>
+				<Option Goto="62" Text="Bleibe zuruck! Das deutsche Schwein!"/>
+				<Option Goto="63" Text="Verzeihen Sie. Ich rauche nicht"/>
+				<Option Goto="64" Text="Ich werde dir die Zigarette geben, nachdem ich die rote Fahne uber Rejchstagom aufpflanzen werde"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
