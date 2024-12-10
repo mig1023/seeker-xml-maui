@@ -653,5 +653,12 @@
 				<Option Goto="2"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="93">
+			<Text>За углом стоит легковой немецкий автомобиль. Кажется, рядом никого.</Text>
+			<Options>
+				<Option Goto="94" Text="Воспользуетесь им"/>
+				<Option Goto="95" Text="Поищите что-нибудь другое"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
