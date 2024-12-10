@@ -514,5 +514,11 @@
 				<Option Goto="72"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="72">
+			<Text>Первая пуля бьет вас в плечо. Вторая - в грудь. Вы падаете на пол и теряете сознание. Хуже смерти для вас мог быть только немецкий плен.</Text>
+			<Options>
+				<Option Goto="77"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
