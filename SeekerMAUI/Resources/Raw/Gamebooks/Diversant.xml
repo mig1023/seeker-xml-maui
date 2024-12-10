@@ -714,5 +714,12 @@
 				<Option Goto="106" Text="Пойдете дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="102">
+			<Text>Вы подходите к двери и дергаете дверную ручку. Заперто.</Text>
+			<Options>
+				<Option Goto="103" Text="Влезете в окно"/>
+				<Option Goto="106" Text="Пойдете дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
