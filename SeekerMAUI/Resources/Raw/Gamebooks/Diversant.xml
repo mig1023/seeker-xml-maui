@@ -535,5 +535,13 @@
 				<Option Goto="44" Text="Вернетесь на лесную развилку"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="75">
+			<Text>Подкравшись к сараю, вы замечаете тянущиеся по земле к нему несколько проводов. Похоже, они идут сюда от церкви. Внутри слышны голоса.</Text>
+			<Options>
+				<Option Goto="78" Text="Ворветесь в сарай"/>
+				<Option Goto="79" Text="Заглянете в щель"/>
+				<Option Goto="74" Text="Вернетесь назад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
