@@ -122,5 +122,13 @@
 				<Option Goto="2" Text="Вернетесь на развилку"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="15">
+			<Text>И все-таки отечественный пистолет-пулемет Шпагина вам ближе. Оставив МП-40 рядом с убитым немцем, вы идете дальше.</Text>
+			<Options>
+				<Option Goto="12" Text="Осмотрите стоянку машин"/>
+				<Option Goto="16" Text="Пойдете дальше по дороге"/>
+				<Option Goto="2" Text="Вернетесь на развилку"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
