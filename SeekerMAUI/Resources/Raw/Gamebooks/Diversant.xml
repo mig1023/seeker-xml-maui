@@ -399,5 +399,11 @@
 				<Option Goto="44" Text="Вы возвращаетесь на развилку"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="55">
+			<Text>«Привет! Я тут мимо проходил...» - не успев договорить, вы падаете на землю, изрешеченный пулями.\n\nИдти прямо напролом - было не самой лучшей идеей.</Text>
+			<Options>
+				<Option Goto="9"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
