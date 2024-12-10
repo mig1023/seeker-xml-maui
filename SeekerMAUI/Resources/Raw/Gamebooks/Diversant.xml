@@ -421,5 +421,13 @@
 				<Option Goto="68" Text="Попытаетесь освободить людей"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="58">
+			<Text>«Stehe! Wer geht?» - часовой внимательно осматривает вас с ног до головы. Хорошо, что вы догадались надеть форму убитого немца. Но с этим все нормально. А вот на немецкий язык нужно было получше налегать в разведшколе. Кажется, он сказал что-то вроде: «Стой! Кто идет?». Что вы ответите ему?</Text>
+			<Options>
+				<Option Goto="59" Text="Wer ist notwendig, jener und geht"/>
+				<Option Goto="60" Text="Die! Ich aus der wirtschaftlichen Gliederung"/>
+				<Option Goto="61" Text="Der russische Diversant"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
