@@ -608,5 +608,11 @@
 				<Option Goto="101" Text="Пойдете дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="86">
+			<Text>86.</Text>
+			<Options>
+				<Option Goto="76"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
