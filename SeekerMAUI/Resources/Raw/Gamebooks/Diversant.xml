@@ -641,5 +641,11 @@
 				<Option Goto="91"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="91">
+			<Text>Фашисты долго пытают вас. Но им так и не удается узнать ни цели вашего задания, ни о планах военного командования. Вы геройски погибаете от мук, не сказав им ни слова</Text>
+			<Options>
+				<Option Goto="9"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
