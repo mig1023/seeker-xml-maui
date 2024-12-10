@@ -405,5 +405,12 @@
 				<Option Goto="9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="56">
+			<Text>Вы поворачиваете в сторону церкви. Кажется, что-то блеснуло в свете луны на куполе, рядом с крестом. Впрочем, может быть вам и показалось.\n\nДорога огибает церковь и уходит на задний двор.</Text>
+			<Options>
+				<Option Goto="69" Text="Пойдете к церкви"/>
+				<Option Goto="57" Text="Обойдете ее"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
