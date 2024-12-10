@@ -689,5 +689,11 @@
 				<Option Goto="99" Text="Свернете в лес"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="98">
+			<Text>Хотя почему без разведданных?! Вы суете руку запазуху. Внутри все похолодело. Карты нет! Похоже, вы потеряли ее во время погони. Придется вернуться.</Text>
+			<Options>
+				<Option Goto="2"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
