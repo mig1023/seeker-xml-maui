@@ -429,5 +429,11 @@
 				<Option Goto="61" Text="Der russische Diversant"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="59">
+			<Text>«Кто надо, тот и идет», - отвечаете вы ему. Опрометчиво было так грубить. Немец приказывает вам поднять руки вверх. Вы вскидываете автомат, но не успеваете сделать ни единого выстрела.</Text>
+			<Options>
+				<Option Goto="9"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
