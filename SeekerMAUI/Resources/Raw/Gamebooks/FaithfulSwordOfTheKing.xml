@@ -4795,7 +4795,7 @@
 			<Options>
 				<Option Goto="38" Text="У вас есть пистолет"/>
 				<Option Goto="447" Text="У вас есть два пистолета" Availability="TwoPistols">
-					<Text>Если нет или не хотите ими пользоваться - придётся драться...</Text>
+					<Text>Если нет или не хотите ими пользоваться — придётся драться...</Text>
 				</Option>
 				<Option Goto="381"/>
 			</Options>
