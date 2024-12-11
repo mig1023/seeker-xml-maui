@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
-using Android.Net.Http;
 using SeekerMAUI.Game;
 
 namespace SeekerMAUI.Gamebook.PresidentSimulator
