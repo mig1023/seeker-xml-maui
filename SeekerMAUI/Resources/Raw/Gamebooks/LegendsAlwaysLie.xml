@@ -1726,7 +1726,7 @@
 				<Option Goto="143" Text="У вас записано слово «посох»" Availability="Staff">
 					<Text>Иначе, выбраться вам не удастся, и зловонная жижа неумолимо засосет вас...</Text>
 				</Option>
-				<Option Goto="0" Availability="!Staff"/>
+				<Gameover Availability="!Staff"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="167">
@@ -2466,7 +2466,7 @@
 					<Button>Реагируйте в третий раз</Button>
 					<Text>Если хоть раз не успеете — останетесь в пещере навсегда...</Text>
 				</Reaction>
-				<Option Goto="0" Tag="Fail">
+				<Gameover Tag="Fail">
 					<Text>Но даже при хорошем раскладе его холодные когти оставят на вас свои следы. Если ваша реакция оказалась в полном порядке, бросьте два кубика и отнимите выпавшее от своей ЖИЗНИ:</Text>
 				</Option>
 				<DiceWounds>
