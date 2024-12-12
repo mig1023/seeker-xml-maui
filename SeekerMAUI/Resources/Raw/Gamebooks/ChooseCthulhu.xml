@@ -53,7 +53,7 @@
 				<Text Style="Bold, Center">КОНЕЦ</Text>
 			</Texts>
 			<Options>
-				<Option Goto="0"/>
+				<Gameover/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="5">
@@ -82,7 +82,7 @@
 				<Text Style="Bold, Center">КОНЕЦ</Text>
 			</Texts>
 			<Options>
-				<Option Goto="0"/>
+				<Gameover/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="9">
@@ -152,7 +152,7 @@
 				<Text Style="Bold, Center">КОНЕЦ</Text>
 			</Texts>
 			<Options>
-				<Option Goto="0"/>
+				<Gameover/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="16">
@@ -434,7 +434,7 @@
 				<Text Style="Bold, Center">КОНЕЦ</Text>
 			</Texts>
 			<Options>
-				<Option Goto="0"/>
+				<Gameover/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="50">
@@ -597,7 +597,7 @@
 				<Text Style="Bold, Center">КОНЕЦ</Text>
 			</Texts>
 			<Options>
-				<Option Goto="0"/>
+				<Gameover/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="71">
@@ -609,7 +609,7 @@
 				<CursedForever/>
 			</Modifications>
 			<Options>
-				<Option Goto="0"/>
+				<Gameover/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="72">
@@ -661,7 +661,7 @@
 				<Text Style="Bold, Center">КОНЕЦ</Text>
 			</Texts>
 			<Options>
-				<Option Goto="0"/>
+				<Gameover/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="78">
@@ -670,7 +670,7 @@
 				<Text Style="Bold, Center">КОНЕЦ</Text>
 			</Texts>
 			<Options>
-				<Option Goto="0"/>
+				<Gameover/>
 			</Options>
 		</Paragraph>
 	</Paragraphs>
