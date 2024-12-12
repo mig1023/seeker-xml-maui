@@ -135,7 +135,7 @@
 				<Option Goto="74" Text="Вжууууух!" Availability="ВЖУХ >= 1">
 					<Whoosh Value="-1"/>
 				</Option>
-				<Option Goto="0" Availability="ВЖУХ &lt; 1"/>
+				<Gameover Availability="ВЖУХ &lt; 1"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="14">
@@ -264,7 +264,7 @@
 				<Option Goto="86" Text="Вжууууух!" Availability="ВЖУХ >= 1">
 					<Whoosh Value="-1"/>
 				</Option>
-				<Option Goto="0" Availability="ВЖУХ &lt; 1"/>
+				<Gameover Availability="ВЖУХ &lt; 1"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="31">
@@ -419,7 +419,7 @@
 				<Option Goto="77" Text="Вжууууух!" Availability="ВЖУХ >= 1">
 					<Whoosh Value="-1"/>
 				</Option>
-				<Option Goto="0" Availability="ВЖУХ &lt; 1"/>
+				<Gameover Availability="ВЖУХ &lt; 1"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="52">
@@ -492,7 +492,7 @@
 				<Option Goto="20" Text="Вжууууух!" Availability="ВЖУХ >= 1">
 					<Whoosh Value="-1"/>
 				</Option>
-				<Option Goto="0" Availability="ВЖУХ &lt; 1"/>
+				<Gameover Availability="ВЖУХ &lt; 1"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="63">
