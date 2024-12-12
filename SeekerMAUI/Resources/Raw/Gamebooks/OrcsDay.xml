@@ -645,7 +645,7 @@
 					<Text>Если ты проиграл...</Text>
 				</Option>
 				<Option Goto="17" Text="В первый раз" Availability="!Уже пил из бутыли"/>
-				<Option Goto="0" Availability="Уже пил из бутыли"/>
+				<Gameover Availability="Уже пил из бутыли"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="41">
