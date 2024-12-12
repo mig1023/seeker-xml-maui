@@ -2324,7 +2324,7 @@
 				<Option Goto="521" Text="Он уменьшил вашу СИЛУ до 2 и вы хотите воззвать к Богу" Availability="!DivineIntervention">
 					<Trigger Value="DivineIntervention"/>
 				</Option>
-				<Option Goto="0" Text="Вы погибли: придётся начинать сначала..." Availability="DivineIntervention"/>
+				<Gameover Text="Вы погибли: придётся начинать сначала..." Availability="DivineIntervention"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="244">
