@@ -381,21 +381,32 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="28">
-			<Text>Удар мимо ворот</Text>
+			<Text>Удар мимо ворот!</Text>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="29">
-			<Text>Советская команда атакует\n\nСоветская команда играет в эти минуты от обороны\n\nСоветская команда ищет удачи у ворот противника\n\nСоветская команда держится своих ворот\n\nКоманда явно восприняла то, что вы ей сказали в перерыве\n\nКоманда явно восприняла то, что вы ей сказали в перерыве</Text>
+			<Texts>
+				<Text Availability="тактическое построение/модификатор = 1, 1 из 2 = 1">Советская команда атакует!</Text>
+				<Text Availability="тактическое построение/модификатор = 2, 1 из 2 = 1">Советская команда играет в эти минуты от обороны!</Text>
+				<Text Availability="тактическое построение/модификатор = 1, 1 из 2 = 2">Советская команда ищет удачи у ворот противника!</Text>
+				<Text Availability="тактическое построение/модификатор = 2, 1 из 2 = 2">Советская команда держится своих ворот!</Text>
+				<Text Availability="модификаторы/нашел слова > 0, ИГРА/время = 5">Команда явно восприняла то, что вы ей сказали в перерыве!</Text>
+				<Text Availability="модификаторы/нашел слова > 0, ИГРА/время = 6">Команда явно восприняла то, что вы ей сказали в перерыве!</Text>
+			</Texts>
+			<Modifications>
+				<Random Path="1 из 7" Value="7"/>
+				<Random Path="1 из 2" Value="2"/>
+			</Modifications>
 			<Options>
-				<Option Goto="32" Text="!"/>
-				<Option Goto="77" Text="!"/>
-				<Option Goto="27" Text="!"/>
-				<Option Goto="7" Text="!"/>
-				<Option Goto="69" Text="!"/>
-				<Option Goto="102" Text="!"/>
-				<Option Goto="70" Text="!"/>
+				<Option Goto="32" Text="!" Availability="1 из 7 = 1"/>
+				<Option Goto="77" Text="!" Availability="1 из 7 = 2"/>
+				<Option Goto="27" Text="!" Availability="1 из 7 = 3"/>
+				<Option Goto="7" Text="!" Availability="1 из 7 = 4"/>
+				<Option Goto="69" Text="!" Availability="1 из 7 = 5"/>
+				<Option Goto="102" Text="!" Availability="1 из 7 = 6"/>
+				<Option Goto="70" Text="!" Availability="1 из 7 = 7"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="30">
