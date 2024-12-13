@@ -507,5 +507,12 @@
 				<Option Goto="29"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="75">
+			<Text>Стоя на лестнице, ты ожидаешь приближающихся солдат. Они осторожно поднимаются.\n\nПроверь уровень твоего Фехтования.</Text>
+			<Options>
+				<Option Goto="32" Text="Если ты удачлив"/>
+				<Option Goto="3" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
