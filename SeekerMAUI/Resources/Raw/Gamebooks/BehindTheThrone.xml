@@ -289,5 +289,11 @@
 				<Option Goto="4" Text="В противном случае"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="42">
+			<Text>Повернувшись на пятке, ты поднимаешь руку, но раздаётся выстрел и пуля, выпущенная здоровяком раньше, пробивает твоё сердце. Ты мёртв.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
