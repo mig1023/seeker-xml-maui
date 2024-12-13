@@ -480,5 +480,12 @@
 				<Option Goto="61" Text="Если удача отвернулась от тебя"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="71">
+			<Text>Ты дёргаешь за дверную ручку, но дверь заперта. Что удивительно, нет замочной скважины, но есть небольшое углубление.</Text>
+			<Options>
+				<Option Goto="36" Text="Если у тебя есть кольцо"/>
+				<Option Goto="29" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
