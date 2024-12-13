@@ -2,7 +2,6 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.18362.0</TargetFrameworks>
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net8.0-tizen</TargetFrameworks> -->
 
@@ -64,6 +63,7 @@
 	  <None Remove="Resources\Images\Cover\alcatraz.jpg" />
 	  <None Remove="Resources\Images\Cover\ants.jpg" />
 	  <None Remove="Resources\Images\Cover\bangkoksky.jpg" />
+	  <None Remove="Resources\Images\Cover\behindthethrone.jpg" />
 	  <None Remove="Resources\Images\Cover\blackcastledungeon.jpg" />
 	  <None Remove="Resources\Images\Cover\bloodfeudofaltheus.jpg" />
 	  <None Remove="Resources\Images\Cover\bythewillofrome.jpg" />
@@ -275,6 +275,7 @@
 	  <MauiImage Include="Resources\Images\Cover\alcatraz.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\ants.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\bangkoksky.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\behindthethrone.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\blackcastledungeon.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\bloodfeudofaltheus.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\bythewillofrome.jpg" />
