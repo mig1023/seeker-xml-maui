@@ -85,5 +85,11 @@
 				<Option Goto="48"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="11">
+			<Text>Стражники смотрят на тебя подозрительно, но не препятствуют попытке уйти.</Text>
+			<Options>
+				<Option Goto="29"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
