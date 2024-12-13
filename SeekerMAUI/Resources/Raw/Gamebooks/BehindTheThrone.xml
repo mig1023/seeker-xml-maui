@@ -532,5 +532,11 @@
 				<Option Goto="48"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="79">
+			<Text>Пуля пролетает над ухом наступающего противника. Ты не успеваешь что-либо предпринять, сапог солдата врезается в твоё лицо (потеряй 2 Живучести). Ты теряешь сознание.</Text>
+			<Options>
+				<Option Goto="48"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
