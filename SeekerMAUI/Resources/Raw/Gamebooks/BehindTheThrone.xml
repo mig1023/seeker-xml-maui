@@ -388,5 +388,11 @@
 				<Option Goto="13" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="57">
+			<Text>Страсть к выпивке до добра не доводит! С трудом держась на ногах, стражник не составляет никакой проблемы и ты быстро закалываешь его.</Text>
+			<Options>
+				<Option Goto="46"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
