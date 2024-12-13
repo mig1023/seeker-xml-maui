@@ -53,5 +53,11 @@
 				<Option Goto="74"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="6">
+			<Text>Ты быстро захлопываешь дверь, прежде чем солдат успевает увидеть тебя.\n\nМожешь выбрать другой путь.</Text>
+			<Options>
+				<Option Goto="29"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
