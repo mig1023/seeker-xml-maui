@@ -147,5 +147,12 @@
 				<Option Goto="81"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="21">
+			<Text>Монах следует за тобой, держа на прицеле, пока ты не выходишь из церкви. Когда ты оказываешь на улице, он закрывает дверь. Ты не сможешь больше зайти в неё.</Text>
+			<Options>
+				<Option Goto="54" Text="Отправиться к казармам"/>
+				<Option Goto="41" Text="В таверну"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
