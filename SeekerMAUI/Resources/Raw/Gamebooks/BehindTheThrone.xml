@@ -501,5 +501,11 @@
 				<Option Goto="77" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="74">
+			<Text>Ты спускаешься по лестнице вниз и подходишь к двери.</Text>
+			<Options>
+				<Option Goto="29"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
