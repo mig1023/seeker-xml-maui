@@ -425,5 +425,11 @@
 				<Option Goto="83"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="63">
+			<Text>Мужчина открывает дверь и, завидев тебя, выхватывает дубинку и бьёт тебя по голове (потеряй 2 Живучести). Ты теряешь сознание.</Text>
+			<Options>
+				<Option Goto="48"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
