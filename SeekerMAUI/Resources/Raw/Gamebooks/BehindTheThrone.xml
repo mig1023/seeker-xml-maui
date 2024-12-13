@@ -431,5 +431,11 @@
 				<Option Goto="48"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="64">
+			<Text>Ты достаёшь дубину и отправляешь стражника в ещё более глубокий сон. Он прекращает храпеть, что-то булькнув, а ты идёшь к двери.</Text>
+			<Options>
+				<Option Goto="46"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
