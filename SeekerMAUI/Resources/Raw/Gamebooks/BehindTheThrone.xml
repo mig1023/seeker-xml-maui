@@ -79,5 +79,11 @@
 				<Option Goto="39" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="10">
+			<Text>Всё происходит очень быстро. Раздаётся выстрел, плечо пронзает боль (потеряй 5 Живучести).\n\nТы падаешь без сознания.</Text>
+			<Options>
+				<Option Goto="48"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
