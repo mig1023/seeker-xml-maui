@@ -84,10 +84,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="7">
-			<Text>Ты мчишься назад к конюшне, догоняя Росная и короля.\n\nПроверь своё Проворство.</Text>
+			<Text>Ты мчишься назад к конюшне, догоняя Росная и короля.</Text>
+			<Actions>
+				<Test>
+					<Stat>Agility</Stat>
+				</Test>
+			</Actions>
 			<Options>
-				<Option Goto="56" Text="Удачлив"/>
-				<Option Goto="51" Text="Удача отвернулась от тебя"/>
+				<Option Goto="56" Text="Удачлив" Tag="Win"/>
+				<Option Goto="51" Text="Удача отвернулась от тебя" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="8">
