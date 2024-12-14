@@ -5,10 +5,10 @@
 			<Author>Павел Горохов, 2010</Author>
 		</Copyright>
 		<Styles>
-			<Main Value="4b5320"/>
-			<Continue Value="5d6436"/>
+			<Color Name="Main, Option" Value="708238"/>
 			<System Value="434a1c"/>
-			<Background Value="708238"/>
+			<Continue Value="5d6436"/>
+			<Background Value="4b5320"/>
 			<Color Name="Font, SystemFont" Value="d4d9c3"/>
 		</Styles>
 		<Default>
