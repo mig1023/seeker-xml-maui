@@ -1,9 +1,12 @@
-﻿using System;
+﻿using Microsoft.Maui.Controls.Shapes;
+using System;
 
 namespace SeekerMAUI.Gamebook.BehindTheThrone
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
+        public string Stat { get; set; }
+
         public override List<string> Status() => new List<string>
         {
             $"Проворство: {Character.Protagonist.Agility}",
@@ -14,5 +17,8 @@ namespace SeekerMAUI.Gamebook.BehindTheThrone
 
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
             GameOverBy(Character.Protagonist.Vitality, out toEndParagraph, out toEndText);
+
+        public override List<string> Representer() =>
+            new List<string> { "Проверка " + Constants.CharactersParams[Stat] };
     }
 }

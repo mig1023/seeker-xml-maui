@@ -2,5 +2,8 @@
 
 namespace SeekerMAUI.Gamebook.BehindTheThrone
 {
-    class Constants : Prototypes.Constants, Abstract.IConstants { }
+    class Constants : Prototypes.Constants, Abstract.IConstants
+    {
+        public static Dictionary<string, string> CharactersParams { get; set; }
+    }
 }
