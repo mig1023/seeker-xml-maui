@@ -20,5 +20,37 @@ namespace SeekerMAUI.Gamebook.BehindTheThrone
 
         public override List<string> Representer() =>
             new List<string> { "Проверка " + Constants.CharactersParams[Stat] };
+
+        public List<string> Test()
+        {
+            List<string> test = Representer();
+
+            int param = GetProperty(Character.Protagonist, Stat);
+
+            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+
+            int result = firstDice + secondDice;
+
+            test.Add($"BOLD|BIG|Бросок кубиков: " +
+                $"{Game.Dice.Symbol(firstDice)} + {Game.Dice.Symbol(secondDice)} = " +
+                $"{result}");
+
+            if (result <= param)
+            {
+                test.Add("Сумма на кубиках не превышает параметра!");
+                test.Add("GOOD|BOLD|ПРОВЕРКА УСПЕШНО ПРОЙДЕНА :)");
+
+                Game.Buttons.Disable("Fail");
+            }
+            else
+            {
+                test.Add("Сумма на кубиках превышает параметра!");
+                test.Add("BAD|BOLD|ПРОВЕРКА ПРОВАЛЕНА :(");
+
+                Game.Buttons.Disable("Win");
+            }
+
+            return test;
+        }
     }
 }
