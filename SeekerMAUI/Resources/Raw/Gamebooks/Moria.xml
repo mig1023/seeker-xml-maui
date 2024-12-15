@@ -2297,9 +2297,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="311">
-			<Text>Если вы хотите взглянуть на эльфийский кинжал — сделайте это, а если нет...</Text>
+			<Text>Если вы хотите взглянуть на эльфийский кинжал — сделайте это...</Text>
 			<Options>
-				<Option Goto="256"/>
+				<Option Goto="205" Text="Взглянуть" Availability="Меч"/>
+				<Option Goto="256" Text="Не на что глядеть" Availability="!Меч"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="312">
