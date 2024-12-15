@@ -2283,7 +2283,7 @@
 			<Options>
 				<Option Goto="177" Text="Гэндальф может применить заклинание, отворяющее дверь" Availability="GandalfMagic">
 					<GandalfCastSpell/>
-					<Text>Если же нет, то выходите из комнаты либо:</Text>
+					<Text>Если же нет, то выходите из комнаты:</Text>
 				</Option>
 				<Option Goto="64" Text="На юг"/>
 				<Option Goto="21" Text="На запад"/>
