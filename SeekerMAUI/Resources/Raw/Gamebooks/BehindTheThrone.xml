@@ -130,7 +130,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="10">
-			<Text>Всё происходит очень быстро. Раздаётся выстрел, плечо пронзает боль (потеряй 5 Живучести).\n\nТы падаешь без сознания.</Text>
+			<Texts>
+				<Text>Всё происходит очень быстро. Раздаётся выстрел, плечо пронзает боль.</Text>
+				<Text Style="Small">Потеряй 5 Живучести.</Text>
+				<Text>Ты падаешь без сознания.</Text>
+			</Texts>
 			<Modifications>
 				<Vitality Value="-5"/>
 			</Modifications>
