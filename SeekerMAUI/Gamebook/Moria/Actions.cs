@@ -150,6 +150,17 @@ namespace SeekerMAUI.Gamebook.Moria
         {
             List<string> fight = new List<string>();
 
+            if (Game.Option.IsTriggered("Серебряный рог") && Game.Option.IsTriggered("Как использовать рог"))
+            {
+                fight.Add($"Вы используете Серебряный рог и духи пещер обрушиваются на ваших врагов!");
+                fight.Add($"BIG|GOOD|Вы ПОБЕДИЛИ! :)");
+                fight.Add($"GRAY|К сожалению, рог теперь бесполезен и его придётся выкинуть...");
+
+                Game.Option.Trigger("Серебряный рог", remove: true);
+
+                return fight;
+            }
+
             while (IsStillSomeoneToFight())
             {
                 List<string> strongWarriors = StrongWarriorsInFellowship();
