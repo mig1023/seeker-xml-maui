@@ -37,14 +37,14 @@ namespace SeekerMAUI.Gamebook.BehindTheThrone
 
             if (result <= param)
             {
-                test.Add("Сумма на кубиках не превышает параметра!");
+                test.Add($"Сумма на кубиках не превышает значения параметра, равного {param}!");
                 test.Add("GOOD|BOLD|ПРОВЕРКА УСПЕШНО ПРОЙДЕНА :)");
 
                 Game.Buttons.Disable("Fail");
             }
             else
             {
-                test.Add("Сумма на кубиках превышает параметра!");
+                test.Add($"Сумма на кубиках превышает значение параметра, равного {param}!");
                 test.Add("BAD|BOLD|ПРОВЕРКА ПРОВАЛЕНА :(");
 
                 Game.Buttons.Disable("Win");
