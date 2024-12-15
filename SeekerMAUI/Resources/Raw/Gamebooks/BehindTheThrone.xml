@@ -597,10 +597,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="75">
-			<Text>Стоя на лестнице, ты ожидаешь приближающихся солдат. Они осторожно поднимаются.\n\nПроверь уровень твоего Фехтования.</Text>
+			<Text>Стоя на лестнице, ты ожидаешь приближающихся солдат. Они осторожно поднимаются.</Text>
+			<Actions>
+				<Test>
+					<Stat>Swashbuckling</Stat>
+				</Test>
+			</Actions>
 			<Options>
-				<Option Goto="32" Text="Ты удачлив"/>
-				<Option Goto="3" Text="Не повезло"/>
+				<Option Goto="32" Text="Ты удачлив" Tag="Win"/>
+				<Option Goto="3" Text="Не повезло" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="76">
