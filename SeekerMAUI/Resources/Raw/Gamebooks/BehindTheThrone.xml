@@ -353,10 +353,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="45">
-			<Text>Монах не ожидал такого безрассудного поступка и не сразу выстрелил.\n\nПроверь свой навык Проворства.</Text>
+			<Text>Монах не ожидал такого безрассудного поступка и не сразу выстрелил.</Text>
+			<Actions>
+				<Test>
+					<Stat>Agility</Stat>
+				</Test>
+			</Actions>
 			<Options>
-				<Option Goto="69" Text="Удача на твоей стороне"/>
-				<Option Goto="10" Text="Удача отвернулась от тебя"/>
+				<Option Goto="69" Text="Удача на твоей стороне" Tag="Win"/>
+				<Option Goto="10" Text="Удача отвернулась от тебя" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="46">
