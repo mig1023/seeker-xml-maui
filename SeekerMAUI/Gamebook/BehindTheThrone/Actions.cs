@@ -52,5 +52,8 @@ namespace SeekerMAUI.Gamebook.BehindTheThrone
 
             return test;
         }
+
+        public override bool Availability(string option) =>
+            AvailabilityTrigger(option);
     }
 }
