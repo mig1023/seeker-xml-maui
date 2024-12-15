@@ -61,6 +61,9 @@
 					<Stat>Marksmanship</Stat>
 				</Test>
 			</Actions>
+			<Modifications>
+				<Vitality Value="-7"/>
+			</Modifications>
 			<Options>
 				<Option Goto="12" Text="Удачлив" Tag="Win"/>
 				<Option Goto="79" Text="Не удачлив" Tag="Fail"/>
