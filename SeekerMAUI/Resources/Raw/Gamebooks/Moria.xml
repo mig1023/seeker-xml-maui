@@ -2253,9 +2253,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="305">
-			<Text>Какое-то непонятное предчувствие мучило Фродо. Если вы догадываетесь, что нужно сделать — делайте, а если нет.</Text>
+			<Text>Какое-то непонятное предчувствие мучило Фродо...</Text>
 			<Options>
-				<Option Goto="262"/>
+				<Option Goto="199" Text="Посмотреть на меч" Availability="Меч"/>
+				<Option Goto="262" Text="Ничего не делать" Availability="!Меч"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="306">
