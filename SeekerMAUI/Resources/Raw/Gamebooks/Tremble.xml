@@ -343,5 +343,11 @@
 				<Option Goto="133" Text="Заняться сбором рассыпанного золота"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="49">
+			<Text>Можешь взять эту книгу с собой. Тогда впиши ее в "список оснащения", а можешь оставить.</Text>
+			<Options>
+				<Option Goto="286"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
