@@ -349,5 +349,13 @@
 				<Option Goto="286"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="50">
+			<Text>Приближаешься к перекрестку.</Text>
+			<Options>
+				<Option Goto="310" Text="Можешь идти на север"/>
+				<Option Goto="130" Text="на восток"/>
+				<Option Goto="64" Text="на запад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
