@@ -478,5 +478,11 @@
 				<Option Goto="50"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="68">
+			<Text>Выходи из склада оружия. Одна дверь выходит на север. Двигайся проходом до ближайшего перекрестка. По дороге можешь присесть и перекусить порцией еды.</Text>
+			<Options>
+				<Option Goto="212"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
