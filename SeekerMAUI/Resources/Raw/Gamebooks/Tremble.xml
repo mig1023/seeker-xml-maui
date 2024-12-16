@@ -599,5 +599,12 @@
 				<Option Goto="10"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="86">
+			<Text>Веди битву до конца.</Text>
+			<Options>
+				<Option Goto="94" Text="Если победишь"/>
+				<Option Goto="0" Text="если проиграл, то останешься здесь навеки"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
