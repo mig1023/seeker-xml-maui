@@ -184,5 +184,12 @@
 				<Option Goto="213" Text="Если выпадет 4, 5, 6"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="25">
+			<Text>На камне сидит Старый человек. Он советует идти тебе на запад, а потом после нескольких поворотов свернуть направо.</Text>
+			<Options>
+				<Option Goto="200" Text="Если идешь на запад"/>
+				<Option Goto="44" Text="Если выберешь дорогу на восток"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
