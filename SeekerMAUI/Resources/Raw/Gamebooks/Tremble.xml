@@ -191,5 +191,11 @@
 				<Option Goto="44" Text="Если выберешь дорогу на восток"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="26">
+			<Text>За меткое попадание в каждого толстяка получаешь 5 кусков золота.</Text>
+			<Options>
+				<Option Goto="171"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
