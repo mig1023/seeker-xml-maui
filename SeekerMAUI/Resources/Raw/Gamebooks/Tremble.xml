@@ -115,5 +115,12 @@
 				<Option Goto="39" Text="Если выходишь через восточные"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="15">
+			<Text>15.</Text>
+			<Options>
+				<Option Goto="241" Text="Если отказываешься от попытки переплыть озеро"/>
+				<Option Goto="113" Text="Если будешь переплывать озеро, запиши номер данного пункта"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
