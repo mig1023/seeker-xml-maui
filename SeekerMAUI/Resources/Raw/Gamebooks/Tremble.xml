@@ -535,5 +535,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="77">
+			<Text>77.</Text>
+			<Options>
+				<Option Goto="340" Text="Можешь заставить чудовище поднять решетку"/>
+				<Option Goto="163" Text="Если дальше продолжаешь битву"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
