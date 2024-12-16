@@ -211,5 +211,11 @@
 				<Option Goto="330" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="29">
+			<Text>Ты споткнулся о камень. Меч брякнул о скалу. Орк поднял голову. Он тебя заметил. Приступай к битве.</Text>
+			<Options>
+				<Option Goto="116"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
