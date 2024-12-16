@@ -418,5 +418,12 @@
 				<Option Goto="70" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="60">
+			<Text>Карлик предлагает 20 кусков золота. Принимаешь?</Text>
+			<Options>
+				<Option Goto="262" Text="Если да"/>
+				<Option Goto="338" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
