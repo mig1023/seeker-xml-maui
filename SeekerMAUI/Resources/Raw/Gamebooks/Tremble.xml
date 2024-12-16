@@ -277,5 +277,13 @@
 				<Option Goto="328" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="39">
+			<Text>Дойди до перекрестка.</Text>
+			<Options>
+				<Option Goto="331" Text="Он ответвляется дорогами на запад"/>
+				<Option Goto="228" Text="на север"/>
+				<Option Goto="146" Text="на юг"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
