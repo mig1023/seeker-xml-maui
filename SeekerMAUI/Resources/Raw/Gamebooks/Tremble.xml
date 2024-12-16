@@ -108,5 +108,12 @@
 				<Option Goto="126"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="14">
+			<Text>14.</Text>
+			<Options>
+				<Option Goto="197" Text="Можешь выйти через южные двери"/>
+				<Option Goto="39" Text="Если выходишь через восточные"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
