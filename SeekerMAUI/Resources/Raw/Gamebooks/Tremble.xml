@@ -702,5 +702,14 @@
 				<Option Goto="234" Text="Убиваешь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="102">
+			<Text>Дойди до перекрестка. Коридоры расходятся на все четыре стороны.</Text>
+			<Options>
+				<Option Goto="123" Text="Если идешь на запад"/>
+				<Option Goto="268" Text="на север"/>
+				<Option Goto="374" Text="на восток"/>
+				<Option Goto="351" Text="на юг"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
