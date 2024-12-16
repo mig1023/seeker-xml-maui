@@ -606,5 +606,11 @@
 				<Option Goto="0" Text="если проиграл, то останешься здесь навеки"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="87">
+			<Text>Нет, ничего не находишь...</Text>
+			<Options>
+				<Option Goto="354"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
