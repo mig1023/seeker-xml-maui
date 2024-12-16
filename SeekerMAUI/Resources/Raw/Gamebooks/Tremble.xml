@@ -364,5 +364,13 @@
 				<Option Goto="33" Text="через северные. Двери оставь открытыми"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="52">
+			<Text>Из отверстия в стене выбивается струя ядовитого газа.</Text>
+			<Options>
+				<Option Goto="274" Text="Если у тебя есть "горшковый" шлем, то от газа ты не пострадаешь"/>
+				<Option Goto="315" Text="если нет такого шлема"/>
+				<Option Goto="274" Text="а потом (запиши этот номер, а то потеряешь дорогу)"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
