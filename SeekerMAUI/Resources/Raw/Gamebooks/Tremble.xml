@@ -379,5 +379,11 @@
 				<Option Goto="299" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="54">
+			<Text>Бросай молот. Попал в цель. Стражник лишается 2В, но продолжает стоять.</Text>
+			<Options>
+				<Option Goto="107"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
