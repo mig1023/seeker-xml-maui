@@ -411,5 +411,12 @@
 				<Option Goto="320" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="59">
+			<Text>Входишь, но ничего не обнаруживаешь. Знаешь ли ты другой выход из этой комнаты?</Text>
+			<Options>
+				<Option Goto="14" Text="Если да"/>
+				<Option Goto="70" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
