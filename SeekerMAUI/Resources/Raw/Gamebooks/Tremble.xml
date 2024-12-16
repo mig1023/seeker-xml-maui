@@ -637,5 +637,12 @@
 				<Option Goto="288" Text="Если ты на другом берегу"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="92">
+			<Text>Теперь жди настоящей мясорубки. Начинай с Минотавра.\n\nМИНОТАВР 10Л, 10В\n\nЕсли битва для тебя складывается неудачно, спасайся бегством.</Text>
+			<Options>
+				<Option Goto="193" Text="Если с Минотавром расправишься"/>
+				<Option Goto="277" Text="Если останешься на поле битвы"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
