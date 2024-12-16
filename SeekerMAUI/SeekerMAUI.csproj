@@ -135,6 +135,7 @@
 	  <None Remove="Resources\Images\Cover\threepaths.jpg" />
 	  <None Remove="Resources\Images\Cover\trail.jpg" />
 	  <None Remove="Resources\Images\Cover\trap.jpg" />
+	  <None Remove="Resources\Images\Cover\tremble.jpg" />
 	  <None Remove="Resources\Images\Cover\undergroundroad.jpg" />
 	  <None Remove="Resources\Images\Cover\unexpectedpassenger.jpg" />
 	  <None Remove="Resources\Images\Cover\vweapons.jpg" />
@@ -347,6 +348,7 @@
 	  <MauiImage Include="Resources\Images\Cover\threepaths.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\trail.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\trap.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\tremble.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\undergroundroad.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\unexpectedpassenger.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\vweapons.jpg" />

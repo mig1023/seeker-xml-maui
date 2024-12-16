@@ -1,0 +1,26 @@
+<Gamebook>
+	<Introduction>
+		<Copyright>
+			<Title>Дрожь</Title>
+			<Author>Яцек Цесельский, 1988</Author>
+		</Copyright>
+		<Styles>
+			<StatusBar Value="098c82"/>
+			<Action Value="00a6b6"/>
+			<Continue Value="19927a"/>
+			<Color Name="Main, Option" Value="038f8d"/>
+		</Styles>
+		<Default>
+			<HideDisabledOption/>
+			<FontSize Value="Big"/>
+		</Default>
+	</Introduction>
+	<Paragraphs>
+		<Paragraph No="0">
+			<Text>Это о тебе говорят, что в венах течет ледяная кровь, а мускулы крепче стали? Если это так, то проснись в Стране Заходящего Солнца. Там на границах королевства Алманхагор начинается страна подземных жителей, и только ты можешь узнать их Великую Тайну, скрытую в хитроумных лабиринтах. Дерзай!</Text>
+			<Options>
+				<Start Goto="1"/>
+			</Options>
+		</Paragraph>
+	</Paragraphs>
+</Gamebook>

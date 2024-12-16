@@ -1115,4 +1115,17 @@
 		<Setting>История</Setting>
 		<Color>911</Color>
 	</BehindTheThrone>
+	<Tremble>
+		<Title>Дрожь</Title>
+		<Original>Dreszcz</Original>
+		<Author>Яцек Цесельский</Author>
+		<Translator>С.М.Щекин</Translator>
+		<Year>1988</Year>
+		<Text>Это о тебе говорят, что в венах течёт ледяная кровь, а мускулы крепче стали? Если это так, то проснись в Стране Заходящего Солнца. Там на границах королевства Алманхагор начинается страна подземных жителей, и только ты можешь узнать их Великую Тайну, скрытую в хитроумных лабиринтах. Дерзай! В путь!</Text>
+		<Paragraphs>387</Paragraphs>
+		<Size>1</Size>
+		<Playthrough>На часок-полтора</Playthrough>
+		<Setting>Фэнтези</Setting>
+		<Color>038f8d</Color>
+	</Tremble>
 </Gamebooks>
