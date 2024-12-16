@@ -224,5 +224,11 @@
 				<Option Goto="342" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="31">
+			<Text>Опусти фонарь пониже. Мечом разгреби кучу. Сразу видно, что там лежит 5 кусков золота.\n\nЕсли тебе этого недостаточно</Text>
+			<Options>
+				<Option Goto="119"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
