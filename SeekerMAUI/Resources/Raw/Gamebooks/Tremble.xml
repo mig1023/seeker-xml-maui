@@ -311,5 +311,12 @@
 				<Option Goto="186"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="44">
+			<Text>Иди на восток. Вдруг видишь перед собой огромные двери. Попробуй их открыть. Не получается.</Text>
+			<Options>
+				<Option Goto="75" Text="Если отступишься"/>
+				<Option Goto="105" Text="Если будешь взламывать двери"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
