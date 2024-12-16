@@ -624,5 +624,11 @@
 				<Option Goto="120"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="90">
+			<Text>Забирайся по ступенькам наверх. Коридор Сначала ведет на запад, а потом поворачивает на юг.</Text>
+			<Options>
+				<Option Goto="212"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
