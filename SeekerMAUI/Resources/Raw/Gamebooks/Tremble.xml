@@ -472,5 +472,11 @@
 				<Option Goto="19" Text="Нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="67">
+			<Text>Можешь отказаться...</Text>
+			<Options>
+				<Option Goto="50"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
