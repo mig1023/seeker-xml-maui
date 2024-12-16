@@ -491,5 +491,11 @@
 				<Option Goto="291" Text="Если пустился в бегство"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="70">
+			<Text>Возвращайся...</Text>
+			<Options>
+				<Option Goto="39"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
