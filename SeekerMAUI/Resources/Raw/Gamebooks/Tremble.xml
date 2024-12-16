@@ -689,5 +689,11 @@
 				<Option Goto="182" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="100">
+			<Text>- Я бы хотел что-то такое, что возвращает силу, - говоришь ты.\n\n- Твой покорный слуга. Есть только деревянный кол и банка едкой пыли, - отвечает Орк.</Text>
+			<Options>
+				<Option Goto="260"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
