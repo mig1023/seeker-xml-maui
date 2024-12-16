@@ -564,5 +564,11 @@
 				<Option Goto="165" Text="пробуешь напасть на него"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="81">
+			<Text>Можешь бросить все, усесться поудобнее и отдохнуть. Благодаря этому получаешь (+2В) и (+1Л).</Text>
+			<Options>
+				<Option Goto="121"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
