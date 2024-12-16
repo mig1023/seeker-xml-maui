@@ -264,5 +264,11 @@
 				<Option Goto="176" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="37">
+			<Text>Какой щит выберешь: металлический, парадный или кожаный? Запиши свой выбор в графу "Список оснащения".</Text>
+			<Options>
+				<Option Goto="324"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
