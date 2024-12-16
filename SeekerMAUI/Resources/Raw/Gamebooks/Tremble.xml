@@ -523,5 +523,11 @@
 				<Option Goto="35" Text="Если нет, остается только поворачивать назад и убегать"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="75">
+			<Text>Отказываешься. Возвращайся в сторону перекрестка. Проходи мимо старца...</Text>
+			<Options>
+				<Option Goto="200"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
