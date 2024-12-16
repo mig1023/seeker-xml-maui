@@ -504,5 +504,11 @@
 				<Option Goto="49" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="72">
+			<Text>Закончилась битва с Демоном. Теперь золото! Иди к тому месту, где стояли вазы.</Text>
+			<Options>
+				<Option Goto="199"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
