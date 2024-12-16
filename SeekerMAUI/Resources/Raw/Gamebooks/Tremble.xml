@@ -695,5 +695,12 @@
 				<Option Goto="260"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="101">
+			<Text>Демон просит о милости. Ты даруешь ему жизнь?</Text>
+			<Options>
+				<Option Goto="362" Text="Да"/>
+				<Option Goto="234" Text="Убиваешь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
