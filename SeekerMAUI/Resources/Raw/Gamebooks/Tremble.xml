@@ -391,5 +391,11 @@
 				<Option Goto="196"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="56">
+			<Text>Попробуй опять открыть двери. Снова безрезультатно (-1 В).</Text>
+			<Options>
+				<Option Goto="75"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
