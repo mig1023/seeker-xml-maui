@@ -577,5 +577,13 @@
 				<Option Goto="212" Text="если хочешь вернуться к перекрестку"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="83">
+			<Text>Хозяин угощает тебя напитком, который стоит на столе.</Text>
+			<Options>
+				<Option Goto="124" Text="Если отказываешься пить"/>
+				<Option Goto="217" Text="Если выпиваешь"/>
+				<Option Goto="171" Text="Выливаешь его в баночку, если такая есть у тебя, и кладешь в свой заплечный мешок"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
