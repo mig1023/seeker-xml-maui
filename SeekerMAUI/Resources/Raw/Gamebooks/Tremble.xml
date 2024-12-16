@@ -385,5 +385,11 @@
 				<Option Goto="107"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="55">
+			<Text>Отдай золото, бери кол, стеклянную банку.</Text>
+			<Options>
+				<Option Goto="196"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
