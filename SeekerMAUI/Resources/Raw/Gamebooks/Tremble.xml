@@ -324,5 +324,11 @@
 				<Option Goto="251"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="46">
+			<Text>Посмотри, как выйти с северного берега озера. Заметен небольшой проход. Направься в ту сторону. С трудом протискиваешься.</Text>
+			<Options>
+				<Option Goto="53"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
