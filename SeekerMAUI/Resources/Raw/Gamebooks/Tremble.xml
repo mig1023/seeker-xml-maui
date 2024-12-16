@@ -177,5 +177,12 @@
 				<Option Goto="0" Text="Если нет, то твое путешествие закончилось. А было так близко!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="24">
+			<Text>Брось 1К.</Text>
+			<Options>
+				<Option Goto="58" Text="Если выпало 1, 2, 3, то твое оружие окажется эффективным в битве с червями"/>
+				<Option Goto="213" Text="Если выпадет 4, 5, 6"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
