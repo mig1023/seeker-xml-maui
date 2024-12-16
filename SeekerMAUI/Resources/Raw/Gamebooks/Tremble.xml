@@ -663,5 +663,11 @@
 				<Option Goto="68" Text="если во вторую"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="96">
+			<Text>Ищи ключ. У него номер 12. Прибавь 2 балла счастья. (+2С).</Text>
+			<Options>
+				<Option Goto="253"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
