@@ -397,5 +397,12 @@
 				<Option Goto="75"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="57">
+			<Text>После приземления тварь требует от тебя все золото.</Text>
+			<Options>
+				<Option Goto="335" Text="Можешь ответить, что отдашь столько золота, сколько просит"/>
+				<Option Goto="91" Text="если же ничего не отдашь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
