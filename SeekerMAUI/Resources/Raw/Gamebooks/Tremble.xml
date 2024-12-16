@@ -257,5 +257,12 @@
 				<Option Goto="158" Text="Если нет С, то Смок сбрасывает тебя на край скалы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="36">
+			<Text>ССС.</Text>
+			<Options>
+				<Option Goto="152" Text="Если выпало С"/>
+				<Option Goto="176" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
