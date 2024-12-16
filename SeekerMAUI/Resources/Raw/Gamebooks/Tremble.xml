@@ -717,5 +717,11 @@
 				<Option Goto="345"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="104">
+			<Text>Отдай бабочку, возьми золото и соску.</Text>
+			<Options>
+				<Option Goto="121"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
