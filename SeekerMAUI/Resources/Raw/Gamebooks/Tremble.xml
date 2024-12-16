@@ -711,5 +711,11 @@
 				<Option Goto="351" Text="на юг"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="103">
+			<Text>Возвращайся. От перекрестка иди на запад. А вот и перекресток.</Text>
+			<Options>
+				<Option Goto="345"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
