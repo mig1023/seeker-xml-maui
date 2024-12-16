@@ -155,5 +155,12 @@
 				<Option Goto="316" Text="Если отказываешься от битвы с ними. Запиши этот номер, потому что можешь потерять дорогу"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="21">
+			<Text>21.</Text>
+			<Options>
+				<Option Goto="332" Text="Если хочешь посмотреть, что за дверьми"/>
+				<Option Goto="212" Text="Если нет, возвращайся"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
