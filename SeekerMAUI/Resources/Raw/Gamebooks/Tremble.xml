@@ -644,5 +644,11 @@
 				<Option Goto="277" Text="Если останешься на поле битвы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="93">
+			<Text>Возвращайся в комнату Злыдней...</Text>
+			<Options>
+				<Option Goto="313"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
