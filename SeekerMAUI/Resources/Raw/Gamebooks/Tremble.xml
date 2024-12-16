@@ -425,5 +425,11 @@
 				<Option Goto="338" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="61">
+			<Text>Иди проходом. По дороге можешь подкрепиться порцией съестного. Иди на север, потом поверни на запад. Через несколько шагов окажешься перед дверями. Открывай!</Text>
+			<Options>
+				<Option Goto="42"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
