@@ -858,5 +858,12 @@
 				<Option Goto="171" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="125">
+			<Text>Ты уже был в этой комнате?</Text>
+			<Options>
+				<Option Goto="261" Text="Если да"/>
+				<Option Goto="231" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
