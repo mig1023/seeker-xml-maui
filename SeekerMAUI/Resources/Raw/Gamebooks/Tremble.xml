@@ -771,5 +771,12 @@
 				<Option Goto="194"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="112">
+			<Text>Бросай кубики.</Text>
+			<Options>
+				<Option Goto="28" Text="Если получается не меньше 18 баллов"/>
+				<Option Goto="291" Text="если меньше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
