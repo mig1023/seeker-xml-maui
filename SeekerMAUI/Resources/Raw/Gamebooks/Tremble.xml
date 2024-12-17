@@ -833,5 +833,11 @@
 				<Option Goto="64"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="121">
+			<Text>Выходи из комнаты восточными дверями.</Text>
+			<Options>
+				<Option Goto="325"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
