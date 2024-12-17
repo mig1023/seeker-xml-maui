@@ -890,5 +890,11 @@
 				<Option Goto="345"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="130">
+			<Text>Коридор теперь имеет ширину 5 шагов. Идти легко, свободно. Едва прошагал 100 шагов, как очутился перед следующим перекрестком.</Text>
+			<Options>
+				<Option Goto="212"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
