@@ -1134,5 +1134,12 @@
 				<Option Goto="353" Text="если за золото"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="167">
+			<Text>У тебя есть какой-нибудь напиток или вода (незаколдованная)?</Text>
+			<Options>
+				<Option Goto="236" Text="Если да"/>
+				<Option Goto="90" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
