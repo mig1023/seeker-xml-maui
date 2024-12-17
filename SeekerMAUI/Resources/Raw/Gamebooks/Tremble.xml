@@ -765,5 +765,11 @@
 				<Option Goto="288" Text="если выпадо от 3 до 6, прыжок оказался удачным, и теперь ты на другом берегу"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="111">
+			<Text>Возвращайся. Подземная часовня совсем пуста. Выходи из нее через западный выход.</Text>
+			<Options>
+				<Option Goto="194"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
