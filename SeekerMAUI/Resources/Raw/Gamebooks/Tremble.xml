@@ -1127,5 +1127,12 @@
 				<Option Goto="255" Text="Если нет ничего из этого оружия"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="166">
+			<Text>Ты шутливо препираешься с Карликом. Благодаря этому получаешь (+ЗВ) и (+2Л). В конце концов уступаешь ему бабочку...</Text>
+			<Options>
+				<Option Goto="202" Text="Если даром"/>
+				<Option Goto="353" Text="если за золото"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
