@@ -785,5 +785,11 @@
 				<Option Goto="0" Text="Если хочешь вернуться, иди к тому пункту, номер которого был записан"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="114">
+			<Text>Ничего не нашел, но можешь съесть порцию еды.</Text>
+			<Options>
+				<Option Goto="276"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
