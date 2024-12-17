@@ -973,5 +973,11 @@
 				<Option Goto="320"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="143">
+			<Text>Из темного конца комнаты в твою сторону вылетает туча стрел. Чтобы определить, какую опасность это представляет,\n\nа затем 52 (запиши этот номер)</Text>
+			<Options>
+				<Option Goto="315"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
