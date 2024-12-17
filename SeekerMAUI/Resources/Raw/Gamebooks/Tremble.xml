@@ -827,5 +827,11 @@
 				<Option Goto="102"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="120">
+			<Text>Иди на запад. Коридор поворачивает направо и теперь ведет на север. И вот перед тобой перекресток.</Text>
+			<Options>
+				<Option Goto="64"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
