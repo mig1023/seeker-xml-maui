@@ -998,5 +998,11 @@
 				<Option Goto="64"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="147">
+			<Text>- Это так приятно, что я поговорил с тобой. Прошу, вот деревянный кол и банка с ядовитой пылью. Подарок от фирмы...</Text>
+			<Options>
+				<Option Goto="196"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
