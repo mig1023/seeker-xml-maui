@@ -1072,5 +1072,12 @@
 				<Option Goto="32" Text="Если не потерял еще шансов, можешь продолжать бой и если победишь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="158">
+			<Text>Не надоело?</Text>
+			<Options>
+				<Option Goto="225" Text="Если хочешь еще раз попробовать со Смоком, то у тебя должно быть еще хотя бы 10 кусков золота и тогда"/>
+				<Option Goto="269" Text="Если не хочешь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
