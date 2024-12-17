@@ -802,5 +802,12 @@
 				<Option Goto="324" Text="молот"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="116">
+			<Text>Отбегай в угол пещеры. Камни покатились под ногами. Орк приготовился атаковать. Ты должен биться.\n\nОРК 6Л, 4В</Text>
+			<Options>
+				<Option Goto="89" Text="После боя можешь оглядеться вокруг, если охота, конечно"/>
+				<Option Goto="120" Text="Если нет, выходи из пещеры"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
