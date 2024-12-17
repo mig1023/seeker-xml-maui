@@ -948,5 +948,11 @@
 				<Option Goto="255" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="139">
+			<Text>Доплывай спокойно до северного берега.</Text>
+			<Options>
+				<Option Goto="195"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
