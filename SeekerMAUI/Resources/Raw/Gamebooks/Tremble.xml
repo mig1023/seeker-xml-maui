@@ -865,5 +865,12 @@
 				<Option Goto="231" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="126">
+			<Text>Нападай на него с мечом.\n\nССС.</Text>
+			<Options>
+				<Option Goto="309" Text="Если выпало С, начинай битву"/>
+				<Option Goto="244" Text="если не выпало С"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
