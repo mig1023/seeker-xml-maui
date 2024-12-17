@@ -929,5 +929,11 @@
 				<Option Goto="22" Text="Если есть все"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="136">
+			<Text>Смок приглашает на свой хвост. Пролетай над ямой, потом приземляйся на другую сторону.</Text>
+			<Options>
+				<Option Goto="186"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
