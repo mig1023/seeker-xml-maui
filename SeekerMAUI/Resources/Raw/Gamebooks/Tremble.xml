@@ -1058,5 +1058,12 @@
 				<Option Goto="212"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="156">
+			<Text>Прикончишь обоих Злыдней?</Text>
+			<Options>
+				<Option Goto="350" Text="Если да"/>
+				<Option Goto="286" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
