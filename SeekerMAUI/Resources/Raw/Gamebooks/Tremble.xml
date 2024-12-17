@@ -884,5 +884,11 @@
 				<Option Goto="108"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="129">
+			<Text>Ты можешь бежать только на юг. Дыхание сбилось. Падаешь на землю, а когда очнулся, оказалось, что находишься на перекрестке дорог.</Text>
+			<Options>
+				<Option Goto="345"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
