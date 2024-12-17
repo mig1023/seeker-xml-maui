@@ -961,5 +961,11 @@
 				<Option Goto="235" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="141">
+			<Text>Ты находишься в глухом закоулке коридора. Можешь перекусить порцией еды. Иди назад, тебе ничего не остается делать.</Text>
+			<Options>
+				<Option Goto="357"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
