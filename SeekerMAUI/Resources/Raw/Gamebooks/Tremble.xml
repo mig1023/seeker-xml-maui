@@ -992,5 +992,11 @@
 				<Option Goto="19" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="146">
+			<Text>Коридор идет на юг. Затем поворачивает на восток. А вот и перекресток.</Text>
+			<Options>
+				<Option Goto="64"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
