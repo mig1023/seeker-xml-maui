@@ -1079,5 +1079,11 @@
 				<Option Goto="269" Text="Если не хочешь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="159">
+			<Text>Стена, закрывающая коридор, падает. Немедленно беги через образовавшийся проход. За тобой стена сразу восстанавливается.</Text>
+			<Options>
+				<Option Goto="78"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
