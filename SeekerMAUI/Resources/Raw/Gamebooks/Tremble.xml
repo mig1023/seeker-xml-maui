@@ -872,5 +872,11 @@
 				<Option Goto="244" Text="если не выпало С"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="127">
+			<Text>Далее</Text>
+			<Options>
+				<Option Goto="373"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
