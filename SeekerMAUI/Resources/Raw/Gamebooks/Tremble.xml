@@ -896,5 +896,11 @@
 				<Option Goto="212"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="131">
+			<Text>Действительно, решетку он поднял, но ключ не удается вынуть. Но ты должен его заставить.</Text>
+			<Options>
+				<Option Goto="251"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
