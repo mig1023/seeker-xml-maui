@@ -902,5 +902,11 @@
 				<Option Goto="251"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="132">
+			<Text>Возвращайся болотистым каналом.</Text>
+			<Options>
+				<Option Goto="102"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
