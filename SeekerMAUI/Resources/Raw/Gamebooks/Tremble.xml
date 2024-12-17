@@ -791,5 +791,16 @@
 				<Option Goto="276"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="115">
+			<Text>Выбирай:</Text>
+			<Options>
+				<Option Goto="232" Text="меч"/>
+				<Option Goto="324" Text="костяной нож"/>
+				<Option Goto="95" Text="рукавицы"/>
+				<Option Goto="37" Text="щит"/>
+				<Option Goto="298" Text="шлем"/>
+				<Option Goto="324" Text="молот"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
