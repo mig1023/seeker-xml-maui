@@ -1032,5 +1032,12 @@
 				<Option Goto="318" Text="Хочешь напасть на безобидных существ"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="152">
+			<Text>Препятствие преодолено. Иди коридором на восток, а потом поворачивай на север. Наткнешься на перекресток.</Text>
+			<Options>
+				<Option Goto="73" Text="Можешь пойти или на запад"/>
+				<Option Goto="20" Text="или на север"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
