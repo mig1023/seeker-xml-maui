@@ -1011,5 +1011,12 @@
 				<Option Goto="93" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="149">
+			<Text>Едва поднял меч кверху, как земля пошла из-под ног. И началось долгое падение вниз.\n\nССС.</Text>
+			<Options>
+				<Option Goto="76" Text="Если выпало С"/>
+				<Option Goto="352" Text="если не выпало"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
