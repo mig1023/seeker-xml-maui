@@ -809,5 +809,11 @@
 				<Option Goto="120" Text="Если нет, выходи из пещеры"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="117">
+			<Text>Короткий проход ведет на север, потом поворачивает на запад, и вот ты оказался перед новым помещением. Нет дверей</Text>
+			<Options>
+				<Option Goto="280"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
