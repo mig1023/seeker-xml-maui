@@ -1282,5 +1282,11 @@
 				<Option Goto="156"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="190">
+			<Text>Можешь выбрать хороший меч</Text>
+			<Options>
+				<Option Goto="115"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
