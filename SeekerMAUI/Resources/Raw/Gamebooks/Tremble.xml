@@ -1510,5 +1510,12 @@
 				<Option Goto="301" Text="если закрыты"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="225">
+			<Text>Платишь еще 10 кусков золота, Смок расставляет ноги над бездной и... снова начинает.\n\nССС.</Text>
+			<Options>
+				<Option Goto="186" Text="Если выпало С, переходишь на другой берег"/>
+				<Option Goto="3" Text="если не выпало, Смок опять возвращается"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
