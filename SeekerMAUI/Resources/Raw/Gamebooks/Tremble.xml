@@ -1524,5 +1524,11 @@
 				<Option Goto="101" Text="Но может хочешь биться дальше? Если да"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="227">
+			<Text>227.</Text>
+			<Options>
+				<Option Goto="373"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
