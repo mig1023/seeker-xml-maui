@@ -1602,5 +1602,11 @@
 				<Option Goto="27"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="239">
+			<Text>Уже через несколько ступенек лестница поворачивает влево, затем через несколько шагов встречаются двери. Приставь ухо и послушай.</Text>
+			<Options>
+				<Option Goto="125"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
