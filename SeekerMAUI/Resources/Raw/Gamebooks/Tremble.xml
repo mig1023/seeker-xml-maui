@@ -1590,5 +1590,11 @@
 				<Option Goto="4"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="237">
+			<Text>Далее</Text>
+			<Options>
+				<Option Goto="373"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
