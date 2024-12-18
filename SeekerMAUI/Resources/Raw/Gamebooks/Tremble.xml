@@ -1640,5 +1640,11 @@
 				<Option Goto="63"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="245">
+			<Text>Нажимай на них изо всех сил. Но они даже не дрогнули. Отбавь - 1B.</Text>
+			<Options>
+				<Option Goto="108"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
