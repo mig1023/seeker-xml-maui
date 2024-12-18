@@ -1437,5 +1437,12 @@
 				<Option Goto="320"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="214">
+			<Text>Ты в первый раз переплываешь с одного берега на другой?</Text>
+			<Options>
+				<Option Goto="65" Text="Если да"/>
+				<Option Goto="172" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
