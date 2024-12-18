@@ -1264,5 +1264,11 @@
 				<Option Goto="360" Text="С"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="187">
+			<Text>Изумруд не заинтересовал Карлика</Text>
+			<Options>
+				<Option Goto="81"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
