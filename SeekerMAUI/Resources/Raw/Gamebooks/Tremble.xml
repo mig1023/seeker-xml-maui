@@ -1557,5 +1557,12 @@
 				<Option Goto="286" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="232">
+			<Text>232.</Text>
+			<Options>
+				<Option Goto="271" Text="Если ты выбрал в качестве оружия меч"/>
+				<Option Goto="68" Text="если другое"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
