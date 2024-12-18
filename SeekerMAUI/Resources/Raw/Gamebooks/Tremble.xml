@@ -1163,5 +1163,12 @@
 				<Option Goto="357" Text="на юг"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="171">
+			<Text>Быстро выходи из комнаты. Здесь два выхода - тот, через который ты вошел, и другой - на восточной стене.</Text>
+			<Options>
+				<Option Goto="50" Text="Если выберешь первый"/>
+				<Option Goto="99" Text="Если второй"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
