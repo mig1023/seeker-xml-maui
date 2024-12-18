@@ -1450,5 +1450,11 @@
 				<Option Goto="39"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="216">
+			<Text>Изо всех сил бросай щит наверх. Обломки камней валятся на чудовище. Отними от его ловкости 2 балла и бейся.\n\nВОЛКОДАВ 7Л, 6В\n\nЕсли побеждаешь</Text>
+			<Options>
+				<Option Goto="32"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
