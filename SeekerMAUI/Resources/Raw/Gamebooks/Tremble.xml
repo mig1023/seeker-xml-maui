@@ -1288,5 +1288,11 @@
 				<Option Goto="115"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="191">
+			<Text>Идешь уже достаточно долго, когда вдруг послышался треск. За тобой падает тяжелая решетка, которая закрывала поворот. С легким сердцем иди дальше.</Text>
+			<Options>
+				<Option Goto="386"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
