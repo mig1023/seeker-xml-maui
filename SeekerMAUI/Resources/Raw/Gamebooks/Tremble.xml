@@ -1627,5 +1627,12 @@
 				<Option Goto="111" Text="если не выпало"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="243">
+			<Text>Хочешь войти?</Text>
+			<Options>
+				<Option Goto="355" Text="Если да"/>
+				<Option Goto="129" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
