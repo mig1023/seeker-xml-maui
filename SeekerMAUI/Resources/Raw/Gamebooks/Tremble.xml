@@ -1141,5 +1141,12 @@
 				<Option Goto="90" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="168">
+			<Text>168.</Text>
+			<Options>
+				<Option Goto="213" Text="Можешь применить меч"/>
+				<Option Goto="320" Text="Если не хочешь боя, то спасайся бегством"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
