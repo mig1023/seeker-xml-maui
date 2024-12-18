@@ -1584,5 +1584,11 @@
 				<Option Goto="327" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="236">
+			<Text>Заходи в комнату. К тебе подбегают два Карлика.</Text>
+			<Options>
+				<Option Goto="4"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
