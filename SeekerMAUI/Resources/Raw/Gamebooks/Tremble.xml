@@ -1491,5 +1491,11 @@
 				<Option Goto="173" Text="юг"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="222">
+			<Text>Выкладывай на стол все золото, какое есть, предметы и вещи из заплечного мешка, обещай ему свой заколдованный меч. Он не говорит ни слова.</Text>
+			<Options>
+				<Option Goto="311"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
