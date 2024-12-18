@@ -1397,5 +1397,11 @@
 				<Option Goto="110" Text="Попытаться сделать большой прыжок изо всей своей силы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="208">
+			<Text>Далее</Text>
+			<Options>
+				<Option Goto="373"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
