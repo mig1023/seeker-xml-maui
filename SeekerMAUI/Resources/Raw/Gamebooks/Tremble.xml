@@ -1444,5 +1444,11 @@
 				<Option Goto="172" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="215">
+			<Text>Иди просто на юг, дойди до комнаты с фонтаном. Выйди из нее через западный выход</Text>
+			<Options>
+				<Option Goto="39"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
