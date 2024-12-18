@@ -1344,5 +1344,12 @@
 				<Option Goto="385"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="200">
+			<Text>Вскоре доходишь до дверей в южной стене коридора.</Text>
+			<Options>
+				<Option Goto="120" Text="Если они открыты"/>
+				<Option Goto="301" Text="если закрыты. Дело в том, что если через эти двери ты еще не проходил, то они закрыты"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
