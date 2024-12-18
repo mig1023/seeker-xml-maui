@@ -1364,5 +1364,11 @@
 				<Option Goto="81"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="203">
+			<Text>Но это тебе должно дать успокоение.</Text>
+			<Options>
+				<Option Goto="129"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
