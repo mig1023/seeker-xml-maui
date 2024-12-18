@@ -1250,5 +1250,11 @@
 				<Option Goto="226" Text="Если не хочешь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="185">
+			<Text>Входи в узкий коридор. Он ведет к большому помещению.</Text>
+			<Options>
+				<Option Goto="252"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
