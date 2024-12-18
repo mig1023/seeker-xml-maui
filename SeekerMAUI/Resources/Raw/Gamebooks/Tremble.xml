@@ -1338,5 +1338,11 @@
 				<Option Goto="138"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="199">
+			<Text>Ищи место, где было рассыпано золото. Теперь его стало значительно меньше. Удалось собрать только 20 кусков. И то хорошо. Спокойно иди к выходу.</Text>
+			<Options>
+				<Option Goto="385"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
