@@ -1654,5 +1654,13 @@
 				<Option Goto="81" Text="Отказываешься от сделки"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="247">
+			<Text>Через несколько шагов ты дойдешь до дверей.</Text>
+			<Options>
+				<Option Goto="33" Text="Если они открыты, не подходи"/>
+				<Option Goto="5" Text="Если они закрыты, можешь попробовать их открыть"/>
+				<Option Goto="33" Text="если не хочешь открывать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
