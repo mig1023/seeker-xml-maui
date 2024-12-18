@@ -1483,5 +1483,13 @@
 				<Option Goto="366" Text="а если ключи"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="221">
+			<Text>221.</Text>
+			<Options>
+				<Option Goto="339" Text="Дойди до перекрестка, с которого можешь последовать на север"/>
+				<Option Goto="41" Text="восток"/>
+				<Option Goto="173" Text="юг"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
