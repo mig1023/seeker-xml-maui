@@ -1570,5 +1570,12 @@
 				<Option Goto="78"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="234">
+			<Text>Битва с Демоном закончилась.</Text>
+			<Options>
+				<Option Goto="205" Text="Не хочешь заглянуть в каменную шкатулку, стоящую на алтаре"/>
+				<Option Goto="199" Text="Или тебя интересует только золото "/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
