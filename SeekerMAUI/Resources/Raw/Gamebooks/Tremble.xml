@@ -1301,5 +1301,11 @@
 				<Option Goto="220" Text="Если выбираешь вещь, впиши ее в "Список оснащения" в путевой карте"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="193">
+			<Text>За одного убитого чудовища получаешь 5 кусков золота, за отвагу получаешь 2 балла ловкости и 2 балла счастья.</Text>
+			<Options>
+				<Option Goto="51"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
