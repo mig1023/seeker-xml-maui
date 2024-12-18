@@ -1503,5 +1503,12 @@
 				<Option Goto="121"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="224">
+			<Text>Через несколько шагов коридор поворачивает на восток, иди дальше. В южной стене коридора найди двери.</Text>
+			<Options>
+				<Option Goto="180" Text="Если они открыты"/>
+				<Option Goto="301" Text="если закрыты"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
