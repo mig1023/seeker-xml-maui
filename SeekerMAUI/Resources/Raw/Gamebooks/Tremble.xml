@@ -1646,5 +1646,13 @@
 				<Option Goto="108"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="246">
+			<Text>Ничего. Но Карлик иначе формулирует свое предложение. Или 20 кусков золота, или соска. Что хочешь?</Text>
+			<Options>
+				<Option Goto="289" Text="Золото"/>
+				<Option Goto="369" Text="Соску"/>
+				<Option Goto="81" Text="Отказываешься от сделки"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
