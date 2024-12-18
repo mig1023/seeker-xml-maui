@@ -1614,5 +1614,11 @@
 				<Option Goto="288"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="241">
+			<Text>Помни, что можешь набрать воды из озера.</Text>
+			<Options>
+				<Option Goto="132"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
