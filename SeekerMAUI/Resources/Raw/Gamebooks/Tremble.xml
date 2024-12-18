@@ -1634,5 +1634,11 @@
 				<Option Goto="129" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="244">
+			<Text>Волкодав снова парализует взглядом и выбивает из рук меч. Отними 1 балл выносливости. Однако ты быстро приходишь в себя и атакуешь его другим оружием.</Text>
+			<Options>
+				<Option Goto="63"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
