@@ -1431,5 +1431,11 @@
 				<Option Goto="336" Text="юг"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="213">
+			<Text>Всех Червей вместе считай как одно Чудовище, кто их там всех подсчитает?\n\nЧЕРВЬ 7Л, 8В\n\nЕсли выиграешь</Text>
+			<Options>
+				<Option Goto="320"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
