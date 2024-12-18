@@ -1177,5 +1177,11 @@
 				<Option Goto="365" Text="если ты уже два раза пробовал переплывать"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="173">
+			<Text>Вскоре коридор поворачивает на запад</Text>
+			<Options>
+				<Option Goto="134"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
