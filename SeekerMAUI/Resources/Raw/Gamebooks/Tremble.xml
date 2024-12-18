@@ -1620,5 +1620,12 @@
 				<Option Goto="132"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="242">
+			<Text>Отсчитай несколько десятков шагов и... проход оказывается закрытым скалой.\n\nССС.</Text>
+			<Options>
+				<Option Goto="233" Text="Если выпало С"/>
+				<Option Goto="111" Text="если не выпало"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
