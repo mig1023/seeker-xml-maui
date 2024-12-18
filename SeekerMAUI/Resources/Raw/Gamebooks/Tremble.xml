@@ -1276,5 +1276,11 @@
 				<Option Goto="221"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="189">
+			<Text>Ты сыграл с одним Злыднем. Если не играешь со всеми тремя Злыднями</Text>
+			<Options>
+				<Option Goto="156"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
