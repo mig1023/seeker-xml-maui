@@ -1320,5 +1320,11 @@
 				<Option Goto="46" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="196">
+			<Text>Выходи из комнаты через северные двери.</Text>
+			<Options>
+				<Option Goto="282"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
