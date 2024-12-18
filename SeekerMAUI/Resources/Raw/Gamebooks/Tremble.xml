@@ -1256,5 +1256,13 @@
 				<Option Goto="252"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="186">
+			<Text>Ты находишься на другом краю пропасти. У тебя три пути: один ведет на запад (А), другой на северо-запад (Б), и третий на северо-северо-запад (С). Который выбираешь?</Text>
+			<Options>
+				<Option Goto="368" Text="А"/>
+				<Option Goto="117" Text="Б"/>
+				<Option Goto="360" Text="С"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
