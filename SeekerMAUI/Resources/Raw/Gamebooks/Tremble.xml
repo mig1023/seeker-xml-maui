@@ -1536,5 +1536,12 @@
 				<Option Goto="102"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="229">
+			<Text>ССС.</Text>
+			<Options>
+				<Option Goto="66" Text="Если выпало С - счастье"/>
+				<Option Goto="19" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
