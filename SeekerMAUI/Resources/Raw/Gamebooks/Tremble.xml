@@ -1358,5 +1358,11 @@
 				<Option Goto="19" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="202">
+			<Text>Карлик усмехнулся и больше ничего.</Text>
+			<Options>
+				<Option Goto="81"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
