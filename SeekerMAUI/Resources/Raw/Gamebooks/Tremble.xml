@@ -1148,5 +1148,12 @@
 				<Option Goto="320" Text="Если не хочешь боя, то спасайся бегством"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="169">
+			<Text>Первый Демон взлетает и направляется в твою сторону. Ты должен биться.\n\nДЕМОН 8Л, 5В</Text>
+			<Options>
+				<Option Goto="385" Text="Если битва складывается для тебя неудачно, то спасайся бегством"/>
+				<Option Goto="297" Text="Если побьешь чудовище"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
