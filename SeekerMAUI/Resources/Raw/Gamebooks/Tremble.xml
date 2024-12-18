@@ -1307,5 +1307,11 @@
 				<Option Goto="51"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="194">
+			<Text>Иди дорожкой, пока она не кончится. Иди в проход и оказывается, ты попадаешь на берег озера.</Text>
+			<Options>
+				<Option Goto="195"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
