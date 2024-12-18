@@ -1229,5 +1229,12 @@
 				<Option Goto="32" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="182">
+			<Text>Не хочешь ли поискать тайных ходов?</Text>
+			<Options>
+				<Option Goto="30" Text="Если да"/>
+				<Option Goto="259" Text="если хочешь вернуться"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
