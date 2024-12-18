@@ -1564,5 +1564,11 @@
 				<Option Goto="68" Text="если другое"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="233">
+			<Text>Вдруг рухнула стена и завалила весь проход. Ты в панике мечешься по коридору, но никакого выхода.</Text>
+			<Options>
+				<Option Goto="78"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
