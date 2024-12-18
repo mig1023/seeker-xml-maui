@@ -1270,5 +1270,11 @@
 				<Option Goto="81"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="188">
+			<Text>Коридор поворачивает на юг</Text>
+			<Options>
+				<Option Goto="221"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
