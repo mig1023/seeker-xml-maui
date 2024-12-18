@@ -1155,5 +1155,13 @@
 				<Option Goto="297" Text="Если побьешь чудовище"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="170">
+			<Text>Дойдешь до перекрестка. Он имеет форму буквы Т.</Text>
+			<Options>
+				<Option Goto="84" Text="Можешь идти на север"/>
+				<Option Goto="319" Text="на восток"/>
+				<Option Goto="357" Text="на юг"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
