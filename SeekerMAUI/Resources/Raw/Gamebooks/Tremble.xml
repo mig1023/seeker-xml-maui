@@ -2017,5 +2017,12 @@
 				<Option Goto="2" Text="Если хочешь биться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="303">
+			<Text>303.</Text>
+			<Options>
+				<Option Goto="211" Text="Можешь сыграть с другим Злыднем"/>
+				<Option Goto="286" Text="Если не хочется играть"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
