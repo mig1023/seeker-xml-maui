@@ -1856,5 +1856,11 @@
 				<Option Goto="312" Text="После победы над Орком"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="278">
+			<Text>Теперь осмотри ключ. На нем выбито число 122. Клади ключ в свой мешок.</Text>
+			<Options>
+				<Option Goto="109"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
