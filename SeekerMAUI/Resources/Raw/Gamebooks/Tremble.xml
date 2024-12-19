@@ -1687,5 +1687,12 @@
 				<Option Goto="39"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="252">
+			<Text>Входи в склад. Но в нем нет ничего. Только стол, а на столе ящик, обитый жестью и закрытый на три висячих замка.</Text>
+			<Options>
+				<Option Goto="149" Text="Можешь оторвать замки мечом"/>
+				<Option Goto="76" Text="открыть их ключом"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
