@@ -1835,5 +1835,11 @@
 				<Option Goto="174" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="275">
+			<Text>Выбегай из комнаты через двери на восточной стене.</Text>
+			<Options>
+				<Option Goto="279"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
