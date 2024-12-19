@@ -1775,5 +1775,11 @@
 				<Option Goto="359" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="266">
+			<Text>Доплываешь без хлопот до южного берега озера.</Text>
+			<Options>
+				<Option Goto="15"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
