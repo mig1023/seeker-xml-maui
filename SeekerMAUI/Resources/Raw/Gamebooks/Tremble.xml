@@ -1718,5 +1718,11 @@
 				<Option Goto="378"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="257">
+			<Text>Спроси у своих хозяев, что за луч света падает сверху на середину комнаты. Они на минуту умолкают, но тут в них пробуждается бешенство. Упреди их атаку и нападай!</Text>
+			<Options>
+				<Option Goto="318"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
