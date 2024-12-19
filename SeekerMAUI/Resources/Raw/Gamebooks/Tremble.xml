@@ -2190,5 +2190,11 @@
 				<Option Goto="32"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="330">
+			<Text>В той комнате только один выход, тот, через который ты вошел. Выходи в коридор.</Text>
+			<Options>
+				<Option Goto="170"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
