@@ -1984,5 +1984,11 @@
 				<Option Goto="184" Text="Если сохранил силу и смелость, можешь начать битву с другим Демоном"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="298">
+			<Text>Этот шлем может действительно тебе пригодиться.</Text>
+			<Options>
+				<Option Goto="324"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
