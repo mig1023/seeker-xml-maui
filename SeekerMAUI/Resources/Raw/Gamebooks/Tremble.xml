@@ -1681,5 +1681,11 @@
 				<Option Goto="210" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="251">
+			<Text>Иди туда, куда идешь.</Text>
+			<Options>
+				<Option Goto="39"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
