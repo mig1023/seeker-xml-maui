@@ -1970,5 +1970,11 @@
 				<Option Goto="19" Text="если нет золота"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="296">
+			<Text>Коридор ведет на запад и поворачивает на север. На повороте можешь подкрепиться порцией еды. Иди дальше. А вот и перекресток.</Text>
+			<Options>
+				<Option Goto="39"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
