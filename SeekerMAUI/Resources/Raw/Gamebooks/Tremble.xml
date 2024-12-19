@@ -2010,5 +2010,12 @@
 				<Option Goto="120" Text="если не хочешь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="302">
+			<Text>Видел ли ты чудовище страшнее Гоблина? Неверное нет, хотя, может быть, и увидишь. Именно Гоблин живет в этой пещере. Поправь доспехи, приготовь оружие.</Text>
+			<Options>
+				<Option Goto="372" Text="Не хочешь туда «ходить"/>
+				<Option Goto="2" Text="Если хочешь биться"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
