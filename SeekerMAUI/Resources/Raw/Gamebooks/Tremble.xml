@@ -2071,5 +2071,11 @@
 				<Option Goto="17" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="311">
+			<Text>Он встал с богато убранного сидения и расставил ноги. Кладет руки на рукоять меча. Теперь твой ход.</Text>
+			<Options>
+				<Option Goto="165"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
