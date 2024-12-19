@@ -2057,5 +2057,12 @@
 				<Option Goto="276" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="309">
+			<Text>ВОЛКОДАВ 9Л, 6В\n\nПосле первого раунда оказывается, что твои удары не действенны. Чудовище не получает тяжелых ран.</Text>
+			<Options>
+				<Option Goto="275" Text="Можешь или спастись бегством"/>
+				<Option Goto="63" Text="или выбрать другое оружие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
