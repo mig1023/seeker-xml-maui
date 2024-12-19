@@ -1882,5 +1882,11 @@
 				<Option Goto="138"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="282">
+			<Text>Узкий туннель ведет на север и через несколько шагов поворачивает на восток и кончается дверями.</Text>
+			<Options>
+				<Option Goto="135"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
