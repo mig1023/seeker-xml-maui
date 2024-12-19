@@ -1694,5 +1694,11 @@
 				<Option Goto="76" Text="открыть их ключом"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="253">
+			<Text>Иди по лестнице, а потом коридором до выхода на перекресток. Сразу же...</Text>
+			<Options>
+				<Option Goto="267"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
