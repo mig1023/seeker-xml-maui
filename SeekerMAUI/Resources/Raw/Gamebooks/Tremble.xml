@@ -1914,5 +1914,11 @@
 				<Option Goto="148" Text="если восточным"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="287">
+			<Text>Вскоре встретился перекресток.</Text>
+			<Options>
+				<Option Goto="50"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
