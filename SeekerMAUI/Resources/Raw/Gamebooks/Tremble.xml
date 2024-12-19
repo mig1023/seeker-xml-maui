@@ -1737,5 +1737,11 @@
 				<Option Goto="50"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="260">
+			<Text>- Тут есть чудодейственное средство для лечения ран?\n\n- Сейчас посмотрим. Что тут у нас есть. Ага, вот деревянный кол и банка ядовитой пыли.</Text>
+			<Options>
+				<Option Goto="7"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
