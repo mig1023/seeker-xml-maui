@@ -2136,5 +2136,12 @@
 				<Option Goto="137"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="321">
+			<Text>Железная бабочка очень понравилась Карлику. Он мечтает заполучить ее себе. Хочешь сбыть ему бабочку?</Text>
+			<Options>
+				<Option Goto="166" Text="Если да"/>
+				<Option Goto="81" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
