@@ -1932,5 +1932,12 @@
 				<Option Goto="121"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="290">
+			<Text>Ты что-то заметил?</Text>
+			<Options>
+				<Option Goto="96" Text="Если да"/>
+				<Option Goto="253" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
