@@ -1869,5 +1869,12 @@
 				<Option Goto="47" Text="или идти дальше на восток"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="280">
+			<Text>- Добрый день, о, прошу прощения, доброй ночи. Чем могу служить? - Орк указывает на место перед столом и сам садится. У тебя есть золото?</Text>
+			<Options>
+				<Option Goto="196" Text="Если нет, то беги отсюда что есть сил"/>
+				<Option Goto="100" Text="Если есть"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
