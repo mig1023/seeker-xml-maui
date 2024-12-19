@@ -1876,5 +1876,11 @@
 				<Option Goto="100" Text="Если есть"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="281">
+			<Text>Копье ударяется в грудь Стражника, но он продолжает отбиваться. По-видимому, под плащом у него крепкая броня.</Text>
+			<Options>
+				<Option Goto="138"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
