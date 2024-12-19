@@ -1862,5 +1862,12 @@
 				<Option Goto="109"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="279">
+			<Text>Коридор ведет на восток. Доходит до перекрестка.</Text>
+			<Options>
+				<Option Goto="191" Text="От него можешь повернуть или на север"/>
+				<Option Goto="47" Text="или идти дальше на восток"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
