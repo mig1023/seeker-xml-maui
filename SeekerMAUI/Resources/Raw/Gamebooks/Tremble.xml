@@ -1939,5 +1939,11 @@
 				<Option Goto="253" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="291">
+			<Text>Двигайся к выходу, но вдруг неизвестно откуда вылетевшая стрела пронзила руку. Отбавь -2В.</Text>
+			<Options>
+				<Option Goto="330"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
