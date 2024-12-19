@@ -2184,5 +2184,11 @@
 				<Option Goto="90" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="329">
+			<Text>Опускайся на дно расщелины. Забирай ключи. На одном из них можно разглядеть выгравированный номер 70. Теперь быстрей наверх. А веревка пусть падает вниз.</Text>
+			<Options>
+				<Option Goto="32"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
