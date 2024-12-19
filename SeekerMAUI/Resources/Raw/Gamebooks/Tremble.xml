@@ -1762,5 +1762,11 @@
 				<Option Goto="326"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="264">
+			<Text>Мимо упавшего камня пройти очень трудно. Лучше проходи прямо на север.</Text>
+			<Options>
+				<Option Goto="102"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
