@@ -1926,5 +1926,11 @@
 				<Option Goto="186"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="289">
+			<Text>Отдашь кол, берешь золото</Text>
+			<Options>
+				<Option Goto="121"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
