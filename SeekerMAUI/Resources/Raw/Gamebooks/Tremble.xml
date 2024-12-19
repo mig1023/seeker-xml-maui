@@ -2157,5 +2157,12 @@
 				<Option Goto="196" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="324">
+			<Text>324.</Text>
+			<Options>
+				<Option Goto="115" Text="Если это первое, что ты выбрал"/>
+				<Option Goto="68" Text="если уже вторая попытка"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
