@@ -1957,5 +1957,11 @@
 				<Option Goto="207"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="294">
+			<Text>В каменной щели найдешь бутылку с эликсиром невидимости. Можешь взять ее. Получаешь (+2С).</Text>
+			<Options>
+				<Option Goto="171"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
