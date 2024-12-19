@@ -2098,5 +2098,11 @@
 				<Option Goto="370" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="315">
+			<Text>Бросай 1К. Если выпадает 1,2,3 - выходишь без ущерба, если выпадает 4, 5, 6 - теряешь (-3В) и (-1Л).</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
