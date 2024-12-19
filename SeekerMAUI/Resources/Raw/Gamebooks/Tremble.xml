@@ -1907,5 +1907,12 @@
 				<Option Goto="373"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="286">
+			<Text>Уходи из комнаты.</Text>
+			<Options>
+				<Option Goto="206" Text="Если западным выходом"/>
+				<Option Goto="148" Text="если восточным"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
