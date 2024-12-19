@@ -1789,5 +1789,12 @@
 				<Option Goto="345" Text="на юг"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="268">
+			<Text>Короткий туннель ведет к разбитым старым дверям.</Text>
+			<Options>
+				<Option Goto="317" Text="Если за ними ты еще не был, можешь войти"/>
+				<Option Goto="102" Text="Если хочешь повернуть назад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
