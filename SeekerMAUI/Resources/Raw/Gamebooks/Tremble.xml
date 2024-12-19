@@ -2143,5 +2143,12 @@
 				<Option Goto="81" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="322">
+			<Text>Комната совершенно пуста.</Text>
+			<Options>
+				<Option Goto="194" Text="Можешь либо вернуться, и тогда"/>
+				<Option Goto="242" Text="либо выйти через восточные двери"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
