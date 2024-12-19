@@ -1920,5 +1920,11 @@
 				<Option Goto="50"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="288">
+			<Text>Чуть живой ты лежишь на скале. Неожиданно Летучая Мышь начинает нападать на тебя.\n\nЛЕТУЧАЯ МЫШЬ 7Л, 6В\n\nЕсли победил</Text>
+			<Options>
+				<Option Goto="186"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
