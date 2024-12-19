@@ -2077,5 +2077,12 @@
 				<Option Goto="165"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="312">
+			<Text>Людоед и Скелет ждут тебя. Бейся с ними в такой последовательности:\n\nЛЮДОЕД 7Л, 5В\n\nСКЕЛЕТ 5Л, 4В</Text>
+			<Options>
+				<Option Goto="193" Text="Можешь спастись бегством. Но только после победы над Людоедом"/>
+				<Option Goto="193" Text="Когда прикончишь Скелета"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
