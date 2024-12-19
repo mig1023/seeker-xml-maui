@@ -1990,5 +1990,12 @@
 				<Option Goto="324"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="299">
+			<Text>299.</Text>
+			<Options>
+				<Option Goto="349" Text="Если хочешь открыть"/>
+				<Option Goto="194" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
