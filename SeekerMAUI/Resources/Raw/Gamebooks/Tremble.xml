@@ -1731,5 +1731,11 @@
 				<Option Goto="337" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="259">
+			<Text>Возвращайся коридором и дойди до двери комнаты исчезающих толстяков. Смело открывай двери. Никого нет. Быстрым шагом переходи к другим Дверям и выходи в коридор.</Text>
+			<Options>
+				<Option Goto="50"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
