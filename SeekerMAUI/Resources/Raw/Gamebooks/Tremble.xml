@@ -2130,5 +2130,11 @@
 				<Option Goto="170" Text="если нет, поворачивай назад"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="320">
+			<Text>Выходи из комнаты через двери, находящиеся на северной стене.</Text>
+			<Options>
+				<Option Goto="137"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
