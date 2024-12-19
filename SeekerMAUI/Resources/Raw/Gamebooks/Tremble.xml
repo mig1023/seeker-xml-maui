@@ -1712,5 +1712,11 @@
 				<Option Goto="23"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="256">
+			<Text>Опять никак не найти свободного прохода.</Text>
+			<Options>
+				<Option Goto="378"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
