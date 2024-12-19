@@ -2091,5 +2091,12 @@
 				<Option Goto="18" Text="если не играл"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="314">
+			<Text>Летишь вниз. Единственным твоим спасением может быть только Дар Крыльев.</Text>
+			<Options>
+				<Option Goto="12" Text="Если он у тебя есть, воспользуйся"/>
+				<Option Goto="370" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
