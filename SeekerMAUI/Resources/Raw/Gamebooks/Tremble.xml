@@ -2031,5 +2031,12 @@
 				<Option Goto="243" Text="нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="305">
+			<Text>В этой комнате есть много ценного.</Text>
+			<Options>
+				<Option Goto="112" Text="Чтобы там оказаться, надо в четырех бросках одним кубиком набрать 18 очков и тогда"/>
+				<Option Goto="381" Text="или ССС"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
