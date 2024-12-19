@@ -1700,5 +1700,11 @@
 				<Option Goto="267"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="254">
+			<Text>Вдруг с другого конца комнаты послышалось угрожающее рычание. Удалось схватить горсть золота, как оказалось - 10 кусков. И спасайся теперь бегством.</Text>
+			<Options>
+				<Option Goto="385"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
