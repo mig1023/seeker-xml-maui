@@ -1828,5 +1828,12 @@
 				<Option Goto="103" Text="Если не хочешь с ними драться. Запиши этот номер, а то забудешь дорогу"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="274">
+			<Text>Вдруг подул ветер. Ты начинаешь терять равновесие. Ветер мотает тебя как листок на дереве.\n\nССС.</Text>
+			<Options>
+				<Option Goto="210" Text="Если выпало счастье"/>
+				<Option Goto="174" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
