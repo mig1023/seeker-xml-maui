@@ -2367,5 +2367,12 @@
 				<Option Goto="141"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="357">
+			<Text>Сначала замечаешь двери в западной стене коридора. Хочешь открыть те двери?</Text>
+			<Options>
+				<Option Goto="245" Text="Если да"/>
+				<Option Goto="108" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
