@@ -2492,5 +2492,11 @@
 				<Option Goto="81" Text="А может, просто тебе не надо золота"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="376">
+			<Text>Двери сами открылись. Прибавь (+1Л) и (+2С).</Text>
+			<Options>
+				<Option Goto="16"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
