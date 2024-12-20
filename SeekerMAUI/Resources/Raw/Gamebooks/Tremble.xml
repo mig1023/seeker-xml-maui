@@ -2539,5 +2539,11 @@
 				<Option Goto="134"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="383">
+			<Text>Оглядись вокруг. Хватайся за меч и атакуй.</Text>
+			<Options>
+				<Option Goto="318"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
