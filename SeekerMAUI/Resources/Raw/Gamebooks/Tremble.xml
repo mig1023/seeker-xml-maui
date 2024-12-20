@@ -2381,5 +2381,11 @@
 				<Option Goto="162" Text="Если у тебя нет напитка, море огня тебя свалит с веревки, что с тобой будет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="359">
+			<Text>У тебя еще две таких попытки. Когда закончишь...</Text>
+			<Options>
+				<Option Goto="26"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
