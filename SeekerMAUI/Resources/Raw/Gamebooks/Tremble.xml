@@ -2466,5 +2466,11 @@
 				<Option Goto="318" Text="Если не хочешь искать питье, остается только с Карликами биться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="372">
+			<Text>Выходи из комнаты через единственные двери</Text>
+			<Options>
+				<Option Goto="253"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
