@@ -2258,5 +2258,11 @@
 				<Option Goto="33"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="340">
+			<Text>Карма выполнил твое поручение и убежал.</Text>
+			<Options>
+				<Option Goto="251"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
