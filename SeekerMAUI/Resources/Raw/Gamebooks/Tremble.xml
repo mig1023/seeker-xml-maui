@@ -2484,5 +2484,13 @@
 				<Option Goto="178"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="375">
+			<Text>375.</Text>
+			<Options>
+				<Option Goto="246" Text="Хочешь поднять цену"/>
+				<Option Goto="223" Text="Хочешь напасть на чудовище, чтобы убедиться, что он не спрятал большего количества золота"/>
+				<Option Goto="81" Text="А может, просто тебе не надо золота"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
