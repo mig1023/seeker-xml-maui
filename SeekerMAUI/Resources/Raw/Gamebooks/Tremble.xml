@@ -2419,5 +2419,12 @@
 				<Option Goto="116" Text="если решил сначала прикончить его"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="365">
+			<Text>365.</Text>
+			<Options>
+				<Option Goto="15" Text="Если переплываешь через озеро четное количество раз"/>
+				<Option Goto="195" Text="если нечетное"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
