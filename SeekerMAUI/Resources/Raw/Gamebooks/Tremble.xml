@@ -2276,5 +2276,11 @@
 				<Option Goto="259"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="343">
+			<Text>Из последних сил добравшись до противоположного края ямы, обнаруживаешь, что тебя ждет здесь сюрприз.</Text>
+			<Options>
+				<Option Goto="288"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
