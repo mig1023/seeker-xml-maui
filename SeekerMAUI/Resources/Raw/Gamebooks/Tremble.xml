@@ -2452,5 +2452,11 @@
 				<Option Goto="121"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="370">
+			<Text>Вот тут и конец твоему похождению. Тебя поглотила красная огненная бездна...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
