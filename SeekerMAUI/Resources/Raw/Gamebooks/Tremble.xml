@@ -2288,5 +2288,12 @@
 				<Option Goto="23"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="345">
+			<Text>Иди в сторону перекрестка.</Text>
+			<Options>
+				<Option Goto="218" Text="Можешь пойти на юг"/>
+				<Option Goto="267" Text="восток"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
