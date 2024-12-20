@@ -2387,5 +2387,11 @@
 				<Option Goto="26"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="360">
+			<Text>Короткий коридор ведет к дверям.</Text>
+			<Options>
+				<Option Goto="135"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
