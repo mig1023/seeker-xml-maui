@@ -2533,5 +2533,11 @@
 				<Option Goto="291" Text="если нет С"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="382">
+			<Text>Коридор поворачивает на север. На повороте можешь перекусить.</Text>
+			<Options>
+				<Option Goto="134"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
