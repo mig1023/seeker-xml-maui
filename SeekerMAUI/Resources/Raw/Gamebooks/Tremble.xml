@@ -2439,5 +2439,12 @@
 				<Option Goto="189"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="368">
+			<Text>Проходи несколько десятков шагов и увидишь, что коридор поворачивает на север. Слышен какой-то рокот. Приложи ухо к Восточной стене. Да, кто-то смеется. Хочешь поискать тайный ход?</Text>
+			<Options>
+				<Option Goto="87" Text="Если да"/>
+				<Option Goto="354" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
