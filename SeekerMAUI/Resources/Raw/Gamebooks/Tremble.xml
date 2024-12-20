@@ -2551,5 +2551,12 @@
 				<Option Goto="221"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="385">
+			<Text>Можешь покинуть комнату Демонов через восточные или через западные двери. Что выбираешь?</Text>
+			<Options>
+				<Option Goto="194" Text="Западные двери"/>
+				<Option Goto="342" Text="Восточные"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
