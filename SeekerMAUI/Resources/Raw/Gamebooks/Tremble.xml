@@ -2239,5 +2239,11 @@
 				<Option Goto="212" Text="если не хочешь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="337">
+			<Text>Можешь отправиться на поиски воды и вернуться сюда. Так или иначе...</Text>
+			<Options>
+				<Option Goto="286"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
