@@ -2519,5 +2519,12 @@
 				<Option Goto="86" Text="Если выпало 4,5,6 - это значит, что чудовище хочет биться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="380">
+			<Text>Хочешь осмотреть комнату?</Text>
+			<Options>
+				<Option Goto="118" Text="Если да"/>
+				<Option Goto="372" Text="если нет. За отвагу получаешь (+1Л)"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
