@@ -2348,5 +2348,12 @@
 				<Option Goto="60" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="354">
+			<Text>Иди на север. Со временем коридор поворачивает на восток. Через 50 шагов вновь слышен странный шум: смех и попискивания.</Text>
+			<Options>
+				<Option Goto="256" Text="Если хочешь исследовать, есть ли в южной стене тайные двери"/>
+				<Option Goto="78" Text="если решаешь идти дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
