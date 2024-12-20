@@ -2426,5 +2426,12 @@
 				<Option Goto="195" Text="если нечетное"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="366">
+			<Text>В стене рядом с проходом заметен какой-то замок. Хочешь попробовать этим ключом поднять решетку в проходе?</Text>
+			<Options>
+				<Option Goto="131" Text="Если да"/>
+				<Option Goto="278" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
