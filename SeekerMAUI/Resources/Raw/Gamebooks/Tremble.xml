@@ -2335,5 +2335,11 @@
 				<Option Goto="64"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="352">
+			<Text>Земля опять задрожала, затрещала. Свод начал падать. Ты сам падаешь в расщелину. Это конец...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
