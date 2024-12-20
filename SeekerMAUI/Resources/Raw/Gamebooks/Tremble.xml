@@ -2526,5 +2526,12 @@
 				<Option Goto="372" Text="если нет. За отвагу получаешь (+1Л)"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="381">
+			<Text>381.</Text>
+			<Options>
+				<Option Goto="28" Text="Если есть С"/>
+				<Option Goto="291" Text="если нет С"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
