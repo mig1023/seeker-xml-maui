@@ -2472,5 +2472,11 @@
 				<Option Goto="253"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="373">
+			<Text>Это неподходящий набор ключей. Если ты уже использовал все комбинации и ни одного соответствующего, то это конец!</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
