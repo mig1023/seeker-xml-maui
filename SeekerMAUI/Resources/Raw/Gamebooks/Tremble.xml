@@ -2406,5 +2406,11 @@
 				<Option Goto="72" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="363">
+			<Text>Длинный коридор ведет в северном направлении. Потом появляется перекресток.</Text>
+			<Options>
+				<Option Goto="170"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
