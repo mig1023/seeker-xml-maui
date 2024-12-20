@@ -2446,5 +2446,11 @@
 				<Option Goto="354" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="369">
+			<Text>Отдаешь кол и берешь соску.</Text>
+			<Options>
+				<Option Goto="121"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
