@@ -2231,5 +2231,13 @@
 				<Option Goto="186" Text="Если ты на другом берегу"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="336">
+			<Text>Долгое время не попадалось никаких дверей. Наконец-то! Подходи ближе.</Text>
+			<Options>
+				<Option Goto="21" Text="Если ты еще не был за теми дверями"/>
+				<Option Goto="6" Text="если был и хочешь еще раз войти"/>
+				<Option Goto="212" Text="если не хочешь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
