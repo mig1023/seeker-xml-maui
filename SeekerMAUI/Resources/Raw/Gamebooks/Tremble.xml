@@ -2252,5 +2252,11 @@
 				<Option Goto="300" Text="нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="339">
+			<Text>Сначала коридор поворачивает на запад. На повороте можешь перекусить.</Text>
+			<Options>
+				<Option Goto="33"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
