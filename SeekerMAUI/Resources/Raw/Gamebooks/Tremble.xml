@@ -2270,5 +2270,11 @@
 				<Option Goto="195"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="342">
+			<Text>Ничего.</Text>
+			<Options>
+				<Option Goto="259"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
