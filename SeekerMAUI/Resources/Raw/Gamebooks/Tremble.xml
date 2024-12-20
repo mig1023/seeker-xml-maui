@@ -2329,5 +2329,11 @@
 				<Option Goto="286" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="351">
+			<Text>От заваленного камнями коридора иди и...</Text>
+			<Options>
+				<Option Goto="64"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
