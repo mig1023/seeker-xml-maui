@@ -2224,5 +2224,12 @@
 				<Option Goto="19"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="335">
+			<Text>Соглашайся.</Text>
+			<Options>
+				<Option Goto="35" Text="Если находишься на берегу, с которого хочешь отправиться, то попробуй другим способом"/>
+				<Option Goto="186" Text="Если ты на другом берегу"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
