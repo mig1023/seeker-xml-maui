@@ -2307,5 +2307,13 @@
 				<Option Goto="345"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="348">
+			<Text>Коридор раздваивается.</Text>
+			<Options>
+				<Option Goto="221" Text="Можешь идти на запад"/>
+				<Option Goto="79" Text="на восток"/>
+				<Option Goto="239" Text="на юг"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
