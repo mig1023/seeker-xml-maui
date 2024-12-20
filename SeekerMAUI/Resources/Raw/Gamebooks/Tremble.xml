@@ -2322,5 +2322,12 @@
 				<Option Goto="385" Text="если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="350">
+			<Text>350.</Text>
+			<Options>
+				<Option Goto="71" Text="Если в эту комнату ты попал в первый раз, добавь себе 2 балла счастья (+2С)"/>
+				<Option Goto="286" Text="если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
