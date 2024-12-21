@@ -770,8 +770,8 @@
 		<Paragraph No="109">
 			<Text>Откуда ни возьмись в комнате появилось мерзкое чудовище. Это Карма. Выхода нет - надо драться.\n\nКАРМА 7Л 8В</Text>
 			<Options>
-				<Option Goto="77" Text="Если выиграешь первый раунд"/>
-				<Option Goto="163" Text="если нет"/>
+				<Option Goto="77" Text="Выиграл первый раунд"/>
+				<Option Goto="163" Text="Проиграл первый раунд"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="110">
