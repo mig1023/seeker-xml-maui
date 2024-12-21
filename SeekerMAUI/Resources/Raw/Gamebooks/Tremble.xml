@@ -155,10 +155,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="21">
-			<Text>21.</Text>
 			<Options>
-				<Option Goto="332" Text="Если хочешь посмотреть, что за дверьми"/>
-				<Option Goto="212" Text="Если нет, возвращайся"/>
+				<Option Goto="332" Text="Посмотреть, что за дверьми"/>
+				<Option Goto="212" Text="Не смотреть и вернуться"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="22">
