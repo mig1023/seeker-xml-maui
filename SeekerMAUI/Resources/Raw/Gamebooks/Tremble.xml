@@ -109,10 +109,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="14">
-			<Text>14.</Text>
 			<Options>
-				<Option Goto="197" Text="Можешь выйти через южные двери"/>
-				<Option Goto="39" Text="Если выходишь через восточные"/>
+				<Option Goto="197" Text="Выйти через южные двери"/>
+				<Option Goto="39" Text="Выйти через восточные"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="15">
