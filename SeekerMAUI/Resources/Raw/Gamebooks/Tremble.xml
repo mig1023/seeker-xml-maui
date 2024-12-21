@@ -1273,8 +1273,8 @@
 		<Paragraph No="184">
 			<Text>Вытри окровавленный меч о шкуру, лежащую перед ногами. Атакуй!\n\nДЕМОН 7Л, 6В</Text>
 			<Options>
-				<Option Goto="385" Text="Уже после первого раунда можешь спастись бегством"/>
-				<Option Goto="226" Text="Если не хочешь"/>
+				<Option Goto="385" Text="Спастись бегством"/>
+				<Option Goto="226" Text="Сражаться"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="185">
@@ -1284,11 +1284,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="186">
-			<Text>Ты находишься на другом краю пропасти. У тебя три пути: один ведет на запад (А), другой на северо-запад (Б), и третий на северо-северо-запад (С). Который выбираешь?</Text>
+			<Text>Ты находишься на другом краю пропасти. У тебя три пути:</Text>
 			<Options>
-				<Option Goto="368" Text="А"/>
-				<Option Goto="117" Text="Б"/>
-				<Option Goto="360" Text="С"/>
+				<Option Goto="368" Text="На запад"/>
+				<Option Goto="117" Text="На северо-запад"/>
+				<Option Goto="360" Text="На северо-северо-запад"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="187">
