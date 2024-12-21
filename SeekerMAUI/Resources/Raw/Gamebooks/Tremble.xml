@@ -1160,8 +1160,8 @@
 		<Paragraph No="167">
 			<Text>У тебя есть какой-нибудь напиток или вода (незаколдованная)?</Text>
 			<Options>
-				<Option Goto="236" Text="Если да"/>
-				<Option Goto="90" Text="если нет"/>
+				<Option Goto="236" Text="Да"/>
+				<Option Goto="90" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="168">
