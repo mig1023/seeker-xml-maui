@@ -762,10 +762,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="108">
-			<Text>108.</Text>
 			<Options>
-				<Option Goto="363" Text="Иди либо на север"/>
-				<Option Goto="141" Text="на юг"/>
+				<Option Goto="363" Text="Идёшь на север"/>
+				<Option Goto="141" Text="Идёшь на юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="109">
