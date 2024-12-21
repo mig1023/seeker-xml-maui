@@ -1027,8 +1027,8 @@
 		<Paragraph No="148">
 			<Text>Коридор поворачивает на север, и сразу попадаются на глаза двери.</Text>
 			<Options>
-				<Option Goto="8" Text="Если хочешь посмотреть, что за ними"/>
-				<Option Goto="93" Text="если нет"/>
+				<Option Goto="8" Text="Посмотреть, что за ними"/>
+				<Option Goto="93" Text="Не делать этого"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="149">
