@@ -563,8 +563,8 @@
 		<Paragraph No="79">
 			<Text>Коридор поворачивает на север, и ты очутился перед дверями. Хочешь ли ты посмотреть, что за ними?</Text>
 			<Options>
-				<Option Goto="8" Text="Если да"/>
-				<Option Goto="161" Text="Если нет"/>
+				<Option Goto="8" Text="Да"/>
+				<Option Goto="161" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="80">
