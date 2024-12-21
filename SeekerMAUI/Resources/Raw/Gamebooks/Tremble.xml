@@ -1511,11 +1511,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="221">
-			<Text>221.</Text>
+			<Text>Дойди до перекрестка, с которого можешь последовать:</Text>
 			<Options>
-				<Option Goto="339" Text="Дойди до перекрестка, с которого можешь последовать на север"/>
-				<Option Goto="41" Text="восток"/>
-				<Option Goto="173" Text="юг"/>
+				<Option Goto="339" Text="На север"/>
+				<Option Goto="41" Text="На восток"/>
+				<Option Goto="173" Text="На юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="222">
