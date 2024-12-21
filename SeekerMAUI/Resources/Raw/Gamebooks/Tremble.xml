@@ -1256,10 +1256,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="182">
-			<Text>Не хочешь ли поискать тайных ходов?</Text>
 			<Options>
-				<Option Goto="30" Text="Если да"/>
-				<Option Goto="259" Text="если хочешь вернуться"/>
+				<Option Goto="30" Text="Поискать тайных ходов"/>
+				<Option Goto="259" Text="Вернуться"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="183">
