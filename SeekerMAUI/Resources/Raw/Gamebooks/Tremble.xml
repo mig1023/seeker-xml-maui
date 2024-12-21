@@ -718,12 +718,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="102">
-			<Text>Дойди до перекрестка. Коридоры расходятся на все четыре стороны.</Text>
+			<Text>Дойди до перекрестка. Коридоры расходятся на все четыре стороны. Если идешь...</Text>
 			<Options>
-				<Option Goto="123" Text="Если идешь на запад"/>
-				<Option Goto="268" Text="на север"/>
-				<Option Goto="374" Text="на восток"/>
-				<Option Goto="351" Text="на юг"/>
+				<Option Goto="123" Text="На запад"/>
+				<Option Goto="268" Text="На север"/>
+				<Option Goto="374" Text="На восток"/>
+				<Option Goto="351" Text="На юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="103">
