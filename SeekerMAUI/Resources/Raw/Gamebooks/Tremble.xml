@@ -756,9 +756,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="107">
-			<Text>Приступай к битве мечом.\n\nСТРАЖНИК ТАИНСТВА 10Л, 14В\n\nЕсли победишь</Text>
+			<Text>Приступай к битве мечом.\n\nСТРАЖНИК ТАИНСТВА 10Л, 14Вь</Text>
 			<Options>
-				<Option Goto="23"/>
+				<Option Goto="23" Text="Победил"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="108">
