@@ -211,8 +211,8 @@
 		<Paragraph No="28">
 			<Text>Подними большой камень, лежащий у стены. Чтобы его поднять, у тебя должно быть текущей выносливости не менее 18В.</Text>
 			<Options>
-				<Option Goto="177" Text="Если есть"/>
-				<Option Goto="330" Text="Если нет"/>
+				<Option Goto="177" Text="Есть"/>
+				<Option Goto="330" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="29">
