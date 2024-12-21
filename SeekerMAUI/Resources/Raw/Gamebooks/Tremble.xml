@@ -1504,10 +1504,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="220">
-			<Text>220.</Text>
+			<Text>Выбираешь:</Text>
 			<Options>
-				<Option Goto="109" Text="Если выбираешь кость чудовища, банку с всеядными, железную бабочку или копье"/>
-				<Option Goto="366" Text="а если ключи"/>
+				<Option Goto="109" Text="Кость чудовища, банку с всеядными, железную бабочку или копье"/>
+				<Option Goto="366" Text="Ключи"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="221">
