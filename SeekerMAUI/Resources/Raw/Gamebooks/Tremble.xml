@@ -354,18 +354,20 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="50">
-			<Text>Приближаешься к перекрестку.</Text>
+			<Text>Приближаешься к перекрестку. Можешь идти...</Text>
 			<Options>
-				<Option Goto="310" Text="Можешь идти на север"/>
-				<Option Goto="130" Text="на восток"/>
-				<Option Goto="64" Text="на запад"/>
+				<Option Goto="310" Text="На север"/>
+				<Option Goto="130" Text="На восток"/>
+				<Option Goto="64" Text="На запад"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="51">
-			<Text>51.</Text>
+			<Text>Можешь выйти через...</Text>
 			<Options>
-				<Option Goto="134" Text="Можешь выйти через южные двери"/>
-				<Option Goto="33" Text="через северные. Двери оставь открытыми"/>
+				<Option Goto="134" Text="Южные двери"/>
+				<Option Goto="33" Text="Северные двери">
+					<Text>Двери оставь открытыми.</Text>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="52">
