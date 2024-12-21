@@ -1165,10 +1165,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="168">
-			<Text>168.</Text>
 			<Options>
-				<Option Goto="213" Text="Можешь применить меч"/>
-				<Option Goto="320" Text="Если не хочешь боя, то спасайся бегством"/>
+				<Option Goto="213" Text="Применить меч"/>
+				<Option Goto="320" Text="Спастись бегством"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="169">
