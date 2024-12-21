@@ -1499,8 +1499,8 @@
 		<Paragraph No="219">
 			<Text>Так что, берешь этот деревянный кол и банку ядовитой пыли? Может лучше все-таки взять?</Text>
 			<Options>
-				<Option Goto="323" Text="Если эта мысль по душе"/>
-				<Option Goto="147" Text="если нет"/>
+				<Option Goto="323" Text="Эта мысль по душе"/>
+				<Option Goto="147" Text="Этого не хочется"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="220">
