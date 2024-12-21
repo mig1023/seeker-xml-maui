@@ -1193,10 +1193,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="172">
-			<Text>Переплывешь озеро во второй раз?</Text>
 			<Options>
-				<Option Goto="15" Text="Если да"/>
-				<Option Goto="365" Text="если ты уже два раза пробовал переплывать"/>
+				<Option Goto="15" Text="Переплывешь озеро во второй раз"/>
+				<Option Goto="365" Text="Уже два раза пробовал переплывать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="173">
