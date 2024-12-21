@@ -554,10 +554,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="78">
-			<Text>78.</Text>
+			<Text>Можешь идти...</Text>
 			<Options>
-				<Option Goto="170" Text="Можешь идти или на север"/>
-				<Option Goto="357" Text="или на юг"/>
+				<Option Goto="170" Text="На север"/>
+				<Option Goto="357" Text="На юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="79">
