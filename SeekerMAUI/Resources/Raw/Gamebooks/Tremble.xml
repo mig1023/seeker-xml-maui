@@ -887,11 +887,10 @@
 			<Text>Нападай на него с мечом.\n\nССС.</Text>
 			<Options>
 				<Option Goto="309" Text="Если выпало С, начинай битву"/>
-				<Option Goto="244" Text="если не выпало С"/>
+				<Option Goto="244" Text="Если не выпало С"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="127">
-			<Text>Далее</Text>
 			<Options>
 				<Option Goto="373"/>
 			</Options>
@@ -933,11 +932,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="134">
-			<Text>Перед тобой перекресток.</Text>
+			<Text>Перед тобой перекресток. Ты можешь идти:</Text>
 			<Options>
-				<Option Goto="270" Text="Ты можешь идти на север"/>
-				<Option Goto="384" Text="восток"/>
-				<Option Goto="276" Text="на юг"/>
+				<Option Goto="270" Text="На север"/>
+				<Option Goto="384" Text="На восток"/>
+				<Option Goto="276" Text="На юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="135">
