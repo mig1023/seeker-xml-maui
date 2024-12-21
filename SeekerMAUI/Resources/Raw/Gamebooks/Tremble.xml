@@ -548,10 +548,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="77">
-			<Text>77.</Text>
 			<Options>
-				<Option Goto="340" Text="Можешь заставить чудовище поднять решетку"/>
-				<Option Goto="163" Text="Если дальше продолжаешь битву"/>
+				<Option Goto="340" Text="Заставить чудовище поднять решетку"/>
+				<Option Goto="163" Text="Продолжаешь битву"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="78">
