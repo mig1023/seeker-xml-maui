@@ -1545,10 +1545,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="226">
-			<Text>226.</Text>
+			<Text>Битва продолжается.</Text>
 			<Options>
-				<Option Goto="385" Text="Битва продолжается. В следующем раунде можешь спастись бегством"/>
-				<Option Goto="101" Text="Но может хочешь биться дальше? Если да"/>
+				<Option Goto="385" Text="Спастись бегством"/>
+				<Option Goto="101" Text="Биться дальше"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="227">
