@@ -444,8 +444,8 @@
 		<Paragraph No="62">
 			<Text>ССС.</Text>
 			<Options>
-				<Option Goto="201" Text="Если выпало С"/>
-				<Option Goto="145" Text="если нет"/>
+				<Option Goto="201" Text="Выпало С"/>
+				<Option Goto="145" Text="Не выпало"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="63">
