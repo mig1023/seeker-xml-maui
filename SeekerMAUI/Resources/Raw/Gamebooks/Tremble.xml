@@ -1341,10 +1341,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="195">
-			<Text>195.</Text>
+			<Text>Можешь попробовать все-таки переплыть озеро. Решаешься?</Text>
 			<Options>
-				<Option Goto="113" Text="Можешь попробовать все-таки переплыть озеро. Решаешься? Если да, то запиши номер этого пункта и"/>
-				<Option Goto="46" Text="Если нет"/>
+				<Option Goto="113" Text="Да (запиши номер этого пункта)"/>
+				<Option Goto="46" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="196">
