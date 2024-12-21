@@ -52,8 +52,8 @@
 		<Paragraph No="5">
 			<Text>Любишь битву? Прекрасно. Вот слева от тебя стоят СКЕЛЕТ и ЛЮДОЕД.\n\nВыстоишь?</Text>
 			<Options>
-				<Option Goto="312" Text="Если так"/>
-				<Option Goto="140" Text="Если нет"/>
+				<Option Goto="312" Text="Да"/>
+				<Option Goto="140" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="6">
