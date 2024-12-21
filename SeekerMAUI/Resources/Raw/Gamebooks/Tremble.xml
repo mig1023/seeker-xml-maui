@@ -1383,8 +1383,8 @@
 		<Paragraph No="201">
 			<Text>Бросай 2К. Выиграешь столько кусков золота, сколько на них выпало.</Text>
 			<Options>
-				<Option Goto="40" Text="Если хочешь еще сыграть"/>
-				<Option Goto="19" Text="Если нет"/>
+				<Option Goto="40" Text="Хочешь еще сыграть"/>
+				<Option Goto="19" Text="Не хочешь больше играть"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="202">
@@ -1400,7 +1400,6 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="204">
-			<Text>Далее</Text>
 			<Options>
 				<Option Goto="387"/>
 			</Options>
