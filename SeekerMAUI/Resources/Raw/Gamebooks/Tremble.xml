@@ -1199,7 +1199,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="173">
-			<Text>Вскоре коридор поворачивает на запад</Text>
+			<Text>Вскоре коридор поворачивает на запад...</Text>
 			<Options>
 				<Option Goto="134"/>
 			</Options>
@@ -1207,16 +1207,22 @@
 		<Paragraph No="174">
 			<Text>Куда ни ступишь, везде земля обжигает ноги.\n\n175.</Text>
 			<Options>
-				<Option Goto="315" Text="Чтобы избежать этого"/>
-				<Option Goto="210" Text="а потом"/>
-				<Option Goto="373" Text="Далее"/>
+				<Option Goto="315" Text="Чтобы избежать этого...">
+					<Text>А потом...</Text>
+				</Option>
+				<Option Goto="210"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="175">
+			<Options>
+				<Option Goto="373"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="176">
-			<Text>Приближайся к перекрестку.</Text>
+			<Text>Приближайся к перекрестку. Можешь пойти:</Text>
 			<Options>
-				<Option Goto="27" Text="Можешь пойти на север"/>
-				<Option Goto="230" Text="на восток"/>
+				<Option Goto="27" Text="На север"/>
+				<Option Goto="230" Text="На восток"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="177">
