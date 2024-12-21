@@ -277,16 +277,16 @@
 		<Paragraph No="38">
 			<Text>Коридор поворачивает сначала на север, постепенно изгибается к востоку. Он расширяется и уходит вниз. Остановись перед дверями, украшенными изысканными по красоте узорами. Ты уже был за этими дверями?</Text>
 			<Options>
-				<Option Goto="167" Text="Если да"/>
-				<Option Goto="328" Text="если нет"/>
+				<Option Goto="167" Text="Да"/>
+				<Option Goto="328" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="39">
-			<Text>Дойди до перекрестка.</Text>
+			<Text>Дойди до перекрестка. Он ответвляется дорогами...</Text>
 			<Options>
-				<Option Goto="331" Text="Он ответвляется дорогами на запад"/>
-				<Option Goto="228" Text="на север"/>
-				<Option Goto="146" Text="на юг"/>
+				<Option Goto="331" Text="На запад"/>
+				<Option Goto="228" Text="На север"/>
+				<Option Goto="146" Text="На юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="40">
