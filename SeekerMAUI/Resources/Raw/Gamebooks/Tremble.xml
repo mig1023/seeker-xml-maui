@@ -1490,10 +1490,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="218">
-			<Text>Приближайся к перекрестку.</Text>
+			<Text>Приближайся к перекрестку. Можешь пойти...</Text>
 			<Options>
-				<Option Goto="61" Text="Можешь пойти на запад"/>
-				<Option Goto="333" Text="на север"/>
+				<Option Goto="61" Text="На запад"/>
+				<Option Goto="333" Text="На север"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="219">
