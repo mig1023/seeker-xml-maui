@@ -597,11 +597,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="84">
-			<Text>Приближаешься к перекрестку.</Text>
+			<Text>Приближаешься к перекрестку. Можешь пойти...</Text>
 			<Options>
-				<Option Goto="209" Text="Можешь пойти на север"/>
-				<Option Goto="144" Text="восток"/>
-				<Option Goto="170" Text="юг"/>
+				<Option Goto="209" Text="На север"/>
+				<Option Goto="144" Text="На восток"/>
+				<Option Goto="170" Text="На юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="85">
