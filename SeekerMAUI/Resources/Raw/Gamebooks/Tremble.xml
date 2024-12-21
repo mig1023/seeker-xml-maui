@@ -1552,13 +1552,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="227">
-			<Text>227.</Text>
 			<Options>
 				<Option Goto="373"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="228">
-			<Text>Коридор идет на север и поворачивает на восток. Перед тобой перекресток</Text>
+			<Text>Коридор идет на север и поворачивает на восток. Перед тобой перекресток.</Text>
 			<Options>
 				<Option Goto="102"/>
 			</Options>
@@ -1567,7 +1566,7 @@
 			<Text>ССС.</Text>
 			<Options>
 				<Option Goto="66" Text="Если выпало С - счастье"/>
-				<Option Goto="19" Text="если нет"/>
+				<Option Goto="19" Text="Если не выпало"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="230">
