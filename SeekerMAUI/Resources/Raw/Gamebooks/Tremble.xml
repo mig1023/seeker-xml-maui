@@ -1139,13 +1139,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="165">
-			<Text>Будешь атаковать. Чем? Мечом? Сначала поищи, посмотри у себя другое оружие. Можешь выбрать одно.</Text>
+			<Text>Будешь атаковать. Чем? Мечом? Сначала поищи, посмотри у себя другое оружие. Можешь выбрать одно:</Text>
 			<Options>
-				<Option Goto="54" Text="Если выбираешь молот гномов"/>
-				<Option Goto="198" Text="алмазную острогу"/>
-				<Option Goto="344" Text="огненное ядро"/>
-				<Option Goto="281" Text="копье"/>
-				<Option Goto="255" Text="Если нет ничего из этого оружия"/>
+				<Option Goto="54" Text="Молот гномов"/>
+				<Option Goto="198" Text="Алмазную острогу"/>
+				<Option Goto="344" Text="Огненное ядро"/>
+				<Option Goto="281" Text="Копье">
+					<Text>Если нет ничего из этого оружия...</Text>
+				</Option>
+				<Option Goto="255"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="166">
