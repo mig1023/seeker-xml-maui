@@ -224,8 +224,8 @@
 		<Paragraph No="30">
 			<Text>ССС.</Text>
 			<Options>
-				<Option Goto="159" Text="Если выпало С"/>
-				<Option Goto="342" Text="Если нет"/>
+				<Option Goto="159" Text="Выпало С"/>
+				<Option Goto="342" Text="Не выпало"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="31">
