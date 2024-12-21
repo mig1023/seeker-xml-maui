@@ -961,8 +961,8 @@
 		<Paragraph No="138">
 			<Text>Твоя атака выглядит слишком слабой. Загляни в заплечный мешок. Если там есть соска, то запусти ее в Стражника.\n\nССС.</Text>
 			<Options>
-				<Option Goto="361" Text="Если выпало С"/>
-				<Option Goto="255" Text="если нет"/>
+				<Option Goto="361" Text="Выпало С"/>
+				<Option Goto="255" Text="Не выпало"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="139">
