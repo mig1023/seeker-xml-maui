@@ -127,10 +127,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="17">
-			<Text>17.</Text>
 			<Options>
-				<Option Goto="265" Text="Если хочешь посмотреть, что за ними находится"/>
-				<Option Goto="50" Text="Если нет"/>
+				<Option Goto="265" Text="Посмотреть, что за ними находится"/>
+				<Option Goto="50" Text="Не делать этого"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="18">
