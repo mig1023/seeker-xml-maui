@@ -613,8 +613,10 @@
 		<Paragraph No="86">
 			<Text>Веди битву до конца.</Text>
 			<Options>
-				<Option Goto="94" Text="Если победишь"/>
-				<Option Goto="0" Text="если проиграл, то останешься здесь навеки"/>
+				<Option Goto="94" Text="Победил">
+					<Text>Если проиграл, то останешься здесь навеки...</Text>
+				</Option>
+				<Gameover/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="87">
