@@ -812,19 +812,19 @@
 		<Paragraph No="115">
 			<Text>Выбирай:</Text>
 			<Options>
-				<Option Goto="232" Text="меч"/>
-				<Option Goto="324" Text="костяной нож"/>
-				<Option Goto="95" Text="рукавицы"/>
-				<Option Goto="37" Text="щит"/>
-				<Option Goto="298" Text="шлем"/>
-				<Option Goto="324" Text="молот"/>
+				<Option Goto="232" Text="Меч"/>
+				<Option Goto="324" Text="Костяной нож"/>
+				<Option Goto="95" Text="Рукавицы"/>
+				<Option Goto="37" Text="Щит"/>
+				<Option Goto="298" Text="Шлем"/>
+				<Option Goto="324" Text="Молот"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="116">
-			<Text>Отбегай в угол пещеры. Камни покатились под ногами. Орк приготовился атаковать. Ты должен биться.\n\nОРК 6Л, 4В</Text>
+			<Text>Отбегай в угол пещеры. Камни покатились под ногами. Орк приготовился атаковать. Ты должен биться.\n\nОРК 6Л, 4В\n\nПосле боя можешь:</Text>
 			<Options>
-				<Option Goto="89" Text="После боя можешь оглядеться вокруг, если охота, конечно"/>
-				<Option Goto="120" Text="Если нет, выходи из пещеры"/>
+				<Option Goto="89" Text="Оглядеться вокруг, если охота, конечно"/>
+				<Option Goto="120" Text="Выйти из пещеры"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="117">
