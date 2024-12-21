@@ -1034,8 +1034,8 @@
 		<Paragraph No="149">
 			<Text>Едва поднял меч кверху, как земля пошла из-под ног. И началось долгое падение вниз.\n\nССС.</Text>
 			<Options>
-				<Option Goto="76" Text="Если выпало С"/>
-				<Option Goto="352" Text="если не выпало"/>
+				<Option Goto="76" Text="Выпало С"/>
+				<Option Goto="352" Text="Не выпало"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="150">
