@@ -1450,12 +1450,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="212">
-			<Text>212.</Text>
+			<Text>Дойди до ровной площадки, на которой дорога расходится в четырех направлениях. Какую выберешь?</Text>
 			<Options>
-				<Option Goto="287" Text="Дойди до ровной площадки, на которой дорога расходится в четырех направлениях. Какую выберешь? Запад"/>
-				<Option Goto="38" Text="север"/>
-				<Option Goto="82" Text="восток"/>
-				<Option Goto="336" Text="юг"/>
+				<Option Goto="287" Text="Запад"/>
+				<Option Goto="38" Text="Север"/>
+				<Option Goto="82" Text="Восток"/>
+				<Option Goto="336" Text="Юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="213">
