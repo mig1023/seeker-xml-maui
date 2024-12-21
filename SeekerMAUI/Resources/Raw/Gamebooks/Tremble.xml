@@ -1572,8 +1572,8 @@
 		<Paragraph No="230">
 			<Text>После нескольких больших шагов коридор закончился. Будешь искать тайные Ходы?</Text>
 			<Options>
-				<Option Goto="36" Text="Если да"/>
-				<Option Goto="176" Text="если нет"/>
+				<Option Goto="36" Text="Да"/>
+				<Option Goto="176" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="231">
