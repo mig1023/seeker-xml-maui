@@ -2570,10 +2570,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="381">
-			<Text>381.</Text>
 			<Options>
-				<Option Goto="28" Text="Если есть С"/>
-				<Option Goto="291" Text="если нет С"/>
+				<Option Goto="28" Text="Есть С"/>
+				<Option Goto="291" Text="Нет С"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="382">
