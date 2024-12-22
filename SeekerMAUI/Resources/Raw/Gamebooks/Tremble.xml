@@ -2036,10 +2036,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="301">
-			<Text>301.</Text>
 			<Options>
-				<Option Goto="364" Text="Можешь попробовать открыть двери"/>
-				<Option Goto="120" Text="если не хочешь"/>
+				<Option Goto="364" Text="Попробовать открыть двери"/>
+				<Option Goto="120" Text="Не хочешь этого делать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="302">
