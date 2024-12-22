@@ -2158,8 +2158,8 @@
 		<Paragraph No="319">
 			<Text>По короткому узкому коридору дойди до дверей. Широко раскрой их. Хочешь посмотреть, что за ними?</Text>
 			<Options>
-				<Option Goto="69" Text="Если да"/>
-				<Option Goto="170" Text="если нет, поворачивай назад"/>
+				<Option Goto="69" Text="Да"/>
+				<Option Goto="170" Text="Нет, поворачивай назад"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="320">
