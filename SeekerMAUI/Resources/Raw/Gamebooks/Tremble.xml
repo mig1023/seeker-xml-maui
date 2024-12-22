@@ -1937,7 +1937,6 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="285">
-			<Text>Далее</Text>
 			<Options>
 				<Option Goto="373"/>
 			</Options>
@@ -1945,8 +1944,8 @@
 		<Paragraph No="286">
 			<Text>Уходи из комнаты.</Text>
 			<Options>
-				<Option Goto="206" Text="Если западным выходом"/>
-				<Option Goto="148" Text="если восточным"/>
+				<Option Goto="206" Text="Западным выходом"/>
+				<Option Goto="148" Text="Восточным выходом"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="287">
