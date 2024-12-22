@@ -2024,10 +2024,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="299">
-			<Text>299.</Text>
 			<Options>
-				<Option Goto="349" Text="Если хочешь открыть"/>
-				<Option Goto="194" Text="если нет"/>
+				<Option Goto="349" Text="Хочешь открыть"/>
+				<Option Goto="194" Text="Не хочешь открывать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="300">
