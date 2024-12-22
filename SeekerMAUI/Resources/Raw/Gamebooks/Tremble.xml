@@ -1606,8 +1606,8 @@
 		<Paragraph No="235">
 			<Text>В дверях стоит Минотавр. Биться?</Text>
 			<Options>
-				<Option Goto="92" Text="Если да"/>
-				<Option Goto="327" Text="если нет"/>
+				<Option Goto="92" Text="Да"/>
+				<Option Goto="327" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="236">
