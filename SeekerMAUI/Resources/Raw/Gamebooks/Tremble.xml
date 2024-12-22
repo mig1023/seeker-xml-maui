@@ -1961,7 +1961,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="289">
-			<Text>Отдашь кол, берешь золото</Text>
+			<Text>Отдашь кол, берешь золото...</Text>
 			<Options>
 				<Option Goto="121"/>
 			</Options>
@@ -1969,8 +1969,8 @@
 		<Paragraph No="290">
 			<Text>Ты что-то заметил?</Text>
 			<Options>
-				<Option Goto="96" Text="Если да"/>
-				<Option Goto="253" Text="если нет"/>
+				<Option Goto="96" Text="Да"/>
+				<Option Goto="253" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="291">
