@@ -1809,11 +1809,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="267">
-			<Text>Иди к перекрестку.</Text>
+			<Text>Иди к перекрестку. От него можешь идти...</Text>
 			<Options>
-				<Option Goto="333" Text="От него можешь идти на запад"/>
-				<Option Goto="164" Text="на восток"/>
-				<Option Goto="345" Text="на юг"/>
+				<Option Goto="333" Text="На запад"/>
+				<Option Goto="164" Text="На восток"/>
+				<Option Goto="345" Text="На юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="268">
