@@ -1877,11 +1877,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="276">
-			<Text>276.</Text>
+			<Text>Подходи к перекрестку, от которого можешь идти:</Text>
 			<Options>
-				<Option Goto="308" Text="Подходи к перекрестку, от которого можешь идти на север"/>
-				<Option Goto="382" Text="восток"/>
-				<Option Goto="215" Text="на юг"/>
+				<Option Goto="308" Text="На север"/>
+				<Option Goto="382" Text="На восток"/>
+				<Option Goto="215" Text="На юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="277">
