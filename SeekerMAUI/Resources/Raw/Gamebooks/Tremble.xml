@@ -2000,8 +2000,8 @@
 		<Paragraph No="295">
 			<Text>Два Карлика держат в руках карты. Все ухмыляются.</Text>
 			<Options>
-				<Option Goto="183" Text="Если есть золото, играй и тогда"/>
-				<Option Goto="19" Text="если нет золота"/>
+				<Option Goto="183" Text="Если есть золото, играй"/>
+				<Option Goto="19" Text="Если нет золота"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="296">
