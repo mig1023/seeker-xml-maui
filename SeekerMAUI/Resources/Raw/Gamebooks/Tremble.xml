@@ -2190,10 +2190,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="324">
-			<Text>324.</Text>
 			<Options>
-				<Option Goto="115" Text="Если это первое, что ты выбрал"/>
-				<Option Goto="68" Text="если уже вторая попытка"/>
+				<Option Goto="115" Text="Это первое, что ты выбрал"/>
+				<Option Goto="68" Text="Это уже вторая попытка"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="325">
