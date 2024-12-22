@@ -1900,8 +1900,8 @@
 		<Paragraph No="279">
 			<Text>Коридор ведет на восток. Доходит до перекрестка.</Text>
 			<Options>
-				<Option Goto="191" Text="От него можешь повернуть или на север"/>
-				<Option Goto="47" Text="или идти дальше на восток"/>
+				<Option Goto="191" Text="Повернуть на север"/>
+				<Option Goto="47" Text="Идти дальше на восток"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="280">
