@@ -1866,8 +1866,8 @@
 		<Paragraph No="274">
 			<Text>Вдруг подул ветер. Ты начинаешь терять равновесие. Ветер мотает тебя как листок на дереве.\n\nССС.</Text>
 			<Options>
-				<Option Goto="210" Text="Если выпало счастье"/>
-				<Option Goto="174" Text="если нет"/>
+				<Option Goto="210" Text="Выпало счастье"/>
+				<Option Goto="174" Text="Не выпало"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="275">
