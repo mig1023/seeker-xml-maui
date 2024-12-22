@@ -2127,7 +2127,7 @@
 			<Text>Летишь вниз. Единственным твоим спасением может быть только Дар Крыльев.</Text>
 			<Options>
 				<Option Goto="12" Text="Если он у тебя есть, воспользуйся"/>
-				<Option Goto="370" Text="если нет"/>
+				<Option Goto="370" Text="Если его нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="315">
