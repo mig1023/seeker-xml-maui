@@ -2099,8 +2099,8 @@
 		<Paragraph No="310">
 			<Text>Только 10 шагов осталось до деревянной двери.</Text>
 			<Options>
-				<Option Goto="67" Text="Если ты уже был за ними"/>
-				<Option Goto="17" Text="если нет"/>
+				<Option Goto="67" Text="Ты уже был за ними"/>
+				<Option Goto="17" Text="Не был"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="311">
@@ -2112,8 +2112,8 @@
 		<Paragraph No="312">
 			<Text>Людоед и Скелет ждут тебя. Бейся с ними в такой последовательности:\n\nЛЮДОЕД 7Л, 5В\n\nСКЕЛЕТ 5Л, 4В</Text>
 			<Options>
-				<Option Goto="193" Text="Можешь спастись бегством. Но только после победы над Людоедом"/>
-				<Option Goto="193" Text="Когда прикончишь Скелета"/>
+				<Option Goto="193" Text="Спастись бегствомм"/>
+				<Option Goto="193" Text="Прикончил Людоеда и Скелета"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="313">
