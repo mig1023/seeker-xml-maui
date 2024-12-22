@@ -2049,10 +2049,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="303">
-			<Text>303.</Text>
 			<Options>
-				<Option Goto="211" Text="Можешь сыграть с другим Злыднем"/>
-				<Option Goto="286" Text="Если не хочется играть"/>
+				<Option Goto="211" Text="Сыграть с другим Злыднем"/>
+				<Option Goto="286" Text="Не хочется играть"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="304">
