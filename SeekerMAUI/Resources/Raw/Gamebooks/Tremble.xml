@@ -2246,12 +2246,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="333">
-			<Text>Двигайся к перекрестку.</Text>
+			<Text>Двигайся к перекрестку. Можешь пойти:</Text>
 			<Options>
-				<Option Goto="304" Text="Можешь пойти на запад"/>
-				<Option Goto="176" Text="на север"/>
-				<Option Goto="267" Text="на восток"/>
-				<Option Goto="218" Text="на юг"/>
+				<Option Goto="304" Text="На запад"/>
+				<Option Goto="176" Text="На север"/>
+				<Option Goto="267" Text="На восток"/>
+				<Option Goto="218" Text="На юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="334">
