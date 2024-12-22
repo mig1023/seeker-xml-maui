@@ -2171,8 +2171,8 @@
 		<Paragraph No="321">
 			<Text>Железная бабочка очень понравилась Карлику. Он мечтает заполучить ее себе. Хочешь сбыть ему бабочку?</Text>
 			<Options>
-				<Option Goto="166" Text="Если да"/>
-				<Option Goto="81" Text="если нет"/>
+				<Option Goto="166" Text="Да"/>
+				<Option Goto="81" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="322">
