@@ -2327,10 +2327,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="345">
-			<Text>Иди в сторону перекрестка.</Text>
+			<Text>Иди в сторону перекрестка. Можешь пойти:</Text>
 			<Options>
-				<Option Goto="218" Text="Можешь пойти на юг"/>
-				<Option Goto="267" Text="восток"/>
+				<Option Goto="218" Text="На юг"/>
+				<Option Goto="267" Text="На восток"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="346">
