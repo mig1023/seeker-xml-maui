@@ -2270,9 +2270,11 @@
 		<Paragraph No="336">
 			<Text>Долгое время не попадалось никаких дверей. Наконец-то! Подходи ближе.</Text>
 			<Options>
-				<Option Goto="21" Text="Если ты еще не был за теми дверями"/>
-				<Option Goto="6" Text="если был и хочешь еще раз войти"/>
-				<Option Goto="212" Text="если не хочешь"/>
+				<Option Goto="21" Text="Ты еще не был за теми дверями">
+					<Text>Если уже был:</Text>
+				</Option>
+				<Option Goto="6" Text="Хочешь еще раз войти"/>
+				<Option Goto="212" Text="Не хочешь"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="337">
