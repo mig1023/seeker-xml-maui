@@ -2381,8 +2381,8 @@
 		<Paragraph No="353">
 			<Text>Карлик предлагает за бабочку 10 кусков золота. Принимаешь?</Text>
 			<Options>
-				<Option Goto="262" Text="Если да"/>
-				<Option Goto="60" Text="если нет"/>
+				<Option Goto="262" Text="Да"/>
+				<Option Goto="60" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="354">
