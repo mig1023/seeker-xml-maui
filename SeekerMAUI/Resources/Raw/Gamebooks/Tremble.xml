@@ -2208,11 +2208,16 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="327">
-			<Text>Не разыгрывай героя. Удирай быстро.\n\nПриложи ухо к двери. Слышен какой-то разговор, шуршание.</Text>
+			<Text>Не разыгрывай героя. Удирай быстро.</Text>
 			<Options>
-				<Option Goto="51" Text="Спасаешься только бегством"/>
-				<Option Goto="151" Text="Если хочешь войти в комнату"/>
-				<Option Goto="90" Text="если нет"/>
+				<Option Goto="51" Text="Спасаешься бегством"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="328">
+			<Text>Приложи ухо к двери. Слышен какой-то разговор, шуршание.</Text>
+			<Options>
+				<Option Goto="151" Text="Войти в комнату"/>
+				<Option Goto="90" Text="Не входить"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="329">
