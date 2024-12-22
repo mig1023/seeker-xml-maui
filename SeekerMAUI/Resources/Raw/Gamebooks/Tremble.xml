@@ -2507,7 +2507,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="372">
-			<Text>Выходи из комнаты через единственные двери</Text>
+			<Text>Выходи из комнаты через единственные двери.</Text>
 			<Options>
 				<Option Goto="253"/>
 			</Options>
@@ -2525,11 +2525,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="375">
-			<Text>375.</Text>
 			<Options>
-				<Option Goto="246" Text="Хочешь поднять цену"/>
-				<Option Goto="223" Text="Хочешь напасть на чудовище, чтобы убедиться, что он не спрятал большего количества золота"/>
-				<Option Goto="81" Text="А может, просто тебе не надо золота"/>
+				<Option Goto="246" Text="Поднять цену"/>
+				<Option Goto="223" Text="Напасть на чудовище, чтобы убедиться, что он не спрятал большего количества золота"/>
+				<Option Goto="81" Text="Тебе просто не надо золота"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="376">
