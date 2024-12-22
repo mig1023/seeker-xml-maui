@@ -2472,9 +2472,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="367">
-			<Text>Злыдня охватила радость. Атакуй его!\n\nЗЛЫДЕНЬ 6Л, 6В\n\nЕсли победили</Text>
+			<Text>Злыдня охватила радость. Атакуй его!\n\nЗЛЫДЕНЬ 6Л, 6В</Text>
 			<Options>
-				<Option Goto="189"/>
+				<Option Goto="189" Text="Победил"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="368">
