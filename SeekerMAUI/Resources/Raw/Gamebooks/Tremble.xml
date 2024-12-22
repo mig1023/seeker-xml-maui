@@ -1666,7 +1666,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="245">
-			<Text>Нажимай на них изо всех сил. Но они даже не дрогнули. Отбавь - 1B.</Text>
+			<Text>Нажимай на них изо всех сил. Но они даже не дрогнули. Отбавь -1B.</Text>
 			<Options>
 				<Option Goto="108"/>
 			</Options>
@@ -1682,9 +1682,11 @@
 		<Paragraph No="247">
 			<Text>Через несколько шагов ты дойдешь до дверей.</Text>
 			<Options>
-				<Option Goto="33" Text="Если они открыты, не подходи"/>
-				<Option Goto="5" Text="Если они закрыты, можешь попробовать их открыть"/>
-				<Option Goto="33" Text="если не хочешь открывать"/>
+				<Option Goto="33" Text="Если они открыты, не подходи">
+					<Text>Если они закрыты...</Text>
+				</Option>
+				<Option Goto="5" Text="Попробовать их открыть"/>
+				<Option Goto="33" Text="Не хочешь открывать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="248">
