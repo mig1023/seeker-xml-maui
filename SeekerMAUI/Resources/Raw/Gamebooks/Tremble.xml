@@ -2062,10 +2062,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="305">
-			<Text>В этой комнате есть много ценного.</Text>
+			<Text>В этой комнате есть много ценного. Чтобы там оказаться, надо:</Text>
 			<Options>
-				<Option Goto="112" Text="Чтобы там оказаться, надо в четырех бросках одним кубиком набрать 18 очков и тогда"/>
-				<Option Goto="381" Text="или ССС"/>
+				<Option Goto="112" Text="В четырех бросках одним кубиком набрать 18 очков">
+					<Text>...или...</Text>
+				</Option>
+				<Option Goto="381" Text="Выбросить ССС"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="306">
