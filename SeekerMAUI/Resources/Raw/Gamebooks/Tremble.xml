@@ -2119,8 +2119,8 @@
 		<Paragraph No="313">
 			<Text>Входи в комнату.</Text>
 			<Options>
-				<Option Goto="97" Text="Если уже бился с чудовищами"/>
-				<Option Goto="18" Text="если не играл"/>
+				<Option Goto="97" Text="Уже бился с чудовищами"/>
+				<Option Goto="18" Text="Не играл"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="314">
