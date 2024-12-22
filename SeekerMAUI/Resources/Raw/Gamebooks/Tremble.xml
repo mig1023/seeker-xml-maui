@@ -2235,8 +2235,8 @@
 		<Paragraph No="331">
 			<Text>Короткий, туннель ведет в какое-то помещение.</Text>
 			<Options>
-				<Option Goto="59" Text="Если ты там уже был"/>
-				<Option Goto="11" Text="если нет"/>
+				<Option Goto="59" Text="Ты там уже был"/>
+				<Option Goto="11" Text="Там ещё не бывал"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="332">
