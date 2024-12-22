@@ -2459,17 +2459,16 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="365">
-			<Text>365.</Text>
 			<Options>
-				<Option Goto="15" Text="Если переплываешь через озеро четное количество раз"/>
-				<Option Goto="195" Text="если нечетное"/>
+				<Option Goto="15" Text="Переплываешь через озеро четное количество раз"/>
+				<Option Goto="195" Text="Нечетное число раз"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="366">
 			<Text>В стене рядом с проходом заметен какой-то замок. Хочешь попробовать этим ключом поднять решетку в проходе?</Text>
 			<Options>
-				<Option Goto="131" Text="Если да"/>
-				<Option Goto="278" Text="если нет"/>
+				<Option Goto="131" Text="Да"/>
+				<Option Goto="278" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="367">
