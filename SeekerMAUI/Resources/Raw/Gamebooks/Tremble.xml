@@ -1820,7 +1820,7 @@
 			<Text>Короткий туннель ведет к разбитым старым дверям.</Text>
 			<Options>
 				<Option Goto="317" Text="Если за ними ты еще не был, можешь войти"/>
-				<Option Goto="102" Text="Если хочешь повернуть назад"/>
+				<Option Goto="102" Text="Повернуть назад"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="269">
