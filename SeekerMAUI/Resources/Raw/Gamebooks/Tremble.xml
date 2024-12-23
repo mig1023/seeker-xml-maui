@@ -1225,9 +1225,14 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="169">
-			<Text>Первый Демон взлетает и направляется в твою сторону. Ты должен биться.\n\nДЕМОН 8Л, 5В</Text>
-			<Options>
+			<Text>Первый Демон взлетает и направляется в твою сторону. Ты должен биться.</Text>
+			<Actions>
 				<Option Goto="385" Text="Спастись бегством"/>
+				<Fight>
+					<Enemy Name="ДЕМОН" Skill="8" Endurance="5"/>
+				</Fight>
+			</Actions>
+			<Options>
 				<Option Goto="297" Text="Победил"/>
 			</Options>
 		</Paragraph>
