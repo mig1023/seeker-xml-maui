@@ -951,10 +951,13 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="126">
-			<Text>Нападай на него с мечом.\n\nССС.</Text>
+			<Text>Нападай на него с мечом.</Text>
+			<Actions>
+				<GoodLuck/>
+			</Actions>
 			<Options>
-				<Option Goto="309" Text="Если выпало С, начинай битву"/>
-				<Option Goto="244" Text="Если не выпало С"/>
+				<Option Goto="309" Text="Если повезло, начинай битву" Tag="Win"/>
+				<Option Goto="244" Text="Если нет..." Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="127">
