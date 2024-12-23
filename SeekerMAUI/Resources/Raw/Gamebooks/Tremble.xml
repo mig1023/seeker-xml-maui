@@ -2226,7 +2226,7 @@
 				<Option Goto="112" Text="В четырех бросках одним кубиком набрать 18 очков">
 					<Text>...или...</Text>
 				</Option>
-				<Option Goto="381" Text="Выбросить ССС"/>
+				<Option Goto="381" Text="Проверить свою удачу"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="306">
@@ -2789,9 +2789,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="381">
+			<Actions>
+				<GoodLuck/>
+			</Actions>
 			<Options>
-				<Option Goto="28" Text="Есть С"/>
-				<Option Goto="291" Text="Нет С"/>
+				<Option Goto="28" Text="Удача улыбнулась"/>
+				<Option Goto="291" Text="Не повезло"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="382">
