@@ -1105,10 +1105,13 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="149">
-			<Text>Едва поднял меч кверху, как земля пошла из-под ног. И началось долгое падение вниз.\n\nССС.</Text>
+			<Text>Едва поднял меч кверху, как земля пошла из-под ног. И началось долгое падение вниз.</Text>
+			<Actions>
+				<GoodLuck/>
+			</Actions>
 			<Options>
-				<Option Goto="76" Text="Выпало С"/>
-				<Option Goto="352" Text="Не выпало"/>
+				<Option Goto="76" Text="Удача не отвернулась от вас" Tag="Win"/>
+				<Option Goto="352" Text="Удача вам изменила" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="150">
