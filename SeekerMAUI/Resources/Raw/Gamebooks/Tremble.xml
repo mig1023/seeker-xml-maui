@@ -1826,7 +1826,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="255">
-			<Text>Остался только меч. Размахивая им, двигайся в сторону врага.\n\nСТРАЖНИК ТАИНСТВА 10Л, 10В</Text>
+			<Text>Остался только меч. Размахивая им, двигайся в сторону врага.</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="СТРАЖНИК ТАИНСТВА" Skill="10" Endurance="10"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="23" Text="Выиграл"/>
 			</Options>
