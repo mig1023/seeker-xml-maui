@@ -230,10 +230,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="30">
-			<Text>ССС.</Text>
+			<Actions>
+				<GoodLuck/>
+			</Actions>
 			<Options>
-				<Option Goto="159" Text="Выпало С"/>
-				<Option Goto="342" Text="Не выпало"/>
+				<Option Goto="159" Text="Выпала удача" Tag="Win"/>
+				<Option Goto="342" Text="Не выпала" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="31">
