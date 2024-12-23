@@ -788,7 +788,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="107">
-			<Text>Приступай к битве мечом.\n\nСТРАЖНИК ТАИНСТВА 10Л, 14Вь</Text>
+			<Text>Приступай к битве мечом.</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="СТРАЖНИК ТАИНСТВА" Skill="10" Endurance="14"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="23" Text="Победил"/>
 			</Options>
