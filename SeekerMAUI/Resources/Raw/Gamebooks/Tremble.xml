@@ -1095,7 +1095,7 @@
 			<Text>Не надоело?</Text>
 			<Options>
 				<Option Goto="225" Text="Еще раз попробовать со Смоком, то у тебя должно быть еще хотя бы 10 кусков золота и тогда"/>
-				<Option Goto="269" Text="Больше не хочешь"/>
+				<Option Goto="269,74,110" Text="Больше не хочешь"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="159">
