@@ -44,7 +44,41 @@ namespace SeekerMAUI.Gamebook.Tremble
             return paragraph;
         }
 
+        public override Abstract.IActions ActionParse(XmlNode xmlAction)
+        {
+            Actions action = (Actions)ActionTemplate(xmlAction, new Actions());
+
+            foreach (string param in GetProperties(action))
+                SetProperty(action, param, xmlAction);
+
+            if (xmlAction["Enemy"] != null)
+            {
+                action.Enemy = EnemyParse(xmlAction["Enemy"]);
+            }
+
+            if (action.Type == "Option")
+                action.Option = OptionParse(xmlAction);
+
+            return action;
+        }
+
         public override Abstract.IModification ModificationParse(XmlNode xmlModification) =>
             (Abstract.IModification)base.ModificationParse(xmlModification, new Modification());
+
+        public override Option OptionParse(XmlNode xmlOption) =>
+            OptionParseWithDo(xmlOption, new Modification());
+
+        private Character EnemyParse(XmlNode xmlEnemy)
+        {
+            var enemy = new Character();
+
+            foreach (string param in GetProperties(enemy))
+                SetPropertyByAttr(enemy, param, xmlEnemy, maxPrefix: true);
+
+            enemy.Skill = enemy.MaxSkill;
+            enemy.Endurance = enemy.MaxEndurance;
+
+            return enemy;
+        }
     }
 }
