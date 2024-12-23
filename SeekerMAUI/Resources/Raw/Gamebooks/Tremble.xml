@@ -2638,7 +2638,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="367">
-			<Text>Злыдня охватила радость. Атакуй его!\n\nЗЛЫДЕНЬ 6Л, 6В</Text>
+			<Text>Злыдня охватила радость. Атакуй его!</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="ЗЛЫДЕНЬ" Skill="6" Endurance="6"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="189" Text="Победил"/>
 			</Options>
