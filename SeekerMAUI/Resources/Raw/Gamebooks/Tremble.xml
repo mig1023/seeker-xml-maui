@@ -2001,10 +2001,13 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="274">
-			<Text>Вдруг подул ветер. Ты начинаешь терять равновесие. Ветер мотает тебя как листок на дереве.\n\nССС.</Text>
+			<Text>Вдруг подул ветер. Ты начинаешь терять равновесие. Ветер мотает тебя как листок на дереве.</Text>
+			<Actions>
+				<GoodLuck/>
+			</Actions>
 			<Options>
-				<Option Goto="210" Text="Выпало счастье"/>
-				<Option Goto="174" Text="Не выпало"/>
+				<Option Goto="210" Text="Выпало счастье" Tag="Win"/>
+				<Option Goto="174" Text="Не выпало" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="275">
