@@ -1775,10 +1775,13 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="242">
-			<Text>Отсчитай несколько десятков шагов и... проход оказывается закрытым скалой.\n\nССС.</Text>
+			<Text>Отсчитай несколько десятков шагов и... проход оказывается закрытым скалой.</Text>
+			<Actions>
+				<GoodLuck/>
+			</Actions>
 			<Options>
-				<Option Goto="233" Text="Выпало С"/>
-				<Option Goto="111" Text="Не выпало"/>
+				<Option Goto="233" Text="Повезло" Tag="Win"/>
+				<Option Goto="111" Text="Не повезло" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="243">
