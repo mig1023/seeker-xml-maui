@@ -1264,7 +1264,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="174">
-			<Text>Куда ни ступишь, везде земля обжигает ноги.\n\n175.</Text>
+			<Text>Куда ни ступишь, везде земля обжигает ноги.</Text>
 			<Options>
 				<Option Goto="315" Text="Чтобы избежать этого...">
 					<Text>А потом...</Text>
@@ -1330,7 +1330,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="184">
-			<Text>Вытри окровавленный меч о шкуру, лежащую перед ногами. Атакуй!\n\nДЕМОН 7Л, 6В</Text>
+			<Text>Вытри окровавленный меч о шкуру, лежащую перед ногами. Атакуй!</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="ДЕМОН" Skill="7" Endurance="6"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="385" Text="Спастись бегством"/>
 				<Option Goto="226" Text="Сражаться"/>
