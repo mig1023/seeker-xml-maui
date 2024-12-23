@@ -1029,10 +1029,13 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="138">
-			<Text>Твоя атака выглядит слишком слабой. Загляни в заплечный мешок. Если там есть соска, то запусти ее в Стражника.\n\nССС.</Text>
+			<Text>Твоя атака выглядит слишком слабой. Загляни в заплечный мешок. Если там есть соска, то запусти ее в Стражника.</Text>
+			<Actions>
+				<GoodLuck/>
+			</Actions>
 			<Options>
-				<Option Goto="361" Text="Выпало С"/>
-				<Option Goto="255" Text="Не выпало"/>
+				<Option Goto="361" Text="Удача с тобой" Tag="Win"/>
+				<Option Goto="255" Text="Удача от тебя отвернулась" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="139">
