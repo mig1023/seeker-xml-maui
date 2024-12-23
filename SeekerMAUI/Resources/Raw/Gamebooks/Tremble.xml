@@ -1523,7 +1523,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="213">
-			<Text>Всех Червей вместе считай как одно Чудовище, кто их там всех подсчитает?\n\nЧЕРВЬ 7Л, 8В</Text>
+			<Text>Всех Червей вместе считай как одно Чудовище, кто их там всех подсчитает?</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="ЧЕРВЬ" Skill="7" Endurance="8"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="320" Text="Выиграл"/>
 			</Options>
