@@ -2233,7 +2233,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="312">
-			<Text>Людоед и Скелет ждут тебя. Бейся с ними в такой последовательности:\n\nЛЮДОЕД 7Л, 5В\n\nСКЕЛЕТ 5Л, 4В</Text>
+			<Text>Людоед и Скелет ждут тебя. Бейся с ними в такой последовательности:</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="ЛЮДОЕД" Skill="7" Endurance="5"/>
+				</Fight>
+				<Fight>
+					<Enemy Name="СКЕЛЕТ" Skill="5" Endurance="4"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="193" Text="Спастись бегствомм"/>
 				<Option Goto="193" Text="Прикончил Людоеда и Скелета"/>
