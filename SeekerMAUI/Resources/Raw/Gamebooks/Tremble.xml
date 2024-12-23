@@ -1672,10 +1672,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="229">
-			<Text>ССС.</Text>
+			<Actions>
+				<GoodLuck/>
+			</Actions>
 			<Options>
-				<Option Goto="66" Text="Если выпало С - счастье"/>
-				<Option Goto="19" Text="Если не выпало"/>
+				<Option Goto="66" Text="Удача с тобой" Tag="Win"/>
+				<Option Goto="19" Text="Не повезло" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="230">
