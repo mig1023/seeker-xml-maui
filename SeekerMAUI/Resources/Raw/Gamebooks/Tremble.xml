@@ -2061,7 +2061,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="288">
-			<Text>Чуть живой ты лежишь на скале. Неожиданно Летучая Мышь начинает нападать на тебя.\n\nЛЕТУЧАЯ МЫШЬ 7Л, 6В</Text>
+			<Text>Чуть живой ты лежишь на скале. Неожиданно Летучая Мышь начинает нападать на тебя.</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="ЛЕТУЧАЯ МЫШЬ" Skill="7" Endurance="6"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="186" Text="Победил"/>
 			</Options>
