@@ -466,10 +466,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="62">
-			<Text>ССС.</Text>
+			<Actions>
+				<GoodLuck/>
+			</Actions>
 			<Options>
-				<Option Goto="201" Text="Выпало С"/>
-				<Option Goto="145" Text="Не выпало"/>
+				<Option Goto="201" Text="Повезло" Tag="Win"/>
+				<Option Goto="145" Text="Не повезло" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="63">
