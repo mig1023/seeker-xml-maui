@@ -2214,6 +2214,9 @@
 		</Paragraph>
 		<Paragraph No="291">
 			<Text>Двигайся к выходу, но вдруг неизвестно откуда вылетевшая стрела пронзила руку. Отбавь -2В.</Text>
+			<Modifications>
+				<Endurance Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="330"/>
 			</Options>
