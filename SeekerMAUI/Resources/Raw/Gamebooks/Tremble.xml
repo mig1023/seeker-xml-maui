@@ -2308,6 +2308,9 @@
 					<Text>Если Победишь, плыви к противоположному берегу. Получаешь (+2С).</Text>
 				</Fight>
 			</Actions>
+			<Modifications>
+				<Skill Value="2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="214"/>
 			</Options>
