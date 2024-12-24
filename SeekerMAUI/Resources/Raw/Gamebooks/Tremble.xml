@@ -2293,6 +2293,9 @@
 		</Paragraph>
 		<Paragraph No="306">
 			<Text>Набери воды. Она волшебная. Спрячь емкость в мешок. Прибавь себе (+2С).</Text>
+			<Modifications>
+				<Luck Value="2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="109"/>
 			</Options>
