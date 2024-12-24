@@ -1458,6 +1458,10 @@
 		</Paragraph>
 		<Paragraph No="193">
 			<Text>За одного убитого чудовища получаешь 5 кусков золота, за отвагу получаешь 2 балла ловкости и 2 балла счастья.</Text>
+			<Modifications>
+				<Skill Value="2"/>
+				<Luck Value="2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="51"/>
 			</Options>
