@@ -1493,6 +1493,9 @@
 		</Paragraph>
 		<Paragraph No="198">
 			<Text>Бросай алмазную острогу, но она, ударившись о скалу, вместо Стражника попадает в тебя. Отними у себя 1 балл выносливости.</Text>
+			<Modifications>
+				<Endurance Value="-1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="138"/>
 			</Options>
