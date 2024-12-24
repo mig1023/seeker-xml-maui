@@ -1836,6 +1836,9 @@
 		</Paragraph>
 		<Paragraph No="244">
 			<Text>Волкодав снова парализует взглядом и выбивает из рук меч. Отними 1 балл выносливости. Однако ты быстро приходишь в себя и атакуешь его другим оружием.</Text>
+			<Modifications>
+				<Endurance Value="-1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="63"/>
 			</Options>
