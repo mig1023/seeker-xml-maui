@@ -2456,6 +2456,9 @@
 		</Paragraph>
 		<Paragraph No="326">
 			<Text>Сейчас добирайся до рассыпанного золота. Его аж 30 кусков! Добавь себе (+2С). Теперь беги к выходу.</Text>
+			<Modifications>
+				<Luck Value="2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="385"/>
 			</Options>
