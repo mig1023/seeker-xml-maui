@@ -2333,7 +2333,7 @@
 				</Fight>
 			</Actions>
 			<Modifications>
-				<Skill Value="2"/>
+				<Skill Value="-2"/>
 			</Modifications>
 			<Options>
 				<Option Goto="214"/>
@@ -2428,6 +2428,10 @@
 		</Paragraph>
 		<Paragraph No="318">
 			<Text>Вынимай меч. Размахнись посильней. Но в этот момент со страшным грохотом начал рушиться свод пещеры. Стало необычно светло и ясно. Это дневной свет, который, наверное, нужен для салата, но он освещает тебя и это тебе невыгодно. Выбирайся из комнаты через двери, в которые вошел. На этом ты потерял (-ЗВ) и (-2Л).</Text>
+			<Modifications>
+				<Endurance Value="-3"/>
+				<Skill Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="90"/>
 			</Options>
