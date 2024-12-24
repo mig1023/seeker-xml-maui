@@ -2478,6 +2478,9 @@
 					<Text>Если выиграл, прибавь себе 1С.</Text>
 				</Fight>
 			</Actions>
+			<Modifications>
+				<Endurance Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="6"/>
 			</Options>
