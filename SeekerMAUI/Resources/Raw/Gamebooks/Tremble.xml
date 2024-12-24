@@ -1277,6 +1277,9 @@
 		</Paragraph>
 		<Paragraph No="166">
 			<Text>Ты шутливо препираешься с Карликом. Благодаря этому получаешь (+ЗВ) и (+2Л). В конце концов уступаешь ему бабочку...</Text>
+			<Modifications>
+				<Skill Value="2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="202" Text="Даром"/>
 				<Option Goto="353" Text="За золото"/>
