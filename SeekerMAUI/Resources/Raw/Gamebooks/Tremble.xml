@@ -1867,6 +1867,9 @@
 		</Paragraph>
 		<Paragraph No="245">
 			<Text>Нажимай на них изо всех сил. Но они даже не дрогнули. Отбавь -1B.</Text>
+			<Modifications>
+				<Endurance Value="-1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="108"/>
 			</Options>
