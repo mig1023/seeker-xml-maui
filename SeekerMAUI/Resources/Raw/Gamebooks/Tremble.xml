@@ -1347,6 +1347,9 @@
 		</Paragraph>
 		<Paragraph No="177">
 			<Text>Под камнем было спрятано огненное ядро. Можешь его взять. Прибавь себе 3 балла счастья.</Text>
+			<Modifications>
+				<Luck Value="3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="330"/>
 			</Options>
