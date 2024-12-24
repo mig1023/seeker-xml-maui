@@ -617,6 +617,10 @@
 		</Paragraph>
 		<Paragraph No="81">
 			<Text>Можешь бросить все, усесться поудобнее и отдохнуть. Благодаря этому получаешь (+2В) и (+1Л).</Text>
+			<Modifications>
+				<Endurance Value="2"/>
+				<Skill Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="121"/>
 			</Options>
