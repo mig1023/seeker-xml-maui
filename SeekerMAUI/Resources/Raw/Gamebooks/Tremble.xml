@@ -1222,6 +1222,9 @@
 		</Paragraph>
 		<Paragraph No="162">
 			<Text>Расходуешь 1 балл выносливости (-1В).</Text>
+			<Modifications>
+				<Endurance Value="1"/>
+			</Modifications>
 			<Actions>
 				<GoodLuck>
 					<Text>Если выпало С, то Летучая Мышь тебя поймала, но за помощь требует золото.</Text>
