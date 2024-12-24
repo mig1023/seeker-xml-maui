@@ -796,6 +796,9 @@
 		</Paragraph>
 		<Paragraph No="105">
 			<Text>Попробуй взломать дверь. Разбегись и ударь со всей силы плечом. Дверь не дрогнула. Убавь в путевой карте 1 балл от выносливости. Хочешь повторить попытку?</Text>
+			<Modifications>
+				<Endurance Value="-1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="56" Text="Да"/>
 				<Option Goto="75" Text="Нет"/>
