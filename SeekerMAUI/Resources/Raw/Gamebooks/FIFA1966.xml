@@ -736,9 +736,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="64">
-			<Text>Прекрасный пас на выход, и точный удар — наша команда забивает гол!\n\n! — (21)</Text>
+			<Text>Прекрасный пас на выход, и точный удар — наша команда забивает гол!</Text>
+			<Modifications>
+				<Add Path="ИГРА/СССР" Value="1"/>
+			</Modifications>
 			<Options>
-				<Gameover/>
+				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="65">
