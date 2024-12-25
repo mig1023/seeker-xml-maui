@@ -592,7 +592,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="51">
-			<Text>Опасный момент у ворот наших футболистов!\n\nК счастью, все закончилось благополучно...\n\n$ «вороги» +1</Text>
+			<Text>Опасный момент у ворот наших футболистов!\n\nК счастью, все закончилось благополучно...</Text>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -606,13 +606,20 @@
 		<Paragraph No="53">
 			<Text>Команды покидают поле...</Text>
 			<Options>
-				<Option Goto="52" Text="!"/>
-				<Option Goto="15" Text="!"/>
-				<Option Goto="16" Text="!"/>
-				<Option Goto="14" Text="!"/>
-				<Option Goto="121" Text="!"/>
-				<Option Goto="8" Text="!"/>
-				<Option Goto="12" Text="!"/>
+				<Option Goto="15" Text="!" Availability="расходники/номер игры = 1"/>
+				<Option Goto="52" Text="!" Availability="расходники/номер игры = 2">
+					<Set Path="расходники/сколько раундов" Value="0"/>
+					<Set Path="расходники/кто сильнее" Value="0"/>
+				</Option>
+				<Option Goto="16" Text="!" Availability="расходники/номер игры = 3"/>
+				<Option Goto="52" Text="!" Availability="расходники/номер игры = 4">
+					<Set Path="расходники/сколько раундов" Value="0"/>
+					<Set Path="расходники/кто сильнее" Value="0"/>
+				</Option>
+				<Option Goto="14" Text="!" Availability="расходники/номер игры = 5"/>
+				<Option Goto="121" Text="!" Availability="расходники/номер игры = 6"/>
+				<Option Goto="8" Text="!" Availability="расходники/номер игры = 7"/>
+				<Option Goto="12" Text="!" Availability="плейофф/плейофф > 0"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="54">
