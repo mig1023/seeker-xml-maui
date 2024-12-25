@@ -421,25 +421,29 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="31">
-			<Text>Дальний удар, но совсем в сторону от ворот</Text>
+			<Text>Дальний удар, но совсем в сторону от ворот!</Text>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="32">
-			<Text>Сборная СССР в атаке!\n\nОппоненты атакуют!\n\nНа поле идет позиционная борьба без преимущества одной из команд</Text>
+			<Texts>
+				<Text Availability="расходники/кому момент = 1">Сборная СССР в атаке!</Text>
+				<Text Availability="расходники/кому момент = 2">Оппоненты атакуют!</Text>
+				<Text Availability="расходники/кому момент = 0">На поле идет позиционная борьба без преимущества одной из команд...</Text>
+			</Texts>
 			<Options>
-				<Option Goto="80" Text="!"/>
-				<Option Goto="86" Text="!"/>
-				<Option Goto="75" Text="!"/>
-				<Option Goto="118" Text="!"/>
-				<Option Goto="67" Text="!"/>
-				<Option Goto="87" Text="!"/>
-				<Option Goto="51" Text="!"/>
-				<Option Goto="38" Text="!"/>
-				<Option Goto="110" Text="!"/>
-				<Option Goto="50" Text="!"/>
-				<Option Goto="21" Text="!"/>
+				<Option Goto="80" Text="!" Availability="1 из 5 = 1, расходники/кому момент = 1"/>
+				<Option Goto="86" Text="!" Availability="1 из 5 = 2, расходники/кому момент = 1"/>
+				<Option Goto="75" Text="!" Availability="1 из 5 = 3, расходники/кому момент = 1"/>
+				<Option Goto="118" Text="!" Availability="1 из 5 = 4, расходники/кому момент = 1"/>
+				<Option Goto="67" Text="!" Availability="1 из 5 = 5, расходники/кому момент = 1"/>
+				<Option Goto="87" Text="!" Availability="1 из 5 = 1, расходники/кому момент = 2"/>
+				<Option Goto="51" Text="!" Availability="1 из 5 = 2, расходники/кому момент = 2"/>
+				<Option Goto="38" Text="!" Availability="1 из 5 = 3, расходники/кому момент = 2"/>
+				<Option Goto="110" Text="!" Availability="1 из 5 = 4, расходники/кому момент = 2"/>
+				<Option Goto="50" Text="!" Availability="1 из 5 = 5, расходники/кому момент = 2"/>
+				<Option Goto="21" Text="!" Availability="расходники/кому момент = 0"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="33">
