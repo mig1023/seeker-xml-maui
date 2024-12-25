@@ -682,6 +682,9 @@
 		</Paragraph>
 		<Paragraph No="59">
 			<Text>Советская команда забивает гол!</Text>
+			<Modifications>
+				<Add Path="ИГРА/СССР" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
