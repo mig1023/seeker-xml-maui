@@ -30,8 +30,66 @@ namespace SeekerMAUI.Gamebook.Tremble
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
             GameOverBy(Character.Protagonist.Endurance, out toEndParagraph, out toEndText);
 
-        public override bool Availability(string option) =>
-            AvailabilityTrigger(option);
+        private List<List<int>> KeysPermutations(List<int> items)
+        {
+            var result = new List<List<int>>();
+
+            for (int a = 0; a < items.Count; a++)
+            {
+                for (int b = 0; b < items.Count; b++)
+                {
+                    if (items[b] == items[a])
+                        continue;
+
+                    for (int c = 0; c < items.Count; c++)
+                    {
+                        if ((items[c] == items[a]) || (items[c] == items[b]))
+                            continue;
+
+                        result.Add(new List<int> { items[a], items[b], items[c] });
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        public override bool Availability(string option)
+        {
+            if (option.StartsWith("КЛЮЧИ"))
+            {
+                var keys = Character.Protagonist.Keys
+                    .Split(' ')
+                    .Select(x => int.Parse(x))
+                    .ToList();
+
+                var summ = option.Split(' ');
+                var optionKeys = int.Parse(summ[1]);
+
+                if (keys.Count < 3)
+                {
+                    return false;
+                }
+                else if (keys.Count == 3)
+                {
+                    return optionKeys == keys.Sum(x => x);
+                }
+                else
+                {
+                    foreach (var permutation in KeysPermutations(keys))
+                    {
+                        if (optionKeys == permutation.Sum(x => x))
+                            return true;
+                    }
+
+                    return false;
+                }
+            }
+            else
+            {
+                return AvailabilityTrigger(option);
+            }
+        }
 
         public List<string> GoodLuck()
         {

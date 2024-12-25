@@ -32,6 +32,8 @@ namespace SeekerMAUI.Gamebook.Tremble
             set => _luck = Game.Param.Setter(value, max: MaxLuck, _luck, this);
         }
 
+        public string Keys { get; set; }
+
         public override void Init()
         {
             base.Init();
@@ -42,6 +44,7 @@ namespace SeekerMAUI.Gamebook.Tremble
             Endurance = MaxEndurance;
             MaxLuck = Game.Dice.Roll() + 6;
             Luck = MaxLuck;
+            Keys = String.Empty;
         }
 
         public Character Clone() => new Character()
@@ -54,10 +57,11 @@ namespace SeekerMAUI.Gamebook.Tremble
             Endurance = this.Endurance,
             MaxLuck = this.MaxLuck,
             Luck = this.Luck,
+            Keys = this.Keys,
         };
 
         public override string Save() => String.Join("|",
-            MaxSkill, Skill, MaxEndurance, Endurance, MaxLuck, Luck);
+            MaxSkill, Skill, MaxEndurance, Endurance, MaxLuck, Luck, Keys);
 
         public override void Load(string saveLine)
         {
@@ -69,6 +73,7 @@ namespace SeekerMAUI.Gamebook.Tremble
             Endurance = int.Parse(save[3]);
             MaxLuck = int.Parse(save[4]);
             Luck = int.Parse(save[5]);
+            Keys = save[6];
 
             IsProtagonist = true;
         }
