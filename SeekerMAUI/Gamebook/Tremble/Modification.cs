@@ -8,7 +8,14 @@ namespace SeekerMAUI.Gamebook.Tremble
         {
             if (Name == "Keys")
             {
-                Character.Protagonist.Keys += $" {ValueString}";
+                if (String.IsNullOrEmpty(Character.Protagonist.Keys))
+                {
+                    Character.Protagonist.Keys = ValueString;
+                }
+                else
+                {
+                    Character.Protagonist.Keys += $" {ValueString}";
+                }
             }
             else
             {

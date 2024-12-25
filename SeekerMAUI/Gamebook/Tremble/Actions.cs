@@ -85,6 +85,16 @@ namespace SeekerMAUI.Gamebook.Tremble
                     return false;
                 }
             }
+            else if (option.StartsWith("КЛЮЧЕЙ >="))
+            {
+                var keys = Character.Protagonist.Keys
+                    .Split(' ')
+                    .Count();
+
+                var count = Game.Services.LevelParse(option);
+
+                return keys >= count;
+            }
             else
             {
                 return AvailabilityTrigger(option);
