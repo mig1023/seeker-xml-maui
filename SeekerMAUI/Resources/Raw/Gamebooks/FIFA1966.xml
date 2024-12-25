@@ -819,20 +819,21 @@
 				<Option Goto="129" Text="!" Availability="1 из 5 = 4, расходники/кому момент = 1, 1 из 7 = 2"/>
 				<Option Goto="74" Text="!" Availability="1 из 5 = 5, расходники/кому момент = 1, 1 из 7 = 2"/>
 				<Option Goto="34" Text="!" Availability="1 из 5 = 1, расходники/кому момент = 2, 1 из 7 = 2"/>
-				<Option Goto="28" Text="!" Availability="1 из 5 = 2, расходники/кому момент = 2, 1 из 7 = 2"/>
-				<Option Goto="88" Text="!" Availability="1 из 5 = 3, расходники/кому момент = 2, 1 из 7 = 2"/>
-				<Option Goto="99" Text="!" Availability="1 из 5 = 4, расходники/кому момент = 2, 1 из 7 = 2"/>
-				<Option Goto="23" Text="!" Availability="1 из 5 = 5, расходники/кому момент = 2, 1 из 7 = 2"/>
-				<Option Goto="97" Text="!" Availability="1 из 5 = 1, расходники/кому момент = 1, 1 из 7 = 1"/>
-				<Option Goto="36" Text="!" Availability="1 из 5 = 2, расходники/кому момент = 1, 1 из 7 = 1"/>
-				<Option Goto="123" Text="!" Availability="1 из 5 = 3, расходники/кому момент = 1, 1 из 7 = 1"/>
-				<Option Goto="9" Text="!" Availability="1 из 5 = 4, расходники/кому момент = 1, 1 из 7 = 1"/>
-				<Option Goto="108" Text="!" Availability="1 из 5 = 5, расходники/кому момент = 1, 1 из 7 = 1"/>
-				<Option Goto="128" Text="!" Availability="1 из 5 = 1, расходники/кому момент = 2, 1 из 7 = 1"/>
-				<Option Goto="49" Text="!" Availability="1 из 5 = 2, расходники/кому момент = 2, 1 из 7 = 1"/>
-				<Option Goto="92" Text="!" Availability="1 из 5 = 3, расходники/кому момент = 2, 1 из 7 = 1"/>
-				<Option Goto="122" Text="!" Availability="1 из 5 = 4, расходники/кому момент = 2, 1 из 7 = 1"/>
-				<Option Goto="21" Text="!" Availability="1 из 5 = 5, расходники/кому момент = 2, 1 из 7 = 1"/>
+				<Option Goto="31" Text="!" Availability="1 из 5 = 2, расходники/кому момент = 2, 1 из 7 = 2"/>
+				<Option Goto="28" Text="!" Availability="1 из 5 = 3, расходники/кому момент = 2, 1 из 7 = 2"/>
+				<Option Goto="88" Text="!" Availability="1 из 5 = 4, расходники/кому момент = 2, 1 из 7 = 2"/>
+				<Option Goto="99" Text="!" Availability="1 из 5 = 5, расходники/кому момент = 2, 1 из 7 = 2"/>
+				<Option Goto="23" Text="!" Availability="1 из 5 = 1, расходники/кому момент = 1, 1 из 7 = 1"/>				
+				<Option Goto="97" Text="!" Availability="1 из 5 = 2, расходники/кому момент = 1, 1 из 7 = 1"/>
+				<Option Goto="36" Text="!" Availability="1 из 5 = 3, расходники/кому момент = 1, 1 из 7 = 1"/>
+				<Option Goto="123" Text="!" Availability="1 из 5 = 4, расходники/кому момент = 1, 1 из 7 = 1"/>
+				<Option Goto="9" Text="!" Availability="1 из 5 = 5, расходники/кому момент = 1, 1 из 7 = 1"/>
+				<Option Goto="108" Text="!" Availability="1 из 5 = 1, расходники/кому момент = 2, 1 из 7 = 1"/>
+				<Option Goto="128" Text="!" Availability="1 из 5 = 2, расходники/кому момент = 2, 1 из 7 = 1"/>
+				<Option Goto="49" Text="!" Availability="1 из 5 = 3, расходники/кому момент = 2, 1 из 7 = 1"/>
+				<Option Goto="92" Text="!" Availability="1 из 5 = 4, расходники/кому момент = 2, 1 из 7 = 1"/>
+				<Option Goto="122" Text="!" Availability="1 из 5 = 5, расходники/кому момент = 2, 1 из 7 = 1"/>
+				<Option Goto="21" Text="!" Availability="расходники/кому момент = 0"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="67">
