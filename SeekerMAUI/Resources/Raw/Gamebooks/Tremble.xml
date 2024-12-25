@@ -761,6 +761,7 @@
 			<Text>Ищи ключ. У него номер 12. Прибавь 2 балла счастья. (+2С).</Text>
 			<Modifications>
 				<Luck Value="2"/>
+				<Keys Value="12"/>
 			</Modifications>	
 			<Options>
 				<Option Goto="253"/>
