@@ -728,6 +728,9 @@
 		</Paragraph>
 		<Paragraph No="63">
 			<Text>Пас вдоль ворот — и наши футболисты забивают гол!</Text>
+			<Modifications>
+				<Add Path="ИГРА/СССР" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
