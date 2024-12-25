@@ -1719,9 +1719,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="227">
-			<Options>
-				<Option Goto="373"/>
-			</Options>
+			<Text>[пустой параграф]</Text>
 		</Paragraph>
 		<Paragraph No="228">
 			<Text>Коридор идет на север и поворачивает на восток. Перед тобой перекресток.</Text>
