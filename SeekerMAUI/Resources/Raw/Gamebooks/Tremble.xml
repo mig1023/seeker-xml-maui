@@ -1355,9 +1355,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="175">
-			<Options>
-				<Option Goto="373"/>
-			</Options>
+			<Text>[пустой параграф]</Text>
 		</Paragraph>
 		<Paragraph No="176">
 			<Text>Приближайся к перекрестку. Можешь пойти:</Text>
