@@ -517,6 +517,9 @@
 		</Paragraph>
 		<Paragraph No="43">
 			<Text>Ох, секундная расслабленность — и вот она, расплата!</Text>
+			<Modifications>
+				<Add Path="расходники/вороги" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
