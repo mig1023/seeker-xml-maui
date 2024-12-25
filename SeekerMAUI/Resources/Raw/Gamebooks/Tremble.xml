@@ -2127,6 +2127,9 @@
 		</Paragraph>
 		<Paragraph No="278">
 			<Text>Теперь осмотри ключ. На нем выбито число 122. Клади ключ в свой мешок.</Text>
+			<Modifications>
+				<Keys Value="122"/>
+			</Modifications>
 			<Options>
 				<Option Goto="109"/>
 			</Options>
