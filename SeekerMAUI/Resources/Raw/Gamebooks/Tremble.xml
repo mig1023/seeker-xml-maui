@@ -2512,6 +2512,9 @@
 		</Paragraph>
 		<Paragraph No="329">
 			<Text>Опускайся на дно расщелины. Забирай ключи. На одном из них можно разглядеть выгравированный номер 70. Теперь быстрей наверх. А веревка пусть падает вниз.</Text>
+			<Modifications>
+				<Keys Value="70"/>
+			</Modifications>
 			<Options>
 				<Option Goto="32"/>
 			</Options>
