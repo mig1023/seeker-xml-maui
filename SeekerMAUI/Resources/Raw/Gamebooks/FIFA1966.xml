@@ -504,10 +504,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="41">
-			<Text>41.</Text>
 			<Options>
-				<Option Goto="112" Text="Сборная СССР завоевала серебряные медали!"/>
-				<Option Goto="25" Text="МЫ — ЧЕМПИОНЫ!"/>
+				<Option Goto="112" Text="Сборная СССР завоевала серебряные медали!" Availability="плейофф/исход поединка = 2"/>
+				<Option Goto="25" Text="МЫ — ЧЕМПИОНЫ!" Availability="плейофф/исход поединка = 1"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="42">
