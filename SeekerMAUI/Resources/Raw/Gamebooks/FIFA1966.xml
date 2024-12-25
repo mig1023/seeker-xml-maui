@@ -526,6 +526,9 @@
 		</Paragraph>
 		<Paragraph No="44">
 			<Text>Выход один на один! Вратарь не у дел! Бросившийся в подкат защитник не в состоянии предотвратить гол!</Text>
+			<Modifications>
+				<Add Path="ИГРА/СССР" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
