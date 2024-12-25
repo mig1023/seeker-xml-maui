@@ -2157,9 +2157,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="285">
-			<Options>
-				<Option Goto="373"/>
-			</Options>
+			<Text>[пустой параграф]</Text>
 		</Paragraph>
 		<Paragraph No="286">
 			<Text>Уходи из комнаты.</Text>
