@@ -1239,6 +1239,9 @@
 		</Paragraph>
 		<Paragraph No="107">
 			<Text>Отличная комбинация завершается точным пасом на выход, и советская команда забивает гол!</Text>
+			<Modifications>
+				<Add Path="ИГРА/СССР" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
