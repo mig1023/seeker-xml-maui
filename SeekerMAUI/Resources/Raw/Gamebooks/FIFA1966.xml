@@ -1082,6 +1082,9 @@
 		</Paragraph>
 		<Paragraph No="92">
 			<Text>Советская команда пропускает гол...</Text>
+			<Modifications>
+				<Add Path="расходники/вороги" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
