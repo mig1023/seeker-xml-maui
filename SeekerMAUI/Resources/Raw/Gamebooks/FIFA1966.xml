@@ -838,6 +838,9 @@
 		</Paragraph>
 		<Paragraph No="67">
 			<Text>Сборная СССР забивает гол с пенальти!</Text>
+			<Modifications>
+				<Add Path="ИГРА/СССР" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
