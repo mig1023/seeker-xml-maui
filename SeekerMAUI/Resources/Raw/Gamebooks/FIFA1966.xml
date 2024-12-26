@@ -925,6 +925,9 @@
 		</Paragraph>
 		<Paragraph No="75">
 			<Text>Сборная СССР забивает!!</Text>
+			<Modifications>
+				<Add Path="ИГРА/СССР" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
