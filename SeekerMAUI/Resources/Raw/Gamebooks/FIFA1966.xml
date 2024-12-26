@@ -1029,6 +1029,9 @@
 		</Paragraph>
 		<Paragraph No="86">
 			<Text>Сборная СССР получает право на пенальти и забивает!</Text>
+			<Modifications>
+				<Add Path="ИГРА/СССР" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
