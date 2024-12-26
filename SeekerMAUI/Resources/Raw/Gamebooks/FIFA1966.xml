@@ -1150,19 +1150,23 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="102">
-			<Text>Сборная СССР в атаке!\n\nОппоненты атакуют!\n\nНа поле идет позиционная борьба без преимущества одной из команд.</Text>
+			<Texts>
+				<Text Availability="расходники/кому момент = 1">Сборная СССР в атаке!</Text>
+				<Text Availability="расходники/кому момент = 2">Оппоненты атакуют!</Text>
+				<Text Availability="расходники/кому момент = 0">На поле идет позиционная борьба без преимущества одной из команд...</Text>
+			</Texts>
 			<Options>
-				<Option Goto="78" Text="!"/>
-				<Option Goto="6" Text="!"/>
-				<Option Goto="76" Text="!"/>
-				<Option Goto="129" Text="!"/>
-				<Option Goto="74" Text="!"/>
-				<Option Goto="34" Text="!"/>
-				<Option Goto="31" Text="!"/>
-				<Option Goto="28" Text="!"/>
-				<Option Goto="88" Text="!"/>
-				<Option Goto="99" Text="!"/>
-				<Option Goto="21" Text="!"/>
+				<Option Goto="78" Text="!" Availability="1 из 5 = 1, расходники/кому момент = 1"/>
+				<Option Goto="6" Text="!" Availability="1 из 5 = 2, расходники/кому момент = 1"/>
+				<Option Goto="76" Text="!" Availability="1 из 5 = 3, расходники/кому момент = 1"/>
+				<Option Goto="129" Text="!" Availability="1 из 5 = 4, расходники/кому момент = 1"/>
+				<Option Goto="74" Text="!" Availability="1 из 5 = 5, расходники/кому момент = 1"/>
+				<Option Goto="34" Text="!" Availability="1 из 5 = 1, расходники/кому момент = 2"/>
+				<Option Goto="31" Text="!" Availability="1 из 5 = 2, расходники/кому момент = 2"/>
+				<Option Goto="28" Text="!" Availability="1 из 5 = 3, расходники/кому момент = 2"/>
+				<Option Goto="88" Text="!" Availability="1 из 5 = 4, расходники/кому момент = 2"/>
+				<Option Goto="99" Text="!" Availability="1 из 5 = 5, расходники/кому момент = 2"/>
+				<Option Goto="21" Text="!" Availability="расходники/кому момент = 0"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="103">
