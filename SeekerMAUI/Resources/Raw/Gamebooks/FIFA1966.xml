@@ -1295,7 +1295,13 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="114">
-			<Text>Итак, судья и капитаны появляются из-под трибуны\n\nВыпал орел\n\nВыпала решка\n\nМы победили!!\n\nУвы нам...</Text>
+			<Texts>
+				<Text>Итак, судья и капитаны появляются из-под трибуны...</Text>
+				<Text Availability="орел-решка = 1">Выпал орел</Text>
+				<Text Availability="орел-решка = 2">Выпала решка</Text>
+				<Text Availability="плейофф/исход поединка = 1">Мы победили!!</Text>
+				<Text Availability="плейофф/исход поединка = 2">Увы нам...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="12" Text="!"/>
 			</Options>
