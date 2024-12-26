@@ -980,6 +980,9 @@
 		</Paragraph>
 		<Paragraph No="81">
 			<Text>Гол! Мяч влетает в ворота наших соперников!</Text>
+			<Modifications>
+				<Add Path="ИГРА/СССР" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
