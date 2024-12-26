@@ -1073,6 +1073,9 @@
 		</Paragraph>
 		<Paragraph No="91">
 			<Text>Пенальти — и советские футболисты используют этот шанс!</Text>
+			<Modifications>
+				<Add Path="ИГРА/СССР" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
