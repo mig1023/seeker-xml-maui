@@ -1427,10 +1427,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="126">
-			<Text>126.</Text>
 			<Options>
-				<Option Goto="73" Text="Сборная СССР заняла почетное четвертое место"/>
-				<Option Goto="58" Text="Сборная СССР завоевала бронзовые медали"/>
+				<Option Goto="73" Text="Сборная СССР заняла почетное четвертое место" Availability="плейофф/исход поединка = 2"/>
+				<Option Goto="58" Text="Сборная СССР завоевала бронзовые медали" Availability="плейофф/исход поединка = 1"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="127">
