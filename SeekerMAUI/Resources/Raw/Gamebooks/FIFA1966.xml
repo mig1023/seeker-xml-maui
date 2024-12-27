@@ -8,6 +8,22 @@
 			<Main Value="ea0001"/>
 			<Color Name="System, Option, Continue" Value="161de9"/>
 		</Styles>
+		<Dictionaries>
+			<Teams>
+				<Item Name="СССР" Value="8"/>
+				<Item Name="Уругвай" Value="8"/>
+				<Item Name="Бразилия" Value="12"/>
+				<Item Name="Франция" Value="8"/>
+				<Item Name="Бельгия" Value="7"/>
+				<Item Name="КНДР" Value="6"/>
+				<Item Name="Италия" Value="9"/>
+				<Item Name="Чили" Value="7"/>
+				<Item Name="Венгрия" Value="9"/>
+				<Item Name="Германия" Value="12"/>
+				<Item Name="Португалия" Value="11"/>
+				<Item Name="Англия" Value="13"/>
+			</Teams>
+		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
