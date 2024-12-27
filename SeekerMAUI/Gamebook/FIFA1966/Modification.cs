@@ -13,13 +13,9 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 Character.Protagonist.Vars.Add(Path, 0);
             }
 
-            if (Name == "Add")
+            if (Name == "Mod")
             {
                 Character.Protagonist.Vars[Path] += Value;
-            }
-            else if (Name == "Sub")
-            {
-                Character.Protagonist.Vars[Path] -= Value;
             }
             else if (Name == "Set")
             {
