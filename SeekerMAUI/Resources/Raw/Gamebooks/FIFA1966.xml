@@ -1375,6 +1375,9 @@
 		</Paragraph>
 		<Paragraph No="120">
 			<Text>Удар! И мяч оказывается в воротах советской команды...</Text>
+			<Modifications>
+				<Add Path="расходники/вороги" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
