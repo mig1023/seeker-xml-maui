@@ -15,6 +15,9 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             base.Init();
 
             Vars = new Dictionary<string, int>();
+
+            foreach (var team in Constants.Teams)
+                Vars[$"силы соперников/{team.Key}"] = team.Value;
         }
 
         public Character Clone() => new Character()

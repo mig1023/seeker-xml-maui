@@ -25,6 +25,11 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             {
                 Character.Protagonist.Vars[Path] = Game.Dice.Roll(size: Value);
             }
+            else if (Name == "Enemy")
+            {
+                Character.Protagonist.Vars["силы соперников/сила соперника"] =
+                    Character.Protagonist.Vars[$"силы соперников/{ValueString}"];
+            }
         }
     }
 }
