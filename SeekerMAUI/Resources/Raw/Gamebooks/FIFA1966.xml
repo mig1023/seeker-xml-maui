@@ -118,6 +118,16 @@
 			<Modifications>
 				<Random Path="1 из 5" Value="5"/>
 				<Random Path="1 из 3" Value="3"/>
+				<Add Path="групповой этап/Италия" Value="2" Availability="1 из 5 = 1"/>
+				<Add Path="групповой этап/КНДР" Value="1" Availability="1 из 5 = 2"/>
+				<Add Path="групповой этап/Италия" Value="1" Availability="1 из 5 = 2"/>
+				<Add Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 3"/>
+				<Add Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 4"/>
+				<Add Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 5"/>
+				<Add Path="групповой этап/СССР" Value="2" Availability="плейофф/исход поединка = 1"/>
+				<Add Path="групповой этап/Италия" Value="2" Availability="плейофф/исход поединка = 2"/>
+				<Add Path="групповой этап/СССР" Value="1" Availability="плейофф/исход поединка = 3"/>
+				<Add Path="групповой этап/Италия" Value="1" Availability="плейофф/исход поединка = 3"/>
 			</Modifications>
 			<Options>
 				<Option Goto="10" Text="Сборная СССР выходит в кубковую часть первенства с первого места!" Availability="места в группе/СССР = 1">
