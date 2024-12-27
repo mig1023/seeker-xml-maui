@@ -1434,6 +1434,9 @@
 		</Paragraph>
 		<Paragraph No="127">
 			<Text>Прорыв, передача в центр, удар головой!\n\nМяч в воротах!</Text>
+			<Modifications>
+				<Add Path="ИГРА/СССР" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
