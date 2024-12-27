@@ -9,6 +9,7 @@ namespace SeekerMAUI.Abstract
         string ValueString { get; set; }
         bool Empty { get; set; }
         bool Restore { get; set; }
+        string Availability { get; set; }
 
         void Do();
 

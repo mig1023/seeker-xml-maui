@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using SeekerMAUI.Game;
 using SeekerMAUI.Gamebook;
 
 namespace SeekerMAUI
@@ -359,8 +360,14 @@ namespace SeekerMAUI
                 Game.Option.Trigger(paragraph.Untrigger, remove: true);
 
                 if ((paragraph.Modification != null) && (paragraph.Modification.Count > 0))
+                {
                     foreach (Abstract.IModification modification in paragraph.Modification)
-                        modification.Do();
+                    {
+                        if (Game.Data.Actions.Availability(modification.Availability))
+                            modification.Do();
+                    }
+                }
+                    
             }
 
             if (!loadGame && !reload)

@@ -78,6 +78,7 @@ namespace SeekerMAUI.Game
             
             modification.Empty = BoolParse(xmlNode.Attributes["Empty"]);
             modification.Restore = BoolParse(xmlNode.Attributes["Restore"]);
+            modification.Availability = StringParse(xmlNode.Attributes["Availability"]);
 
             if (xmlNode.Attributes["Value"] == null)
                 return modification;
