@@ -1406,7 +1406,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="123">
-			<Text>Дальний удар, но выше ворот</Text>
+			<Text>Дальний удар, но выше ворот!</Text>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -1419,6 +1419,9 @@
 		</Paragraph>
 		<Paragraph No="125">
 			<Text>Мяч влетает в ворота сборной СССР...</Text>
+			<Modifications>
+				<Add Path="расходники/вороги" Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
