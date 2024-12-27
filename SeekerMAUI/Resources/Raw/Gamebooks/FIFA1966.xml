@@ -29,7 +29,7 @@
 				</Option>
 				<Option Goto="83" Text="Специалист по физподготовке">
 					<Set Path="личность тренера/офп" Value="1"/>
-					<Add Path="силы соперников/СССР" Value="1"/>
+					<Mod Path="силы соперников/СССР" Value="1"/>
 					<Text>Умелец раскрывать таланты периодически находит такие комбинации игроков, которые подберут ключи к построению команд оппонентов, посмотрев на них в первых таймах матчей.</Text>
 				</Option>
 				<Option Goto="83" Text="Умелец раскрывать таланты игроков">
@@ -73,7 +73,7 @@
 		<Paragraph No="5">
 			<Text>Советская команда использует нерасторопность и несобранность защитников соперника и забивает гол!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -118,16 +118,16 @@
 			<Modifications>
 				<Random Path="1 из 5" Value="5"/>
 				<Random Path="1 из 3" Value="3"/>
-				<Add Path="групповой этап/Италия" Value="2" Availability="1 из 5 = 1"/>
-				<Add Path="групповой этап/КНДР" Value="1" Availability="1 из 5 = 2"/>
-				<Add Path="групповой этап/Италия" Value="1" Availability="1 из 5 = 2"/>
-				<Add Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 3"/>
-				<Add Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 4"/>
-				<Add Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 5"/>
-				<Add Path="групповой этап/СССР" Value="2" Availability="плейофф/исход поединка = 1"/>
-				<Add Path="групповой этап/Италия" Value="2" Availability="плейофф/исход поединка = 2"/>
-				<Add Path="групповой этап/СССР" Value="1" Availability="плейофф/исход поединка = 3"/>
-				<Add Path="групповой этап/Италия" Value="1" Availability="плейофф/исход поединка = 3"/>
+				<Mod Path="групповой этап/Италия" Value="2" Availability="1 из 5 = 1"/>
+				<Mod Path="групповой этап/КНДР" Value="1" Availability="1 из 5 = 2"/>
+				<Mod Path="групповой этап/Италия" Value="1" Availability="1 из 5 = 2"/>
+				<Mod Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 3"/>
+				<Mod Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 4"/>
+				<Mod Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 5"/>
+				<Mod Path="групповой этап/СССР" Value="2" Availability="плейофф/исход поединка = 1"/>
+				<Mod Path="групповой этап/Италия" Value="2" Availability="плейофф/исход поединка = 2"/>
+				<Mod Path="групповой этап/СССР" Value="1" Availability="плейофф/исход поединка = 3"/>
+				<Mod Path="групповой этап/Италия" Value="1" Availability="плейофф/исход поединка = 3"/>
 			</Modifications>
 			<Options>
 				<Option Goto="10" Text="Сборная СССР выходит в кубковую часть первенства с первого места!" Availability="места в группе/СССР = 1">
@@ -147,6 +147,9 @@
 		</Paragraph>
 		<Paragraph No="10">
 			<Text>Победив на групповом этапе, наша команда остается в Сандерленде. Четвертьфинал, третий в истории нашей сборной — неужели мы опять споткнемся?\n\nВ соперниках у нее теперь очень крепкая команда Венгрии, на групповом этапе оставившая за бортом бразильцев. Наследники "золотой команды" 50-х, мастера обращаться с мячом, техничные, но и стойкие в борьбе. Под руководством своего тренера играют уже восемь лет, и команда выиграла футбольный турнир олимпиады 1964 года, и пробилась в полуфинал чемпионата Европы того же года.\n\nЯсно, что оппоненты будут искать счастья у наших ворот. Что мы предпримем?</Text>
+			<Modifications>
+				<Set Path="расходники/сколько раундов" Value="0"/>
+			</Modifications>
 			<Options>
 				<Option Goto="113" Text="Распишем, кому кого держать и как действовать. Каждый игрок получит детальные указания"/>
 				<Option Goto="113" Text="Проинформируем команду о самых видных игроках, и предложим действовать по обстоятельствам"/>
@@ -156,7 +159,7 @@
 		<Paragraph No="11">
 			<Text>...и мяч влетает в ворота сборной Советского Союза.</Text>
 			<Modifications>
-				<Add Path="расходники/вороги" Value="1"/>
+				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -221,7 +224,7 @@
 		<Paragraph No="19">
 			<Text>Воспользовавшись неудачной игрой вратаря соперников, наша команда забивает гол. Оппоненты апеллируют к судье, утверждая, что было нападение на вратаря — но безрезультатно.</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -347,7 +350,7 @@
 			</Texts>
 			<Options>
 				<Option Goto="61" Text="Да" Availability="1 из 5 = 1">
-					<Add Path="модификаторы/алкашня" Value="1"/>
+					<Mod Path="модификаторы/алкашня" Value="1"/>
 				</Option>
 				<Option Goto="61" Text="Нет" Availability="1 из 5 = 1"/>
 				<Option Goto="61" Text="Да" Availability="1 из 5 = 2"/>
@@ -355,10 +358,10 @@
 				<Option Goto="61" Text="Вратаря помоложе" Availability="1 из 5 = 3"/>
 				<Option Goto="61" Text="Самого лучшего из опытных" Availability="1 из 5 = 3"/>
 				<Option Goto="61" Text="Согласиться" Availability="1 из 5 = 4">
-					<Add Path="модификаторы/угождание спорткомитету" Value="1"/>
+					<Mod Path="модификаторы/угождание спорткомитету" Value="1"/>
 				</Option>
 				<Option Goto="61" Text="Взять лишь одного" Availability="1 из 5 = 4">
-					<Add Path="модификаторы/угождание спорткомитету" Value="1"/>
+					<Mod Path="модификаторы/угождание спорткомитету" Value="1"/>
 				</Option>
 				<Option Goto="61" Text="Определение состава — прерогатива тренера" Availability="1 из 5 = 4"/>
 				<Option Goto="61" Text="Бойца" Availability="1 из 5 = 5">
@@ -503,10 +506,10 @@
 			<Text>Уже прошла жеребьевка и выяснены противники нашей команды:\nсборная КНДР\nсборная Италии\nсборная Чили\n\nПервый матч наши футболисты проводят в Мидлсборо, второй и третий в Сандерленде.\n\nВ рамках подготовки к чемпионату мы имеем возможность выбрать, с кем сыграть. Либо это будут два матча с командами из Южной Америки, что усиливает готовность команды к поединкам с командами из Южной Европы и стран вне Европы. Либо это будут два матча с командами из Западной Европы, повышающие умение футболистов противостоять оппонентам из европейских сборных.\n\nВыбор за вами. Вы выбираете...</Text>
 			<Options>
 				<Option Goto="62" Text="Поездку в Южную Америку, игры с Уругваем и Бразилией">
-					<Add Path="преимущества сборной/латинос" Value="1"/>
+					<Mod Path="преимущества сборной/латинос" Value="1"/>
 				</Option>
 				<Option Goto="35" Text="Поездку в Западную Европу, игры с Бельгией и Францией">
-					<Add Path="преимущества сборной/европейцы" Value="1"/>
+					<Mod Path="преимущества сборной/европейцы" Value="1"/>
 				</Option>
 			</Options>
 		</Paragraph>
@@ -531,7 +534,7 @@
 		<Paragraph No="43">
 			<Text>Ох, секундная расслабленность — и вот она, расплата!</Text>
 			<Modifications>
-				<Add Path="расходники/вороги" Value="1"/>
+				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -540,7 +543,7 @@
 		<Paragraph No="44">
 			<Text>Выход один на один! Вратарь не у дел! Бросившийся в подкат защитник не в состоянии предотвратить гол!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -554,18 +557,18 @@
 			</Texts>
 			<Options>
 				<Option Goto="104" Text="Самого мастеровитого" Availability="1 из 5 = 1">
-					<Add Path="модификаторы/мастер" Value="1"/>
+					<Mod Path="модификаторы/мастер" Value="1"/>
 				</Option>
 				<Option Goto="104" Text="Самого большого и мощного" Availability="1 из 5 = 1">
-					<Add Path="модификаторы/трудяга" Value="1"/>
+					<Mod Path="модификаторы/трудяга" Value="1"/>
 				</Option>
 				<Option Goto="104" Text="Все же он лучший — берем" Availability="1 из 5 = 2"/>
 				<Option Goto="104" Text="Пожалуй, сыгранность важнее" Availability="1 из 5 = 2"/>
 				<Option Goto="104" Text="Согласен" Availability="1 из 5 = 3">
-					<Add Path="модификаторы/угождание спорткомитету" Value="1"/>
+					<Mod Path="модификаторы/угождание спорткомитету" Value="1"/>
 				</Option>
 				<Option Goto="104" Text="Он исправится, я беру это на себя" Availability="1 из 5 = 3">
-					<Add Path="модификаторы/алкашня" Value="1"/>
+					<Mod Path="модификаторы/алкашня" Value="1"/>
 				</Option>
 			</Options>
 		</Paragraph>
@@ -598,7 +601,7 @@
 		<Paragraph No="50">
 			<Text>Сборная СССР пропускает гол...</Text>
 			<Modifications>
-				<Add Path="расходники/вороги" Value="1"/>
+				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -663,8 +666,8 @@
 				<Option Goto="45" Text="Пожалуй" Availability="1 из 5 = 1"/>
 				<Option Goto="45" Text="Нет, не стоит. Будет еще следующий отборочный цикл" Availability="1 из 5 = 1"/>
 				<Option Goto="45" Text="Возьмем" Availability="1 из 5 = 2">
-					<Add Path="модификаторы/алкашня" Value="1"/>
-					<Add Path="модификаторы/мастер" Value="1"/>
+					<Mod Path="модификаторы/алкашня" Value="1"/>
+					<Mod Path="модификаторы/мастер" Value="1"/>
 				</Option>
 				<Option Goto="45" Text="Не станем рисковать" Availability="1 из 5 = 2"/>
 				<Option Goto="45" Text="Карантин" Availability="1 из 5 = 3"/>
@@ -696,7 +699,7 @@
 		<Paragraph No="59">
 			<Text>Советская команда забивает гол!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -742,7 +745,7 @@
 		<Paragraph No="63">
 			<Text>Пас вдоль ворот — и наши футболисты забивают гол!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -751,7 +754,7 @@
 		<Paragraph No="64">
 			<Text>Прекрасный пас на выход, и точный удар — наша команда забивает гол!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -852,7 +855,7 @@
 		<Paragraph No="67">
 			<Text>Сборная СССР забивает гол с пенальти!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -939,7 +942,7 @@
 		<Paragraph No="75">
 			<Text>Сборная СССР забивает!!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -994,7 +997,7 @@
 		<Paragraph No="81">
 			<Text>Гол! Мяч влетает в ворота наших соперников!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -1043,7 +1046,7 @@
 		<Paragraph No="86">
 			<Text>Сборная СССР получает право на пенальти и забивает!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -1093,7 +1096,7 @@
 		<Paragraph No="91">
 			<Text>Пенальти — и советские футболисты используют этот шанс!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -1102,7 +1105,7 @@
 		<Paragraph No="92">
 			<Text>Советская команда пропускает гол...</Text>
 			<Modifications>
-				<Add Path="расходники/вороги" Value="1"/>
+				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -1130,7 +1133,7 @@
 		<Paragraph No="96">
 			<Text>Ох, какая ошибка защитника! Нет, и пас тоже отличный, и технику игрок соперника продемонстрировал прекрасный, но без этой ошибки, вероятно, гол бы не был возможен...</Text>
 			<Modifications>
-				<Add Path="расходники/вороги" Value="1"/>
+				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -1204,7 +1207,7 @@
 			</Texts>
 			<Options>
 				<Option Goto="84" Text="Да" Availability="1 из 5 = 1">
-					<Add Path="модификаторы/алкашня" Value="1"/>
+					<Mod Path="модификаторы/алкашня" Value="1"/>
 				</Option>
 				<Option Goto="84" Text="Нет" Availability="1 из 5 = 1"/>
 				<Option Goto="84" Text="Да" Availability="1 из 5 = 2"/>
@@ -1212,10 +1215,10 @@
 				<Option Goto="84" Text="Вратаря помоложе" Availability="1 из 5 = 3"/>
 				<Option Goto="84" Text="Самого лучшего из опытных" Availability="1 из 5 = 3"/>
 				<Option Goto="84" Text="Согласиться" Availability="1 из 5 = 4">
-					<Add Path="модификаторы/угождание спорткомитету" Value="1"/>
+					<Mod Path="модификаторы/угождание спорткомитету" Value="1"/>
 				</Option>
 				<Option Goto="84" Text="Взять лишь одного" Availability="1 из 5 = 4">
-					<Add Path="модификаторы/угождание спорткомитету" Value="1"/>
+					<Mod Path="модификаторы/угождание спорткомитету" Value="1"/>
 				</Option>
 				<Option Goto="84" Text="Определение состава — прерогатива тренера" Availability="1 из 5 = 4"/>
 				<Option Goto="84" Text="Бойца" Availability="1 из 5 = 5">
@@ -1240,7 +1243,7 @@
 				<Option Goto="29" Text="Ограничиваетесь общими словами"/>
 				<Option Goto="29" Text="Посмотрев на противника в деле, вы вдруг отчетливо видите, чем его пронять" Availability="личность тренера/необычные решения = 1, 1 из 2 = 1">
 					<Set Path="расходники/умелец" Value="1"/>
-					<Add Path="ИГРА/СССР" Value="4"/>
+					<Mod Path="ИГРА/СССР" Value="4"/>
 				</Option>
 			</Options>
 		</Paragraph>
@@ -1253,7 +1256,7 @@
 		<Paragraph No="107">
 			<Text>Отличная комбинация завершается точным пасом на выход, и советская команда забивает гол!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -1274,7 +1277,7 @@
 		<Paragraph No="110">
 			<Text>Сборная СССР пропускает гол...</Text>
 			<Modifications>
-				<Add Path="расходники/вороги" Value="1"/>
+				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -1338,7 +1341,7 @@
 				<Option Goto="84" Text="Нет, не стоит. Будет еще следующий отборочный цикл" Availability="1 из 5 = 1"/>
 				<Option Goto="84" Text="Возьмем" Availability="1 из 5 = 2">
 					<Set Path="модификаторы/алкашня" Value="1"/>
-					<Add Path="модификаторы/мастер" Value="1"/>
+					<Mod Path="модификаторы/мастер" Value="1"/>
 				</Option>
 				<Option Goto="84" Text="Не станем рисковать" Availability="1 из 5 = 2"/>
 				<Option Goto="84" Text="Карантин" Availability="1 из 5 = 3"/>
@@ -1363,7 +1366,7 @@
 		<Paragraph No="118">
 			<Text>Сборная СССР забивает гол!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -1380,8 +1383,8 @@
 				<Option Goto="21" Text="Применим резкие смены темпа"/>
 				<Option Goto="21" Text="Начинаем осторожно и действуем по обстоятельствам"/>
 				<Option Goto="21" Text="Если хорошенько сесть и подумать, проработать и учесть все детали, то... пожалуй, мы получим заметное преимущество" Availability="спецвозможности/тактика = 1">
-					<Add Path="спецвозможности/тактика" Value="-1"/>
-					<Add Path="ИГРА/СССР" Value="2"/>
+					<Mod Path="спецвозможности/тактика" Value="-1"/>
+					<Mod Path="ИГРА/СССР" Value="2"/>
 					<Set Path="личность тренера/тактик" Value="0"/>
 				</Option>
 			</Options>
@@ -1389,7 +1392,7 @@
 		<Paragraph No="120">
 			<Text>Удар! И мяч оказывается в воротах советской команды...</Text>
 			<Modifications>
-				<Add Path="расходники/вороги" Value="1"/>
+				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -1412,7 +1415,7 @@
 		<Paragraph No="122">
 			<Text>Мяч влетает в сетку ворот советской команды...</Text>
 			<Modifications>
-				<Add Path="расходники/вороги" Value="1"/>
+				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -1433,7 +1436,7 @@
 		<Paragraph No="125">
 			<Text>Мяч влетает в ворота сборной СССР...</Text>
 			<Modifications>
-				<Add Path="расходники/вороги" Value="1"/>
+				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
@@ -1448,7 +1451,7 @@
 		<Paragraph No="127">
 			<Text>Прорыв, передача в центр, удар головой!\n\nМяч в воротах!</Text>
 			<Modifications>
-				<Add Path="ИГРА/СССР" Value="1"/>
+				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="21" Text="!"/>
