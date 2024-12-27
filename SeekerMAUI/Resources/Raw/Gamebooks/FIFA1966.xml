@@ -471,6 +471,8 @@
 			<Modifications>
 				<Random Path="1 из 7" Value="7"/>
 				<Random Path="1 из 2" Value="2"/>
+				<Mod Path="ИГРА/время" Value="-1"/>
+				<Set Path="тактическое построение/модификатор" Value="0" Availability="тактическое построение/время = 1, тактическое построение/модификатор = 1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="32" Text="!" Availability="1 из 7 = 1"/>
