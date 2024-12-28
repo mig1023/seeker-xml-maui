@@ -257,6 +257,7 @@
 				<Set Path="расходники/номер игры" Value="4"/>
 				<Set Path="расходники/сколько раундов" Value="0"/>
 				<Enemy Value="Франция"/>
+				<FxComparisonOfTeam/>
 			</Modifications>
 			<Options>
 				<Option Goto="119" Text="Команды вот-вот выйдут на поле"/>
