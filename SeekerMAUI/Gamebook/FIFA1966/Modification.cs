@@ -65,6 +65,22 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                     }
                 }
             }
+            else if (Name == "WinByDice")
+            {
+                var bet = Character.Protagonist.Vars["выбор/орел-решка"];
+                var result = Character.Protagonist.Vars["исход поединка/орел-решка"];
+
+                if (bet == result)
+                {
+                    Character.Protagonist.Vars["плейофф/исход поединка"] = 1;
+                    Character.Protagonist.Vars["ИГРА/СССР"] += 1;
+                }
+                else
+                {
+                    Character.Protagonist.Vars["плейофф/исход поединка"] = 2;
+                    Character.Protagonist.Vars["расходники/вороги"] += 1;
+                }
+            }
         }
     }
 }
