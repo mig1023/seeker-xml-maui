@@ -1573,6 +1573,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="119">
+			<Modifications>
+				<Mod Path="силы соперников/СССР" Value="2" Availability="особенности игр/чилийский бонус = 1"/>
+				<Mod Path="силы соперников/СССР" Value="2" Availability="особенности игр/итальянский бонус = 1"/>
+				<Mod Path="силы соперников/СССР" Value="2" Availability="особенности игр/корейский бонус = 1"/>
+				<Mod Path="силы соперников/СССР" Value="2" Availability="особенности игр/португальский бонус = 1"/>
+				<Mod Path="силы соперников/СССР" Value="2" Availability="особенности игр/немецкий бонус = 1"/>
+				<Set Path="плейофф/исход поединка" Value="0"/>
+				<Mod Path="силы соперников/СССР" Value="-1" Availability="модификаторы/травма = 1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="21" Text="Мы будем искать счастья у чужих ворот">
 					<Set Path="тактическое построение/атака" Value="1"/>
