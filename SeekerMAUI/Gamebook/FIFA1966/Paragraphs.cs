@@ -8,13 +8,20 @@ namespace SeekerMAUI.Gamebook.FIFA1966
     {
         public override Paragraph Get(int id, XmlNode xmlParagraph)
         {
-            Paragraph paragraph = ParagraphTemplate(xmlParagraph);
+            Paragraph paragraph = new Paragraph
+            {
+                Options = new List<Option>(),
+                Modification = new List<Abstract.IModification>(),
+                Images = Xml.ImagesParse(xmlParagraph["Images"]),
+            };
 
             foreach (XmlNode xmlOption in xmlParagraph.SelectNodes("Options/*"))
                 paragraph.Options.Add(OptionParse(xmlOption));
 
             foreach (XmlNode xmlModification in xmlParagraph.SelectNodes("Modifications/*"))
-                paragraph.Modification.Add(ModificationParse(xmlModification));
+                ModificationParse(xmlModification).Do();
+
+            paragraph.Texts = TextsParse(xmlParagraph, main: true);
 
             return paragraph;
         }
