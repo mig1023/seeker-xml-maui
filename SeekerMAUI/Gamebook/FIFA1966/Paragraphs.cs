@@ -1,6 +1,6 @@
-﻿using SeekerMAUI.Game;
-using System;
-using System.Xml;
+﻿using System.Xml;
+using SeekerMAUI.Output;
+using SeekerMAUI.Game;
 
 namespace SeekerMAUI.Gamebook.FIFA1966
 {
@@ -17,6 +17,28 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 paragraph.Modification.Add(ModificationParse(xmlModification));
 
             return paragraph;
+        }
+
+        public override List<Text> TextsParse(XmlNode xmlNode, bool main = false)
+        {
+            if (xmlNode["Text"] != null)
+            {
+                return new List<Text> { Xml.TextLineParse(xmlNode["Text"]) };
+            }
+            else
+            {
+                List<Text> texts = new List<Text>();
+
+                foreach (XmlNode text in xmlNode.SelectNodes("Texts/Text"))
+                {
+                    string option = text.Attributes["Availability"]?.Value ?? String.Empty;
+
+                    if (String.IsNullOrEmpty(option) || Data.Actions.Availability(option))
+                        texts.Add(Xml.TextLineParse(text));
+                }
+
+                return texts;
+            }
         }
 
         public override Option OptionParse(XmlNode xmlOption)
