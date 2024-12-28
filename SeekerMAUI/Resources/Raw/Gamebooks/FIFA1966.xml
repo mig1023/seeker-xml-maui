@@ -1414,6 +1414,9 @@
 		</Paragraph>
 		<Paragraph No="105">
 			<Text>Перерыв. Вам слово:</Text>
+			<Modifications>
+				<Random Path="1 из 2" Value="2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="29" Text="Предписываете команде сосредоточиться на атаке">
 					<Set Path="тактическое построение/атака" Value="1"/>
