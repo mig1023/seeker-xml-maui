@@ -711,9 +711,11 @@
 			<Text>Команды покидают поле...</Text>
 			<Modifications>
 				<Set Path="расходники/вороги" Value="0"/>
+				<FxWinner Availability="плейофф/плейофф = 0"/>
 				<BonusesDisable/>
 				<Disable Path="преимущества сборной/временно действует латинос" Value="-1"/>
 				<Disable Path="преимущества сборной/временно действует европейцы" Value="-1"/>
+				<FxNoProblems/>
 				<Disable Path="расходники/тактик" Value="-2"/>
 				<Disable Path="расходники/умелец" Value="-4"/>
 				<Disable Path="модификаторы/травма" Value="1"/>
