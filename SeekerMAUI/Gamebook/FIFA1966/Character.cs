@@ -8,13 +8,15 @@ namespace SeekerMAUI.Gamebook.FIFA1966
         public override void Set(object character) =>
             Protagonist = (Character)character;
 
-        public Dictionary<string, int> Vars { get; set; }
+        //private Dictionary<string, int> _vars { get; set; }
+        public Vars Vars { get; set; } 
+
 
         public override void Init()
         {
             base.Init();
 
-            Vars = new Dictionary<string, int>();
+            Vars = new Vars();
 
             foreach (var team in Constants.Teams)
                 Vars[$"силы соперников/{team.Key}"] = team.Value;
@@ -30,9 +32,9 @@ namespace SeekerMAUI.Gamebook.FIFA1966
         {
             string vars = String.Empty;
 
-            foreach (var pair in Vars)
+            foreach (var key in Vars.Keys())
             {
-                vars += $"{pair.Key}:{pair.Value};";
+                vars += $"{key}:{Vars[key]};";
             }
 
             return vars.TrimEnd(';');
@@ -40,12 +42,12 @@ namespace SeekerMAUI.Gamebook.FIFA1966
 
         public override void Load(string saveLine)
         {
-            Vars = new Dictionary<string, int>();
+            Vars = new Vars();
 
             foreach (var vars in saveLine.Split(';'))
             {
                 var pair = vars.Split(':');
-                Vars.Add(pair[0], int.Parse(pair[1]));
+                Vars[pair[0]] = int.Parse(pair[1]);
             }
 
             IsProtagonist = true;
@@ -55,9 +57,9 @@ namespace SeekerMAUI.Gamebook.FIFA1966
         {
             string propertiesList = String.Empty;
 
-            foreach (var pair in Vars)
+            foreach (var key in Vars.Keys())
             {
-                propertiesList += $"{pair.Key} = {pair.Value}\n";
+                propertiesList += $"{key} = {Vars[key]}\n";
             }
 
             return propertiesList;

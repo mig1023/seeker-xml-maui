@@ -11,7 +11,7 @@ namespace SeekerMAUI.Gamebook.FIFA1966
         {
             if (!Character.Protagonist.Vars.ContainsKey(Path))
             {
-                Character.Protagonist.Vars.Add(Path, 0);
+                Character.Protagonist.Vars[Path] = 0;
             }
 
             if (Name == "Mod")
@@ -179,6 +179,7 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             else if (Name == "FxRanking")
             {
                 var group = Character.Protagonist.Vars
+                    .ToDictionary()
                     .Where(x => x.Key.StartsWith("групповой этап/"))
                     .OrderByDescending(x => x.Value);
 
@@ -188,7 +189,7 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 {
                     place += 1;
                     var name = team.Key.Replace("групповой этап/", "места в группе/");
-                    Character.Protagonist.Vars.Add(name, place);
+                    Character.Protagonist.Vars[name] = place;
                 }
             }
             else if (Name == "FxWinner")

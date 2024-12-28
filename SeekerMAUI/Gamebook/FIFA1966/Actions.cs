@@ -16,7 +16,7 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 {
                     var level = Game.Services.LevelParse(oneOption);
 
-                    foreach (var varName in Character.Protagonist.Vars.Keys)
+                    foreach (var varName in Character.Protagonist.Vars.Keys())
                     {
                         if (!oneOption.Contains(varName))
                             continue;
