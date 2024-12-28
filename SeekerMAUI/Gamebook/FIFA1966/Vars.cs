@@ -10,7 +10,7 @@ namespace SeekerMAUI.Gamebook.FIFA1966
         {
             get
             {
-                return _vars[key];
+                return _vars.ContainsKey(key) ? _vars[key] : 0;
             }
 
             set
