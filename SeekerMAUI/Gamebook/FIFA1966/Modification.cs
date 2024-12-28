@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections.Generic;
 
 namespace SeekerMAUI.Gamebook.FIFA1966
 {
@@ -145,6 +145,32 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 {
                     Character.Protagonist.Vars["расходники/кто сильнее"] = 2;
                 }
+            }
+            else if (Name == "FxEnemy")
+            {
+                var enemies = new Dictionary<int, string>
+                {
+                    [1] = "Уругвай",
+                    [2] = "Бразилия",
+                    [3] = "Бельгия",
+                    [4] = "Франция",
+                    [5] = "КНДР",
+                    [6] = "Италия",
+                    [7] = "Чили",
+                    [8] = "Венгрия",
+                    [9] = "Германия",
+                    [11] = "Португалия",
+                    [81] = "Португалия",
+                    [82] = "Англия",
+                    [83] = "Венгрия",
+                    [100] = "Англия",
+                    [101] = "Германия",
+                };
+
+                var game = Character.Protagonist.Vars["расходники/номер игры"];
+
+                Character.Protagonist.Vars[$"ИГРА/{enemies[game]}"] =
+                    Character.Protagonist.Vars["расходники/вороги"];
             }
         }
     }
