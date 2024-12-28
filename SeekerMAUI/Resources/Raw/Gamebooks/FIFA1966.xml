@@ -245,6 +245,7 @@
 				<Set Path="расходники/номер игры" Value="2"/>
 				<Set Path="расходники/сколько раундов" Value="0"/>
 				<Enemy Value="Бразилия"/>
+				<FxComparisonOfTeam/>
 			</Modifications>
 			<Options>
 				<Option Goto="119" Text="Что вы скажете игрокам перед выходом на поле?"/>
