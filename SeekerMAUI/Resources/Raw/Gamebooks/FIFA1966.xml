@@ -1099,6 +1099,10 @@
 				<Text Availability="расходники/кому момент = 2">Оппоненты атакуют!</Text>
 				<Text Availability="расходники/кому момент = 0">На поле идет позиционная борьба без преимущества одной из команд...</Text>
 			</Texts>
+			<Modifications>
+				<Random Path="1 из 5" Value="5"/>
+				<Random Path="1 из 3" Value="3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="111" Text="!" Availability="1 из 5 = 1, расходники/кому момент = 1"/>
 				<Option Goto="124" Text="!" Availability="1 из 5 = 2, расходники/кому момент = 1"/>
