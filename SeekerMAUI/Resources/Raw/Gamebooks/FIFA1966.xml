@@ -503,6 +503,7 @@
 				<Set Path="расходники/сколько раундов" Value="0"/>
 				<Enemy Value="Германия"/>
 				<Mod Path="силы соперников/СССР" Value="1" Availability="преимущества сборной/европейцы = 1"/>
+				<FxComparisonOfTeam/>
 				<Set Path="плейофф/плейофф" Value="2"/>
 				<Set Path="расходники/вороги" Value="0"/>
 			</Modifications>
