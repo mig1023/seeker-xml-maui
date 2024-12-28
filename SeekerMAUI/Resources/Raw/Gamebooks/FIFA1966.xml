@@ -526,6 +526,7 @@
 			<Modifications>
 				<Random Path="1 из 5" Value="5"/>
 				<Random Path="1 из 3" Value="3"/>
+				<FxEnemy/>
 			</Modifications>
 			<Options>
 				<Option Goto="80" Text="!" Availability="1 из 5 = 1, расходники/кому момент = 1"/>
