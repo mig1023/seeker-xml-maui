@@ -21,6 +21,14 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             {
                 Character.Protagonist.Vars[Path] = Value;
             }
+            else if (Name == "Disable")
+            {
+                if (Character.Protagonist.Vars[Path] == 1)
+                {
+                    Character.Protagonist.Vars[Path] = 0;
+                    Character.Protagonist.Vars["силы соперников/СССР"] += Value;
+                }
+            }
             else if (Name == "Random")
             {
                 Character.Protagonist.Vars[Path] = Game.Dice.Roll(size: Value);
