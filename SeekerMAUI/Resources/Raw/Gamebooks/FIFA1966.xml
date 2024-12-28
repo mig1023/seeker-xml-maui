@@ -1525,6 +1525,9 @@
 				<Text Availability="1 из 5 = 4">Стоит ли, скажем, сыграть послабее в непринципиальном матче, если впереди принципиальный и для него нужды силы?</Text>
 				<Text Availability="1 из 5 = 5">Если ваши умные идеи не примет руководство крупных клубов страны, вы...</Text>
 			</Texts>
+			<Modifications>
+				<Random Path="1 из 5" Value="5"/>
+			</Modifications>
 			<Options>
 				<Option Goto="84" Text="Пожалуй" Availability="1 из 5 = 1"/>
 				<Option Goto="84" Text="Нет, не стоит. Будет еще следующий отборочный цикл" Availability="1 из 5 = 1"/>
