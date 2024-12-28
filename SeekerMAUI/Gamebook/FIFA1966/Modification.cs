@@ -128,6 +128,24 @@ namespace SeekerMAUI.Gamebook.FIFA1966
 
                 Character.Protagonist.Vars["расходники/кому момент"] = moment;
             }
+            else if (Name == "FxComparisonOfTeam")
+            {
+                var ussr = Character.Protagonist.Vars["силы соперников/СССР"];
+                var enemy = Character.Protagonist.Vars["силы соперников/сила соперника"];
+
+                if (ussr > enemy)
+                {
+                    Character.Protagonist.Vars["расходники/кто сильнее"] = 1;
+                }
+                else if (ussr < enemy)
+                {
+                    Character.Protagonist.Vars["расходники/кто сильнее"] = 3;
+                }
+                else
+                {
+                    Character.Protagonist.Vars["расходники/кто сильнее"] = 2;
+                }
+            }
         }
     }
 }
