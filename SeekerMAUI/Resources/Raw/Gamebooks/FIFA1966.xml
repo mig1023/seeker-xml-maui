@@ -883,6 +883,7 @@
 				<Set Path="расходники/номер игры" Value="1"/>
 				<Enemy Value="Уругвай"/>
 				<Set Path="расходники/сколько раундов" Value="0"/>
+				<FxComparisonOfTeam/>
 			</Modifications>
 			<Options>
 				<Option Goto="119" Text="Команда ждет ваших инструкций"/>
