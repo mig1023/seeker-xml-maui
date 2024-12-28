@@ -1656,6 +1656,7 @@
 				<Enemy Value="Чили"/>
 				<Mod Path="силы соперников/СССР" Value="1" Availability="преимущества сборной/латинос = 1"/>
 				<Set Path="преимущества сборной/временно действует латинос" Value="1" Availability="преимущества сборной/латинос = 1"/>
+				<FxComparisonOfTeam/>
 				<Random Path="1 из 5" Value="5"/>
 				<Mod Path="групповой этап/Чили" Value="2" Availability="1 из 5 = 1"/>
 				<Mod Path="групповой этап/КНДР" Value="1" Availability="1 из 5 = 2"/>
