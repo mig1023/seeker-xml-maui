@@ -1182,6 +1182,9 @@
 				<Text Availability="1 из 3 = 2">Игрок по собственной инициативе делает что-то, чего вы ему не велели, но это дает результат. Ваши действия?</Text>
 				<Text Availability="1 из 3 = 3">Спарринговые матчи лучше проводить:</Text>
 			</Texts>
+			<Modifications>
+				<Random Path="1 из 3" Value="3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="39" Text="В линию" Availability="1 из 3 = 1"/>
 				<Option Goto="39" Text="С чистильшиком" Availability="1 из 3 = 1"/>
