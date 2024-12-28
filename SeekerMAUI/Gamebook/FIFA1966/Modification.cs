@@ -101,7 +101,7 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 {
                     moment = 2;
                 }
-                else  if ((chance < 4) && (stronger == 3))
+                else if ((chance < 4) && (stronger == 3))
                 {
                     moment = 2;
                 }
@@ -113,7 +113,7 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 {
                     moment = 1;
                 }
-                else  if ((chance < 4) && (stronger == 2))
+                else if ((chance < 4) && (stronger == 2))
                 {
                     moment = 1;
                 }
@@ -171,6 +171,21 @@ namespace SeekerMAUI.Gamebook.FIFA1966
 
                 Character.Protagonist.Vars[$"ИГРА/{enemies[game]}"] =
                     Character.Protagonist.Vars["расходники/вороги"];
+            }
+            else if (Name == "FxRanking")
+            {
+                var group = Character.Protagonist.Vars
+                    .Where(x => x.Key.StartsWith("групповой этап/"))
+                    .OrderByDescending(x => x.Value);
+
+                int place = 0;
+
+                foreach (var team in group)
+                {
+                    place += 1;
+                    var name = team.Key.Replace("групповой этап/", "места в группе/");
+                    Character.Protagonist.Vars.Add(name, place);
+                }
             }
         }
     }
