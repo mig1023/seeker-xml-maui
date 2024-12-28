@@ -30,6 +30,33 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 Character.Protagonist.Vars["силы соперников/сила соперника"] =
                     Character.Protagonist.Vars[$"силы соперников/{ValueString}"];
             }
+            else if (Name == "BonusesDisable")
+            {
+                var bonuses = new List<string>
+                {
+                    "корейский",
+                    "итальянский",
+                    "чилийский",
+                    "португальский",
+                    "немецкий"
+                };
+
+                foreach (var bonus in bonuses)
+                {
+                    bool disabled = false;
+
+                    if (Character.Protagonist.Vars[$"особенности игр/{bonus}"] == 1)
+                    {
+                        Character.Protagonist.Vars[$"особенности игр/{bonus}"] = 0;
+                        disabled = true;
+                    }
+
+                    if (disabled)
+                    {
+                        Character.Protagonist.Vars["силы соперников/СССР"] -= 2;
+                    }
+                }
+            }
         }
     }
 }
