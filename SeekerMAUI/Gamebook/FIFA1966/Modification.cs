@@ -205,6 +205,29 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                     Character.Protagonist.Vars["исход поединка"] = 3;
                 }
             }
+            else if (Name == "FxTactics")
+            {
+                var chance = Game.Dice.Roll(size: 3);
+                var attack = Character.Protagonist.Vars["тактическое построение/атака"] == 1;
+                var mod = Character.Protagonist.Vars["тактическое построение/модификатор"];
+
+                if ((chance == 1) && attack && (mod != 1))
+                {
+                    Character.Protagonist.Vars["силы соперников/СССР"] += 1;
+                    Character.Protagonist.Vars["тактическое построение/модификатор"] = 1;
+                    Character.Protagonist.Vars["тактическое построение/время"] = 3;
+                }
+
+                chance = Game.Dice.Roll(size: 3);
+                var defence = Character.Protagonist.Vars["тактическое построение/защита"] == 1;
+
+                if ((chance == 1) && defence && (mod != 2))
+                {
+                    Character.Protagonist.Vars["силы соперников/сила соперника"] -= 1;
+                    Character.Protagonist.Vars["тактическое построение/модификатор"] = 2;
+                    Character.Protagonist.Vars["тактическое построение/время"] = 3;
+                }
+            }
         }
     }
 }
