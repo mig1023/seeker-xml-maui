@@ -1617,6 +1617,24 @@
 				<Text Availability="групповой этап/СССР = 4">Скептики по отношению к нашей команде спешно переквалифицировались в скептиков по отношении итальянской.</Text>
 				<Text>А наш следующий соперник — сборная Чили, в том же Сандерленде.</Text>
 			</Texts>
+			<Modifications>
+				<Set Path="расходники/номер игры" Value="7"/>
+				<Set Path="расходники/сколько раундов" Value="0"/>
+				<Enemy Value="Чили"/>
+				<Mod Path="силы соперников/СССР" Value="1" Availability="преимущества сборной/латинос = 1"/>
+				<Set Path="преимущества сборной/временно действует латинос" Value="1" Availability="преимущества сборной/латинос = 1"/>
+				<Random Path="1 из 5" Value="5"/>
+				<Mod Path="групповой этап/Чили" Value="2" Availability="1 из 5 = 1"/>
+				<Mod Path="групповой этап/КНДР" Value="1" Availability="1 из 5 = 2"/>
+				<Mod Path="групповой этап/Чили" Value="1" Availability="1 из 5 = 2"/>
+				<Mod Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 3"/>
+				<Mod Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 4"/>
+				<Mod Path="групповой этап/КНДР" Value="2" Availability="1 из 5 = 5"/>
+				<Mod Path="групповой этап/СССР" Value="2" Availability="плейофф/исход поединка = 1"/>
+				<Mod Path="групповой этап/Италия" Value="2" Availability="плейофф/исход поединка = 2"/>
+				<Mod Path="групповой этап/СССР" Value="1" Availability="плейофф/исход поединка = 3"/>
+				<Mod Path="групповой этап/Италия" Value="1" Availability="плейофф/исход поединка = 3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="82" Text="Следующий поединок, последний на групповом этапе"/>
 			</Options>
