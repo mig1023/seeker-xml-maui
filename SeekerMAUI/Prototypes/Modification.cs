@@ -10,6 +10,7 @@ namespace SeekerMAUI.Prototypes
 
         public bool Empty { get; set; }
         public bool Restore { get; set; }
+        public string Availability { get; set; }
 
         public delegate void ParamMod();
 
