@@ -187,6 +187,24 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                     Character.Protagonist.Vars.Add(name, place);
                 }
             }
+            else if (Name == "FxWinner")
+            {
+                var ussr = Character.Protagonist.Vars["ИГРА/СССР"];
+                var enemy = Character.Protagonist.Vars["расходники/вороги"];
+
+                if (ussr > enemy)
+                {
+                    Character.Protagonist.Vars["исход поединка"] = 1;
+                }
+                else if (ussr < enemy)
+                {
+                    Character.Protagonist.Vars["исход поединка"] = 2;
+                }
+                else
+                {
+                    Character.Protagonist.Vars["исход поединка"] = 3;
+                }
+            }
         }
     }
 }
