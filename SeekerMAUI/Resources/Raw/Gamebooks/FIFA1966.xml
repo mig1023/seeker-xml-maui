@@ -224,6 +224,7 @@
 				<Enemy Value="Италия"/>
 				<Mod Path="силы соперников/СССР" Value="1" Availability="преимущества сборной/европейцы = 1"/>
 				<Set Path="преимущества сборной/временно действует европейцы" Value="1" Availability="преимущества сборной/европейцы = 1"/>
+				<FxComparisonOfTeam/>
 				<Set Path="расходники/номер игры" Value="6"/>
 				<Random Path="1 из 3" Value="3"/>
 				<Mod Path="групповой этап/Италия" Value="1" Availability="1 из 3 = 1"/>
