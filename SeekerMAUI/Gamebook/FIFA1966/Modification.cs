@@ -291,6 +291,37 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                     Character.Protagonist.Vars["модификаторы/травма"] = 1;
                 }
             }
+            else if (Name == "FxNoProblems")
+            {
+                if (Character.Protagonist.Vars["последствия решений/попойка"] == 1)
+                {
+                    Character.Protagonist.Vars["последствия решений/попойка"] = 0;
+                    Character.Protagonist.Vars["силы соперников/СССР"] += 1;
+                }
+                
+                if (Character.Protagonist.Vars["последствия решений/выстрелил"] == 1)
+                {
+                    Character.Protagonist.Vars["последствия решений/выстрелил"] = 0;
+                    Character.Protagonist.Vars["силы соперников/СССР"] -= 1;
+                }
+
+                if (Character.Protagonist.Vars["последствия решений/ослабление угожданием"] == 1)
+                {
+                    Character.Protagonist.Vars["последствия решений/ослабление угожданием"] = 0;
+                    Character.Protagonist.Vars["силы соперников/СССР"] += 1;
+                }
+
+                if (Character.Protagonist.Vars["последствия решений/комитет зуб"] == 1)
+                {
+                    Character.Protagonist.Vars["последствия решений/комитет зуб"] = 0;
+                    Character.Protagonist.Vars["силы соперников/СССР"] += 1;
+                }
+
+                if (Character.Protagonist.Vars["модификаторы/соперник в ударе"] == 1)
+                {
+                    Character.Protagonist.Vars["модификаторы/соперник в ударе"] = 0;
+                }
+            }
         }
     }
 }
