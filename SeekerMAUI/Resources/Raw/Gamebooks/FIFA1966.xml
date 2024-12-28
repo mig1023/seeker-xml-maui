@@ -1042,6 +1042,7 @@
 				<Text Availability="расходники/кому момент = 0">На поле идет позиционная борьба без преимущества одной из команд...</Text>
 			</Texts>
 			<Modifications>
+				<FxEnemy/>
 				<Random Path="1 из 5" Value="5"/>
 				<Random Path="1 из 3" Value="3"/>
 			</Modifications>
