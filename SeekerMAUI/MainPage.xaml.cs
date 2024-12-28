@@ -328,27 +328,6 @@ namespace SeekerMAUI
 
             GamepageSettings();
 
-            bool walkingInCircles = Game.Data.Path.Contains(id.ToString());
-
-            if (Game.Data.Constants.GetBool("WalkingInCirclesAcceptable"))
-                walkingInCircles = false;
-
-            if (!loadGame && !reload && !walkingInCircles)
-            {
-                Game.Option.Trigger(paragraph.Trigger);
-                Game.Option.Trigger(paragraph.Untrigger, remove: true);
-
-                if ((paragraph.Modification != null) && (paragraph.Modification.Count > 0))
-                {
-                    foreach (Abstract.IModification modification in paragraph.Modification)
-                    {
-                        if (Game.Data.Actions.Availability(modification.Availability))
-                            modification.Do();
-                    }
-                }
-                    
-            }
-
             string text = String.Empty;
 
             foreach (Output.Text texts in paragraph.Texts)
@@ -369,6 +348,27 @@ namespace SeekerMAUI
 
                     if (!String.IsNullOrEmpty(paragraph.Images[image]))
                         Text.Children.Add(Output.Interface.Text(paragraph.Images[image]));
+                }
+            }
+
+
+            bool walkingInCircles = Game.Data.Path.Contains(id.ToString());
+
+            if (Game.Data.Constants.GetBool("WalkingInCirclesAcceptable"))
+                walkingInCircles = false;
+
+            if (!loadGame && !reload && !walkingInCircles)
+            {
+                Game.Option.Trigger(paragraph.Trigger);
+                Game.Option.Trigger(paragraph.Untrigger, remove: true);
+
+                if ((paragraph.Modification != null) && (paragraph.Modification.Count > 0))
+                {
+                    foreach (Abstract.IModification modification in paragraph.Modification)
+                    {
+                        if (Game.Data.Actions.Availability(modification.Availability))
+                            modification.Do();
+                    }
                 }
             }
 
