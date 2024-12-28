@@ -473,8 +473,9 @@
 			</Texts>
 			<Modifications>
 				<Random Path="1 из 7" Value="7"/>
-				<Random Path="1 из 2" Value="2"/>
+				<FxTactics/>
 				<Mod Path="ИГРА/время" Value="-1"/>
+				<Random Path="1 из 2" Value="2"/>
 				<Set Path="тактическое построение/модификатор" Value="0" Availability="тактическое построение/время = 1, тактическое построение/модификатор = 1"/>
 			</Modifications>
 			<Options>
