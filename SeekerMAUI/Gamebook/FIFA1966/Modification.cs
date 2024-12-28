@@ -81,6 +81,53 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                     Character.Protagonist.Vars["расходники/вороги"] += 1;
                 }
             }
+            else if (Name == "FxChances")
+            {
+                var stronger = Character.Protagonist.Vars["расходники/кто сильнее"];
+                var chance = Game.Dice.Roll(size: 7);
+                var moment = 0;
+
+                Character.Protagonist.Vars["1 из 7"] = chance;
+
+                if ((chance < 5) && (stronger == 1))
+                {
+                    moment = 1;
+                }
+                else if ((chance == 5) && (stronger == 1))
+                {
+                    moment = 0;
+                }
+                else if ((chance > 5) && (stronger == 1))
+                {
+                    moment = 2;
+                }
+                else  if ((chance < 4) && (stronger == 3))
+                {
+                    moment = 2;
+                }
+                else if ((chance > 3) && (chance < 6) && (stronger == 3))
+                {
+                    moment = 0;
+                }
+                else if ((chance > 5) && (stronger == 3))
+                {
+                    moment = 1;
+                }
+                else  if ((chance < 4) && (stronger == 2))
+                {
+                    moment = 1;
+                }
+                else if ((chance > 3) && (chance < 6) && (stronger == 2))
+                {
+                    moment = 0;
+                }
+                else
+                {
+                    moment = 2;
+                }
+
+                Character.Protagonist.Vars["расходники/кому момент"] = moment;
+            }
         }
     }
 }
