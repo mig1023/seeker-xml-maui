@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.Maui.Controls;
+using System.Collections.Generic;
 
 namespace SeekerMAUI.Gamebook.FIFA1966
 {
@@ -226,6 +227,68 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                     Character.Protagonist.Vars["силы соперников/сила соперника"] -= 1;
                     Character.Protagonist.Vars["тактическое построение/модификатор"] = 2;
                     Character.Protagonist.Vars["тактическое построение/время"] = 3;
+                }
+            }
+            else if (Name == "FxProblems")
+            {
+                var chance = Game.Dice.Roll(size: 3);
+                var alcohol = Character.Protagonist.Vars["модификаторы/алкашня"] == 1;
+
+                if ((chance == 1) && alcohol)
+                {
+                    Character.Protagonist.Vars["последствия решений/попойка"] = 1;
+                    Character.Protagonist.Vars["силы соперников/СССР"] -= 1;
+                }
+
+                chance = Game.Dice.Roll(size: 3);
+                var pleasing = Character.Protagonist.Vars["модификаторы/угождание спорткомитету"] == 1;
+
+                if ((chance == 1) && pleasing)
+                {
+                    Character.Protagonist.Vars["последствия решений/ослабление угожданием"] = 1;
+                    Character.Protagonist.Vars["силы соперников/СССР"] -= 1;
+                }
+
+                chance = Game.Dice.Roll(size: 3);
+                var master = Character.Protagonist.Vars["модификаторы/мастер"] == 1;
+                var hardWorker = Character.Protagonist.Vars["модификаторы/трудяга"] == 1;
+
+                if (((chance == 1) && master) || ((chance == 2) && hardWorker))
+                {
+                    Character.Protagonist.Vars["последствия решений/выстрелил"] = 1;
+                    Character.Protagonist.Vars["силы соперников/СССР"] += 1;
+                }
+
+                chance = Game.Dice.Roll(size: 3);
+                var conflict = Character.Protagonist.Vars["модификаторы/терки со спорткомитетом"] == 1;
+
+                if ((chance == 1) && conflict)
+                {
+                    Character.Protagonist.Vars["последствия решений/комитет зуб"] = 1;
+                    Character.Protagonist.Vars["силы соперников/СССР"] -= 1;
+                }
+
+                chance = Game.Dice.Roll(size: 3);
+
+                if (chance == 1)
+                {
+                    Character.Protagonist.Vars["силы соперников/сила соперника"] += 2;
+                    Character.Protagonist.Vars["модификаторы/соперник в ударе"] = 1;
+                }
+
+                chance = Game.Dice.Roll(size: 3);
+                var criticism = Character.Protagonist.Vars["расходники/критика"] == 1;
+
+                if ((chance != 1) && criticism)
+                {
+                    Character.Protagonist.Vars["силы соперников/СССР"] -= 1;
+                }
+
+                chance = Game.Dice.Roll(size: 3);
+
+                if (chance == 2)
+                {
+                    Character.Protagonist.Vars["модификаторы/травма"] = 1;
                 }
             }
         }
