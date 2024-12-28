@@ -149,6 +149,9 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             }
             else if (Name == "FxEnemy")
             {
+                if (!Character.Protagonist.Vars.ContainsKey("расходники/вороги"))
+                    return;
+
                 var enemies = new Dictionary<int, string>
                 {
                     [1] = "Уругвай",
