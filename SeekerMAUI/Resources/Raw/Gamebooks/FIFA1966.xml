@@ -144,6 +144,7 @@
 				<Mod Path="групповой этап/Италия" Value="2" Availability="плейофф/исход поединка = 2"/>
 				<Mod Path="групповой этап/СССР" Value="1" Availability="плейофф/исход поединка = 3"/>
 				<Mod Path="групповой этап/Италия" Value="1" Availability="плейофф/исход поединка = 3"/>
+				<FxRanking/>
 			</Modifications>
 			<Options>
 				<Option Goto="10" Text="Сборная СССР выходит в кубковую часть первенства с первого места!" Availability="места в группе/СССР = 1">
