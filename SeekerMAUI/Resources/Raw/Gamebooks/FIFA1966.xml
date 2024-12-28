@@ -353,10 +353,13 @@
 				<Text Availability="1 из 2 = 1, расходники/номер игры = 6">Грузинский ансамбль вовсю шумит в поддержку нашей команды</Text>
 			</Texts>
 			<Modifications>
+				<FxEnemy/>
 				<Mod Path="расходники/сколько раундов" Value="1"/>
+				<FxChances/>
 				<Random Path="1 из 5" Value="5"/>
 				<Random Path="1 из 7" Value="7"/>
 				<Random Path="1 из 2" Value="2"/>
+				<FxTactics/>
 				<Mod Path="ИГРА/время" Value="-1"/>
 				<Set Path="тактическое построение/модификатор" Value="0" Availability="тактическое построение/время = 1, тактическое построение/модификатор = 1"/>
 			</Modifications>
