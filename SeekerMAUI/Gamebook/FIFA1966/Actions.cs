@@ -4,6 +4,21 @@ namespace SeekerMAUI.Gamebook.FIFA1966
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
+        public override List<string> Status()
+        {
+            if (!String.IsNullOrEmpty(Character.Protagonist.Enemy))
+            {
+                var ussr = Character.Protagonist.Vars["ИГРА/СССР"];
+                var enemy = Character.Protagonist.Vars["расходники/вороги"];
+                var result = $"CCCР {ussr} — {Character.Protagonist.Enemy} {enemy}";
+                return new List<string> { result };
+            }
+            else
+            {
+                return new List<string>();
+            }
+        }
+
         public override bool Availability(string option)
         {
             if (String.IsNullOrEmpty(option))
