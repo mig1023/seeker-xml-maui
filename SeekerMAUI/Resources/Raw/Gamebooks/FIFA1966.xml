@@ -5,8 +5,10 @@
 			<Author>Владимир Носов, 2023</Author>
 		</Copyright>
 		<Styles>
-			<Main Value="ea0001"/>
-			<Color Name="System, Option, Continue" Value="161de9"/>
+			<System Value="ea0001"/>
+			<SystemFont Value="ffffff"/>
+			<Continue Value="0f14a3"/>
+			<Color Name="Main, Option" Value="161de9"/>
 		</Styles>
 		<Dictionaries>
 			<Teams>
