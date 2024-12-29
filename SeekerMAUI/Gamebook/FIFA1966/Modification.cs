@@ -149,9 +149,6 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             }
             else if (Name == "FxEnemy")
             {
-                if (!Character.Protagonist.Vars.ContainsKey("расходники/вороги"))
-                    return;
-
                 var enemies = new Dictionary<int, string>
                 {
                     [1] = "Уругвай",
@@ -172,6 +169,11 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 };
 
                 var game = Character.Protagonist.Vars["расходники/номер игры"];
+
+                Character.Protagonist.Enemy = enemies[game];
+
+                if (!Character.Protagonist.Vars.ContainsKey("расходники/вороги"))
+                    return;
 
                 Character.Protagonist.Vars[$"ИГРА/{enemies[game]}"] =
                     Character.Protagonist.Vars["расходники/вороги"];
@@ -209,6 +211,8 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 {
                     Character.Protagonist.Vars["исход поединка"] = 3;
                 }
+
+                Character.Protagonist.Enemy = String.Empty;
             }
             else if (Name == "FxTactics")
             {

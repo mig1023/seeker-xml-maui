@@ -8,9 +8,9 @@ namespace SeekerMAUI.Gamebook.FIFA1966
         public override void Set(object character) =>
             Protagonist = (Character)character;
 
-        //private Dictionary<string, int> _vars { get; set; }
-        public Vars Vars { get; set; } 
+        public Vars Vars { get; set; }
 
+        public string Enemy { get; set; }
 
         public override void Init()
         {
@@ -20,12 +20,15 @@ namespace SeekerMAUI.Gamebook.FIFA1966
 
             foreach (var team in Constants.Teams)
                 Vars[$"силы соперников/{team.Key}"] = team.Value;
+
+            Enemy = String.Empty;
         }
 
         public Character Clone() => new Character()
         {
             IsProtagonist = this.IsProtagonist,
             Name = this.Name,
+            Enemy = this.Enemy,
         };
 
         public override string Save()
@@ -37,14 +40,17 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 vars += $"{key}:{Vars[key]};";
             }
 
-            return vars.TrimEnd(';');
+            return Enemy + "|" + vars.TrimEnd(';');
         }
 
         public override void Load(string saveLine)
         {
+            string[] save = saveLine.Split('|');
+
+            Enemy = save[0];
             Vars = new Vars();
 
-            foreach (var vars in saveLine.Split(';'))
+            foreach (var vars in save[1].Split(';'))
             {
                 var pair = vars.Split(':');
                 Vars[pair[0]] = int.Parse(pair[1]);
