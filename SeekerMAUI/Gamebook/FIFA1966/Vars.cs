@@ -20,7 +20,7 @@ namespace SeekerMAUI.Gamebook.FIFA1966
         }
 
         public List<string> Keys() =>
-            _vars.Keys.ToList();
+            _vars.Keys.Where(x => !String.IsNullOrEmpty(x)).ToList();
 
         public bool ContainsKey(string name) =>
             _vars.ContainsKey(name);
