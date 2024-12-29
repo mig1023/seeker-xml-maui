@@ -1770,7 +1770,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="202">
-			<Text>Ваша жажда всё увеличивается. Вы чувствуете, что теряете 3 пункта Силы.</Text>
+			<Texts>
+				<Text>Ваша жажда всё увеличивается.</Text>
+				<Text Style="Small">Вы чувствуете, что теряете 3 пункта Силы.</Text>
+			</Texts>
 			<Modifications>
 				<Strength Value="-3"/>
 			</Modifications>
