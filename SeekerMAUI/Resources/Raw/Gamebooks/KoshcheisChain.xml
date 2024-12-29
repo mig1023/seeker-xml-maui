@@ -755,7 +755,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="82">
-			<Text>Одна из змей укусила вас в руку, и вы чувствуете, что её яд проникает вам в кровь.\n\nВы теряете 6 пунктов Силы.</Text>
+			<Texts>
+				<Text>Одна из змей укусила вас в руку, и вы чувствуете, что её яд проникает вам в кровь.</Text>
+				<Text Style="Small">Вы теряете 6 пунктов Силы.</Text>
+			</Texts>
 			<Modifications>
 				<Strength Value="-6"/>
 			</Modifications>
