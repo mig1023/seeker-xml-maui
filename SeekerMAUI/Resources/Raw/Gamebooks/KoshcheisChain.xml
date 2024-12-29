@@ -1392,7 +1392,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="156">
-			<Text>Вы отбросили змей прочь и хватаетесь за рычаг.\n\nОдна из змей кусает вас в запястье, и вы теряете 6 пунктов Силы.</Text>
+			<Texts>
+				<Text>Вы отбросили змей прочь и хватаетесь за рычаг.\n\nОдна из змей кусает вас в запястье...</Text>
+				<Text Style="Small">Вы теряете 6 пунктов Силы.</Text>
+			</Texts>
 			<Modifications>
 				<Strength Value="-6"/>
 			</Modifications>
