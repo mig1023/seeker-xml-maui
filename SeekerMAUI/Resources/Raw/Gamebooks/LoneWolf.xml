@@ -548,5 +548,11 @@
 				<Option Goto="220" Text="Если нападете на него"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="79">
+			<Text>Вы подходите к мостику через быстро текущий ручей. На другой стороне моста дорога поворачивает на юг. Вы пересекаете мост и продолжаете путь.</Text>
+			<Options>
+				<Option Goto="12"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
