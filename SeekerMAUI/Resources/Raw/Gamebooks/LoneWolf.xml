@@ -68,5 +68,11 @@
 				<Option Goto="25" Text="Если число 3 — 9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="8">
+			<Text>Ваше Шестое чувство подсказывает, что на юге бушует жестокий бой. Однако Вы также понимаете, что дорога на юг — кратчайший путь к стодице.\n\nВыбирайте</Text>
+			<Options>
+				<Option Goto="70"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
