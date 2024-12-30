@@ -473,5 +473,12 @@
 				<Option Goto="252"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="68">
+			<Text>После непродолжительного пути Вы достигаете развилки, вторая тропа пересекает Ваш путь с запада на восток.</Text>
+			<Options>
+				<Option Goto="130" Text="Если Вы желаете повернуть на запад"/>
+				<Option Goto="15" Text="Если Вы желаете повернуть на восток"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
