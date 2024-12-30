@@ -467,5 +467,11 @@
 				<Option Goto="350"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="67">
+			<Text>Вы находите свежие следы огромного животного, ведущие на юг. Это следы черного медведя, известного свирепостью. Вы решаете, что восточная дорога будет намного безопаснее.</Text>
+			<Options>
+				<Option Goto="252"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
