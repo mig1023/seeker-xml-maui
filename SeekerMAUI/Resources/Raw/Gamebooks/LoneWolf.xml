@@ -486,5 +486,13 @@
 				<Option Goto="272"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="70">
+			<Text>Вы подошли к маленькому мосту. Дорога идет по направлению течения на восток. В сторону леса, к югу, уводит узкая тропка.</Text>
+			<Options>
+				<Option Goto="8" Text="Если Вы желаете использовать Дисциплину Шестое чувство"/>
+				<Option Goto="28" Text="Если Вы желаете пойти на восток"/>
+				<Option Goto="157" Text="Если Вы желаете пойти на юг"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
