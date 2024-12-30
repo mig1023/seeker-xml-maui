@@ -480,5 +480,11 @@
 				<Option Goto="15" Text="Если Вы желаете повернуть на восток"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="69">
+			<Text>Вы находитесь близко от дружественной деревни.</Text>
+			<Options>
+				<Option Goto="272"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
