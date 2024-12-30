@@ -98,6 +98,7 @@
 	  <None Remove="Resources\Images\Cover\landofunwarybears.jpg" />
 	  <None Remove="Resources\Images\Cover\lasthokku.jpg" />
 	  <None Remove="Resources\Images\Cover\legendsalwayslie.jpg" />
+	  <None Remove="Resources\Images\Cover\lonewolf.jpg" />
 	  <None Remove="Resources\Images\Cover\lordofthesteppes.jpg" />
 	  <None Remove="Resources\Images\Cover\madameguillotine.jpg" />
 	  <None Remove="Resources\Images\Cover\masteroftaiga.jpg" />
@@ -311,6 +312,7 @@
 	  <MauiImage Include="Resources\Images\Cover\landofunwarybears.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\lasthokku.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\legendsalwayslie.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\lonewolf.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\lordofthesteppes.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\madameguillotine.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\masteroftaiga.jpg" />

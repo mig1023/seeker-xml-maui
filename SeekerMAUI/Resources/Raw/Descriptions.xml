@@ -1086,8 +1086,8 @@
 		<Author>Владимир Носов</Author>
 		<Year>2023</Year>
 		<Text>Сборная СССР по футболу готовится выступить на чемпионате мира 1966 года. Каким он станет для нее? Многое зависит от тренера, многое от игроков, очень многое от взаимодействия первого и вторых, и кое-что от воли случая.</Text>
-		<Paragraphs>1</Paragraphs>
-		<Size>1</Size>
+		<Paragraphs>129</Paragraphs>
+		<Size>13400</Size>
 		<Playthrough>На полчаса</Playthrough>
 		<Setting>Спорт</Setting>
 		<Color>161de9</Color>
@@ -1124,9 +1124,33 @@
 		<Year>1988</Year>
 		<Text>Это о тебе говорят, что в венах течёт ледяная кровь, а мускулы крепче стали? Если это так, то проснись в Стране Заходящего Солнца. Там на границах королевства Алманхагор начинается страна подземных жителей, и только ты можешь узнать их Великую Тайну, скрытую в хитроумных лабиринтах. Дерзай! В путь!</Text>
 		<Paragraphs>387</Paragraphs>
-		<Size>1</Size>
+		<Size>16893</Size>
 		<Playthrough>На часок-полтора</Playthrough>
 		<Setting>Фэнтези</Setting>
 		<Color>038f8d</Color>
 	</Tremble>
+	<LoneWolf>
+		<Title>Одинокий волк</Title>
+		<Original>Lone Wolf</Original>
+		<Author>Джо Девер</Author>
+		<Translators>
+			<Translator>Jumangee</Translator>
+			<Translator>Смелый Хвост</Translator>
+			<Translator>Dyuss</Translator>
+			<Translator>PIPбой</Translator>
+			<Translator>Piligrim</Translator>
+			<Translator>Fil2007</Translator>
+			<Translator>Harald</Translator>
+			<Translator>К.Киламов</Translator>
+			<Translator>Азура</Translator>
+		</Translators>
+		<Year>1984</Year>
+		<Text>Вы — единственный выживший в опустошительной атаке на монастырь, где вы познавали искусство Лордов Кай. Вы клянётесь отомстить Тёмным Властителям за истребление воинов Кай, и внезапно осознаёте что вам необходимо сделать. Вам необходимо осуществить путешествие до столицы, чтобы предупредить Короля о той угрозе с которой столкнулись его люди. Вы теперь, последний из Кай, Одинокий Волк.</Text>
+		<Paragraphs>1050</Paragraphs>
+		<Size>94398</Size>
+		<Playthrough>На весь вечер</Playthrough>
+		<Setting>Фэнтези</Setting>
+		<Color>2c5e3e</Color>
+		<Additional>Три самостоятельные части по 350 параграфов: "Спасаясь от тьмы", "Огонь на воде" и "Пещеры Кальте".</Additional>
+	</LoneWolf>
 </Gamebooks>
