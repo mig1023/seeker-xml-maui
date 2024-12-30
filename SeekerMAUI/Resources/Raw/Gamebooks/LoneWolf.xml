@@ -195,5 +195,12 @@
 				<Option Goto="139"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="26">
+			<Text>Осторожно двигаясь по коридору, Вы подходите к резкому повороту, ведущему на восток. Странный зеленоватый свет виден вдали.</Text>
+			<Options>
+				<Option Goto="249" Text="Если Вы желаете идти дальше"/>
+				<Option Goto="100" Text="Если желаете вернуться и попробовать южный маршрут"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
