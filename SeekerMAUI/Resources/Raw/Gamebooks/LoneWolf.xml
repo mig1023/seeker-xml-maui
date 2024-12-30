@@ -286,5 +286,11 @@
 				<Option Goto="228"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="40">
+			<Text>Не выпуская из поля зрения хижины, под прикрытием деревьев Вы спешите вернуться на тропу.</Text>
+			<Options>
+				<Option Goto="105"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
