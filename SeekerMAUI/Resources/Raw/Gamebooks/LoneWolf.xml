@@ -997,5 +997,11 @@
 				<Option Goto="217" Text="Постараетесь убежать"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="145">
+			<Text>Телега сильным толчком опрокидывает Вас на землю. Последнее, что Вы чувствуете — дорожная пыль во рту и ужасная боль в спине.</Text>
+			<Options>
+				<Option Goto="165"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
