@@ -1629,5 +1629,11 @@
 				<Option Goto="118" Text="Если Вы предпочитаете обойти поляну по краю и продолжить путь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="240">
+			<Text>Тропинка ведет по хребту лесистых пригорков и поворачивает на восток.</Text>
+			<Options>
+				<Option Goto="79"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
