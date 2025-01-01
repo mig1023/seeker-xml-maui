@@ -1223,5 +1223,12 @@
 				<Option Goto="264" Text="Если Вы предпочитаете оставить его здесь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="179">
+			<Text>Вы обнаружены охранниками, и они направляют на Вас арбалеты.</Text>
+			<Options>
+				<Option Goto="318" Text="Если Вы хотите поднять руки над головой и медленно идти к ним"/>
+				<Option Goto="51" Text="Если Вы хотите бежать к деревьям"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
