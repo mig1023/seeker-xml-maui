@@ -1460,5 +1460,12 @@
 				<Option Goto="125"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="215">
+			<Text>Вы выходите на маленькую поляну. В центре Вы видите остатки скелета большого животного. Идущая на юг узкая тропа пропадает вдали.</Text>
+			<Options>
+				<Option Goto="346" Text="Если Вы желаете исследовать скелет"/>
+				<Option Goto="14" Text="Если Вы предпочитаете идти вперед"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
