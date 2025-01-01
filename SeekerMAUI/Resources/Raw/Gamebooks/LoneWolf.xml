@@ -1738,5 +1738,12 @@
 				<Option Goto="224"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="257">
+			<Text>Вы обнаружили каменную дверь в восточной стене, но кажется, открыть ее нет никакой возможности.</Text>
+			<Options>
+				<Option Goto="133" Text="Если Вы желаете исследовать статую"/>
+				<Option Goto="161" Text="Если Вы желаете посидеть на троне"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
