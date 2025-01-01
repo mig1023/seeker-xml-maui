@@ -1348,5 +1348,12 @@
 				<Option Goto="172"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="198">
+			<Text>Вы ощущаете, что за витриной кто-то прячется. Слабая аура зла витает над магазином.</Text>
+			<Options>
+				<Option Goto="7" Text="Если Вы хотите возвратиться на улицу"/>
+				<Option Goto="152" Text="Если — исследовать товары за стеклянным прилавком"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
