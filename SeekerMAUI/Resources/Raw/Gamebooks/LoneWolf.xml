@@ -1328,5 +1328,12 @@
 				<Option Goto="148" Text="Если Вы желаете бежать к сельскому дому"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="195">
+			<Text>Вытирая кровь медведя с оружия, Вы замечаете зев пещеры, скрытой позади скады, из-за которой напад медведь.</Text>
+			<Options>
+				<Option Goto="59" Text="Есди Вы жедаете иссдедовать эту пещеру"/>
+				<Option Goto="106" Text="Есди Вы хотите идти дадьше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
