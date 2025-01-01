@@ -1486,5 +1486,11 @@
 				<Option Goto="75"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="219">
+			<Text>Все, что осталось от Вас, теперь валяется под лестницей, на которой Вы стояли, под большим гранитным блоком. Ваша миссия и Ваша жизнь заканчиваются здесь.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
