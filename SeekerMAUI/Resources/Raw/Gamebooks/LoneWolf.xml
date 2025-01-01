@@ -1654,5 +1654,11 @@
 				<Option Goto="97"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="244">
+			<Text>Ваши чувства говорят Вам, что Вы не один. Вы находитесь в очень большой опасности. Возвращайтесь на поверхность так быстро, как только можете.</Text>
+			<Options>
+				<Option Goto="93"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
