@@ -1402,5 +1402,11 @@
 				<Option Goto="145" Text="Если число 5 — 9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="206">
+			<Text>Дорога скоро соединяется с другой дорогой, и указатель на перекрестье гласит: Торан на север и Холмгард на юг. Вы поворачиваете на юг, к столице.</Text>
+			<Options>
+				<Option Goto="224"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
