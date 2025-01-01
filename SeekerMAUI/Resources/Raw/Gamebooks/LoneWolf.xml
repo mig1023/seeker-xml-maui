@@ -1454,5 +1454,11 @@
 				<Option Goto="331"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="214">
+			<Text>Дорога постепенно сужается, пока не исчезает полностью в зарослях. Вы не можете идти дальше и поэтому должны вернуться на поляну.\n\nИдите и выберите южную дорогу...</Text>
+			<Options>
+				<Option Goto="125"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
