@@ -2297,5 +2297,11 @@
 				<Option Goto="213"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="344">
+			<Text>Вы слабы, у Вас кружится голова. Вы не чувствуете ног, они отказываются держать Вас. Вы пробуете ползти к двери, но грабитель вскакивает на Вас и придавливает к земле.</Text>
+			<Options>
+				<Option Goto="60"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
