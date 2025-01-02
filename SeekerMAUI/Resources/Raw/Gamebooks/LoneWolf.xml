@@ -2026,5 +2026,12 @@
 				<Option Goto="27"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="302">
+			<Text>Выберите число из Таблицы Случайных Чисел.</Text>
+			<Options>
+				<Option Goto="110" Text="Если число, которое Вы выбрали 0 — 2"/>
+				<Option Goto="285" Text="Если число — 3 — 9"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
