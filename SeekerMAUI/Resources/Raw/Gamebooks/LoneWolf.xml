@@ -2020,5 +2020,11 @@
 				<Option Goto="13"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="301">
+			<Text>Ваша Дисциплина Кай показывает, что западная тропинка — тупик.\n\nВы выбираете южную тропинку и идете по ней</Text>
+			<Options>
+				<Option Goto="27"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
