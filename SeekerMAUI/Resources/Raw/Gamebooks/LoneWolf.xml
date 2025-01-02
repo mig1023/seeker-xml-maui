@@ -2310,5 +2310,11 @@
 				<Option Goto="19" Text="Или поспешите под покрытие деревьев"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="346">
+			<Text>Глубоко в грудную клетку скелета воткнуто Копье. Оно в хорошем состоянии, и Вы можете взять его, если можете и хотите.\n\nЧтобы оставить прогалину</Text>
+			<Options>
+				<Option Goto="14"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
