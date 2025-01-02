@@ -2110,5 +2110,11 @@
 				<Option Goto="98" Text="Если число — 7 — 9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="315">
+			<Text>В обернутом в женскую одежду маленьком бархатном кошельке оказалось 6 золотых монет и Таблетка Ароматного Мыла. Вы можете взять эти вещи и продолжить поездку.</Text>
+			<Options>
+				<Option Goto="213"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
