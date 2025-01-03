@@ -2649,5 +2649,12 @@
 				<Option Goto="510" Text="Если число 8-9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="397">
+			<Text>Вы пытаетесь вспомнить принадлежность оранжевой двери, но безуспешно.</Text>
+			<Options>
+				<Option Goto="565" Text="Если вы хотите войти в магазин"/>
+				<Option Goto="581" Text="Если вы хотите продолжить путь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
