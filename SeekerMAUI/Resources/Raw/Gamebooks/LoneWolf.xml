@@ -2656,5 +2656,12 @@
 				<Option Goto="581" Text="Если вы хотите продолжить путь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="398">
+			<Text>Солдаты быстро спрыгивают с крыши и хватают копья. Они подходят к вам и один выкрикивает, - «Пароль, незнакомец!»</Text>
+			<Options>
+				<Option Goto="462" Text="Если вы знаете правильный пароль"/>
+				<Option Goto="658" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
