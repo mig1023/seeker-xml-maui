@@ -2794,5 +2794,11 @@
 				<Option Goto="651"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="419">
+			<Text>Насмешка на лице стража сменяется презрением, - «Я солдат Дуренора. Золото вам здесь не поможет». К сожалению, вы нанесли ему оскорбление и он хочет научить вас уважению.</Text>
+			<Options>
+				<Option Goto="657"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
