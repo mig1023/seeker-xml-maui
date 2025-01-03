@@ -2982,5 +2982,11 @@
 				<Option Goto="379" Text="Если вы хотите атаковать Сзаллсов"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="447">
+			<Text>Чувство Кай предупреждает вас, что это место наполнено злом. Вы стоите прямо перед оранжевой дверью, когда что-то ударяет вас.</Text>
+			<Options>
+				<Option Goto="463"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
