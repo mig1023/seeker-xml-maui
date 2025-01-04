@@ -3395,5 +3395,11 @@
 				<Option Goto="682" Text="Если вы победили в бою"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="509">
+			<Text>Священник не удивлен вашей атаке, и достает из складок одежды черный меч.\n\nСвященник: БОЕВОЙ НАВЫК 16, ВЫНОСЛИВОСТЬ 23\n\nЕсли вы победили в бою</Text>
+			<Options>
+				<Option Goto="571"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
