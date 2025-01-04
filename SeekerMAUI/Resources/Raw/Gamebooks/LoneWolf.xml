@@ -3319,5 +3319,11 @@
 				<Option Goto="696"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="498">
+			<Text>Ваше чувство подсказывает, что этот путь ведет в тупик. Есть только один путь попасть в порт Бакс, пересечь Римерифт по мосту.</Text>
+			<Options>
+				<Option Goto="398"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
