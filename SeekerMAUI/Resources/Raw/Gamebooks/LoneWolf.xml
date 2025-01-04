@@ -3729,5 +3729,11 @@
 				<Option Goto="663"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="558">
+			<Text>Вы проходите меньше ста ярдов когда тропа исчезает на обрыве, под которым несет свои глубокие воды Римерифт. Дальше пути нет. Вам придется вернуться к мосту через реку.</Text>
+			<Options>
+				<Option Goto="398"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
