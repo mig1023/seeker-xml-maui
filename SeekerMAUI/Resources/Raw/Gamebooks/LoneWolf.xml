@@ -3485,5 +3485,12 @@
 				<Option Goto="678"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="522">
+			<Text>Позади деревьев, вы видите широкую дорогу вдоль побережья, которая идет слева направо без каких либо указателей.</Text>
+			<Options>
+				<Option Goto="378" Text="Если вы хотите пойти налево, на восток"/>
+				<Option Goto="465" Text="Если вы хотите пойти, направо, на запад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
