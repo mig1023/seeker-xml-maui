@@ -3248,5 +3248,12 @@
 				<Option Goto="595"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="487">
+			<Text>«Плата за проезд до порта Бакс 20 Корон», - говорит кучер с грубым рагадорнианским акцентом.</Text>
+			<Options>
+				<Option Goto="361" Text="Если у вас есть 20 Корон и вы хотите купить билет"/>
+				<Option Goto="589" Text="Если у вас нет денег на проезд"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
