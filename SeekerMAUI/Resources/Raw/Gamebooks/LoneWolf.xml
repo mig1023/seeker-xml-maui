@@ -3735,5 +3735,11 @@
 				<Option Goto="398"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="559">
+			<Text>Как только вы минуете фургон позади раздается шум. Вы оборачиваетесь, чтобы осмотреть стены и потолок, но ничего не видите в мраке туннеля.</Text>
+			<Options>
+				<Option Goto="485"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
