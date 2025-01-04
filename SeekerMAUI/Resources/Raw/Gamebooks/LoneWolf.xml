@@ -3568,5 +3568,12 @@
 				<Option Goto="528"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="534">
+			<Text>Лес начинается сразу за лагерем и в спешке вы падаете прямо между деревьев.\n\nВыберите число из Таблицы случайных чисел.</Text>
+			<Options>
+				<Option Goto="662" Text="Если число, которое вы выбрали 0-8"/>
+				<Option Goto="510" Text="Если выпало 9"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
