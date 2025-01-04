@@ -3723,5 +3723,11 @@
 				<Option Goto="564"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="557">
+			<Text>Ночью вы разбужены лаем волков вдали. Чтобы избежать беспокойного сна, вы залезаете на дерево и остаток ночи проводите в безопасности высоко над землей.</Text>
+			<Options>
+				<Option Goto="663"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
