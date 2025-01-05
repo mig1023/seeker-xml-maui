@@ -3991,5 +3991,13 @@
 				<Option Goto="661" Text="Если вы хотите продолжить путь на восток"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="597">
+			<Text>Один из стражей выступает вперед и требует ваш пропуск.</Text>
+			<Options>
+				<Option Goto="521" Text="Если у вас есть белый пропуск"/>
+				<Option Goto="553" Text="Если у вас есть красный пропуск"/>
+				<Option Goto="678" Text="Если у вас нет пропуска, то вас не пропустят в гавань"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
