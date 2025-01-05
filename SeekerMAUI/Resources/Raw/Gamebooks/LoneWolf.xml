@@ -4456,5 +4456,11 @@
 				<Option Goto="445" Text="Если 5-9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="668">
+			<Text>Вопль умирающего Сзалла, вскоре смешивается с вашим предсмертным криком, когда два арбалетных болта разрывают вам спину. Ваша миссия и жизнь заканчиваются здесь.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
