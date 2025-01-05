@@ -4351,5 +4351,11 @@
 				<Option Goto="450" Text="Если это 8-9"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="652">
+			<Text>Вы обыскиваете тела и находите 3 Золотых Короны, 3 Кинжала и Короткий Меч. Если вы хотите взять что-то, отметьте это на Листе персонажа.</Text>
+			<Options>
+				<Option Goto="371"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
