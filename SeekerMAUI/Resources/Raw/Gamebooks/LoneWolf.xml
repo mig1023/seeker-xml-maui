@@ -4617,5 +4617,12 @@
 				<Option Goto="401" Text="Если у вас нет денег"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="691">
+			<Text>Вы идете по пустынному туннелю еще полчаса прежде чем он разделяется на два.</Text>
+			<Options>
+				<Option Goto="415" Text="Если вы хотите пойти по левому туннелю"/>
+				<Option Goto="515" Text="Если вы хотите пойти по правому туннелю"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
