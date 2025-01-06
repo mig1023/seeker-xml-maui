@@ -4756,5 +4756,14 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="712">
+			<Text>В сумке вы находите четыре богато украшенных стеклянных сосуда. Они содержат красную, оранжевую, зелёную и чёрную жидкости.\n\nКоторую вы хотите изучить? (можно изучать каждую жидкость только один раз)</Text>
+			<Options>
+				<Option Goto="792" Text="Красную"/>
+				<Option Goto="873" Text="Оранжевую"/>
+				<Option Goto="991" Text="Зелёную"/>
+				<Option Goto="927" Text="Чёрную"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
