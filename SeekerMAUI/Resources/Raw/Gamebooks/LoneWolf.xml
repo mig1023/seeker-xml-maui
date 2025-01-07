@@ -5453,5 +5453,11 @@
 				<Option Goto="993"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="815">
+			<Text>Молниеносная реакция позволяет вам избежать участи быть раздавленным закрывающейся дверью. Вы поправляете своё снаряжение и отправляетесь исследовать коридор.</Text>
+			<Options>
+				<Option Goto="765"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
