@@ -5298,5 +5298,11 @@
 				<Option Goto="863"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="792">
+			<Text>Стерев грязь с пробки, вы отвинчиваете её и осторожно нюхаете красную жидкость.\n\nЕсли у вас есть дисциплина Кай Лечение</Text>
+			<Options>
+				<Option Goto="935"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
