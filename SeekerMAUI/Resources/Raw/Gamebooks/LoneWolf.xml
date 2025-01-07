@@ -5230,5 +5230,12 @@
 				<Option Goto="1003"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="782">
+			<Text>Разъярённый Калкот выбегает из тоннеля, и вы дожидаетесь самого последнего момента, чтобы прыгнуть.\n\nВыберите число из таблицы случайных чисел.</Text>
+			<Options>
+				<Option Goto="825" Text="Если число, что вы выбрали 0-1"/>
+				<Option Goto="761" Text="Если число, что вы выбрали 2-9"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
