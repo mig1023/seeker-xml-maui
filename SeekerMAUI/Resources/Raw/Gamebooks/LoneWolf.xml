@@ -5809,5 +5809,11 @@
 				<Option Goto="1026" Text="Если сражение занимает более пяти раундов"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="867">
+			<Text>Сила его атаки опрокидывает вас на землю. К тому моменту, как вы поднимаетесь на ноги, он успевает остановиться и снять свои лыжи.</Text>
+			<Options>
+				<Option Goto="770"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
