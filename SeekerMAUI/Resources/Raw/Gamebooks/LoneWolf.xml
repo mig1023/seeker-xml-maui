@@ -6375,5 +6375,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="951">
+			<Text>Вы чувствуете, что с юга сюда приближается группа воинов.\n\nИдите по коридору на север.</Text>
+			<Options>
+				<Option Goto="806"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
