@@ -6328,5 +6328,12 @@
 				<Option Goto="888"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="944">
+			<Text>Каменная дверь идеально гладкая. Со стороны комнаты на ней нет, ни ручек, ни рычагов, ни замков.</Text>
+			<Options>
+				<Option Goto="744" Text="Если у вас есть Соммерсверд"/>
+				<Option Goto="847" Text="Если у вас его нет, то вы можете покинуть комнату через проход в северной стене"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
