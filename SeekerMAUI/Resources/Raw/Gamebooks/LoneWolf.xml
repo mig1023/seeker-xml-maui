@@ -7049,5 +7049,12 @@
 				<Option Goto="1016"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1051">
+			<Text>Находили ли и забирали ли вы с собой Сияющий Кристалл во время своего приключения?</Text>
+			<Options>
+				<Option Goto="841" Text="Если у вас есть этот особый предмет"/>
+				<Option Goto="799" Text="Если у вас его нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
