@@ -7043,5 +7043,11 @@
 				<Option Goto="875"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1050">
+			<Text>Ваши навыки Кай подсказывают вам, что менее чем в нескольких сотнях ярдах на юг расположена сеть пещер. Вы покидаете сани и направляетесь на юг.</Text>
+			<Options>
+				<Option Goto="1016"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
