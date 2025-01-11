@@ -10,7 +10,7 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             {
                 var ussr = Character.Protagonist.Vars["ИГРА/СССР"];
                 var enemy = Character.Protagonist.Vars["расходники/вороги"];
-                var result = $"CCCР {ussr} — {Character.Protagonist.Enemy} {enemy}";
+                var result = $"CCCР  {ussr} : {enemy}  {Character.Protagonist.Enemy}";
                 return new List<string> { result };
             }
             else
