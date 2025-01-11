@@ -18,6 +18,7 @@ namespace SeekerMAUI.Output
         public static string DISCLAIMER_LINK_OPENED = "⤵";
         public static string COLOR_WHITE = "#ffffff";
         public static string COLOR_BLACK = "#000000";
+        public static string COLOR_TEXT= "#757575";
 
         public static Color BACKGROUND = Color.FromHex("#f7f7f7");
         public static Color LINK_COLOR_DEFAULT = Colors.Black;

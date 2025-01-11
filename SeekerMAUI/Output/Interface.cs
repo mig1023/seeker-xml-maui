@@ -358,8 +358,8 @@ namespace SeekerMAUI.Output
                 label.FontSize = FontSize(labelFontSize);
             }
 
-            if (ColorFormConstants(ColorTypes.Font, out string color))
-                label.TextColor = Color.FromHex(color);
+            bool coloredText = ColorFormConstants(ColorTypes.Font, out string color);
+            label.TextColor = coloredText ? Color.FromHex(color) : Color.FromHex(Constants.COLOR_TEXT);
 
             return label;
         }
