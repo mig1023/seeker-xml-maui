@@ -1,4 +1,5 @@
 ﻿using System;
+using static SeekerMAUI.Game.Data;
 
 namespace SeekerMAUI.Output
 {
@@ -8,7 +9,13 @@ namespace SeekerMAUI.Output
 
         public void Draw(ICanvas canvas, RectF dirtyRect)
         {
+            string textColor = Game.Data.Constants.GetColor(ColorTypes.AdditionalFont);
+
             canvas.FontSize = Constants.VERTICAL_FONT;
+
+            canvas.FontColor = (String.IsNullOrEmpty(textColor) ?
+                Colors.Black : Color.FromHex(textColor));
+
             canvas.Rotate(90);
 
             int index = 0;
