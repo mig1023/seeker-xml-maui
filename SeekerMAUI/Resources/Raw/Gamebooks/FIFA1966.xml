@@ -5,10 +5,12 @@
 			<Author>Владимир Носов, 2023</Author>
 		</Copyright>
 		<Styles>
-			<System Value="ea0001"/>
-			<SystemFont Value="ffffff"/>
-			<Continue Value="0f14a3"/>
-			<Color Name="Main, Option" Value="161de9"/>
+			<Background Value="018749"/>
+			<Color Name="Main, Option, Continue" Value="006c3a"/>
+			<Color Name="StatusBar" Value="009559"/>
+			<Color Name="AdditionalStatus" Value="008650"/>
+			<Color Name="System" Value="339f6d"/>
+			<Color Name="Font, SystemFont" Value="ffffff"/>
 		</Styles>
 		<Dictionaries>
 			<Teams>
