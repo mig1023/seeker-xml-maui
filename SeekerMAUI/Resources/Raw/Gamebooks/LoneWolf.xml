@@ -216,8 +216,8 @@
 		<Paragraph No="28">
 			<Text>После нескольких сотен метров тропинка примыкает к другой тропинке, бегущей с севера на юг.</Text>
 			<Options>
-				<Option Goto="130" Text="Если Вы желаете идти на север"/>
-				<Option Goto="147" Text="Если Вы желаете направиться юг"/>
+				<Option Goto="130" Text="Идти на север"/>
+				<Option Goto="147" Text="Направиться юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="29">
