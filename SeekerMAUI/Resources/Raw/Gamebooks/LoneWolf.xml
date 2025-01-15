@@ -602,7 +602,7 @@
 		<Paragraph No="86">
 			<Text>Вскоре Вы достигаете нового перекрестка.</Text>
 			<Options>
-				<Option Goto="6" Text="Если Вы пойдете на восток"/>
+				<Option Goto="6" Text="На восток"/>
 				<Option Goto="35" Text="На север"/>
 				<Option Goto="167" Text="На юг"/>
 				<Option Goto="42" Text="На запад"/>
