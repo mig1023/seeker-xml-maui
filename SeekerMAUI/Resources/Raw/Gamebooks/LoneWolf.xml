@@ -757,8 +757,8 @@
 		<Paragraph No="109">
 			<Text>Единственная вещь под ковром — грязь!</Text>
 			<Options>
-				<Option Goto="164" Text="Вы можете обратить внимание на бутылки"/>
-				<Option Goto="308" Text="Иди исследуете конюшню"/>
+				<Option Goto="164" Text="Обратить внимание на бутылки"/>
+				<Option Goto="308" Text="Исследуете конюшню"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="110">
