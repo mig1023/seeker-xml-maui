@@ -664,8 +664,8 @@
 		<Paragraph No="95">
 			<Text>Скоро Вы натыкаетесь на узкую лесную тропу, бегущую с севера на юг.</Text>
 			<Options>
-				<Option Goto="240" Text="Если Вы желаете отправиться по тропе на север"/>
-				<Option Goto="5" Text="Если Вы желаете пойти на юг"/>
+				<Option Goto="240" Text="Отправиться по тропе на север"/>
+				<Option Goto="5" Text="Пойти на юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="96">
