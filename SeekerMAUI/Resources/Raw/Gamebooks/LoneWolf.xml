@@ -1588,8 +1588,8 @@
 		<Paragraph No="232">
 			<Text>Их предводитель приближается к Вам и говорит: «Все просто, выбирайте — деньги или жизнь!»</Text>
 			<Options>
-				<Option Goto="180" Text="Если Вы желаете драться с ними"/>
-				<Option Goto="22" Text="Если Вы желаете бежать"/>
+				<Option Goto="180" Text="Драться с ними"/>
+				<Option Goto="22" Text="Бежать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="233">
