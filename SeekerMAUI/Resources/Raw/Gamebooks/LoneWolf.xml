@@ -1797,8 +1797,8 @@
 		<Paragraph No="264">
 			<Text>Не успев далеко уйти, Вы слышите звуки боя на западе.</Text>
 			<Options>
-				<Option Goto="97" Text="Если пойдете к месту сечи"/>
-				<Option Goto="6" Text="Или продолжите путь на юг"/>
+				<Option Goto="97" Text="Пойдете к месту сечи"/>
+				<Option Goto="6" Text="Продолжите путь на юг"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="265">
