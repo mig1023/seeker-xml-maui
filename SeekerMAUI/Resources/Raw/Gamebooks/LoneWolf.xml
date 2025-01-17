@@ -2662,8 +2662,8 @@
 		<Paragraph No="397">
 			<Text>Вы пытаетесь вспомнить принадлежность оранжевой двери, но безуспешно.</Text>
 			<Options>
-				<Option Goto="565" Text="Если вы хотите войти в магазин"/>
-				<Option Goto="581" Text="Если вы хотите продолжить путь"/>
+				<Option Goto="565" Text="Войти в магазин"/>
+				<Option Goto="581" Text="Продолжить путь"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="398">
