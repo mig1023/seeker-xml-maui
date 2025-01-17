@@ -2263,8 +2263,8 @@
 		<Paragraph No="337">
 			<Text>Как только Вы удаляете булавку, громкий треск оглушает Вас.\n\nВыберите число из Таблицы Случайных Чисел.</Text>
 			<Options>
-				<Option Goto="219" Text="Если выбранное число — 0 — 4"/>
-				<Option Goto="317" Text="Если число — 5 — 9"/>
+				<Option Goto="219" Text="Выбрали 0-4"/>
+				<Option Goto="317" Text="Выбрали 5-9"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="338">
