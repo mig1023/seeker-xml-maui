@@ -5083,8 +5083,8 @@
 		<Paragraph No="752">
 			<Text>Знаете ли вы, где находится Древний Храм Айкайя и находили ли вы Сияющий Кристалл?</Text>
 			<Options>
-				<Option Goto="841" Text="Если у вас есть этот особый предмет"/>
-				<Option Goto="891" Text="Если у вас его нет"/>
+				<Option Goto="841" Text="Есть этот особый предмет"/>
+				<Option Goto="891" Text="У вас его нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="753">
