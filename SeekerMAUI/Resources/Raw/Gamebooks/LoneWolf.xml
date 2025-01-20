@@ -4509,8 +4509,8 @@
 		<Paragraph No="670">
 			<Text>Улица заканчивается большой каменной дозорной башней.</Text>
 			<Options>
-				<Option Goto="622" Text="Если вы хотите войти в башню"/>
-				<Option Goto="528" Text="Если вы хотите вернуться в таверну"/>
+				<Option Goto="622" Text="Войти в башню"/>
+				<Option Goto="528" Text="Вернуться в таверну"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="671">
