@@ -6078,10 +6078,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="894">
-			<Text>192.</Text>
 			<Options>
-				<Option Goto="969" Text="Если у вас есть Сияющий Кристалл"/>
-				<Option Goto="746" Text="Если нет"/>
+				<Option Goto="969" Text="Есть Сияющий Кристалл"/>
+				<Option Goto="746" Text="Нет Кристалла"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="895">
