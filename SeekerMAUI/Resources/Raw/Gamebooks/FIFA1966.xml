@@ -745,6 +745,7 @@
 				<Disable Path="расходники/тактик" Value="-2"/>
 				<Disable Path="расходники/умелец" Value="-4"/>
 				<Disable Path="модификаторы/травма" Value="1"/>
+				<CleanMatchResult/>
 			</Modifications>
 			<Options>
 				<Option Goto="15" Text="!" Availability="расходники/номер игры = 1"/>
