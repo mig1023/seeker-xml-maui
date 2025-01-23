@@ -201,6 +201,7 @@
 			</Texts>
 			<Modifications>
 				<FxWinner/>
+				<CleanMatchResult/>
 			</Modifications>
 			<Options>
 				<Option Goto="2" Text="Переходим к последнему способу определить победителя, а именно жребию" Availability="плейофф/исход поединка = 3, расходники/сколько раундов = 14"/>
