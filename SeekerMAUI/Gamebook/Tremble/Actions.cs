@@ -56,7 +56,11 @@ namespace SeekerMAUI.Gamebook.Tremble
 
         public override bool Availability(string option)
         {
-            if (option.StartsWith("КЛЮЧИ"))
+            if (String.IsNullOrEmpty(option))
+            {
+                return true;
+            }
+            else if (option.StartsWith("КЛЮЧИ"))
             {
                 var keys = Character.Protagonist.Keys
                     .Split(' ')
