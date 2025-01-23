@@ -11,6 +11,11 @@ namespace SeekerMAUI.Gamebook.Tank
                 Character.Protagonist.Driver = 4;
                 Character.Protagonist.Shooter = 2;
                 Character.Protagonist.Gunner = 3;
+
+                Character.Protagonist.Dead = 0;
+                Character.Protagonist.Immobilized = 0;
+
+                Game.Data.Triggers.Clear();
             }
             else
             {
