@@ -40,7 +40,7 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\AppIcon\seeker.svg" Color="#545454"/>
 
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\seeker.svg" Color="#FFFFFF" BaseSize="300,300" />
@@ -56,7 +56,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\AppIcon\seeker.png" />
 	  <None Remove="Resources\Fonts\YanoneKaffeesatz-Italic.ttf" />
 	  <None Remove="Resources\Images\Cover\adventuresofabeardlessdeceiver.jpg" />
 	  <None Remove="Resources\Images\Cover\alamutfortress.jpg" />
