@@ -7171,8 +7171,8 @@
 		<Paragraph No="1051">
 			<Text>Находили ли и забирали ли вы с собой Сияющий Кристалл во время своего приключения?</Text>
 			<Options>
-				<Option Goto="841" Text="Если у вас есть этот особый предмет"/>
-				<Option Goto="799" Text="Если у вас его нет"/>
+				<Option Goto="841" Text="Есть этот особый предмет"/>
+				<Option Goto="799" Text="Его нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1052">
