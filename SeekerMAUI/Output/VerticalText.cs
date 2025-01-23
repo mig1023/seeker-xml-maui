@@ -13,8 +13,10 @@ namespace SeekerMAUI.Output
 
             canvas.FontSize = Constants.VERTICAL_FONT;
 
-            canvas.FontColor = (String.IsNullOrEmpty(textColor) ?
+            var color = (String.IsNullOrEmpty(textColor) ?
                 Colors.Black : Color.FromHex(textColor));
+            canvas.FontColor = color;
+            canvas.StrokeColor = color;
 
             canvas.Rotate(90);
 
@@ -32,12 +34,17 @@ namespace SeekerMAUI.Output
                 if (status.Contains("CROSSEDOUT|"))
                 {
                     line = line.Replace("CROSSEDOUT|", String.Empty);
-                    float length = line.Length * Constants.VERTICAL_LINE_LEN;
 
+                    float length = (line.Length * Constants.VERTICAL_LINE_LEN) + 
+                        Constants.VERTICAL_LINE_BONUS;
+
+                    canvas.DrawString(line, xpos, yposText, HorizontalAlignment.Center);
                     canvas.DrawLine(xpos - length, yposLine, xpos + length, yposLine);
                 }
-                
-                canvas.DrawString(line, xpos, yposText, HorizontalAlignment.Center);
+                else
+                {
+                    canvas.DrawString(line, xpos, yposText, HorizontalAlignment.Center);
+                }
                 
                 index += 1;
             }

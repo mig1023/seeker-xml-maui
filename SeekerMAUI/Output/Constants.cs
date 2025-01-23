@@ -45,6 +45,7 @@ namespace SeekerMAUI.Output
         public static float VERTICAL_YPOS_TEXT = -5;
         public static float VERTICAL_YPOS_LINE = -9;
         public static float VERTICAL_LINE_LEN = 3;
+        public static float VERTICAL_LINE_BONUS = 3;
         public static float VERTICAL_FONT = 12;
 
         public enum SortBy 
