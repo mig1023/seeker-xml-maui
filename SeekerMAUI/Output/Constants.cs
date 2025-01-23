@@ -6,6 +6,8 @@ namespace SeekerMAUI.Output
 {
     class Constants
     {
+        public static bool DEBUG_FLAG = true;
+
         public static string START_TEXT = "В путь!";
         public static string GAMEOVER_TEXT = "Начать сначала";
         public static string BACK_LINK = "НАЗАД";

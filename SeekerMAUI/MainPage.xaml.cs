@@ -708,13 +708,15 @@ namespace SeekerMAUI
 
         private void OptionFooter(int id)
         {
-            if (Game.Settings.IsEnabled("CheatingBack") && (Game.Data.Path.Count > 1))
+            var debugOrCheating = Output.Constants.DEBUG_FLAG || Game.Settings.IsEnabled("CheatingBack");
+
+            if (debugOrCheating && (Game.Data.Path.Count > 1))
                 Options.Children.Add(Output.Buttons.Additional("Читерство: Назад", Back_Click));
 
             if (!Game.Settings.IsEnabled("SystemMenu"))
                 Options.Children.Add(SystemMenu());
 
-            if (Game.Settings.IsEnabled("Debug"))
+            if (Output.Constants.DEBUG_FLAG || Game.Settings.IsEnabled("Debug"))
                 Options.Children.Add(Output.Debug.Information(id));
         }
 
