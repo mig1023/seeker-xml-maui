@@ -16,13 +16,12 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             }
             else
             {
-                return new List<string>();
+                return null;
             }
         }
 
         public override List<string> AdditionalStatus()
         {
-            
             var match = Character.Protagonist.Vars["расходники/номер игры"];
 
             if (match <= 0)
@@ -36,8 +35,6 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             }
             else if (match < 8)
             {
-                var statuses = new List<string>();
-
                 var group = Character.Protagonist.Vars
                     .ToDictionary()
                     .Where(x => x.Key.StartsWith("групповой этап/"))
@@ -45,17 +42,26 @@ namespace SeekerMAUI.Gamebook.FIFA1966
 
                 int place = 0;
 
-                foreach (var team in group)
+                if (group.Count() < 1)
                 {
-                    var name = team.Key.Replace("групповой этап/", "");
-                    var value = Character.Protagonist.Vars[$"групповой этап/{name}"];
-
-                    place += 1;
-
-                    statuses.Add($"{place} место: {name} ({value} очков)");
+                    return new List<string> { "Группа:", "КНДР", "Италия", "Чили" };
                 }
+                else
+                {
+                    var statuses = new List<string> { "Группа:" };
 
-                return statuses;
+                    foreach (var team in group)
+                    {
+                        var name = team.Key.Replace("групповой этап/", "");
+                        var value = Character.Protagonist.Vars[$"групповой этап/{name}"];
+
+                        place += 1;
+
+                        statuses.Add($"{place} место: {name} ({value} очков)");
+                    }
+
+                    return statuses;
+                }
             }
             else if (match < 10)
             {
