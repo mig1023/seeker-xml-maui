@@ -737,6 +737,9 @@
 		</Paragraph>
 		<Paragraph No="52">
 			<Text>Добро пожаловать в Англию!\n\nВас приветствует лев Вилли, символ турнира.</Text>
+			<Modifications>
+				<Mod Path="расходники/номер игры" Value="5"/>
+			</Modifications>
 			<Options>
 				<Option Goto="94" Text="Проследовать к месту проведения матчей"/>
 			</Options>
