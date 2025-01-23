@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace SeekerMAUI.Gamebook.FIFA1966
 {
@@ -30,16 +31,24 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                 foreach (var oneOption in option.Split(','))
                 {
                     var level = Game.Services.LevelParse(oneOption);
+                    var found = false;
 
                     foreach (var varName in Character.Protagonist.Vars.Keys())
                     {
                         if (!oneOption.Contains(varName))
                             continue;
 
+                        found = true;
+
                         var value = Character.Protagonist.Vars[varName];
 
                         if (!Game.Services.LevelAvailability(varName, oneOption, value, level))
                             return false;
+                    }
+
+                    if (!found && !oneOption.Contains("!=")) 
+                    {
+                        return false;
                     }
                 }
 
