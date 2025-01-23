@@ -27,6 +27,14 @@
 				<Item Name="Португалия" Value="11"/>
 				<Item Name="Англия" Value="13"/>
 			</Teams>
+			<Matches>
+				<Item Name="1" Value="Уругвай"/>
+				<Item Name="2" Value="Бразилия"/>
+				<Item Name="3" Value="Франция"/>
+				<Item Name="4" Value="Бельгия"/>
+				<Item Name="8" Value="Венгрия"/>
+				<Item Name="9" Value="Германия"/>
+			</Matches>
 		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
