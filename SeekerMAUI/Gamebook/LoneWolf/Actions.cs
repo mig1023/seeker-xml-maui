@@ -36,7 +36,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
         public override bool IsButtonEnabled(bool secondButton = false)
         {
-            if (Disciplines && Game.Option.IsTriggered(Head))
+            if (Disciplines && (Game.Option.IsTriggered(Head) || Character.Protagonist.Disciplines <= 0))
             {
                 return false;
             }
@@ -51,6 +51,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             if (Disciplines)
             {
                 Game.Option.Trigger(Head);
+                Character.Protagonist.Disciplines -= 1;
             }
 
             return new List<string> { "RELOAD" };

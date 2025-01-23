@@ -30,6 +30,8 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             set => _gold = Game.Param.Setter(value, _gold, this);
         }
 
+        public int Disciplines { get; set; }
+
         public override void Init()
         {
             base.Init();
@@ -39,6 +41,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             MaxStrength = Game.Dice.Roll(size: 10) + 19;
             Strength = MaxStrength;
             Gold = 0;
+            Disciplines = 5;
         }
 
         public Character Clone() => new Character()
@@ -49,10 +52,11 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             MaxStrength = this.MaxStrength,
             Strength = this.Strength,
             Gold = this.Gold,
+            Disciplines = this.Disciplines,
         };
 
         public override string Save() => String.Join("|",
-            Skill, MaxStrength, Strength, Gold);
+            Skill, MaxStrength, Strength, Gold, Disciplines);
 
         public override void Load(string saveLine)
         {
@@ -62,6 +66,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             MaxStrength = int.Parse(save[1]);
             Strength = int.Parse(save[2]);
             Gold = int.Parse(save[3]);
+            Disciplines = int.Parse(save[4]);
 
             IsProtagonist = true;
         }
