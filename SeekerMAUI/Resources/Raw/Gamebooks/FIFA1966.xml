@@ -30,6 +30,7 @@
 		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
+			<FontSize Value="Big"/>
 		</Default>
 	</Introduction>
 	<Paragraphs>
