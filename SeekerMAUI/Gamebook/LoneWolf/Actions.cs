@@ -15,12 +15,28 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             $"Монеты: {Character.Protagonist.Gold}",
         };
 
+        public override List<string> Representer()
+        {
+            if (Disciplines)
+                return new List<string> { Head };
+
+            List<string> enemies = new List<string>();
+
+            if (Enemies == null)
+                return enemies;
+
+            foreach (Character enemy in Enemies)
+                enemies.Add($"{enemy.Name}\nбоевой навык {enemy.Skill}  выносливость {enemy.Strength}");
+
+            return enemies;
+        }
+
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
             GameOverBy(Character.Protagonist.Strength, out toEndParagraph, out toEndText);
 
         public override bool IsButtonEnabled(bool secondButton = false)
         {
-            if (Disciplines && Game.Option.IsTriggered(this.Button))
+            if (Disciplines && Game.Option.IsTriggered(Head))
             {
                 return false;
             }
@@ -34,7 +50,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
         {
             if (Disciplines)
             {
-                Game.Option.Trigger(this.Button);
+                Game.Option.Trigger(Head);
             }
 
             return new List<string> { "RELOAD" };
