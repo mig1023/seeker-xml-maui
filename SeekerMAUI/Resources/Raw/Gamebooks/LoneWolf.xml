@@ -4649,7 +4649,7 @@
 			<Options>
 				<Option Goto="579" Text="Съесть эти фрукты"/>
 				<Option Goto="522" Text="Не хотите есть эти фрукты, потеряйте 3 пункта ВЫНОСЛИВОСТИ"/>
-				<Option Goto="490" Text="Владеете Дисциплиной Кай Охота"/>
+				<Option Goto="490" Text="Владеете Дисциплиной Кай Охота" Availability="Охота"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="689">
