@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SeekerMAUI.Game;
+using System;
+using System.Text.RegularExpressions;
 
 namespace SeekerMAUI.Gamebook.LoneWolf
 {
@@ -55,6 +57,28 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             }
 
             return new List<string> { "RELOAD" };
+        }
+
+        public List<string> Random()
+        {
+            var dice = Game.Dice.Roll(size: 10) - 1;
+
+            foreach (var option in Game.Option.GetTexts())
+            {
+                if (!option.Contains("—"))
+                    continue;
+
+                var regex = new Regex(@"(\d+)\s*—\s*(\d+)");
+                var matches = regex.Match(option);
+                var parts = matches.Value.Split('—');
+
+                if ((dice < int.Parse(parts[0])) || (dice > int.Parse(parts[1])))
+                {
+                    Game.Buttons.Disable(option);
+                }
+            }
+
+            return new List<string> { "BOLD|Таблица случайных чисел", $"BIG|Случайное число: {dice}" };
         }
     }
 }
