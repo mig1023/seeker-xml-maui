@@ -3843,7 +3843,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="509">
-			<Text>Священник не удивлен вашей атаке, и достает из складок одежды черный меч.\n\nСвященник: БОЕВОЙ НАВЫК 16, ВЫНОСЛИВОСТЬ 23</Text>
+			<Text>Священник не удивлен вашей атаке, и достает из складок одежды черный меч.</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Священник" Skill="16" Strength="23"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="571" Text="Вы победили"/>
 			</Options>
