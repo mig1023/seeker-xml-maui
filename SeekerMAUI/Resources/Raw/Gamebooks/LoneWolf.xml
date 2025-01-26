@@ -3879,9 +3879,14 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="513">
-			<Text>Он выкрикивает боевой клич и делает выпад вам в голову.\n\nРыцарь Белой Горы: БОЕВОЙ НАВЫК 20 ВЫНОСЛИВОСТЬ 27</Text>
+			<Text>Он выкрикивает боевой клич и делает выпад вам в голову.</Text>
+			<Actions>
+				<Option Goto="595" Text="Уклониться от боя, сбежав в деревья"/>
+				<Fight>
+					<Enemy Name="Рыцарь Белой Горы" Skill="20" Strength="27"/>
+				</Fight>
+			</Actions>
 			<Options>
-				<Option Goto="595" Text="Уклониться от боя в любое время, сбежав в деревья"/>
 				<Option Goto="653" Text="Вы победили"/>
 			</Options>
 		</Paragraph>
