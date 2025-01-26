@@ -1922,7 +1922,21 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="253">
-			<Text>Вояки Судьбы набрасываются на Вас. Вы должны драться с ними по одному.\n\nВолк Судьбы 1:\n\nБОЕВОЙ НАВЫК 13\n\nВЫНОСЛИВОСТЬ 24\n\nВолк Судьбы 2:\n\nБОЕВОЙ НАВЫК 14\n\nВЫНОСЛИВОСТЬ 23\n\nВолк Судьбы 3:\n\nБОЕВОЙ НАВЫК 14\n\nВЫНОСЛИВОСТЬ 22\n\nВолк Судьбы 4:\n\nБОЕВОЙ НАВЫК 15\n\nВЫНОСЛИВОСТЬ 21</Text>
+			<Text>Вояки Судьбы набрасываются на Вас. Вы должны драться с ними по одному.</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="Волк Судьбы 1" Skill="13" Strength="24"/>
+				</Fight>
+				<Fight>
+					<Enemy Name="Волк Судьбы 2" Skill="14" Strength="23"/>
+				</Fight>
+				<Fight>
+					<Enemy Name="Волк Судьбы 3" Skill="14" Strength="22"/>
+				</Fight>
+				<Fight>
+					<Enemy Name="Волк Судьбы 4" Skill="15" Strength="21"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="278" Text="Вы победили"/>
 			</Options>
