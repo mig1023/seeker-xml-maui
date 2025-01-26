@@ -7,7 +7,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
     class Actions : Prototypes.Actions, Abstract.IActions
     {
         public bool Disciplines { get; set; }
-        public bool ImunneToPsychology { get; set; }
+        public bool ImmuneToPsychology { get; set; }
         public string SkillBonus { get; set; }
         public string SkillPenalty { get; set; }
 
@@ -29,9 +29,11 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
             if (Enemy != null)
             {
+                var immunity = ImmuneToPsychology ? "\nиммунитет к Удару Разума" : string.Empty;
+
                 return new List<string>
                 {
-                    $"{Enemy.Name}\nбоевой навык {Enemy.Skill}   выносливость {Enemy.Strength}"
+                    $"{Enemy.Name}\nбоевой навык {Enemy.Skill}   выносливость {Enemy.Strength}{immunity}"
                 };
             }
 
@@ -105,7 +107,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
                 CoefficientBonus("Владение оружием", ref coefficient, ref coefficientLine);
             }
 
-            if (Game.Option.IsTriggered("Удар разума") && !ImunneToPsychology)
+            if (Game.Option.IsTriggered("Удар разума") && !ImmuneToPsychology)
             {
                 CoefficientBonus("Удар разума", ref coefficient, ref coefficientLine);
             }
