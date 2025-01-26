@@ -1374,10 +1374,23 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="180">
-			<Text>Они видят, что Вы поднимаете Ваше оружие, и немедленно нападают на Вас.\n\nЕсли Вы решаете драться, Вы должны драться с ними по одному.\n\nКомандир:\n\nБОЕВОЙ НАВЫК 15\n\nВЫНОСЛИВОСТЬ 22\n\nСолдат 1:\n\nБОЕВОЙ НАВЫК 13\n\nВЫНОСЛИВОСТЬ 20\n\nСолдат 2:\n\nБОЕВОЙ НАВЫК 12\n\nВЫНОСЛИВОСТЬ 20</Text>
+			<Text>Они видят, что Вы поднимаете Ваше оружие, и немедленно нападают на Вас.</Text>
+			<Actions>
+				<Option Goto="22" Text="Уклониться от боя">
+					<Text>Если Вы решаете драться, Вы должны драться с ними по одному:</Text>
+				</Option>
+				<Fight>
+					<Enemy Name="Командир" Skill="15" Strength="22"/>
+				</Fight>
+				<Fight>
+					<Enemy Name="Солдат 1" Skill="13" Strength="20"/>
+				</Fight>
+				<Fight>
+					<Enemy Name="Солдат 2" Skill="12" Strength="20"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="62" Text="Убили всех трех"/>
-				<Option Goto="22" Text="Уклониться от боя"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="181">
