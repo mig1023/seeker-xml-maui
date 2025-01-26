@@ -8,6 +8,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
     {
         public bool Disciplines { get; set; }
         public bool ImunneToPsychology { get; set; }
+        public string SkillPenalty { get; set; }
 
         public Character Enemy { get; set; }
 
@@ -109,7 +110,20 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             }
 
             coefficient -= Enemy.Skill;
-            coefficientLine += $"\n- {Enemy.Skill} Боевой навык врага\nИТОГО: {coefficient}";
+            coefficientLine += $"\n- {Enemy.Skill} Боевой навык врага";
+
+            if (!String.IsNullOrEmpty(SkillPenalty))
+            {
+                var penalty = SkillPenalty.Split(';');
+
+                if (!Game.Option.IsTriggered(penalty[1].Trim()))
+                {
+                    coefficient -= int.Parse(penalty[0]);
+                    coefficientLine += $"\n- {penalty[0].Trim()} за отсутствие Дисциплины {penalty[1].Trim()}";
+                }
+            }
+
+            coefficientLine += $"\nИТОГО: {coefficient}";
 
             fight.Add($"GRAY|{coefficientLine}");
 
