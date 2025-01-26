@@ -18,14 +18,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
             if (xmlAction["Enemy"] != null)
             {
-                action.Enemies = new List<Character> { EnemyParse(xmlAction["Enemy"]) };
-            }
-            else if (xmlAction["Enemies"] != null)
-            {
-                action.Enemies = new List<Character>();
-
-                foreach (XmlNode xmlEnemy in xmlAction.SelectNodes("Enemies/Enemy"))
-                    action.Enemies.Add(EnemyParse(xmlEnemy));
+                action.Enemy = EnemyParse(xmlAction["Enemy"]);
             }
 
             if (action.Type == "Option")
