@@ -94,6 +94,30 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             coefficientLine += $"\n+ 2 за Дисциплину {reason}";
         }
 
+        private void SkillMod(string line, ref int coefficient, ref string coefficientLine, bool penalty = false)
+        {
+            var bonus = line.Split(';');
+
+            if (!string.IsNullOrEmpty(bonus[1].Trim()) && !Game.Option.IsTriggered(bonus[1].Trim()))
+                return;
+
+            coefficient += int.Parse(bonus[0]) * (penalty ? -1 : 1);
+
+            var negative = penalty ? "-" : "+";
+            var reason = string.Empty;
+
+            if (!string.IsNullOrEmpty(bonus[2]))
+            {
+                reason = $" за {bonus[2].Trim()}";
+            }
+            else if (string.IsNullOrEmpty(bonus[1]))
+            {
+                reason = $" за отсутствие Дисциплины {bonus[1].Trim()}";
+            }
+
+            coefficientLine += $"\n{negative} {bonus[0].Trim()} {reason}";
+        }
+
         public List<string> Fight()
         {
             List<string> fight = new List<string>();
@@ -114,9 +138,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
             if (!String.IsNullOrEmpty(SkillBonus))
             {
-                var bonus = SkillBonus.Split(';');
-                coefficient += int.Parse(bonus[0]);
-                coefficientLine += $"\n+ {bonus[0].Trim()} за {bonus[1].Trim()}";
+                SkillMod(SkillBonus, ref coefficient, ref coefficientLine);
             }
 
             coefficient -= Enemy.Skill;
@@ -124,13 +146,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
             if (!String.IsNullOrEmpty(SkillPenalty))
             {
-                var penalty = SkillPenalty.Split(';');
-
-                if (!Game.Option.IsTriggered(penalty[1].Trim()))
-                {
-                    coefficient -= int.Parse(penalty[0]);
-                    coefficientLine += $"\n- {penalty[0].Trim()} за отсутствие Дисциплины {penalty[1].Trim()}";
-                }
+                SkillMod(SkillPenalty, ref coefficient, ref coefficientLine, penalty: true);
             }
 
             coefficientLine += $"\nИТОГО: {coefficient}";
