@@ -29,7 +29,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             {
                 return new List<string>
                 {
-                    $"{Enemy.Name}\nбоевой навык {Enemy.Skill}  выносливость {Enemy.Strength}"
+                    $"{Enemy.Name}\nбоевой навык {Enemy.Skill}   выносливость {Enemy.Strength}"
                 };
             }
 
@@ -117,7 +117,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
             while (true)
             {
-                fight.Add($"HEAD|BOLD|Раунд: {round}");
+                fight.Add($"HEAD|BOLD|РАУНД: {round}");
 
                 var dice = Game.Dice.Roll(size: 10) - 1;
                 fight.Add($"Случайное число: {dice}");
@@ -131,11 +131,16 @@ namespace SeekerMAUI.Gamebook.LoneWolf
                 }
                 else
                 {
-                    fight.Add($"BAD|BOLD|Вы теряете: {heroDamage}");
+                    var color = heroDamage > 0 ? "BAD" : "GOOD";
+                    fight.Add($"{color}|BOLD|Вы теряете: {heroDamage}");
+
                     Character.Protagonist.Strength -= heroDamage;
 
                     if (Character.Protagonist.Strength <= 0)
+                    {
+                        fight.Add("Ваша выносливость исчерпана...");
                         return Fail(fight);
+                    }
 
                     fight.Add($"Ваша выносливость: {Character.Protagonist.Strength}");
                 }
@@ -147,15 +152,20 @@ namespace SeekerMAUI.Gamebook.LoneWolf
                 }
                 else
                 {
-                    fight.Add($"GOOD|BOLD|Противник теряет: {enemyDamage}");
+                    var color = enemyDamage > 0 ? "GOOD|" : String.Empty;
+                    fight.Add($"{color}BOLD|Противник теряет: {enemyDamage}");
                     Enemy.Strength -= enemyDamage;
 
                     if (Enemy.Strength <= 0)
+                    {
+                        fight.Add("Выносливость противника исчерпана!");
                         return Win(fight);
+                    }
+                       
+
+                    fight.Add($"Выносливость противника: {Enemy.Strength}");
                 }
                 
-                
-                fight.Add($"Выносливость противника: {Enemy.Strength}");
                 fight.Add(String.Empty);
 
                 round += 1;
