@@ -1665,10 +1665,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="220">
-			<Text>Телохранитель выхватывает из ножен ятаган и замахивается.\n\nТелохранитель:\n\nБОЕВОЙ НАВЫК 11\n\nВЫНОСЛИВОСТЬ 20</Text>
+			<Text>Телохранитель выхватывает из ножен ятаган и замахивается.</Text>
+			<Actions>
+				<Option Goto="234" Text="Уклониться от боя, спрыгнув с движущегося обоза"/>
+				<Fight>
+					<Enemy Name="Телохранитель" Skill="11" Strength="20"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="24" Text="Вы победили"/>
-				<Option Goto="234" Text="Уклониться от боя и спрыгнуть с движущегося обоза"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="221">
