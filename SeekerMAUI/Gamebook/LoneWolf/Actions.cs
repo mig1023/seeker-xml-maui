@@ -8,6 +8,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
     {
         public bool Disciplines { get; set; }
         public bool ImunneToPsychology { get; set; }
+        public string SkillBonus { get; set; }
         public string SkillPenalty { get; set; }
 
         public Character Enemy { get; set; }
@@ -107,6 +108,13 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             if (Game.Option.IsTriggered("Удар разума") && !ImunneToPsychology)
             {
                 CoefficientBonus("Удар разума", ref coefficient, ref coefficientLine);
+            }
+
+            if (!String.IsNullOrEmpty(SkillBonus))
+            {
+                var bonus = SkillBonus.Split(';');
+                coefficient += int.Parse(bonus[0]);
+                coefficientLine += $"\n+ {bonus[0].Trim()} за {bonus[1].Trim()}";
             }
 
             coefficient -= Enemy.Skill;
