@@ -1680,7 +1680,9 @@
 		<Paragraph No="220">
 			<Text>Телохранитель выхватывает из ножен ятаган и замахивается.</Text>
 			<Actions>
-				<Option Goto="234" Text="Уклониться от боя, спрыгнув с движущегося обоза"/>
+				<Option Goto="234" Text="Уклониться от боя, спрыгнув с движущегося обоза">
+					<AvoidingCombat/>
+				</Option>
 				<Fight>
 					<Enemy Name="Телохранитель" Skill="11" Strength="20"/>
 				</Fight>
