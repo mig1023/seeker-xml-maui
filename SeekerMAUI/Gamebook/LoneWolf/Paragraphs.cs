@@ -18,7 +18,10 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
             return base.Get(xmlParagraph, ParagraphTemplate(xmlParagraph));
         }
-          
+
+        public override Option OptionParse(XmlNode xmlOption) =>
+            OptionParseWithDo(xmlOption, new Modification());
+
         public override Abstract.IActions ActionParse(XmlNode xmlAction)
         {
             Actions action = (Actions)ActionTemplate(xmlAction, new Actions());
