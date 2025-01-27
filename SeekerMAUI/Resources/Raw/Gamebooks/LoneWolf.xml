@@ -3494,7 +3494,9 @@
 		<Paragraph No="461">
 			<Text>Страж не верит вам и атакует вас с мечом.</Text>
 			<Actions>
-				<Option Goto="416" Text="Уклониться от боя"/>
+				<Option Goto="416" Text="Уклониться от боя">
+					<AvoidingCombat/>
+				</Option>
 				<Fight>
 					<Enemy Name="Страж дозорной башни" Skill="15" Strength="22"/>
 					<SkillPenalty Value="2;; отсутствие оружия"/>
