@@ -2849,6 +2849,9 @@
 					<Text>Если вы убили Хельгхаста, то можете покинуть каюту через открытую дверь...</Text>
 				</Fight>
 			</Actions>
+			<Modifications>
+				<Strength Value="-5"/>
+			</Modifications>
 			<Options>
 				<Option Goto="517"/>
 			</Options>
