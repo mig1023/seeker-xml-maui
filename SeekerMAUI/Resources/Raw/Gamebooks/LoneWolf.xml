@@ -5,7 +5,11 @@
 			<Author>Джо Девер, 1984</Author>
 		</Copyright>
 		<Styles>
-			<Color Name="Main, Action, Option, StatusBar, Continue" Value="2c5e3e"/>
+			<Continue Value="567e64"/>
+			<StatusBar Value="1e412b"/>
+			<Action Value="449260"/>
+			<System Value="95ae9e"/>
+			<Color Name="Main, Option" Value="2c5e3e"/>
 		</Styles>
 		<Dictionaries>
 			<CoefficientN12 ItemsByOrder="6/0, 0/-1, 0/-1, 0/8, 0/8, 1/7, 2/6, 3/5, 4/4, 5/3"/>
