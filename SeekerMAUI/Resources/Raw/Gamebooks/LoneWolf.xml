@@ -4868,7 +4868,9 @@
 		<Paragraph No="647">
 			<Text>Люди покидают таверну, когда городская стража нападает. Их шестеро и вы должны сражаться с ними по одному:</Text>
 			<Actions>
-				<Option Goto="439" Text="Сбежать через заднюю дверь"/>
+				<Option Goto="439" Text="Сбежать через заднюю дверь">
+					<AvoidingCombat/>
+				</Option>
 				<Fight>
 					<Enemy Name="Сержант Городской стражи" Skill="13" Strength="22"/>
 				</Fight>
