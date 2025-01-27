@@ -3908,7 +3908,9 @@
 		<Paragraph No="513">
 			<Text>Он выкрикивает боевой клич и делает выпад вам в голову.</Text>
 			<Actions>
-				<Option Goto="595" Text="Уклониться от боя, сбежав в деревья"/>
+				<Option Goto="595" Text="Уклониться от боя, сбежав в деревья">
+					<AvoidingCombat/>
+				</Option>
 				<Fight>
 					<Enemy Name="Рыцарь Белой Горы" Skill="20" Strength="27"/>
 				</Fight>
