@@ -3858,7 +3858,9 @@
 		<Paragraph No="508">
 			<Text>Страж разъярен и спускается по ступеням к вам, его меч взлетает над головой.</Text>
 			<Actions>
-				<Option Goto="416" Text="Уклониться от боя"/>
+				<Option Goto="416" Text="Уклониться от боя">
+					<AvoidingCombat/>
+				</Option>
 				<Fight>
 					<Enemy Name="Страж Дозорной башни" Skill="15" Strength="22"/>
 				</Fight>
