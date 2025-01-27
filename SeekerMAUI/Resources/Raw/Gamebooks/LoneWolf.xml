@@ -5168,7 +5168,9 @@
 		<Paragraph No="683">
 			<Text>Вы сражаетесь с Хельгхастом. Он атакует вас мощным Ударом разума!</Text>
 			<Actions>
-				<Option Goto="534" Text="Сбежать, нырнув в лес"/>
+				<Option Goto="534" Text="Сбежать, нырнув в лес">
+					<AvoidingCombat/>
+				</Option>
 				<Fight>
 					<Enemy Name="Хельгхаст" Skill="21" Strength="30"/>
 					<ImmuneToPsychology/>
