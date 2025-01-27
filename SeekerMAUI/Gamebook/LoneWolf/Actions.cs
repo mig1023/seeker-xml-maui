@@ -55,6 +55,9 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             }
         }
 
+        public override bool Availability(string option) =>
+            AvailabilityTrigger(option);
+
         public List<string> Get()
         {
             if (Disciplines)
