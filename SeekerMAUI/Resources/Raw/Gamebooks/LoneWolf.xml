@@ -7358,7 +7358,9 @@
 		<Paragraph No="965">
 			<Text>Поскольку проход узкий, вам придётся сражаться с Калкотами по одному за раз. Их длинные ядовитые языки колышутся, готовые уколоть вас:</Text>
 			<Actions>
-				<Option Goto="979" Text="Сбежать из сражения"/>
+				<Option Goto="979" Text="Сбежать из сражения">
+					<AvoidingCombat/>
+				</Option>
 				<Fight>
 					<Enemy Name="Калкот 1" Skill="11" Strength="35"/>
 				</Fight>
