@@ -6,9 +6,19 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 {
     class Paragraphs : Prototypes.Paragraphs, Abstract.IParagraphs
     {
-        public override Paragraph Get(int id, XmlNode xmlParagraph) =>
-           base.Get(xmlParagraph, ParagraphTemplate(xmlParagraph));
+        public override Paragraph Get(int id, XmlNode xmlParagraph)
+        {
+            var regeneration = Game.Option.IsTriggered("Регенерация");
+            var injured = Character.Protagonist.Strength < Character.Protagonist.MaxStrength;
 
+            if (regeneration && injured)
+            {
+                Character.Protagonist.Strength += 1;
+            }
+
+            return base.Get(xmlParagraph, ParagraphTemplate(xmlParagraph));
+        }
+          
         public override Abstract.IActions ActionParse(XmlNode xmlAction)
         {
             Actions action = (Actions)ActionTemplate(xmlAction, new Actions());
