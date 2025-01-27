@@ -329,7 +329,9 @@
 				<Random/>
 			</Actions>
 			<Options>
-				<Option Goto="140" Text="Выпало число 0 — 4, Вы упали. Потеряйте 2 пункта ВЫНОСЛИВОСТИ"/>
+				<Option Goto="140" Text="Выпало число 0 — 4, Вы упали. Потеряйте 2 пункта ВЫНОСЛИВОСТИ">
+					<Strength Value="-2"/>
+				</Option>
 				<Option Goto="323" Text="Выпало число 5 — 9, подъем удачен"/>
 			</Options>
 		</Paragraph>
