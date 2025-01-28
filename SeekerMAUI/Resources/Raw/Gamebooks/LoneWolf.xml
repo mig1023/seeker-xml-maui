@@ -3550,6 +3550,9 @@
 					<Text>Вы не можете уклониться от этого существа и должны убить его. Если вы победили, то можете взять Копье.</Text>
 				</Fight>
 			</Actions>
+			<Modifications>
+				<Strength Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="320"/>
 			</Options>
