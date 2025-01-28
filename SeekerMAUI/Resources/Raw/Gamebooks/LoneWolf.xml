@@ -4708,6 +4708,9 @@
 		</Paragraph>
 		<Paragraph No="609">
 			<Text>Зловоние корабля удушает вас. Вы теряете 1 пункт ВЫНОСЛИВОСТИ. Вы должны уйти отсюда или вы будете задыхаться.</Text>
+			<Modifications>
+				<Strength Value="-1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="623" Text="Владеете Дисциплиной Кай Шестое чувство" Availability="Шестое чувство"/>
 				<Option Goto="368" Text="Вылезти на разрушенную палубу"/>
