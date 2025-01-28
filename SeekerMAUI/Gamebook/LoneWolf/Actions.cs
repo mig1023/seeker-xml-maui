@@ -91,10 +91,11 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             return new List<string> { "BOLD|Таблица случайных чисел", $"BIG|Случайное число: {dice}" };
         }
 
-        private void CoefficientBonus(string reason, ref int coefficient, ref string coefficientLine)
+        private void CoefficientBonus(string reason, int bonus,
+            ref int coefficient, ref string coefficientLine)
         {
-            coefficient += 2;
-            coefficientLine += $"\n+ 2 за Дисциплину {reason}";
+            coefficient += bonus;
+            coefficientLine += $"\n+ {bonus} за {reason}";
         }
 
         private void SkillMod(string line, ref int coefficient, ref string coefficientLine, bool penalty = false)
@@ -131,12 +132,20 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
             if (Game.Option.IsTriggered("Владение оружием"))
             {
-                CoefficientBonus("Владение оружием", ref coefficient, ref coefficientLine);
+                CoefficientBonus("Дисциплину Владение оружием", bonus: 2,
+                    ref coefficient, ref coefficientLine);
             }
 
             if (Game.Option.IsTriggered("Удар разума") && !ImmuneToPsychology)
             {
-                CoefficientBonus("Удар разума", ref coefficient, ref coefficientLine);
+                CoefficientBonus("Дисциплину Удар разума", bonus: 2,
+                    ref coefficient, ref coefficientLine);
+            }
+
+            if (Game.Option.IsTriggered("Соммерсверд"))
+            {
+                CoefficientBonus("Соммерсверд", bonus: 8,
+                    ref coefficient, ref coefficientLine);
             }
 
             if (!String.IsNullOrEmpty(SkillBonus))
