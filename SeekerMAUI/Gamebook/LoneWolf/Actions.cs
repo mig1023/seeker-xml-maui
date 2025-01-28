@@ -8,6 +8,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
     {
         public bool Disciplines { get; set; }
         public bool ImmuneToPsychology { get; set; }
+        public bool Undead { get; set; }
         public string SkillBonus { get; set; }
         public string SkillPenalty { get; set; }
 
@@ -29,11 +30,17 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
             if (Enemy != null)
             {
-                var immunity = ImmuneToPsychology ? "\nиммунитет к Удару Разума" : string.Empty;
+                var additional = string.Empty;
+
+                if (ImmuneToPsychology)
+                    additional += "\nиммунитет к Удару Разума";
+
+                if (Undead)
+                    additional += (string.IsNullOrEmpty(additional) ? "\n" : "   ") + "нежить";
 
                 return new List<string>
                 {
-                    $"{Enemy.Name}\nбоевой навык {Enemy.Skill}   выносливость {Enemy.Strength}{immunity}"
+                    $"{Enemy.Name}\nбоевой навык {Enemy.Skill}   выносливость {Enemy.Strength}{additional}"
                 };
             }
 
@@ -204,8 +211,18 @@ namespace SeekerMAUI.Gamebook.LoneWolf
                 }
                 else
                 {
-                    var color = enemyDamage > 0 ? "GOOD|" : String.Empty;
+                    var damaged = enemyDamage > 0;
+                    var color = damaged ? "GOOD|" : String.Empty;
                     fight.Add($"{color}BOLD|Противник теряет: {enemyDamage}");
+
+                    if (Game.Option.IsTriggered("Соммерсверд") && Undead && damaged)
+                    {
+                        enemyDamage *= 2;
+
+                        fight.Add("BOLD|Соммерсверд удваивает нанесённый нежети урон!");
+                        fight.Add($"BOLD|В итоге противник теряет: {enemyDamage}");
+                    }
+
                     Enemy.Strength -= enemyDamage;
 
                     if (Enemy.Strength <= 0)
