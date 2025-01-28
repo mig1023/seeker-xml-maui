@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 
 namespace SeekerMAUI.Gamebook.FIFA1966
@@ -44,7 +44,14 @@ namespace SeekerMAUI.Gamebook.FIFA1966
 
                 if (group.Count() < 1)
                 {
-                    return new List<string> { "Группа:", "КНДР", "Италия", "Чили" };
+                    return new List<string>
+                    {
+                        "Группа:",
+                        "СССР (0 очков)",
+                        "КНДР (0 очков)",
+                        "Италия (0 очков)",
+                        "Чили (0 очков)"
+                    };
                 }
                 else
                 {
@@ -54,10 +61,11 @@ namespace SeekerMAUI.Gamebook.FIFA1966
                     {
                         var name = team.Key.Replace("групповой этап/", "");
                         var value = Character.Protagonist.Vars[$"групповой этап/{name}"];
+                        var points = Game.Services.CoinsNoun(value, "очко", "очка", "очков");
 
                         place += 1;
 
-                        statuses.Add($"{place} место: {name} ({value} очков)");
+                        statuses.Add($"{name} ({value} {points})");
                     }
 
                     return statuses;
