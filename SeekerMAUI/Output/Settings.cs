@@ -28,8 +28,8 @@ namespace SeekerMAUI.Output
 
             Splitter(ref settings);
 
-            SettingButton("Сбросить закладки", () => Game.Bookmarks.Clean(), ref settings, spacer: true);
-            SettingButton("Сбросить сохранённые игры", () => Game.Continue.Clean(), ref settings);
+            SettingButton("Сбросить закладки", () => SeekerMAUI.History.Bookmarks.Clean(), ref settings, spacer: true);
+            SettingButton("Сбросить сохранённые игры", () => History.Continue.Clean(), ref settings);
             SettingButton("Сбросить все настройки", () => Game.Settings.Clean(), ref settings);
         }
 

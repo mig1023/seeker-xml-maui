@@ -112,8 +112,8 @@ namespace SeekerMAUI.Gamebook.DzungarWar
             Wisdom = int.Parse(save[2]);
             Cunning = int.Parse(save[3]);
             Oratory = int.Parse(save[4]);
-            Danger = Game.Continue.IntNullableParse(save[5]);
-            Favour = Game.Continue.IntNullableParse(save[6]);
+            Danger = History.Continue.IntNullableParse(save[5]);
+            Favour = History.Continue.IntNullableParse(save[6]);
             Tanga = int.Parse(save[7]);
             StatBonuses = int.Parse(save[8]);
             MaxBonus = int.Parse(save[9]);

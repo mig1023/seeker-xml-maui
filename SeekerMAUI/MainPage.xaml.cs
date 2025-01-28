@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using SeekerMAUI.Game;
 using SeekerMAUI.Gamebook;
 
 namespace SeekerMAUI
@@ -138,7 +137,7 @@ namespace SeekerMAUI
 
         private void Gamebook_Click(string gamebook)
         {
-            Game.Continue.CurrentGame(gamebook);
+            History.Continue.CurrentGame(gamebook);
 
             try
             {
@@ -206,7 +205,7 @@ namespace SeekerMAUI
 
             Action.Children.Add(Output.Interface.Text(Output.Constants.BOOKMARK_LOAD_HEAD, bold: true));
 
-            Dictionary<string, string> allBookmarks = Game.Bookmarks.List(out string _);
+            Dictionary<string, string> allBookmarks = SeekerMAUI.History.Bookmarks.List(out string _);
 
             if (allBookmarks.Count > 0)
                 AddAllBookmarks(allBookmarks);
@@ -222,7 +221,7 @@ namespace SeekerMAUI
 
         private void BookmarkSave_Click(string bookmark)
         {
-            Game.Bookmarks.Save(bookmark);
+            SeekerMAUI.History.Bookmarks.Save(bookmark);
             Paragraph(Game.Data.CurrentParagraphID, reload: true);
         }
 
@@ -481,7 +480,7 @@ namespace SeekerMAUI
             if (optionCount > 1)
                 gameOver = false;
 
-            if (physicalStartOfGame && Game.Continue.IsGameSaved())
+            if (physicalStartOfGame && History.Continue.IsGameSaved())
             {
                 Options.Children.Add(Output.Buttons.Additional("Продолжить предыдущую игру",
                     (sender, e) => Continue_Click(), anywayLarge: true));
@@ -507,11 +506,11 @@ namespace SeekerMAUI
 
             if (!startOfGame && gameOver)
             {
-                Game.Continue.Remove();
+                History.Continue.Remove();
             }
             else if (!startOfGame)
             {
-                Game.Continue.SaveCurrentGame();
+                History.Continue.SaveCurrentGame();
             }
         }
 
@@ -768,7 +767,7 @@ namespace SeekerMAUI
 
         private void BookmarkRemove_Click(string bookmark)
         {
-            Game.Bookmarks.Remove(bookmark);
+            SeekerMAUI.History.Bookmarks.Remove(bookmark);
             Bookmarks_Click();
         }
 
@@ -778,7 +777,7 @@ namespace SeekerMAUI
 
             try
             {
-                id = Game.Continue.Load(bookmark);
+                id = History.Continue.Load(bookmark);
             }
             catch (Exception ex)
             {

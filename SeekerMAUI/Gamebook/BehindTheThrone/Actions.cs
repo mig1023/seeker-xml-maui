@@ -1,5 +1,4 @@
-﻿using Microsoft.Maui.Controls.Shapes;
-using System;
+﻿using System;
 
 namespace SeekerMAUI.Gamebook.BehindTheThrone
 {

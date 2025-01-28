@@ -37,7 +37,7 @@ namespace SeekerMAUI.Gamebook.ThreePaths
         {
             string[] save = saveLine.Split('|');
 
-            Time = Game.Continue.IntNullableParse(save[0]);
+            Time = History.Continue.IntNullableParse(save[0]);
             SpellSlots = int.Parse(save[1]);
             Spells = save[2].Split(',').ToList();
 

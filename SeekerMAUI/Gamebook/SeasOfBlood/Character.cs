@@ -132,7 +132,8 @@ namespace SeekerMAUI.Gamebook.SeasOfBlood
             Endurance = int.Parse(save[6]);
             MaxLuck = int.Parse(save[7]);
             Luck = int.Parse(save[8]);
-            Cyclops = Game.Continue.IntNullableParse(save[9]);
+
+            Cyclops = History.Continue.IntNullableParse(save[9]);
 
             IsProtagonist = true;
         }

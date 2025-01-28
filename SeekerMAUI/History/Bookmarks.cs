@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using SeekerMAUI.Game;
 
-namespace SeekerMAUI.Game
+namespace SeekerMAUI.History
 {
     class Bookmarks
     {
@@ -11,7 +9,7 @@ namespace SeekerMAUI.Game
             if (!Preferences.Default.ContainsKey(bookmarksName))
                 return new List<string>();
             else
-                return (Preferences.Default.Get(bookmarksName, String.Empty)).Split(',').ToList();
+                return Preferences.Default.Get(bookmarksName, string.Empty).Split(',').ToList();
         }
 
         public static Dictionary<string, string> List(out string bookmarksName)
@@ -33,7 +31,7 @@ namespace SeekerMAUI.Game
             if (bookmarks.Count == 0)
                 Preferences.Default.Set(bookmarksName, $"{saveName}:{bookmarkOut}");
             else
-                Preferences.Default.Set(bookmarksName, Preferences.Default.Get(bookmarksName, String.Empty) + $",{saveName}:{bookmarkOut}");
+                Preferences.Default.Set(bookmarksName, Preferences.Default.Get(bookmarksName, string.Empty) + $",{saveName}:{bookmarkOut}");
 
             Continue.Save($"{Data.CurrentGamebook}-{saveName}");
         }
@@ -42,7 +40,7 @@ namespace SeekerMAUI.Game
         {
             Dictionary<string, string> bookmarks = List(out string bookmarksName);
             string bookmarkIndex = bookmark.Split('-')[1];
-            string newBookmarkList = String.Empty; 
+            string newBookmarkList = string.Empty;
 
             foreach (string index in bookmarks.Keys)
             {
@@ -52,14 +50,14 @@ namespace SeekerMAUI.Game
                 }
                 else
                 {
-                    if (!String.IsNullOrEmpty(newBookmarkList))
+                    if (!string.IsNullOrEmpty(newBookmarkList))
                         newBookmarkList += ",";
 
                     newBookmarkList += $"{bookmarks[index]}:{index}";
                 }
             }
 
-            if (String.IsNullOrEmpty(newBookmarkList))
+            if (string.IsNullOrEmpty(newBookmarkList))
                 Preferences.Default.Remove(bookmarksName);
             else
                 Preferences.Default.Set(bookmarksName, newBookmarkList);

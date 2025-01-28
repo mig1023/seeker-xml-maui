@@ -1,5 +1,4 @@
 ﻿using SeekerMAUI.Game;
-using System;
 using System.Xml;
 
 namespace SeekerMAUI.Gamebook.BehindTheThrone

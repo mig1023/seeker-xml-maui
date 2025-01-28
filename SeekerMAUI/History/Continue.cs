@@ -1,7 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using SeekerMAUI.Game;
 
-namespace SeekerMAUI.Game
+namespace SeekerMAUI.History
 {
     class Continue
     {
@@ -15,7 +14,7 @@ namespace SeekerMAUI.Game
         {
             if (int.TryParse(line, out int value))
             {
-                return (value == -1 ? (int?)null : value);
+                return value == -1 ? null : value;
             }
             else
             {
@@ -25,8 +24,8 @@ namespace SeekerMAUI.Game
 
         public static bool IsGameSaved()
         {
-            string value = Preferences.Default.Get(Data.CurrentGamebook, String.Empty);
-            return !String.IsNullOrEmpty(value);
+            string value = Preferences.Default.Get(Data.CurrentGamebook, string.Empty);
+            return !string.IsNullOrEmpty(value);
         }
 
         public static void SaveCurrentGame() =>
@@ -34,10 +33,10 @@ namespace SeekerMAUI.Game
 
         public static void Save(string gameName)
         {
-            string triggers = String.Join(",", Data.Triggers);
+            string triggers = string.Join(",", Data.Triggers);
             string healing = Healing.Save();
             int paragraph = Data.CurrentParagraphID;
-            string path = String.Join(",", Data.Path);
+            string path = string.Join(",", Data.Path);
             string character = Data.Character.Save();
 
             Preferences.Default.Set(gameName,
@@ -46,10 +45,10 @@ namespace SeekerMAUI.Game
 
         public static int Load(string gameName)
         {
-            if (String.IsNullOrEmpty(gameName))
+            if (string.IsNullOrEmpty(gameName))
                 gameName = Data.CurrentGamebook;
 
-            string saveLine = Preferences.Default.Get(gameName, String.Empty);
+            string saveLine = Preferences.Default.Get(gameName, string.Empty);
 
             string[] save = saveLine.Split('@');
 
@@ -71,7 +70,7 @@ namespace SeekerMAUI.Game
             foreach (string gamebook in Gamebook.List.GetBooks())
                 Preferences.Default.Remove(gamebook);
 
-            foreach (string variable in Game.Data.OuterGameVariable)
+            foreach (string variable in Data.OuterGameVariable)
             {
                 if (Preferences.Default.ContainsKey(variable))
                     Preferences.Default.Remove(variable);
