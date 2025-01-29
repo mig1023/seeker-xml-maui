@@ -3242,6 +3242,7 @@
 			<Actions>
 				<Fight>
 					<Enemy Name="Капитан зомби" Skill="15" Strength="15"/>
+					<Undead/>
 					<ImmuneToPsychology/>
 				</Fight>
 			</Actions>
