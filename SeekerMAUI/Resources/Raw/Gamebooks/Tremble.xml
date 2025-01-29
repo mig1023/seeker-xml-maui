@@ -1377,11 +1377,11 @@
 		</Paragraph>
 		<Paragraph No="174">
 			<Text>Куда ни ступишь, везде земля обжигает ноги.</Text>
+			<Modifications>
+				<WayBack Value="210"/>
+			</Modifications>
 			<Options>
-				<Option Goto="315" Text="Чтобы избежать этого...">
-					<Text>А потом...</Text>
-				</Option>
-				<Option Goto="210"/>
+				<Option Goto="315" Text="Чтобы избежать этого..."/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="175">
