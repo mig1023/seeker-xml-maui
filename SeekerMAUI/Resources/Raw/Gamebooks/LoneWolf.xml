@@ -7989,6 +7989,7 @@
 				<Fight>
 					<Enemy Name="Хельгаст" Skill="22" Strength="30"/>
 					<ImmuneToPsychology/>
+					<Undead/>
 					<SkillPenalty Value="2; Щит разума;"/>
 				</Fight>
 			</Actions>
