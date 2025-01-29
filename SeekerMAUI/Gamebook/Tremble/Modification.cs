@@ -21,6 +21,10 @@ namespace SeekerMAUI.Gamebook.Tremble
                     Character.Protagonist.Keys += $" {ValueString}";
                 }
             }
+            else if (Name == "HalfEndurance")
+            {
+                Character.Protagonist.Endurance /= 2;
+            }
             else
             {
                 base.Do(Character.Protagonist);
