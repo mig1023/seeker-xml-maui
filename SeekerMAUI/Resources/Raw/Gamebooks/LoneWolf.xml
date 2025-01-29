@@ -6734,7 +6734,7 @@
 				<Strength Value="-2"/>
 			</Modifications>
 			<Options>
-				<Option Goto="822" Text="Есть Соммерсверд"/>
+				<Option Goto="822" Text="Есть Соммерсверд" Availability="Соммерсверд"/>
 				<Option Goto="1012" Text="Есть огнесфера"/>
 				<Option Goto="720" Text="Атаковать ураган своим оружием"/>
 				<Option Goto="913" Text="Сбежать в отдалённый арочный проход"/>
