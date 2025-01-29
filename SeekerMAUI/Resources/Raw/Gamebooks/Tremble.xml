@@ -1128,11 +1128,12 @@
 		</Paragraph>
 		<Paragraph No="143">
 			<Text>Из темного конца комнаты в твою сторону вылетает туча стрел. Чтобы определить, какую опасность это представляет...</Text>
+			<Modifications>
+				<WayBack Value="143"/>
+			</Modifications>
 			<Options>
 				<Option Goto="315" Text="Сначала"/>
-				<Option Goto="52" Text="Потом">
-					<Text>(запиши этот номер)</Text>
-				</Option>
+				<Option Goto="52" Text="Потом"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="144">
@@ -2449,7 +2450,7 @@
 				</DiceCheck>
 			</Actions>
 			<Options>
-				<Gameover/>
+				<Back/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="316">
