@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SeekerMAUI.Game;
+using System;
 
 namespace SeekerMAUI.Gamebook.Tremble
 {
@@ -7,6 +8,10 @@ namespace SeekerMAUI.Gamebook.Tremble
         public Character Enemy { get; set; }
 
         public int RoundsToFight { get; set; }
+        public bool WoundsByDice { get; set; }
+        public bool HeavyDamageByDice { get; set; }
+        public bool LightDamageByDice { get; set; }
+
 
         public override List<string> Status() => new List<string>
         {
@@ -195,6 +200,54 @@ namespace SeekerMAUI.Gamebook.Tremble
 
                 round += 1;
             }
+        }
+
+        public List<string> DiceCheck()
+        {
+            var dice = Dice.Roll();
+            var check = new List<string> { $"BIG|Кубик: {Dice.Symbol(dice)}" };
+
+            if (WoundsByDice)
+            {
+                Character.Protagonist.Endurance -= dice;
+                var line = Game.Services.CoinsNoun(dice, "единицу", "единицы", "единиц");
+                check.Add($"BAD|BOLD|Вы потеряли {dice} {line} Выносливости");
+
+                if (Character.Protagonist.Endurance <= 0)
+                {
+                    Character.Protagonist.Endurance = 1;
+                    check.Add("1 единица Выносливости всё-таки остаётся!");
+                }
+            }
+            else if (HeavyDamageByDice)
+            {
+                if (dice > 3)
+                {
+                    Character.Protagonist.Endurance -= 4;
+                    Character.Protagonist.Skill -= 1;
+                    check.Add("BAD|BOLD|На кубике выпало 4+!");
+                    check.Add("Вы теряете 3 единицы Выносливости и 1 единицу Ловкости!");
+                }
+                else
+                {
+                    check.Add("GOOD|BOLD|Обошлось..!");
+                }
+            }
+            else if (LightDamageByDice)
+            {
+                if (dice <= 2)
+                {
+                    Character.Protagonist.Endurance -= 1;
+                    check.Add("BAD|BOLD|На кубике выпало меньше 3!");
+                    check.Add("Вы теряете 1 единицу Выносливости!");
+                }
+                else
+                {
+                    check.Add("GOOD|BOLD|Обошлось..!");
+                }
+            }
+
+            return check;
         }
     }
 }
