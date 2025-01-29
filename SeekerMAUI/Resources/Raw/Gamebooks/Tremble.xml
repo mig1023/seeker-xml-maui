@@ -197,7 +197,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="24">
-			<Text>Брось 1К.</Text>
+			<Actions>
+				<DiceCheck/>
+			</Actions>
 			<Options>
 				<Option Goto="58" Text="Если выпало 1, 2, 3, то твое оружие окажется эффективным в битве с червями"/>
 				<Option Goto="213" Text="Если выпадет 4, 5, 6"/>
