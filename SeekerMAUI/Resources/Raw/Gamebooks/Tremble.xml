@@ -2432,7 +2432,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="315">
-			<Text>Бросай 1К. Если выпадает 1,2,3 - выходишь без ущерба, если выпадает 4, 5, 6 - теряешь (-3В) и (-1Л).</Text>
+			<Actions>
+				<DiceCheck>
+					<HeavyDamageByDice/>
+					<Text Style="Small">Если выпадает 1,2,3 - выходишь без ущерба, если выпадает 4, 5, 6 - теряешь (-3В) и (-1Л).</Text>
+				</DiceCheck>
+			</Actions>
 			<Options>
 				<Gameover/>
 			</Options>
