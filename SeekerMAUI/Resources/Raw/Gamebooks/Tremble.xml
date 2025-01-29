@@ -1127,11 +1127,10 @@
 		<Paragraph No="143">
 			<Text>Из темного конца комнаты в твою сторону вылетает туча стрел. Чтобы определить, какую опасность это представляет...</Text>
 			<Modifications>
-				<WayBack Value="143"/>
+				<WayBack Value="52"/>
 			</Modifications>
 			<Options>
-				<Option Goto="315" Text="Сначала"/>
-				<Option Goto="52" Text="Потом"/>
+				<Option Goto="315"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="144">
