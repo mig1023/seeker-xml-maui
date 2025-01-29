@@ -6856,6 +6856,7 @@
 			<Actions>
 				<Fight>
 					<Enemy Name="Акраа'Неанор" Skill="23" Strength="50"/>
+					<Undead/>
 				</Fight>
 			</Actions>
 			<Options>
