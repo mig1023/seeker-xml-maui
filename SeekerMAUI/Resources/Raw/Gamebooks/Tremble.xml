@@ -737,9 +737,9 @@
 		<Paragraph No="92">
 			<Text>Теперь жди настоящей мясорубки. Начинай с Минотавра.</Text>
 			<Actions>
+				<Option Goto="51" Text="Спасаться бегством"/>
 				<Fight>
 					<Enemy Name="МИНОТАВР" Skill="10" Endurance="10"/>
-					<Text>Если битва для тебя складывается неудачно, спасайся бегством.</Text>
 				</Fight>
 			</Actions>
 			<Options>
