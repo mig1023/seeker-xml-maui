@@ -6905,8 +6905,8 @@
 				<Strength Value="-6"/>
 			</Modifications>
 			<Options>
-				<Option Goto="1006" Text="Есть Соммерсверд"/>
-				<Option Goto="877" Text="Нет его"/>
+				<Option Goto="1006" Text="Есть Соммерсверд" Availability="Соммерсверд"/>
+				<Option Goto="877" Text="Нет его" Availability="!Соммерсверд"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="873">
