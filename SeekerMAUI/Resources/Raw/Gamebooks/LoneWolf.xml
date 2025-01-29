@@ -3747,6 +3747,7 @@
 			<Actions>
 				<Fight>
 					<Enemy Name="Команда зомби" Skill="13" Strength="19"/>
+					<Undead/>
 				</Fight>
 			</Actions>
 			<Options>
