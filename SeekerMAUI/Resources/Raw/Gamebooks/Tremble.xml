@@ -409,14 +409,12 @@
 		</Paragraph>
 		<Paragraph No="52">
 			<Text>Из отверстия в стене выбивается струя ядовитого газа.</Text>
+			<Modifications>
+				<WayBack Value="274"/>
+			</Modifications>
 			<Options>
 				<Option Goto="274" Text="Если у тебя есть «горшковый» шлем, то от газа ты не пострадаешь"/>
-				<Option Goto="315" Text="Если нет такого шлема">
-					<Text>А потом...</Text>
-				</Option>
-				<Option Goto="274">
-					<Text>Запиши этот номер, а то потеряешь дорогу...</Text>
-				</Option>
+				<Option Goto="315" Text="Если нет такого шлема"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="53">
