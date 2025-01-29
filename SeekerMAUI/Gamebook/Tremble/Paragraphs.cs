@@ -13,9 +13,9 @@ namespace SeekerMAUI.Gamebook.Tremble
             {
                 Option option = OptionsTemplateWithoutGoto(xmlOption);
 
-                if (ThisIsGameover(xmlOption))
+                if (ThisIsGameover(xmlOption) || ThisIsBack(xmlOption))
                 {
-                    option.Goto = GetGoto(xmlOption);
+                    option.Goto = GetGoto(xmlOption, wayBack: Character.Protagonist.WayBack);
                 }
                 else if (int.TryParse(xmlOption.Attributes["Goto"].Value, out int _))
                 {

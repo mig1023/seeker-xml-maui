@@ -6,7 +6,11 @@ namespace SeekerMAUI.Gamebook.Tremble
     {
         public override void Do()
         {
-            if (Name == "Keys")
+            if (Name == "WayBack")
+            {
+                Character.Protagonist.WayBack = Value;
+            }
+            else if (Name == "Keys")
             {
                 if (String.IsNullOrEmpty(Character.Protagonist.Keys))
                 {
