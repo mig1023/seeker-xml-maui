@@ -2955,6 +2955,8 @@
 			<Actions>
 				<Fight>
 					<Enemy Name="Экипаж Зомби" Skill="13" Strength="16"/>
+					<ImmuneToPsychology/>
+					<Undead/>
 				</Fight>
 			</Actions>
 			<Options>
