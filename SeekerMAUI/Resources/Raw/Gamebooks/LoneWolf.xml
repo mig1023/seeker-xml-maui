@@ -4588,6 +4588,7 @@
 				<Fight>
 					<Enemy Name="Хельгхаст" Skill="23" Strength="30"/>
 					<ImmuneToPsychology/>
+					<Undead/>
 				</Fight>
 			</Actions>
 			<Options>
