@@ -129,6 +129,7 @@
 	  <None Remove="Resources\Images\Cover\stringofworlds.jpg" />
 	  <None Remove="Resources\Images\Cover\swampfever.jpg" />
 	  <None Remove="Resources\Images\Cover\swordandfate.jpg" />
+	  <None Remove="Resources\Images\Cover\tachanka.jpg" />
 	  <None Remove="Resources\Images\Cover\tank.jpg" />
 	  <None Remove="Resources\Images\Cover\tenementbuilding.jpg" />
 	  <None Remove="Resources\Images\Cover\thosewhoareabouttodie.jpg" />
@@ -343,6 +344,7 @@
 	  <MauiImage Include="Resources\Images\Cover\stringofworlds.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\swampfever.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\swordandfate.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\tachanka.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\tank.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\tenementbuilding.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\thosewhoareabouttodie.jpg" />
