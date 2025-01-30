@@ -545,5 +545,13 @@
 				<Option Goto="88" Text="поедете на Карач"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="76">
+			<Text>БАХЧИСАРАЙ (-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="396" Text="Если у вас записано слово «старец»"/>
+				<Option Goto="364" Text="Если нет: Событие"/>
+				<Option Goto="791" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
