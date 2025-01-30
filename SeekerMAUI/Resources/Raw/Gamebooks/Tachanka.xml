@@ -364,5 +364,12 @@
 				<Option Goto="63" Text="прикажете своим бойцам изъять все лекарства силой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="50">
+			<Text>— О! Мое почтение господа! - уважительно произнес Самуил Ростовский. Его сосед испуганно втянул голову в плечи.</Text>
+			<Options>
+				<Option Goto="31" Text="Если у вас в отряде есть Варя"/>
+				<Option Goto="44" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
