@@ -458,5 +458,13 @@
 				<Option Goto="90" Text="Событие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="63">
+			<Text>Ваши люди нашли 5 единиц лекарств (вам +5 лекарств).</Text>
+			<Options>
+				<Option Goto="68" Text="Если у вас в отряде есть Варя"/>
+				<Option Goto="28" Text="Если в отряде есть Григорий"/>
+				<Option Goto="40" Text="Если нет, то можете ехать в поселок Унд"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
