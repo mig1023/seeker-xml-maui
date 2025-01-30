@@ -311,5 +311,14 @@
 				<Option Goto="51" Text="минуя Черкес направитесь в Камышлы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="43">
+			<Text>Поселок Унд оказался крохотным селением из двух десятков дворов. Задержитесь здесь, чтобы расспросить жителей о новостях:</Text>
+			<Options>
+				<Option Goto="36" Text="Событие"/>
+				<Option Goto="46" Text="Событие"/>
+				<Option Goto="26" Text="Или не будете терять время и поедете дальше в Шумо"/>
+				<Option Goto="35" Text="в поселок Гавра"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
