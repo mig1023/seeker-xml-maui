@@ -429,5 +429,12 @@
 				<Option Goto="51" Text="можете объехать поселок стороной и направиться в Камышлы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="59">
+			<Text>ТЮЛЕ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="784" Text="Событие"/>
+				<Option Goto="362" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
