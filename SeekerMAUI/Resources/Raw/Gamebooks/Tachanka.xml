@@ -184,5 +184,12 @@
 				<Option Goto="25" Text="Событие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="25">
+			<Text>Довольные жители дали вам в дорогу немного еды (вам +2 Еды).</Text>
+			<Options>
+				<Option Goto="48" Text="Поедете в Черкес"/>
+				<Option Goto="45" Text="свернете на дорогу, ведущую к селению Сали"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
