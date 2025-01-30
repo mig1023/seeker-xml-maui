@@ -357,5 +357,12 @@
 				<Option Goto="102" Text="Событие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="49">
+			<Text>— Извините, но я не могу выполнить вашу просьбу - категоричным тоном заявил вам врач.</Text>
+			<Options>
+				<Option Goto="43" Text="Оставите госпиталь и поедете в поселок Унд"/>
+				<Option Goto="63" Text="прикажете своим бойцам изъять все лекарства силой"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
