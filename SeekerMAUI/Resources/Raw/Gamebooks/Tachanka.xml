@@ -399,5 +399,12 @@
 				<Option Goto="51" Text="можете объехать поселок стороной и направиться в Камышлы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="55">
+			<Text>ЭВЕЛЬ-ШЕЙХ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="75" Text="Событие"/>
+				<Option Goto="783" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
