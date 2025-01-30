@@ -327,5 +327,12 @@
 				<Option Goto="37" Text="просто пристрелите их и попытаетесь прорваться через поселок"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="45">
+			<Text>САЛИ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="312" Text="Событие"/>
+				<Option Goto="729" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
