@@ -349,5 +349,13 @@
 				<Option Goto="52" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="48">
+			<Text>ЧЕРКЕС\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="42" Text="Если у вас записано слово «телеграф»"/>
+				<Option Goto="53" Text="Если нет: Событие"/>
+				<Option Goto="102" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
