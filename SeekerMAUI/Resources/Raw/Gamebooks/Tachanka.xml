@@ -262,5 +262,12 @@
 				<Option Goto="36" Text="Событие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="36">
+			<Text>Жители приняли вас за бандитов и все ваши попытки поговорить наталкивались на их угрюмое молчание.</Text>
+			<Options>
+				<Option Goto="26" Text="Поедете дальше в Шумо"/>
+				<Option Goto="35" Text="в поселок Гавра"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
