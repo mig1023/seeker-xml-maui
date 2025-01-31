@@ -1307,5 +1307,18 @@
 				<Option Goto="143" Text="в Такыл"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="184">
+			<Text>184.</Text>
+			<Options>
+				<Option Goto="197" Text="Если у вас есть боец Варя"/>
+				<Option Goto="181" Text="Если есть боец Самуил Ростовский"/>
+				<Option Goto="193" Text="Если есть боец Григорий"/>
+				<Option Goto="195" Text="Если есть Никифор"/>
+				<Option Goto="189" Text="Если есть Иннокентий Иванович"/>
+				<Option Goto="176" Text="Если есть Семен"/>
+				<Option Goto="140" Text="Можете ехать в Таук"/>
+				<Option Goto="143" Text="в Такыл"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
