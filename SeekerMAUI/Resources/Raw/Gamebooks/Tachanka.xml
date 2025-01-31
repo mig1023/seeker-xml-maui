@@ -674,5 +674,12 @@
 				<Option Goto="100" Text="в Фриденсфельд"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="95">
+			<Text>ДЖАБАЧ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="89" Text="Событие"/>
+				<Option Goto="99" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
