@@ -1245,5 +1245,13 @@
 				<Option Goto="126" Text="или"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="175">
+			<Text>Пилот аэроплана заметил вашу тачанку и сделал небольшой вираж. На крыльях машины вы увидели цветные круги - это аэроплан белых.</Text>
+			<Options>
+				<Option Goto="202" Text="Если у вас в отряде есть Никифор"/>
+				<Option Goto="179" Text="Выпустите по машине очередь из пулемета"/>
+				<Option Goto="172" Text="будете ждать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
