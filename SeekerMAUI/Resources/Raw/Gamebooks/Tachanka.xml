@@ -769,5 +769,12 @@
 				<Option Goto="127"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="109">
+			<Text>МАМАК\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="432" Text="Событие"/>
+				<Option Goto="796" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
