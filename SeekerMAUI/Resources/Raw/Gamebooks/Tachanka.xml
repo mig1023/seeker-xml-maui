@@ -1170,5 +1170,12 @@
 				<Option Goto="806" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="165">
+			<Text>— Ах, ты бандитская морда! - крикнул Григорий, выхватывая наган и намереваясь пристрелить Тимофея.</Text>
+			<Options>
+				<Option Goto="159" Text="Если у вас в арсенале тачанки есть граната"/>
+				<Option Goto="169" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
