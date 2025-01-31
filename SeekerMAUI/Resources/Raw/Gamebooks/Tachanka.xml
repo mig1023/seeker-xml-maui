@@ -1007,5 +1007,13 @@
 				<Option Goto="124" Text="в Саки"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="143">
+			<Text>ТАКЫЛ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="155" Text="Если у вас записано слово «лагерь»"/>
+				<Option Goto="269" Text="Событие"/>
+				<Option Goto="801" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
