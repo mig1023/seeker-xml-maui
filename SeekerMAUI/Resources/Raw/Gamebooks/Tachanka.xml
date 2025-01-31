@@ -892,5 +892,11 @@
 				<Option Goto="110"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="126">
+			<Text>Вражеская пуля ударила вам под сердце.\n\nВЫ УБИТЫ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
