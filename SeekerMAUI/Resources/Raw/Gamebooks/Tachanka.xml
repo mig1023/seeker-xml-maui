@@ -1177,5 +1177,14 @@
 				<Option Goto="169" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="166">
+			<Text>Запишите на листик игрока имя новых бойцов Тимофей (Умения - пулеметчик и конюх) и Дмитрий (нет умений).</Text>
+			<Options>
+				<Option Goto="161" Text="Если у вас в отряде есть боец Никифор"/>
+				<Option Goto="150" Text="Если нет, то можете ехать дальше в Чегер"/>
+				<Option Goto="128" Text="в Когелы"/>
+				<Option Goto="132" Text="в Кырманчи"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
