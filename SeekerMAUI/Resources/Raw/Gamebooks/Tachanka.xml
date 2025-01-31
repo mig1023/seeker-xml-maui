@@ -1186,5 +1186,12 @@
 				<Option Goto="132" Text="в Кырманчи"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="167">
+			<Text>ЧОТАЙ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)\n\nЕсли у вас записано слово «мальчишки» - (-1 выносливость коней)</Text>
+			<Options>
+				<Option Goto="478" Text="Событие"/>
+				<Option Goto="168" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
