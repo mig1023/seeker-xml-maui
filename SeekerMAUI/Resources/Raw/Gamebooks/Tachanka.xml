@@ -848,5 +848,11 @@
 				<Option Goto="121" Text="отправитесь в центр поселка"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="119">
+			<Text>Госпитали есть в Монае и Тауке</Text>
+			<Options>
+				<Option Goto="110"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
