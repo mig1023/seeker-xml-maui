@@ -1043,5 +1043,12 @@
 				<Option Goto="163"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="148">
+			<Text>Вы сбили тяжелые замки и открыли один из вагонов. Внутри оказались мешки с зерном и ящики с патронами (вам +8 еды и +500 патронов).</Text>
+			<Options>
+				<Option Goto="117" Text="Направитесь на восток в Туатай"/>
+				<Option Goto="128" Text="на север в Когелы"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
