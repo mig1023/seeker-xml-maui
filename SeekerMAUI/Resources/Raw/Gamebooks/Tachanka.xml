@@ -867,5 +867,11 @@
 				<Option Goto="118"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="122">
+			<Text>Склады с оружием есть в Джурчи и Кырманчи</Text>
+			<Options>
+				<Option Goto="110"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
