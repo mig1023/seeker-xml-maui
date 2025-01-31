@@ -598,5 +598,12 @@
 				<Option Goto="87" Text="спросите что за книга у него в руке"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="84">
+			<Text>КЫЗЫЛ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="393" Text="Событие"/>
+				<Option Goto="792" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
