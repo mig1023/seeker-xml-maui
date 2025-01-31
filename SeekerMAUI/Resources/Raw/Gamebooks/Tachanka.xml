@@ -912,5 +912,11 @@
 				<Option Goto="799" Text="Событие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="129">
+			<Text>Пули просвистели совсем рядом с вами. Но все обошлось</Text>
+			<Options>
+				<Option Goto="133"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
