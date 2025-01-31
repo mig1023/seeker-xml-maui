@@ -715,5 +715,11 @@
 				<Option Goto="794" Text="Событие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="101">
+			<Text>Аэродромы находятся возле Армянска и под селом Кучук (запишите фразу «два аэродрома»)</Text>
+			<Options>
+				<Option Goto="110"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
