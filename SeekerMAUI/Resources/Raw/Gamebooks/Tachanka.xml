@@ -740,5 +740,13 @@
 				<Option Goto="110"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="105">
+			<Text>СИМФЕРОПОЛЬ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="463" Text="Если у вас записано слово «эпидемия»"/>
+				<Option Goto="405" Text="Событие"/>
+				<Option Goto="795" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
