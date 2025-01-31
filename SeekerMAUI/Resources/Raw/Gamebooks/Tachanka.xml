@@ -1157,5 +1157,11 @@
 				<Option Goto="132" Text="в Кырманчи"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="163">
+			<Text>Вас схватили и расстреляли.\n\nВАША МИССИЯ ПРОВАЛЕНА</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
