@@ -1130,5 +1130,12 @@
 				<Option Goto="132" Text="в Кырманчи"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="160">
+			<Text>ДЖИБУ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="676" Text="Событие"/>
+				<Option Goto="805" Text="Событие"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
