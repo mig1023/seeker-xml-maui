@@ -748,5 +748,11 @@
 				<Option Goto="795" Text="Событие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="106">
+			<Text>Можно рискнуть и сесть на шаланду в приморском поселке Караш</Text>
+			<Options>
+				<Option Goto="110"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
