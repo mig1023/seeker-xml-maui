@@ -1163,5 +1163,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="164">
+			<Text>БУРКУТ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Options>
+				<Option Goto="613" Text="Если у вас записано слово «пропуск»"/>
+				<Option Goto="806" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
