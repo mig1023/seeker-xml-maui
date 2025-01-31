@@ -821,5 +821,11 @@
 				<Option Goto="146" Text="на север в Майрык"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="115">
+			<Text>Мастерские есть в Такыле, Розенталь, Кучук, Армянске</Text>
+			<Options>
+				<Option Goto="110"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
