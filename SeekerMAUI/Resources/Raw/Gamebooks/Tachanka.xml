@@ -1193,5 +1193,13 @@
 				<Option Goto="168" Text="Событие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="168">
+			<Text>Запишите на листик игрока имя нового бойца - Дмитрий (нет умений).</Text>
+			<Options>
+				<Option Goto="150" Text="Можете ехать дальше в Чегер"/>
+				<Option Goto="128" Text="в Когелы"/>
+				<Option Goto="132" Text="в Кырманчи"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
