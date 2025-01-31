@@ -790,5 +790,13 @@
 				<Option Goto="146" Text="в Майрык"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="111">
+			<Text>— Кажется у нее шок - нахмурилась Варя - У нас в госпитале был один солдатик. Так он пролежал в коме три месяца.</Text>
+			<Options>
+				<Option Goto="116" Text="Если у вас в отряде есть Никифор"/>
+				<Option Goto="123" Text="Григорий"/>
+				<Option Goto="108" Text="Если нет этих бойцов"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
