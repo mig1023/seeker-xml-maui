@@ -1955,5 +1955,13 @@
 				<Option Goto="278" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="275">
+			<Text>В магазине вы можете купить:\n\n1 Еда = 2 червонца\n\n1 лекарство = 10 червонцев\n\n100 патронов = 5 червонцев\n\n(запишите свои покупки на листик игрока)</Text>
+			<Options>
+				<Option Goto="280" Text="Пойдете в чайхану, чтобы узнать последние новости"/>
+				<Option Goto="156" Text="поедете в Джурчи"/>
+				<Option Goto="146" Text="в Майрык (если вы там еще не были)"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
