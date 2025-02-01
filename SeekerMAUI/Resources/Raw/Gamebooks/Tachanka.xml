@@ -1400,5 +1400,13 @@
 				<Option Goto="184"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="196">
+			<Text>На складе хранились тюки с одеждой. Никакого оружия и продовольствия.</Text>
+			<Options>
+				<Option Goto="198" Text="Если у вас в отряде есть Самуил Ростовский"/>
+				<Option Goto="92" Text="Если нет, то вам остается ехать дальше на Аклес"/>
+				<Option Goto="88" Text="на Карач"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
