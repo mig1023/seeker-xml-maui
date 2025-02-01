@@ -2047,5 +2047,11 @@
 				<Option Goto="300" Text="займетесь другими делами"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="288">
+			<Text>Судьи пошушукались между собой и согласно кивнули (вам -10 червонцев)</Text>
+			<Options>
+				<Option Goto="296"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
