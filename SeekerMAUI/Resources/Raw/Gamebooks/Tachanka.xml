@@ -1660,5 +1660,13 @@
 				<Option Goto="239" Text="Или пока займетесь трапезой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="232">
+			<Text>— Она останется у мэня - нагло улыбаясь, заявил главарь - Это плата за ваши жизни.</Text>
+			<Options>
+				<Option Goto="126" Text="Наброситесь на бандита"/>
+				<Option Goto="143" Text="вычеркните из списка бойцов имя Вари и поезжайте в Такыл"/>
+				<Option Goto="140" Text="в Таук"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
