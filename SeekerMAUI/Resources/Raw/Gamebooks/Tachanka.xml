@@ -1565,5 +1565,12 @@
 				<Option Goto="240" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="219">
+			<Text>— Я могу продать тэбэ пятьдэсят баранов - тут же предложил вам главарь - Одын баран за одын чэрвонэц!</Text>
+			<Options>
+				<Option Goto="241" Text="Согласитесь купить у него пятьдесят баранов (вам -50 червонцев)"/>
+				<Option Goto="229" Text="откажетесь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
