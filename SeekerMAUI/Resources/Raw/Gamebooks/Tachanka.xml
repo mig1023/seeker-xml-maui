@@ -1840,5 +1840,11 @@
 				<Option Goto="263"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="258">
+			<Text>Вы пробрались к углу дома и осторожно выглянули.\n\n— Эй! - услышали вы позади себя чей-то окрик. Вы резко обернулись, вскидывая винтовку</Text>
+			<Options>
+				<Option Goto="126"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
