@@ -1893,5 +1893,11 @@
 				<Option Goto="214" Text="не будете ввязываться в чужие дела"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="266">
+			<Text>Просвистела сталь и страшный удар обрушился на вашу голову.\n\nВЫ УБИТЫ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
