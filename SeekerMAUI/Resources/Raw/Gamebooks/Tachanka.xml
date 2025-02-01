@@ -1853,5 +1853,11 @@
 				<Option Goto="264" Text="броситесь в дом на поиски Вари"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="260">
+			<Text>Услышав, что вы из контрразведки бандиты вскинули свои винтовки</Text>
+			<Options>
+				<Option Goto="126"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
