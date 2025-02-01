@@ -1472,5 +1472,11 @@
 				<Option Goto="183" Text="прикажете пулеметчику открыть по машине огонь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="206">
+			<Text>Прогремел выстрел и пилот упал на потрескавшуюся землю таврийской степи</Text>
+			<Options>
+				<Option Goto="184"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
