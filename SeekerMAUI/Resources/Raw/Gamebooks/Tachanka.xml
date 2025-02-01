@@ -1719,5 +1719,13 @@
 				<Option Goto="222" Text="с невозмутимым видом продолжите трапезу"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="240">
+			<Text>Ладно, платите налог за проезд черэз нашу зэмлю и езжайте - внезапно заявил главарь - Дэсять чэрвонцэв!</Text>
+			<Options>
+				<Option Goto="234" Text="Откажетесь"/>
+				<Option Goto="143" Text="заплатите (вам -10 червонцев) и поедете в Такыл"/>
+				<Option Goto="140" Text="в Таук"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
