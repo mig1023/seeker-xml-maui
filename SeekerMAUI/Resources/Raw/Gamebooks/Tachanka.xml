@@ -1622,5 +1622,12 @@
 				<Option Goto="211" Text="согласитесь ехать с ними"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="227">
+			<Text>— Э-э! - недовольно насупил брови главарь - Хорошо. Дам двадцать баранов.</Text>
+			<Options>
+				<Option Goto="220" Text="Откажетесь"/>
+				<Option Goto="126" Text="выхватите наган и пристрелите этого наглеца"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
