@@ -1449,5 +1449,13 @@
 				<Option Goto="174"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="203">
+			<Text>Пилот выпустил по вам длинную очередь из «Льюиса»!</Text>
+			<Options>
+				<Option Goto="126" Text="Проверьте, не попала ли шальная пуля в кого-то из ваших бойцов"/>
+				<Option Goto="191" Text="или"/>
+				<Option Goto="210" Text="или"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
