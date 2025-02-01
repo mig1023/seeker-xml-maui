@@ -1636,5 +1636,13 @@
 				<Option Goto="126" Text="крикнете своим бойцам, бежать к тачанке"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="229">
+			<Text>— Э! Ладно! Ты харашо торгуешся - хитро подмигнул вам джигит - Бэри пятьдесят баранов за 30 чэрвонцэв!</Text>
+			<Options>
+				<Option Goto="234" Text="Откажетесь"/>
+				<Option Goto="143" Text="согласитесь (вам -30 червонцев) и поедете в Такыл"/>
+				<Option Goto="140" Text="в Таук"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
