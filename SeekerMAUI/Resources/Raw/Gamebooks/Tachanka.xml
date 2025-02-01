@@ -1886,5 +1886,12 @@
 				<Option Goto="245"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="265">
+			<Text>Парни покосились в вашу сторону - Он должен нам дэнги - нехотя буркнул один из них и добавил - Езжайте своей дорогой.</Text>
+			<Options>
+				<Option Goto="268" Text="Прикажете, развязать несчастного"/>
+				<Option Goto="214" Text="не будете ввязываться в чужие дела"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
