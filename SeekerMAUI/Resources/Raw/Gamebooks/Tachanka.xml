@@ -1558,5 +1558,12 @@
 				<Option Goto="183" Text="прикажете пулеметчику открыть по машине огонь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="218">
+			<Text>Главарь окинул вас и вашу поклажу зорким взглядом.</Text>
+			<Options>
+				<Option Goto="223" Text="Если в вашем отряде есть Варя"/>
+				<Option Goto="240" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
