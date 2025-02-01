@@ -1727,5 +1727,12 @@
 				<Option Goto="140" Text="в Таук"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="241">
+			<Text>Наконец вы смогли отвязаться от надоедливых типов.</Text>
+			<Options>
+				<Option Goto="143" Text="Поедете в Такыл"/>
+				<Option Goto="140" Text="в Таук"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
