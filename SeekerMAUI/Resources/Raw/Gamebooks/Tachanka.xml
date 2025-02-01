@@ -1689,5 +1689,12 @@
 				<Option Goto="239" Text="считаете эту затею слишком рискованной и решаете немного подождать"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="236">
+			<Text>236.</Text>
+			<Options>
+				<Option Goto="226" Text="Если у вас записано слово «солдат»"/>
+				<Option Goto="233" Text="Если нет этого слова"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
