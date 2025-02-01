@@ -1970,5 +1970,12 @@
 				<Option Goto="126" Text="прикажете бойцам открыть огонь по врагам"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="277">
+			<Text>— Я возьму его с собой - заявили девушка.</Text>
+			<Options>
+				<Option Goto="281" Text="Разрешите Варе оставить щенка"/>
+				<Option Goto="278" Text="прикажете его отпустить"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
