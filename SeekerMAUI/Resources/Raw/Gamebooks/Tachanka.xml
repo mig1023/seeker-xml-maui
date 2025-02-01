@@ -2106,5 +2106,11 @@
 				<Option Goto="300"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="297">
+			<Text>В конюшне вы можете продать своих коней и купить новых. Заплатите 60 червонцев и восстановите выносливость ваших коней на максимум (вам -60 червонцев)</Text>
+			<Options>
+				<Option Goto="300"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
