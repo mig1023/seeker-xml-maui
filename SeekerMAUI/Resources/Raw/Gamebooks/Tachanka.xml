@@ -1866,5 +1866,12 @@
 				<Option Goto="266" Text="вправо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="262">
+			<Text>262.</Text>
+			<Options>
+				<Option Goto="143" Text="Вычеркните из списка бойцов имя Вари и поезжайте в Такыл"/>
+				<Option Goto="140" Text="в Таук"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
