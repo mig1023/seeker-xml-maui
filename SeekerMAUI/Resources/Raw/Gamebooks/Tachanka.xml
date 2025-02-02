@@ -2247,5 +2247,12 @@
 				<Option Goto="113" Text="в Осма"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="317">
+			<Text>Кони выбивались из сил, стараясь вытащить застрявший автомобиль. Наконец вам это удалось (выносливости коней -1).</Text>
+			<Options>
+				<Option Goto="320" Text="Если у вас в отряде есть Артем"/>
+				<Option Goto="325" Text="Если нет - то вы можете ехать в поселок Гаджикой"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
