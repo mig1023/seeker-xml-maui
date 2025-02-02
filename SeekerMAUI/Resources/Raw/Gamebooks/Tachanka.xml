@@ -2296,5 +2296,12 @@
 				<Option Goto="70"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="324">
+			<Text>Ваша пуля сразила офицера, и он сполз под стол. Второй офицер выпрыгнул в открытое окно.</Text>
+			<Options>
+				<Option Goto="126" Text="Броситесь к окну за ним в погоню"/>
+				<Option Goto="330" Text="вернетесь чтобы допросить оглушенного вами офицера"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
