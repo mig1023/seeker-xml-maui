@@ -2147,5 +2147,13 @@
 				<Option Goto="306"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="303">
+			<Text>Вы поискали в поселке магазин, но оказалось, что сегодня все гуляют на свадьбе и на дверях магазина висел амбарный замок.</Text>
+			<Options>
+				<Option Goto="113" Text="Поедете дальше на Осма"/>
+				<Option Goto="132" Text="на Кырманчи"/>
+				<Option Goto="120" Text="в Киябах"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
