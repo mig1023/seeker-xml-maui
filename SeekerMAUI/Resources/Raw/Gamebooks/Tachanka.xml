@@ -2126,5 +2126,14 @@
 				<Option Goto="303" Text="займетесь другими делами"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="300">
+			<Text>300.</Text>
+			<Options>
+				<Option Goto="297" Text="Поедете к конюшне"/>
+				<Option Goto="294" Text="к кузнице"/>
+				<Option Goto="292" Text="к магазину"/>
+				<Option Goto="140" Text="оправитесь дальше в Таук"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
