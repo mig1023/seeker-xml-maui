@@ -2437,5 +2437,11 @@
 				<Option Goto="349" Text="скажете что вы «зеленые» из отряда атамана Орлова"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="344">
+			<Text>Это невозможно уверял вас пленный. Линия фронта хорошо охраняется патрулями. А по ночам освещается прожекторами</Text>
+			<Options>
+				<Option Goto="333"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
