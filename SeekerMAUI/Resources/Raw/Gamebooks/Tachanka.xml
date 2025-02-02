@@ -2346,5 +2346,11 @@
 				<Option Goto="342" Text="пригрозите ему пытками"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="331">
+			<Text>Вы укрылись в сарае. Пока ваши бойцы отдыхают, вы решили пойти в поселок Гаджикой чтобы разведать ситуацию</Text>
+			<Options>
+				<Option Goto="325"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
