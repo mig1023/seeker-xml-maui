@@ -2183,5 +2183,12 @@
 				<Option Goto="311" Text="ничего не положите"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="308">
+			<Text>Наутро, вы смогли спокойно ехать дальше.</Text>
+			<Options>
+				<Option Goto="146" Text="Поедете в Майрык"/>
+				<Option Goto="156" Text="в Джурчи"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
