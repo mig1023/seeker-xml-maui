@@ -2415,5 +2415,11 @@
 				<Option Goto="70" Text="поедете на Гаджикой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="341">
+			<Text>— В Кырманчи и . - раненый не договорил и умер у вас на руках.\n\nТеперь вы могли продолжить свой путь в Тюле</Text>
+			<Options>
+				<Option Goto="59"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
