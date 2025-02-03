@@ -2443,5 +2443,12 @@
 				<Option Goto="333"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="345">
+			<Text>— Ага! - закричал вам пан - Зачинщик! А ну ребята вяжите его - приказал он казакам. Те бросились к вам.</Text>
+			<Options>
+				<Option Goto="358" Text="Выхватите наган и откроете огонь по врагу"/>
+				<Option Goto="353" Text="спрячетесь в толпе"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
