@@ -2516,5 +2516,11 @@
 				<Option Goto="350"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="356">
+			<Text>— Мужики! На вилы эту сволочь! - заорал предводитель. Толпа разом набросилась на вас.\n\nВЫ ПОГИБЛИ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
