@@ -2914,5 +2914,11 @@
 				<Option Goto="420" Text="вырубите его и обыщите карманы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="411">
+			<Text>Вы выстрелили! Затем еще и еще!! Солдаты в панике бросились в укрытие. Редкие прохожие прижались к стенам домов. Вы побежали</Text>
+			<Options>
+				<Option Goto="246"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
