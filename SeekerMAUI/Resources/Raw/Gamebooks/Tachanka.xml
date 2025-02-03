@@ -2739,5 +2739,11 @@
 				<Option Goto="390" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="387">
+			<Text>Вы подошли к колодцу. Женщины тут же закрыли платками свои лица. На ваши вопросы они не отвечали и вообще сторонились вас. Ничего не добившись, вы пошли к старикам у мечети</Text>
+			<Options>
+				<Option Goto="384"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
