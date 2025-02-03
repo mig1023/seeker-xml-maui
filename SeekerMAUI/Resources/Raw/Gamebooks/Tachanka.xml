@@ -2649,5 +2649,12 @@
 				<Option Goto="379" Text="хотите узнать у женщин последние новости"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="374">
+			<Text>— Ну как знаете - пожал плечами командир партизан - Насильно мил не будешь!</Text>
+			<Options>
+				<Option Goto="35" Text="Партизаны поехали своей дорогой. Вы решили отправиться дальше в поселок Гавра"/>
+				<Option Goto="40" Text="в Унд"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
