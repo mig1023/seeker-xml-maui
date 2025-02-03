@@ -2620,5 +2620,12 @@
 				<Option Goto="374" Text="лучше поедете своей дорогой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="370">
+			<Text>Вы заметили, что ваши слова не убедили Никифора (запишите слово «дети»).</Text>
+			<Options>
+				<Option Goto="35" Text="Можете ехать в поселок Гавра"/>
+				<Option Goto="40" Text="в Унд"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
