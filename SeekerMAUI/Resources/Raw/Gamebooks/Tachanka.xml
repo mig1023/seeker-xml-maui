@@ -2484,5 +2484,11 @@
 				<Option Goto="347" Text="выстрелите в воздух из нагана, чтобы дать сигнал своим товарищам"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="351">
+			<Text>— Госпитали в Тауке и .... - раненый не договорил и умер у вас на руках.\n\nТеперь вы могли продолжить свой путь в Тюле</Text>
+			<Options>
+				<Option Goto="59"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
