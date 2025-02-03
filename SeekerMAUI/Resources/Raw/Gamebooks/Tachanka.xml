@@ -2450,5 +2450,11 @@
 				<Option Goto="353" Text="спрячетесь в толпе"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="346">
+			<Text>Один из ваших бойцов, схватив пленного за шиворот, и повел его за дом. Вскоре оттуда раздался выстрел.\n\nТеперь вы могли продолжить свой путь в Тюле</Text>
+			<Options>
+				<Option Goto="59"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
