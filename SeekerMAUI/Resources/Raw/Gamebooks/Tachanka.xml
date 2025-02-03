@@ -2834,5 +2834,13 @@
 				<Option Goto="109" Text="в Мамак"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="400">
+			<Text>К вечеру Варя вернулась и принесла нужные вам товары.\n\n1 лекарство = 3 червонца\n\nВаря смогла достать только лекарство.\n\n(отметьте на листике игрока все свои покупки)</Text>
+			<Options>
+				<Option Goto="88" Text="Вы можете ехать дальше на Карач"/>
+				<Option Goto="80" Text="на Мангуш"/>
+				<Option Goto="84" Text="на Кызыл"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
