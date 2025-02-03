@@ -2732,5 +2732,12 @@
 				<Option Goto="66"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="386">
+			<Text>386.</Text>
+			<Options>
+				<Option Goto="391" Text="Если у вас записано слово «солдат» или слово «дети»"/>
+				<Option Goto="390" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
