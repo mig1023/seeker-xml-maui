@@ -3253,5 +3253,12 @@
 				<Option Goto="117" Text="в Туатай"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="459">
+			<Text>В палатке американца вы нашли бутылку виски и 2 лекарства (запишите на листик игрока +2 лекарства и ключевое слово «виски»).</Text>
+			<Options>
+				<Option Goto="136" Text="Поедете дальше на Розенталь"/>
+				<Option Goto="117" Text="на Туатай"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
