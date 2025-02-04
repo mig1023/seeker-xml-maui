@@ -3296,5 +3296,11 @@
 				<Option Goto="468" Text="поедете в поселок и поищите нужные вам товары или заедете в кузницу"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="465">
+			<Text>Наутро учителю стало чуть лучше. Вы снова тронулись в путь</Text>
+			<Options>
+				<Option Goto="450"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
