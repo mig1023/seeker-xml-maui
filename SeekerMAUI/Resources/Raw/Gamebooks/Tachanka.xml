@@ -3596,5 +3596,12 @@
 				<Option Goto="170" Text="на Караш"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="507">
+			<Text>— А чем торгуете? - поинтересовался офицер.</Text>
+			<Options>
+				<Option Goto="510" Text="Скажете, что вы скупаете скот у местных жителей для снабжения армии Врангеля"/>
+				<Option Goto="503" Text="не будете юлить и пристрелите белого офицера"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
