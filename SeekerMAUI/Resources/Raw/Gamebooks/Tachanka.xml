@@ -3075,5 +3075,11 @@
 				<Option Goto="113" Text="на Осма"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="434">
+			<Text>Вы вошли в прихожую и тут же вас ударили чем-то тяжелым по голове.\n\nВЫ ПОГИБЛИ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
