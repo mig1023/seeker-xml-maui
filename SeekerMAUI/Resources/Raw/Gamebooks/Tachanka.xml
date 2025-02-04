@@ -3181,5 +3181,13 @@
 				<Option Goto="452" Text="Или не будете вмешиваться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="449">
+			<Text>Вы постучали в соседний дом. В ответ тишина.</Text>
+			<Options>
+				<Option Goto="433" Text="Выломаете дверь"/>
+				<Option Goto="105" Text="поедете поскорее из этого поселка - на Симферополь (если вы там еще не были)"/>
+				<Option Goto="113" Text="на Осма"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
