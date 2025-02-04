@@ -3632,5 +3632,12 @@
 				<Option Goto="170" Text="на Караш"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="512">
+			<Text>Внезапно офицер переменился в лице. В его глазах вы прочитали страх. Он потянулся к своей кобуре. Что-то в вашем внешнем виде выдало вас.\n\nВы тоже схватились за оружие...</Text>
+			<Options>
+				<Option Goto="488" Text="Если у вас в отряде есть Артем"/>
+				<Option Goto="503" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
