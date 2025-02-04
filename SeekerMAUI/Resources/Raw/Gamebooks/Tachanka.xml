@@ -3681,5 +3681,12 @@
 				<Option Goto="526" Text="прикажете Семену взять офицера в плен"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="519">
+			<Text>Как вы решили судьбу пленного офицера?</Text>
+			<Options>
+				<Option Goto="522" Text="Оставите ему жизнь"/>
+				<Option Goto="523" Text="пристрелите"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
