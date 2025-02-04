@@ -3773,5 +3773,13 @@
 				<Option Goto="170" Text="на Караш"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="532">
+			<Text>Вы выстрелили в офицера. Пуля ударила ему в голову. Артем выхватил револьвер и направил его вам прямо в лицо.</Text>
+			<Options>
+				<Option Goto="495" Text="Если у вас в отряде есть Тимофей"/>
+				<Option Goto="505" Text="Спиридон"/>
+				<Option Goto="126" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
