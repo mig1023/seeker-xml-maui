@@ -3559,5 +3559,13 @@
 				<Option Goto="170" Text="на Караш"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="502">
+			<Text>— Вот как? - недоверчиво покосился на вас офицер - И где на вас напали бандиты?</Text>
+			<Options>
+				<Option Goto="512" Text="Скажете, что бандиты напали на вас у поселка Черкес"/>
+				<Option Goto="517" Text="у поселка Джабач"/>
+				<Option Goto="506" Text="у поселка Бага"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
