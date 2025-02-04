@@ -3552,5 +3552,12 @@
 				<Option Goto="170" Text="на Караш"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="501">
+			<Text>501.</Text>
+			<Options>
+				<Option Goto="164" Text="Поедете в Буркут"/>
+				<Option Goto="170" Text="на Караш"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
