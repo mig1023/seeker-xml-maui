@@ -3260,5 +3260,12 @@
 				<Option Goto="117" Text="на Туатай"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="460">
+			<Text>После часа изнурительной работы к вам подошел Григорий и, вытирая пот со лба, мрачно сообщил, что воды нет.</Text>
+			<Options>
+				<Option Goto="457" Text="Если у вас есть в отряде Артем и одна граната"/>
+				<Option Goto="450" Text="Если нет, придется ехать дальше (-2 выносливости)"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
