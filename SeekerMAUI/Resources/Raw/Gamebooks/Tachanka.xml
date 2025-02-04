@@ -3102,5 +3102,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="438">
+			<Text>Вы постучали в один из домов. Вам долго никто не открывал. Однако вы слышали, за дверью чье-то шушуканье.</Text>
+			<Options>
+				<Option Goto="441" Text="Продолжите стучать в дверь и потребуете открыть"/>
+				<Option Goto="445" Text="просто выломаете дверь силой"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
