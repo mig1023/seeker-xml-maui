@@ -3752,5 +3752,12 @@
 				<Option Goto="170" Text="на Караш"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="529">
+			<Text>Что вы будете делать с офицером?</Text>
+			<Options>
+				<Option Goto="532" Text="Выстрелите в него"/>
+				<Option Goto="522" Text="предложите вам разъехаться мирно в разные стороны"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
