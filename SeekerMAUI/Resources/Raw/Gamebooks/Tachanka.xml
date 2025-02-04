@@ -3431,5 +3431,13 @@
 				<Option Goto="468"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="485">
+			<Text>Разрешив свою проблему, вы могли двигать дальше.</Text>
+			<Options>
+				<Option Goto="476" Text="Заедете на военный склад, что неподалеку"/>
+				<Option Goto="167" Text="не будете тратить время и поедете в Чотай"/>
+				<Option Goto="160" Text="в Джибу"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
