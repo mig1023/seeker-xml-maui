@@ -4109,5 +4109,11 @@
 				<Option Goto="573" Text="хотите подумать"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="578">
+			<Text>Море было спокойным. Дул легкий ветерок и морская зыбь ласково баюкала вас на своих волнах. К рассвету вы должны были достичь берега</Text>
+			<Options>
+				<Option Goto="582"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
