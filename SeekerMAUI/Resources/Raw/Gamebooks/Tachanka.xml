@@ -3832,5 +3832,12 @@
 				<Option Goto="84" Text="в Кызыл"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="540">
+			<Text>— Ладно! - снисходительно махнув рукой, главарь повернулся к вагонам - Дмитро! Дай этим товарищам сто червонцев (вам +100 червонцев).</Text>
+			<Options>
+				<Option Goto="88" Text="Поедите в Карач"/>
+				<Option Goto="84" Text="в Кызыл"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
