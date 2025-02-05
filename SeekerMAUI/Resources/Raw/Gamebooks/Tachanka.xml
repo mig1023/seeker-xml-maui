@@ -4356,5 +4356,12 @@
 				<Option Goto="694" Text="поедете своей дорогой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="614">
+			<Text>Офицер снисходительно ухмыльнулся и попросил вас удалиться. Кажется, вы неправильно назвали фамилию владельца парохода.</Text>
+			<Options>
+				<Option Goto="173" Text="Поедете в Армянск"/>
+				<Option Goto="167" Text="в Чотай"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
