@@ -4072,5 +4072,14 @@
 				<Option Goto="600"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="573">
+			<Text>573.</Text>
+			<Options>
+				<Option Goto="577" Text="Если у вас в отряде есть Артем"/>
+				<Option Goto="583" Text="Если есть Григорий"/>
+				<Option Goto="167" Text="Если нет - вы решаете ехать дальше в Чотай"/>
+				<Option Goto="173" Text="в Армянск"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
