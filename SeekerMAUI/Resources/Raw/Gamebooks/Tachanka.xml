@@ -4145,5 +4145,12 @@
 				<Option Goto="572" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="583">
+			<Text>Григорий предложил ночью на лодке подплыть к пароходу и захватить его. А потом развести пары и идти в открытое море.</Text>
+			<Options>
+				<Option Goto="590" Text="Примете его предложение (вам -1 Время)"/>
+				<Option Goto="573" Text="хотите подумать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
