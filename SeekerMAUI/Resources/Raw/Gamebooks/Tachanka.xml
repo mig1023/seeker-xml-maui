@@ -4257,5 +4257,13 @@
 				<Option Goto="606" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="600">
+			<Text>600.</Text>
+			<Options>
+				<Option Goto="821" Text="Если у вас записано слово «вода»"/>
+				<Option Goto="778" Text="Если у вас в отряде есть Григорий"/>
+				<Option Goto="779" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
