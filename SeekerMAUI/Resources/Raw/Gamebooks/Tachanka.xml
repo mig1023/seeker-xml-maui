@@ -3968,5 +3968,14 @@
 				<Option Goto="173" Text="в Армянск"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="558">
+			<Text>В магазине вы можете купить:\n\n1 еда = 1 червонец\n\n1 лекарство = 5 червонцев\n\nПолный ремонт упряжи = 5 червонцев</Text>
+			<Options>
+				<Option Goto="546" Text="Поедете в поселок"/>
+				<Option Goto="555" Text="направитесь к причалу (если вы там еще не были)"/>
+				<Option Goto="167" Text="Или поедете в Чотай"/>
+				<Option Goto="173" Text="в Армянск"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
