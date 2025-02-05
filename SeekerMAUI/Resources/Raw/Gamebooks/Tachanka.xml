@@ -4342,5 +4342,12 @@
 				<Option Goto="589"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="612">
+			<Text>Подъезжая к Армянску, вы почувствовали, что у вас начался сильный жар. Пришлось сделать остановку. Ваши товарищи тоже чувствовали себя плохо.</Text>
+			<Options>
+				<Option Goto="617" Text="Если у вас в отряде есть Варя"/>
+				<Option Goto="622" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
