@@ -3991,5 +3991,11 @@
 				<Option Goto="570" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="561">
+			<Text>— Да-а... Вы правы... Ик! - офицер устало повалился на койку и проговорил -Сигнал на маяк - «Восто. Восточный бриз».\n\nВы тут же направились к вахтенному офицеру</Text>
+			<Options>
+				<Option Goto="549"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
