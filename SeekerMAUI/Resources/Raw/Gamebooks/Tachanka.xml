@@ -4641,5 +4641,12 @@
 				<Option Goto="180" Text="считаете, что офицер может распознать ваш «маскарад» и пока не поздно поедете в поселок Кулга"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="657">
+			<Text>Вы с Артемом могли улететь только на двухместном аэроплане.</Text>
+			<Options>
+				<Option Goto="662" Text="Захватите Фоккер"/>
+				<Option Goto="669" Text="машину Сикорского"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
