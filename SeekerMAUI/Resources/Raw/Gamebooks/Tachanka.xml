@@ -4746,5 +4746,11 @@
 				<Option Goto="677"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="673">
+			<Text>В поселке вы могли купить:\n\n1 еду за 2 червонца\n\n100 патронов за 5 червонцев\n\nВы решили ехать дальше к Перекопу</Text>
+			<Options>
+				<Option Goto="185"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
