@@ -4727,5 +4727,11 @@
 				<Option Goto="647"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="670">
+			<Text>— Разумеется - кивнул полковник - Господин поручик! Покажите гостю наши машины. Поручик улыбнулся и жестом пригласил вас к выходу - Прошу!\n\nОфицер повел вас к машинам</Text>
+			<Options>
+				<Option Goto="668"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
