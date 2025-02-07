@@ -4901,5 +4901,13 @@
 				<Option Goto="177" Text="в Кучук"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="697">
+			<Text>Не прошло и получаса, как впереди послышался топот копыт.\n\n— «Наверняка это уже наши!» - промелькнуло у вас в голове.</Text>
+			<Options>
+				<Option Goto="688" Text="Будете ждать их приближения"/>
+				<Option Goto="681" Text="броситесь на землю"/>
+				<Option Goto="700" Text="побежите прочь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
