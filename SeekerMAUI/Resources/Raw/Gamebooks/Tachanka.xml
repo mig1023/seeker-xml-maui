@@ -5121,5 +5121,13 @@
 				<Option Goto="312"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="730">
+			<Text>Вражеская машина пока далеко позади и пытается зайти вам в хвост\n\nКуда прикажете пилоту держать курс?</Text>
+			<Options>
+				<Option Goto="734" Text="Прямо"/>
+				<Option Goto="736" Text="Влево"/>
+				<Option Goto="735" Text="Вправо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
