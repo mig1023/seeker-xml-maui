@@ -4882,5 +4882,11 @@
 				<Option Goto="600"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="694">
+			<Text>Лишний параграф</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
