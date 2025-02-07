@@ -5169,5 +5169,13 @@
 				<Option Goto="733" Text="Вправо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="736">
+			<Text>Вражеский аэроплан заходит на вас с левого борта. Черт! Сейчас он откроет по вам огонь!!\n\nКуда прикажете пилоту держать курс?</Text>
+			<Options>
+				<Option Goto="748" Text="Прямо"/>
+				<Option Goto="731" Text="Влево"/>
+				<Option Goto="738" Text="Вправо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
