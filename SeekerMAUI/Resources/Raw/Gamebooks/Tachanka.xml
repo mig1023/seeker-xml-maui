@@ -5006,5 +5006,15 @@
 				<Option Goto="185"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="713">
+			<Text>713.</Text>
+			<Options>
+				<Option Goto="679" Text="Если у вас записано слово «пропуск»"/>
+				<Option Goto="698" Text="Если у вас записано слово «вешка»"/>
+				<Option Goto="716" Text="Если записано слово «интендант» и у вас есть 100 червонцев"/>
+				<Option Goto="718" Text="Если у вас в отряде есть Самуил Ростовский и записало слово «мундир»"/>
+				<Option Goto="811" Text="Если нет этих слов"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
