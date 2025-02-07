@@ -5129,5 +5129,13 @@
 				<Option Goto="735" Text="Вправо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="731">
+			<Text>Вы сделали крутой поворот. Вражеский аэроплан совсем близко! Но вам удалось увернуться от него. Вы разминулись.\n\nКуда прикажете пилоту держать курс?</Text>
+			<Options>
+				<Option Goto="737" Text="Прямо"/>
+				<Option Goto="733" Text="Влево"/>
+				<Option Goto="746" Text="Вправо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
