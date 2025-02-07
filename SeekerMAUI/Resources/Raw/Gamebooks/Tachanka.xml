@@ -5066,5 +5066,12 @@
 				<Option Goto="712"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="721">
+			<Text>721.</Text>
+			<Options>
+				<Option Goto="725" Text="Скажет ему пароль «буревестник»"/>
+				<Option Goto="126" Text="броситесь бежать назад в темноту"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
