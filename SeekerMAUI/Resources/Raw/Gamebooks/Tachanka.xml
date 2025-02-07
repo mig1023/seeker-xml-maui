@@ -4869,5 +4869,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="692">
+			<Text>Впереди в темноте вы приметили несколько костров . По-видимому, это костры часовых.</Text>
+			<Options>
+				<Option Goto="689" Text="Пойдете прямиком к одному из костров"/>
+				<Option Goto="697" Text="попробуете пробраться между кострами"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
