@@ -5177,5 +5177,13 @@
 				<Option Goto="738" Text="Вправо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="737">
+			<Text>Враг почти над вами! Он слишком близко и не может пока зайти к вам сзади.\n\nКуда прикажете пилоту держать курс?</Text>
+			<Options>
+				<Option Goto="734" Text="Прямо"/>
+				<Option Goto="740" Text="Влево"/>
+				<Option Goto="745" Text="Вправо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
