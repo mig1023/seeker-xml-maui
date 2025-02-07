@@ -4894,5 +4894,12 @@
 				<Option Goto="711"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="696">
+			<Text>Вы хотели приобрести в поселке Буркут нужные вам припасы, но местные жители после инцидента отказывались иметь с вами дело.</Text>
+			<Options>
+				<Option Goto="167" Text="Придется ехать дальше - В Чотай"/>
+				<Option Goto="177" Text="в Кучук"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
