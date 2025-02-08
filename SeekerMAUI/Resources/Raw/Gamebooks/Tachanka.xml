@@ -5336,5 +5336,11 @@
 				<Option Goto="740" Text="Или вправо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="758">
+			<Text>Враг зашел с боку, расстрелял вас в упор\n\nВЫ ПОГИБЛИ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
