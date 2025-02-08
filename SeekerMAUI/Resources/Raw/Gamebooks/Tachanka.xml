@@ -5363,5 +5363,12 @@
 				<Option Goto="769" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="762">
+			<Text>762.</Text>
+			<Options>
+				<Option Goto="768" Text="Если у вас записано слово «помилование»"/>
+				<Option Goto="771" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
