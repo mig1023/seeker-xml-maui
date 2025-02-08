@@ -5703,5 +5703,12 @@
 				<Option Goto="100"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="816">
+			<Text>Вы выпрягли коней из тачанки и начали по одной переводить по шаткому мосту.</Text>
+			<Options>
+				<Option Goto="815" Text="Если у вас есть боец с умением «конюх»"/>
+				<Option Goto="814" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
