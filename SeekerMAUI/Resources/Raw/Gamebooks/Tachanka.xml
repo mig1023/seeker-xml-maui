@@ -5199,5 +5199,13 @@
 				<Option Goto="753" Text="Вправо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="740">
+			<Text>Вы разминулись курсами.\n\nКуда прикажете пилоту держать курс?</Text>
+			<Options>
+				<Option Goto="734" Text="Прямо"/>
+				<Option Goto="732" Text="Влево"/>
+				<Option Goto="743" Text="Вправо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
