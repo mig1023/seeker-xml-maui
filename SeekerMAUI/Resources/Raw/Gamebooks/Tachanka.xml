@@ -5670,5 +5670,11 @@
 				<Option Goto="658"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="811">
+			<Text>Вы столкнулись с большим конным отрядом. Врагов было слишком много. Бой был неравным и вас всех перебили.\n\nВЫ ПРОВАЛИЛИ МИССИЮ\n\nКОНЕЦ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
