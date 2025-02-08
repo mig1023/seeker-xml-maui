@@ -5342,5 +5342,13 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="759">
+			<Text>Противник летит прямо на вас. Пока он далеко и вам в него не попасть. Вам предстоит атака лоб в лоб! Может не стоит рисковать и лучше резко свернуть?</Text>
+			<Options>
+				<Option Goto="757" Text="Прямо"/>
+				<Option Goto="752" Text="Влево"/>
+				<Option Goto="758" Text="Вправо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
