@@ -5238,5 +5238,13 @@
 				<Option Goto="739" Text="Вправо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="745">
+			<Text>Вы сделали резкой поворот. Вражеский аэроплан пронесся мимо и удаляется от вас с левого борта!\n\nКуда прикажете пилоту держать курс?</Text>
+			<Options>
+				<Option Goto="744" Text="Прямо"/>
+				<Option Goto="747" Text="Влево"/>
+				<Option Goto="733" Text="Вправо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
