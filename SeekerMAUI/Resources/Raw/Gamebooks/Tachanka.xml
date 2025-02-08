@@ -5291,5 +5291,11 @@
 				<Option Goto="760" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="752">
+			<Text>Враг зашел с боку, расстрелял вас в упор\n\nВЫ ПОГИБЛИ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
