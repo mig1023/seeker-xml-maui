@@ -5254,5 +5254,13 @@
 				<Option Goto="742" Text="Вправо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="747">
+			<Text>Вы почти сели на хвост вражескому пилоту! Он может сейчас свернуть влево или вправо. Нужно угадать его намерение.\n\nКуда прикажете пилоту держать курс?</Text>
+			<Options>
+				<Option Goto="741" Text="Прямо"/>
+				<Option Goto="732" Text="Влево"/>
+				<Option Goto="749" Text="Вправо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
