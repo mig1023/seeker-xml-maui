@@ -5312,5 +5312,13 @@
 				<Option Goto="760" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="755">
+			<Text>Куда прикажете пилоту держать курс?</Text>
+			<Options>
+				<Option Goto="730" Text="Прямо"/>
+				<Option Goto="736" Text="Влево"/>
+				<Option Goto="735" Text="Вправо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
