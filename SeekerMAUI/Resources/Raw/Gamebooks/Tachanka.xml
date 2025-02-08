@@ -5388,5 +5388,11 @@
 				<Option Goto="761"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="766">
+			<Text>— Именем Революции! - грозно произнес командир - «Пли!!!»\n\n«Бах-бах-х! Ба-бах!!»\n\nКОНЕЦ ИГРЫ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
