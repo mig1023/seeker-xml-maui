@@ -5262,5 +5262,11 @@
 				<Option Goto="749" Text="Вправо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="748">
+			<Text>Вражеский аэроплан приблизился сзади и расстрелял вас почти в упор.\n\nВЫ ПОГИБЛИ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
