@@ -5268,5 +5268,13 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="749">
+			<Text>Куда прикажете пилоту держать курс?</Text>
+			<Options>
+				<Option Goto="734" Text="Прямо"/>
+				<Option Goto="740" Text="Влево"/>
+				<Option Goto="748" Text="Вправо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
