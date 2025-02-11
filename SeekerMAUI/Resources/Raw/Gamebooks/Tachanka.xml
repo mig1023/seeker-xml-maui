@@ -434,8 +434,7 @@
 		<Paragraph No="59">
 			<Text>ТЮЛЕ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
-				<Option Goto="784" Text="Событие"/>
-				<Option Goto="362" Text="Событие"/>
+				<Option Goto="784,362"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="60">
