@@ -1457,9 +1457,7 @@
 		<Paragraph No="203">
 			<Text>Пилот выпустил по вам длинную очередь из «Льюиса»!\n\nПроверьте, не попала ли шальная пуля в кого-то из ваших бойцов...</Text>
 			<Options>
-				<Option Goto="126" Text="Событие"/>
-				<Option Goto="191" Text="Событие"/>
-				<Option Goto="210" Text="Событие"/>
+				<Option Goto="126,191,210"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="204">
