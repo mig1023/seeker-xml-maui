@@ -1000,8 +1000,7 @@
 			<Text>ТАКЫЛ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
 				<Option Goto="155" Text="Записано слово «лагерь»"/>
-				<Option Goto="269" Text="Событие"/>
-				<Option Goto="801" Text="Событие"/>
+				<Option Goto="269,801" Text="Нет этого слова"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="144">
