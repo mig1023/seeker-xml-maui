@@ -353,8 +353,7 @@
 			<Text>ЧЕРКЕС\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
 				<Option Goto="42" Text="Записано слово «телеграф»"/>
-				<Option Goto="53" Text="Событие"/>
-				<Option Goto="102" Text="Событие"/>
+				<Option Goto="53,102" Text="Нет этого слова"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="49">
