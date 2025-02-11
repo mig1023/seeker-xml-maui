@@ -1049,8 +1049,7 @@
 		<Paragraph No="150">
 			<Text>ЧЕГЕР\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
-				<Option Goto="274" Text="Событие"/>
-				<Option Goto="802" Text="Событие"/>
+				<Option Goto="274,802"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="151">
