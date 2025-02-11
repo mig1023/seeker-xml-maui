@@ -1024,8 +1024,7 @@
 		<Paragraph No="146">
 			<Text>МАЙРЫК\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
-				<Option Goto="151" Text="Событие"/>
-				<Option Goto="134" Text="Событие"/>
+				<Option Goto="151,134"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="147">
