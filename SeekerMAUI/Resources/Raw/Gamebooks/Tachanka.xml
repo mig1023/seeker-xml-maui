@@ -737,8 +737,7 @@
 			<Text>СИМФЕРОПОЛЬ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
 				<Option Goto="463" Text="Записано слово «эпидемия»"/>
-				<Option Goto="405" Text="Событие"/>
-				<Option Goto="795" Text="Событие"/>
+				<Option Goto="405,795" Text="Нет этого слова"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="106">
