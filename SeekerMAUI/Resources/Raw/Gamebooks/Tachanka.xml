@@ -674,8 +674,7 @@
 		<Paragraph No="95">
 			<Text>ДЖАБАЧ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
-				<Option Goto="89" Text="Событие"/>
-				<Option Goto="99" Text="Событие"/>
+				<Option Goto="89,99"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="96">
