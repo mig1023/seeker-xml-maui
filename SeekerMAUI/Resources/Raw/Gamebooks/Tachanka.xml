@@ -257,9 +257,7 @@
 		<Paragraph No="35">
 			<Text>ГАВРА\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
-				<Option Goto="728" Text="Событие"/>
-				<Option Goto="83" Text="Событие"/>
-				<Option Goto="36" Text="Событие"/>
+				<Option Goto="728,83,36"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="36">
