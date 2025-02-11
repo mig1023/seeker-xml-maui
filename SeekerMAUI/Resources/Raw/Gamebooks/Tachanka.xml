@@ -1067,8 +1067,7 @@
 		<Paragraph No="153">
 			<Text>МОНАЙ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
-				<Option Goto="803" Text="Событие"/>
-				<Option Goto="464" Text="Событие"/>
+				<Option Goto="803,464"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="154">
