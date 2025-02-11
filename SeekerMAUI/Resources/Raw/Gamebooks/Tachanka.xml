@@ -629,8 +629,7 @@
 		<Paragraph No="88">
 			<Text>КАРАЧ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
-				<Option Goto="813" Text="Событие"/>
-				<Option Goto="89" Text="Событие"/>
+				<Option Goto="813,89"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="89">
