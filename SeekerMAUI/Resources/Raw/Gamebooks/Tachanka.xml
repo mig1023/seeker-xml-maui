@@ -373,8 +373,7 @@
 		<Paragraph No="51">
 			<Text>КАМЫШЛЫ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
-				<Option Goto="782" Text="Событие"/>
-				<Option Goto="74" Text="Событие"/>
+				<Option Goto="782,74"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="52">
