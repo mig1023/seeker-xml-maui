@@ -1362,8 +1362,7 @@
 		<Paragraph No="190">
 			<Text>ЭСКИ-ЭЛЬ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
-				<Option Goto="812" Text="Событие"/>
-				<Option Goto="182" Text="Событие"/>
+				<Option Goto="812,182"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="191">
