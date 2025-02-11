@@ -486,8 +486,7 @@
 		<Paragraph No="66">
 			<Text>БАЙРАК\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
-				<Option Goto="786" Text="Событие"/>
-				<Option Goto="313" Text="Событие"/>
+				<Option Goto="786,313"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="67">
