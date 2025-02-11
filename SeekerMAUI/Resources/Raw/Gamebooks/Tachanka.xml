@@ -575,8 +575,7 @@
 		<Paragraph No="80">
 			<Text>МАНГУШ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			<Options>
-				<Option Goto="392" Text="Событие"/>
-				<Option Goto="793" Text="Событие"/>
+				<Option Goto="392,793"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="81">
