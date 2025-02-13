@@ -547,7 +547,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="70">
-			<Text>ГАДЖИКОЙ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Texts>
+				<Text Style="Bold, Center">ГАДЖИКОЙ</Text>
+				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			</Texts>
 			<Options>
 				<Option Goto="787,309"/>
 			</Options>
