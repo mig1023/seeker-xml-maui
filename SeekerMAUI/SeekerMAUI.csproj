@@ -258,6 +258,11 @@
 	  <None Remove="Resources\Images\Images\swampfever_spectralbushes.jpg" />
 	  <None Remove="Resources\Images\Images\swampfever_sulfurcavity.jpg" />
 	  <None Remove="Resources\Images\Images\swampfever_tugofwar.jpg" />
+	  <None Remove="Resources\Images\Images\Tachanka\artem.jpg" />
+	  <None Remove="Resources\Images\Images\Tachanka\grigoriy.jpg" />
+	  <None Remove="Resources\Images\Images\Tachanka\nikifor.jpg" />
+	  <None Remove="Resources\Images\Images\Tachanka\semen.jpg" />
+	  <None Remove="Resources\Images\Images\Tachanka\varvara.jpg" />
 	  <None Remove="Resources\Images\Images\thosewhoareabouttodie_essedarius.jpg" />
 	  <None Remove="Resources\Images\Images\thosewhoareabouttodie_retiarius.jpg" />
 	  <None Remove="Resources\Images\Images\thosewhoareabouttodie_secutor.jpg" />
@@ -473,6 +478,11 @@
 	  <MauiImage Include="Resources\Images\Images\SwampFever\spectralbushes.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SwampFever\sulfurcavity.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SwampFever\tugofwar.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Tachanka\artem.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Tachanka\grigoriy.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Tachanka\nikifor.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Tachanka\semen.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Tachanka\varvara.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\essedarius.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\retiarius.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\secutor.jpg" />
