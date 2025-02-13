@@ -487,7 +487,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="62">
-			<Text>ЮКАРИ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Texts>
+				<Text Style="Bold, Center">ЮКАРИ</Text>
+				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			</Texts>
 			<Options>
 				<Option Goto="373,90"/>
 			</Options>
