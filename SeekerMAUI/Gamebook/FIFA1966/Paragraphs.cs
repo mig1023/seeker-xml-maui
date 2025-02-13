@@ -12,7 +12,6 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             {
                 Options = new List<Option>(),
                 Modification = new List<Abstract.IModification>(),
-                Images = Xml.ImagesParse(xmlParagraph["Images"]),
             };
 
             foreach (XmlNode xmlOption in xmlParagraph.SelectNodes("Options/*"))
