@@ -2173,15 +2173,13 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="210">
-			<Text>Потеряв три минуты, я нашёл абзац, где написано, что сначала нужно выдвинуть...</Text>
-			<Images>
-				<Song192>
-					<Text>...затем...</Text>
-				</Song192>
-				<Song181>
-					<Text>(время -3)</Text>
-				</Song181>
-			</Images>
+			<Texts>
+				<Text>Потеряв три минуты, я нашёл абзац, где написано, что сначала нужно выдвинуть...\n</Text>
+				<Image Path="Song192"/>
+				<Text>...затем...\n</Text>
+				<Image Path="Song181"/>
+				<Text>(время -3)</Text>
+			</Texts>
 			<Modifications>
 				<Time Value="-3"/>
 			</Modifications>
