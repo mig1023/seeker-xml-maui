@@ -639,9 +639,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="85">
-			<Images>
-				<Place/>
-			</Images>
+			<Texts>
+				<Image Path="Place"/>
+			</Texts>
 			<Options>
 				<Option Goto="67" Text="«Хм, неплохо»"/>
 			</Options>
