@@ -867,7 +867,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="113">
-			<Text>ОСМА\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Texts>
+				<Text Style="Bold, Center">ОСМА</Text>
+				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			</Texts>
 			<Options>
 				<Option Goto="435" Text="У вас есть боец Усман"/>
 				<Option Goto="456" Text="Нет Усмана"/>
