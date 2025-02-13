@@ -948,7 +948,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="124">
-			<Text>САКИ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Texts>
+				<Text Style="Bold, Center">САКИ</Text>
+				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			</Texts>
 			<Options>
 				<Option Goto="121,118"/>
 			</Options>
