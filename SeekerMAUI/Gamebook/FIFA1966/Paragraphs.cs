@@ -35,12 +35,21 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             {
                 List<Text> texts = new List<Text>();
 
-                foreach (XmlNode text in xmlNode.SelectNodes("Texts/Text"))
+                foreach (XmlNode text in xmlNode.SelectNodes("Texts/*"))
                 {
                     string option = text.Attributes["Availability"]?.Value ?? String.Empty;
 
-                    if (String.IsNullOrEmpty(option) || Data.Actions.Availability(option))
+                    if (!String.IsNullOrEmpty(option) && !Data.Actions.Availability(option))
+                        continue;
+
+                    if (text.Name == "Text")
+                    {
                         texts.Add(Xml.TextLineParse(text));
+                    }
+                    else if (text.Name == "Image")
+                    {
+                        texts.Add(Xml.ImageLineParse(text));
+                    }
                 }
 
                 return texts;
