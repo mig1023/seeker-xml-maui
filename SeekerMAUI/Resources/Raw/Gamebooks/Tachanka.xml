@@ -1228,7 +1228,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="160">
-			<Text>ДЖИБУ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Texts>
+				<Text Style="Bold, Center">ДЖИБУ</Text>
+				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			</Texts>
 			<Options>
 				<Option Goto="676,805"/>
 			</Options>
