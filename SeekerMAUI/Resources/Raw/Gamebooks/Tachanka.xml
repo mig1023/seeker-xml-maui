@@ -428,7 +428,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="55">
-			<Text>ЭВЕЛЬ-ШЕЙХ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Texts>
+				<Text Style="Bold, Center">ЭВЕЛЬ-ШЕЙХ</Text>
+				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			</Texts>
 			<Options>
 				<Option Goto="75,783"/>
 			</Options>
