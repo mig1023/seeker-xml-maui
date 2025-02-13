@@ -1320,7 +1320,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="170">
-			<Text>КАРАШ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Texts>
+				<Text Style="Bold, Center">КАРАШ</Text>
+				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			</Texts>
 			<Options>
 				<Option Goto="550" Text="Записано слово «пропуск»"/>
 				<Option Goto="807" Text="Нет этого слова"/>
