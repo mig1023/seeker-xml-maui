@@ -185,6 +185,7 @@
 	  <None Remove="Resources\Images\Images\coldheartofdalrok_pic8.jpg" />
 	  <None Remove="Resources\Images\Images\coldheartofdalrok_pic9.jpg" />
 	  <None Remove="Resources\Images\Images\deathofantiquary_parrot.jpg" />
+	  <None Remove="Resources\Images\Images\FIFA1966\ozerov.jpg" />
 	  <None Remove="Resources\Images\Images\genesis_plan1.jpg" />
 	  <None Remove="Resources\Images\Images\genesis_plan2.jpg" />
 	  <None Remove="Resources\Images\Images\nightmare_allday.jpg" />
@@ -405,6 +406,7 @@
 	  <MauiImage Include="Resources\Images\Images\ColdHeartOfDalrok\dalrok8.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ColdHeartOfDalrok\dalrok9.jpg" />
 	  <MauiImage Include="Resources\Images\Images\DeathOfAntiquary\parrot.jpg" />
+	  <MauiImage Include="Resources\Images\Images\FIFA1966\ozerov.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Genesis\genesis1.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Genesis\genesis2.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\allday.jpg" />

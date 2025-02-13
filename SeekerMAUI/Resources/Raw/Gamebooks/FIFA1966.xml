@@ -94,13 +94,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="4">
-			<Text>Отличный момент, два наших форварда вырываются к воротам, перед ними только один защитник...\n\nКажется невозможным, что такой эпизод не завершился голом. Но увы — это так...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Отличный момент, два наших форварда вырываются к воротам, перед ними только один защитник...\n\nКажется невозможным, что такой эпизод не завершился голом. Но увы — это так...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="5">
-			<Text>Советская команда использует нерасторопность и несобранность защитников соперника и забивает гол!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Советская команда использует нерасторопность и несобранность защитников соперника и забивает гол!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -109,13 +115,17 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="6">
-			<Text>Опасный момент после подачи углового...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опасный момент после подачи углового...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="7">
 			<Texts>
+				<Image Path="Ozerov"/>
 				<Text Availability="расходники/кому момент = 1">Сборная СССР в атаке!</Text>
 				<Text Availability="расходники/кому момент = 2">Оппоненты атакуют!</Text>
 				<Text Availability="расходники/кому момент = 0">На поле идет позиционная борьба без преимущества одной из команд...</Text>
@@ -170,7 +180,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="9">
-			<Text>Опасный момент, но увы, никто из наших футболистов не среагировал как надо...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опасный момент, но увы, никто из наших футболистов не среагировал как надо...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -193,7 +206,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="11">
-			<Text>...и мяч влетает в ворота сборной Советского Союза.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>...и мяч влетает в ворота сборной Советского Союза.</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
@@ -221,7 +237,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="13">
-			<Text>Удар из-за пределов штрафной, но далеко в сторону от ворот.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Удар из-за пределов штрафной, но далеко в сторону от ворот.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -278,19 +297,28 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="17">
-			<Text>Опаснейший момент у ворот сборной Советского Союза!\n\nПросто чудом мяч не оказался в сетке!!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опаснейший момент у ворот сборной Советского Союза!\n\nПросто чудом мяч не оказался в сетке!!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="18">
-			<Text>Подача! Удар! Увы, вратарь на месте</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Подача! Удар! Увы, вратарь на месте...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="19">
-			<Text>Воспользовавшись неудачной игрой вратаря соперников, наша команда забивает гол. Оппоненты апеллируют к судье, утверждая, что было нападение на вратаря — но безрезультатно.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Воспользовавшись неудачной игрой вратаря соперников, наша команда забивает гол. Оппоненты апеллируют к судье, утверждая, что было нападение на вратаря — но безрезультатно.</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -299,13 +327,17 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="20">
-			<Text>Отличный пас вперед, в штрафную наших соперников... Но увы, некому им воспользоваться...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Отличный пас вперед, в штрафную наших соперников... Но увы, некому им воспользоваться...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="21">
 			<Texts>
+				<Image Path="Ozerov"/>
 				<Text Availability="расходники/сколько раундов = 1, 1 из 5 = 1">Идут первые минуты матча</Text>
 				<Text Availability="расходники/сколько раундов = 2, 1 из 5 = 1">Пятнадцатая минута игры</Text>
 				<Text Availability="расходники/сколько раундов = 3, 1 из 5 = 1">Двадцать третья минута</Text>
@@ -396,19 +428,28 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="22">
-			<Text>Может быть опасно... Но защитник нашей команды уверенно разряжает обстановку...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Может быть опасно... Но защитник нашей команды уверенно разряжает обстановку...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="23">
-			<Text>Отличный прострел вдоль ворот!\n\nНо, к сожалению, никто из игроков советской команды не сумел завершить усилия партнеров...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Отличный прострел вдоль ворот!\n\nНо, к сожалению, никто из игроков советской команды не сумел завершить усилия партнеров...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="24">
-			<Text>Опасный момент у ворот соперников!! Выход один на один... Но увы, полуметра не хватило нашему игроку...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опасный момент у ворот соперников!! Выход один на один... Но увы, полуметра не хватило нашему игроку...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -456,6 +497,7 @@
 		</Paragraph>
 		<Paragraph No="27">
 			<Texts>
+				<Image Path="Ozerov"/>
 				<Text Availability="расходники/кому момент = 1">Сборная СССР в атаке!</Text>
 				<Text Availability="расходники/кому момент = 2">Оппоненты атакуют!</Text>
 				<Text Availability="расходники/кому момент = 0">На поле идет позиционная борьба без преимущества одной из команд...</Text>
@@ -479,13 +521,17 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="28">
-			<Text>Удар мимо ворот!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Удар мимо ворот!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="29">
 			<Texts>
+				<Image Path="Ozerov"/>
 				<Text Availability="тактическое построение/модификатор = 1, 1 из 2 = 1">Советская команда атакует!</Text>
 				<Text Availability="тактическое построение/модификатор = 2, 1 из 2 = 1">Советская команда играет в эти минуты от обороны!</Text>
 				<Text Availability="тактическое построение/модификатор = 1, 1 из 2 = 2">Советская команда ищет удачи у ворот противника!</Text>
@@ -531,13 +577,17 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="31">
-			<Text>Дальний удар, но совсем в сторону от ворот!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Дальний удар, но совсем в сторону от ворот!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="32">
 			<Texts>
+				<Image Path="Ozerov"/>
 				<Text Availability="расходники/кому момент = 1">Сборная СССР в атаке!</Text>
 				<Text Availability="расходники/кому момент = 2">Оппоненты атакуют!</Text>
 				<Text Availability="расходники/кому момент = 0">На поле идет позиционная борьба без преимущества одной из команд...</Text>
@@ -568,7 +618,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="34">
-			<Text>Отлично играет наш голкипер!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Отлично играет наш голкипер!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -586,7 +639,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="36">
-			<Text>Отличный дальний удар, но начеку голкипер команды соперника</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Отличный дальний удар, но начеку голкипер команды соперника...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -602,7 +658,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="38">
-			<Text>Ах, какой неприятный момент! К счастью для сборной СССР, мяч миновал ворота...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Ах, какой неприятный момент! К счастью для сборной СССР, мяч миновал ворота...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -623,7 +682,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="40">
-			<Text>Наши футболисты пытаются использовать дальние удары. Однако не всегда эффективно...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Наши футболисты пытаются использовать дальние удары. Однако не всегда эффективно...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -635,13 +697,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="42">
-			<Text>Дальний удар, но его уверенно парирует наш вратарь!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Дальний удар, но его уверенно парирует наш вратарь!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="43">
-			<Text>Ох, секундная расслабленность — и вот она, расплата!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Ох, секундная расслабленность — и вот она, расплата!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
@@ -650,7 +718,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="44">
-			<Text>Выход один на один! Вратарь не у дел! Бросившийся в подкат защитник не в состоянии предотвратить гол!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Выход один на один! Вратарь не у дел! Бросившийся в подкат защитник не в состоянии предотвратить гол!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -685,7 +756,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="46">
-			<Text>Опасная подача в штрафную, однако наш вратарь начеку!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опасная подача в штрафную, однако наш вратарь начеку!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -709,19 +783,28 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="48">
-			<Text>Прекрасно играет наш вратарь, пресекая атаку оппонентов.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Прекрасно играет наш вратарь, пресекая атаку оппонентов.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="49">
-			<Text>Опасный момент у ворот сборной СССР!\n\nК счастью, уверенно играет вратарь!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опасный момент у ворот сборной СССР!\n\nК счастью, уверенно играет вратарь!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="50">
-			<Text>Сборная СССР пропускает гол...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Сборная СССР пропускает гол...</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
@@ -730,7 +813,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="51">
-			<Text>Опасный момент у ворот наших футболистов!\n\nК счастью, все закончилось благополучно...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опасный момент у ворот наших футболистов!\n\nК счастью, все закончилось благополучно...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -745,7 +831,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="53">
-			<Text>Команды покидают поле...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Команды покидают поле...</Text>
+			</Texts>
 			<Modifications>
 				<Set Path="расходники/вороги" Value="0"/>
 				<FxWinner/>
@@ -796,7 +885,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="55">
-			<Text>Хорошая атака советских футболистов!\n\nНо мяч оказывается в руках у голкипера.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Хорошая атака советских футболистов!\n\nНо мяч оказывается в руках у голкипера.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -857,7 +949,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="59">
-			<Text>Советская команда забивает гол!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Советская команда забивает гол!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -866,7 +961,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="60">
-			<Text>Сборная СССР опасно атакует... Но ей чуть-чуть не хватает удачи...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Сборная СССР опасно атакует... Но ей чуть-чуть не хватает удачи...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -912,7 +1010,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="63">
-			<Text>Пас вдоль ворот — и наши футболисты забивают гол!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Пас вдоль ворот — и наши футболисты забивают гол!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -921,7 +1022,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="64">
-			<Text>Прекрасный пас на выход, и точный удар — наша команда забивает гол!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Прекрасный пас на выход, и точный удар — наша команда забивает гол!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -943,6 +1047,7 @@
 		</Paragraph>
 		<Paragraph No="66">
 			<Texts>
+				<Image Path="Ozerov"/>
 				<Text Availability="расходники/кому момент = 1">Сборная СССР в атаке!</Text>
 				<Text Availability="расходники/кому момент = 2">Оппоненты атакуют!</Text>
 				<Text Availability="расходники/кому момент = 0">На поле идет позиционная борьба без преимущества одной из команд...</Text>
@@ -1028,7 +1133,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="67">
-			<Text>Сборная СССР забивает гол с пенальти!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Сборная СССР забивает гол с пенальти!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -1037,7 +1145,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="68">
-			<Text>Спорный момент в штрафной нашей сборной. Соперники требуют пенальти — но судья непреклонен.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Спорный момент в штрафной нашей сборной. Соперники требуют пенальти — но судья непреклонен.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -1103,7 +1214,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="72">
-			<Text>Опасный момент у ворот сборной СССР!\n\nК счастью, все кончилось удачно!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опасный момент у ворот сборной СССР!\n\nК счастью, все кончилось удачно!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -1119,13 +1233,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="74">
-			<Text>Подача углового, однако особой опасности удар по воротам не представлял...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Подача углового, однако особой опасности удар по воротам не представлял...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="75">
-			<Text>Сборная СССР забивает!!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Сборная СССР забивает!!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -1134,13 +1254,17 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="76">
-			<Text>Дальний удар! Мяч летит прямо в угол — но, увы, задевает кого-то из игроков и пролетает далеко в стороне от ворот.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Дальний удар! Мяч летит прямо в угол — но, увы, задевает кого-то из игроков и пролетает далеко в стороне от ворот.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="77">
 			<Texts>
+				<Image Path="Ozerov"/>
 				<Text Availability="расходники/кому момент = 1">Сборная СССР в атаке!</Text>
 				<Text Availability="расходники/кому момент = 2">Оппоненты атакуют!</Text>
 				<Text Availability="расходники/кому момент = 0">На поле идет позиционная борьба без преимущества одной из команд...</Text>
@@ -1165,7 +1289,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="78">
-			<Text>Дальний удар, но незатейливый, прямо в руки вратарю...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Дальний удар, но незатейливый, прямо в руки вратарю...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -1190,13 +1317,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="80">
-			<Text>Дальний удар игрока сборной СССР — но прямо в руки вратарю!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Дальний удар игрока сборной СССР — но прямо в руки вратарю!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="Жаль"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="81">
-			<Text>Гол! Мяч влетает в ворота наших соперников!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Гол! Мяч влетает в ворота наших соперников!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -1245,13 +1378,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="85">
-			<Text>Опасный удар со штрафного! Но наш голкипер успешно предотвращает угрозу воротам.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опасный удар со штрафного! Но наш голкипер успешно предотвращает угрозу воротам.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="86">
-			<Text>Сборная СССР получает право на пенальти и забивает!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Сборная СССР получает право на пенальти и забивает!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -1260,13 +1399,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="87">
-			<Text>Навес в штрафную нашей команды. Уверенно играет вратарь!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Навес в штрафную нашей команды. Уверенно играет вратарь!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="88">
-			<Text>Опаснейший момент, но форвард оппонентов не смог пробить как следует...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опаснейший момент, но форвард оппонентов не смог пробить как следует...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -1295,13 +1440,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="90">
-			<Text>Атака на ворота сборной СССР, но, к счастью, защита сыграла уверенно.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Атака на ворота сборной СССР, но, к счастью, защита сыграла уверенно.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="91">
-			<Text>Пенальти — и советские футболисты используют этот шанс!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Пенальти — и советские футболисты используют этот шанс!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -1310,7 +1461,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="92">
-			<Text>Советская команда пропускает гол...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Советская команда пропускает гол...</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
@@ -1319,7 +1473,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="93">
-			<Text>Наш форвард рискнул нанести удар с острого угла, но не рассчитал свои силы.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Наш форвард рискнул нанести удар с острого угла, но не рассчитал свои силы.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -1332,13 +1489,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="95">
-			<Text>Ах, какой момент! Лишь волнение не позволило игроку команды соперника завершить комбинацию точным ударом.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Ах, какой момент! Лишь волнение не позволило игроку команды соперника завершить комбинацию точным ударом.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="96">
-			<Text>Ох, какая ошибка защитника! Нет, и пас тоже отличный, и технику игрок соперника продемонстрировал прекрасный, но без этой ошибки, вероятно, гол бы не был возможен...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Ох, какая ошибка защитника! Нет, и пас тоже отличный, и технику игрок соперника продемонстрировал прекрасный, но без этой ошибки, вероятно, гол бы не был возможен...</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
@@ -1347,7 +1510,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="97">
-			<Text>Советская сборная атакует, но надежен голкипер соперника.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Советская сборная атакует, но надежен голкипер соперника.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -1368,13 +1534,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="99">
-			<Text>Опасный момент... Но все под контролем у советских футболистов!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опасный момент... Но все под контролем у советских футболистов!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="100">
-			<Text>Опасный, опаснейший удар по воротам сборной Советского Союза!\n\nНаш вратарь на высоте!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Опасный, опаснейший удар по воротам сборной Советского Союза!\n\nНаш вратарь на высоте!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -1485,13 +1657,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="106">
-			<Text>Атака на ворота нашей сборной, опасный момент — но наш вратарь на высоте!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Атака на ворота нашей сборной, опасный момент — но наш вратарь на высоте!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="107">
-			<Text>Отличная комбинация завершается точным пасом на выход, и советская команда забивает гол!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Отличная комбинация завершается точным пасом на выход, и советская команда забивает гол!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -1500,19 +1678,28 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="108">
-			<Text>Какой опасный момент! Мяч едва не оказался в воротах советской команды!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Какой опасный момент! Мяч едва не оказался в воротах советской команды!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="109">
-			<Text>Вот сейчас мяч вполне мог оказаться в сетке ворот нашей команды.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Вот сейчас мяч вполне мог оказаться в сетке ворот нашей команды.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="110">
-			<Text>Сборная СССР пропускает гол...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Сборная СССР пропускает гол...</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
@@ -1521,7 +1708,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="111">
-			<Text>Сборная СССР атакует!.. Увы, неудачно...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Сборная СССР атакует!.. Увы, неудачно...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -1552,6 +1742,7 @@
 		</Paragraph>
 		<Paragraph No="114">
 			<Texts>
+				<Image Path="Ozerov"/>
 				<Text>Итак, судья и капитаны появляются из-под трибуны...</Text>
 				<Text Availability="орел-решка = 1">Выпал орел.</Text>
 				<Text Availability="орел-решка = 2">Выпала решка.</Text>
@@ -1566,7 +1757,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="115">
-			<Text>К счастью, мяч миновал ворота сборной СССР.</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>К счастью, мяч миновал ворота сборной СССР.</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
@@ -1619,7 +1813,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="118">
-			<Text>Сборная СССР забивает гол!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Сборная СССР забивает гол!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -1654,7 +1851,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="120">
-			<Text>Удар! И мяч оказывается в воротах советской команды...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Удар! И мяч оказывается в воротах советской команды...</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
@@ -1696,7 +1896,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="122">
-			<Text>Мяч влетает в сетку ворот советской команды...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Мяч влетает в сетку ворот советской команды...</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
@@ -1705,19 +1908,28 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="123">
-			<Text>Дальний удар, но выше ворот!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Дальний удар, но выше ворот!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="124">
-			<Text>Ошибается защитник наших соперников... Но увы, никто не успел воспользоваться этим!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Ошибается защитник наших соперников... Но увы, никто не успел воспользоваться этим!</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="125">
-			<Text>Мяч влетает в ворота сборной СССР...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Мяч влетает в ворота сборной СССР...</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="расходники/вороги" Value="1"/>
 			</Modifications>
@@ -1732,7 +1944,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="127">
-			<Text>Прорыв, передача в центр, удар головой!\n\nМяч в воротах!</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Прорыв, передача в центр, удар головой!\n\nМяч в воротах!</Text>
+			</Texts>
 			<Modifications>
 				<Mod Path="ИГРА/СССР" Value="1"/>
 			</Modifications>
@@ -1741,13 +1956,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="128">
-			<Text>Дальний удар по воротам нашей команды, но неопасный...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Дальний удар по воротам нашей команды, но неопасный...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="129">
-			<Text>Хлесткий удар — но мимо ворот...</Text>
+			<Texts>
+				<Image Path="Ozerov"/>
+				<Text>Хлесткий удар — но мимо ворот...</Text>
+			</Texts>
 			<Options>
 				<Option Goto="21" Text="!"/>
 			</Options>
