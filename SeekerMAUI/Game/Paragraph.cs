@@ -12,8 +12,6 @@ namespace SeekerMAUI.Game
 
         public List<Abstract.IModification> Modification { get; set; }
 
-        public Dictionary<string, string> Images { get; set; }
-
         public string Trigger { get; set; }
 
         public string LateTrigger { get; set; }

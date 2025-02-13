@@ -346,18 +346,6 @@ namespace SeekerMAUI
             if (Game.Settings.IsEnabled("Audiobook"))
                 Speach(text);
 
-            if ((paragraph.Images != null) && (paragraph.Images.Count > 0))
-            {
-                foreach (string image in paragraph.Images.Keys.ToList())
-                {
-                    if (!Game.Settings.IsEnabled("WithoutStyles"))
-                        Text.Children.Add(Output.Interface.IllustrationImage(image));
-
-                    if (!String.IsNullOrEmpty(paragraph.Images[image]))
-                        Text.Children.Add(Output.Interface.Text(paragraph.Images[image]));
-                }
-            }
-
             bool walkingInCircles = Game.Data.Path.Contains(id.ToString());
 
             if (Game.Data.Constants.GetBool("WalkingInCirclesAcceptable"))

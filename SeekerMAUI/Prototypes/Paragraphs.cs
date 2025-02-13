@@ -172,8 +172,6 @@ namespace SeekerMAUI.Prototypes
             Trigger = Xml.StringParse(xmlParagraph["Triggers"]),
             LateTrigger = Xml.StringParse(xmlParagraph["LateTriggers"]),
             Untrigger = Xml.StringParse(xmlParagraph["Untriggers"]),
-
-            Images = Xml.ImagesParse(xmlParagraph["Images"]),
         };
 
         public Option OptionsTemplateWithoutGoto(XmlNode xmlOption) => new Option()
