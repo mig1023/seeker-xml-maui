@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
+using System.Xml.Linq;
 using SeekerMAUI.Gamebook;
 using SeekerMAUI.Output;
 
@@ -53,7 +54,7 @@ namespace SeekerMAUI.Game
 
         public static Dictionary<string, string> ImagesParse(XmlNode xmlNode)
         {
-            Dictionary<string, string> images = new Dictionary<string, string>();
+            var images = new Dictionary<string, string>();
 
             if (xmlNode == null)
                 return images;
@@ -92,6 +93,9 @@ namespace SeekerMAUI.Game
 
             return modification;
         }
+
+        public static Text ImageLineParse(XmlNode image) =>
+            new Text { Image = $"{Data.CurrentGamebook}/{image.Attributes["Path"].InnerText}.jpg" };
 
         public static Text TextLineParse(XmlNode text)
         {

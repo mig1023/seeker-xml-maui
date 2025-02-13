@@ -331,8 +331,16 @@ namespace SeekerMAUI
 
             foreach (Output.Text texts in paragraph.Texts)
             {
-                Text.Children.Add(Output.Interface.TextBySelect(texts));
-                text += $"{texts.Content}\\n\\n";
+                if (texts.Image != null)
+                {
+                    if (!Game.Settings.IsEnabled("WithoutStyles"))
+                        Text.Children.Add(Output.Interface.IllustrationImage(texts.Image));
+                }
+                else
+                {
+                    Text.Children.Add(Output.Interface.TextBySelect(texts));
+                    text += $"{texts.Content}\\n\\n";
+                }
             }
 
             if (Game.Settings.IsEnabled("Audiobook"))
@@ -349,7 +357,6 @@ namespace SeekerMAUI
                         Text.Children.Add(Output.Interface.Text(paragraph.Images[image]));
                 }
             }
-
 
             bool walkingInCircles = Game.Data.Path.Contains(id.ToString());
 

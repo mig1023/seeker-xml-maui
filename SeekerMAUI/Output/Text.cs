@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 
 namespace SeekerMAUI.Output
 {
@@ -16,5 +15,7 @@ namespace SeekerMAUI.Output
 
         public bool Bold { get; set; }
         public bool Italic { get; set; }
+
+        public string Image { get; set; }
     }
 }

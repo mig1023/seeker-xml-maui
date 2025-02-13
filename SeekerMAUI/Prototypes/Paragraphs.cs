@@ -145,8 +145,17 @@ namespace SeekerMAUI.Prototypes
             {
                 List<Text> texts = new List<Text>();
 
-                foreach (XmlNode text in xmlNode.SelectNodes("Texts/Text"))
-                    texts.Add(Xml.TextLineParse(text));
+                foreach (XmlNode text in xmlNode.SelectNodes("Texts/*"))
+                {
+                    if (text.Name == "Text")
+                    {
+                        texts.Add(Xml.TextLineParse(text));
+                    }
+                    else if (text.Name == "Image")
+                    {
+                        texts.Add(Xml.ImageLineParse(text));
+                    }
+                }
 
                 return texts;
             }
