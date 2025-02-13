@@ -921,7 +921,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="120">
-			<Text>КИЯБАХ\n\n(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			<Texts>
+				<Text Style="Bold, Center">КИЯБАХ</Text>
+				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+			</Texts>
 			<Options>
 				<Option Goto="144,798"/>
 			</Options>
