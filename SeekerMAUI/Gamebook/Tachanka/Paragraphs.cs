@@ -41,9 +41,9 @@ namespace SeekerMAUI.Gamebook.Tachanka
                     {
                         option.Aftertexts.Add(Xml.ImageLineParse(optionMod));
                     }
-                    else if (optionMod["Value"] != null)
+                    else if (optionMod.Attributes["Value"] != null)
                     {
-                        option.Do.Add(Xml.ModificationParse(optionMod, new Modification()));
+                        option.Do.Add(ModificationParse(optionMod));
                     }
                 }
 

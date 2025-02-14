@@ -4,20 +4,20 @@ namespace SeekerMAUI.Gamebook.Tachanka
 {
     class Modification : Prototypes.Modification, Abstract.IModification
     {
-        //public override void Do()
-        //{
-        //    if (Name == "Crew")
-        //    {
-        //        Character.Protagonist.Strength = Character.Protagonist.MaxStrength;
-        //    }
-        //    else if (Name == "CapeProtect")
-        //    {
-        //        Character.Protagonist.Strength += (Game.Option.IsTriggered("Плащ") ? 1 : -1);
-        //    }
-        //    else
-        //    {
-        //        base.Do(Character.Protagonist);
-        //    }
-        //}
+        public override void Do()
+        {
+            if (Name == "Crew")
+            {
+                if (Character.Protagonist.Team.Count >= 3)
+                    Character.Protagonist.Team.RemoveAt(3);
+
+                var crew = ValueString.Split(',');
+                Character.Protagonist.Team.Add(new Crew(crew[0], crew[1]));
+            }
+            else
+            {
+                base.Do(Character.Protagonist);
+            }
+        }
     }
 }

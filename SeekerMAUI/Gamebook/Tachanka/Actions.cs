@@ -15,7 +15,8 @@ namespace SeekerMAUI.Gamebook.Tachanka
 
             foreach (Crew crew in Character.Protagonist.Team)
             {
-                string wounded = crew.Wounded ? "(ранен)" : string.Empty;
+                var female = crew.Name == "Варя" ? "а" : string.Empty;
+                var wounded = crew.Wounded ? $"(ранен{female})" : string.Empty;
                 status.Add($"{crew.Name}{wounded}");
             }
 
@@ -25,10 +26,11 @@ namespace SeekerMAUI.Gamebook.Tachanka
         public override List<string> AdditionalStatus() => new List<string>
         {
             $"Кони: {Character.Protagonist.HorseEndurance}/10",
-            $"Тачанка: {Character.Protagonist.Wheels}/5 " +
-                $"{Character.Protagonist.Carriage}/5 " +
-                $"{Character.Protagonist.Harness}/5 " +
-                $"{Character.Protagonist.Springs}/5",
+            $"Тачанка: " +
+                $"{Character.Protagonist.Wheels}/" +
+                $"{Character.Protagonist.Carriage}/" +
+                $"{Character.Protagonist.Harness}/" +
+                $"{Character.Protagonist.Springs}",
             $"Время: {Character.Protagonist.Time}/28",
             $"Патроны: {Character.Protagonist.Cartridges}",
             $"Гранаты: {Character.Protagonist.Grenades}",
@@ -67,9 +69,54 @@ namespace SeekerMAUI.Gamebook.Tachanka
             return true;
         }
 
-        public List<string> Crew()
+        private bool AvailabilityNode(string option)
         {
-            return new List<string> { "OK!" };
+            var inTeam = Character.Protagonist.Team
+                .Where(x => x.Name == option.Replace("!", String.Empty))
+                .Count() > 0;
+
+            if (option == "Есть место в тачанке")
+            {
+                return Character.Protagonist.Team.Count() < 3;
+            }
+            else if (option.Contains("!"))
+            {
+                return !inTeam && !Game.Option.IsTriggered(option.Replace("!", String.Empty).Trim());
+            }
+            else
+            {
+                return inTeam || Game.Option.IsTriggered(option.Trim());
+            }
+        }
+
+        public override bool Availability(string option)
+        {
+            if (String.IsNullOrEmpty(option))
+            {
+                return true;
+            }
+            else if (option.Contains(","))
+            {
+                var availability = option
+                    .Split(',')
+                    .Where(x => !AvailabilityNode(x.Trim()))
+                    .Count() == 0;
+
+                return availability;
+            }
+            else if (option.Contains("|"))
+            {
+                var availability = option
+                   .Split('|')
+                   .Where(x => AvailabilityNode(x.Trim()))
+                   .Count() > 0;
+
+                return availability;
+            }
+            else
+            {
+                return AvailabilityNode(option);
+            }
         }
     }
 }
