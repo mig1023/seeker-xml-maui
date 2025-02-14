@@ -236,10 +236,10 @@
 		<Paragraph No="30">
 			<Texts>
 				<Text Style="Bold, Center">БАГА</Text>
-				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)\n\nСобытие - 310</Text>
+				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			</Texts>
 			<Options>
-				<Option Goto="726,31"/>
+				<Option Goto="726,310"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="31">
