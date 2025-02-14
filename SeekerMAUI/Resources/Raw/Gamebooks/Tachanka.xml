@@ -105,6 +105,7 @@
 		</Paragraph>
 		<Paragraph No="12">
 			<Text>— Навищо його було вбываты? - недовольно пробурчал Никифор - Йихали б соби тыхэнько дали - он тяжело вздохнул и бросил в вашу сторону настороженный взгляд. Кажется, ваш поступок вызвал его недовольство (запишите слово «солдат»). Вы тронулись дальше в путь...</Text>
+			<Triggers>солдат</Triggers>
 			<Options>
 				<Option Goto="26"/>
 			</Options>
@@ -1846,8 +1847,8 @@
 		</Paragraph>
 		<Paragraph No="236">
 			<Options>
-				<Option Goto="226" Text="Записано слово «солдат»"/>
-				<Option Goto="233" Text="Нет этого слова"/>
+				<Option Goto="226" Text="Записано слово «солдат»" Availability="солдат"/>
+				<Option Goto="233" Text="Нет этого слова" Availability="!солдат"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="237">
