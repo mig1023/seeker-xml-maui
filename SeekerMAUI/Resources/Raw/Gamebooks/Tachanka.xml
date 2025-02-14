@@ -771,8 +771,8 @@
 		</Paragraph>
 		<Paragraph No="98">
 			<Options>
-				<Option Goto="103" Text="В отряде есть Семен"/>
-				<Option Goto="94" Text="Нет Семена"/>
+				<Option Goto="103" Text="В отряде есть Семен" Availability="Семен"/>
+				<Option Goto="94" Text="Нет Семена" Availability="!Семен"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="99">
