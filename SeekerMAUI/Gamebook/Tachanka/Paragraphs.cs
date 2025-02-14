@@ -13,6 +13,7 @@ namespace SeekerMAUI.Gamebook.Tachanka
             foreach (XmlNode xmlOption in xmlParagraph.SelectNodes("Options/*"))
             {
                 Option option = OptionsTemplateWithoutGoto(xmlOption);
+                option.Aftertexts.Clear();
 
                 if (int.TryParse(xmlOption.Attributes["Goto"].Value, out int _))
                 {
@@ -24,10 +25,27 @@ namespace SeekerMAUI.Gamebook.Tachanka
                     option.Goto = int.Parse(link[random.Next(link.Count())]);
                 }
 
-                XmlNode optionMod = xmlOption.SelectSingleNode("*");
+                XmlNodeList optionMods = xmlOption.SelectNodes("*");
 
-                if ((optionMod != null) && (optionMod["Value"] != null))
-                    option.Do.Add(Xml.ModificationParse(optionMod, new Modification()));
+                foreach (XmlNode optionMod in optionMods)
+                {
+                    if (optionMod == null)
+                    {
+                        continue;
+                    }
+                    else if (optionMod.Name == "Text")
+                    {
+                        option.Aftertexts.Add(Xml.TextLineParse(optionMod));
+                    }
+                    else if (optionMod.Name == "Image")
+                    {
+                        option.Aftertexts.Add(Xml.ImageLineParse(optionMod));
+                    }
+                    else if (optionMod["Value"] != null)
+                    {
+                        option.Do.Add(Xml.ModificationParse(optionMod, new Modification()));
+                    }
+                }
 
                 paragraph.Options.Add(option);
             }
@@ -40,5 +58,11 @@ namespace SeekerMAUI.Gamebook.Tachanka
 
             return paragraph;
         }
+
+        public override Abstract.IActions ActionParse(XmlNode xmlAction) =>
+            base.ActionParse(xmlAction, new Actions(), GetProperties(new Actions()), new Modification());
+
+        public override Abstract.IModification ModificationParse(XmlNode xmlModification) =>
+           (Abstract.IModification)base.ModificationParse(xmlModification, new Modification());
     }
 }

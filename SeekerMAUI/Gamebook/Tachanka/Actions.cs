@@ -6,6 +6,11 @@ namespace SeekerMAUI.Gamebook.Tachanka
     {
         public override List<string> Status()
         {
+            if (Character.Protagonist.Team.Count <= 0)
+            {
+                return null;
+            }
+
             var status = new List<string>();
 
             foreach (Crew crew in Character.Protagonist.Team)
@@ -20,10 +25,10 @@ namespace SeekerMAUI.Gamebook.Tachanka
         public override List<string> AdditionalStatus() => new List<string>
         {
             $"Кони: {Character.Protagonist.HorseEndurance}/10",
-            $"Колёса: {Character.Protagonist.Wheels}/5",
-            $"Коляска: {Character.Protagonist.Carriage}/5",
-            $"Упряжь: {Character.Protagonist.Harness}/5",
-            $"Рессоры: {Character.Protagonist.Springs}/5",
+            $"Тачанка: {Character.Protagonist.Wheels}/5 " +
+                $"{Character.Protagonist.Carriage}/5 " +
+                $"{Character.Protagonist.Harness}/5 " +
+                $"{Character.Protagonist.Springs}/5",
             $"Время: {Character.Protagonist.Time}/28",
             $"Патроны: {Character.Protagonist.Cartridges}",
             $"Гранаты: {Character.Protagonist.Grenades}",
@@ -60,6 +65,11 @@ namespace SeekerMAUI.Gamebook.Tachanka
 
             toEndText += " Придётся начать сначала...";
             return true;
+        }
+
+        public List<string> Crew()
+        {
+            return new List<string> { "OK!" };
         }
     }
 }

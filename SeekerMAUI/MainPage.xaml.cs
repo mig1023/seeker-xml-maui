@@ -554,7 +554,17 @@ namespace SeekerMAUI
                 return;
 
             foreach (Output.Text aftertext in texts)
-                layout.Children.Add(Output.Interface.TextBySelect(aftertext));
+            {
+                if (aftertext.Image != null)
+                {
+                    if (!Game.Settings.IsEnabled("WithoutStyles"))
+                        layout.Children.Add(Output.Interface.IllustrationImage(aftertext.Image));
+                }
+                else
+                {
+                    layout.Children.Add(Output.Interface.TextBySelect(aftertext));
+                }
+            }
         }
 
         private Entry AddInputField(Game.Option option, object button)
