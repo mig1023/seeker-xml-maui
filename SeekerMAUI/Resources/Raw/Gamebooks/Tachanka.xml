@@ -511,8 +511,8 @@
 		<Paragraph No="63">
 			<Text>Ваши люди нашли 5 единиц лекарств (вам +5 лекарств).</Text>
 			<Options>
-				<Option Goto="68" Text="В отряде есть Варя"/>
-				<Option Goto="28" Text="В отряде есть Григорий">
+				<Option Goto="68" Text="В отряде есть Варя" Availability="Варя"/>
+				<Option Goto="28" Text="В отряде есть Григорий" Availability="Григорий">
 					<Text>Если их в отряде нет, то можете ехать в поселок Унд...</Text>
 				</Option>
 				<Option Goto="40"/>
