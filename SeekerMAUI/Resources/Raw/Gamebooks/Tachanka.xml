@@ -403,8 +403,8 @@
 		<Paragraph No="50">
 			<Text>— О! Мое почтение господа! - уважительно произнес Самуил Ростовский. Его сосед испуганно втянул голову в плечи.</Text>
 			<Options>
-				<Option Goto="31" Text="В отряде есть Варя"/>
-				<Option Goto="44" Text="Нет Вари"/>
+				<Option Goto="31" Text="В отряде есть Варя" Availability="Варя"/>
+				<Option Goto="44" Text="Нет Вари" Availability="!Варя"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="51">
