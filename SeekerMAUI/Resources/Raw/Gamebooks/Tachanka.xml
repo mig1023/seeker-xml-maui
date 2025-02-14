@@ -875,8 +875,8 @@
 		<Paragraph No="111">
 			<Text>— Кажется у нее шок - нахмурилась Варя - У нас в госпитале был один солдатик. Так он пролежал в коме три месяца.</Text>
 			<Options>
-				<Option Goto="116" Text="В отряде есть Никифор"/>
-				<Option Goto="123" Text="В отряде есть Григорий"/>
+				<Option Goto="116" Text="В отряде есть Никифор" Availability="Никифор"/>
+				<Option Goto="123" Text="В отряде есть Григорий" Availability="Григорий"/>
 				<Option Goto="108" Text="Нет этих бойцов"/>
 			</Options>
 		</Paragraph>
