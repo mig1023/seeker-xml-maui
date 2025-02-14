@@ -1363,7 +1363,7 @@
 			</Texts>
 			<Options>
 				<Option Goto="626" Text="Записано слово «дрезина»"/>
-				<Option Goto="648" Text="Записано слово «пропуск»"/>
+				<Option Goto="648" Text="Записано слово «пропуск»" Availability="пропуск"/>
 				<Option Goto="652" Text="Если у вас записана фраза «два аэродрома» или слово «Армянск», то вы можете поехать к аэродрому"/>
 				<Option Goto="808" Text="Нет ни одного из этих слов"/>
 			</Options>
@@ -1394,8 +1394,8 @@
 				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			</Texts>
 			<Options>
-				<Option Goto="618" Text="Записано слово «пропуск»"/>
-				<Option Goto="809" Text="Нет этого слова"/>
+				<Option Goto="618" Text="Записано слово «пропуск»" Availability="пропуск"/>
+				<Option Goto="809" Text="Нет этого слова" Availability="!пропуск"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="178">
