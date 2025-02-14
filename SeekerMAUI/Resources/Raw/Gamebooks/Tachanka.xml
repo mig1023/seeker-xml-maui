@@ -1286,8 +1286,8 @@
 				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			</Texts>
 			<Options>
-				<Option Goto="613" Text="Записано слово «пропуск»"/>
-				<Option Goto="806" Text="Нет этого слова"/>
+				<Option Goto="613" Text="Записано слово «пропуск»" Availability="пропуск"/>
+				<Option Goto="806" Text="Нет этого слова" Availability="!пропуск"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="165">
