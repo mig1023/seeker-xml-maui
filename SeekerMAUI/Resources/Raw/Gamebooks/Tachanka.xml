@@ -2812,6 +2812,7 @@
 		</Paragraph>
 		<Paragraph No="370">
 			<Text>Вы заметили, что ваши слова не убедили Никифора (запишите слово «дети»).\n\nМожете ехать:</Text>
+			<Triggers>дети</Triggers>
 			<Options>
 				<Option Goto="35" Text="В поселок Гавра"/>
 				<Option Goto="40" Text="В Унд"/>
@@ -2931,8 +2932,8 @@
 		</Paragraph>
 		<Paragraph No="386">
 			<Options>
-				<Option Goto="391" Text="У вас записано слово «солдат» или слово «дети»" Availability="солдат"/>
-				<Option Goto="390" Text="Ни одно из этих слов не записано" Availability="!солдат"/>
+				<Option Goto="391" Text="У вас записано слово «солдат» или слово «дети»" Availability="солдат|дети"/>
+				<Option Goto="390" Text="Ни одно из этих слов не записано" Availability="!солдат,!дети"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="387">
