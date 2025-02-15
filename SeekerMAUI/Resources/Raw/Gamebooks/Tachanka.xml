@@ -4672,8 +4672,8 @@
 		<Paragraph No="612">
 			<Text>Подъезжая к Армянску, вы почувствовали, что у вас начался сильный жар. Пришлось сделать остановку. Ваши товарищи тоже чувствовали себя плохо.</Text>
 			<Options>
-				<Option Goto="617" Text="В отряде есть Варя"/>
-				<Option Goto="622" Text="Нет Вари"/>
+				<Option Goto="617" Text="В отряде есть Варя" Availability="Варя"/>
+				<Option Goto="622" Text="Нет Вари" Availability="!Варя"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="613">
