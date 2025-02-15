@@ -4576,8 +4576,8 @@
 		</Paragraph>
 		<Paragraph No="599">
 			<Options>
-				<Option Goto="591" Text="В отряде есть Никифор"/>
-				<Option Goto="606" Text="Нет Никифора"/>
+				<Option Goto="591" Text="В отряде есть Никифор" Availability="Никифор"/>
+				<Option Goto="606" Text="Нет Никифора" Availability="!Никифор"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="600">
