@@ -2186,8 +2186,8 @@
 			<Text>Варя радостно прижала к себе щенка. Взобравшись на тачанку, девушка в порыве благодарности чмокнула вас в небритую щеку (запишите слово «щенок»).</Text>
 			<Triggers>щенок</Triggers>
 			<Options>
-				<Option Goto="272" Text="В отряде есть Григорий"/>
-				<Option Goto="278" Text="Нет Григория"/>
+				<Option Goto="272" Text="В отряде есть Григорий" Availability="Григорий"/>
+				<Option Goto="278" Text="Нет Григория" Availability="!Григорий"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="282">
