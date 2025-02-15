@@ -2899,9 +2899,9 @@
 		</Paragraph>
 		<Paragraph No="379">
 			<Options>
-				<Option Goto="383" Text="В отряде есть Семен"/>
-				<Option Goto="389" Text="В отряде есть Варя"/>
-				<Option Goto="387" Text="Нет никого из них"/>
+				<Option Goto="383" Text="В отряде есть Семен" Availability="Семен"/>
+				<Option Goto="389" Text="В отряде есть Варя" Availability="Варя"/>
+				<Option Goto="387" Text="Нет никого из них" Availability="!Семен,!Варя"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="380">
