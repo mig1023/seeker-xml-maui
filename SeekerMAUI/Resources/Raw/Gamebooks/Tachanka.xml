@@ -4583,7 +4583,7 @@
 		<Paragraph No="600">
 			<Options>
 				<Option Goto="821" Text="Записано слово «вода»" Availability="вода"/>
-				<Option Goto="778" Text="В отряде есть Григорий">
+				<Option Goto="778" Text="В отряде есть Григорий" Availability="Григорий">
 					<Text>Если нет ни того, ни другого...</Text>
 				</Option>
 				<Option Goto="779"/>
