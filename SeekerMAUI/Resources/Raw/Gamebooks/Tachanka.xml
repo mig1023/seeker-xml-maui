@@ -1932,8 +1932,8 @@
 		</Paragraph>
 		<Paragraph No="244">
 			<Options>
-				<Option Goto="248" Text="В отряде есть Григорий или Семен"/>
-				<Option Goto="242" Text="Нет ни одного из них"/>
+				<Option Goto="248" Text="В отряде есть Григорий или Семен" Availability="Григорий|Семен"/>
+				<Option Goto="242" Text="Нет ни одного из них" Availability="!Григорий,!Семен"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="245">
