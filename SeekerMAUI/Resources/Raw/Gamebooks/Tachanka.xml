@@ -4389,8 +4389,8 @@
 		</Paragraph>
 		<Paragraph No="573">
 			<Options>
-				<Option Goto="577" Text="В отряде есть Артем"/>
-				<Option Goto="583" Text="В отряде есть Григорий">
+				<Option Goto="577" Text="В отряде есть Артем" Availability="Артем"/>
+				<Option Goto="583" Text="В отряде есть Григорий" Availability="Григорий">
 					<Text>Если их нет, то вы решаете ехать дальше:</Text>
 				</Option>
 				<Option Goto="167" Text="В Чотай"/>
