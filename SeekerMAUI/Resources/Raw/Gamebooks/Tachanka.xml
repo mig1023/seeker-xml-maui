@@ -3826,8 +3826,8 @@
 		<Paragraph No="499">
 			<Text>В окошке показалась фигура офицера - Коммерсанты? - он окинул вас строгим взглядом.</Text>
 			<Options>
-				<Option Goto="504" Text="В отряде есть Артем"/>
-				<Option Goto="507" Text="Нет Артема"/>
+				<Option Goto="504" Text="В отряде есть Артем" Availability="Артем"/>
+				<Option Goto="507" Text="Нет Артема" Availability="!Артем"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="500">
