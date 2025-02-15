@@ -1733,8 +1733,8 @@
 		<Paragraph No="218">
 			<Text>Главарь окинул вас и вашу поклажу зорким взглядом.</Text>
 			<Options>
-				<Option Goto="223" Text="В отряде есть Варя"/>
-				<Option Goto="240" Text="Нет Вари"/>
+				<Option Goto="223" Text="В отряде есть Варя" Availability="Варя"/>
+				<Option Goto="240" Text="Нет Вари" Availability="!Варя"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="219">
