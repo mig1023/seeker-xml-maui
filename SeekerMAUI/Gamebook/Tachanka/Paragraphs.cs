@@ -15,7 +15,11 @@ namespace SeekerMAUI.Gamebook.Tachanka
                 Option option = OptionsTemplateWithoutGoto(xmlOption);
                 option.Aftertexts.Clear();
 
-                if (int.TryParse(xmlOption.Attributes["Goto"].Value, out int _))
+                if (ThisIsGameover(xmlOption))
+                {
+                    option.Goto = GetGoto(xmlOption);
+                }
+                else if (int.TryParse(xmlOption.Attributes["Goto"].Value, out int _))
                 {
                     option.Goto = Xml.IntParse(xmlOption.Attributes["Goto"]);
                 }
