@@ -1467,12 +1467,12 @@
 		</Paragraph>
 		<Paragraph No="184">
 			<Options>
-				<Option Goto="197" Text="Есть боец Варя"/>
+				<Option Goto="197" Text="Есть боец Варя" Availability="Варя"/>
 				<Option Goto="181" Text="Есть боец Самуил Ростовский" Availability="Самуил Ростовский"/>
-				<Option Goto="193" Text="Есть боец Григорий"/>
-				<Option Goto="195" Text="Есть Никифор"/>
+				<Option Goto="193" Text="Есть боец Григорий" Availability="Григорий"/>
+				<Option Goto="195" Text="Есть Никифор" Availability="Никифор"/>
 				<Option Goto="189" Text="Есть Иннокентий Иванович"/>
-				<Option Goto="176" Text="Есть Семен">
+				<Option Goto="176" Text="Есть Семен" Availability="Семен">
 					<Text>Можете ехать:</Text>
 				</Option>
 				<Option Goto="140" Text="В Таук"/>
