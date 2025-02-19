@@ -6094,8 +6094,8 @@
 		<Paragraph No="816">
 			<Text>Вы выпрягли коней из тачанки и начали по одной переводить по шаткому мосту.</Text>
 			<Options>
-				<Option Goto="815" Text="Есть боец с умением «конюх»"/>
-				<Option Goto="814" Text="Нет конюха"/>
+				<Option Goto="815" Text="Есть боец с умением «конюх»" Availability="конюх"/>
+				<Option Goto="814" Text="Нет конюха" Availability="!конюх"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="817">
