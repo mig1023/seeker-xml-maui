@@ -60,7 +60,10 @@
 				<Option Goto="7" Text="В отряде есть Варя" Availability="Варя">
 					<Text>Если у вас есть лекарство, то можете отдать его мальчишке (вам -1 лекарство)...</Text>
 				</Option>
-				<Option Goto="17"/>
+				<Option Goto="17" Text="Отдать" Availability="ЛЕКАРСТВА > 0">
+					<Medicines Value="-1"/>
+				</Option>
+				<Option Goto="17" Text="Не давать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="4">
