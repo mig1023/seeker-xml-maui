@@ -4091,9 +4091,9 @@
 		<Paragraph No="532">
 			<Text>Вы выстрелили в офицера. Пуля ударила ему в голову. Артем выхватил револьвер и направил его вам прямо в лицо.</Text>
 			<Options>
-				<Option Goto="495" Text="В отряде есть Тимофей"/>
+				<Option Goto="495" Text="В отряде есть Тимофей" Availability="Тимофей"/>
 				<Option Goto="505" Text="В отряде есть Спиридон"/>
-				<Option Goto="126" Text="Нет ни одного из них"/>
+				<Option Goto="126" Text="Нет ни одного из них" Availability="!Тимофей"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="533">
