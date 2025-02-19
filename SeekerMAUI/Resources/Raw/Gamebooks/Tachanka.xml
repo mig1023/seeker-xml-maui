@@ -1438,8 +1438,8 @@
 		</Paragraph>
 		<Paragraph No="179">
 			<Options>
-				<Option Goto="183" Text="В отряде есть боец с умением 'Пулеметчик'"/>
-				<Option Goto="200" Text="Нет бойца с таким умением"/>
+				<Option Goto="183" Text="В отряде есть боец с умением 'Пулеметчик'" Availability="пулеметчик"/>
+				<Option Goto="200" Text="Нет бойца с таким умением" Availability="!пулеметчик"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="180">
