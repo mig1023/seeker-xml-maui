@@ -1902,9 +1902,18 @@
 		<Paragraph No="185">
 			<Texts>
 				<Text Style="Bold, Center">ПЕРЕКОП</Text>
-				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
+			<Modifications>
+				<Time Value="-1"/>
+				<Food Value="-1"/>
+			</Modifications>
 			<Options>
+				<Option Goto="185" Text="Отдохнуть (+1 Выносливости коней и -1 Время)">
+					<Time Value="-1"/>
+					<HorseEndurance Value="1"/>
+					<Text>Когда отдохнёте...</Text>
+				</Option>
 				<Option Goto="612" Text="Записано слово «краска»" Availability="краска"/>
 				<Option Goto="679" Text="Записано слово «пропуск»" Availability="пропуск"/>
 				<Option Goto="698" Text="Записано слово «вешка»" Availability="вешка"/>
