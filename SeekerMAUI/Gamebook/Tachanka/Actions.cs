@@ -75,17 +75,23 @@ namespace SeekerMAUI.Gamebook.Tachanka
                 .Where(x => x.Name == option.Replace("!", String.Empty))
                 .Count() > 0;
 
+            var inSkills = Character.Protagonist.Team
+                .Where(x => x.Skill.Contains(option.Replace("!", String.Empty)))
+                .Count() > 0;
+
+            var isTriggered = Game.Option.IsTriggered(option.Replace("!", String.Empty).Trim());
+
             if (option == "Есть место в тачанке")
             {
                 return Character.Protagonist.Team.Count() < 3;
             }
             else if (option.Contains("!"))
             {
-                return !inTeam && !Game.Option.IsTriggered(option.Replace("!", String.Empty).Trim());
+                return !inTeam && !inSkills && !isTriggered;
             }
             else
             {
-                return inTeam || Game.Option.IsTriggered(option.Trim());
+                return inTeam || inSkills || isTriggered;
             }
         }
 
