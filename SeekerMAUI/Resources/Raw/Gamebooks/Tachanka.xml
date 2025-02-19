@@ -13,6 +13,17 @@
 			<Color Name="Main, Action, System" Value="a32520"/>
 			<Color Name="Option, Continue" Value="ce2f28"/>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="ВЫНОСЛИВОСТЬ" Value="HorseEndurance"/>
+				<Item Name="ВРЕМЯ" Value="Time"/>
+				<Item Name="ПАТРОН" Value="Cartridges"/>
+				<Item Name="ГРАНАТ" Value="Grenades"/>
+				<Item Name="ДЕНЕГ" Value="Money"/>
+				<Item Name="ЕДЫ" Value="Food"/>
+				<Item Name="ЛЕКАРСТВА" Value="Medicines"/>
+			</Availabilities>
+		</Dictionaries>
 	</Introduction>
 	<Paragraphs>
 		<Paragraph No="0">
