@@ -668,6 +668,9 @@
 		</Paragraph>
 		<Paragraph No="63">
 			<Text>Ваши люди нашли 5 единиц лекарств (вам +5 лекарств).</Text>
+			<Modifications>
+				<Medicines Value="5"/>
+			</Modifications>
 			<Options>
 				<Option Goto="68" Text="В отряде есть Варя" Availability="Варя"/>
 				<Option Goto="28" Text="В отряде есть Григорий" Availability="Григорий">
