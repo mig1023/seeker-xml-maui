@@ -1552,6 +1552,10 @@
 		</Paragraph>
 		<Paragraph No="148">
 			<Text>Вы сбили тяжелые замки и открыли один из вагонов. Внутри оказались мешки с зерном и ящики с патронами (вам +8 еды и +500 патронов).\n\nНаправитесь:</Text>
+			<Modifications>
+				<Food Value="8"/>
+				<Money Value="500"/>
+			</Modifications>
 			<Options>
 				<Option Goto="117" Text="На восток в Туатай"/>
 				<Option Goto="128" Text="На север в Когелы"/>
