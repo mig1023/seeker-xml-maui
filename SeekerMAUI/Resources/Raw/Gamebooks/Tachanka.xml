@@ -904,8 +904,8 @@
 				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
 			</Texts>
 			<Options>
-				<Option Goto="435" Text="У вас есть боец Усман"/>
-				<Option Goto="456" Text="Нет Усмана"/>
+				<Option Goto="435" Text="У вас есть боец Усман" Availability="Усман"/>
+				<Option Goto="456" Text="Нет Усмана" Availability="!Усман"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="114">
