@@ -195,7 +195,7 @@
 		<Paragraph No="19">
 			<Texts>
 				<Text Style="Bold, Center">КАДЫКОЙ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -255,7 +255,7 @@
 		<Paragraph No="26">
 			<Texts>
 				<Text Style="Bold, Center">ШУМО</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -297,7 +297,7 @@
 		<Paragraph No="30">
 			<Texts>
 				<Text Style="Bold, Center">БАГА</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -343,7 +343,7 @@
 		<Paragraph No="35">
 			<Texts>
 				<Text Style="Bold, Center">ГАВРА</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -388,7 +388,7 @@
 		<Paragraph No="40">
 			<Texts>
 				<Text Style="Bold, Center">УНД</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -441,7 +441,7 @@
 		<Paragraph No="45">
 			<Texts>
 				<Text Style="Bold, Center">САЛИ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -476,7 +476,7 @@
 		<Paragraph No="48">
 			<Texts>
 				<Text Style="Bold, Center">ЧЕРКЕС</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -509,7 +509,7 @@
 		<Paragraph No="51">
 			<Texts>
 				<Text Style="Bold, Center">КАМЫШЛЫ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -552,7 +552,7 @@
 		<Paragraph No="55">
 			<Texts>
 				<Text Style="Bold, Center">ЭВЕЛЬ-ШЕЙХ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -597,7 +597,7 @@
 		<Paragraph No="59">
 			<Texts>
 				<Text Style="Bold, Center">ТЮЛЕ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -632,7 +632,7 @@
 		<Paragraph No="62">
 			<Texts>
 				<Text Style="Bold, Center">ЮКАРИ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -674,7 +674,7 @@
 		<Paragraph No="66">
 			<Texts>
 				<Text Style="Bold, Center">БАЙРАК</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -711,7 +711,7 @@
 		<Paragraph No="70">
 			<Texts>
 				<Text Style="Bold, Center">ГАДЖИКОЙ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -741,7 +741,7 @@
 		<Paragraph No="73">
 			<Texts>
 				<Text Style="Bold, Center">ШУРЫ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -799,7 +799,7 @@
 		<Paragraph No="80">
 			<Texts>
 				<Text Style="Bold, Center">МАНГУШ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -837,7 +837,7 @@
 		<Paragraph No="84">
 			<Texts>
 				<Text Style="Bold, Center">КЫЗЫЛ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -878,7 +878,7 @@
 		<Paragraph No="88">
 			<Texts>
 				<Text Style="Bold, Center">КАРАЧ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -916,7 +916,7 @@
 		<Paragraph No="92">
 			<Texts>
 				<Text Style="Bold, Center">АКЛЕС</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -954,7 +954,7 @@
 		<Paragraph No="95">
 			<Texts>
 				<Text Style="Bold, Center">ДЖАБАЧ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -999,7 +999,7 @@
 		<Paragraph No="100">
 			<Texts>
 				<Text Style="Bold, Center">ФРИДЕНСФЕЛЬД</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1042,7 +1042,7 @@
 		<Paragraph No="105">
 			<Texts>
 				<Text Style="Bold, Center">СИМФЕРОПОЛЬ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1085,7 +1085,7 @@
 		<Paragraph No="109">
 			<Texts>
 				<Text Style="Bold, Center">МАМАК</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1133,7 +1133,7 @@
 		<Paragraph No="113">
 			<Texts>
 				<Text Style="Bold, Center">ОСМА</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1174,7 +1174,7 @@
 		<Paragraph No="117">
 			<Texts>
 				<Text Style="Bold, Center">ТУАТАЙ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1205,7 +1205,7 @@
 		<Paragraph No="120">
 			<Texts>
 				<Text Style="Bold, Center">КИЯБАХ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1241,7 +1241,7 @@
 		<Paragraph No="124">
 			<Texts>
 				<Text Style="Bold, Center">САКИ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1279,7 +1279,7 @@
 		<Paragraph No="128">
 			<Texts>
 				<Text Style="Bold, Center">КОГЕЛЫ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1316,7 +1316,7 @@
 		<Paragraph No="132">
 			<Texts>
 				<Text Style="Bold, Center">КЫРМАНЧИ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1356,7 +1356,7 @@
 		<Paragraph No="136">
 			<Texts>
 				<Text Style="Bold, Center">РОЗЕНТАЛЬ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1396,7 +1396,7 @@
 		<Paragraph No="140">
 			<Texts>
 				<Text Style="Bold, Center">ТАУК</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1430,7 +1430,7 @@
 		<Paragraph No="143">
 			<Texts>
 				<Text Style="Bold, Center">ТАКЫЛ</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1467,7 +1467,7 @@
 		<Paragraph No="146">
 			<Texts>
 				<Text Style="Bold, Center">МАЙРЫК</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1504,7 +1504,7 @@
 		<Paragraph No="150">
 			<Texts>
 				<Text Style="Bold, Center">ЧЕГЕР</Text>
-				<Text Style="Small">-1 Время\n\n-1 еда</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
 			<Modifications>
 				<Time Value="-1"/>
@@ -1535,9 +1535,18 @@
 		<Paragraph No="153">
 			<Texts>
 				<Text Style="Bold, Center">МОНАЙ</Text>
-				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
+			<Modifications>
+				<Time Value="-1"/>
+				<Food Value="-1"/>
+			</Modifications>
 			<Options>
+				<Option Goto="153" Text="Отдохнуть (+1 Выносливости коней и -1 Время)">
+					<Time Value="-1"/>
+					<HorseEndurance Value="1"/>
+					<Text>Когда отдохнёте...</Text>
+				</Option>
 				<Option Goto="803,464"/>
 			</Options>
 		</Paragraph>
@@ -1562,9 +1571,18 @@
 		<Paragraph No="156">
 			<Texts>
 				<Text Style="Bold, Center">ДЖУРЧИ</Text>
-				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
+			<Modifications>
+				<Time Value="-1"/>
+				<Food Value="-1"/>
+			</Modifications>
 			<Options>
+				<Option Goto="156" Text="Отдохнуть (+1 Выносливости коней и -1 Время)">
+					<Time Value="-1"/>
+					<HorseEndurance Value="1"/>
+					<Text>Когда отдохнёте...</Text>
+				</Option>
 				<Option Goto="469,804"/>
 			</Options>
 		</Paragraph>
