@@ -1706,9 +1706,19 @@
 		<Paragraph No="167">
 			<Texts>
 				<Text Style="Bold, Center">ЧОТАЙ</Text>
-				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)\n\nЕсли у вас записано слово «мальчишки» - (-1 выносливость коней)</Text>
+				<Text Style="Small">-1 Время\n-1 еда</Text>
+				<Text>Если у вас записано слово «мальчишки» - (-1 выносливость коней)</Text>
 			</Texts>
+			<Modifications>
+				<Time Value="-1"/>
+				<Food Value="-1"/>
+			</Modifications>
 			<Options>
+				<Option Goto="167" Text="Отдохнуть (+1 Выносливости коней и -1 Время)">
+					<Time Value="-1"/>
+					<HorseEndurance Value="1"/>
+					<Text>Когда отдохнёте...</Text>
+				</Option>
 				<Option Goto="478,168"/>
 			</Options>
 		</Paragraph>
