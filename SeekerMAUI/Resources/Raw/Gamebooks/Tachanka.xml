@@ -1133,9 +1133,18 @@
 		<Paragraph No="113">
 			<Texts>
 				<Text Style="Bold, Center">ОСМА</Text>
-				<Text>(-1 Время и -1 еда)\n\n(Если хотите отдохнуть +1 Выносливости коней и -1 Время)</Text>
+				<Text Style="Small">-1 Время\n\n-1 еда</Text>
 			</Texts>
+			<Modifications>
+				<Time Value="-1"/>
+				<Food Value="-1"/>
+			</Modifications>
 			<Options>
+				<Option Goto="113" Text="Отдохнуть (+1 Выносливости коней и -1 Время)">
+					<Time Value="-1"/>
+					<HorseEndurance Value="1"/>
+					<Text>Когда отдохнёте...</Text>
+				</Option>
 				<Option Goto="435" Text="У вас есть боец Усман" Availability="Усман"/>
 				<Option Goto="456" Text="Нет Усмана" Availability="!Усман"/>
 			</Options>
