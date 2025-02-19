@@ -1243,6 +1243,9 @@
 		</Paragraph>
 		<Paragraph No="157">
 			<Text>Запишите на листик игрока имя нового бойца - Тимофей. Его умения - пулеметчик и конюх.</Text>
+			<Modifications>
+				<Crew Value="Тимофей,пулеметчик+конюх"/>
+			</Modifications>
 			<Options>
 				<Option Goto="161" Text="В отряде есть боец Никифор" Availability="Никифор">
 					<Text>Если нет, то можете ехать дальше:</Text>
