@@ -2233,8 +2233,8 @@
 		<Paragraph No="285">
 			<Text>Вы решили заночевать в Чегере. Один из жителей предоставил вам для ночевки свой дом. Вы оставили во дворе дежурить одного бойца и легли спать (вам -1 Время).</Text>
 			<Options>
-				<Option Goto="276" Text="В отряде есть Усман"/>
-				<Option Goto="289" Text="Нет Усмана"/>
+				<Option Goto="276" Text="В отряде есть Усман" Availability="Усман"/>
+				<Option Goto="289" Text="Нет Усмана" Availability="!Усман"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="286">
