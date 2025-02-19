@@ -252,6 +252,9 @@
 		</Paragraph>
 		<Paragraph No="25">
 			<Text>Довольные жители дали вам в дорогу немного еды (вам +2 Еды).</Text>
+			<Modifications>
+				<Food Value="2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="48" Text="Поедете в Черкес"/>
 				<Option Goto="45" Text="Свернете на дорогу, ведущую к селению Сали"/>
