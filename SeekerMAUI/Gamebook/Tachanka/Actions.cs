@@ -71,6 +71,12 @@ namespace SeekerMAUI.Gamebook.Tachanka
 
         private bool AvailabilityNode(string option)
         {
+            if (Game.Services.AvailabilityByСomparison(option))
+            {
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
+            }
+
             var inTeam = Character.Protagonist.Team
                 .Where(x => x.Name == option.Replace("!", String.Empty))
                 .Count() > 0;
