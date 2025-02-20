@@ -2370,8 +2370,12 @@
 				<Option Goto="234" Text="Откажетесь">
 					<Text>Согласитесь (вам -30 червонцев) и поедете:</Text>
 				</Option>
-				<Option Goto="143" Text="В Такыл"/>
-				<Option Goto="140" Text="В Таук"/>
+				<Option Goto="143" Text="В Такыл" Availability="ДЕНЕГ > 29">
+					<Money Value="-30"/>
+				</Option>
+				<Option Goto="140" Text="В Таук" Availability="ДЕНЕГ > 29">
+					<Money Value="-30"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="230">
