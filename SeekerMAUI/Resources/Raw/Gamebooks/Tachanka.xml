@@ -3405,8 +3405,14 @@
 				<Option Goto="356" Text="Откажетесь">
 					<Text>Продадите им 50 патронов в обмен на 5 еды для ваших коней (вам -50 патронов и +5 еды) - и поедете дальше:</Text>
 				</Option>
-				<Option Goto="76" Text="На Бахчисарай"/>
-				<Option Goto="80" Text="На Мангуш"/>
+				<Option Goto="76" Text="На Бахчисарай" Availability="ПАТРОН > 50">
+					<Cartridges Value="-50"/>
+					<Food Value="5"/>
+				</Option>
+				<Option Goto="80" Text="На Мангуш" Availability="ПАТРОН > 50">
+					<Cartridges Value="-50"/>
+					<Food Value="5"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="362">
