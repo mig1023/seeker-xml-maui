@@ -3050,6 +3050,9 @@
 		</Paragraph>
 		<Paragraph No="317">
 			<Text>Кони выбивались из сил, стараясь вытащить застрявший автомобиль. Наконец вам это удалось (выносливости коней -1).</Text>
+			<Modifications>
+				<HorseEndurance Value="-1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="320" Text="В отряде есть Артем" Availability="Артем">
 					<Text>Если нет - то вы можете ехать в поселок Гаджикой...</Text>
