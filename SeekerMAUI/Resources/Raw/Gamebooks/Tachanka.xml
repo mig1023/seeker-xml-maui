@@ -2880,7 +2880,7 @@
 				<Crew Value="Васька Казачок,конюх"/>
 			</Modifications>
 			<Options>
-				<Option Goto="823" Text="Взять в отряд Ваську Казачка (умение - конюх)" Availability="!Васька Казачок">
+				<Option Goto="296" Text="Взять в отряд Ваську Казачка (умение - конюх)" Availability="!Васька Казачок">
 					<Crew Value="Васька Казачок,конюх"/>
 				</Option>
 				<Option Goto="300"/>
@@ -2888,6 +2888,10 @@
 		</Paragraph>
 		<Paragraph No="297">
 			<Text>В конюшне вы можете продать своих коней и купить новых. Заплатите 60 червонцев и восстановите выносливость ваших коней на максимум (вам -60 червонцев).</Text>
+			<Modifications>
+				<Money Value="-60"/>
+				<HorseEndurance Restore="true"/>
+			</Modifications>
 			<Options>
 				<Option Goto="300"/>
 			</Options>
