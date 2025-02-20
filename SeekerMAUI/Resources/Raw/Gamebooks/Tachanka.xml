@@ -4475,6 +4475,10 @@
 		</Paragraph>
 		<Paragraph No="491">
 			<Text>Вам повезло. Пули никого не задели. Вы погрузили на тачанку патроны и запасную упряжь. Хлестнув лошадей, вы погнали тачанку (вам +700 патронов и упряжь вашей тачанки на максимум).\n\nПоедете:</Text>
+			<Modifications>
+				<Cartridges Value="700"/>
+				<Harness Value="5"/>
+			</Modifications>
 			<Options>
 				<Option Goto="167" Text="В Чотай"/>
 				<Option Goto="160" Text="В Джибу"/>
