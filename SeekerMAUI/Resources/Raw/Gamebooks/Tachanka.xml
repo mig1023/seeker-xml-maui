@@ -2815,6 +2815,9 @@
 		</Paragraph>
 		<Paragraph No="288">
 			<Text>Судьи пошушукались между собой и согласно кивнули (вам -10 червонцев).</Text>
+			<Modifications>
+				<Money Value="-10"/>
+			</Modifications>
 			<Options>
 				<Option Goto="296"/>
 			</Options>
