@@ -4845,6 +4845,9 @@
 		</Paragraph>
 		<Paragraph No="540">
 			<Text>— Ладно! - снисходительно махнув рукой, главарь повернулся к вагонам, - Дмитро! Дай этим товарищам сто червонцев (вам +100 червонцев).\n\nПоедете:</Text>
+			<Modifications>
+				<Money Value="100"/>
+			</Modifications>
 			<Options>
 				<Option Goto="88" Text="В Карач"/>
 				<Option Goto="84" Text="В Кызыл"/>
