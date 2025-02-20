@@ -4200,6 +4200,9 @@
 		</Paragraph>
 		<Paragraph No="459">
 			<Text>В палатке американца вы нашли бутылку виски и 2 лекарства (запишите на листик игрока +2 лекарства и ключевое слово «виски»).\n\nПоедете дальше:</Text>
+			<Modifications>
+				<Medicines Value="2"/>
+			</Modifications>
 			<Triggers>виски</Triggers>
 			<Options>
 				<Option Goto="136" Text="На Розенталь"/>
