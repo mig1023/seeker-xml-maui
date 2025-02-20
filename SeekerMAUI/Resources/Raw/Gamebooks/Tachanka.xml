@@ -4215,7 +4215,9 @@
 				<Option Goto="457" Text="Есть в отряде Артем и одна граната">
 					<Text>Если нет, придется ехать дальше (-2 выносливости)...</Text>
 				</Option>
-				<Option Goto="450"/>
+				<Option Goto="450">
+					<HorseEndurance Value="-2"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="461">
