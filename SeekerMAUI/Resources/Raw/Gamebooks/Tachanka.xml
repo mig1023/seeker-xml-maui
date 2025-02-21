@@ -2406,8 +2406,12 @@
 				<Option Goto="126" Text="Наброситесь на бандита">
 					<Text>Вычеркните из списка бойцов имя Вари и поезжайте:</Text>
 				</Option>
-				<Option Goto="143" Text="В Такыл"/>
-				<Option Goto="140" Text="В Таук"/>
+				<Option Goto="143" Text="В Такыл">
+					<Lost Value="Варя"/>
+				</Option>
+				<Option Goto="140" Text="В Таук">
+					<Lost Value="Варя"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="233">
