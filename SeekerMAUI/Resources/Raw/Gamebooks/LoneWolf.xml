@@ -2635,7 +2635,7 @@
 			<Options>
 				<Option Goto="310" Text="Использовать Дисциплину Кай Поиск Пути"/>
 				<Option Goto="210" Text="Войти в Ратушу"/>
-				<Option Goto="37" Text="Искать другой маршрут в цитадель"/>
+				<Option Goto="282" Text="Искать другой маршрут в цитадель"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="342">
