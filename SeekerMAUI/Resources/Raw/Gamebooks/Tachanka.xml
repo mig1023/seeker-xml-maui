@@ -46,7 +46,6 @@
 			<Options>
 				<Option Goto="5" Text="Налево шла дорога на поселок Кадыкой"/>
 				<Option Goto="30" Text="Направо село Бага"/>
-				<Option Goto="123" Text="TEST"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="2">
@@ -1810,6 +1809,9 @@
 		</Paragraph>
 		<Paragraph No="169">
 			<Text>Тимофей спрыгнул с тачанки и бросился бежать. Григорий выстрелил ему в спину, и парень с разбега уткнулся лицом в траву. Все произошло за несколько секунд. Вычеркните имя Тимофея из списка своего отряда.\n\nМожете ехать дальше:</Text>
+			<Modifications>
+				<Lost Value="Тимофей"/>
+			</Modifications>
 			<Options>
 				<Option Goto="150" Text="В Чегер"/>
 				<Option Goto="128" Text="В Когелы"/>
