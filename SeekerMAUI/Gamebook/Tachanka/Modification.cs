@@ -29,19 +29,22 @@ namespace SeekerMAUI.Gamebook.Tachanka
                     return;
                 }
 
-                foreach (var name in ValueString.Split(','))
+                var except = ValueString.Contains("!");
+
+                for (var i = 0; i < Character.Protagonist.Team.Count; i++)
                 {
-                    var not = name.StartsWith("!");
+                    var crew = Character.Protagonist.Team[i];
 
-                    for (var i = 0; i < Character.Protagonist.Team.Count; i++)
-                    {
-                        var crew = Character.Protagonist.Team[i];
-                        if (!name.Contains(crew.Name) && not)
-                            Character.Protagonist.Team.RemoveAt(i);
+                    var inList = ValueString
+                        .Split(',')
+                        .Where(x => x.Replace("!", String.Empty) == crew.Name)
+                        .Count() > 0;
 
-                        if (name.Contains(crew.Name) && !not)
-                            Character.Protagonist.Team.Remove(crew);
-                    }
+                    if (!inList && except)
+                        Character.Protagonist.Team.RemoveAt(i);
+
+                    if (inList && !except)
+                        Character.Protagonist.Team.RemoveAt(i);
                 }
             }
             else
