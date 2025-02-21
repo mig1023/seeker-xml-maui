@@ -3134,6 +3134,7 @@
 				<Springs Value="-2"/>
 				<HorseEndurance Value="-1"/>
 				<Time Value="-1"/>
+				<Food Empty="true"/>
 			</Modifications>
 			<Options>
 				<Option Goto="70"/>
@@ -3164,6 +3165,7 @@
 			<Text>Пока вы искали под деревьями укрытие от непогоды, все ваши припасы промокли (вычеркните всю еду).\n\nПришлось ждать пока ураган не успокоиться (вам -1 Время).\n\nНаконец выглянуло солнышко, и вы могли ехать дальше на Гаджикой.</Text>
 			<Modifications>
 				<Time Value="-1"/>
+				<Food Empty="true"/>
 			</Modifications>
 			<Options>
 				<Option Goto="70"/>
