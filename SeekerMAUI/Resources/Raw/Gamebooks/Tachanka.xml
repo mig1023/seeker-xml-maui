@@ -2633,6 +2633,9 @@
 		</Paragraph>
 		<Paragraph No="262">
 			<Text>Вычеркните из списка бойцов имя Вари и поезжайте:</Text>
+			<Modifications>
+				<Lost Value="Варя"/>
+			</Modifications>
 			<Options>
 				<Option Goto="143" Text="В Такыл"/>
 				<Option Goto="140" Text="В Таук"/>
