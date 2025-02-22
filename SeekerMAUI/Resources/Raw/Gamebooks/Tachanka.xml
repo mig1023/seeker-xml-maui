@@ -724,7 +724,7 @@
 				<Damage/>
 			</Actions>
 			<Options>
-				<Option Goto="19" Text="Далее"/>
+				<Option Goto="19"/>
 				<Option Goto="19" Text="Попытаться спастись бегством (-2 выносливости коней)" Tag="Flee">
 					<HorseEndurance Value="-2"/>
 				</Option>
@@ -747,7 +747,7 @@
 				<Damage/>
 			</Actions>
 			<Options>
-				<Option Goto="26" Text="Далее"/>
+				<Option Goto="26"/>
 				<Option Goto="26" Text="Попытаться спастись бегством (-2 выносливости коней)" Tag="Flee">
 					<HorseEndurance Value="-2"/>
 				</Option>
@@ -775,13 +775,13 @@
 			<Actions>
 				<Option Goto="51" Text="Наверняка избавиться от погони (-1 граната и -50 патронов)" Tag="Fight" Availability="ГРАНАТ > 0, ПАТРОН > 49">
 					<Grenades Value="-1"/>
-					<Cartridges Value="-30"/>
+					<Cartridges Value="-50"/>
 					<Text>В этом бою хотите сэкономить боеприпасы:</Text>
 				</Option>
 				<Damage/>
 			</Actions>
 			<Options>
-				<Option Goto="51" Text="Далее"/>
+				<Option Goto="51"/>
 				<Option Goto="51" Text="Попытаться спастись бегством (-2 выносливости коней)" Tag="Flee">
 					<HorseEndurance Value="-2"/>
 				</Option>
@@ -848,13 +848,13 @@
 			<Actions>
 				<Option Goto="85" Text="Наверняка избавиться от погони (-1 граната и -40 патронов)" Tag="Fight" Availability="ГРАНАТ > 0, ПАТРОН > 39">
 					<Grenades Value="-1"/>
-					<Cartridges Value="-30"/>
+					<Cartridges Value="-40"/>
 					<Text>В этом бою хотите сэкономить боеприпасы:</Text>
 				</Option>
 				<Damage/>
 			</Actions>
 			<Options>
-				<Option Goto="85" Text="Далее"/>
+				<Option Goto="85"/>
 				<Option Goto="85" Text="Попытаться спастись бегством (-2 выносливости коней)" Tag="Flee">
 					<HorseEndurance Value="-2"/>
 				</Option>
@@ -993,7 +993,7 @@
 				<Damage/>
 			</Actions>
 			<Options>
-				<Option Goto="66" Text="Далее"/>
+				<Option Goto="66"/>
 				<Option Goto="66" Text="Попытаться спастись бегством (-2 выносливости коней)" Tag="Flee">
 					<HorseEndurance Value="-2"/>
 				</Option>
@@ -1084,7 +1084,7 @@
 				<Damage/>
 			</Actions>
 			<Options>
-				<Option Goto="95" Text="Далее"/>
+				<Option Goto="95"/>
 				<Option Goto="95" Text="Попытаться спастись бегством (-2 выносливости коней)" Tag="Flee">
 					<HorseEndurance Value="-2"/>
 				</Option>
@@ -1106,7 +1106,7 @@
 				<Damage/>
 			</Actions>
 			<Options>
-				<Option Goto="89" Text="Далее"/>
+				<Option Goto="89"/>
 				<Option Goto="89" Text="Попытаться спастись бегством (-2 выносливости коней)" Tag="Flee">
 					<HorseEndurance Value="-2"/>
 				</Option>
@@ -1147,7 +1147,7 @@
 				<Damage/>
 			</Actions>
 			<Options>
-				<Option Goto="51" Text="Далее"/>
+				<Option Goto="51"/>
 				<Option Goto="51" Text="Попытаться спастись бегством (-2 выносливости коней)" Tag="Flee">
 					<HorseEndurance Value="-2"/>
 				</Option>
@@ -1360,9 +1360,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="121">
-			<Text>Если хотите наверняка избавиться от погони (-1 граната и -30 патронов).\n\nЕсли в этом бою хотите сэкономить боеприпасы (-30 патронов или -1 граната) и бросьте 2 кубика на проверку ущерба вашей тачанки (отметьте полученный ущерб на Листике игрока).\n\nИли можете попытаться спастись бегством (-2 выносливости коней).</Text>
+			<Actions>
+				<Option Goto="118" Text="Наверняка избавиться от погони (-1 граната и -30 патронов)" Tag="Fight" Availability="ГРАНАТ > 0, ПАТРОН > 29">
+					<Grenades Value="-1"/>
+					<Cartridges Value="-30"/>
+					<Text>В этом бою хотите сэкономить боеприпасы:</Text>
+				</Option>
+				<Damage/>
+			</Actions>
 			<Options>
 				<Option Goto="118"/>
+				<Option Goto="118" Text="Попытаться спастись бегством (-2 выносливости коней)" Tag="Flee">
+					<HorseEndurance Value="-2"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="122">
