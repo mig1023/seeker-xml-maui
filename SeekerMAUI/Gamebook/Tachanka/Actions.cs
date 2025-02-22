@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SeekerMAUI.Game;
+using System;
+using System.Xml.Linq;
 
 namespace SeekerMAUI.Gamebook.Tachanka
 {
@@ -16,7 +18,7 @@ namespace SeekerMAUI.Gamebook.Tachanka
             foreach (Crew crew in Character.Protagonist.Team)
             {
                 var female = crew.Name == "Варя" ? "а" : string.Empty;
-                var wounded = crew.Wounded ? $"(ранен{female})" : string.Empty;
+                var wounded = crew.Wounded ? $" (ранен{female})" : string.Empty;
                 status.Add($"{crew.Name}{wounded}");
             }
 
@@ -128,6 +130,96 @@ namespace SeekerMAUI.Gamebook.Tachanka
             else
             {
                 return AvailabilityNode(option);
+            }
+        }
+
+        public List<string> Damage()
+        {
+            var lines = new List<string> { $"BIG|Проверка ущерба тачанке:" };
+
+            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+
+            var dice = firstDice + secondDice;
+
+            lines.Add($"На кубиках выпало: {Game.Dice.Symbol(firstDice)} + " +
+                $"{Game.Dice.Symbol(secondDice)} = {dice}");
+
+            Damage(dice, ref lines);
+
+            Game.Buttons.Disable("Fight, Flee");
+
+            return lines;
+        }
+
+        private void Damage(int dice, ref List<string> lines)
+        {
+            switch (dice)
+            {
+                case 2:
+                    lines.Add("BIG|BAD|Ущерб нанесён выносливости коней!");
+                    Character.Protagonist.HorseEndurance -= 1;
+                    lines.Add($"BOLD|Теперь их выносливость равна {Character.Protagonist.HorseEndurance}");
+                    return;
+                case 3:
+                    Wound(0, ref lines);
+                    return;
+                case 4:
+                    lines.Add("BIG|BAD|Ущерб нанесён колёсам!");
+                    Character.Protagonist.Wheels -= 1;
+                    lines.Add($"BOLD|Теперь прочность колёс равна {Character.Protagonist.Wheels}");
+                    return;
+                case 5:
+                case 10:
+                    lines.Add("BIG|BAD|Ущерб нанесён коляске!");
+                    Character.Protagonist.Carriage -= 1;
+                    lines.Add($"BOLD|Теперь прочность коляски равна {Character.Protagonist.Carriage}");
+                    return;
+                case 6:
+                    lines.Add("BIG|BAD|Ущерб нанесён упряжи!");
+                    Character.Protagonist.Harness -= 1;
+                    lines.Add($"BOLD|Теперь прочность упряжи равна {Character.Protagonist.Harness}");
+                    return;
+                case 9:
+                    Wound(2, ref lines);
+                    return;
+                case 11:
+                    Wound(1, ref lines);
+                    return;
+                case 12:
+                    lines.Add("BIG|BAD|Ущерб нанесён рессорам!");
+                    Character.Protagonist.Springs -= 1;
+                    lines.Add($"BOLD|Теперь прочность рессор равна {Character.Protagonist.Springs}");
+                    return;
+                default:
+                    lines.Add("BIG|GOOD|Обошлось!");
+                    lines.Add("BOLD|Никакого ущерба и никто не ранен!");
+                    return;
+            }
+        }
+
+        private void Wound(int index, ref List<string> lines)
+        {
+            if (Character.Protagonist.Team.Count < index + 1)
+            {
+                lines.Add("BIG|GOOD|Обошлось!");
+                lines.Add("BOLD|Пуля просвистела через место недостающего члена отряда!");
+                return;
+            }
+
+            var crew = Character.Protagonist.Team[index];
+            var female = crew.Name == "Варя" ? "а" : string.Empty;
+
+            if (crew.Wounded)
+            {
+                lines.Add($"BIG|BAD|Случайной пулей убит{female} {crew.Name}!");
+                lines.Add("BOLD|В вашем отряде стало на одного бойца меньше...");
+
+                Character.Protagonist.Team.Remove(crew);
+            }
+            else
+            {
+                lines.Add($"BIG|BAD|Случайной пулей ранен{female} {crew.Name}!");
+                crew.Wounded = true;
             }
         }
     }

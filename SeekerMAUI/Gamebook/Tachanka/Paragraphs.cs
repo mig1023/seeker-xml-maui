@@ -63,8 +63,16 @@ namespace SeekerMAUI.Gamebook.Tachanka
             return paragraph;
         }
 
-        public override Abstract.IActions ActionParse(XmlNode xmlAction) =>
-            base.ActionParse(xmlAction, new Actions(), GetProperties(new Actions()), new Modification());
+        public override Abstract.IActions ActionParse(XmlNode xmlAction)
+        {
+            Actions action = (Actions)base.ActionParse(xmlAction, new Actions(),
+                GetProperties(new Actions()), new Modification());
+
+            if (action.Type == "Option")
+                action.Option = OptionParse(xmlAction);
+
+            return action;
+        }
 
         public override Abstract.IModification ModificationParse(XmlNode xmlModification) =>
            (Abstract.IModification)base.ModificationParse(xmlModification, new Modification());
