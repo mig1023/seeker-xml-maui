@@ -3621,10 +3621,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="368">
-			<Text>Если хотите наверняка избавиться от погони (-1 граната и -60 патронов).\n\nЕсли в этом бою хотите сэкономить боеприпасы (-30 патронов или -1 граната) и бросьте 2 кубика на проверку ущерба вашей тачанки (отметьте полученный ущерб на Листике игрока).\n\nИли можете попытаться спастись бегством (-2 выносливости коней). Поедете дальше:</Text>
+			<Actions>
+				<Option Goto="826" Text="Наверняка избавиться от погони (-1 граната и -60 патронов)" Tag="Fight" Availability="ГРАНАТ > 0, ПАТРОН > 59">
+					<Grenades Value="-1"/>
+					<Cartridges Value="-60"/>
+					<Text>В этом бою хотите сэкономить боеприпасы:</Text>
+				</Option>
+				<Damage/>
+			</Actions>
 			<Options>
-				<Option Goto="35" Text="В поселок Гавра"/>
-				<Option Goto="40" Text="В Унд"/>
+				<Option Goto="826"/>
+				<Option Goto="826" Text="Попытаться спастись бегством (-2 выносливости коней)" Tag="Flee">
+					<HorseEndurance Value="-2"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="369">
@@ -7178,6 +7187,13 @@
 			<Options>
 				<Option Goto="143" Text="В Такыл"/>
 				<Option Goto="140" Text="В Таук"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="826">
+			<Text>Поедете дальше:</Text>
+			<Options>
+				<Option Goto="35" Text="В поселок Гавра"/>
+				<Option Goto="40" Text="В Унд"/>
 			</Options>
 		</Paragraph>
 	</Paragraphs>
