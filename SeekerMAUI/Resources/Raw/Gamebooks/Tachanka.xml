@@ -6970,8 +6970,8 @@
 		</Paragraph>
 		<Paragraph No="787">
 			<Actions>
-				<Option Goto="309" Text="Наверняка избавиться от погони (-2 гранаты и -50 патронов)" Tag="Fight" Availability="ГРАНАТ > 0, ПАТРОН > 49">
-					<Grenades Value="-1"/>
+				<Option Goto="309" Text="Наверняка избавиться от погони (-2 гранаты и -50 патронов)" Tag="Fight" Availability="ГРАНАТ > 1, ПАТРОН > 49">
+					<Grenades Value="-2"/>
 					<Cartridges Value="-50"/>
 					<Text>В этом бою хотите сэкономить боеприпасы:</Text>
 				</Option>
@@ -7013,9 +7013,19 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="791">
-			<Text>Если хотите наверняка избавиться от погони (-2 гранаты и -50 патронов).\n\nЕсли в этом бою хотите сэкономить боеприпасы (-50 патронов или -3 гранаты) и бросьте 2 кубика на проверку ущерба вашей тачанки (отметьте полученный ущерб на Листике игрока).\n\nИли можете попытаться спастись бегством (-2 выносливости коней).</Text>
+			<Actions>
+				<Option Goto="364" Text="Наверняка избавиться от погони (-2 гранаты и -50 патронов)" Tag="Fight" Availability="ГРАНАТ > 1, ПАТРОН > 49">
+					<Grenades Value="-2"/>
+					<Cartridges Value="-50"/>
+					<Text>В этом бою хотите сэкономить боеприпасы:</Text>
+				</Option>
+				<Damage/>
+			</Actions>
 			<Options>
 				<Option Goto="364"/>
+				<Option Goto="364" Text="Попытаться спастись бегством (-2 выносливости коней)" Tag="Flee">
+					<HorseEndurance Value="-2"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="792">
