@@ -6,6 +6,9 @@ namespace SeekerMAUI.Gamebook.Tachanka
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
+        public string Names { get; set; }
+        public bool OnlyWound { get; set; }
+
         public override List<string> Status()
         {
             if (Character.Protagonist.Team.Count <= 0)
@@ -221,6 +224,55 @@ namespace SeekerMAUI.Gamebook.Tachanka
                 lines.Add($"BIG|BAD|Случайной пулей ранен{female} {crew.Name}!");
                 crew.Wounded = true;
             }
+        }
+
+        public List<string> Dead()
+        {
+            var lines = new List<string>();
+
+            var names = Names
+                .Split(',')
+                .Select(x => x.Trim());
+
+            foreach (var name in names)
+            {
+                var inList = -1;
+
+                for (var i = 0; i < Character.Protagonist.Team.Count; i++)
+                {
+                    if (Character.Protagonist.Team[i].Name == name)
+                        inList = i;
+                }
+
+                if (inList >= 0)
+                {
+                    var female = name == "Варя" ? "а" : string.Empty;
+                    var already = Character.Protagonist.Team[inList].Wounded;
+
+                    if (!OnlyWound || already)
+                    {
+                        lines.Add($"BOLD|BIG|BAD|Случайной пулей убит{female} {name}!");
+
+                        Character.Protagonist.Team.RemoveAt(inList);
+                    }
+                    else
+                    {
+                        lines.Add($"BOLD|BIG|BAD|Случайной пулей ранен{female} {name}!");
+
+                        Character.Protagonist.Team[inList].Wounded = true;
+                    }
+                    
+                    return lines;
+                }
+                else
+                {
+                    lines.Add($"GOOD|{name} не в отряде.");
+                }
+            }
+
+            lines.Add($"BOLD|BIG|GOOD|Никого не задело! Вот это везение! :)");
+
+            return lines;
         }
     }
 }
