@@ -6319,12 +6319,13 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="707">
-			<Text>Если хотите наверняка уйти от погони (вам -4 выносливости) - Если вы хотите поберечь ваших коней (вам -2 выносливости).</Text>
-			<Modifications>
-				<HorseEndurance Value="-2"/>
-			</Modifications>
 			<Options>
-				<Option Goto="486"/>
+				<Option Goto="486" Text="Если хотите наверняка уйти от погони (вам -4 выносливости)">
+					<HorseEndurance Value="-4"/>
+				</Option>
+				<Option Goto="486" Text="Если вы хотите поберечь ваших коней (вам -2 выносливости)">
+					<HorseEndurance Value="-2"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="708">
