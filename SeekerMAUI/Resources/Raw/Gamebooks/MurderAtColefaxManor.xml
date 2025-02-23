@@ -394,5 +394,20 @@
 				<Option Goto="72"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="56">
+			<Text>Вы открываете записную книжку и просматриваете записи.</Text>
+			<Options>
+				<Option Goto="243" Text="— Можете предположить возможные мотивы?"/>
+				<Option Goto="230" Text="— Слышали ли вы какой-то шум или переполох?"/>
+				<Option Goto="171" Text="— Вы были знакомы с покойным?"/>
+				<Option Goto="133" Text="— Как вы нашли тело?"/>
+				<Option Goto="136" Text="— Чем вы занимались в тот момент?"/>
+				<Option Goto="13" Text="— Когда произошло убийство?"/>
+				<Option Goto="297" Text="— Где находились остальные служащие в это время?"/>
+				<Option Goto="300" Text="— Зачем покойный был здесь?"/>
+				<Option Goto="98" Text="Расспросить об уликах"/>
+				<Option Goto="295" Text="Вернуться к расследованию"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
