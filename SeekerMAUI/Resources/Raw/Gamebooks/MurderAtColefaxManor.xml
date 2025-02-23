@@ -207,5 +207,11 @@
 				<Option Goto="336" Text="Сдаться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="28">
+			<Text>- Вы не в курсе, могли ли кто-то недавно воспользоваться шприцами из кабинета? - спрашиваете вы.\n\nПризмалл отрицательно качает головой.</Text>
+			<Options>
+				<Option Goto="98"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
