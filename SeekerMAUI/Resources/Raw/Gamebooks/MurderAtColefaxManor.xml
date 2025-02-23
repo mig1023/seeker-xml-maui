@@ -88,5 +88,12 @@
 				<Option Goto="74" Text="Продолжить путь, несмотря ни на что"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="11">
+			<Text>Верёвка, привязанная к лодке, толстая, а узел, удерживающий её от сноса приливом, настолько крепок, что развязать его вам не под силу.</Text>
+			<Options>
+				<Option Goto="34" Text="Если ячейка 4 отмечена"/>
+				<Option Goto="87"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
