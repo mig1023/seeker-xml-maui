@@ -416,5 +416,11 @@
 				<Option Goto="82"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="58">
+			<Text>Вы сминаете листок с вашим обвинением в тугой комок и отправляете его в ближайшую корзину для бумаг.</Text>
+			<Options>
+				<Option Goto="327"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
