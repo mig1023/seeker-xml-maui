@@ -490,5 +490,11 @@
 				<Option Goto="270"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="69">
+			<Text>Вы сминаете лист с вашим предложением в комок и бросаете его в ближайшую корзину для мусора.</Text>
+			<Options>
+				<Option Goto="308"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
