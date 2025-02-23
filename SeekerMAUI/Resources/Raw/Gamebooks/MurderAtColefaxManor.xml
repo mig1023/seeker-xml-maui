@@ -1,0 +1,29 @@
+<Gamebook>
+	<Introduction>
+		<Copyright>
+			<Title>Убийство в поместье Коулфакс</Title>
+			<Author>С.С. Каннингэм, 2015</Author>
+		</Copyright>
+		<Styles>
+			<ButtonFont Value="000000"/>
+			<Color Name="Main, Option, Continue, System, StatusFont" Value="ece0b3"/>
+		</Styles>
+		<Default>
+			<HideDisabledOption/>
+		</Default>
+	</Introduction>
+	<Paragraphs>
+		<Paragraph No="0">
+			<Text>Поместье Коулфакс возвышается на скалистом утёсе, его готические шпили и известняковый фасад зловеще подсвечиваются убывающей октябрьской луной. Внутри тёмные коридоры, роскошные комнаты и загадочные улики скрывают правду за жестоким убийством мистера Людвика. В роли детектива вы должны исследовать это коварное поместье, где каждый выбор приближает вас к разгадке - или к новой опасности...</Text>
+			<Options>
+				<Start Goto="1"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="1">
+			<Text>END</Text>
+			<Options>
+				<Option Goto="0" Text="END"/>
+			</Options>
+		</Paragraph>
+	</Paragraphs>
+</Gamebook>

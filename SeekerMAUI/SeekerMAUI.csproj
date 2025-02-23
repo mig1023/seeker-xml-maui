@@ -104,6 +104,7 @@
 	  <None Remove="Resources\Images\Cover\mentorsalwaysright.jpg" />
 	  <None Remove="Resources\Images\Cover\moonrunner.jpg" />
 	  <None Remove="Resources\Images\Cover\moria.jpg" />
+	  <None Remove="Resources\Images\Cover\murderatcolefaxmanor.jpg" />
 	  <None Remove="Resources\Images\Cover\nightmare.jpg" />
 	  <None Remove="Resources\Images\Cover\octopusisland.jpg" />
 	  <None Remove="Resources\Images\Cover\orcsday.jpg" />
@@ -325,6 +326,7 @@
 	  <MauiImage Include="Resources\Images\Cover\mentorsalwaysright.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\moonrunner.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\moria.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\murderatcolefaxmanor.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\nightmare.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\octopusisland.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\orcsday.jpg" />

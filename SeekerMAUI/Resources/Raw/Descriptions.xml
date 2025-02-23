@@ -1164,4 +1164,20 @@
 		<Setting>Новейшая история</Setting>
 		<Color>a32520</Color>
 	</Tachanka>
+	<MurderAtColefaxManor>
+		<Title>Убийство в поместье Коулфакс</Title>
+		<Original>Murder at Colefax Manor</Original>
+		<Author>С.С. Каннингэм</Author>
+		<Translator>Неизвестен</Translator>
+		<Year>2015</Year>
+		<Text>Поместье Коулфакс возвышается на скалистом утёсе, его готические шпили и известняковый фасад зловеще подсвечиваются убывающей октябрьской луной. Внутри тёмные коридоры, роскошные комнаты и загадочные улики скрывают правду за жестоким убийством мистера Людвика. В роли детектива вы должны исследовать это коварное поместье, где каждый выбор приближает вас к разгадке - или к новой опасности...</Text>
+		<Paragraphs>336</Paragraphs>
+		<Size>1</Size>
+		<Playthrough>На часок-полтора</Playthrough>
+		<Setting>Расследование</Setting>
+		<Colors>
+			<Book>ece0b3</Book>
+			<Font>000000</Font>
+		</Colors>
+	</MurderAtColefaxManor>
 </Gamebooks>
