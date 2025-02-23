@@ -685,5 +685,13 @@
 				<Option Goto="270"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="97">
+			<Text>В конце северо-западного туннеля перед вами возникает бледная деревянная дверь с едва заметной надписью «Гвитва».</Text>
+			<Options>
+				<Option Goto="235" Text="Открыть дверь"/>
+				<Option Goto="53" Text="Заглянуть в замочную скважину"/>
+				<Option Goto="88" Text="Вернуться к развилке"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
