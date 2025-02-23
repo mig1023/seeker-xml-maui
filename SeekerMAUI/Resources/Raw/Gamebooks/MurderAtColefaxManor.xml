@@ -604,5 +604,11 @@
 				<Option Goto="271" Text="Нажать на кирпич, находящийся на семнадцать вверх и шесть направо от пола"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="86">
+			<Text>— Мистер Макфейден, егерь лорда Коулфакса.\n\n— Я направлю кого-нибудь, детектив.</Text>
+			<Options>
+				<Option Goto="291"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
