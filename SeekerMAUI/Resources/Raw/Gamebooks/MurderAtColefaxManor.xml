@@ -253,5 +253,11 @@
 				<Option Goto="328"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="35">
+			<Text>— Мы встречаемся раз в год, чтобы поделиться историями и вспомнить студенческие годы. В прошлом году я ездил к нему в Кардифф, а в этом Людвик приехал сюда, в поместье.</Text>
+			<Options>
+				<Option Goto="218"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
