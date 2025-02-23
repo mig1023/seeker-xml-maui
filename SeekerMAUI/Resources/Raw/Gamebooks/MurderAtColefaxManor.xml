@@ -376,5 +376,11 @@
 				<Option Goto="90" Text="Отойти от книжного шкафа"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="53">
+			<Text>Вы опускаетесь на колени и приникаете глазом к замочной скважине. Взору открывается непримечательное помещение кладовой.</Text>
+			<Options>
+				<Option Goto="97" Text="Отступите от двери"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
