@@ -610,5 +610,11 @@
 				<Option Goto="291"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="87">
+			<Text>Вы прыгаете в воду и тут же понимаете, что совершили ошибку.\n\nХолод октябрьского моря мгновенно пронизывает вас до костей, и вы с трудом боретесь с сильным течением.</Text>
+			<Options>
+				<Option Goto="78" Text="Сдаться"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
