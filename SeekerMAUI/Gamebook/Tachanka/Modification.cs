@@ -28,6 +28,13 @@ namespace SeekerMAUI.Gamebook.Tachanka
                     Character.Protagonist.Team = new List<Crew>();
                     return;
                 }
+                else if (ValueString == "Last")
+                {
+                    if (Character.Protagonist.Team.Count > 0)
+                        Character.Protagonist.Team.RemoveAt(Character.Protagonist.Team.Count - 1);
+
+                    return;
+                }
 
                 var except = ValueString.Contains("!");
 
