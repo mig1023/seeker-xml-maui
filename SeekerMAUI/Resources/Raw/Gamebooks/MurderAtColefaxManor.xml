@@ -155,5 +155,11 @@
 				<Option Goto="88" Text="Вернуться к развилке"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="21">
+			<Text>Несмотря на все усилия, потайная дверь остаётся неподвижной, и в отчаянной попытке её оттянуть вы ломаете ноготь.</Text>
+			<Options>
+				<Option Goto="262"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
