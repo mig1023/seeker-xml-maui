@@ -119,5 +119,12 @@
 				<Option Goto="191" Text="Положить письмо обратно"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="16">
+			<Text>Вы строите обвинение против Призмалл, опираясь на наличие доступа к Людвику и отсутствие свидетелей, способных подтвердить её алиби.</Text>
+			<Options>
+				<Option Goto="69" Text="Передумать"/>
+				<Option Goto="91" Text="Представить"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
