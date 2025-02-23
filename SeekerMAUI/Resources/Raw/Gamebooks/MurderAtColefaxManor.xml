@@ -571,5 +571,11 @@
 				<Option Goto="321" Text="Отойти от картины"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="81">
+			<Text>- Не больше, чем любой другой, - отвечает егерь. - Я редко общаюсь с гостями, разве что они захотят прокатиться верхом или поохотиться.</Text>
+			<Options>
+				<Option Goto="167"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
