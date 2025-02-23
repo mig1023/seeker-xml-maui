@@ -679,5 +679,11 @@
 				<Option Goto="167"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="96">
+			<Text>— В тот момент я занимался подготовкой грелки для кровати и поддерживал огонь в камине в главной спальне.</Text>
+			<Options>
+				<Option Goto="270"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
