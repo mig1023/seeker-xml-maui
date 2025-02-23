@@ -231,5 +231,14 @@
 				<Option Goto="247"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="32">
+			<Text>Используйте всё, что вам удалось выяснить прошлой ночью, включая найденные улики, чтобы предъявить обвинение лорду Коулфаксу.</Text>
+			<Options>
+				<Option Goto="65" Text="Подозрительное алиби"/>
+				<Option Goto="329" Text="Используйте улики 1, 6 и 10"/>
+				<Option Goto="155" Text="Используйте улику 5"/>
+				<Option Goto="212" Text="Используйте улики 5 и 11"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
