@@ -1263,5 +1263,11 @@
 				<Option Goto="295" Text="Вернуться к расследованию"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="177">
+			<Text>Вы опускаетесь на колени и заглядываете в замочную скважину. Вдалеке, вдоль дальней стены, вы замечаете ряд камер.</Text>
+			<Options>
+				<Option Goto="142" Text="Отойти от двери"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
