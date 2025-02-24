@@ -1249,5 +1249,11 @@
 				<Option Goto="98"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="175">
+			<Text>— Мистер Скиннер, шеф-повар лорда Коулфакса.\n\n— Я отправлю кого-нибудь, детектив.</Text>
+			<Options>
+				<Option Goto="66"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
