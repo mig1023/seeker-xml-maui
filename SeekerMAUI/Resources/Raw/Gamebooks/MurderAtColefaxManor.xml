@@ -968,5 +968,11 @@
 				<Option Goto="131" Text="Представить обвинение"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="136">
+			<Text>Я гладила бельё лорда Коулфакса в служебной комнате, дожидаясь, пока высохнет постельное бельё.</Text>
+			<Options>
+				<Option Goto="56"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
