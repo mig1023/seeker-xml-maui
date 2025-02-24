@@ -1231,5 +1231,11 @@
 				<Option Goto="56"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="172">
+			<Text>— Мистер Блэквуд, дворецкий лорда Коулфакса.\n\n— Сейчас же отправлю наряд, детектив.</Text>
+			<Options>
+				<Option Goto="79"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
