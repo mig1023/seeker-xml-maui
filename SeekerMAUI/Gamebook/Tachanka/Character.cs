@@ -100,11 +100,11 @@ namespace SeekerMAUI.Gamebook.Tachanka
             Harness = 5;
             Springs = 5;
             Time = 28;
-            Cartridges = 0;
-            Grenades = 0;
-            Money = 0;
-            Food = 0;
-            Medicines = 0;
+            Cartridges = 500;
+            Grenades = 2;
+            Money = 20;
+            Food = 5;
+            Medicines = 2;
         }
 
         public Character Clone() => new Character()
