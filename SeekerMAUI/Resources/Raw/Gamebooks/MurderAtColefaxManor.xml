@@ -1020,5 +1020,13 @@
 				<Option Goto="50" Text="Войти в служебный проход"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="142">
+			<Text>В конце южного туннеля перед вами возникает массивная металлическая дверь с надписью «Каргхаранс».</Text>
+			<Options>
+				<Option Goto="203" Text="Открыть дверь"/>
+				<Option Goto="177" Text="Заглянуть в замочную скважину"/>
+				<Option Goto="88" Text="Вернуться к развилке"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
