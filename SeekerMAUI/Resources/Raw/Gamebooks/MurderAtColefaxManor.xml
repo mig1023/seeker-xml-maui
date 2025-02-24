@@ -831,5 +831,23 @@
 				<Option Goto="117"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="117">
+			<Text>Вы открываете страницу с уликами в своей записной книжке.</Text>
+			<Options>
+				<Option Goto="330" Text="Спросить об улике 1"/>
+				<Option Goto="116" Text="Спросить об улике 2"/>
+				<Option Goto="303" Text="Спросить об улике 3"/>
+				<Option Goto="254" Text="Спросить об улике 4"/>
+				<Option Goto="161" Text="Спросить об улике 5"/>
+				<Option Goto="164" Text="Спросить об улике 6"/>
+				<Option Goto="132" Text="Спросить об улике 7"/>
+				<Option Goto="158" Text="Спросить об улике 8"/>
+				<Option Goto="130" Text="Спросить об улике 9"/>
+				<Option Goto="281" Text="Спросить об улике 10"/>
+				<Option Goto="113" Text="Спросить об улике 11"/>
+				<Option Goto="270" Text="Уточнить детали дела"/>
+				<Option Goto="252" Text="Вернуться к расследованию"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
