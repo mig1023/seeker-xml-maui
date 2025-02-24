@@ -1120,5 +1120,12 @@
 				<Option Goto="311" Text="Отправить"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="156">
+			<Text>Вы выдвигаете обвинение против Макфейдена, основываясь на его доступе к Людвику и отсутствии свидетелей, которые могли бы подтвердить его алиби.</Text>
+			<Options>
+				<Option Goto="152" Text="Передумать"/>
+				<Option Goto="131" Text="Подтвердить"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
