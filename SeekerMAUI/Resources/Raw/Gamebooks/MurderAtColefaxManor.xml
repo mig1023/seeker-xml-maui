@@ -1702,5 +1702,11 @@
 				<Option Goto="59" Text="Положить книгу"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="238">
+			<Text>— В кабинете я обнаружил шприц, и, судя по всему, его использовали совсем недавно. Вы что-нибудь знаете об этом?\n\nПовар отрицательно качает головой.</Text>
+			<Options>
+				<Option Goto="139"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
