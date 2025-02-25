@@ -2179,5 +2179,12 @@
 				<Option Goto="213" Text="Продолжение"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="308">
+			<Text>Используйте всё, что вам удалось узнать прошлой ночью, включая найденные улики, чтобы выстроить обвинение против Призмалл.</Text>
+			<Options>
+				<Option Goto="162" Text="Первая на месте преступления"/>
+				<Option Goto="16" Text="Подозрительное алиби"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
