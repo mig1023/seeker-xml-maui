@@ -2143,5 +2143,11 @@
 				<Option Goto="89"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="302">
+			<Text>— Чёрт его знает, - буркнул смотритель парка. - Я спал, разве не видно?</Text>
+			<Options>
+				<Option Goto="167"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
