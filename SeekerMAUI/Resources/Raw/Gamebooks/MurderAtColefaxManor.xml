@@ -1779,5 +1779,11 @@
 				<Option Goto="193" Text="Выпустить мужчину"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="249">
+			<Text>— Сквозь грохот тарелок и звон посуды? Вы, должно быть, шутите, - с саркастической усмешкой отвечает Скиннер, и его усы слегка подрагивают.</Text>
+			<Options>
+				<Option Goto="242"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
