@@ -1759,5 +1759,11 @@
 				<Option Goto="63" Text="Положить шприц"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="246">
+			<Text>Вы отступаете от камеры, прикладываете палец к губам, призывая мужчину к тишине. В ответ он поднимает собственный палец, словно повторяя ваш жест.</Text>
+			<Options>
+				<Option Goto="203"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
