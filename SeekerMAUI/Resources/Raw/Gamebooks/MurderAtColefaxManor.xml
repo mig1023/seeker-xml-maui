@@ -1852,5 +1852,11 @@
 				<Option Goto="266" Text="Использовать улику 3"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="260">
+			<Text>Вы сжимаете бумагу с вашим обвинительным заключением в плотный комок и бросаете её в ближайшую корзину для мусора.</Text>
+			<Options>
+				<Option Goto="244"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
