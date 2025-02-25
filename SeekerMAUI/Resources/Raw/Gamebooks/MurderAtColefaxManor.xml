@@ -1918,5 +1918,12 @@
 				<Option Goto="179"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="269">
+			<Text>Вы формулируете обвинение против Блэквуда, указывая на его доступ к Людвику и отсутствие свидетелей, способных подтвердить его алиби.</Text>
+			<Options>
+				<Option Goto="260" Text="— Передумать"/>
+				<Option Goto="131" Text="— Отправить"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
