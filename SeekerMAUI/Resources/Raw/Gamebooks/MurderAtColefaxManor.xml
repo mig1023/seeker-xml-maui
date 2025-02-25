@@ -1791,5 +1791,11 @@
 				<Option Goto="159" Text="Отойти от замочной скважины"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="251">
+			<Text>— Чёрт его знает. Я узнал об этом лишь тогда, когда Блэквуд зашёл в половине одиннадцатого и сообщил о вашем приезде.</Text>
+			<Options>
+				<Option Goto="242"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
