@@ -2032,5 +2032,11 @@
 				<Option Goto="7" Text="Осмотреть бухгалтерские книги"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="285">
+			<Text>— На данный момент это всё, что мне нужно.\n\n— Хорошо, - отвечает Скиннер, поворачиваясь к раковине и снова принимаясь за дело.</Text>
+			<Options>
+				<Option Goto="110"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
