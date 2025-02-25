@@ -1822,5 +1822,11 @@
 				<Option Goto="146" Text="Отправить"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="256">
+			<Text>Похоже, убийце теперь придётся довольствоваться лишь двумя кинжалами с волнистыми лезвиями - третий уже в ваших руках.</Text>
+			<Options>
+				<Option Goto="59"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
