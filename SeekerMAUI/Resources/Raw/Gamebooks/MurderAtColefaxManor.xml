@@ -1648,5 +1648,11 @@
 				<Option Goto="318" Text="Отойти от карты"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="230">
+			<Text>- Я ничего не слышала. В тот момент я стирала бельё в нижнем служебном зале и едва различала собственный голос из-за грохота мангеля. Он, знаете ли, порядком заржавел.</Text>
+			<Options>
+				<Option Goto="56"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
