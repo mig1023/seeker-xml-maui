@@ -1544,5 +1544,11 @@
 				<Option Goto="143"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="215">
+			<Text>— Насколько мне известно, детектив, покойный мистер Людвик был человеком тихим и вряд ли кого-то напугал бы даже случайно.</Text>
+			<Options>
+				<Option Goto="270"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
