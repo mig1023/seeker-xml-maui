@@ -2131,5 +2131,11 @@
 				<Option Goto="192" Text="Заговорить со служанкой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="300">
+			<Text>— Я пытался поговорить с мистером Блэквудом, но он оказался немногословен. Похоже, мистер Людвик в своё время учился вместе с лордом Коулфаксом.</Text>
+			<Options>
+				<Option Goto="56"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
