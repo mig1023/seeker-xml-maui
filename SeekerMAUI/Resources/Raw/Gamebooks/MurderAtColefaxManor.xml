@@ -2118,5 +2118,11 @@
 				<Option Goto="56"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="298">
+			<Text>— Нет, - качает головой Макфейден. - Я знал только, что он приезжал раз в два года и когда-то учился вместе с лордом Коулфаксом.</Text>
+			<Options>
+				<Option Goto="167"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
