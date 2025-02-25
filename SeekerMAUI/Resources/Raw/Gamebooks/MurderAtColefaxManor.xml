@@ -1563,5 +1563,19 @@
 				<Option Goto="118" Text="Пройти в солярий"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="218">
+			<Text>Вы заглядываете в свой блокнот.</Text>
+			<Options>
+				<Option Goto="178" Text="— Можете ли вы назвать возможные мотивы?"/>
+				<Option Goto="312" Text="— Вы слышали какой-то шум?"/>
+				<Option Goto="278" Text="— Как вы были знакомы с покойным?"/>
+				<Option Goto="154" Text="— Чем вы занимались в тот момент?"/>
+				<Option Goto="224" Text="— Когда произошло убийство?"/>
+				<Option Goto="207" Text="— Где находился ваш персонал в то время?"/>
+				<Option Goto="35" Text="— Почему покойный был здесь?"/>
+				<Option Goto="213" Text="Расспросить об уликах"/>
+				<Option Goto="236" Text="Вернуться к расследованию"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
