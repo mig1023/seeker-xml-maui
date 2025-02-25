@@ -1989,5 +1989,12 @@
 				<Option Goto="218"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="279">
+			<Text>Вы погибли! Без вашего проницательного ума тайна убийства в поместье Коулфакс навсегда останется неразгаданной.</Text>
+			<Options>
+				<Option Goto="151" Text="Попробовать снова"/>
+				<Option Goto="336" Text="Сдаться"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
