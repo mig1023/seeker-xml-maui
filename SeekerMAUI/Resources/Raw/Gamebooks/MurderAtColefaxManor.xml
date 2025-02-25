@@ -1797,5 +1797,11 @@
 				<Option Goto="242"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="252">
+			<Text>— На сегодня всё.\n\n— Было приятно, детектив, - сухо ответил Блэквуд, возвращаясь к полировке.</Text>
+			<Options>
+				<Option Goto="289"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
