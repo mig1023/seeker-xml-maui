@@ -1608,5 +1608,11 @@
 				<Option Goto="270"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="224">
+			<Text>— Судя по времени, когда Людвик удалился на покой, и моменту, когда я получил известие, полагаю, это случилось между без четверти девять и десятью часами.</Text>
+			<Options>
+				<Option Goto="218"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
