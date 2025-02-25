@@ -1690,5 +1690,11 @@
 				<Option Goto="88" Text="Вернуться к развилке"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="236">
+			<Text>— Благодарю за ваше время, милорд, - произносите вы, поднимаясь с кресла.\n\n— Ценю вашу тщательность, детектив, - отвечает лорд Коулфакс, слегка кивая.</Text>
+			<Options>
+				<Option Goto="225"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
