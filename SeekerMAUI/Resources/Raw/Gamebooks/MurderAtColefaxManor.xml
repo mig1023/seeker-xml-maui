@@ -1772,5 +1772,12 @@
 				<Option Goto="336" Text="Сдаться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="248">
+			<Text>Едва вы приближаетесь, старик с отчаянием шепчет:\n\n— Выпустите меня! Пожалуйста! Я здесь уже недели! Освободите - и я щедро отблагодарю вас!</Text>
+			<Options>
+				<Option Goto="246" Text="Отступить"/>
+				<Option Goto="193" Text="Выпустить мужчину"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
