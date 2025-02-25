@@ -1720,5 +1720,11 @@
 				<Option Goto="208"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="241">
+			<Text>— Прошу прощения, но, боюсь, ваши услуги пока не понадобятся.\n\n— Ничего страшного, детектив. Доброй ночи.\n\nЛиния замолкает, и вы вешаете трубку.</Text>
+			<Options>
+				<Option Goto="191" Text="Отойти от телефона"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
