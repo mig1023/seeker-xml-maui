@@ -1528,17 +1528,17 @@
 		<Paragraph No="213">
 			<Text>Вы открываете страницу с уликами в своей записной книжке.</Text>
 			<Options>
-				<Option Goto="210" Text="Узнать об улике 1"/>
-				<Option Goto="202" Text="Узнать об улике 2"/>
-				<Option Goto="23" Text="Узнать об улике 3"/>
-				<Option Goto="41" Text="Узнать об улике 4"/>
-				<Option Goto="109" Text="Узнать об улике 5"/>
-				<Option Goto="70" Text="Узнать об улике 6"/>
-				<Option Goto="307" Text="Узнать об улике 7"/>
-				<Option Goto="226" Text="Узнать об улике 8"/>
-				<Option Goto="157" Text="Узнать об улике 9"/>
-				<Option Goto="305" Text="Узнать об улике 10"/>
-				<Option Goto="106" Text="Узнать об улике 11"/>
+				<Option Goto="210" Text="Узнать об улике 1" Availability="Улика 1"/>
+				<Option Goto="202" Text="Узнать об улике 2" Availability="Улика 2"/>
+				<Option Goto="23" Text="Узнать об улике 3" Availability="Улика 3"/>
+				<Option Goto="41" Text="Узнать об улике 4" Availability="Улика 4"/>
+				<Option Goto="109" Text="Узнать об улике 5" Availability="Улика 5"/>
+				<Option Goto="70" Text="Узнать об улике 6" Availability="Улика 6"/>
+				<Option Goto="307" Text="Узнать об улике 7" Availability="Улика 7"/>
+				<Option Goto="226" Text="Узнать об улике 8" Availability="Улика 8"/>
+				<Option Goto="157" Text="Узнать об улике 9" Availability="Улика 9"/>
+				<Option Goto="305" Text="Узнать об улике 10" Availability="Улика 10"/>
+				<Option Goto="106" Text="Узнать об улике 11" Availability="Улика 11"/>
 				<Option Goto="218" Text="Задать вопрос по делу"/>
 				<Option Goto="236" Text="Вернуться к расследованию"/>
 			</Options>
