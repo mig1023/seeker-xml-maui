@@ -2366,5 +2366,11 @@
 				<Option Goto="235"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="336">
+			<Text>Конец.\n\nУважаемый игро-читатель!\n\nМы надеемся, что данная книга-игра понравилась, и вам удалось хорошо провести время.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
