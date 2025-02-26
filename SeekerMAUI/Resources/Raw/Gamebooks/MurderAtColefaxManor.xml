@@ -2307,5 +2307,12 @@
 				<Option Goto="292"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="327">
+			<Text>Используйте всё, что вы узнали прошлой ночью, включая найденные улики, чтобы составить обвинение против Скиннера.</Text>
+			<Options>
+				<Option Goto="135" Text="Подозрительное алиби"/>
+				<Option Goto="108" Text="Используйте зацепку 11"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
