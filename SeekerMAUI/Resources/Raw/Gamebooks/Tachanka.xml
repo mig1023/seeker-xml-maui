@@ -9,9 +9,9 @@
 			<StatusBar Value="880f0e"/>
 			<AdditionalStatus Value="b22a29"/>
 			<Font Value="220303"/>
-				<Action Value="ff0000"/>
+			<Action Value="ff0000"/>
 			<Main Value="a32520"/>
-				<ActionBox Value="ff9999"/>
+			<ActionBox Value="ff9999"/>
 			<System Value="af1f28"/>
 			<Color Name="Option, Continue" Value="ce2f28"/>
 			<Color Name="SystemFont, AdditionalFont" Value="ffffff"/>
