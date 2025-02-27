@@ -5,9 +5,14 @@
 			<Author>С.С. Каннингэм, 2015</Author>
 		</Copyright>
 		<Styles>
-			<ButtonFont Value="000000"/>
-			<Color Name="Main, Option, Continue, System, StatusFont" Value="ece0b3"/>
+			<StatusBar Value="d4c9a1"/>
+			<Color Name="ButtonFont, StatusFont" Value="464335"/>
+			<Color Name="Main, Option, Continue, System" Value="ece0b3"/>
 		</Styles>
+		<Lists>
+			<Active Items="❶,❷,❸,❹,❺,❻,❼,❽"/>
+			<Passive Items="➀,➁,➂,➃,➄,➅,➆,➇"/>
+		</Lists>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
