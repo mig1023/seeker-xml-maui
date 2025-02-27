@@ -27,6 +27,9 @@
 				<Item Name="ЛЕКАРСТВА" Value="Medicines"/>
 			</Availabilities>
 		</Dictionaries>
+		<Lists>
+			<WithoutStatuses Items="0, 822, 823"/>
+		</Lists>
 		<Buttons>
 			<Damage>Проверьте ущерб тачанке</Damage>
 			<Dead>Бросить жребий</Dead>
