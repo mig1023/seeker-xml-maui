@@ -1015,19 +1015,19 @@
 		<Paragraph No="139">
 			<Text>Вы листаете страницы блокнота, останавливаясь на разделе с уликами.</Text>
 			<Options>
-				<Option Goto="319" Text="— Расспросить об улике 1" Availability="Улика 1"/>
-				<Option Goto="211" Text="— Расспросить об улике 2" Availability="Улика 2"/>
-				<Option Goto="150" Text="— Расспросить об улике 3" Availability="Улика 3"/>
-				<Option Goto="267" Text="— Расспросить об улике 4" Availability="Улика 4"/>
-				<Option Goto="119" Text="— Расспросить об улике 5" Availability="Улика 5"/>
-				<Option Goto="310" Text="— Расспросить об улике 6" Availability="Улика 6"/>
-				<Option Goto="195" Text="— Расспросить об улике 7" Availability="Улика 7"/>
-				<Option Goto="216" Text="— Расспросить об улике 8" Availability="Улика 8"/>
-				<Option Goto="290" Text="— Расспросить об улике 9" Availability="Улика 9"/>
-				<Option Goto="238" Text="— Расспросить об улике 10" Availability="Улика 10"/>
-				<Option Goto="306" Text="— Расспросить об улике 11" Availability="Улика 11"/>
-				<Option Goto="242" Text="— Уточнить детали дела"/>
-				<Option Goto="285" Text="— Вернуться к расследованию"/>
+				<Option Goto="319" Text="Расспросить об улике 1" Availability="Улика 1"/>
+				<Option Goto="211" Text="Расспросить об улике 2" Availability="Улика 2"/>
+				<Option Goto="150" Text="Расспросить об улике 3" Availability="Улика 3"/>
+				<Option Goto="267" Text="Расспросить об улике 4" Availability="Улика 4"/>
+				<Option Goto="119" Text="Расспросить об улике 5" Availability="Улика 5"/>
+				<Option Goto="310" Text="Расспросить об улике 6" Availability="Улика 6"/>
+				<Option Goto="195" Text="Расспросить об улике 7" Availability="Улика 7"/>
+				<Option Goto="216" Text="Расспросить об улике 8" Availability="Улика 8"/>
+				<Option Goto="290" Text="Расспросить об улике 9" Availability="Улика 9"/>
+				<Option Goto="238" Text="Расспросить об улике 10" Availability="Улика 10"/>
+				<Option Goto="306" Text="Расспросить об улике 11" Availability="Улика 11"/>
+				<Option Goto="242" Text="Уточнить детали дела"/>
+				<Option Goto="285" Text="Вернуться к расследованию"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="140">
