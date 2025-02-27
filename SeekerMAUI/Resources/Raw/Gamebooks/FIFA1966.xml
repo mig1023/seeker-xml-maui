@@ -1155,6 +1155,7 @@
 		</Paragraph>
 		<Paragraph No="69">
 			<Texts>
+				<Image Path="Ozerov"/>
 				<Text Availability="расходники/кому момент = 1">Сборная СССР в атаке!</Text>
 				<Text Availability="расходники/кому момент = 2">Оппоненты атакуют!</Text>
 				<Text Availability="расходники/кому момент = 0">На поле идет позиционная борьба без преимущества одной из команд...</Text>
