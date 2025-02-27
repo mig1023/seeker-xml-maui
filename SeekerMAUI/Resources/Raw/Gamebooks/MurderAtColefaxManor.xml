@@ -2408,7 +2408,7 @@
 		</Paragraph>
 		<Paragraph No="326">
 			<Options>
-				<Option Goto="221" Text="Если отмечена ячейка 2" Availability="Ячейка 2">
+				<Option Goto="221" Text="Отмечена ячейка 2" Availability="Ячейка 2">
 					<Text>Несмотря на все усилия, ящик не поддается. Скорее всего, он заперт, а не заклинил, но где лорд Коулфакс мог спрятать ключ - остается загадкой.</Text>
 				</Option>
 				<Option Goto="292" Availability="!Ячейка 2"/>
