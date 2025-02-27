@@ -96,7 +96,7 @@
 		</Paragraph>
 		<Paragraph No="11">
 			<Options>
-				<Option Goto="34" Text="Если ячейка 4 отмечена" Availability="Ячейка 4">
+				<Option Goto="34" Text="Ячейка 4 отмечена" Availability="Ячейка 4">
 					<Text>Верёвка, привязанная к лодке, толстая, а узел, удерживающий её от сноса приливом, настолько крепок, что развязать его вам не под силу.</Text>
 				</Option>
 				<Option Goto="87" Availability="!Ячейка 4"/>
