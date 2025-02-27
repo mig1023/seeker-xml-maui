@@ -654,7 +654,9 @@
 				<Option Goto="64" Text="В отряде есть Никифор" Availability="Никифор">
 					<Text>Если нет Никифора, то можете:</Text>
 				</Option>
-				<Option Goto="58" Text="Дать артисту десять червонцев (вам -10 червонцев)"/>
+				<Option Goto="58" Text="Дать артисту десять червонцев (вам -10 червонцев)" Availability="ДЕНЕГ > 9">
+					<Money Value="-10"/>
+				</Option>
 				<Option Goto="44" Text="Откажетесь от его посредничества и поедете в Черкес"/>
 			</Options>
 		</Paragraph>
