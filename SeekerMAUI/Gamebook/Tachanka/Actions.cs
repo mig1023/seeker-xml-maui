@@ -6,6 +6,7 @@ namespace SeekerMAUI.Gamebook.Tachanka
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
+        public string Name { get; set; }
         public string Names { get; set; }
         public bool OnlyWound { get; set; }
 
@@ -92,11 +93,7 @@ namespace SeekerMAUI.Gamebook.Tachanka
 
             var isTriggered = Game.Option.IsTriggered(option.Replace("!", String.Empty).Trim());
 
-            if (option == "Есть место в тачанке")
-            {
-                return Character.Protagonist.Team.Count() < 3;
-            }
-            else if (option.Contains("!"))
+            if (option.Contains("!"))
             {
                 return !inTeam && !inSkills && !isTriggered;
             }
@@ -134,6 +131,34 @@ namespace SeekerMAUI.Gamebook.Tachanka
             {
                 return AvailabilityNode(option);
             }
+        }
+
+        public override bool IsButtonEnabled(bool secondButton = false)
+        {
+            if (Type != "Crew")
+            {
+                return true;
+            }
+            else
+            {
+                var crew = Name.Split(',');
+
+                var inTeam = Character.Protagonist.Team
+                    .Where(x => x.Name == crew[0])
+                    .Count() > 0;
+
+                var fullTeam = Character.Protagonist.Team.Count() >= 3;
+
+                return !fullTeam && !inTeam;
+            }
+        }
+
+        public List<string> Crew()
+        {
+            var crew = Name.Split(',');
+            Character.Protagonist.Team.Add(new Crew(crew[0], crew[1]));
+
+            return new List<string> { $"RELOAD" };
         }
 
         public List<string> Damage()
