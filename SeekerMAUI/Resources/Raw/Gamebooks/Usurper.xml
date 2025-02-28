@@ -213,5 +213,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="30">
+			<Text>Для начала стоит заглянуть в палату сестры. В каком бы она ни была состоянии, ваше присутствие немного облегчит её долю.</Text>
+			<Options>
+				<Option Goto="100" Text="Зайти к ней"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
