@@ -1,0 +1,30 @@
+<Gamebook>
+	<Introduction>
+		<Copyright>
+			<Title>Узурпатор</Title>
+			<Author>SibSpar, 2025</Author>
+		</Copyright>
+		<Styles>
+			<StatusBar Value="222222"/>
+			<System Value="afafaf"/>
+			<Color Name="Main, Option, Continue" Value="373839"/>
+		</Styles>
+		<Default>
+			<HideDisabledOption/>
+		</Default>
+	</Introduction>
+	<Paragraphs>
+		<Paragraph No="0">
+			<Text>Вы – наследный правитель королевства, переживающего не самые лучшие времена. Однако насладиться торжеством собственной коронации вам не суждено. В день смерти короля правящая семья была убита в собственном дворце, а власть перешла в руки вашего дяди. Теперь трон принадлежит узурпатору, нити заговора тянутся к враждебным соседям, а страна вот-вот рухнет в бездну гражданской войны. Вы должны доказать что достойны трона и вернуть его. Будет ли справедливость восстановлена или же ваш путь закончится на плахе?</Text>
+			<Options>
+				<Start Goto="1"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="1">
+			<Text>END</Text>
+			<Options>
+				<Option Goto="0"/>
+			</Options>
+		</Paragraph>
+	</Paragraphs>
+</Gamebook>

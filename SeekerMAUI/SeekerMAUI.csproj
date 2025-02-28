@@ -140,6 +140,7 @@
 	  <None Remove="Resources\Images\Cover\tremble.jpg" />
 	  <None Remove="Resources\Images\Cover\undergroundroad.jpg" />
 	  <None Remove="Resources\Images\Cover\unexpectedpassenger.jpg" />
+	  <None Remove="Resources\Images\Cover\usurper.jpg" />
 	  <None Remove="Resources\Images\Cover\vweapons.jpg" />
 	  <None Remove="Resources\Images\Cover\walkinthepark.jpg" />
 	  <None Remove="Resources\Images\Cover\wilddeath.jpg" />
@@ -362,6 +363,7 @@
 	  <MauiImage Include="Resources\Images\Cover\tremble.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\undergroundroad.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\unexpectedpassenger.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\usurper.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\vweapons.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\walkinthepark.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\wilddeath.jpg" />
