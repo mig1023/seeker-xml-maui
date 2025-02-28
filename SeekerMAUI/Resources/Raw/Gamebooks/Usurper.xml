@@ -45,5 +45,12 @@
 				<Option Goto="11" Text="Я услышал достаточно!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="5">
+			<Text>Итак...</Text>
+			<Options>
+				<Option Goto="48" Text="Больше!"/>
+				<Option Goto="124" Text="Меньше!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
