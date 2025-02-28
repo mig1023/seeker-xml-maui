@@ -685,5 +685,12 @@
 				<Option Goto="188" Text="Что же с наследником?"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="99">
+			<Text>- Могу чем-то помочь?</Text>
+			<Options>
+				<Option Goto="66" Text="Лекари всегда имели тесную связь со жрецами. Не могла бы больше рассказать мне о религиях континента?"/>
+				<Option Goto="231" Text="Ничего важного"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
