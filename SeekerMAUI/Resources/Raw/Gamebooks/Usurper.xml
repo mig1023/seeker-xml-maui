@@ -1366,5 +1366,15 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="200">
+			<Options>
+				<Option Goto="256" Text="Каменная Чаща"/>
+				<Option Goto="208" Text="Пристанище"/>
+				<Option Goto="133" Text="Висельная Гавань"/>
+				<Option Goto="191" Text="Прочие задания"/>
+				<Option Goto="135" Text="Последняя битва"/>
+				<Option Goto="231" Text="Назад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
