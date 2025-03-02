@@ -1450,5 +1450,12 @@
 				<Option Goto="206" Text="Теперь я знаю достаточно"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="212">
+			<Text>- Да, в чём дело?</Text>
+			<Options>
+				<Option Goto="268" Text="Расскажите мне о других королевствах"/>
+				<Option Goto="231" Text="Ничего, просто проходил мимо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
