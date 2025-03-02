@@ -1615,5 +1615,8 @@
 				<Option Goto="103" Text="Выкрасть щит для переговоров с Фиеррой, $ «Лояльность» +3"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="236">
+			<Text>[пустой параграф]</Text>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
