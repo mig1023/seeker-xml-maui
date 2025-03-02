@@ -1301,5 +1301,15 @@
 				<Option Goto="61" Text="Спасать знамя, $ ^«Знамя»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="191">
+			<Options>
+				<Option Goto="22" Text="Если отсутствует «Завоевание/Компромат»: Компромат"/>
+				<Option Goto="60" Text="Если отсутствует «Завоевание/Кочевники»: Донесение кочевников"/>
+				<Option Goto="241" Text="Если отсутствует «Завоевание/Погоня»: Спасение и плен"/>
+				<Option Goto="94" Text="Таинственная встреча"/>
+				<Option Goto="164" Text="Задания Цинмера"/>
+				<Option Goto="231" Text="Назад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
