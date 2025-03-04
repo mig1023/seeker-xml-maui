@@ -36,6 +36,22 @@ namespace SeekerMAUI.Gamebook.Usurper
             set => _stability = Game.Param.Setter(value, _stability, this);
         }
 
+        private int _mercy;
+        public int Mercy
+        {
+            get => _mercy;
+            set => _mercy = Game.Param.Setter(value, _mercy, this);
+        }
+
+
+        private int _despotism;
+        public int Despotism
+        {
+            get => _despotism;
+            set => _despotism = Game.Param.Setter(value, _despotism, this);
+        }
+
+
         public override void Init()
         {
             base.Init();
@@ -44,6 +60,8 @@ namespace SeekerMAUI.Gamebook.Usurper
             Health = 7;
             Loyalty = 0;
             Stability = 0;
+            Mercy = 0;
+            Despotism = 0;
         }
 
         public Character Clone() => new Character()
@@ -54,10 +72,12 @@ namespace SeekerMAUI.Gamebook.Usurper
             Health = this.Health,
             Loyalty = this.Loyalty,
             Stability = this.Stability,
+            Mercy = this.Mercy,
+            Despotism = this.Despotism,
         };
 
         public override string Save() => String.Join("|",
-            Name, Influence, Health, Loyalty, Stability);
+            Name, Influence, Health, Loyalty, Stability, Mercy, Despotism);
 
         public override void Load(string saveLine)
         {
@@ -68,6 +88,8 @@ namespace SeekerMAUI.Gamebook.Usurper
             Health = int.Parse(save[2]);
             Loyalty = int.Parse(save[3]);
             Stability = int.Parse(save[4]);
+            Mercy = int.Parse(save[5]);
+            Despotism = int.Parse(save[6]);
 
             IsProtagonist = true;
         }

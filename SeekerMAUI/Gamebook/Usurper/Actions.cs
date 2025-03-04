@@ -9,7 +9,13 @@ namespace SeekerMAUI.Gamebook.Usurper
             $"Влияние: {Character.Protagonist.Influence}",
             $"Здоровье: {Character.Protagonist.Health}",
             $"Лояльность: {Character.Protagonist.Loyalty}",
+        };
+
+        public override List<string> AdditionalStatus() => new List<string>
+        {
             $"Стабильность: {Character.Protagonist.Stability}",
+            $"Милосердие: {Character.Protagonist.Mercy}",
+            $"Деспотия: {Character.Protagonist.Despotism}",
         };
 
         private bool AvailabilityNode(string option)
