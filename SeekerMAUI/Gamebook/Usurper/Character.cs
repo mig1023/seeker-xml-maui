@@ -21,12 +21,19 @@ namespace SeekerMAUI.Gamebook.Usurper
             get => _health;
             set => _health = Game.Param.Setter(value, _health, this);
         }
-
+        
         private int _loyalty;
         public int Loyalty
         {
             get => _loyalty;
             set => _loyalty = Game.Param.Setter(value, _loyalty, this);
+        }
+
+        private int _stability;
+        public int Stability
+        {
+            get => _stability;
+            set => _stability = Game.Param.Setter(value, _stability, this);
         }
 
         public override void Init()
@@ -36,6 +43,7 @@ namespace SeekerMAUI.Gamebook.Usurper
             Influence = 4;
             Health = 7;
             Loyalty = 0;
+            Stability = 0;
         }
 
         public Character Clone() => new Character()
@@ -45,10 +53,11 @@ namespace SeekerMAUI.Gamebook.Usurper
             Influence = this.Influence,
             Health = this.Health,
             Loyalty = this.Loyalty,
+            Stability = this.Stability,
         };
 
         public override string Save() => String.Join("|",
-            Name, Influence, Health, Loyalty);
+            Name, Influence, Health, Loyalty, Stability);
 
         public override void Load(string saveLine)
         {
@@ -58,6 +67,7 @@ namespace SeekerMAUI.Gamebook.Usurper
             Influence = int.Parse(save[1]);
             Health = int.Parse(save[2]);
             Loyalty = int.Parse(save[3]);
+            Stability = int.Parse(save[4]);
 
             IsProtagonist = true;
         }
