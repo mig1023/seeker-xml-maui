@@ -6,10 +6,10 @@
 		</Copyright>
 		<Styles>
 			<Background Value="018749"/>
+			<StatusBar Value="009559"/>
+			<AdditionalStatus Value="339f6d"/>
+			<System Value="339f6d"/>
 			<Color Name="Main, Option, Continue" Value="006c3a"/>
-			<Color Name="StatusBar" Value="009559"/>
-			<Color Name="AdditionalStatus" Value="339f6d"/>
-			<Color Name="System" Value="339f6d"/>
 			<Color Name="Font, SystemFont" Value="ffffff"/>
 		</Styles>
 		<Dictionaries>
