@@ -31,6 +31,9 @@ namespace SeekerMAUI.Gamebook.Usurper
             }
         }
 
+        public override Abstract.IActions ActionParse(XmlNode xmlAction) =>
+            (Actions)ActionTemplate(xmlAction, new Actions());
+
         public override Option OptionParse(XmlNode xmlOption)
         {
             List<Abstract.IModification> modifications = new List<Abstract.IModification>();

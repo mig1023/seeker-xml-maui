@@ -67,5 +67,27 @@ namespace SeekerMAUI.Gamebook.Usurper
                 return AvailabilityNode(option);
             }
         }
+
+        public List<string> Random()
+        {
+            List<string> random = new List<string>();
+
+            random.Add($"BIG|Получить новое случайное знание (возможно совпадение с уже полученным):");
+
+            var dice = Game.Dice.Roll(size: 9);
+
+            random.Add($"Случайное число: {dice}");
+
+            var randomSkill = Constants.Random[dice];
+
+            Game.Option.Trigger(randomSkill);
+
+            random.Add($"BIG|BOLD|Вы получаете талант: {randomSkill.ToUpper()}");
+
+            random.Add($"GRAY|...Фантастическое пространство схлопнулось быстрее, чем человек успел моргнуть. " +
+                $"Вы приходите в себя, после чего берёте с собой корону и покидаете Молдспайр.");
+
+            return random;
+        }
     }
 }
