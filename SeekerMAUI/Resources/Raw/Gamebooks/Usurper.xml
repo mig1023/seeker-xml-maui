@@ -20,6 +20,9 @@
 				<Item Name="ДЕСПОТИЯ" Value="Despotism"/>
 			</Availabilities>
 		</Dictionaries>
+		<Lists>
+			<Random Items="Тур, Филин, Змея, Полководец, Дуэлянт, Лингвист, Знаток религий, Авантюрист, Лисица"/>
+		</Lists>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
