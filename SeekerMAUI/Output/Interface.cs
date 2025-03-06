@@ -284,10 +284,10 @@ namespace SeekerMAUI.Output
                 ColumnDefinitions =
                 {
                     new ColumnDefinition { Width = new GridLength(2) },
-                    new ColumnDefinition { Width = new GridLength(2) },
+                    new ColumnDefinition { Width = new GridLength(12) },
                     new ColumnDefinition { }
                 },
-                Margin = new Thickness(5, 0, 0, 0),
+                Margin = new Thickness(5, 5, 5, 0),
             };
 
             BoxView verticalLine = new BoxView
