@@ -26,6 +26,7 @@
 				<Item Name="1795" Value="268483"/>
 				<Item Name="1909" Value="dd995b"/>
 				<Item Name="1925" Value="202d30"/>
+				<Item Name="1943" Value=""/>
 			</Buttons>
 		</Dictionaries>
 	</Introduction>
@@ -91,6 +92,9 @@
 				</Option>
 				<Option Goto="1925" Text="Затонувшие сокровища" Image="Treasures">
 					<Text Style="Small, Upper">Эдвард Паккард, перевод Сергея Посниченко, 1982</Text>
+				</Option>
+				<Option Goto="1943" Text="Магия единорога" Image="Unicorn">
+					<Text Style="Small, Upper">Дебора Гудман, перевод Сергея Посниченко, 1985</Text>
 				</Option>
 			</Options>
 		</Paragraph>

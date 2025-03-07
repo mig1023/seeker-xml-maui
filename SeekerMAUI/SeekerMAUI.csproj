@@ -152,6 +152,7 @@
 	  <None Remove="Resources\Images\Images\adventuresofabeardlessdeceiver_akyn4.jpg" />
 	  <None Remove="Resources\Images\Images\adventuresofabeardlessdeceiver_akyn5.jpg" />
 	  <None Remove="Resources\Images\Images\adventuresofabeardlessdeceiver_akyn6.jpg" />
+	  <None Remove="Resources\Images\Images\ChooseYourOwnAdventure\unicorn.jpg" />
 	  <None Remove="Resources\Images\Images\chooseyourownadventure_canyon.jpg" />
 	  <None Remove="Resources\Images\Images\chooseyourownadventure_castle.jpg" />
 	  <None Remove="Resources\Images\Images\chooseyourownadventure_cave.jpg" />
@@ -392,6 +393,7 @@
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\scene.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\sea.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\treasures.jpg" />
+	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\unicorn.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\vampires.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\vikings.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\wheel.jpg" />
