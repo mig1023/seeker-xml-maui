@@ -87,40 +87,30 @@ namespace SeekerMAUI.Gamebook.FIFA1966
             }
         }
 
-        public override bool Availability(string option)
+        public override bool AvailabilityNode(string option)
         {
-            if (String.IsNullOrEmpty(option))
+            var level = Game.Services.LevelParse(option);
+            var found = false;
+
+            foreach (var varName in Character.Protagonist.Vars.Keys())
             {
-                return true;
+                if (!option.Contains(varName))
+                    continue;
+
+                found = true;
+
+                var value = Character.Protagonist.Vars[varName];
+
+                if (!Game.Services.LevelAvailability(varName, option, value, level))
+                    return false;
             }
-            else
+
+            if (!found && !option.Contains("!=")) 
             {
-                foreach (var oneOption in option.Split(','))
-                {
-                    var level = Game.Services.LevelParse(oneOption);
-                    var found = false;
-
-                    foreach (var varName in Character.Protagonist.Vars.Keys())
-                    {
-                        if (!oneOption.Contains(varName))
-                            continue;
-
-                        found = true;
-
-                        var value = Character.Protagonist.Vars[varName];
-
-                        if (!Game.Services.LevelAvailability(varName, oneOption, value, level))
-                            return false;
-                    }
-
-                    if (!found && !oneOption.Contains("!=")) 
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
+                return false;
             }
+
+            return true;
         }
     }
 }
