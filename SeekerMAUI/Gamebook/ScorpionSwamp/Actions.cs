@@ -150,23 +150,8 @@ namespace SeekerMAUI.Gamebook.ScorpionSwamp
             return wounds;
         }
 
-        public override bool Availability(string option)
-        {
-            if (String.IsNullOrEmpty(option))
-            {
-                return true;
-            }
-            else
-            {
-                foreach (string oneOption in option.Split(','))
-                {
-                    if (!AvailabilityTrigger(oneOption))
-                        return false;
-                }
-
-                return true;
-            }
-        }
+        public override bool AvailabilityNode(string option) =>
+            AvailabilityTrigger(option);
 
         public override List<string> Representer()
         {
