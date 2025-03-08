@@ -121,7 +121,10 @@ namespace SeekerMAUI.Gamebook.GoingToLaughter
             {
                 foreach (string oneOption in option.Split('|'))
                 {
-                    if (Character.Protagonist.Advantages.Contains(oneOption.Trim()) || Character.Protagonist.Disadvantages.Contains(oneOption.Trim()))
+                    var advantages = Character.Protagonist.Advantages.Contains(oneOption.Trim());
+                    var disadvantages = Character.Protagonist.Disadvantages.Contains(oneOption.Trim());
+
+                    if (advantages || disadvantages)
                         return true;
                 }
 
@@ -144,12 +147,18 @@ namespace SeekerMAUI.Gamebook.GoingToLaughter
                     }
                     else if (oneOption.Contains("!"))
                     {
-                        if (disadvantages.Contains(oneOption.Trim().Replace("!", String.Empty).Trim()))
+                        var optionDisadvantage = oneOption.Replace("!", String.Empty).Trim();
+
+                        if (disadvantages.Contains(optionDisadvantage))
                             return false;
                     }
-                    else if (!advantages.Contains(oneOption.Trim()) && !disadvantages.Contains(oneOption.Trim()))
+                    else
                     {
-                        return false;
+                        var noInAdvantages = !advantages.Contains(oneOption.Trim());
+                        var noInDisadvantages = !disadvantages.Contains(oneOption.Trim());
+
+                        if (noInAdvantages && noInDisadvantages)
+                            return false;
                     }
                 };
 
