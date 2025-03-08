@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace SeekerMAUI.Gamebook.Hunt
 {
@@ -13,44 +11,16 @@ namespace SeekerMAUI.Gamebook.Hunt
             return new List<string>{ $"Укушенные: {bitten}" };
         }
 
-        public override bool Availability(string option)
+        public override bool AvailabilityNode(string option)
         {
-            if (String.IsNullOrEmpty(option))
+            if (Game.Services.AvailabilityByСomparison(option))
             {
-                return true;
-            }
-            else if (option.Contains("|"))
-            {
-                return option.Split('|').Where(x => Game.Option.IsTriggered(x.Trim())).Count() > 0;
-            }
-            else if (!option.Contains(","))
-            {
-                if (Game.Services.AvailabilityByСomparison(option))
-                {
-                    return Game.Services.AvailabilityByProperty(Character.Protagonist,
-                        option, Constants.Availabilities);
-                }
-                else
-                {
-                    return AvailabilityTrigger(option);
-                }
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
             }
             else
             {
-                foreach (string oneOption in option.Split(','))
-                {
-                    if (oneOption.Contains("!"))
-                    {
-                        if (Game.Option.IsTriggered(oneOption.Replace("!", String.Empty).Trim()))
-                            return false;
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
+                return AvailabilityTrigger(option);
             }
         }
     }
