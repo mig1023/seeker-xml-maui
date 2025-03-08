@@ -80,55 +80,18 @@ namespace SeekerMAUI.Gamebook.ByTheWillOfRome
         public override bool IsButtonEnabled(bool secondButton = false) =>
             !(Used || ((Price > 0) && (Character.Protagonist.Sestertius < Price)));
 
-        public override bool Availability(string option)
+        public override bool AvailabilityNode(string option)
         {
-            if (String.IsNullOrEmpty(option))
+            if (Game.Services.AvailabilityByСomparison(option))
             {
-                return true;
-            }
-            else if (option.Contains("|"))
-            {
-                List<string> options = option
-                    .Split('|')
-                    .Select(x => x.Trim())
-                    .ToList();
+                var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                foreach (string optionsPart in options)
-                {
-                    if (Game.Option.IsTriggered(optionsPart))
-                        return true;
-                }
-
-                return false;
+                return !fail;
             }
             else
             {
-                List<string> options = option
-                    .Split(',')
-                    .ToList();
-
-                foreach (string oneOption in options)
-                {
-                    if (Game.Services.AvailabilityByСomparison(oneOption))
-                    {
-                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
-                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
-
-                        if (fail)
-                            return false;
-                    }
-                    else if (oneOption.Contains("!"))
-                    {
-                        if (Game.Option.IsTriggered(oneOption.Replace("!", String.Empty).Trim()))
-                            return false;
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
+                return AvailabilityTrigger(option);
             }
         }
 
