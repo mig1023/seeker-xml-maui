@@ -18,41 +18,13 @@ namespace SeekerMAUI.Gamebook.ThoseWhoAreAboutToDie
 
         public override bool Availability(string option)
         {
-            if (String.IsNullOrEmpty(option))
+            if (option.Contains(">") || option.Contains("<"))
             {
-                return true;
+                if (Params.Fail(option))
+                    return false;
             }
-            else if (option.Contains("|"))
-            {
-                var avail = option
-                    .Split('|')
-                    .Where(x => !Params.Fail(x) || Game.Option.IsTriggered(x.Trim()))
-                    .Count() > 0;
 
-                return avail;
-            }
-            else
-            {
-                foreach (string oneOption in option.Split(','))
-                {
-                    if (oneOption.Contains(">") || oneOption.Contains("<"))
-                    {
-                        if (Params.Fail(oneOption))
-                            return false;
-                    }
-                    else if (oneOption.Contains("!"))
-                    {
-                        if (Game.Option.IsTriggered(oneOption.Replace("!", String.Empty).Trim()))
-                            return false;
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
-            }
+            return AvailabilityTrigger(option);
         }
 
         public List<string> TryToWound()
