@@ -27,15 +27,26 @@ namespace SeekerMAUI.Gamebook.Moonrunner
             $"Золото: {Character.Protagonist.Gold}",
         };
 
+        public override bool AvailabilityNode(string option)
+        {
+            if (Game.Services.AvailabilityByСomparison(option))
+            {
+                var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities, onlyFailTrueReturn: true);
+
+                return !fail;
+            }
+            else
+            {
+                return AvailabilityTrigger(option);
+            }
+        }
+
         public override bool Availability(string option)
         {
             if (String.IsNullOrEmpty(option))
             {
                 return true;
-            }
-            else if (option.Contains("|"))
-            {
-                return option.Split('|').Where(x => Game.Option.IsTriggered(x.Trim())).Count() > 0;
             }
             else if (option.Contains(";"))
             {
@@ -60,28 +71,7 @@ namespace SeekerMAUI.Gamebook.Moonrunner
             }
             else
             {
-                foreach (string oneOption in option.Split(','))
-                {
-                    if (Game.Services.AvailabilityByСomparison(oneOption))
-                    {
-                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
-                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
-
-                        if (fail)
-                            return false;
-                    }
-                    else if (oneOption.Contains("!"))
-                    {
-                        if (Game.Option.IsTriggered(oneOption.Replace("!", String.Empty).Trim()))
-                            return false;
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
+                return base.Availability(option);
             }
         }
 
