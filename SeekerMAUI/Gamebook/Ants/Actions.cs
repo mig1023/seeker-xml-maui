@@ -34,45 +34,26 @@ namespace SeekerMAUI.Gamebook.Ants
             return statusLines;
         }
 
-        public override bool Availability(string option)
+        public override bool AvailabilityNode(string option)
         {
-            if (String.IsNullOrEmpty(option))
+            if (Game.Services.AvailabilityByСomparison(option))
             {
+                int level = Game.Services.LevelParse(option);
+
+                if (option.Contains("ДАЙС =") && !Character.Protagonist.Dice[level])
+                    return false;
+
+                var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities, onlyFailTrueReturn: true);
+
+                if (fail)
+                    return false;
+
                 return true;
-            }
-            else if (option.Contains("|"))
-            {
-                return option.Split('|').Where(x => Game.Option.IsTriggered(x.Trim())).Count() > 0;
             }
             else
             {
-                foreach (string oneOption in option.Split(','))
-                {
-                    if (Game.Services.AvailabilityByСomparison(oneOption))
-                    {
-                        int level = Game.Services.LevelParse(oneOption);
-
-                        if (oneOption.Contains("ДАЙС =") && !Character.Protagonist.Dice[level])
-                            return false;
-
-                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
-                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
-
-                        if (fail)
-                            return false;
-                    }
-                    else if (oneOption.Contains("!"))
-                    {
-                        if (Game.Option.IsTriggered(oneOption.Replace("!", String.Empty).Trim()))
-                            return false;
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
+                return AvailabilityTrigger(option);
             }
         }
 
