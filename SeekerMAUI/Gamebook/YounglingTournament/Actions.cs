@@ -55,52 +55,33 @@ namespace SeekerMAUI.Gamebook.YounglingTournament
             
         public override bool Availability(string option)
         {
-            if (String.IsNullOrEmpty(option))
+            bool thisIsTechnique = Enum.TryParse(option, out Character.ForcesTypes techniqueType);
+
+            if (thisIsTechnique && (Character.Protagonist.ForceTechniques[techniqueType] == 0))
             {
-                return true;
+                return false;
             }
-            else if (option.Contains("|"))
+            else if (Game.Services.AvailabilityByСomparison(option))
             {
-                return option.Split('|').Where(x => Game.Option.IsTriggered(x.Trim())).Count() > 0;
+                var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities, onlyFailTrueReturn: true);
+
+                if (fail)
+                    return false;
+
+                int level = Game.Services.LevelParse(option);
+
+                if (option.Contains("УКОЛОВ >") && (level >= Character.Protagonist.Thrust))
+                    return false;
+
+                if (option.Contains("УКОЛОВ У ВРАГА >") && (level >= Character.Protagonist.EnemyThrust))
+                    return false;
+
+                return true;
             }
             else
             {
-                foreach (string oneOption in option.Split(','))
-                {
-                    bool thisIsTechnique = Enum.TryParse(oneOption, out Character.ForcesTypes techniqueType);
-
-                    if (thisIsTechnique && (Character.Protagonist.ForceTechniques[techniqueType] == 0))
-                    {
-                        return false;
-                    }
-                    else if (Game.Services.AvailabilityByСomparison(oneOption))
-                    {
-                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
-                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
-
-                        if (fail)
-                            return false;
-
-                        int level = Game.Services.LevelParse(option);
-
-                        if (oneOption.Contains("УКОЛОВ >") && (level >= Character.Protagonist.Thrust))
-                            return false;
-
-                        if (oneOption.Contains("УКОЛОВ У ВРАГА >") && (level >= Character.Protagonist.EnemyThrust))
-                            return false;
-                    }
-                    else if (oneOption.Contains("!"))
-                    {
-                        if (Game.Option.IsTriggered(oneOption.Replace("!", String.Empty).Trim()))
-                            return false;
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
+                return AvailabilityTrigger(option);
             }
         }
 
