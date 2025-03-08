@@ -24,22 +24,9 @@ namespace SeekerMAUI.Gamebook.CaptainSheltonsSecret
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
             GameOverBy(Character.Protagonist.Endurance, out toEndParagraph, out toEndText);
 
-        public override bool Availability(string option)
+        public override bool AvailabilityNode(string option)
         {
-            if (String.IsNullOrEmpty(option))
-            {
-                return true;
-            }
-            else if (option.Contains(","))
-            {
-                int count = option
-                    .Split(',')
-                    .Where(x => !Game.Option.IsTriggered(x.Trim()))
-                    .Count();
-
-                return count == 0;
-            }
-            else if (Game.Services.AvailabilityByСomparison(option))
+            if (Game.Services.AvailabilityByСomparison(option))
             {
                 return Game.Services.AvailabilityByProperty(Character.Protagonist,
                     option, Constants.Availabilities);
