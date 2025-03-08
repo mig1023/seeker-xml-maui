@@ -237,6 +237,10 @@
 	  <None Remove="Resources\Images\Images\sheriff_place.jpg" />
 	  <None Remove="Resources\Images\Images\sheriff_woman.jpg" />
 	  <None Remove="Resources\Images\Images\silentschool_chess.jpg" />
+	  <None Remove="Resources\Images\Images\SongOfJaguarsCliff\song82a.jpg" />
+	  <None Remove="Resources\Images\Images\SongOfJaguarsCliff\song82b.jpg" />
+	  <None Remove="Resources\Images\Images\SongOfJaguarsCliff\song82c.jpg" />
+	  <None Remove="Resources\Images\Images\SongOfJaguarsCliff\song82d.jpg" />
 	  <None Remove="Resources\Images\Images\songofjaguarscliff_pic153.jpg" />
 	  <None Remove="Resources\Images\Images\songofjaguarscliff_pic181.jpg" />
 	  <None Remove="Resources\Images\Images\songofjaguarscliff_pic182.jpg" />
@@ -478,6 +482,10 @@
 	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\song194.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\song195.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\song196.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\song82a.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\song82b.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\song82c.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\song82d.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SwampFever\bipolarkochkarnik.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SwampFever\crystalpath.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SwampFever\hunting.jpg" />
