@@ -47,15 +47,41 @@ namespace SeekerMAUI.Gamebook.SilentSchool
         public override bool IsButtonEnabled(bool secondButton = false) =>
             !((HarmedMyself > 0) && ((Character.Protagonist.HarmSelfAlready > 0) || (Character.Protagonist.Life <= HarmedMyself)));
 
+        public override bool AvailabilityNode(string option)
+        {
+            if (option.Contains("ОРУЖИЕ"))
+            {
+                string value = option.Split('=')[1].Trim();
+
+                if (option.Contains("!") && (value == Character.Protagonist.Weapon))
+                {
+                    return false;
+                }
+                else if (!option.Contains("!") && (value != Character.Protagonist.Weapon))
+                {
+                    return false;
+                }
+
+                return true;
+            }
+            else if (Game.Services.AvailabilityByСomparison(option))
+            {
+                var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities, onlyFailTrueReturn: true);
+
+                return !fail;
+            }
+            else
+            {
+                return AvailabilityTrigger(option);
+            }
+        }
+
         public override bool Availability(string option)
         {
             if (String.IsNullOrEmpty(option))
             {
                 return true;
-            }
-            else if (option.Contains("|"))
-            {
-                return option.Split('|').Where(x => Game.Option.IsTriggered(x.Trim())).Count() > 0;
             }
             else if (option.Contains(";"))
             {
@@ -76,41 +102,7 @@ namespace SeekerMAUI.Gamebook.SilentSchool
             }
             else
             {
-                foreach (string oneOption in option.Split(','))
-                {
-                    if (oneOption.Contains("ОРУЖИЕ"))
-                    {
-                        string value = oneOption.Split('=')[1].Trim();
-
-                        if (oneOption.Contains("!") && (value == Character.Protagonist.Weapon))
-                        {
-                            return false;
-                        }
-                        else if (!oneOption.Contains("!") && (value != Character.Protagonist.Weapon))
-                        {
-                            return false;
-                        }
-                    }
-                    else if (Game.Services.AvailabilityByСomparison(oneOption))
-                    {
-                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
-                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
-
-                        if (fail)
-                            return false;
-                    }
-                    else if (oneOption.Contains("!"))
-                    {
-                        if (Game.Option.IsTriggered(oneOption.Replace("!", String.Empty).Trim()))
-                            return false;
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
+                return AvailabilityTrigger(option);
             }
         }
 
