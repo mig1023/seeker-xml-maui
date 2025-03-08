@@ -17,29 +17,7 @@ namespace SeekerMAUI.Gamebook.MurderAtColefaxManor
             return new List<string> { $"Прогресс:   {String.Join("   ", progress)}" };
         }
 
-        public override bool Availability(string option)
-        {
-            if (String.IsNullOrEmpty(option))
-            {
-                return true;
-            }
-            else
-            {
-                foreach (string oneOption in option.Split(','))
-                {
-                    if (oneOption.Contains("!"))
-                    {
-                        if (Game.Option.IsTriggered(oneOption.Replace("!", String.Empty).Trim()))
-                            return false;
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
-            }
-        }
+        public override bool AvailabilityNode(string option) =>
+            AvailabilityTrigger(option);
     }
 }
