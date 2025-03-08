@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SeekerMAUI.Game;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -58,17 +59,8 @@ namespace SeekerMAUI.Gamebook.DangerFromBehindTheSnowWall
             return enemies;
         }
 
-        public override bool Availability(string option)
-        {
-            if (String.IsNullOrEmpty(option))
-            {
-                return true;
-            }
-            else
-            {
-                return AvailabilityTrigger(option);
-            }
-        }
+        public override bool Availability(string option) =>
+            AvailabilityTrigger(option);
 
         public static bool NoMoreEnemies(List<Character> enemies) =>
             enemies.Where(x => x.Strength > 0).Count() == 0;
