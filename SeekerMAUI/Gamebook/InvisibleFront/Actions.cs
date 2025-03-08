@@ -10,36 +10,18 @@ namespace SeekerMAUI.Gamebook.InvisibleFront
             $"Вербовка: {Character.Protagonist.Recruitment}",
         };
 
-        public override bool Availability(string option)
+        public override bool AvailabilityNode(string option)
         {
-            if (String.IsNullOrEmpty(option))
+            if (Game.Services.AvailabilityByСomparison(option))
             {
-                return true;
+                var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities, onlyFailTrueReturn: true);
+
+                return !fail;
             }
             else
             {
-                string[] options = option.Split('|', ',');
-
-                foreach (string oneOption in options)
-                {
-                    if (Game.Services.AvailabilityByСomparison(oneOption))
-                    {
-                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
-                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
-
-                        if (fail)
-                            return false;
-                    }
-                    else if (oneOption.Contains("!"))
-                    {
-                        if (Game.Option.IsTriggered(oneOption.Replace("!", String.Empty).Trim()))
-                            return false;
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                        return false;
-                }
-
-                return true;
+                return AvailabilityTrigger(option);
             }
         }
     }
