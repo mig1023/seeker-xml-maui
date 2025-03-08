@@ -25,16 +25,9 @@ namespace SeekerMAUI.Gamebook.Usurper
                 return Game.Services.AvailabilityByProperty(Character.Protagonist,
                     option, Constants.Availabilities);
             }
-
-            var isTriggered = Game.Option.IsTriggered(option.Replace("!", String.Empty).Trim());
-
-            if (option.Contains("!"))
-            {
-                return !isTriggered;
-            }
             else
             {
-                return isTriggered;
+                return AvailabilityTrigger(option);
             }
         }
 
