@@ -40,7 +40,7 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\seeker.svg" Color="#545454" />
+		<MauiIcon Include="Resources\AppIcon\seeker.svg" Color="#FFFFFF" />
 
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\seeker.svg" Color="#FFFFFF" BaseSize="300,300" />
