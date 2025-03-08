@@ -455,6 +455,9 @@ namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
             return false;
         }
 
+        public override bool AvailabilityNode(string option) =>
+            AvailabilityTrigger(option);
+
         public override bool Availability(string option)
         {
             if (String.IsNullOrEmpty(option))
@@ -487,37 +490,10 @@ namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
 
                 return result;
             }
-            else if (option.Contains("|"))
+            else
             {
-                foreach (string opt in option.Split('|'))
-                {
-                    if (Game.Option.IsTriggered(opt.Trim()))
-                        return true;
-                }
-
-                return false;
+                return base.Availability(option);
             }
-            else if (option.Contains(","))
-            {
-                foreach (string opt in option.Split(','))
-                {
-                    if (!Game.Option.IsTriggered(opt.Trim()))
-                        return false;
-                }
-
-                return true;
-            }
-            else if (option.Contains("!"))
-            {
-                if (Game.Option.IsTriggered(option.Replace("!", String.Empty).Trim()))
-                    return false;
-            }
-            else if (!Game.Option.IsTriggered(option.Trim()))
-            {
-                return false;
-            }
-            
-            return true;
         }
 
         public List<string> Fight()
