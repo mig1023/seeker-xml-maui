@@ -91,34 +91,8 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
         public override bool IsButtonEnabled(bool secondButton = false) =>
             !((DinnerHitpointsBonus > 0) && ((Character.Protagonist.Food <= 0) || DinnerAlready));
 
-        public override bool Availability(string option)
-        {
-            if (String.IsNullOrEmpty(option))
-            {
-                return true;
-            }
-            else if (option.Contains("|"))
-            {
-                return option.Split('|').Where(x => Game.Option.IsTriggered(x.Trim())).Count() > 0;
-            }
-            else
-            {
-                foreach (string oneOption in option.Split(','))
-                {
-                    if (oneOption.Contains("!"))
-                    {
-                        if (Game.Option.IsTriggered(oneOption.Replace("!", String.Empty).Trim()))
-                            return false;
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
-            }
-        }
+        public override bool AvailabilityNode(string option) =>
+            AvailabilityTrigger(option);
 
         public List<string> Fight()
         {
