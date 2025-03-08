@@ -83,7 +83,37 @@ namespace SeekerMAUI.Prototypes
         public virtual bool StaticAction(string action) =>
             false;
 
-        public virtual bool Availability(string option) =>
+        public virtual bool Availability(string option)
+        {
+            if (String.IsNullOrEmpty(option))
+            {
+                return true;
+            }
+            else if (option.Contains(","))
+            {
+                var availability = option
+                    .Split(',')
+                    .Where(x => !AvailabilityNode(x.Trim()))
+                    .Count() == 0;
+
+                return availability;
+            }
+            else if (option.Contains("|"))
+            {
+                var availability = option
+                   .Split('|')
+                   .Where(x => AvailabilityNode(x.Trim()))
+                   .Count() > 0;
+
+                return availability;
+            }
+            else
+            {
+                return AvailabilityNode(option);
+            }
+        }
+
+        public virtual bool AvailabilityNode(string option) =>
             true;
 
         public static bool AvailabilityTrigger(string option)
