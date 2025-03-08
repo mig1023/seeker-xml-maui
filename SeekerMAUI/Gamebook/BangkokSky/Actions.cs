@@ -143,13 +143,9 @@ namespace SeekerMAUI.Gamebook.BangkokSky
         public List<string> Decrease() =>
             ChangeProtagonistParam(Stat, Character.Protagonist, "StatBonuses", decrease: true);
 
-        public override bool Availability(string option)
+        public override bool AvailabilityNode(string option)
         {
-            if (String.IsNullOrEmpty(option))
-            {
-                return true;
-            }
-            else if (Game.Services.AvailabilityByСomparison(option))
+            if (Game.Services.AvailabilityByСomparison(option))
             {
                 return Game.Services.AvailabilityByProperty(Character.Protagonist,
                     option, Constants.Availabilities);
