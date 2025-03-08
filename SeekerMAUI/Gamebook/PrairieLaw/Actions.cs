@@ -67,49 +67,29 @@ namespace SeekerMAUI.Gamebook.PrairieLaw
             return enemies;
         }
 
-        public override bool Availability(string option)
+        public override bool AvailabilityNode(string option)
         {
-            if (String.IsNullOrEmpty(option))
+            if (Game.Services.AvailabilityByСomparison(option))
             {
-                return true;
-            }
-            else if (option.Contains("|"))
-            {
-                int count = option
-                    .Split('|')
-                    .Where(x => Game.Option.IsTriggered(x.Trim()))
-                    .Count();
+                int level = Game.Services.LevelParse(option);
 
-                return count > 0;
-            }
-            else
-            {
-                foreach (string oneOption in option.Split(','))
+                if (option.Contains("ШКУР >=") && (level > Character.Protagonist.AnimalSkins.Count))
                 {
-                    if (Game.Services.AvailabilityByСomparison(oneOption))
-                    {
-                        int level = Game.Services.LevelParse(oneOption);
+                    return false;
+                }
+                else if (Game.Services.AvailabilityByСomparison(option))
+                {
+                    var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                        option, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                        if (option.Contains("ШКУР >=") && (level > Character.Protagonist.AnimalSkins.Count))
-                        {
-                            return false;
-                        }
-                        else if (Game.Services.AvailabilityByСomparison(oneOption))
-                        {
-                            var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
-                                oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
-
-                            if (fail)
-                                return false;
-                        }                        
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                    {
-                        return false;
-                    }
+                    return !fail;
                 }
 
                 return true;
+            }
+            else
+            {
+                return AvailabilityTrigger(option);
             }
         }
 
