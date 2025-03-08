@@ -56,28 +56,24 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             }
         }
 
+        public override bool AvailabilityNode(string option)
+        {
+            if (Game.Services.AvailabilityByСomparison(option))
+            {
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
+            }
+            else
+            {
+                return AvailabilityTrigger(option);
+            }
+        }
+
         public override bool Availability(string option)
         {
             if (String.IsNullOrEmpty(option))
             {
                 return true;
-            }
-            else if (Game.Services.AvailabilityByСomparison(option))
-            {
-                return Game.Services.AvailabilityByProperty(Character.Protagonist,
-                    option, Constants.Availabilities);
-            }
-            else if (option.Contains(","))
-            {
-                var options = option.Split(",");
-
-                foreach (var opt in options)
-                {
-                    if (Game.Option.IsTriggered(opt.Trim()))
-                        return true;
-                }
-
-                return false;
             }
             else if (option.Contains("Два зелья быстроты"))
             {
@@ -103,7 +99,7 @@ namespace SeekerMAUI.Gamebook.KoshcheisChain
             }
             else
             {
-                return AvailabilityTrigger(option);
+                return base.Availability(option);
             }
         }
 
