@@ -9,6 +9,38 @@ namespace SeekerMAUI.Gamebook.UndergroundRoad
         public override List<string> Status() =>
             new List<string> { $"Ранений: {Character.Protagonist.Wounds}" };
 
+        public override bool AvailabilityNode(string option)
+        {
+            string opt = option.Trim();
+            var hero = Character.Protagonist;
+
+            if (opt.Contains("РАНЕН"))
+            {
+                if ((opt == "!РАНЕН ДВАЖДЫ") && (hero.Wounds > 1))
+                {
+                    return false;
+                }
+                else if ((opt == "!РАНЕН") && (hero.Wounds > 0))
+                {
+                    return false;
+                }
+                else if ((opt == "РАНЕН ДВАЖДЫ") && (hero.Wounds < 2))
+                {
+                    return false;
+                }
+                else if ((opt == "РАНЕН") && (hero.Wounds < 1))
+                {
+                    return false;
+                }
+
+                return true;
+            }
+            else
+            {
+                return AvailabilityTrigger(opt);
+            }
+        }
+
         public override bool Availability(string option)
         {
             if (String.IsNullOrEmpty(option))
@@ -23,37 +55,7 @@ namespace SeekerMAUI.Gamebook.UndergroundRoad
             }
             else
             {
-                foreach (string oneOption in option.Split(','))
-                {
-                    string opt = oneOption.Trim();
-                    var hero = Character.Protagonist;
-
-                    if (opt.Contains("РАНЕН"))
-                    {
-                        if ((opt == "!РАНЕН ДВАЖДЫ") && (hero.Wounds > 1))
-                        {
-                            return false;
-                        }
-                        else if ((opt == "!РАНЕН") && (hero.Wounds > 0))
-                        {
-                            return false;
-                        }
-                        else if ((opt == "РАНЕН ДВАЖДЫ") && (hero.Wounds < 2))
-                        {
-                            return false;
-                        }
-                        else if ((opt == "РАНЕН") && (hero.Wounds < 1))
-                        {
-                            return false;
-                        }
-                    }
-                    else if (!AvailabilityTrigger(opt))
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
+                return base.Availability(option);
             }
         }
     }
