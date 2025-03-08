@@ -43,49 +43,26 @@ namespace SeekerMAUI.Gamebook.Genesis
             return !(disabledByBonusesRemove || disabledByBonusesAdd);
         }
 
-        public override bool Availability(string option)
+        public override bool AvailabilityNode(string option)
         {
-            if (String.IsNullOrEmpty(option))
+            if (option.Contains("РАНЕНИЯ"))
             {
-                return true;
-            }
-            else if (option.Contains("|"))
-            {
-                bool avail = option
-                    .Split('|')
-                    .Where(x => Game.Option.IsTriggered(x.Trim()))
-                    .Count() > 0;
+                int woundsCount = Game.Data.Triggers
+                    .Where(x => x == "Ранение")
+                    .Count();
 
-                return avail;
+                return woundsCount >= 3;
+            }
+            else if (Game.Services.AvailabilityByСomparison(option))
+            {
+                var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities, onlyFailTrueReturn: true);
+
+                return !fail;
             }
             else
             {
-                foreach (string oneOption in option.Split(','))
-                {
-                    if (oneOption.Contains("РАНЕНИЯ"))
-                    {
-                        int woundsCount = Game.Data.Triggers
-                            .Where(x => x == "Ранение")
-                            .Count();
-
-                        if (woundsCount < 3)
-                            return false;
-                    }
-                    else if (Game.Services.AvailabilityByСomparison(oneOption))
-                    {
-                        var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
-                            oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
-
-                        if (fail)
-                            return false;
-                    }
-                    else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
+                return AvailabilityTrigger(option);
             }
         }
 
