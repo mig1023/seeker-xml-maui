@@ -40,37 +40,23 @@ namespace SeekerMAUI.Gamebook.ThreePaths
             return new List<string> { "RELOAD" };
         }
 
-        public override bool Availability(string option)
+        public override bool AvailabilityNode(string option)
         {
-            if (String.IsNullOrEmpty(option))
-                return true;
-
-            foreach (string oneOption in option.Split(','))
+            if (Game.Services.AvailabilityByСomparison(option))
             {
-                if (Game.Services.AvailabilityByСomparison(oneOption))
-                {
-                    var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
-                        oneOption, Constants.Availabilities, onlyFailTrueReturn: true);
+                var fail = Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities, onlyFailTrueReturn: true);
 
-                    if (fail)
-                        return false;
-                }
-                else if (oneOption.Contains("ЗАКЛЯТИЕ"))
-                {
-                    return Character.Protagonist.Spells.Contains(oneOption.Trim());
-                }
-                else if (oneOption.Contains("!"))
-                {
-                    if (Game.Option.IsTriggered(oneOption.Replace("!", String.Empty).Trim()))
-                        return false;
-                }
-                else if (!Game.Option.IsTriggered(oneOption.Trim()))
-                {
-                    return false;
-                }
+                return !fail;
             }
-
-            return true;
+            else if (option.Contains("ЗАКЛЯТИЕ"))
+            {
+                return Character.Protagonist.Spells.Contains(option.Trim());
+            }
+            else
+            {
+                return AvailabilityTrigger(option);
+            }
         }
 
         public override List<string> Representer()
