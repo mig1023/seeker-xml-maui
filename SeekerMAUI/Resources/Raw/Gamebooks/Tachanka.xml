@@ -5722,7 +5722,28 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="558">
-			<Text>В магазине вы можете купить:\n\n1 еда = 1 червонец\n\n1 лекарство = 5 червонцев\n\nПолный ремонт упряжи = 5 червонцев</Text>
+			<Text>В магазине вы можете купить:</Text>
+			<Actions>
+				<Get>
+					<Get>
+					<Head>Сено для лошадей</Head>
+					<Price>1</Price>
+					<Multiple/>
+					<Benefit Name="Food" Value="1"/>
+				</Get>
+				<Get>
+					<Head>Лекарства</Head>
+					<Price>5</Price>
+					<Multiple/>
+					<Benefit Name="Medicines" Value="1"/>
+				</Get>
+				<Get>
+					<Head>Ремонт тачанки</Head>
+					<Price>5</Price>
+					<Multiple/>
+					<Benefit Name="Repair"/>
+				</Get>
+			</Actions>
 			<Options>
 				<Option Goto="546" Text="Поедете в поселок"/>
 				<Option Goto="555" Text="Направитесь к причалу (если вы там еще не были)">
