@@ -4315,7 +4315,16 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="400">
-			<Text>К вечеру Варя вернулась и принесла нужные вам товары.\n\n1 лекарство = 3 червонца\n\nВаря смогла достать только лекарство.\n\nВы можете ехать дальше:</Text>
+			<Text>К вечеру Варя вернулась и принесла нужные вам товары.</Text>
+			<Actions>
+				<Get>
+					<Head>Лекарства</Head>
+					<Price>3</Price>
+					<Multiple/>
+					<Benefit Name="Medicines" Value="1"/>
+					<Text>Варя смогла достать только лекарство. Вы можете ехать дальше:</Text>
+				</Get>
+			</Actions>
 			<Options>
 				<Option Goto="88" Text="На Карач"/>
 				<Option Goto="80" Text="На Мангуш"/>
