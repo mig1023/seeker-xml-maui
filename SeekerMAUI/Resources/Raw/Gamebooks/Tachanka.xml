@@ -3914,7 +3914,39 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="371">
-			<Text>Партизаны предложили купить у них следующие товары:\n\n1 граната = 2 червонца\n\n100 патронов = 2 червонца\n\n1 Еда = 1 червонец\n\n1 лекарство = 2 червонца\n\nБинокль = 5 червонцев\n\nЕсли вы купили бинокль - запишите на листике игрока слово «бинокль».\n\nЕсли вы закончили торговлю, то можете ехать:</Text>
+			<Text>Партизаны предложили купить у них следующие товары:</Text>
+			<Actions>
+				<Get>
+					<Head>Граната</Head>
+					<Price>2</Price>
+					<Multiple/>
+					<Benefit Name="Grenades" Value="1"/>
+				</Get>
+				<Get>
+					<Head>Патроны (по 100 штук)</Head>
+					<Price>2</Price>
+					<Multiple/>
+					<Benefit Name="Cartridges" Value="100"/>
+				</Get>
+				<Get>
+					<Head>Сено для лошадей</Head>
+					<Price>1</Price>
+					<Multiple/>
+					<Benefit Name="Food" Value="1"/>
+				</Get>
+				<Get>
+					<Head>Лекарства</Head>
+					<Price>2</Price>
+					<Multiple/>
+					<Benefit Name="Medicines" Value="1"/>
+				</Get>
+				<Get>
+					<Head>Бинокль</Head>
+					<Price>5</Price>
+					<Benefit Name="Trigger" Value="бинокль"/>
+					<Text>Если вы закончили торговлю, то можете ехать:</Text>
+				</Get>
+			</Actions>
 			<Options>
 				<Option Goto="35" Text="В поселок Гавра"/>
 				<Option Goto="40" Text="В Унд"/>
