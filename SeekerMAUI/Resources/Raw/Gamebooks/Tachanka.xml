@@ -917,6 +917,7 @@
 				<Get>
 					<Head>Ремонт тачанки</Head>
 					<Price>1</Price>
+					<Multiple/>
 					<Benefit Name="Repair"/>
 					<Text>Или можете ехать дальше в Эски-Эль...</Text>
 				</Get>
@@ -1032,16 +1033,38 @@
 				<Text Style="Bold, Center">АКЛЕС</Text>
 				<Text Style="Small">-1 Время\n-1 еда</Text>
 			</Texts>
+			<Actions>
+				<Option Goto="92" Text="Отдохнуть (+1 Выносливости коней и -1 Время)">
+					<Time Value="-1"/>
+					<HorseEndurance Value="1"/>
+					<Text>Здесь вы можете отремонтировать свою тачанку:</Text>
+				</Option>
+				<Get>
+					<Head>Ремонт тачанки</Head>
+					<Price>1</Price>
+					<Multiple/>
+					<Benefit Name="Repair"/>
+					<Text>В магазине можно купить еду для лошадей:</Text>
+				</Get>
+				<Get>
+					<Head>Сено для лошадей</Head>
+					<Price>1</Price>
+					<Multiple/>
+					<Benefit Name="Food" Value="1"/>
+					<Text>На рынке вам попался крестьянин-фронтовик, который предложил вам купить у него 1 гранату. Больше у него нет.</Text>
+				</Get>
+				<Get>
+					<Head>Граната</Head>
+					<Price>1</Price>
+					<Benefit Name="Grenades" Value="1"/>
+					<Text>Если хотите совершить сделку, вычеркните на листике игрока червонцы и запишите полученный товар.</Text>
+				</Get>
+			</Actions>
 			<Modifications>
 				<Time Value="-1"/>
 				<Food Value="-1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="92" Text="Отдохнуть (+1 Выносливости коней и -1 Время)">
-					<Time Value="-1"/>
-					<HorseEndurance Value="1"/>
-					<Text>Здесь вы можете отремонтировать свою тачанку (+1 единица конструкции за 1 червонец).\n\nВ магазине можно купить еду для лошадей (+1 еда за 1 червонец).\n\nНа рынке вам попался крестьянин-фронтовик, который предложил вам купить у него 1 гранату за 1 червонец. Больше у него нет.\n\nЕсли хотите совершить сделку, вычеркните на листике игрока червонцы и запишите полученный товар.</Text>
-				</Option>
 				<Option Goto="97,95"/>
 			</Options>
 		</Paragraph>
