@@ -3221,11 +3221,14 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="297">
-			<Text>В конюшне вы можете продать своих коней и купить новых. Заплатите 60 червонцев и восстановите выносливость ваших коней на максимум (вам -60 червонцев).</Text>
-			<Modifications>
-				<Money Value="-60"/>
-				<HorseEndurance Value="10"/>
-			</Modifications>
+			<Text>В конюшне вы можете продать своих коней и купить новых, восстановив таким образом на максимум выносливость ваших коней.</Text>
+			<Actions>
+				<Get>
+					<Head>Покупка новых лошадей</Head>
+					<Price>60</Price>
+					<Benefit Name="HorseEndurance" Value="10"/>
+				</Get>
+			</Actions>
 			<Options>
 				<Option Goto="300"/>
 			</Options>
