@@ -38,11 +38,25 @@ namespace SeekerMAUI.Gamebook.Tachanka
                 $"{Character.Protagonist.Harness}/" +
                 $"{Character.Protagonist.Springs}",
             $"Время: {Character.Protagonist.Time}/28",
+            $"Деньги: {Character.Protagonist.Money}",
             $"Патроны: {Character.Protagonist.Cartridges}",
             $"Гранаты: {Character.Protagonist.Grenades}",
             $"Еда: {Character.Protagonist.Food}",
             $"Лекарства: {Character.Protagonist.Medicines}",
         };
+
+        public override List<string> Representer()
+        {
+            if (Type == "Get")
+            {
+                string money = Game.Services.CoinsNoun(Price, "червонец", "цервонца", "червонцев");
+                return new List<string> { $"{Head}\n{Price} {money}" };
+            }
+            else
+            {
+                return new List<string>();
+            }
+        }
 
         public override bool GameOver(out int toEndParagraph, out string toEndText)
         {
@@ -135,11 +149,11 @@ namespace SeekerMAUI.Gamebook.Tachanka
 
         public override bool IsButtonEnabled(bool secondButton = false)
         {
-            if (Type != "Crew")
+            if (Type == "Get")
             {
-                return true;
+                return !Used && (Price <= Character.Protagonist.Money);
             }
-            else
+            if (Type == "Crew")
             {
                 var crew = Name.Split(',');
 
@@ -151,12 +165,29 @@ namespace SeekerMAUI.Gamebook.Tachanka
 
                 return !fullTeam && !inTeam;
             }
+            else
+            {
+                return true;
+            }
         }
 
         public List<string> Crew()
         {
             var crew = Name.Split(',');
             Character.Protagonist.Team.Add(new Crew(crew[0], crew[1]));
+
+            return new List<string> { $"RELOAD" };
+        }
+
+        public List<string> Get()
+        {
+            Character.Protagonist.Money -= Price;
+
+            if (!Multiple)
+                Used = true;
+
+            if (Benefit != null)
+                Benefit.Do();
 
             return new List<string> { $"RELOAD" };
         }

@@ -71,6 +71,8 @@ namespace SeekerMAUI.Gamebook.Tachanka
             if (action.Type == "Option")
                 action.Option = OptionParse(xmlAction);
 
+            action.Benefit = Xml.ModificationParse(xmlAction["Benefit"], new Modification());
+
             return action;
         }
 

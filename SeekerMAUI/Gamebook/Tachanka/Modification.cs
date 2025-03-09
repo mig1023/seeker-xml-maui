@@ -54,6 +54,29 @@ namespace SeekerMAUI.Gamebook.Tachanka
                         Character.Protagonist.Team.RemoveAt(i);
                 }
             }
+            else if (Name == "Repair")
+            {
+                if (Character.Protagonist.Wheels < 5)
+                {
+                    Character.Protagonist.Wheels += 1;
+                }
+                else if (Character.Protagonist.Carriage < 5)
+                {
+                    Character.Protagonist.Carriage += 1;
+                }
+                else if (Character.Protagonist.Harness < 5)
+                {
+                    Character.Protagonist.Harness += 1;
+                }
+                else if (Character.Protagonist.Springs < 5)
+                {
+                    Character.Protagonist.Springs += 1;
+                }
+                else
+                {
+                    Character.Protagonist.Money += 1;
+                }
+            }
             else
             {
                 base.Do(Character.Protagonist);
