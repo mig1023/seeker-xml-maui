@@ -3185,7 +3185,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="294">
-			<Text>В кузнице вы можете починить одну единицу конструкции тачанки за 2 червонца (сделайте нужные пометки на листике игрока).</Text>
+			<Text>В кузнице вы можете починить конструкцию тачанки:</Text>
+			<Actions>
+				<Get>
+					<Head>Ремонт тачанки</Head>
+					<Price>2</Price>
+					<Multiple/>
+					<Benefit Name="Repair"/>
+				</Get>
+			</Actions>
 			<Options>
 				<Option Goto="300"/>
 			</Options>
