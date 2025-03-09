@@ -6666,7 +6666,22 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="673">
-			<Text>В поселке вы могли купить:\n\n1 еду за 2 червонца\n\n100 патронов за 5 червонцев\n\nВы решили ехать дальше к Перекопу.</Text>
+			<Text>В поселке вы могли купить:</Text>
+			<Actions>
+				<Get>
+					<Head>Сено для лошадей</Head>
+					<Price>2</Price>
+					<Multiple/>
+					<Benefit Name="Food" Value="1"/>
+				</Get>
+				<Get>
+					<Head>Патроны (по 100 штук)</Head>
+					<Price>5</Price>
+					<Multiple/>
+					<Benefit Name="Cartridges" Value="100"/>
+					<Text>Вы решили ехать дальше к Перекопу.</Text>
+				</Get>
+			</Actions>
 			<Options>
 				<Option Goto="185"/>
 			</Options>
