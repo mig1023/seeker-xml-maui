@@ -4129,7 +4129,40 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="390">
-			<Text>К вечеру Никифор вернулся и принес нужные вам товары.\n\nКакие товары вы просили его купить?\n\n1 еда = 1 червонец\n\n1 лекарство = 3 червонца\n\n100 патронов = 1 червонец\n\n1 граната = 1 червонец\n\n1 рессора = 2 червонца\n\n1 упряжь = 1 червонец\n\n(отметьте на листике игрока все свои покупки) - 1 рессора восстанавливает на максимум рессоры вашей тачанки; 1 упряжь так же восстанавливает на максимум упряжь тачанки.\n\nВы можете ехать дальше:</Text>
+			<Text>К вечеру Никифор вернулся и принес нужные вам товары.\n\nКакие товары вы просили его купить?</Text>
+			<Actions>
+				<Get>
+					<Head>Сено для лошадей</Head>
+					<Price>1</Price>
+					<Multiple/>
+					<Benefit Name="Food" Value="1"/>
+				</Get>
+				<Get>
+					<Head>Лекарства</Head>
+					<Price>3</Price>
+					<Multiple/>
+					<Benefit Name="Medicines" Value="1"/>
+				</Get>
+				<Get>
+					<Head>Патроны (по 100 штук)</Head>
+					<Price>1</Price>
+					<Multiple/>
+					<Benefit Name="Cartridges" Value="100"/>
+				</Get>
+				<Get>
+					<Head>Граната</Head>
+					<Price>1</Price>
+					<Multiple/>
+					<Benefit Name="Grenades" Value="1"/>
+				</Get>
+				<Get>
+					<Head>Запчасти для тачнки</Head>
+					<Price>2</Price>
+					<Multiple/>
+					<Benefit Name="Repair"/>
+					<Text>Вы можете ехать дальше:</Text>
+				</Get>
+			</Actions>
 			<Options>
 				<Option Goto="88" Text="На Карач"/>
 				<Option Goto="80" Text="На Мангуш"/>
