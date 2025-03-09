@@ -3145,7 +3145,32 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="292">
-			<Text>В магазине вы может купить:\n\n1 Еда = 2 червонца\n\n1 лекарство = 10 червонцев\n\n100 патронов = 2 червонца\n\n1 граната = 2 червонца</Text>
+			<Text>В магазине вы может купить:</Text>
+			<Actions>
+				<Get>
+					<Head>Сено для лошадей</Head>
+					<Price>2</Price>
+					<Multiple/>
+					<Benefit Name="Food" Value="1"/>
+				</Get>
+				<Get>
+					<Head>Лекарства</Head>
+					<Price>10</Price>
+					<Multiple/>
+					<Benefit Name="Medicines" Value="1"/>
+				</Get>
+				<Get>
+					<Head>Патроны (по 100 штук)</Head>
+					<Price>2</Price>
+					<Multiple/>
+					<Benefit Name="Cartridges" Value="100"/>
+				</Get>
+				<Get>
+					<Head>Граната</Head>
+					<Price>2</Price>
+					<Benefit Name="Grenades" Value="1"/>
+				</Get>
+			</Actions>
 			<Options>
 				<Option Goto="300" Text="Заняться другими делами"/>
 			</Options>
