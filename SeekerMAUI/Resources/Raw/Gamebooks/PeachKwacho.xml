@@ -397,5 +397,13 @@
 				<Option Goto="239" Text="продолжите путь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="57">
+			<Text>Еще один перекресток.\n\nТри пути.</Text>
+			<Options>
+				<Option Goto="141" Text="На северо-запад"/>
+				<Option Goto="220" Text="На север"/>
+				<Option Goto="84" Text="На восток"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
