@@ -304,5 +304,12 @@
 				<Option Goto="18" Text="с буквой «М»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="43">
+			<Text>Огромное предприятие «О-грин-форест» поглотившее пол квартала заканчивается двумя дорогами.</Text>
+			<Options>
+				<Option Goto="235" Text="На запад"/>
+				<Option Goto="85" Text="На север"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
