@@ -725,5 +725,11 @@
 				<Option Goto="37"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="106">
+			<Text>Вас засасывает в лабиринтовый узор сверкающей паутины бурлящей энергии...</Text>
+			<Options>
+				<Option Goto="15"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
