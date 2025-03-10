@@ -595,5 +595,12 @@
 				<Option Goto="175"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="86">
+			<Text>Лавируя между машинами и несущимися на вас пьяными водителями (странным образом это почти всегда были роботы), вы долетаете до нового перекрестка дорог.</Text>
+			<Options>
+				<Option Goto="49" Text="Северо-запад"/>
+				<Option Goto="26" Text="Северо-восток"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
