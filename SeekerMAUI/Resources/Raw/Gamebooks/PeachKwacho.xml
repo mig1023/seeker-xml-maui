@@ -694,5 +694,11 @@
 				<Option Goto="34"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="101">
+			<Text>Извилистая улочка служит естественной преградой против нежданнонегаданно начатой атакой мутанта. Вы все больше отклоняетесь в северо-западном направлении</Text>
+			<Options>
+				<Option Goto="227"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
