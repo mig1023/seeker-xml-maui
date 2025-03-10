@@ -472,5 +472,14 @@
 				<Option Goto="172" Text="северо-восток теперь уже неизвестно"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="68">
+			<Text>Забежав за угол, вы оказываетесь на перекрестке. Роскошное убранство зданий как-то не радует уже.</Text>
+			<Options>
+				<Option Goto="234" Text="Продолжите бежать на запад"/>
+				<Option Goto="89" Text="север"/>
+				<Option Goto="191" Text="восток"/>
+				<Option Goto="249" Text="попытаете счастья вернувшись на юг"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
