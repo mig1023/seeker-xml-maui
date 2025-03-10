@@ -324,5 +324,11 @@
 				<Option Goto="187" Text="пойдете по улице в северном направлении"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="46">
+			<Text>Вас засасывает в лабиринтовый узор сверкающей паутины бурлящей энергии.</Text>
+			<Options>
+				<Option Goto="21"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
