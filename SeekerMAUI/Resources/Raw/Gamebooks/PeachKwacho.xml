@@ -68,5 +68,11 @@
 				<Option Goto="251" Text="лестницей наверх"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="9">
+			<Text>Под сладостное пение хора учителей по пению, вы засыпаете.</Text>
+			<Options>
+				<Option Goto="118"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
