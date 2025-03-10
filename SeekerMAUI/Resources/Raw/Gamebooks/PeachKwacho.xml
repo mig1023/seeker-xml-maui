@@ -345,5 +345,12 @@
 				<Option Goto="126"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="49">
+			<Text>Перед вами два туннеля разделенных ничемнепробиваемой перегородкой. Даже интегральный пулемет мутанта тут не справится!</Text>
+			<Options>
+				<Option Goto="174" Text="Один туннель ведет на северо-запад"/>
+				<Option Goto="88" Text="Второй туннель ведет на север"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
