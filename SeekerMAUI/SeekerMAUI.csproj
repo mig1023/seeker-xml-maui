@@ -109,6 +109,7 @@
 	  <None Remove="Resources\Images\Cover\octopusisland.jpg" />
 	  <None Remove="Resources\Images\Cover\orcsday.jpg" />
 	  <None Remove="Resources\Images\Cover\pawn.jpg" />
+	  <None Remove="Resources\Images\Cover\peachkwacho.jpg" />
 	  <None Remove="Resources\Images\Cover\pensionersimulator.jpg" />
 	  <None Remove="Resources\Images\Cover\poweroffear.jpg" />
 	  <None Remove="Resources\Images\Cover\prairielaw.jpg" />
@@ -337,6 +338,7 @@
 	  <MauiImage Include="Resources\Images\Cover\octopusisland.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\orcsday.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\pawn.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\peachkwacho.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\pensionersimulator.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\poweroffear.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\prairielaw.jpg" />
