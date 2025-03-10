@@ -533,5 +533,12 @@
 				<Option Goto="47"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="77">
+			<Text>От центральной улицы отходит небольшая дорожка для велосипедистов. Да вам сейчас не до церемоний!</Text>
+			<Options>
+				<Option Goto="49" Text="По велосипедной дорожке"/>
+				<Option Goto="139" Text="По центральной улице"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
