@@ -256,5 +256,12 @@
 				<Option Goto="138"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="36">
+			<Text>Слышится, как Самуир, чтобы успокоиться откупоривает баночку с пивом. А пьяный ментальный оператор - это персонаж крамольных анекдотов. Что ж вы сами заслужили такой участи.</Text>
+			<Options>
+				<Option Goto="71" Text="На северо-запад"/>
+				<Option Goto="94" Text="На север"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
