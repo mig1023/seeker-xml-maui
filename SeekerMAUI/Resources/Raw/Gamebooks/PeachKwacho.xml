@@ -1347,5 +1347,11 @@
 				<Option Goto="211" Text="Северо-восточная"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="199">
+			<Text>Вы выскакиваете из коробки, но на ногах не удерживаетесь и растягиваетесь на полу...</Text>
+			<Options>
+				<Option Goto="150"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
