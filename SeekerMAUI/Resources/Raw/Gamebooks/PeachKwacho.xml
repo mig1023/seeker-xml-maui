@@ -1304,5 +1304,13 @@
 				<Option Goto="75" Text="другая продолжается на северо-восток"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="193">
+			<Text>Не успели вы свернуть, как новый перекресток заставил задуматься.</Text>
+			<Options>
+				<Option Goto="181" Text="На запад"/>
+				<Option Goto="149" Text="На север"/>
+				<Option Goto="86" Text="на восток"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
