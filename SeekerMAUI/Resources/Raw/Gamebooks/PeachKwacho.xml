@@ -1340,5 +1340,12 @@
 				<Option Goto="229" Text="Если будете отстаивать свое решение"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="198">
+			<Text>Мутант, неудачно скрывая улыбку, вдруг сворачивает в сторону - что он задумал?\n\nДорога раздвояецца.</Text>
+			<Options>
+				<Option Goto="28" Text="Юго-западная"/>
+				<Option Goto="211" Text="Северо-восточная"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
