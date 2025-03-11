@@ -1156,5 +1156,11 @@
 				<Option Goto="17"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="171">
+			<Text>Вас выплевывает на расстеленные на полу маты. Отряхиваясь, вы ищите глазами выход.</Text>
+			<Options>
+				<Option Goto="42"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
