@@ -1391,5 +1391,13 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="206">
+			<Text>Улица рождает перекресток.\n\nИз встречного длиннющего автомобиля высовывается подросток и машет вам ручкой, его телохранитель мгновенно втягивает неразумное дитё назад.</Text>
+			<Options>
+				<Option Goto="20" Text="Бежите на запад"/>
+				<Option Goto="226" Text="На юго-запад"/>
+				<Option Goto="58" Text="На восток"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
