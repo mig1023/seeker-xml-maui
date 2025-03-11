@@ -1320,5 +1320,12 @@
 				<Option Goto="140" Text="Дорога по улице «Греки» в западном направлении"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="195">
+			<Text>На очередном повороте вы отыгрываете вожделенное расстояние, только вот оно не никак не хочет смещаться в вашу сторону!</Text>
+			<Options>
+				<Option Goto="185" Text="На запад"/>
+				<Option Goto="33" Text="На северо-запад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
