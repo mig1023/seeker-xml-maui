@@ -5,7 +5,8 @@
 			<Author>Илья Бутов, 2010</Author>
 		</Copyright>
 		<Styles>
-			<Color Name="Main, Option, Continue, System" Value="3c1724"/>
+			<System Value="8a7773"/>
+			<Color Name="Main, Option, Continue" Value="3c1724"/>
 		</Styles>
 	</Introduction>
 	<Paragraphs>
