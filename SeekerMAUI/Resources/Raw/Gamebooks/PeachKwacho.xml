@@ -39,7 +39,7 @@
 		<Paragraph No="4">
 			<Text>Если еще не пытались это сделать, то можете направиться к:</Text>
 			<Options>
-				<Option Goto="7" Text="роботу Михею"/>
+				<Option Goto="7" Text="Роботу Михею"/>
 				<Option Goto="82" Text="Брэндискоку"/>
 				<Option Goto="12" Text="Ъйёъм’у"/>
 			</Options>
