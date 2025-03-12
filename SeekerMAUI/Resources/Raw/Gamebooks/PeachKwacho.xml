@@ -1525,5 +1525,13 @@
 				<Option Goto="61" Text="Если вернетесь по коридору назад, решив отстоять очередь для получения помощи у робота"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="225">
+			<Text>Новое разветвление дорог.</Text>
+			<Options>
+				<Option Goto="52" Text="Путь на северо-запад"/>
+				<Option Goto="57" Text="На северо-восток"/>
+				<Option Goto="157" Text="На восток"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
