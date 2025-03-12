@@ -863,7 +863,7 @@
 			<Options>
 				<Option Goto="26" Text="На северо-запад"/>
 				<Option Goto="112" Text="На север"/>
-				<Option Goto="216" Text="Или на северо-восток"/>
+				<Option Goto="216" Text="На северо-восток"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="124">
