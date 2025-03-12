@@ -1481,8 +1481,10 @@
 				<Option Goto="167" Text="На северо-запад"/>
 				<Option Goto="172" Text="На север"/>
 				<Option Goto="44" Text="На северо-восток"/>
-				<Option Goto="211" Text="На юг"/>
-				<Option Goto="141" Text="Небольшой туннель проложен под землей прямо с площади"/>
+				<Option Goto="211" Text="На юг">
+					<Text>Небольшой туннель проложен под землей прямо с площади...</Text>
+				</Option>
+				<Option Goto="141"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="214">
