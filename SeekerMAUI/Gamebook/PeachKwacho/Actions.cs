@@ -66,5 +66,8 @@ namespace SeekerMAUI.Gamebook.PeachKwacho
                 }
             }
         }
+
+        public override bool Availability(string option) =>
+            AvailabilityTrigger(option);
     }
 }
