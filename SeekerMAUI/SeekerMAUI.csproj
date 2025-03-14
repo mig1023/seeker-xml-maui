@@ -106,6 +106,7 @@
 	  <None Remove="Resources\Images\Cover\moria.jpg" />
 	  <None Remove="Resources\Images\Cover\murderatcolefaxmanor.jpg" />
 	  <None Remove="Resources\Images\Cover\nightmare.jpg" />
+	  <None Remove="Resources\Images\Cover\nightofnecromancer.jpg" />
 	  <None Remove="Resources\Images\Cover\octopusisland.jpg" />
 	  <None Remove="Resources\Images\Cover\orcsday.jpg" />
 	  <None Remove="Resources\Images\Cover\pawn.jpg" />
@@ -335,6 +336,7 @@
 	  <MauiImage Include="Resources\Images\Cover\moria.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\murderatcolefaxmanor.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\nightmare.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\nightofnecromancer.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\octopusisland.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\orcsday.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\pawn.jpg" />

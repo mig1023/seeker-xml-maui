@@ -1203,4 +1203,17 @@
 		<Setting>Космос</Setting>
 		<Color>3c1724</Color>
 	</PeachKwacho>
+	<NightOfNecromancer>
+		<Title>Ночь по ту сторону смерти</Title>
+		<Original>Night of the Necromancer</Original>
+		<Author>Джонатан Грин</Author>
+		<Translator>Андр</Translator>
+		<Year>2010</Year>
+		<Text>После трехлетнего крестового похода против сил тьмы вы, наконец, возвращаетесь в свой замок Вальсинор. Но когда вам кажется, что победа над злом достигнута, оно наносит неожиданный удар в самом конце путешествия. Оказавшись между миром живых и Землей Мертвых, ваш призрак должен сражаться с самым ужасным злом в самом сердце Вальсинора. До рассвета вы должны отомстить или ваша судьба будет хуже, чем сама смерть.</Text>
+		<Paragraphs>250</Paragraphs>
+		<Size>1</Size>
+		<Playthrough>На пару часов</Playthrough>
+		<Setting>Фэнтези</Setting>
+		<Color>478071</Color>
+	</NightOfNecromancer>
 </Gamebooks>
