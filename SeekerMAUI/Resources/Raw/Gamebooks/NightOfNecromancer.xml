@@ -326,5 +326,11 @@
 				<Option Goto="434"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="44">
+			<Text>«А почему нет? — смеется чудовищное видение. — Ты развлек меня, смертный. Но помни, я скоро увижу тебя снова». Страж поднимает свою косу, а затем резким ударом сбивает вас с ног.</Text>
+			<Options>
+				<Option Goto="73"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
