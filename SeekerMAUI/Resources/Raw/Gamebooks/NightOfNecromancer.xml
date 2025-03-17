@@ -783,5 +783,12 @@
 				<Option Goto="117"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="109">
+			<Text>Вы бесцельно блуждаете по извилистым туннелям, уходя все дальше и глубже под основание Вальсинорского замка, не представляя, куда идете. Бросьте один кубик.</Text>
+			<Options>
+				<Option Goto="139" Text="Если выпало 1-3"/>
+				<Option Goto="158" Text="если 4-6"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
