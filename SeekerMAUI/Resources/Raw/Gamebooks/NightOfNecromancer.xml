@@ -1491,5 +1491,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="209">
+			<Text>Вы благополучно добираетесь до берега, и потом раз и навсегда покидаете замороженные владения Зимнего Короля.</Text>
+			<Options>
+				<Option Goto="29"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
