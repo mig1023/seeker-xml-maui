@@ -1545,5 +1545,12 @@
 				<Option Goto="243"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="217">
+			<Text>Бросьте два кубика.</Text>
+			<Options>
+				<Option Goto="228" Text="Если выпавшее число меньше или равно вашему счету БЫТИЯ"/>
+				<Option Goto="257" Text="Если больше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
