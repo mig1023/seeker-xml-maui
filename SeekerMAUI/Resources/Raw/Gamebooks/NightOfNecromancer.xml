@@ -1874,5 +1874,14 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="264">
+			<Text>Вернувшись на перекресток, вы должны сделать выбор и пойти туда, где еще не были.</Text>
+			<Options>
+				<Option Goto="235" Text="Пойдете по коридору слева от вас"/>
+				<Option Goto="10" Text="прямо"/>
+				<Option Goto="109" Text="справа от вас"/>
+				<Option Goto="445" Text="В качестве альтернативы, можете вообще покинуть катакомбы"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
