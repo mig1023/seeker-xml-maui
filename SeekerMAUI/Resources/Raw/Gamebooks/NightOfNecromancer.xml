@@ -1836,5 +1836,15 @@
 				<Option Goto="132"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="259">
+			<Text>Вернувшись на деревенскую площадь, вы можете идти в любое место, где не были раньше.</Text>
+			<Options>
+				<Option Goto="118" Text="Посетите трактир"/>
+				<Option Goto="229" Text="Исследуете часовню"/>
+				<Option Goto="368" Text="Осмотрите шатер Мадам Зельды"/>
+				<Option Goto="437" Text="Подойдете к дому бургомистра"/>
+				<Option Goto="3" Text="Покинете деревню"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
