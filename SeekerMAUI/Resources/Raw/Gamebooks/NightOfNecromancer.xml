@@ -2878,5 +2878,12 @@
 				<Option Goto="100" Text="Но если жители деревни победят, запишите число 15 на листе персонажа"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="405">
+			<Text>405.</Text>
+			<Options>
+				<Option Goto="424" Text="Если вы владеете любым магическим оружием"/>
+				<Option Goto="381" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
