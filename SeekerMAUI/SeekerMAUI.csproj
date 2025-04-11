@@ -336,7 +336,6 @@
 	  <MauiImage Include="Resources\Images\Cover\moria.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\murderatcolefaxmanor.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\nightmare.jpg" />
-	  <MauiImage Include="Resources\Images\Cover\nightofnecromancer.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\octopusisland.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\orcsday.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\pawn.jpg" />
