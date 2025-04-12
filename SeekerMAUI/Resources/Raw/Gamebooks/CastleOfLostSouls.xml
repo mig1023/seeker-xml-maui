@@ -177,5 +177,12 @@
 				<Option Goto="9" Text="Если выпало равное Сообразительности или меньшее значение"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="25">
+			<Text>Вы находитесь в маленькой комнате, посреди которой на полу стоит деревянный сундук.</Text>
+			<Options>
+				<Option Goto="19" Text="Можете попытаться открыть его"/>
+				<Option Goto="21" Text="вернуться назад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
