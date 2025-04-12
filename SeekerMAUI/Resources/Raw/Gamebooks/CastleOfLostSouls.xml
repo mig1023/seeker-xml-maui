@@ -507,5 +507,11 @@
 				<Option Goto="40" Text="Если же вы покинули город, идя на хвосте у Салакара"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="73">
+			<Text>Что ж, ну хоть выплюнули вы вовремя. Осматриваетесь и еще раз перебираете возможные действия.</Text>
+			<Options>
+				<Option Goto="50"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
