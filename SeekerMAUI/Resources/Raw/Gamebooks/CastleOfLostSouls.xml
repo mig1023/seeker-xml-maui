@@ -192,5 +192,11 @@
 				<Option Goto="96" Text="Если наемный убийца, атакуя вас, выбросит на двух кубиках 12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="27">
+			<Text>Сжигаете тело тролля и забираете сапоги. Они покрыты неведомыми рунами и знаками. Относите их в город.</Text>
+			<Options>
+				<Option Goto="5"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
