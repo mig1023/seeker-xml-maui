@@ -637,5 +637,12 @@
 				<Option Goto="97" Text="стрельбу из лука"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="92">
+			<Text>Возвращаетесь в комнату с голубым прудом. Ступени уводят вниз под арку, которую до этого перекрывала каменная плита.</Text>
+			<Options>
+				<Option Goto="84" Text="Хотите спуститься по ступеням"/>
+				<Option Goto="34" Text="вернуться"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
