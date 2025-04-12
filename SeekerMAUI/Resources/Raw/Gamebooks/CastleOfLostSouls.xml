@@ -602,5 +602,13 @@
 				<Option Goto="17" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="87">
+			<Text>Ну ёлки-палки! Из-за угла выходит престарелый слуга и застает вас подслушивающим у двери. Он собирается позвать на помощь. Терять времени вам нельзя.</Text>
+			<Options>
+				<Option Goto="47" Text="Вы можете убежать"/>
+				<Option Goto="54" Text="попытаться убить слугу, метнув ему в горло кинжал"/>
+				<Option Goto="89" Text="подождать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
