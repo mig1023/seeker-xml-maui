@@ -513,5 +513,11 @@
 				<Option Goto="50"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="74">
+			<Text>Для такого старикашки слуга производит чересчур много шума! Его вопли быстро приведут Хогрона, Салакара и еще кучу народа. Бросаетесь наутек.</Text>
+			<Options>
+				<Option Goto="66"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
