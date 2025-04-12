@@ -644,5 +644,11 @@
 				<Option Goto="34" Text="вернуться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="93">
+			<Text>Рана от копья гоблина стоила Салакару 2 Телосложения. Вычтите их, прежде чем начнется бой.</Text>
+			<Options>
+				<Option Goto="57"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
