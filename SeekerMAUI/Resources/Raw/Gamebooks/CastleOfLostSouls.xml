@@ -99,5 +99,11 @@
 				<Option Goto="72" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="13">
+			<Text>Возвращаетесь туда, где вы взяли синие атласные перчатки. Можете положить их на место, если хотите (если они все еще у вас).</Text>
+			<Options>
+				<Option Goto="34"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
