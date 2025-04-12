@@ -282,5 +282,12 @@
 				<Option Goto="98" Text="Если вы оба вылетели из седла"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="40">
+			<Text>Есть ли у вас серебряный амулет, который носил Салакар?</Text>
+			<Options>
+				<Option Goto="56" Text="Если есть"/>
+				<Option Goto="46" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
