@@ -85,5 +85,12 @@
 				<Option Goto="50" Text="Изменить свой выбор"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="11">
+			<Text>Правый туннель приводит в комнату с низким потолком.</Text>
+			<Options>
+				<Option Goto="21" Text="Можете вернуться ко входу в пещеру"/>
+				<Option Goto="49" Text="войти в комнату"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
