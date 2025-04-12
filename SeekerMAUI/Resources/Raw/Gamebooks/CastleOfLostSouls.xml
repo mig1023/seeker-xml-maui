@@ -573,5 +573,12 @@
 				<Option Goto="30" Text="Если вы проиграли"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="83">
+			<Text>Вы стоите на уступе снаружи пещеры.</Text>
+			<Options>
+				<Option Goto="12" Text="сли вы уверенны, что у вас есть то, что нужно Хогрону, возвращайтесь в город"/>
+				<Option Goto="21" Text="В противном случае, можете заглянуть в пещеру еще раз"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
