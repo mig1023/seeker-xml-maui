@@ -358,5 +358,11 @@
 				<Option Goto="10" Text="Принять кое-какие меры предосторожности"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="51">
+			<Text>Какое бы оправдание вы ни привели, на Хогрона оно не производит никакого впечатления.</Text>
+			<Options>
+				<Option Goto="8"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
