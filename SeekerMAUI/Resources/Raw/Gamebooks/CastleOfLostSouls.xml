@@ -144,5 +144,11 @@
 				<Option Goto="32" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="20">
+			<Text>Уф! Вы оказались достаточно проворны, чтобы уклониться от трех острых иголок, вылетевших из замка и просвистевших мимо вашего уха. Надо полагать, они были отравлены.</Text>
+			<Options>
+				<Option Goto="79"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
