@@ -559,5 +559,12 @@
 				<Option Goto="103"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="81">
+			<Text>Вы стоите на уступе снаружи пещеры.</Text>
+			<Options>
+				<Option Goto="12" Text="Можете вернуться в город, если считаете, что у вас есть все нужное Хогрону"/>
+				<Option Goto="36" Text="Если ваши дела здесь еще не закончены"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
