@@ -252,5 +252,13 @@
 				<Option Goto="48" Text="Если вы проиграли"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="36">
+			<Text>Возвращаетесь ко входу в пещеру.</Text>
+			<Options>
+				<Option Goto="61" Text="Можете выбрать левый туннель"/>
+				<Option Goto="100" Text="правый"/>
+				<Option Goto="81" Text="А можете и покинуть пещеру"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
