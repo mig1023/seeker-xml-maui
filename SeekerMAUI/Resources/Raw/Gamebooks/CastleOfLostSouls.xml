@@ -150,5 +150,13 @@
 				<Option Goto="79"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="21">
+			<Text>Вы стоите внутри пещеры, у самого входа. Видите два уходящих вглубь туннеля. По какому бы из них вы ни отправились, вам понадобится фонарь.</Text>
+			<Options>
+				<Option Goto="77" Text="Можете выбрать левый туннель"/>
+				<Option Goto="11" Text="правый туннель"/>
+				<Option Goto="83" Text="покинуть пещеру"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
