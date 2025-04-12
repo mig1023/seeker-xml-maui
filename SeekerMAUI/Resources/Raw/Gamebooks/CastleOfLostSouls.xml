@@ -112,5 +112,11 @@
 				<Option Goto="87" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="15">
+			<Text>Салакар по-прежнему чемпион. От дочери владельца постоялого двора вы слышали, что он вот-вот отправится. Решаете пойти за ним - вдруг что-то подвернется.</Text>
+			<Options>
+				<Option Goto="80"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
