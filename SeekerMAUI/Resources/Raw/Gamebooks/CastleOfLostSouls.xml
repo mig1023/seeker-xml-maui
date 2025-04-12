@@ -487,5 +487,11 @@
 				<Option Goto="79"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="70">
+			<Text>Что ж, так или иначе, а вы стали чемпионом! Продолжайте приключение, используя в качестве персонажа Салакара. Не забудьте записать все раны, которые он успел получить.</Text>
+			<Options>
+				<Option Goto="2"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
