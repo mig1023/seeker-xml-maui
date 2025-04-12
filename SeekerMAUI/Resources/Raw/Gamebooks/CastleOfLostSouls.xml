@@ -427,5 +427,11 @@
 				<Option Goto="50"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="61">
+			<Text>Туннель приводит в маленькую комнату. Вы тут уже были. Если вы не забрали перчатки в прошлый раз, тогда можете забрать их сейчас.</Text>
+			<Options>
+				<Option Goto="36"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
