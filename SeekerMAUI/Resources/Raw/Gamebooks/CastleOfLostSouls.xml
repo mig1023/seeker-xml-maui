@@ -218,5 +218,11 @@
 				<Option Goto="105"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="31">
+			<Text>Салакар не встает. Падение с лошади лишило его сознания.</Text>
+			<Options>
+				<Option Goto="37"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
