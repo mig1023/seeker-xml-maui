@@ -1203,4 +1203,20 @@
 		<Setting>Космос</Setting>
 		<Color>3c1724</Color>
 	</PeachKwacho>
+	<CastleOfLostSouls>
+		<Title>Замок потерянных душ</Title>
+		<Original>The castle of Lost Souls</Original>
+		<Authors>
+			<Author>Дэйв Моррис</Author>
+			<Author>Ив Ньюнхэм</Author>
+		</Authors>
+		<Translator>Сергей Посниченко</Translator>
+		<Year>1985</Year>
+		<Text>В первых двух частях большое внимание уделено социальной составляющей, задания очень короткие, но с большим количеством вариантов. Дальше книга становится больше похожей на привычные нам книги-лабиринты: дойти до Замка, отыскать и убить демона.</Text>
+		<Paragraphs>1</Paragraphs>
+		<Size>1</Size>
+		<Playthrough>На полчаса</Playthrough>
+		<Setting>Приключения</Setting>
+		<Color>8faf9f</Color>
+	</CastleOfLostSouls>
 </Gamebooks>

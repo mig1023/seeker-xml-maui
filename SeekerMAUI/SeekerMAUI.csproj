@@ -67,6 +67,7 @@
 	  <None Remove="Resources\Images\Cover\bloodfeudofaltheus.jpg" />
 	  <None Remove="Resources\Images\Cover\bythewillofrome.jpg" />
 	  <None Remove="Resources\Images\Cover\captainsheltonssecret.jpg" />
+	  <None Remove="Resources\Images\Cover\castleoflostsouls.jpg" />
 	  <None Remove="Resources\Images\Cover\catharsis.jpg" />
 	  <None Remove="Resources\Images\Cover\choosecthulhu.jpg" />
 	  <None Remove="Resources\Images\Cover\chooseyourownadventure.jpg" />
@@ -297,6 +298,7 @@
 	  <MauiImage Include="Resources\Images\Cover\bloodfeudofaltheus.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\bythewillofrome.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\captainsheltonssecret.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\castleoflostsouls.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\catharsis.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\choosecthulhu.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\chooseyourownadventure.jpg" />
