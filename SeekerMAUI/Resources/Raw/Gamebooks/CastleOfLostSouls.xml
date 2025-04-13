@@ -1095,5 +1095,11 @@
 				<Option Goto="148"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="159">
+			<Text>Искусно опускаете бляху в карман туники, хладнокровно допиваете свой стакан и выходите из постоялого двора.</Text>
+			<Options>
+				<Option Goto="190"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
