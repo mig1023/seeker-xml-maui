@@ -1135,5 +1135,12 @@
 				<Option Goto="179"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="165">
+			<Text>60.</Text>
+			<Options>
+				<Option Goto="141" Text="Если вы предложили доспешнику 3 золотых или больше, он кладет взятку в карман и отщепляет для вас кусочек доспехов"/>
+				<Option Goto="163" Text="Если вы предложили 2 золотых или меньше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
