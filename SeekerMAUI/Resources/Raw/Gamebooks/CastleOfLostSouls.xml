@@ -998,5 +998,11 @@
 				<Option Goto="174"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="145">
+			<Text>- Может у отшельника и есть такое, - предлагает один из искателей приключений. - Не могу точно сказать - он собирает практически все.\n\nОни отведут вас на встречу с отшельником.</Text>
+			<Options>
+				<Option Goto="132"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
