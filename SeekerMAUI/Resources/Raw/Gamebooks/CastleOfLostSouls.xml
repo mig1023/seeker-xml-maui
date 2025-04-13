@@ -960,5 +960,11 @@
 				<Option Goto="196"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="139">
+			<Text>К вашему разочарованию, если не сказать полному удивлению, они начинают нести пьяную чепуху, а затем засыпают. Встаете из-за стола, злясь на пустую потерю денег.</Text>
+			<Options>
+				<Option Goto="116"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
