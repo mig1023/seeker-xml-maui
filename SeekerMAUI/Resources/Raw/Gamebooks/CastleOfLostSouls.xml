@@ -1115,5 +1115,12 @@
 				<Option Goto="142" Text="Если выпало больше вашей Сообразительности"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="162">
+			<Text>Можете поставить до 3 золотых на гордо вышагивающего бантама или на его противника, который крупнее, но с порванным гребешком.</Text>
+			<Options>
+				<Option Goto="144" Text="Если выбрали первого"/>
+				<Option Goto="197" Text="Если второго"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
