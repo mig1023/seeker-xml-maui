@@ -1187,5 +1187,11 @@
 				<Option Goto="108" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="173">
+			<Text>Вы смогли устоять перед ее колдовством и уйти с хрустальным шаром.</Text>
+			<Options>
+				<Option Goto="148"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
