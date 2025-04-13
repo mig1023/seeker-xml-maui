@@ -782,5 +782,11 @@
 				<Option Goto="127" Text="Если меньше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="113">
+			<Text>Пока вы бежите к двери, на вас обрушивается град тумаков. Теряете 3 Телосложения.</Text>
+			<Options>
+				<Option Goto="178"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
