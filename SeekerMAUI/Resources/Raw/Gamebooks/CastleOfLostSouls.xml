@@ -1050,5 +1050,12 @@
 				<Option Goto="171"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="152">
+			<Text>Сохраняя холодную голову, но глядя на брата с выражением, как вы надеетесь, обещания ужасной кары, пробуете иную тактику.</Text>
+			<Options>
+				<Option Goto="156" Text="Вы изувечите ее плюшевого мишку"/>
+				<Option Goto="121" Text="разрежете у нее под носом луковицу"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
