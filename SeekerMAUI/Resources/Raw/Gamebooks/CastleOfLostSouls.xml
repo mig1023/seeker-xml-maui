@@ -866,5 +866,11 @@
 				<Option Goto="170"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="125">
+			<Text>Заползаете между ярко раскрашенными шатрами и находите тихое местечко, где можно отколоть кусочек от шлема. Можете избавиться от шлема, продав его торговцу за 20 золотых.</Text>
+			<Options>
+				<Option Goto="141"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
