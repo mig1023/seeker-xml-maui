@@ -1400,5 +1400,11 @@
 				<Option Goto="229"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="206">
+			<Text>Идете битый час, но так ни на шаг и не приблизились к цели. Очевидно, что пора попробовать что-то еще, и вы шарите в рюкзаке в поиске вдохновения.</Text>
+			<Options>
+				<Option Goto="271"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
