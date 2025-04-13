@@ -1325,5 +1325,11 @@
 				<Option Goto="160" Text="попытаетесь украсть бляху в виде четырехлистного клевера над стойкой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="194">
+			<Text>Торопитесь из «Четырехлистного клевера» с украденной бляхой в кармане.</Text>
+			<Options>
+				<Option Goto="130"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
