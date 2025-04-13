@@ -1212,5 +1212,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="177">
+			<Text>Он только рад быть полезным вам в столь благородном предприятии, и срезает мечом стружку со своего шлема. Вы также получаете 1 Честь за открытый подход.</Text>
+			<Options>
+				<Option Goto="141"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
