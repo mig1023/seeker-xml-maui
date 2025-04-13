@@ -804,5 +804,14 @@
 				<Option Goto="191"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="116">
+			<Text>Возможно, вам следует попытать удачу в другом месте.</Text>
+			<Options>
+				<Option Goto="107" Text="Вы можете подойти к искателям приключений"/>
+				<Option Goto="120" Text="к цыганам"/>
+				<Option Goto="170" Text="к трактирщику"/>
+				<Option Goto="160" Text="Если вы решили вместо этого приделать ноги бляхе"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
