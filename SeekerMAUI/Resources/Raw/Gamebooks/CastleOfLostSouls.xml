@@ -1296,5 +1296,11 @@
 				<Option Goto="179"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="190">
+			<Text>Вы слышали, что сейчас в городе ярмарка. Возможно, там вы отыщете кого-нибудь, кто знает, где вам добыть хрустальный шар.</Text>
+			<Options>
+				<Option Goto="123"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
