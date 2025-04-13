@@ -860,5 +860,11 @@
 				<Option Goto="174" Text="Если решаете идти своей дорогой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="124">
+			<Text>- Спроси-ка лучше трактирщика - предлагают собеседники.\n\nОтправляетесь к трактирщику и расспрашиваете о нужном вам клевере.</Text>
+			<Options>
+				<Option Goto="170"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
