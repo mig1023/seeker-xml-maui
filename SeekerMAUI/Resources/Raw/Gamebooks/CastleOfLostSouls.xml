@@ -1420,5 +1420,11 @@
 				<Option Goto="273" Text="сядете и будете сидеть на страже"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="209">
+			<Text>Вы распознали кое-какие следы, ведущие на другую сторону долины. Пройдя по ним, вы пришли к чему-то вроде святилища.</Text>
+			<Options>
+				<Option Goto="289"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
