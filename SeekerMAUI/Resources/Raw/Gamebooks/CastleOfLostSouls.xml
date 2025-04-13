@@ -1432,5 +1432,12 @@
 				<Option Goto="220"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="211">
+			<Text>Бросьте один кубик для повреждения от вашей стрелы. Чтобы сбить Чончона, вы должны выбросить 4 или больше.</Text>
+			<Options>
+				<Option Goto="240" Text="В противном случае, будучи крылатым, он сумеет улететь"/>
+				<Option Goto="258" Text="Если вы его сбили"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
