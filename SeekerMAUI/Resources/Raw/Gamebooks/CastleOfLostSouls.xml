@@ -1240,5 +1240,11 @@
 				<Option Goto="194"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="181">
+			<Text>Вы заметили, что толстяк пытается срезать ваш кошелек.</Text>
+			<Options>
+				<Option Goto="138"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
