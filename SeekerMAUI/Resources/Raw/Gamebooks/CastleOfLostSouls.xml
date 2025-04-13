@@ -1252,5 +1252,11 @@
 				<Option Goto="141"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="183">
+			<Text>Они пожимают плечами: «Да без понятия». Отправляетесь с ними за клевером.</Text>
+			<Options>
+				<Option Goto="132"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
