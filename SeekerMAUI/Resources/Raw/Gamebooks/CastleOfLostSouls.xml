@@ -2174,5 +2174,12 @@
 				<Option Goto="307" Text="Если предпочитаете оставить его в оковах"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="324">
+			<Text>Укутываетесь в коврик. Становится тепло и уютно, и вы радуетесь, что догадались взять его.</Text>
+			<Options>
+				<Option Goto="375" Text="Попытаетесь теперь добраться до маски"/>
+				<Option Goto="316" Text="выйдете через арку"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
