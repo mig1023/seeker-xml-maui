@@ -1834,5 +1834,11 @@
 				<Option Goto="297" Text="хрустальным шаром цыганки"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="272">
+			<Text>Тропа выводит вас из холмов. Увеличьте свою первоначальную Сообразительность на 1.</Text>
+			<Options>
+				<Option Goto="201"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
