@@ -1691,5 +1691,12 @@
 				<Option Goto="226"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="251">
+			<Text>Бросаете ему четыре монеты, и тот кладет их в карман.</Text>
+			<Options>
+				<Option Goto="269" Text="Теперь вы можете продолжать свой путь"/>
+				<Option Goto="230" Text="спросить его, не знает ли он, где можно достать последние два из необходимых вам предметов"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
