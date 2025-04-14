@@ -2113,5 +2113,13 @@
 				<Option Goto="365" Text="предпочитаете зажечь свой фонарь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="315">
+			<Text>17.</Text>
+			<Options>
+				<Option Goto="364" Text="Можете воспользоваться хрустальным шаром"/>
+				<Option Goto="322" Text="тремя странными серебряными монетами"/>
+				<Option Goto="335" Text="Если у вас нет ни того, ни другого, или вы решили не пользоваться ими, вернитесь и откройте одну из дверей"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
