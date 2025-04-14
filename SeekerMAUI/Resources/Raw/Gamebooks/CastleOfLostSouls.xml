@@ -1459,5 +1459,11 @@
 				<Option Goto="281"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="215">
+			<Text>К тому времени, когда вы добрались до дерева, пряди волос там уже нет. А возможно, их там не было с самого начала... Продолжаете свой путь.</Text>
+			<Options>
+				<Option Goto="205"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
