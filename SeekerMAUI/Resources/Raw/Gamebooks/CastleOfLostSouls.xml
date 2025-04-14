@@ -2094,5 +2094,11 @@
 				<Option Goto="381" Text="пересечь комнату"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="312">
+			<Text>Кладете глаз головастика в глазную прорезь маски. Похоже, вы больше ничего не можете тут сделать, поэтому проходите по ледяному полу к арке и выходите.</Text>
+			<Options>
+				<Option Goto="316"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
