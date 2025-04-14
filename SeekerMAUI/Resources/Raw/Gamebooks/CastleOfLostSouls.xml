@@ -1765,5 +1765,11 @@
 				<Option Goto="203" Text="действительно предпочтете вступить с ним в бой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="262">
+			<Text>Сходите с дороги и обходите суету стороной. Продолжаете идти к холмам.</Text>
+			<Options>
+				<Option Goto="265"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
