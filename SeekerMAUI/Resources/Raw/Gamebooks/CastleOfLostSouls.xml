@@ -2154,5 +2154,12 @@
 				<Option Goto="356"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="321">
+			<Text>- Ага. Ладно, ну хоть пепел святого у тебя есть?</Text>
+			<Options>
+				<Option Goto="370" Text="Если он у вас есть"/>
+				<Option Goto="331" Text="Если нет (Горбран, кстати, святым не был, если вы встретили его в приключении из прошлого номера)"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
