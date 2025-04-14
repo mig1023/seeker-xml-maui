@@ -1969,5 +1969,13 @@
 				<Option Goto="277"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="293">
+			<Text>Прямо перед вами на сучковатых ветвях дерева развешаны пряди длинных черных волос. А вдруг это волосы монашки?</Text>
+			<Options>
+				<Option Goto="252" Text="Можете открыть свой рюкзак"/>
+				<Option Goto="215" Text="подойти к дереву"/>
+				<Option Goto="205" Text="проигнорировать волосы и идти дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
