@@ -1885,5 +1885,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="280">
+			<Text>Вы устояли перед заклинанием. Увидев это, Чончон рычит и собирается улететь прочь. Можете попытаться сбить его стрелой.</Text>
+			<Options>
+				<Option Goto="246"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
