@@ -2013,5 +2013,12 @@
 				<Option Goto="310"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="300">
+			<Text>Вскоре коридор сворачивает направо. На углу расположена низкая обгорелая дверь с оловянной ручкой.</Text>
+			<Options>
+				<Option Goto="371" Text="Если хотите открыть дверь"/>
+				<Option Goto="304" Text="Если хотите проигнорировать ее и идти дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
