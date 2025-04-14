@@ -1826,5 +1826,13 @@
 				<Option Goto="262" Text="сойдете с дороги, чтобы обогнуть драку"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="271">
+			<Text>Каким из своих предметов вы воспользуетесь?</Text>
+			<Options>
+				<Option Goto="291" Text="Возможно, четырехлистным клевером"/>
+				<Option Goto="214" Text="слезинкой маленькой девочки"/>
+				<Option Goto="297" Text="хрустальным шаром цыганки"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
