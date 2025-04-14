@@ -1854,5 +1854,11 @@
 				<Option Goto="267" Text="пройдете мимо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="275">
+			<Text>Вы не сумели отыскать никаких следов, подтверждающих вашу теорию. Пожав плечами, поворачиваетесь к идолу спиной, и направляетесь к холмам.</Text>
+			<Options>
+				<Option Goto="270"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
