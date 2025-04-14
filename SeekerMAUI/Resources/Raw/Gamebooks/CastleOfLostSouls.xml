@@ -2100,5 +2100,11 @@
 				<Option Goto="316"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="313">
+			<Text>Глотаете волшебное зелье. На время боя с Ундиной, вы можете в каждом раунде наносить по три удара.</Text>
+			<Options>
+				<Option Goto="348"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
