@@ -2047,5 +2047,12 @@
 				<Option Goto="335" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="305">
+			<Text>Оставили ли вы на маске Сланка клевер или слезинку?</Text>
+			<Options>
+				<Option Goto="373" Text="Если да"/>
+				<Option Goto="341" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
