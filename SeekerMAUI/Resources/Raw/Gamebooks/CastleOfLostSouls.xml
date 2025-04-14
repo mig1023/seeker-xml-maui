@@ -2067,5 +2067,11 @@
 				<Option Goto="332"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="308">
+			<Text>Труд просто каторжный, но, в конце концов, вы сумели выкопать маску из-подо льда.</Text>
+			<Options>
+				<Option Goto="333"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
