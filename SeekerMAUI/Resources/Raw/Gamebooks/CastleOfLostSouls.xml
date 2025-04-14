@@ -1588,5 +1588,11 @@
 				<Option Goto="202"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="235">
+			<Text>Высыпаете пепел в «нору» и со звуком, очень напоминающим кашель, она выплевывает вас наружу. К счастью, буря уже миновала.</Text>
+			<Options>
+				<Option Goto="226"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
