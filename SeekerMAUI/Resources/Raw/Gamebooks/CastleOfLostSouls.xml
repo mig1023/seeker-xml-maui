@@ -2106,5 +2106,12 @@
 				<Option Goto="348"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="314">
+			<Text>Прежде, чем двинуться дальше, вам необходим источник света.</Text>
+			<Options>
+				<Option Goto="323" Text="Возьмете сосновый факел"/>
+				<Option Goto="365" Text="предпочитаете зажечь свой фонарь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
