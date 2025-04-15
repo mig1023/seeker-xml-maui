@@ -2442,5 +2442,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="364">
+			<Text>Двери ничем не отличаются, если поглядеть на них сквозь хрустальный шар. Возвращайтесь и придумайте что-то еще.</Text>
+			<Options>
+				<Option Goto="335"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
