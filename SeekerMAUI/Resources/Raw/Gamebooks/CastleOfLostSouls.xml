@@ -2304,5 +2304,14 @@
 				<Option Goto="368" Text="дверь с бронзовой табличкой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="343">
+			<Text>И чем вы воспользуетесь против Ундины?</Text>
+			<Options>
+				<Option Goto="378" Text="Кольцом Света"/>
+				<Option Goto="313" Text="Зельем Ошеломляющей Скорости"/>
+				<Option Goto="334" Text="своим фонарем"/>
+				<Option Goto="348" Text="Если вы решили не использовать ничего из перечисленного"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
