@@ -2383,5 +2383,11 @@
 				<Option Goto="330"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="355">
+			<Text>Оставляете слезинку в единственном глазу маски и затем идете через комнату к арке. Вычеркните слезинку из Журнала Приключения.</Text>
+			<Options>
+				<Option Goto="316"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
