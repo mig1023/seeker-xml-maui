@@ -2460,5 +2460,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="367">
+			<Text>Прежде чем исчезнуть, джинн загадочно говорит вам: «С глазами это», - и предлагает вам вернуться на лестничную площадку и выбрать другую дверь.</Text>
+			<Options>
+				<Option Goto="342"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
