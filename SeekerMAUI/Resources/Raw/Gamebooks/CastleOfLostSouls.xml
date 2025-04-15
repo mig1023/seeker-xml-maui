@@ -2225,5 +2225,12 @@
 				<Option Goto="300"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="332">
+			<Text>Поднимаетесь на лестничную площадку второго этажа.</Text>
+			<Options>
+				<Option Goto="339" Text="Отсюда вы можете пойти налево"/>
+				<Option Goto="359" Text="направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
