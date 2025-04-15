@@ -2525,5 +2525,14 @@
 				<Option Goto="318"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="377">
+			<Text>Можете воспользоваться следующими предметами, если они у вас есть:</Text>
+			<Options>
+				<Option Goto="379" Text="четырехлистным клевером"/>
+				<Option Goto="355" Text="слезинкой дочери"/>
+				<Option Goto="312" Text="глазом головастика"/>
+				<Option Goto="316" Text="Если ничего из этого у вас нет, или вы не хотите это использовать, вам остается только выйти из комнаты"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
