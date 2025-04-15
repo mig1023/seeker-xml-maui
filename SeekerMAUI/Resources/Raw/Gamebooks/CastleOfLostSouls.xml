@@ -2540,5 +2540,11 @@
 				<Option Goto="348"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="379">
+			<Text>Оставляете клевер во рту маски демона. Это не даст Сланку дотронуться до нее. Устало бредете по ледяному полу к арке и выходите.</Text>
+			<Options>
+				<Option Goto="316"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
