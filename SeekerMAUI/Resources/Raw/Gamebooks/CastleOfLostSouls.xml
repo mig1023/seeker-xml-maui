@@ -2263,5 +2263,12 @@
 				<Option Goto="302" Text="Если хотите достать что-нибудь из рюкзака"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="337">
+			<Text>Берете черпак и отхлебываете чуток. Бросьте два кубика.</Text>
+			<Options>
+				<Option Goto="303" Text="если результат равен или меньше вашего Телосложения"/>
+				<Option Goto="366" Text="Если результат больше вашего Телосложения"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
