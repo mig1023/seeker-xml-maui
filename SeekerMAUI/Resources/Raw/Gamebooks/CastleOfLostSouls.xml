@@ -2206,5 +2206,11 @@
 				<Option Goto="339"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="329">
+			<Text>Пока Сланк вслепую молотит руками, поднимаете лук и посылаете особо подготовленную стрелу прямо в его злое сердце. Он замертво падает у ваших ног.</Text>
+			<Options>
+				<Option Goto="318"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
