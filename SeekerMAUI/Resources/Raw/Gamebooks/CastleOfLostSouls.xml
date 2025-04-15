@@ -2371,5 +2371,11 @@
 				<Option Goto="316"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="353">
+			<Text>Посыпав лед солью, вы снизили его точку замерзания - он начал таять, и теперь вы без проблем можете выкопать маску при помощи ножа.</Text>
+			<Options>
+				<Option Goto="333"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
