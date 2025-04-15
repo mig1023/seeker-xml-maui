@@ -2474,5 +2474,11 @@
 				<Option Goto="356" Text="отправиться в следующую комнату"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="369">
+			<Text>Он пожимает плечами и как будто растворяется в тенях. Остаетесь в одиночестве.</Text>
+			<Options>
+				<Option Goto="307"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
