@@ -2296,5 +2296,13 @@
 				<Option Goto="346"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="342">
+			<Text>44.</Text>
+			<Options>
+				<Option Goto="356" Text="Покинете круглую комнату через дверь слева от вас"/>
+				<Option Goto="386" Text="вернетесь на лестничную площадку и откроете дверь с медной табличкой"/>
+				<Option Goto="368" Text="дверь с бронзовой табличкой"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
