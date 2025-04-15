@@ -2276,5 +2276,12 @@
 				<Option Goto="387"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="339">
+			<Text>Идете по узкому коридору, освещенному умирающим светом масляных ламп. Вскоре подходите к двери в левой стене.</Text>
+			<Options>
+				<Option Goto="349" Text="Можете открыть дверь"/>
+				<Option Goto="300" Text="продолжить путь по коридору"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
