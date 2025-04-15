@@ -2345,5 +2345,12 @@
 				<Option Goto="301"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="349">
+			<Text>Кажется, дверь заперта на засов или забаррикадирована.</Text>
+			<Options>
+				<Option Goto="326" Text="Постучите"/>
+				<Option Goto="300" Text="пойдете дальше до конца коридора"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
