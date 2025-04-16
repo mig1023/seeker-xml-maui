@@ -247,9 +247,9 @@
 		<Paragraph No="34">
 			<Text>Возвращаетесь ко входу в пещеру. Пара крыс, пирующих на трупе великана, при вашем приближении порскают в тень.</Text>
 			<Options>
-				<Option Goto="13" Text="Можете выбрать левый туннель"/>
-				<Option Goto="92" Text="правый туннель"/>
-				<Option Goto="43" Text="вернуться в город"/>
+				<Option Goto="13" Text="Выбрать левый туннель"/>
+				<Option Goto="92" Text="Выбрать правый туннель"/>
+				<Option Goto="43" Text="Вернуться в город"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="35">
