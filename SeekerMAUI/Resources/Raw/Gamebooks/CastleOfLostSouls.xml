@@ -540,8 +540,8 @@
 		<Paragraph No="77">
 			<Text>Вы стоите в узком туннеле.</Text>
 			<Options>
-				<Option Goto="25" Text="Можете пойти дальше вглубь холма"/>
-				<Option Goto="21" Text="вернуться"/>
+				<Option Goto="25" Text="Пойти дальше вглубь холма"/>
+				<Option Goto="21" Text="Вернуться"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="78">
