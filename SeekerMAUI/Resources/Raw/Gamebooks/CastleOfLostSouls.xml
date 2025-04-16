@@ -184,8 +184,8 @@
 		<Paragraph No="25">
 			<Text>Вы находитесь в маленькой комнате, посреди которой на полу стоит деревянный сундук.</Text>
 			<Options>
-				<Option Goto="19" Text="Можете попытаться открыть его"/>
-				<Option Goto="21" Text="вернуться назад"/>
+				<Option Goto="19" Text="Попытаться открыть его"/>
+				<Option Goto="21" Text="Вернуться назад"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="26">
