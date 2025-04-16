@@ -700,8 +700,8 @@
 		<Paragraph No="100">
 			<Text>Туннель приводит вас комнату с низким потолком.</Text>
 			<Options>
-				<Option Goto="36" Text="Можете вернуться ко входу"/>
-				<Option Goto="50" Text="войти в комнату"/>
+				<Option Goto="36" Text="Вернуться ко входу"/>
+				<Option Goto="50" Text="Войти в комнату"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="101">
