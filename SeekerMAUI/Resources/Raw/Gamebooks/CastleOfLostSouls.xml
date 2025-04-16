@@ -262,9 +262,9 @@
 		<Paragraph No="36">
 			<Text>Возвращаетесь ко входу в пещеру.</Text>
 			<Options>
-				<Option Goto="61" Text="Можете выбрать левый туннель"/>
-				<Option Goto="100" Text="правый"/>
-				<Option Goto="81" Text="А можете и покинуть пещеру"/>
+				<Option Goto="61" Text="Выбрать левый туннель"/>
+				<Option Goto="100" Text="Выбрать правый туннель"/>
+				<Option Goto="81" Text="Покинуть пещеру"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="37">
