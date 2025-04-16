@@ -1039,8 +1039,8 @@
 		<Paragraph No="148">
 			<Text>Есть ли у вас еще и четырехлистный клевер?</Text>
 			<Options>
-				<Option Goto="192" Text="Если нет"/>
-				<Option Goto="130" Text="Если да"/>
+				<Option Goto="192" Text="Нет"/>
+				<Option Goto="130" Text="Да"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="149">
