@@ -93,8 +93,8 @@
 		<Paragraph No="11">
 			<Text>Правый туннель приводит в комнату с низким потолком.</Text>
 			<Options>
-				<Option Goto="21" Text="Можете вернуться ко входу в пещеру"/>
-				<Option Goto="49" Text="войти в комнату"/>
+				<Option Goto="21" Text="Вернуться ко входу в пещеру"/>
+				<Option Goto="49" Text="Войти в комнату"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="12">
