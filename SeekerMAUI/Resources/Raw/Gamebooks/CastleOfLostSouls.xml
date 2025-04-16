@@ -813,12 +813,14 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="116">
-			<Text>Возможно, вам следует попытать удачу в другом месте.</Text>
+			<Text>Возможно, вам следует попытать удачу в другом месте. Вы можете подойти:</Text>
 			<Options>
-				<Option Goto="107" Text="Вы можете подойти к искателям приключений"/>
-				<Option Goto="120" Text="к цыганам"/>
-				<Option Goto="170" Text="к трактирщику"/>
-				<Option Goto="160" Text="Если вы решили вместо этого приделать ноги бляхе"/>
+				<Option Goto="107" Text="К искателям приключений"/>
+				<Option Goto="120" Text="К цыганам"/>
+				<Option Goto="170" Text="К трактирщику">
+					<Text>Если вы решили вместо этого приделать ноги бляхе...</Text>
+				</Option>
+				<Option Goto="160"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="117">
