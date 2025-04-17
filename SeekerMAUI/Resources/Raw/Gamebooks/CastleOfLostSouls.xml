@@ -2169,8 +2169,8 @@
 		<Paragraph No="318">
 			<Text>Есть ли у вас пепел святого?</Text>
 			<Options>
-				<Option Goto="387" Text="Если да, вы посыпаете пеплом труп демона"/>
-				<Option Goto="382" Text="Если пепла у вас нет"/>
+				<Option Goto="387" Text="Да, вы посыпаете пеплом труп демона"/>
+				<Option Goto="382" Text="Пепла у вас нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="319">
