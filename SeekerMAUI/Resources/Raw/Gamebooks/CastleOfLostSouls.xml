@@ -1744,9 +1744,9 @@
 		<Paragraph No="255">
 			<Text>Это - священное место. Боги заглядывают в ваше сердце и видят ваши прошлые поступки.</Text>
 			<Options>
-				<Option Goto="238" Text="Если ваша Честь равна 7 или выше"/>
-				<Option Goto="248" Text="Если ваша Честь от 1 до 6"/>
-				<Option Goto="227" Text="Если у вас вообще нет Чести"/>
+				<Option Goto="238" Text="Ваша Честь равна 7 или выше"/>
+				<Option Goto="248" Text="Ваша Честь от 1 до 6"/>
+				<Option Goto="227" Text="У вас вообще нет Чести"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="256">
