@@ -2451,8 +2451,8 @@
 		<Paragraph No="359">
 			<Text>Идете по короткому коридору и приходите к низкой двери.</Text>
 			<Options>
-				<Option Goto="336" Text="Если хотите войти в нее"/>
-				<Option Goto="339" Text="если хотите вернуться и пойти в другую сторону"/>
+				<Option Goto="336" Text="Войти в нее"/>
+				<Option Goto="339" Text="Вернуться и пойти в другую сторону"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="360">
