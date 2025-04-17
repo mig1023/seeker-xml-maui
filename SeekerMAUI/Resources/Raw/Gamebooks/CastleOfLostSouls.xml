@@ -2077,8 +2077,8 @@
 		<Paragraph No="305">
 			<Text>Оставили ли вы на маске Сланка клевер или слезинку?</Text>
 			<Options>
-				<Option Goto="373" Text="Если да"/>
-				<Option Goto="341" Text="Если нет"/>
+				<Option Goto="373" Text="Да"/>
+				<Option Goto="341" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="306">
