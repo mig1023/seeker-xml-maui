@@ -2257,10 +2257,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="332">
-			<Text>Поднимаетесь на лестничную площадку второго этажа.</Text>
+			<Text>Поднимаетесь на лестничную площадку второго этажа.\n\nОтсюда вы можете пойти:</Text>
 			<Options>
-				<Option Goto="339" Text="Отсюда вы можете пойти налево"/>
-				<Option Goto="359" Text="направо"/>
+				<Option Goto="339" Text="Налево"/>
+				<Option Goto="359" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="333">
