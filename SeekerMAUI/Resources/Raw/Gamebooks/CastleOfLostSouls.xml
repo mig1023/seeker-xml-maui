@@ -2393,8 +2393,8 @@
 		<Paragraph No="350">
 			<Text>Правильный ответ «бесподобный».</Text>
 			<Options>
-				<Option Goto="328" Text="Если вы так и ответили"/>
-				<Option Goto="317" Text="Если вы ответили как-то по-другому"/>
+				<Option Goto="328" Text="Так и ответили"/>
+				<Option Goto="317" Text="Ответили как-то по-другому"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="351">
