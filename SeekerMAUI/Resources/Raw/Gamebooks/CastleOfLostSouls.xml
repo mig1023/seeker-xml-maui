@@ -1853,9 +1853,9 @@
 		<Paragraph No="271">
 			<Text>Каким из своих предметов вы воспользуетесь?</Text>
 			<Options>
-				<Option Goto="291" Text="Возможно, четырехлистным клевером"/>
-				<Option Goto="214" Text="слезинкой маленькой девочки"/>
-				<Option Goto="297" Text="хрустальным шаром цыганки"/>
+				<Option Goto="291" Text="Четырехлистным клевером"/>
+				<Option Goto="214" Text="Слезинкой маленькой девочки"/>
+				<Option Goto="297" Text="Хрустальным шаром цыганки"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="272">
