@@ -2084,8 +2084,8 @@
 		<Paragraph No="306">
 			<Text>Можете попробовать нагреть нож с помощью своего фонаря, что должно помочь рубить лед.</Text>
 			<Options>
-				<Option Goto="384" Text="Если вы так и делаете"/>
-				<Option Goto="353" Text="Если у вас есть кувшин соли"/>
+				<Option Goto="384" Text="Так и делаете"/>
+				<Option Goto="353" Text="У вас есть кувшин соли"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="307">
