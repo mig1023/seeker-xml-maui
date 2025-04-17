@@ -2345,8 +2345,10 @@
 			<Options>
 				<Option Goto="378" Text="Кольцом Света"/>
 				<Option Goto="313" Text="Зельем Ошеломляющей Скорости"/>
-				<Option Goto="334" Text="своим фонарем"/>
-				<Option Goto="348" Text="Если вы решили не использовать ничего из перечисленного"/>
+				<Option Goto="334" Text="Своим фонарем">
+					<Text>Если вы решили не использовать ничего из перечисленного...</Text>
+				</Option>
+				<Option Goto="348"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="344">
