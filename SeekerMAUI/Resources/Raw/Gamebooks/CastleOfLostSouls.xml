@@ -1278,6 +1278,9 @@
 		</Paragraph>
 		<Paragraph No="177">
 			<Text>Он только рад быть полезным вам в столь благородном предприятии, и срезает мечом стружку со своего шлема. Вы также получаете 1 Честь за открытый подход.</Text>
+			<Modifications>
+				<Honor Value="1"/>
+			</Modifications>
 			<Options>
 				<Option Goto="141"/>
 			</Options>
