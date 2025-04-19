@@ -1656,6 +1656,7 @@
 		<Paragraph No="158">
 			<Text>Когда вы огибаете холм, навстречу вам выезжает всадник — великан на носороге. Вы обнажаете меч, он хватается за молот — схватка предстоит не на жизнь, а на смерть.</Text>
 			<Actions>
+				<Option Goto="174" Text="Предпринять попытку убежать"/>
 				<Fight>
 					<Enemy Name="ВЕЛИКАН" Strength="13" Hitpoints="14"/>
 					<AttackWounds Value="3"/>
@@ -1663,7 +1664,6 @@
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="174" Text="Предпринять попытку убежать"/>
 				<Option Goto="229" Text="Вы победили">
 					<Gold Value="2"/>
 				</Option>
