@@ -895,6 +895,9 @@
 		</Paragraph>
 		<Paragraph No="120">
 			<Text>Относите бутылку вина (что стоит 3 золотых) за их стол, и они начинают болтать с вами.</Text>
+			<Modifications>
+				<Gold Value="-3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="172" Text="Спросить о хрустальном шаре"/>
 				<Option Goto="124" Text="Спросить о клевере"/>
