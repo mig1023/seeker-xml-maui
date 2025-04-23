@@ -2075,6 +2075,9 @@
 		</Paragraph>
 		<Paragraph No="286">
 			<Text>Мрачно вручаете ему 9 золотых.</Text>
+			<Modifications>
+				<Gold Value="-9"/>
+			</Modifications>
 			<Options>
 				<Option Goto="269" Text="Продолжить свой путь"/>
 				<Option Goto="230" Text="Спросить его, не знает ли он, где можно найти два нужных вам предмета"/>
