@@ -1752,6 +1752,9 @@
 		</Paragraph>
 		<Paragraph No="239">
 			<Text>Норвена с криком убегает. Закатываете труп Горбрана в канаву - обнаружив по ходу дела 9 золотых в его поясном кошеле - и продолжаете свой путь.</Text>
+			<Modifications>
+				<Gold Value="9"/>
+			</Modifications>
 			<Options>
 				<Option Goto="265"/>
 			</Options>
