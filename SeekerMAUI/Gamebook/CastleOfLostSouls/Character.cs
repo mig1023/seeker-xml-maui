@@ -43,11 +43,11 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
             set => _honor = Game.Param.Setter(value);
         }
 
-        private int _armor;
-        public int Armor
+        private int _armour;
+        public int Armour
         {
-            get => _armor;
-            set => _armor = Game.Param.Setter(value);
+            get => _armour;
+            set => _armour = Game.Param.Setter(value);
         }
 
         private int _gold;
@@ -65,7 +65,7 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
             Constitution = Game.Dice.Roll(dices: 2) + 10;
             Ingenuity = Game.Dice.Roll() + 5;
             Honor = 3;
-            Armor = 2;
+            Armour = 2;
             Gold = 10;
 
             Resistence = Game.Dice.Roll(dices: 2) + 3;
@@ -85,13 +85,13 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
             Constitution = this.Constitution,
             Ingenuity = this.Ingenuity,
             Honor = this.Honor,
-            Armor = this.Armor,
+            Armour = this.Armour,
             Gold = this.Gold,
             Resistence = this.Resistence,
         };
 
         public override string Save() => String.Join("|",
-            Combat, Constitution, Ingenuity, Honor, Armor, Gold, Resistence
+            Combat, Constitution, Ingenuity, Honor, Armour, Gold, Resistence
         );
 
         public override void Load(string saveLine)
@@ -102,7 +102,7 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
             Constitution = int.Parse(save[1]);
             Ingenuity = int.Parse(save[2]);
             Honor = int.Parse(save[3]);
-            Armor = int.Parse(save[4]);
+            Armour = int.Parse(save[4]);
             Gold = int.Parse(save[5]);
             Resistence = int.Parse(save[6]);
 
