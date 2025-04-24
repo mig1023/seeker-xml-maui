@@ -1431,6 +1431,9 @@
 		</Paragraph>
 		<Paragraph No="180">
 			<Text>Когда вы побежали к дверям, Бондек огрел вас по затылку ножкой от табурета. Теряете 3 Телосложения. Ошеломленный ударом, вы все-таки ухитряетесь выбраться на улицу.</Text>
+			<Modifications>
+				<Constitution Value="-3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="194"/>
 			</Options>
