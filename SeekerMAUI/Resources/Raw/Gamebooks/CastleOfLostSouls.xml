@@ -884,6 +884,9 @@
 		</Paragraph>
 		<Paragraph No="113">
 			<Text>Пока вы бежите к двери, на вас обрушивается град тумаков. Теряете 3 Телосложения.</Text>
+			<Modifications>
+				<Constitution Value="-3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="178"/>
 			</Options>
