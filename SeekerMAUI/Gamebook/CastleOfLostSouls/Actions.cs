@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 
 namespace SeekerMAUI.Gamebook.CastleOfLostSouls
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
-        public List<Character> Enemies { get; set; }
+        public Character Enemy { get; set; }
 
         public override List<string> Status() => new List<string>
         {
@@ -25,24 +25,121 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
         {
             List<string> enemies = new List<string>();
 
-            if (Enemies == null)
+            if (Enemy == null)
                 return enemies;
 
-            foreach (Character enemy in Enemies)
-            {
-                string line = $"{enemy.Name}\nБоевая доблесть " +
-                    $"{enemy.Combat}  Телосложение {enemy.Constitution}";
+            string line = $"{Enemy.Name}\nБоевая доблесть " +
+                $"{Enemy.Combat}  Телосложение {Enemy.Constitution}";
 
-                if (enemy.Armour > 0)
-                    line += $"  Доспехи {enemy.Armour}";
+            if (Enemy.Armour > 0)
+                line += $"  Доспехи {Enemy.Armour}";
 
-                if (enemy.Ingenuity > 0)
-                    line += $"  Сообразительность {enemy.Ingenuity}";
-
-                enemies.Add(line);
-            }
+            enemies.Add(line);
 
             return enemies;
+        }
+
+        public List<string> Fight()
+        {
+            List<string> fight = new List<string>();
+
+            int round = 1;
+
+            while (true)
+            {
+                fight.Add($"HEAD|BOLD|Раунд: {round}");
+
+                Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+
+                var dices = firstDice + secondDice;
+
+                fight.Add("BOLD|ВЫ АТАКУЕТЕ:");
+                fight.Add($"Бросок на попадание: {Game.Dice.Symbol(firstDice)} + " +
+                    $"{Game.Dice.Symbol(secondDice)} = {dices}");
+
+                if (dices <= Character.Protagonist.Combat)
+                {
+                    fight.Add($"GOOD|Сумма {dices} не превышает Доблесть " +
+                        $"{Character.Protagonist.Combat}, значит вы попали по противнику!");
+
+                    var wound = Game.Dice.Roll();
+
+                    fight.Add($"Бросок на повреждение: {Game.Dice.Symbol(wound)}");
+
+                    if (Enemy.Armour > 0)
+                    {
+                        wound -= Enemy.Armour;
+
+                        fight.Add($"Из броска на повреждение вычитается {Enemy.Armour} " +
+                            $"за доспехи противника, в результате бросок теперь равен {wound}");
+                    }
+
+                    if (wound > 0)
+                    {
+                        fight.Add("GOOD|BOLD|Противник ранен!");
+
+                        Enemy.Constitution -= wound;
+
+                        fight.Add($"GOOD|Противник теряет {wound} ед. Телосложения! " +
+                            $"В результате, у него осталось {Enemy.Constitution} ед. Телосложения.");
+
+                        if (Enemy.Constitution <= 0)
+                            return Win(fight);
+                    }
+                }
+                else
+                {
+                    fight.Add($"BAD|BOLD|Сумма {dices} превышает Доблесть " +
+                        $"{Character.Protagonist.Combat}, значит вы промахнулись");
+                }
+
+                Game.Dice.DoubleRoll(out firstDice, out secondDice);
+
+                dices = firstDice + secondDice;
+
+                fight.Add("BOLD|ПРОТИВНИК АТАКУЕТ:");
+                fight.Add($"Бросок на попадание: {Game.Dice.Symbol(firstDice)} + " +
+                    $"{Game.Dice.Symbol(secondDice)} = {dices}");
+
+                if (dices <= Enemy.Combat)
+                {
+                    fight.Add($"BAD|Сумма {dices} не превышает его Доблесть " +
+                        $"{Enemy.Combat}, значит он попали по вам!");
+
+                    var wound = Game.Dice.Roll();
+
+                    fight.Add($"Бросок на повреждение: {Game.Dice.Symbol(wound)}");
+
+                    if (Character.Protagonist.Armour > 0)
+                    {
+                        wound -= Character.Protagonist.Armour;
+
+                        fight.Add($"Из броска на повреждение вычитается {Character.Protagonist.Armour} " +
+                            $"за ваши доспехи, в результате его бросок теперь равен {wound}");
+                    }
+
+                    if (wound > 0)
+                    {
+                        fight.Add("BAD|BOLD|Вы ранены!");
+
+                        Character.Protagonist.Constitution -= wound;
+
+                        fight.Add($"BAD|Вы теряете {wound} ед. Телосложения! " +
+                            $"В результате, у вас осталось {Character.Protagonist.Constitution} ед. Телосложения.");
+
+                        if (Character.Protagonist.Constitution <= 0)
+                            return Fail(fight);
+                    }
+                }
+                else
+                {
+                    fight.Add($"GOOD|BOLD|Сумма {dices} превышает его Доблесть " +
+                        $"{Character.Protagonist.Combat}, значит он промахнулся");
+                }
+
+                round += 1;
+                fight.Add(String.Empty);
+            }
         }
     }
 }
