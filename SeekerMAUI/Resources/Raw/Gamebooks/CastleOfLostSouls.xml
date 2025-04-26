@@ -1947,7 +1947,7 @@
 			<Options>
 				<Option Goto="292" Text="Зашвырнуть меч куда подальше, надеясь, что Моршоны поспешат за ним"/>
 				<Option Goto="221" Text="Зажжете фонарь"/>
-				<Option Goto="266" Text="Воспользуетесь Кольцом Света, если у вас оно есть"/>
+				<Option Goto="266" Text="Воспользуетесь Кольцом Света" Availability="Кольцо Света"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="230">
