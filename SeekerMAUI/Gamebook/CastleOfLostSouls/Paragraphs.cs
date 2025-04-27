@@ -15,7 +15,8 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
             foreach (string param in GetProperties(action))
                 SetProperty(action, param, xmlAction);
 
-            action.Enemy = EnemyParse(xmlAction["Enemy"]);
+            if (xmlAction["Enemy"] != null)
+                action.Enemy = EnemyParse(xmlAction["Enemy"]);
 
             if (action.Type == "Option")
                 action.Option = OptionParse(xmlAction);

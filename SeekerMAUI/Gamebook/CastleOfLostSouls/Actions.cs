@@ -166,7 +166,7 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
             if (Wound)
             {
                 Character.Protagonist.Constitution -= dices;
-                test.Add($"BAD|BOLD|Вы потеряли {dices} ед. Телосложения!");
+                test.Add($"BIG|BAD|BOLD|Вы потеряли {dices} ед. Телосложения!");
             }
             else
             {
@@ -177,14 +177,14 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
                     test.Add($"Это больше показателя {Constants.StatNames[Stat]}, " +
                         $"который равен {currentStat}!");
 
-                    test.Add("BAD|BOLD|Это ПРОВАЛ :(");
+                    test.Add("BIG|BAD|BOLD|Это ПРОВАЛ :(");
                 }
                 else
                 {
                     test.Add($"Это не превышает показателя {Constants.StatNames[Stat]}, " +
                         $"который равен {currentStat}!");
 
-                    test.Add("GOOD|BOLD|Это УСПЕХ :)");
+                    test.Add("BIG|GOOD|BOLD|Это УСПЕХ :)");
                 }
             }
 
