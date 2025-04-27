@@ -160,7 +160,7 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
 
             if (Dices > 1)
             {
-                test.Add($"Итого на кубиках выпало: {dices}");
+                test.Add($"BOLD|Итого на кубиках выпало: {dices}");
             }
 
             if (Wound)
