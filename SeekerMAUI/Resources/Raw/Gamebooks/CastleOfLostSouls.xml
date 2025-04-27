@@ -1205,6 +1205,12 @@
 		</Paragraph>
 		<Paragraph No="134">
 			<Text>Хватаете шлем, пока рыцарь стоит к вам спиной, и начинаете бочком-бочком отходить. Бросьте два кубика:</Text>
+			<Actions>
+				<Test>
+					<Dices>2</Dices>
+					<Stat>Ingenuity</Stat>
+				</Test>
+			</Actions>
 			<Modifications>
 				<Honor Value="-1"/>
 			</Modifications>
