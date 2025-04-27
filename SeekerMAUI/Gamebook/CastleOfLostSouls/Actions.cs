@@ -1,10 +1,13 @@
-using System;
+﻿using System;
 
 namespace SeekerMAUI.Gamebook.CastleOfLostSouls
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
         public Character Enemy { get; set; }
+        public int Dices { get; set; }
+        public string Stat { get; set; }
+        public bool Wound { get; set; }
 
         public override List<string> Status() => new List<string>
         {
@@ -140,6 +143,52 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
                 round += 1;
                 fight.Add(String.Empty);
             }
+        }
+
+        public List<string> Test()
+        {
+            var test = new List<string>();
+            var dices = 0;
+
+            for (int i = 1; i <= Dices; i++)
+            {
+                var dice = Game.Dice.Roll();
+                var line = Dices > 1 ? $"{i} " : string.Empty;
+                dices += dice;
+                test.Add($"На {line}кубике выпало: {Game.Dice.Symbol(dice)}");
+            }
+
+            if (Dices > 1)
+            {
+                test.Add($"Итого на кубиках выпало: {dices}");
+            }
+
+            if (Wound)
+            {
+                Character.Protagonist.Constitution -= dices;
+                test.Add($"BAD|BOLD|Вы потеряли {dices} ед. Телосложения!");
+            }
+            else
+            {
+                var currentStat = GetProperty(Character.Protagonist, Stat);
+                
+                if (dices > currentStat)
+                {
+                    test.Add($"Это больше показателя {Constants.StatNames[Stat]}, " +
+                        $"который равен {currentStat}!");
+
+                    test.Add("BAD|BOLD|Это ПРОВАЛ :(");
+                }
+                else
+                {
+                    test.Add($"Это не превышает показателя {Constants.StatNames[Stat]}, " +
+                        $"который равен {currentStat}!");
+
+                    test.Add("GOOD|BOLD|Это УСПЕХ :)");
+                }
+            }
+
+            return test;
         }
     }
 }
