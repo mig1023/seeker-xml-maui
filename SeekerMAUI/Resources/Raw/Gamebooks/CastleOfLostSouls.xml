@@ -2917,6 +2917,12 @@
 		</Paragraph>
 		<Paragraph No="337">
 			<Text>Берете черпак и отхлебываете чуток. Бросьте два кубика.</Text>
+			<Actions>
+				<Test>
+					<Dices>2</Dices>
+					<Stat>Constitution</Stat>
+				</Test>
+			</Actions>
 			<Options>
 				<Option Goto="303" Text="Результат равен или меньше вашего Телосложения"/>
 				<Option Goto="366" Text="Результат больше вашего Телосложения"/>
