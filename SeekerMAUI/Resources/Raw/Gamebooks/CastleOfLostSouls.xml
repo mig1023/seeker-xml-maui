@@ -1463,6 +1463,12 @@
 				<Text Style="Small">Потеряйте 1 Честь.</Text>
 				<Text>Бросьте два кубика:</Text>
 			</Texts>
+			<Actions>
+				<Test>
+					<Dices>2</Dices>
+					<Stat>Ingenuity</Stat>
+				</Test>
+			</Actions>
 			<Modifications>
 				<Honor Value="-1"/>
 			</Modifications>
