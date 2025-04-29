@@ -23,5 +23,11 @@
 				<Option Goto="11" Text="Ехать прямо в фитнес-центр «Фламинго»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="2">
+			<Text>Вы направились в туалетную комнату и, облегчив свой мочевой пузырь, через минуту вернулись в зал.</Text>
+			<Options>
+				<Option Goto="68"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
