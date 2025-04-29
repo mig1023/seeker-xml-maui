@@ -520,5 +520,12 @@
 				<Option Goto="69"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="74">
+			<Text>На каком расстоянии вы решили держаться позади машины ухажера?</Text>
+			<Options>
+				<Option Goto="82" Text="Притык сразу за его машиной"/>
+				<Option Goto="78" Text="Чуть позади"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
