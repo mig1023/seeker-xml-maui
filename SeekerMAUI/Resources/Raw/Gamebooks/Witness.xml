@@ -152,5 +152,13 @@
 				<Option Goto="52" Text="Идти за Анжелой"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="21">
+			<Text>21.</Text>
+			<Options>
+				<Option Goto="49" Text="(Если у вас записано слово «уборщица») переходите на"/>
+				<Option Goto="50" Text="...Вы направились к выходу из здания. И вышли на парковку. Если у вас записана фраза - «ключи от машины»"/>
+				<Option Goto="53" Text="Если нет такой фразы"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
