@@ -527,5 +527,11 @@
 				<Option Goto="78" Text="Чуть позади"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="75">
+			<Text>Вы ехали за Анжелой в Рокфеллер центр, но в потоке машин потеряли ее из виду.\n\nРазыскивать ее в самом Центре не было никакого смысла. Вы решили ехать к ее дому и ждать там</Text>
+			<Options>
+				<Option Goto="90"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
