@@ -147,6 +147,7 @@
 	  <None Remove="Resources\Images\Cover\vweapons.jpg" />
 	  <None Remove="Resources\Images\Cover\walkinthepark.jpg" />
 	  <None Remove="Resources\Images\Cover\wilddeath.jpg" />
+	  <None Remove="Resources\Images\Cover\witness.jpg" />
 	  <None Remove="Resources\Images\Cover\wrongwaygoback.jpg" />
 	  <None Remove="Resources\Images\Cover\younglingtournament.jpg" />
 	  <None Remove="Resources\Images\Images\adventuresofabeardlessdeceiver_akyn1.jpg" />
@@ -377,6 +378,7 @@
 	  <MauiImage Include="Resources\Images\Cover\vweapons.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\walkinthepark.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\wilddeath.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\witness.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\wrongwaygoback.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\younglingtournament.jpg" />
 	  <MauiImage Include="Resources\Images\Images\AdventuresOfABeardlessDeceiver\akyn1.jpg" />
