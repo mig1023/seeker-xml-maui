@@ -514,5 +514,11 @@
 				<Option Goto="74"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="73">
+			<Text>Анжела заказала какое-то странного вида блюдо. Вы решили воспользоваться моментом и сходить наконец-то в туалет.</Text>
+			<Options>
+				<Option Goto="69"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
