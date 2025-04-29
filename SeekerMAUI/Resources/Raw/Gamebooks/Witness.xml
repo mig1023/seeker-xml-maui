@@ -223,5 +223,8 @@
 				<Option Goto="24" Text="Не рисковать и покинуть раздевалку"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="30">
+			<Text>[пустой параграф]</Text>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
