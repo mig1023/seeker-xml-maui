@@ -56,5 +56,14 @@
 				<Option Goto="8" Text="Пойти и отыскать Анжелу в фитнес-центре"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="7">
+			<Text>Куда вы направитесь дальше?</Text>
+			<Options>
+				<Option Goto="21" Text="На стоянку машин"/>
+				<Option Goto="25" Text="В раздевалку (если вы там еще не были)"/>
+				<Option Goto="26" Text="В бассейн (если вы там еще не были)"/>
+				<Option Goto="27" Text="В спа-салон (если вы там еще не были)"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
