@@ -317,5 +317,14 @@
 				<Option Goto="48"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="43">
+			<Text>Куда вы пойдете дальше?</Text>
+			<Options>
+				<Option Goto="21" Text="На стоянку машин"/>
+				<Option Goto="28" Text="В тренажерный зал (если вы там не были)"/>
+				<Option Goto="26" Text="В бассейн (если вы там не были)"/>
+				<Option Goto="27" Text="В спа-салон (если вы там не были)"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
