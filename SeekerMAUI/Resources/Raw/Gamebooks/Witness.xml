@@ -417,5 +417,12 @@
 				<Option Goto="70"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="58">
+			<Text>Сейчас мы это проверим - ответил вам охранник и стал набирать номер телефона.\n\nВаше решение?</Text>
+			<Options>
+				<Option Goto="59" Text="Ждать"/>
+				<Option Goto="61" Text="Бежать к своей машине пока охранник отвлекся"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
