@@ -1285,5 +1285,11 @@
 				<Option Goto="196" Text="Если нет этого слова"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="185">
+			<Text>Выждав минуту, вы пошли на улицу. Неизвестный мужчина сел в свою машину и уехал.\n\nВы решили вернуться в комнату №12 и открыться Анжеле.</Text>
+			<Options>
+				<Option Goto="184"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
