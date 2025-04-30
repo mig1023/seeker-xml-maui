@@ -1394,5 +1394,13 @@
 				<Option Goto="206" Text="Выйти на улицу и ждать там"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="202">
+			<Text>Через некоторое время дверь номера №12 открылась, и оттуда вышел доктор Зимельман. Он быстро направился к выходу из мотеля.\n\nВаше решение?</Text>
+			<Options>
+				<Option Goto="204" Text="Следовать за ним на улицу"/>
+				<Option Goto="205" Text="Оставаться ждать в коридоре"/>
+				<Option Goto="23" Text="Войти в комнату №12"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
