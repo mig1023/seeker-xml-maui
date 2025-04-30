@@ -1409,5 +1409,11 @@
 				<Option Goto="195" Text="Бежать в мотель"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="204">
+			<Text>Вы вышли на улицу и увидели, как машина доктора отъезжает от мотеля. Вы решаете оставаться в своей машине и ждать.</Text>
+			<Options>
+				<Option Goto="194"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
