@@ -1257,5 +1257,12 @@
 				<Option Goto="195" Text="Бежать внутрь мотеля"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="181">
+			<Text>Вы выждали пару минут и пошли к мотелю.</Text>
+			<Options>
+				<Option Goto="138" Text="Если у вас записано слово «Ключ №12»"/>
+				<Option Goto="173" Text="Если нет этого слова"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
