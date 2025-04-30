@@ -993,5 +993,12 @@
 				<Option Goto="223" Text="Если нет этого слова"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="144">
+			<Text>Вы стали растирать свое тело, приседать и даже пританцовывать, но вам не становилось теплее.\n\nЧто вы будете делать дальше?</Text>
+			<Options>
+				<Option Goto="145" Text="Обыскать картонные коробки на стеллажах"/>
+				<Option Goto="146" Text="Стучать в дверь и звать на помощь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
