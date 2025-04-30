@@ -1436,5 +1436,13 @@
 				<Option Goto="193" Text="Если нет этих слов"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="208">
+			<Text>Через некоторое время дверь номера №12 открылась, и оттуда вышел мужчина в белом костюме. Он быстро направился к выходу из мотеля.\n\nВаше решение?</Text>
+			<Options>
+				<Option Goto="209" Text="Следовать за ним на улицу"/>
+				<Option Goto="205" Text="Оставаться ждать в коридоре"/>
+				<Option Goto="23" Text="Войти в комнату №12"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
