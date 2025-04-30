@@ -1007,5 +1007,12 @@
 				<Option Goto="148" Text="Смириться со своей участью"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="146">
+			<Text>Вы били кулаками и ногами в железную дверь и звали на помощь, но никто не открывал.\n\nЧто вы будете делать дальше?</Text>
+			<Options>
+				<Option Goto="148" Text="Смириться со своей участью"/>
+				<Option Goto="145" Text="Обыскать картонные коробки на стеллажах"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
