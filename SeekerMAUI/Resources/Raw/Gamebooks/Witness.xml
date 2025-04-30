@@ -1415,5 +1415,12 @@
 				<Option Goto="194"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="205">
+			<Text>Через пару минут после ухода доктора из номера Анжела раздался громкий хлопок выстрела.\n\nВаше решение?</Text>
+			<Options>
+				<Option Goto="189" Text="Бежать на улицу к своей машине"/>
+				<Option Goto="188" Text="Войти в номер Анжелы"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
