@@ -966,5 +966,12 @@
 				<Option Goto="201" Text="Если нет этого слова"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="140">
+			<Text>Куда вы спрячетесь?</Text>
+			<Options>
+				<Option Goto="142" Text="Под кровать"/>
+				<Option Goto="143" Text="В платяной шкаф"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
