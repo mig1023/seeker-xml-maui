@@ -840,5 +840,12 @@
 				<Option Goto="150"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="122">
+			<Text>Вы открыли дверь и побежали по коридору, оклеенному красивыми обоями из шелка. Впереди вас опять две двери - влево и вправо.</Text>
+			<Options>
+				<Option Goto="125" Text="Бежать вправо"/>
+				<Option Goto="126" Text="Бежать влево"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
