@@ -1053,5 +1053,11 @@
 				<Option Goto="105" Text="Отказаться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="153">
+			<Text>Вы побежали назад по коридору и завернув за угол столкнулись лицом к лицу с охранником-громилой. Он схватил вас своими железными ручищами и потащил по коридору.</Text>
+			<Options>
+				<Option Goto="81"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
