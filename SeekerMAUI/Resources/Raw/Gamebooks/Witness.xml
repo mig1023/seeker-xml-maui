@@ -1444,5 +1444,12 @@
 				<Option Goto="23" Text="Войти в комнату №12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="209">
+			<Text>Вы вышли на улицу и увидели, что мужчина садиться в свою машину и отъезжает.</Text>
+			<Options>
+				<Option Goto="207" Text="Ехать за мужчиной в белом костюме"/>
+				<Option Goto="194" Text="Оставаться в машине и ждать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
