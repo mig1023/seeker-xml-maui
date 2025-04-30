@@ -1027,5 +1027,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="149">
+			<Text>И выиграли! На самом деле вы всего лишь отыграли свои деньги</Text>
+			<Options>
+				<Option Goto="152"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
