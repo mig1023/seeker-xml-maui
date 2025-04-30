@@ -1176,5 +1176,14 @@
 				<Option Goto="167" Text="Если не записано это слово"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="170">
+			<Text>Вы завернули налево, но впереди машины Анжелы не было видно. Вы ее потеряли.\n\nВаше решение?</Text>
+			<Options>
+				<Option Goto="111" Text="Если у вас записано слово «Бруклин-скай»"/>
+				<Option Goto="110" Text="Ехать к себе домой: Если у вас записано слово «пинок»"/>
+				<Option Goto="150" Text="Если записано слово «провал»"/>
+				<Option Goto="108" Text="Если нет этих слов"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
