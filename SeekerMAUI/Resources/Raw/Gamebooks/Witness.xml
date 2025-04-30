@@ -1320,5 +1320,11 @@
 				<Option Goto="192"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="191">
+			<Text>Вас арестовали по подозрению в убийстве Анжелы Фальконе. Против вас сфабриковали ложные доказательства, признали убийцей и осудили на 20 лет тюрьмы.\n\nКОНЕЦ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
