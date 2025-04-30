@@ -1079,5 +1079,12 @@
 				<Option Goto="159"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="157">
+			<Text>Вы прождали на улице час или полтора, пока не увидели Анжелу. Она села в свою машину и поехала в южном направлении.</Text>
+			<Options>
+				<Option Goto="161" Text="Если у вас записано слово «память»"/>
+				<Option Goto="110" Text="Если у вас не записано это слово"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
