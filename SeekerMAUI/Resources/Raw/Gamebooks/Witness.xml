@@ -1340,5 +1340,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="194">
+			<Text>Внезапно до вас донесся звук выстрела. Стреляли где-то в здании мотеля.\n\nВаши действия?</Text>
+			<Options>
+				<Option Goto="195" Text="Бежать в мотель"/>
+				<Option Goto="210" Text="Ждать на улице"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
