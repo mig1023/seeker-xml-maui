@@ -1270,5 +1270,13 @@
 				<Option Goto="197"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="183">
+			<Text>Вы продолжали прислушиваться к звукам из соседнего номера. Прошло минут десять и вдруг, за стеной раздался выстрел.\n\nВаше решение?</Text>
+			<Options>
+				<Option Goto="188" Text="Бежать в комнату №12"/>
+				<Option Goto="189" Text="Бежать на улицу к своей машине"/>
+				<Option Goto="190" Text="Оставаться в своей комнате и ждать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
