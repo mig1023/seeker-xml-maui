@@ -1040,5 +1040,11 @@
 				<Option Goto="292" Text="Сказать, что вы журналист и вам поручили написать статью на тему богемной жизни"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="151">
+			<Text>Вы сыграли и снова проиграли несколько фишек...</Text>
+			<Options>
+				<Option Goto="152"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
