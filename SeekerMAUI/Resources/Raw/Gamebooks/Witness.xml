@@ -1891,5 +1891,12 @@
 				<Option Goto="276"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="275">
+			<Text>Проехав еще пару кварталов, вы увидели впереди улочки, что путь полностью перегорожен двумя полицейскими машинами.\n\nВаше решение?</Text>
+			<Options>
+				<Option Goto="277" Text="Попытаться прорваться"/>
+				<Option Goto="278" Text="Остановиться и бежать дальше через дворы"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
