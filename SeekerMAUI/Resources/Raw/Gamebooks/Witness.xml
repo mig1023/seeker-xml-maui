@@ -1583,5 +1583,11 @@
 				<Option Goto="231"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="230">
+			<Text>Вы включили диктофон и проверили его запись. Никаких записей разговоров с пациентами там не было.</Text>
+			<Options>
+				<Option Goto="231"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
