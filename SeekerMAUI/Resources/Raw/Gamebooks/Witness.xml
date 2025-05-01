@@ -1834,5 +1834,11 @@
 				<Option Goto="267" Text="Оставить машину и бежать"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="266">
+			<Text>Вы пытаетесь снова завести машину. Из-под капота валит дым.</Text>
+			<Options>
+				<Option Goto="250"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
