@@ -1649,5 +1649,12 @@
 				<Option Goto="237"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="239">
+			<Text>Вы отодвинули одну из картин на стене и обнаружили за ней сейф.</Text>
+			<Options>
+				<Option Goto="244" Text="Если у вас записано слово - «ключ №1»"/>
+				<Option Goto="232" Text="Если нет этого слова"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
