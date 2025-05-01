@@ -1677,5 +1677,12 @@
 				<Option Goto="246" Text="Стоять и поднять руки вверх"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="243">
+			<Text>Где вы хотите спрятаться?</Text>
+			<Options>
+				<Option Goto="247" Text="За кушеткой"/>
+				<Option Goto="248" Text="Под столом"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
