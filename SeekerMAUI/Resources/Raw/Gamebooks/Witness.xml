@@ -1911,5 +1911,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="278">
+			<Text>Вы резко затормозили и, выскочив из машины, бросились к ближайшему дому. Следом за вами завывали сирены.\n\nВаши дальнейшие действия?</Text>
+			<Options>
+				<Option Goto="279" Text="Вбежать в дом"/>
+				<Option Goto="280" Text="Бежать через задний дворик дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
