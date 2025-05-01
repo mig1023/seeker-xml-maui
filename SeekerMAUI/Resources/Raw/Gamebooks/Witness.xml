@@ -1599,5 +1599,13 @@
 				<Option Goto="232" Text="Если вы хотите продолжить обыск кабинета в другом месте"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="232">
+			<Text>Ваше решение?</Text>
+			<Options>
+				<Option Goto="224" Text="Обыскать стол"/>
+				<Option Goto="225" Text="Обыскать книжный шкаф"/>
+				<Option Goto="226" Text="Искать возможный тайник или сейф"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
