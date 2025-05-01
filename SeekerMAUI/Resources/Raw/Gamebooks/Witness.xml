@@ -1571,5 +1571,11 @@
 				<Option Goto="231"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="228">
+			<Text>На бутылочках было написано, что это эфирные масла и препараты, стимулирующие сексуальное желание.</Text>
+			<Options>
+				<Option Goto="231"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
