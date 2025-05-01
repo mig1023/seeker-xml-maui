@@ -1634,5 +1634,14 @@
 				<Option Goto="234"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="237">
+			<Text>Что вы хотите осмотреть?</Text>
+			<Options>
+				<Option Goto="238" Text="грамоты и лицензии в рамках"/>
+				<Option Goto="239" Text="две большие картины"/>
+				<Option Goto="240" Text="напольные часы"/>
+				<Option Goto="232" Text="Если вы хотите продолжить обыск кабинета в другом месте"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
