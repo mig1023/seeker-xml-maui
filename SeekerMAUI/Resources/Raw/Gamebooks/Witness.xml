@@ -2020,5 +2020,13 @@
 				<Option Goto="185" Text="Последовать на улицу и ждать там"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="296">
+			<Text>Вы бросились к двери и, чуть приоткрыв ее, разглядели, удаляющуюся фигуру неизвестного мужчины.\n\nВаше решение?</Text>
+			<Options>
+				<Option Goto="183" Text="Ждать у себя в комнате"/>
+				<Option Goto="184" Text="Войти в комнату №12 и открыться Анжеле"/>
+				<Option Goto="185" Text="Последовать на улицу и ждать там"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
