@@ -1643,5 +1643,11 @@
 				<Option Goto="232" Text="Если вы хотите продолжить обыск кабинета в другом месте"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="238">
+			<Text>Вы заглянули под рамки с грамотами и лицензиями. Там ничего нет.</Text>
+			<Options>
+				<Option Goto="237"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
