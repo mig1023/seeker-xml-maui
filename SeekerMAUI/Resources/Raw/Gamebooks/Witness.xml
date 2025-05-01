@@ -1530,5 +1530,8 @@
 				<Option Goto="108" Text="Если нет этих слов"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="221">
+			<Text>[пустой параграф]</Text>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
