@@ -1973,5 +1973,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="288">
+			<Text>Вы укрылись на квартире у своего друга. Через два месяца, вы, одолжив у него немного денег, решили ехать в Мексику. В Америке теперь вас ждали лишь одни неприятности.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
