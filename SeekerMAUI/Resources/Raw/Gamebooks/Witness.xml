@@ -1613,5 +1613,14 @@
 				<Option Goto="234"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="234">
+			<Text>Что вы хотите рассмотреть поближе?</Text>
+			<Options>
+				<Option Goto="233" Text="Фигурки божеств"/>
+				<Option Goto="236" Text="Фотографии"/>
+				<Option Goto="235" Text="Кристаллы минералов"/>
+				<Option Goto="232" Text="Если вы хотите продолжить обыск кабинета в другом месте"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
