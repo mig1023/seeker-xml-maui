@@ -1771,5 +1771,11 @@
 				<Option Goto="257"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="257">
+			<Text>Вы на огромной скорости не успели вписаться в поворот, вашу машину выбросило на обочину.\n\nВизг тормозов!!! Скрежет металла!! Удар!!!!!\n\nВЫ ПОГИБЛИ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
