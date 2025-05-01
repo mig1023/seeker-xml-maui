@@ -1787,5 +1787,11 @@
 				<Option Goto="263" Text="100 км/час"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="259">
+			<Text>Вы на огромной скорости не успели вписаться в поворот, вашу машину выбросило на обочину.\n\nВизг тормозов!!! Скрежет металла!! Удар!!!!!\n\nВЫ ПОГИБЛИ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
