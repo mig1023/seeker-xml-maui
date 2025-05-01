@@ -1565,5 +1565,11 @@
 				<Option Goto="237"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="227">
+			<Text>Это оказались графики психо-эмоциональных тестов разных клиентов. Перелистав графики, вы не обнаружили графика с фамилией Анжелы Фалькони.</Text>
+			<Options>
+				<Option Goto="231"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
