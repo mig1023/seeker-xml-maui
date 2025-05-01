@@ -1589,5 +1589,15 @@
 				<Option Goto="231"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="231">
+			<Text>Что вы хотите исследовать более детально?</Text>
+			<Options>
+				<Option Goto="227" Text="Папку с графиками"/>
+				<Option Goto="228" Text="Бутылочки с жидкостью"/>
+				<Option Goto="229" Text="Тюбики"/>
+				<Option Goto="230" Text="Диктофон"/>
+				<Option Goto="232" Text="Если вы хотите продолжить обыск кабинета в другом месте"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
