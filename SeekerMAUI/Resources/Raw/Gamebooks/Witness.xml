@@ -1765,5 +1765,11 @@
 				<Option Goto="258"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="256">
+			<Text>Вы мчались, обгоняя редкие попутные машины. Впереди поворот!</Text>
+			<Options>
+				<Option Goto="257"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
