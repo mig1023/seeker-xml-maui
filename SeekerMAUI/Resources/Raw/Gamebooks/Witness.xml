@@ -1730,5 +1730,13 @@
 				<Option Goto="254"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="251">
+			<Text>Полицейская машина стала вас догонять.\n\n- «Это полиция! Немедленно остановите машину!» - раздался голос из мегафона.\n\nВаши действия?</Text>
+			<Options>
+				<Option Goto="254" Text="Остановиться"/>
+				<Option Goto="255" Text="Ускориться до 90 км/час"/>
+				<Option Goto="256" Text="Ускориться до 100 км/час"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
