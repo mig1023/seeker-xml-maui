@@ -2000,5 +2000,11 @@
 				<Option Goto="294"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="293">
+			<Text>Заикаясь от страха, вы быстро все выложили этому бандиту.</Text>
+			<Options>
+				<Option Goto="294"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
