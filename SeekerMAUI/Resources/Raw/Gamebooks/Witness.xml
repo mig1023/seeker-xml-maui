@@ -2006,5 +2006,11 @@
 				<Option Goto="294"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="294">
+			<Text>Это все? - спросил бандит.\n\n- Да, да!! Я все рассказал вам, клянусь я. - «БУМ!!» и пуля ударила вам в голову.\n\nВЫ УБИТЫ</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
