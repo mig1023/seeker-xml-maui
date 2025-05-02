@@ -1662,8 +1662,10 @@
 			<Options>
 				<Option Goto="233" Text="Фигурки божеств"/>
 				<Option Goto="236" Text="Фотографии"/>
-				<Option Goto="235" Text="Кристаллы минералов"/>
-				<Option Goto="232" Text="Если вы хотите продолжить обыск кабинета в другом месте"/>
+				<Option Goto="235" Text="Кристаллы минералов">
+					<Text>Если вы хотите продолжить обыск кабинета в другом месте...</Text>
+				</Option>
+				<Option Goto="232"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="235">
