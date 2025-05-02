@@ -965,8 +965,8 @@
 		<Paragraph No="137">
 			<Text>Вы сидели в своей машине и наблюдали за входом в мотель.</Text>
 			<Options>
-				<Option Goto="178" Text="Если у вас записано слово «Зимельман»"/>
-				<Option Goto="172" Text="Если нет этого слова"/>
+				<Option Goto="178" Text="Если у вас записано слово «Зимельман»" Availability="Зимельман"/>
+				<Option Goto="172" Text="Если нет этого слова" Availability="!Зимельман"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="138">
