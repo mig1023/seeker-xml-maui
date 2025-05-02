@@ -1292,8 +1292,8 @@
 		<Paragraph No="181">
 			<Text>Вы выждали пару минут и пошли к мотелю.</Text>
 			<Options>
-				<Option Goto="138" Text="Если у вас записано слово «Ключ №12»"/>
-				<Option Goto="173" Text="Если нет этого слова"/>
+				<Option Goto="138" Text="Если у вас записано слово «Ключ №12»" Availability="Ключ №12"/>
+				<Option Goto="173" Text="Если нет этого слова" Availability="!Ключ №12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="182">
