@@ -18,7 +18,7 @@ namespace SeekerMAUI.Gamebook.Usurper
             $"Деспотия: {Character.Protagonist.Despotism}",
         };
 
-        private bool AvailabilityNode(string option)
+        public override bool AvailabilityNode(string option)
         {
             if (Game.Services.AvailabilityByСomparison(option))
             {
@@ -28,36 +28,6 @@ namespace SeekerMAUI.Gamebook.Usurper
             else
             {
                 return AvailabilityTrigger(option);
-            }
-        }
-
-        public override bool Availability(string option)
-        {
-            if (String.IsNullOrEmpty(option))
-            {
-                return true;
-            }
-            else if (option.Contains(","))
-            {
-                var availability = option
-                    .Split(',')
-                    .Where(x => !AvailabilityNode(x.Trim()))
-                    .Count() == 0;
-
-                return availability;
-            }
-            else if (option.Contains("|"))
-            {
-                var availability = option
-                   .Split('|')
-                   .Where(x => AvailabilityNode(x.Trim()))
-                   .Count() > 0;
-
-                return availability;
-            }
-            else
-            {
-                return AvailabilityNode(option);
             }
         }
 
