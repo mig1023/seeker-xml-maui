@@ -25,11 +25,13 @@ namespace SeekerMAUI.Output
             double heightPart = (int)DeviceDisplay.MainDisplayInfo.Width / count;
             float yposText = Constants.VERTICAL_YPOS_TEXT;
             float yposLine = Constants.VERTICAL_YPOS_LINE;
+            float horizontal = Constants.HORIZONTAL_HEIGHT;
 
             foreach (var status in statusLines)
             {
                 string line = status.ToString();
-                float xpos = (float)((heightPart * index) + (heightPart / 2));
+                float correction = horizontal - ((horizontal / count) * (count - index + 1));
+                float xpos = (float)((heightPart * index) + (heightPart / 2)) - correction;
 
                 if (status.Contains("CROSSEDOUT|"))
                 {

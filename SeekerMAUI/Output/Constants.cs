@@ -42,6 +42,8 @@ namespace SeekerMAUI.Output
         public static double BOX_PADDING = 10;
         public static double DEBUG_GRIDROW_HEIGHT = 14;
 
+        public static float HORIZONTAL_HEIGHT = 30;
+
         public static float VERTICAL_YPOS_TEXT = -5;
         public static float VERTICAL_YPOS_LINE = -9;
         public static float VERTICAL_LINE_LEN = 3;

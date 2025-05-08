@@ -620,7 +620,7 @@ namespace SeekerMAUI
         {
             Status.Children.Clear();
 
-            List<string> statuses = (Game.Data.Actions == null ? null : Game.Data.Actions.Status());
+            List<string> statuses = Game.Data.Actions == null ? null : Game.Data.Actions.Status();
 
             if (Game.Services.ParagraphsWithoutStatuses(statuses))
             {
@@ -634,7 +634,7 @@ namespace SeekerMAUI
             {
                 Status.IsVisible = true;
 
-                MainGrid.RowDefinitions[2].Height = 30;
+                MainGrid.RowDefinitions[2].Height = Output.Constants.HORIZONTAL_HEIGHT;
 
                 Status.BackgroundColor = Color.FromHex(
                     Game.Data.Constants.GetColor(Game.Data.ColorTypes.StatusBar));
