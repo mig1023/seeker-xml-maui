@@ -17,10 +17,10 @@
 			<StaticSpells Items="ЗАКЛЯТИЕ КОПИИ, ЗАКЛЯТИЕ СИЛЫ, ЗАКЛЯТИЕ СЛАБОСТИ"/>
 		</Lists>
 		<Dictionaries>
-				<Availabilities>
-					<Item Name="ЗОЛОТО" Value="Gold"/>
-				</Availabilities>
-			</Dictionaries>
+			<Availabilities>
+				<Item Name="ЗОЛОТО" Value="Gold"/>
+			</Availabilities>
+		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
