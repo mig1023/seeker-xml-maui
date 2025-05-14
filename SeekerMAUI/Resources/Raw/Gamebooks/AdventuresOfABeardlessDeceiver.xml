@@ -29,13 +29,13 @@
 			</StatNames>
 		</Dictionaries>
 		<Dictionaries>
-				<Availabilities>
-					<Item Name="ТАНЬГА" Value="Tanga"/>
-					<Item Name="СЛАВА_АКЫНА" Value="AkynGlory"/>
-					<Item Name="ПОПУЛЯРНОСТЬ" Value="Popularity"/>
-					<Item Name="ЕДИНИЦЫ_ВРЕМЕНИ" Value="UnitOfTime"/>
-				</Availabilities>
-			</Dictionaries>
+			<Availabilities>
+				<Item Name="ТАНЬГА" Value="Tanga"/>
+				<Item Name="СЛАВА_АКЫНА" Value="AkynGlory"/>
+				<Item Name="ПОПУЛЯРНОСТЬ" Value="Popularity"/>
+				<Item Name="ЕДИНИЦЫ_ВРЕМЕНИ" Value="UnitOfTime"/>
+			</Availabilities>
+		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
