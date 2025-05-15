@@ -1,5 +1,4 @@
-﻿using SeekerMAUI.Gamebook.ChooseCthulhu;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace SeekerMAUI.Gamebook.WalkInThePark
 {
@@ -8,6 +7,7 @@ namespace SeekerMAUI.Gamebook.WalkInThePark
         public static int FirstPartSize = 100;
         public static int GameoverRating = 200;
 
+        public static List<string> How { get; set; }
         public static List<string> What { get; set; }
         public static List<string> Where { get; set; }
         public static Dictionary<string, string> Rating { get; set; }

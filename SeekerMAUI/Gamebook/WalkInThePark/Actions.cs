@@ -306,8 +306,14 @@ namespace SeekerMAUI.Gamebook.WalkInThePark
             return enemiesCount == 0;
         }
 
-        private static string Hit() =>
-            $"{Constants.What[rand.Next(Constants.What.Count)]} {Constants.Where[rand.Next(Constants.Where.Count)]}";
+        private static string Hit()
+        {
+            var how = Constants.How[rand.Next(Constants.How.Count)];
+            var what = Constants.What[rand.Next(Constants.What.Count)];
+            var where = Constants.Where[rand.Next(Constants.Where.Count)];
+
+            return $"{how} {what} {where}";
+        }
 
         public List<string> EpicFight()
         {
