@@ -5076,7 +5076,7 @@
 				<Fight>
 					<Enemy Name="Уличный Вор 2" Skill="13" Strength="20"/>
 					<SkillPenalty Value="4;; безоружность"/>
-					<Text Style="Small">Вы должны вычесть 4 пункта БОЕВОГО НАВЫКА и сражаться с ними безоружным. </Text>
+					<Text Style="Small">Вы должны вычесть 4 пункта БОЕВОГО НАВЫКА и сражаться с ними безоружным.</Text>
 				</Fight>
 			</Actions>
 			<Options>
