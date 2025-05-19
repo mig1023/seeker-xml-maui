@@ -14,8 +14,8 @@
 		</Styles>
 		<Dictionaries>
 			<Availabilities>
-				<Item Name="ПИЛОТ" Value=""/>
-				<Item Name="БИБЛИОТЕКА" Value=""/>
+				<Item Name="ПИЛОТ" Value="Pilot"/>
+				<Item Name="БИБЛИОТЕКА" Value="Reading"/>
 			</Availabilities>
 		</Dictionaries>
 		<Buttons>
