@@ -24,14 +24,11 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             var negative = coefficient < 0 ? "N" : String.Empty;
             var tableName = $"Coefficient{negative}{Math.Abs(coefficient)}";
 
-            foreach (var tables in typeof(Constants).GetProperties())
-            {
-                if (tables.Name == tableName)
-                {
-                    Table = (Dictionary<int, string>)tables.GetValue(null);
-                    return;
-                }
-            }
+            Table = (Dictionary<int, string>)typeof(Constants)
+                .GetProperties()
+                .Where(x => x.Name == tableName)
+                .FirstOrDefault()
+                .GetValue(null);
         }
 
         public static void Get(int dice, out int heroDamage, out int enemyDamage)
