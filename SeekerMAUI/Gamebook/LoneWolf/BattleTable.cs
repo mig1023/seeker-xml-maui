@@ -6,7 +6,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
     {
         private static Dictionary<int, string> Table { get; set; }
 
-        public static void Init(int coefficient)
+        public static Dictionary<int, string> Init(int coefficient)
         {
             if (coefficient >= 11)
             {
@@ -29,6 +29,8 @@ namespace SeekerMAUI.Gamebook.LoneWolf
                 .Where(x => x.Name == tableName)
                 .FirstOrDefault()
                 .GetValue(null);
+
+            return Table;
         }
 
         public static void Get(int dice, out int heroDamage, out int enemyDamage)

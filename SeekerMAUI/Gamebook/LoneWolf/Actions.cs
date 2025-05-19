@@ -172,7 +172,15 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
             fight.Add($"GRAY|{coefficientLine}");
 
-            BattleTable.Init(coefficient);
+            var table = BattleTable.Init(coefficient);
+            var tableLine = $"Таблица результатов битв:";
+
+            foreach (var line in table)
+            {
+                tableLine += $"\n{line.Key} \t ---> \t [ {line.Value} ]";
+            }
+
+            fight.Add($"GRAY|{tableLine}\n");
 
             while (true)
             {
