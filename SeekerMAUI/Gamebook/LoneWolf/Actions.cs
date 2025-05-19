@@ -182,7 +182,8 @@ namespace SeekerMAUI.Gamebook.LoneWolf
                 fight.Add($"Случайное число: {dice}");
 
                 BattleTable.Get(dice, out int heroDamage, out int enemyDamage);
-             
+                fight.Add($"GRAY|Табличные значения: {enemyDamage}/{heroDamage}");
+
                 if (heroDamage < 0)
                 {
                     fight.Add($"BAD|BOLD|Вы убиты наповал...");
