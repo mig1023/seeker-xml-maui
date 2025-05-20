@@ -4882,7 +4882,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="609">
-			<Text>Зловоние корабля удушает вас. Вы теряете 1 пункт ВЫНОСЛИВОСТИ. Вы должны уйти отсюда или вы будете задыхаться.</Text>
+			<Texts>
+				<Text>Зловоние корабля удушает вас.</Text>
+				<Text Style="Small">Вы теряете 1 пункт ВЫНОСЛИВОСТИ.</Text>
+				<Text>Вы должны уйти отсюда или вы будете задыхаться.</Text>
+			</Texts>
 			<Modifications>
 				<Strength Value="-1"/>
 			</Modifications>
