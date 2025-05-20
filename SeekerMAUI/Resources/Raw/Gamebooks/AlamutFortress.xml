@@ -3623,10 +3623,10 @@
 			<Options>
 				<Option Goto="412" Text="Тихонько пройдёте через библиотеку к задней двери"/>
 				<Option Goto="390" Text="Заглянете в раскрытый гримуар">
-					<Text></Text>
+					<Text>Попросите помощи:</Text>
 				</Option>
-				<Option Goto="339" Text="Попросите помощи у мага за столом"/>
-				<Option Goto="42" Text="Попросите помощи у мага за пюпитром"/>
+				<Option Goto="339" Text="У мага за столом"/>
+				<Option Goto="42" Text="У мага за пюпитром"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="448">
