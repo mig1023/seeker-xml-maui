@@ -400,7 +400,7 @@
 			</Actions>
 			<Options>
 				<Option Goto="63" Text="Ничего страшного не произошло" Tag="Win"/>
-				<Option Goto="3" Text="Соскользнули вниз"  Tag="Fail"/>
+				<Option Goto="3" Text="Соскользнули вниз" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="43">
@@ -1802,7 +1802,7 @@
 			</Actions>
 			<Options>
 				<Option Goto="263" Text="Получилось" Tag="Win"/>
-				<Option Goto="18" Text="Не получилось"  Tag="Fail"/>
+				<Option Goto="18" Text="Не получилось" Tag="Fail"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="205">
