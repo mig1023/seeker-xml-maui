@@ -2326,7 +2326,7 @@
 				<Option Goto="324" Text="Сувенирная лавка"/>
 				<Option Goto="148" Text="Экскурсионное бюро"/>
 				<Option Goto="215" Text="Магазин «Пятерочка»"/>
-				<Option Goto="188" Text="Cразу во Дворец"/>
+				<Option Goto="188" Text="Сразу во Дворец"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="251">
