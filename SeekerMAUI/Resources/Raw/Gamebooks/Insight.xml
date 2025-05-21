@@ -2660,7 +2660,7 @@
 			<Triggers>алиби</Triggers>
 			<Options>
 				<Option Goto="95" Text="Закончив с осмотром, возвращаетесь на станцию"/>
-				<Option Goto="240" Text="Bсследуете останки спагеттированой жертвы"/>
+				<Option Goto="240" Text="Исследуете останки спагеттированой жертвы"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="291">
