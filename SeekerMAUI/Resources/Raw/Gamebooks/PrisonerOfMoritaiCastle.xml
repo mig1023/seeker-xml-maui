@@ -1811,7 +1811,7 @@
 			</Modifications>
 			<Options>
 				<Option Goto="237" Text="У вас есть еще сюрикен" Availability="СЮРИКЕНЫ > 0"/>
-				<Option Goto="230" Text="У вас нет больше сюрикенов"  Availability="СЮРИКЕНЫ &lt;= 0"/>
+				<Option Goto="230" Text="У вас нет больше сюрикенов" Availability="СЮРИКЕНЫ &lt;= 0"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="234">
