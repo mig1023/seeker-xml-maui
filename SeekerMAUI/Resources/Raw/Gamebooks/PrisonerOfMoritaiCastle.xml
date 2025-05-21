@@ -1297,7 +1297,7 @@
 				<Arrows Value="-1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="168" Text="Cтреляйте из лука" Availability="СТРЕЛЫ > 0"/>
+				<Option Goto="168" Text="Стреляйте из лука" Availability="СТРЕЛЫ > 0"/>
 				<Option Goto="181" Text="Метните сюрикен" Availability="СЮРИКЕНЫ > 0"/>
 			</Options>
 		</Paragraph>
