@@ -142,5 +142,12 @@
 				<Option Goto="73" Text="Если решишь осмотреть высокое здание в конце улицы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="20">
+			<Text>Коридор резко поворачивает направо и через некоторое время вновь разветвляется. Куда ты\n\nповернешь теперь:</Text>
+			<Options>
+				<Option Goto="166" Text="налево"/>
+				<Option Goto="113" Text="направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
