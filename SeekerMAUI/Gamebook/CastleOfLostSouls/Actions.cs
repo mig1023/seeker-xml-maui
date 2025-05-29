@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Maui.Controls.Shapes;
+using System;
 
 namespace SeekerMAUI.Gamebook.CastleOfLostSouls
 {
@@ -143,6 +144,72 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
                 round += 1;
                 fight.Add(String.Empty);
             }
+        }
+
+        private int AttacksCount(int dice)
+        {
+            if (dice <= 4)
+                return 1;
+
+            if (dice <= 6)
+                return 2;
+
+            return 3;
+        }
+
+        public List<string> Ambush()
+        {
+            var ambush = new List<string>();
+            var dice = Game.Dice.Roll();
+            var attacks = AttacksCount(dice);
+            var count = Game.Services.CoinsNoun(attacks, "раз", "раза", "раз");
+
+            ambush.Add($"BOLD|ОПРЕДЕЛЯЕМ КОЛИЧЕСТВО ПОПАДАНИЙ:");
+            ambush.Add($"На кубике выпало: {Game.Dice.Symbol(dice)}");
+            ambush.Add($"Это значит, что в вас попали {attacks} {count}");
+            ambush.Add(string.Empty);
+            ambush.Add($"BOLD|СЧИТАЕМ ПОПАДАНИЯ:");
+
+            var wounds = 0;
+
+            for (int i = 1; i <= attacks; i++)
+            {
+                var attack = Game.Dice.Roll();
+                var line = attacks > 1 ? $"{i} " : string.Empty;
+                ambush.Add($"На {line}кубике выпало: {Game.Dice.Symbol(attack)}");
+
+                if (Character.Protagonist.Armour > 0)
+                {
+                    attack -= Character.Protagonist.Armour;
+
+                    ambush.Add($"Из значения кубика вычиается значение доспехов, " +
+                        $"равное {Character.Protagonist.Armour}");
+                }
+
+                if (attack > 0)
+                {
+                    wounds += attack;
+                    ambush.Add($"BAD|Вы получаете {attack} ед. повреждений");
+                }
+                else
+                {
+                    ambush.Add("GOOD|Доспехи вас защитили!");
+                }
+
+                ambush.Add(string.Empty);
+            }
+
+            if (wounds <= 0)
+            {
+                ambush.Add("GOOD|BOLD|ИТОГО ВЫ ОТДЕЛАЛИСЬ ЛЁГКИМ ИСПУГОМ! :)");
+            }
+            else
+            {
+                ambush.Add($"BAD|BOLD|ИТОГО ВЫ ПОТЕРЯЛИ {wounds} ед. ТЕЛОСЛОЖЕНИЯ :(");
+                Character.Protagonist.Constitution -= wounds;
+            }
+                
+            return ambush;
         }
 
         public List<string> Test()
