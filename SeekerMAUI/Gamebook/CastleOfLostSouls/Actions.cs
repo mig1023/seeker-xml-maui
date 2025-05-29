@@ -25,6 +25,9 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
             $"Магическая стойкость: {Character.Protagonist.Resistence}",
         };
 
+        public override bool GameOver(out int toEndParagraph, out string toEndText) =>
+            GameOverBy(Character.Protagonist.Constitution, out toEndParagraph, out toEndText);
+
         public override List<string> Representer()
         {
             List<string> enemies = new List<string>();
