@@ -230,5 +230,12 @@
 				<Option Goto="122" Text="Если выхватишь бластер и откроешь огонь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="33">
+			<Text>Брось две кости.</Text>
+			<Options>
+				<Option Goto="332" Text="Если выпавшее число меньше или равно уровню МАСТЕРСТВА** твоего Офицера по науке"/>
+				<Option Goto="224" Text="Если выпавшее число больше уровня его МАСТЕРСТВА**"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
