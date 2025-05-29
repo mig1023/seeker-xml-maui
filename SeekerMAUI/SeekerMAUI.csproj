@@ -129,6 +129,7 @@
 	  <None Remove="Resources\Images\Cover\silveragesilhouette.jpg" />
 	  <None Remove="Resources\Images\Cover\songofjaguarscliff.jpg" />
 	  <None Remove="Resources\Images\Cover\stainlesssteelrat.jpg" />
+	  <None Remove="Resources\Images\Cover\starshiptraveller.jpg" />
 	  <None Remove="Resources\Images\Cover\strikeback.jpg" />
 	  <None Remove="Resources\Images\Cover\stringofworlds.jpg" />
 	  <None Remove="Resources\Images\Cover\swampfever.jpg" />
@@ -360,6 +361,7 @@
 	  <MauiImage Include="Resources\Images\Cover\silveragesilhouette.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\songofjaguarscliff.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\stainlesssteelrat.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\starshiptraveller.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\strikeback.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\stringofworlds.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\swampfever.jpg" />
