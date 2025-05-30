@@ -632,5 +632,11 @@
 				<Option Goto="5" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="93">
+			<Text>Достигнув небольшого звездного скопления, ты выходишь из гиперпространства и решаешь исследовать его.</Text>
+			<Options>
+				<Option Goto="79"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
