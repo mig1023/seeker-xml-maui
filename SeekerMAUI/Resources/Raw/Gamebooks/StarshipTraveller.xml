@@ -811,5 +811,11 @@
 				<Option Goto="70"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="120">
+			<Text>Вернувшись на корабль, ты приказываешь включить маршевые двигатели и поднимаешься на капитанский мостик.</Text>
+			<Options>
+				<Option Goto="296"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
