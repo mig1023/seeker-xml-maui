@@ -528,5 +528,12 @@
 				<Option Goto="48"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="77">
+			<Text>Спустя некоторое время проход вновь разветвляется.</Text>
+			<Options>
+				<Option Goto="312" Text="Если хочешь повернуть налево"/>
+				<Option Goto="192" Text="если направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
