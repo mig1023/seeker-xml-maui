@@ -1298,5 +1298,12 @@
 				<Option Goto="120"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="192">
+			<Text>Вскоре ты подходишь еще к одной развилке.</Text>
+			<Options>
+				<Option Goto="113" Text="еперь ты можешь повернуть налево"/>
+				<Option Goto="293" Text="направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
