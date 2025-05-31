@@ -1220,5 +1220,12 @@
 				<Option Goto="115"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="180">
+			<Text>Ты подлетаешь к небольшой звезде, вокруг которой обращаются две планеты.</Text>
+			<Options>
+				<Option Goto="258" Text="Если хочешь приблизиться к большой красной планете"/>
+				<Option Goto="86" Text="Если решишь подойти к бледно-голубой планете"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
