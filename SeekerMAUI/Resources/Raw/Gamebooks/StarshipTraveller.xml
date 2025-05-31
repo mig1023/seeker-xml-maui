@@ -1057,5 +1057,13 @@
 				<Option Goto="203"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="156">
+			<Text>156.</Text>
+			<Options>
+				<Option Goto="328" Text="Если вы установите ваши бластеры в режим «Оглушение»"/>
+				<Option Goto="3" Text="если в режим «Поражение»"/>
+				<Option Goto="100" Text="Если ты повременишь со стрельбой в надежде, что неведомое чудовище пройдет мимо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
