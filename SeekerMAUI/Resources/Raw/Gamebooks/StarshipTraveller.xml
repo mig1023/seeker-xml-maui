@@ -1555,5 +1555,13 @@
 				<Option Goto="298" Text="Если откажешься"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="230">
+			<Text>230.</Text>
+			<Options>
+				<Option Goto="56" Text="Если в высадке на планету тебя сопровождает Офицер по науке"/>
+				<Option Goto="277" Text="Если тебя сопровождает Главный Инженер"/>
+				<Option Goto="151" Text="Если тебя сопровождают оба офицера, решай сам, на какую страницу идти. Если ни тот, ни другой"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
