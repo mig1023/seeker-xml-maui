@@ -1317,5 +1317,11 @@
 				<Option Goto="290"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="195">
+			<Text>Следуя за роботом, вы идете по длинным извилистым коридорам. Наконец, он указывает вам на дверь какой-то комнаты, и вы покорно входите внутрь.</Text>
+			<Options>
+				<Option Goto="187"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
