@@ -1369,5 +1369,11 @@
 				<Option Goto="16"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="203">
+			<Text>Сойдя с орбиты, ты активизируешь сканеры дальнего действия, которые обнаруживают на расстоянии примерно 3,3 световых лет большую красную планету.</Text>
+			<Options>
+				<Option Goto="126"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
