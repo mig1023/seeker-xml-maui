@@ -1804,5 +1804,12 @@
 				<Option Goto="339"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="268">
+			<Text>Брось две кости.</Text>
+			<Options>
+				<Option Goto="139" Text="Если выпавшее число больше или равно уровню МАСТЕРСТВА Главного Инженера"/>
+				<Option Goto="70" Text="Если выпавшее число меньше уровня его МАСТЕРСТВА"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
