@@ -1634,5 +1634,11 @@
 				<Option Goto="19"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="242">
+			<Text>Запустив двигатели, ты выходишь из посадочного дока и, миновав территорию порта, углубляешься в открытый космос.</Text>
+			<Options>
+				<Option Goto="324"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
