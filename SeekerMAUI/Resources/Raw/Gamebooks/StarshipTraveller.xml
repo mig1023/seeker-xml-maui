@@ -1823,5 +1823,11 @@
 				<Option Goto="314"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="271">
+			<Text>Сильнейший удар в голову сбивает тебя с ног, и, не успеваешь ты подняться, как подбежавший И-Абайл подхватывает тебя под руки, подтаскивает к раме и с силой толкает внутрь.</Text>
+			<Options>
+				<Option Goto="53"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
