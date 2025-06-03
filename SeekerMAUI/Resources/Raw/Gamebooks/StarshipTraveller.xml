@@ -2123,5 +2123,12 @@
 				<Option Goto="91"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="316">
+			<Text>Ты выводишь звёздный корабль «Скиталец» с орбиты красной планеты и включаешь маршевые двигатели.</Text>
+			<Options>
+				<Option Goto="253" Text="Если хочешь подлететь к большой серой планете"/>
+				<Option Goto="92" Text="Если решишь отправиться куда-нибудь еще"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
