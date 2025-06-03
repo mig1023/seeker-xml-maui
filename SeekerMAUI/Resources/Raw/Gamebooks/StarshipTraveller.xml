@@ -2166,5 +2166,12 @@
 				<Option Goto="44" Text="Если решишь проложить курс в обход этой планеты"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="322">
+			<Text>Коридор резко поворачивает направо и через некоторое время вновь разветвляется. Куда ты повернешь теперь:</Text>
+			<Options>
+				<Option Goto="113" Text="налево"/>
+				<Option Goto="214" Text="направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
