@@ -2260,5 +2260,12 @@
 				<Option Goto="185" Text="Если тебе удастся уничтожить имперский звездолет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="336">
+			<Text>Ты продолжаешь прерванный неожиданным происшествием полет. Куда ты направишься:</Text>
+			<Options>
+				<Option Goto="44" Text="к пурпурной звезде"/>
+				<Option Goto="333" Text="к двойной звезде"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
