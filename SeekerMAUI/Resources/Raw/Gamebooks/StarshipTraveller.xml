@@ -1959,5 +1959,11 @@
 				<Option Goto="199" Text="или предложить ему свою помощь в переговорах с Повелителем Дождей"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="292">
+			<Text>Идина.</Text>
+			<Options>
+				<Option Goto="233"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
