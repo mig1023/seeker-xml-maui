@@ -1965,5 +1965,12 @@
 				<Option Goto="233"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="293">
+			<Text>Пройдя несколько сот метров по левому коридору, ты видишь, что впереди проход снова раздваивается. Куда ты повернешь теперь:</Text>
+			<Options>
+				<Option Goto="322" Text="налево"/>
+				<Option Goto="338" Text="направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
