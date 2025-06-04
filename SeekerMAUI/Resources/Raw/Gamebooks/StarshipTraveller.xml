@@ -1472,8 +1472,8 @@
 		<Paragraph No="214">
 			<Text>Проход вьется и вскоре выводит тебя еще на одну развилку. Куда ты повернешь теперь:</Text>
 			<Options>
-				<Option Goto="318" Text="налево"/>
-				<Option Goto="305" Text="направо"/>
+				<Option Goto="318" Text="Налево"/>
+				<Option Goto="305" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="215">
