@@ -1153,8 +1153,8 @@
 		<Paragraph No="166">
 			<Text>Ты подходишь к перекрестку, на котором сходятся четыре ведущих в разных направлениях коридора. Куда ты повернешь:</Text>
 			<Options>
-				<Option Goto="293" Text="налево"/>
-				<Option Goto="338" Text="направо"/>
+				<Option Goto="293" Text="Налево"/>
+				<Option Goto="338" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="167">
