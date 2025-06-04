@@ -779,10 +779,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="113">
-			<Text>Вскоре ты подходишь еще к одной развилке.</Text>
+			<Text>Вскоре ты подходишь еще к одной развилке. Теперь ты можешь повернуть:</Text>
 			<Options>
-				<Option Goto="166" Text="Теперь ты можешь повернуть направо"/>
-				<Option Goto="192" Text="налево"/>
+				<Option Goto="166" Text="Направо"/>
+				<Option Goto="192" Text="Налево"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="114">
