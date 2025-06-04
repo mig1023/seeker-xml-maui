@@ -539,10 +539,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="77">
-			<Text>Спустя некоторое время проход вновь разветвляется.</Text>
+			<Text>Спустя некоторое время проход вновь разветвляется. Повернуть:</Text>
 			<Options>
-				<Option Goto="312" Text="Если хочешь повернуть налево"/>
-				<Option Goto="192" Text="если направо"/>
+				<Option Goto="312" Text="Налево"/>
+				<Option Goto="192" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="78">
