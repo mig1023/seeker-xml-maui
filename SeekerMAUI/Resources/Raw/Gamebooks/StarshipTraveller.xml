@@ -1327,8 +1327,8 @@
 		<Paragraph No="192">
 			<Text>Вскоре ты подходишь еще к одной развилке.</Text>
 			<Options>
-				<Option Goto="113" Text="еперь ты можешь повернуть налево"/>
-				<Option Goto="293" Text="направо"/>
+				<Option Goto="113" Text="Повернуть налево"/>
+				<Option Goto="293" Text="Повернуть направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="193">
