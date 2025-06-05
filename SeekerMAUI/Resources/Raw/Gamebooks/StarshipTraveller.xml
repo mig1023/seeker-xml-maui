@@ -2138,8 +2138,8 @@
 		<Paragraph No="312">
 			<Text>Пройдя по проходу несколько сот метров, ты упираешься еще в одну развилку. Куда ты повернешь теперь:</Text>
 			<Options>
-				<Option Goto="20" Text="налево"/>
-				<Option Goto="77" Text="направо"/>
+				<Option Goto="20" Text="Налево"/>
+				<Option Goto="77" Text="Направо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="313">
