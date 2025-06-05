@@ -2319,8 +2319,8 @@
 		<Paragraph No="338">
 			<Text>Некоторое время туннель беспорядочно петляет, а затем приводит тебя к новой развилке. Куда ты повернешь теперь:</Text>
 			<Options>
-				<Option Goto="20" Text="направо"/>
-				<Option Goto="166" Text="налево"/>
+				<Option Goto="20" Text="Направо"/>
+				<Option Goto="166" Text="Налево"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="339">
