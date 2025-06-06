@@ -13,7 +13,7 @@ namespace SeekerMAUI.Gamebook.AlamutFortress
         public int Strength
         {
             get => _strength;
-            set => _strength = Game.Param.Setter(value);
+            set => _strength = Game.Param.Setter(value, max: MaxStrength, _strength, this);
         }
 
         private int _hitpoints;
