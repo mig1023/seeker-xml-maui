@@ -8,8 +8,13 @@
 			<System Value="ced1d7"/>
 			<StatusBar Value="3b4760"/>
 			<AdditionalStatus Value="b5bac3"/>
+			<ActionBox Value="b5bac3"/>
+			<Action Value="091733"/>
 			<Color Name="Main, Option, Continue" Value="0b1a39"/>
 		</Styles>
+		<Buttons>
+			<Fight>Сражаться</Fight>
+		</Buttons>
 	</Introduction>
 	<Paragraphs>
 		<Paragraph No="0">
@@ -934,9 +939,14 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="135">
-			<Text>Оба звездолета открывают ураганный огонь — твоей команде предстоит сражение не на жизнь, а насмерть.\n\nИНОПЛАНЕТНЫЙ КОРАБЛЬ\n\nВооружение	9\n\nЗащита	12</Text>
+			<Text>Оба звездолета открывают ураганный огонь — твоей команде предстоит сражение не на жизнь, а насмерть.</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="ИНОПЛАНЕТНЫЙ КОРАБЛЬ" Weapons="9" Shields="12"/>
+					<SpaceCombat/>
+				</Fight>
+			</Actions>
 			<Options>
-				<Option Goto="341" Text="Запомни номер этого раздела и иди на, где изложены правила космических боев"/>
 				<Option Goto="16" Text="Удалось уничтожить имперский звездолет"/>
 			</Options>
 		</Paragraph>
