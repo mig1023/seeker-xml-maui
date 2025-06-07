@@ -5,6 +5,9 @@
 			<Author>Стив Джексон, 1983</Author>
 		</Copyright>
 		<Styles>
+			<System Value="ced1d7"/>
+			<StatusBar Value="3b4760"/>
+			<AdditionalStatus Value="b5bac3"/>
 			<Color Name="Main, Option, Continue" Value="0b1a39"/>
 		</Styles>
 	</Introduction>
