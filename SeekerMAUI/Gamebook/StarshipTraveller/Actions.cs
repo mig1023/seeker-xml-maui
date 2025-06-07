@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace SeekerMAUI.Gamebook.StarshipTraveller
 {
@@ -40,6 +40,22 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
             GameOverBy(Character.Protagonist.Shields, out toEndParagraph, out toEndText);
+
+        public override List<string> Representer()
+        {
+            List<string> enemies = new List<string>();
+
+            if (Enemies == null)
+                return enemies;
+
+            if (SpaceCombat)
+            {
+                var enemy = Enemies.First();
+                enemies.Add($"{enemy.Name}\nвооружение {enemy.Weapons}  защита {enemy.Shields}");
+            }
+
+            return enemies;
+        }
 
         public List<string> Fight()
         {
