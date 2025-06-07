@@ -4,6 +4,12 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
+        public bool SpaceCombat { get; set; }
+        public bool HandToHandCombat { get; set; }
+        public bool BlasterCombat { get; set; }
+
+        public List<Character> Enemies { get; set; }
+
         public override List<string> Status() => new List<string>
         {
             $"Вооружение: {Character.Protagonist.Weapons}",
@@ -34,5 +40,21 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
             GameOverBy(Character.Protagonist.Shields, out toEndParagraph, out toEndText);
+
+        public List<string> Fight()
+        {
+            if (SpaceCombat)
+            {
+                return Fights.SpaceCombat(this, Enemies);
+            }
+            else if (HandToHandCombat)
+            {
+                return Fights.HandToHandCombat(this, Enemies);
+            }
+            else
+            {
+                return Fights.BlasterCombat(this, Enemies);
+            }
+        }
     }
 }
