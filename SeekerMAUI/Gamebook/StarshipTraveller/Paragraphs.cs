@@ -22,7 +22,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             {
                 action.Crew = xmlAction.Attributes["Crew"].InnerText;
                 action.Max = int.Parse(xmlAction.Attributes["Max"].InnerText);
-                action.Button = Constants.Names[action.Crew];
+                action.Button = Constants.FullNames[action.Crew];
             }
 
             if (xmlAction["Enemy"] != null)

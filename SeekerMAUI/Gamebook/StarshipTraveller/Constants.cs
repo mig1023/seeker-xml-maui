@@ -7,5 +7,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
         public static List<string> Team { get; set; }
 
         public static Dictionary<string,string> Names { get; set; }
+
+        public static Dictionary<string,string> FullNames { get; set; }
     }
 }
