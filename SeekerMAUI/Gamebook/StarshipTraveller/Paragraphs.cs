@@ -18,6 +18,13 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             foreach (string param in GetProperties(action))
                 SetProperty(action, param, xmlAction);
 
+            if (!string.IsNullOrEmpty(xmlAction.Attributes["Crew"].InnerText))
+            {
+                action.Crew = xmlAction.Attributes["Crew"].InnerText;
+                action.Max = int.Parse(xmlAction.Attributes["Max"].InnerText);
+                action.Button = Constants.Names[action.Crew];
+            }
+
             if (xmlAction["Enemy"] != null)
             {
                 action.Enemies = new List<Character> { ParseEnemy(xmlAction["Enemy"]) };

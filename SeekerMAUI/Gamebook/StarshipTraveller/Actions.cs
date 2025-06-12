@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SeekerMAUI.Gamebook.CreatureOfHavoc;
+using System;
 
 namespace SeekerMAUI.Gamebook.StarshipTraveller
 {
@@ -7,6 +8,9 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
         public bool SpaceCombat { get; set; }
         public bool HandToHandCombat { get; set; }
         public bool BlasterCombat { get; set; }
+
+        public string Crew { get; set; }
+        public int Max { get; set; }
 
         public List<Character> Enemies { get; set; }
 
@@ -49,6 +53,28 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             }
 
             return enemies;
+        }
+
+        public override bool IsButtonEnabled(bool secondButton = false)
+        {
+            if (Type == "Select")
+            {
+                var count = Character.Team.Where(x => x.Value.Selected).Count();
+                var isAlive = Character.Team[Crew].Stamina > 0;
+
+                return isAlive && (count < Max);
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        public List<string> Select()
+        {
+            Character.Team[Crew].Selected = true;
+
+            return new List<string> { "RELOAD" };
         }
 
         public List<string> Fight()
