@@ -61,8 +61,9 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             {
                 var count = Character.Team.Where(x => x.Value.Selected).Count();
                 var isAlive = Character.Team[Crew].Stamina > 0;
+                var already = Character.Team[Crew].Selected;
 
-                return isAlive && (count < Max);
+                return isAlive && (count < Max) && !already;
             }
             else
             {
