@@ -5,8 +5,20 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 {
     class Paragraphs : Prototypes.Paragraphs, Abstract.IParagraphs
     {
-        public override Paragraph Get(int id, XmlNode xmlParagraph) =>
-            base.Get(xmlParagraph);
+        private int MaxSelection { get; set; }
+
+        public override Paragraph Get(int id, XmlNode xmlParagraph)
+        {
+            if (xmlParagraph["Selection"] != null)
+            {
+                foreach (var team in Constants.Team)
+                    Character.Team[team].Selected = false;
+
+                MaxSelection = int.Parse(xmlParagraph["Selection"].Attributes["Max"].InnerText);
+            }
+
+            return base.Get(xmlParagraph);
+        }
 
         public override Option OptionParse(XmlNode xmlOption) =>
             OptionParseWithDo(xmlOption, new Modification());
@@ -21,7 +33,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             if (!string.IsNullOrEmpty(xmlAction.Attributes["Crew"].InnerText))
             {
                 action.Crew = xmlAction.Attributes["Crew"].InnerText;
-                action.Max = int.Parse(xmlAction.Attributes["Max"].InnerText);
+                action.Max = MaxSelection;
                 action.Button = Constants.FullNames[action.Crew];
             }
 
