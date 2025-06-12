@@ -8,6 +8,8 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
         public override void Set(object character) =>
             Protagonist = (Character)character;
 
+        public static Dictionary<string, Character> Team { get; set; }
+
         private int _weapons;
         public int Weapons
         {
@@ -45,19 +47,14 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             set => _stamina = Game.Param.Setter(value, max: MaxStamina, _stamina, this);
         }
 
-        public static Character Captain { get; set; }
-        public static Character ScienseOfficer { get; set; }
-        public static Character MedicalOfficer { get; set; }
-        public static Character EngineeringOfficer { get; set; }
-        public static Character SecurityOfficer { get; set; }
-        public static Character SecurityGuard1 { get; set; }
-        public static Character SecurityGuard2 { get; set; }
+        public bool Selected { get; set; }
 
         private Character Crew()
         {
             Skill = Game.Dice.Roll() + 6;
             MaxStamina = Game.Dice.Roll() + 12;
             Stamina = MaxStamina;
+            Selected = false;
 
             return this;
         }
@@ -71,13 +68,12 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             Shields = MaxShields;
             Luck = Game.Dice.Roll() + 6;
 
-            Captain = new Character().Crew();
-            ScienseOfficer = new Character().Crew();
-            MedicalOfficer = new Character().Crew();
-            EngineeringOfficer = new Character().Crew();
-            SecurityOfficer = new Character().Crew();
-            SecurityGuard1 = new Character().Crew();
-            SecurityGuard2 = new Character().Crew();
+            Team = new Dictionary<string, Character>();
+
+            foreach (var name in Constants.Team)
+            {
+                Team.Add(name, new Character().Crew());
+            }
         }
 
         public Character Clone() => new Character()
@@ -90,16 +86,21 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             Luck = this.Luck,
         };
 
-        private string SaveCrew(Character crew) =>
-            $"{crew.Skill}:{crew.MaxStamina}:{crew.Stamina}";
+        private string SaveTeam()
+        {
+            var line = string.Empty;
 
+            foreach (var team in Constants.Team)
+            {
+                var crew = Team[team];
+                var selected = crew.Selected ? "1" : "0";
+                line += $"{crew.Skill}:{crew.MaxStamina}:{crew.Stamina}:{selected};";
+            }
 
-
+            return line.Remove(line.Length - 1);
+        }
         public override string Save() => String.Join("|",
-            Weapons, MaxShields, Shields, Luck,
-            SaveCrew(Captain), SaveCrew(ScienseOfficer), SaveCrew(MedicalOfficer),
-            SaveCrew(EngineeringOfficer), SaveCrew(SecurityOfficer),
-            SaveCrew(SecurityGuard1), SaveCrew(SecurityGuard2)
+            Weapons, MaxShields, Shields, Luck, SaveTeam()
         );
 
         private Character LoadCrew(string loadLine)
@@ -111,6 +112,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                 Skill = int.Parse(load[0]),
                 MaxStamina = int.Parse(load[1]),
                 Stamina = int.Parse(load[2]),
+                Selected = load[2] == "1"
             };
         }
 
@@ -123,13 +125,16 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             Shields = int.Parse(save[2]);
             Luck = int.Parse(save[3]);
 
-            Captain = LoadCrew(save[4]);
-            ScienseOfficer = LoadCrew(save[5]);
-            MedicalOfficer = LoadCrew(save[6]);
-            EngineeringOfficer = LoadCrew(save[7]);
-            SecurityOfficer = LoadCrew(save[8]);
-            SecurityGuard1 = LoadCrew(save[9]);
-            SecurityGuard2 = LoadCrew(save[10]);
+            Team = new Dictionary<string, Character>();
+
+            var index = 0;
+
+            foreach (var team in save[4].Split(";"))
+            {
+                var name = Constants.Team[index];
+                Team.Add(name, LoadCrew(team));
+                index += 1;
+            }
 
             IsProtagonist = true;
         }

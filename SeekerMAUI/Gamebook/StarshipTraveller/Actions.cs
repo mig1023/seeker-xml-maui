@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace SeekerMAUI.Gamebook.StarshipTraveller
 {
@@ -17,23 +17,17 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             $"Удача: {Character.Protagonist.Luck}"
         };
 
-        private void AddStatusLine(ref List<string> statuses, string name, Character crew)
-        {
-            string isAlive = crew.Stamina > 0 ? string.Empty : "CROSSEDOUT|";
-            statuses.Add($"{isAlive}{name}");
-        }
-
         public override List<string> AdditionalStatus()
         {
             var statusLines = new List<string>();
 
-            AddStatusLine(ref statusLines, "Капитан", Character.Captain);
-            AddStatusLine(ref statusLines, "Оф.по науке", Character.ScienseOfficer);
-            AddStatusLine(ref statusLines, "Врач", Character.MedicalOfficer);
-            AddStatusLine(ref statusLines, "Инженер", Character.EngineeringOfficer);
-            AddStatusLine(ref statusLines, "Нач.без", Character.SecurityOfficer);
-            AddStatusLine(ref statusLines, "Солдат", Character.SecurityGuard1);
-            AddStatusLine(ref statusLines, "Солдат", Character.SecurityGuard2);
+            foreach (var team in Constants.Team)
+            {
+                var crew = Character.Team[team];
+                var name = Constants.Names[team];
+                string isAlive = crew.Stamina > 0 ? string.Empty : "CROSSEDOUT|";
+                statusLines.Add($"{isAlive}{name}");
+            }
 
             return statusLines;
         }
