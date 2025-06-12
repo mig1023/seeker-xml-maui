@@ -12,6 +12,20 @@
 			<Action Value="091733"/>
 			<Color Name="Main, Option, Continue" Value="0b1a39"/>
 		</Styles>
+		<Lists>
+			<Team Items="Captain, ScienseOfficer, MedicalOfficer, EngineeringOfficer, SecurityOfficer, SecurityGuard1, SecurityGuard2"/>
+		</Lists>
+		<Dictionaries>
+			<Names>
+				<Item Name="Captain" Value="Капитан"/>
+				<Item Name="ScienseOfficer" Value="Оф.по науке"/>
+				<Item Name="MedicalOfficer" Value="Врач"/>
+				<Item Name="EngineeringOfficer" Value="Инженер"/>
+				<Item Name="SecurityOfficer" Value="Нач.без"/>
+				<Item Name="SecurityGuard1" Value="Солдат"/>
+				<Item Name="SecurityGuard2" Value="Солдат"/>
+			</Names>
+		</Dictionaries>
 		<Buttons>
 			<Fight>Сражаться</Fight>
 		</Buttons>
