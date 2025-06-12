@@ -25,6 +25,15 @@
 				<Item Name="SecurityGuard1" Value="Солдат"/>
 				<Item Name="SecurityGuard2" Value="Солдат"/>
 			</Names>
+			<FullNames>
+				<Item Name="Captain" Value="Капитан"/>
+				<Item Name="ScienseOfficer" Value="Офицер по науке"/>
+				<Item Name="MedicalOfficer" Value="Судовой врач"/>
+				<Item Name="EngineeringOfficer" Value="Старший инженер"/>
+				<Item Name="SecurityOfficer" Value="Начальник службы безопасности"/>
+				<Item Name="SecurityGuard1" Value="Первый солдат"/>
+				<Item Name="SecurityGuard2" Value="Второй солдат"/>
+			</FullNames>
 		</Dictionaries>
 		<Buttons>
 			<Fight>Сражаться</Fight>
@@ -240,7 +249,6 @@
 		<Paragraph No="28">
 			<Text>В сопровождении двух членов экипажа...</Text>
 			<Actions>
-				<Select Crew="Captain" Max="2"/>
 				<Select Crew="ScienseOfficer" Max="2"/>
 				<Select Crew="MedicalOfficer" Max="2"/>
 				<Select Crew="EngineeringOfficer" Max="2"/>
