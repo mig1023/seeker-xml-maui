@@ -96,5 +96,11 @@
 				<Option Goto="266" Text="КОНЕЦ"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="13">
+			<Text>ВЫСТРЕЛ\n\nВы подносите ствол к виску и нажимаете на курок. Кошмар завершён.</Text>
+			<Options>
+				<Option Goto="266" Text="КОНЕЦ"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
