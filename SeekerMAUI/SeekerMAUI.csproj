@@ -90,6 +90,7 @@
 	  <None Remove="Resources\Images\Cover\hostagesofpirateadmiral.jpg" />
 	  <None Remove="Resources\Images\Cover\howlofthewerewolf.jpg" />
 	  <None Remove="Resources\Images\Cover\hunt.jpg" />
+	  <None Remove="Resources\Images\Cover\infected.jpg" />
 	  <None Remove="Resources\Images\Cover\insight.jpg" />
 	  <None Remove="Resources\Images\Cover\invisiblefront.jpg" />
 	  <None Remove="Resources\Images\Cover\keperlace.jpg" />
@@ -323,6 +324,7 @@
 	  <MauiImage Include="Resources\Images\Cover\hostagesofpirateadmiral.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\howlofthewerewolf.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\hunt.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\infected.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\insight.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\invisiblefront.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\keperlace.jpg" />
