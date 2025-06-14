@@ -577,5 +577,11 @@
 				<Option Goto="140" Text="Уступить инстинктам"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="87">
+			<Text>ПРОЩАНИЕ\n\n- Тогда беги, - произносит она, и в её сумрачных глазах не мелькает ни капли сожаления.</Text>
+			<Options>
+				<Option Goto="42" Text="Бежать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
