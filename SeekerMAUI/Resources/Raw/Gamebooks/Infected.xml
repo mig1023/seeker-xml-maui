@@ -136,7 +136,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="13">
-			<Text>ВЫСТРЕЛ\n\nВы подносите ствол к виску и нажимаете на курок. Кошмар завершён.</Text>
+			<Texts>
+				<Text Style="Bold, Center">ВЫСТРЕЛ</Text>
+				<Text>Вы подносите ствол к виску и нажимаете на курок. Кошмар завершён.</Text>
+			<Texts>
 			<Options>
 				<Option Goto="266" Text="КОНЕЦ"/>
 			</Options>
