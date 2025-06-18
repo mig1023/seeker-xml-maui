@@ -839,7 +839,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="87">
-			<Text>ПРОЩАНИЕ\n\n- Тогда беги, - произносит она, и в её сумрачных глазах не мелькает ни капли сожаления.</Text>
+			<Texts>
+				<Text Style="Bold, Center">ПРОЩАНИЕ</Text>
+				<Text>- Тогда беги, - произносит она, и в её сумрачных глазах не мелькает ни капли сожаления.</Text>
+			<Texts>
 			<Options>
 				<Option Goto="42" Text="Бежать"/>
 			</Options>
