@@ -5,8 +5,11 @@
 			<Author>Джеймс Шаннеп, 2025</Author>
 		</Copyright>
 		<Styles>
-			<System Value="e2f4e7"/>
-			<Color Name="Main, Option, Continue, StatusBar, Action" Value="7ea989"/>
+			<System Value="6ca895"/>
+			<Main Value="0b6e4f"/>
+			<Continue Value="3b8b72"/>
+			<Background Value="b5d3ca"/>
+			<Font Value="042c1f"/>
 		</Styles>
 	</Introduction>
 	<Paragraphs>
