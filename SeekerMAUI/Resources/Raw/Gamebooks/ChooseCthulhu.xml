@@ -1062,5 +1062,11 @@
 				<Option Goto="104" Text="В обратном случае"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="137">
+			<Text>Вы просыпаетесь от звуков ходьбы на улице. Ночной отдых дал вам решимость встретить еще один день в Эмберхеде.</Text>
+			<Options>
+				<Option Goto="143" Text="Вы можете восстановить одно очко здоровья, если были ранены"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
