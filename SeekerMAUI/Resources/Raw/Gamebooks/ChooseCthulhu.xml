@@ -1164,5 +1164,12 @@
 				<Option Goto="158"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="152">
+			<Text>Вы падаете на землю. У вас резко перехватывает дыхание. Из головы обильно сочится кровь.</Text>
+			<Options>
+				<Option Goto="171" Text="Если ваше здоровье упало до нуля"/>
+				<Option Goto="161" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
