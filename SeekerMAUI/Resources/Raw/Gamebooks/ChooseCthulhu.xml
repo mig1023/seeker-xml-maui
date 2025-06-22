@@ -2090,5 +2090,11 @@
 				<Option Goto="199"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="293">
+			<Text>Его изуродованный рот искривляется гримасой. "Сукин сын с крысиной кровью." Его рука сжимается в кулак.</Text>
+			<Options>
+				<Option Goto="300"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
