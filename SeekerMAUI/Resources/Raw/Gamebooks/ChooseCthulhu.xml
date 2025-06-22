@@ -1916,5 +1916,11 @@
 				<Option Goto="158" Text="Придется подождать"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="266">
+			<Text>Пустой параграф</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
