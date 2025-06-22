@@ -1600,5 +1600,11 @@
 				<Option Goto="230" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="218">
+			<Text>Местные жители оказались не такими тупыми, как вы думали. Они хватают вас и тянут обратно в центр деревни.</Text>
+			<Options>
+				<Option Goto="187"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
