@@ -12,6 +12,10 @@
 			<Availabilities>
 				<Item Name="ПОСВЯЩЕНИЕ" Value="Initiation"/>
 			</Availabilities>
+			<Buttons>
+				<Item Name="1" Value="112, 144, 167; 50, 88, 100"/>
+				<Item Name="79" Value="222,174,73; 179,76,35"/>
+			</Buttons>
 		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
@@ -20,10 +24,10 @@
 	<Paragraphs>
 		<Paragraph No="0">
 			<Options>
-				<Option Goto="1" Text="Сны в ведьмином доме" Image="dreams">
+				<Option Goto="1" Text="Сны в ведьмином доме" Image="dreams" Style="3c333a">
 					<Text Style="Small, Upper">Эдвард Райкер, The dreams in the Witch House, 2018</Text>
 				</Option>
-				<Option Goto="79" Text="Один против пламени" Image="flame">
+				<Option Goto="79" Text="Один против пламени" Image="flame" Style="af4d21">
 					<Text Style="Small, Upper">Гавин Инглес, Alone Against the Flames, 2016</Text>
 				</Option>
 			</Options>
