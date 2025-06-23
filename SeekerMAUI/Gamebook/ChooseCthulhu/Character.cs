@@ -32,8 +32,8 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
 
             Initiation = IsCursed() ? 1 : 0;
 
-            BackColor = new List<int> { 112, 144, 167 };
-            BtnColor = new List<int> { 50, 88, 100 };
+            //BackColor = new List<int> { 112, 144, 167 };
+            //BtnColor = new List<int> { 50, 88, 100 };
         }
 
         public Character Clone() => new Character()

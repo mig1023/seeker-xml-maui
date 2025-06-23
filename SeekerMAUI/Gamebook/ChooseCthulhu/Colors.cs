@@ -32,10 +32,28 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
             return myColor.R.ToString("X2") + myColor.G.ToString("X2") + myColor.B.ToString("X2");
         }
 
-        public static string СontrastBorder(List<int> color, List<int> button) =>
-            color[0] > 24 ? Hex(button[0], button[1], button[2]) : "#234249";
+        public static string СontrastBorder(List<int> color, List<int> button)
+        {
+            if ((color == null) || (button == null) || (color[0] > 24))
+            {
+                return Constants.CONTRAST_BORDER_DEFAULT;
+            }
+            else
+            {
+                return Hex(button[0], button[1], button[2]);
+            }
+        }
 
-        public static string СontrastText(List<int> color) =>
-            color[0] > 66 ? "#082126" : "#cfd9db";
+        public static string СontrastText(List<int> color)
+        {
+            if ((color == null) || (color[0] > 66))
+            {
+                return Constants.CONTRAST_TEXT_DEFAULT;
+            }
+            else
+            {
+                return Constants.CONTRAST_TEXT_LIGHT;
+            }
+        }
     }
 }
