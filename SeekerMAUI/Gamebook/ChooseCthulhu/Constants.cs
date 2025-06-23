@@ -11,7 +11,13 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
 
         public static string CONTRAST_BORDER_DEFAULT = "#234249";
         public static string CONTRAST_TEXT_DEFAULT = "#082126";
-        public static string CONTRAST_TEXT_LIGHT = "#cfd9db";
+        public static string CONTRAST_TEXT_LIGHT_FIRST = "#cfd9db";
+        public static string CONTRAST_TEXT_LIGHT_SECOND = "#edd8a5";
+
+        private static int FirstPartSize = 78;
+
+        public static bool IsSecondPart() =>
+            Game.Data.CurrentParagraphID > FirstPartSize;
 
         public static void ChangeBackground()
         {

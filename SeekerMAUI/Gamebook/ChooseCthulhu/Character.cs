@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace SeekerMAUI.Gamebook.ChooseCthulhu
 {
@@ -32,8 +30,8 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
 
             Initiation = IsCursed() ? 1 : 0;
 
-            //BackColor = new List<int> { 112, 144, 167 };
-            //BtnColor = new List<int> { 50, 88, 100 };
+            BackColor = null;
+            BtnColor = null;
         }
 
         public Character Clone() => new Character()

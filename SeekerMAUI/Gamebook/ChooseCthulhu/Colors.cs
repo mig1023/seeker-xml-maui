@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Drawing;
 
 namespace SeekerMAUI.Gamebook.ChooseCthulhu
 {
@@ -34,7 +33,11 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
 
         public static string СontrastBorder(List<int> color, List<int> button)
         {
-            if ((color == null) || (button == null) || (color[0] > 24))
+            if ((color == null) || (button == null))
+            {
+                return string.Empty;
+            }
+            else if (color[0] <= 24)
             {
                 return Constants.CONTRAST_BORDER_DEFAULT;
             }
@@ -46,13 +49,19 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
 
         public static string СontrastText(List<int> color)
         {
-            if ((color == null) || (color[0] > 66))
+            int minDarkness = Constants.IsSecondPart() ? 124 : 66;
+
+            if ((color == null) || (color[0] > minDarkness))
             {
                 return Constants.CONTRAST_TEXT_DEFAULT;
             }
+            else if (Constants.IsSecondPart())
+            {
+                return Constants.CONTRAST_TEXT_LIGHT_SECOND;
+            }
             else
             {
-                return Constants.CONTRAST_TEXT_LIGHT;
+                return Constants.CONTRAST_TEXT_LIGHT_FIRST;
             }
         }
     }

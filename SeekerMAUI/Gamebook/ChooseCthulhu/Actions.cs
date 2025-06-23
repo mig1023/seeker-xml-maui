@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace SeekerMAUI.Gamebook.ChooseCthulhu
 {
@@ -7,8 +6,15 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
     {
         public override List<string> Status()
         {
-            string cursed = Character.Protagonist.IsCursed() ? " (проклят)" : String.Empty;
-            return new List<string> { $"Посвящение: {Character.Protagonist.Initiation}{cursed}" };
+            if (Constants.IsSecondPart())
+            {
+                return null;
+            }
+            else
+            {
+                string cursed = Character.Protagonist.IsCursed() ? " (проклят)" : String.Empty;
+                return new List<string> { $"Посвящение: {Character.Protagonist.Initiation}{cursed}" };
+            }
         }
 
         public override bool Availability(string option)
