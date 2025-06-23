@@ -444,16 +444,18 @@
 	</WildDeath>
 	<ChooseCthulhu>
 		<Title>Всегда выбирай Ктулху</Title>		
-		<Original>Choose Cthulhu 6: The dreams in the Witch House</Original>
-		<Author>Эдвард Райкер</Author>
-		<Translator>Неизвестен</Translator>
-		<Year>2018</Year>
+		<Authors>
+			<Author>Эдвард Райкер</Author>
+			<Author>Гавин Инглес</Author>
+		</Authors>
+		<Year>2016</Year>
 		<Text>Сколько раз, читая книгу или смотря фильм, тебе хотелось воскликнуть: «Не делай этого, глупец!»?\n\nЧто ж, это твой шанс! На страницах этой книги происходит много и разного. Читая её, ты обнаружишь, что должен сам выбирать, что тебе делать. От твоих решений зависит, успешно ли ты завершишь расследование, умрёшь ли ужасной смертью или проведёшь остаток своих дней в психиатрической лечебнице.\n\nТолько ты отвечаешь за свою участь. Лишь от тебя зависит спасти (или обречь на погибель) мир. Но помни – ты не можешь повернуть вспять, поэтому читай внимательно.</Text>
-		<Paragraphs>79</Paragraphs>
-		<Size>17416</Size>
+		<Paragraphs>350</Paragraphs>
+		<Size>45398</Size>
 		<Playthrough>На пять минут</Playthrough>
 		<Setting>Ужасы</Setting>
 		<Color>10424d</Color>
+		<Additional>Две отдельные книги, на 78 и 270 параграфов соответственно.</Additional>
 	</ChooseCthulhu>
 	<Damanskiy>
 		<Title>Даманский</Title>
@@ -1242,7 +1244,7 @@
 		<Size>101489</Size>
 		<Playthrough>На полчаса</Playthrough>
 		<Setting>Зомби</Setting>
-		<Color>7ea989</Color>
+		<Color>3b8b72</Color>
 	</Infected>
 	<StarshipTraveller>
 		<Title>Звездный Странник</Title>
