@@ -14,7 +14,7 @@
 			</Availabilities>
 			<Buttons>
 				<Item Name="1" Value="112, 144, 167; 50, 88, 100"/>
-				<Item Name="79" Value="215,133,56; 179,76,35"/>
+				<Item Name="79" Value="215, 133, 56; 179, 76, 35"/>
 			</Buttons>
 		</Dictionaries>
 		<Default>
