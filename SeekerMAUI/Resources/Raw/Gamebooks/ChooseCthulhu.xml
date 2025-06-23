@@ -2247,5 +2247,11 @@
 				<Option Goto="338"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="317">
+			<Text>Вы отходите от двери и смотрите на нее в замешательстве.\n\nШум отвлекает вас, и на соседнюю стену падает тень человека. Кто-то приближается. Вы исчезаете в другом направлении.</Text>
+			<Options>
+				<Option Goto="199"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
