@@ -2371,5 +2371,11 @@
 				<Option Goto="346"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="337">
+			<Text>Пояс разлетается на части, и вы падаете в самое пекло пожара.\n\nЗемля несется вам навстречу.\n\nВы теряете 1d2 очка Разума и 1d3 очка здоровья.</Text>
+			<Options>
+				<Option Goto="92"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
