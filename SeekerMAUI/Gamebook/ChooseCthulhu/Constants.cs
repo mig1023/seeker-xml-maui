@@ -24,7 +24,11 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
             }
             else if (mainDuttons || supplButtons)
             {
-                return Colors.Hex(Character.Protagonist.BtnColor[0], Character.Protagonist.BtnColor[1], Character.Protagonist.BtnColor[2]);
+                int rColor = Character.Protagonist.BtnColor[0];
+                int gColor = Character.Protagonist.BtnColor[1];
+                int bColor = Character.Protagonist.BtnColor[2];
+
+                return Colors.Hex(rColor, gColor, bColor);
             }
             else if (type == ButtonTypes.Border)
             {
@@ -42,9 +46,17 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
             {
                 return base.GetColor(type);
             }
+            else if ((type == ColorTypes.Background) && (Game.Data.CurrentParagraphID == 0))
+            {
+                return Output.Constants.COLOR_WHITE;
+            }
             else if (type == ColorTypes.Background)
             {
-                return Colors.Hex(Character.Protagonist.BackColor[0], Character.Protagonist.BackColor[1], Character.Protagonist.BackColor[2]);
+                int rColor = Character.Protagonist.BackColor[0];
+                int gColor = Character.Protagonist.BackColor[1];
+                int bColor = Character.Protagonist.BackColor[2];
+
+                return Colors.Hex(rColor, gColor, bColor);
             }
             else if (type == ColorTypes.Font)
             {
