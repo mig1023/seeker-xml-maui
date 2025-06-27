@@ -706,7 +706,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="63">
-			<Text>Ваши люди нашли 5 единиц лекарств (вам +5 лекарств).</Text>
+			<Texts>
+				<Text>Ваши люди нашли 5 единиц лекарств.</Text>
+				<Text Style="Small">Вам +5 лекарств.</Text>
+			</Texts>
 			<Modifications>
 				<Medicines Value="5"/>
 			</Modifications>
