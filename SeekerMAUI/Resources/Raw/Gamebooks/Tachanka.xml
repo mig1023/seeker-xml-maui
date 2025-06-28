@@ -3212,7 +3212,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="288">
-			<Text>Судьи пошушукались между собой и согласно кивнули (вам -10 червонцев).</Text>
+			<Texts>
+				<Text>Судьи пошушукались между собой и согласно кивнули.</Text>
+				<Text Style="Small">Вам -10 червонцев.</Text>
+			</Texts>
 			<Modifications>
 				<Money Value="-10"/>
 			</Modifications>
