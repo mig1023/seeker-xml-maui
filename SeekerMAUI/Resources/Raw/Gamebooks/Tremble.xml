@@ -795,7 +795,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="96">
-			<Text>Ищи ключ. У него номер 12. Прибавь 2 балла счастья. (+2С).</Text>
+			<Texts>
+				<Text>Ищи ключ. У него номер 12.</Text>
+				<Text Style="Small">Прибавь 2 балла счастья. (+2С).</Text>
+			</Texts>
 			<Modifications>
 				<Luck Value="2"/>
 				<Keys Value="12"/>
