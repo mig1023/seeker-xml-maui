@@ -1263,7 +1263,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="101">
-			<Text>Аэродромы находятся возле Армянска и под селом Кучук (запишите фразу «два аэродрома»).</Text>
+			<Texts>
+				<Text>Аэродромы находятся возле Армянска и под селом Кучук.</Text>
+				<Text Style="Small">Запишите фразу «два аэродрома».</Text>
+			</Texts>
 			<Triggers>два аэродрома</Triggers>
 			<Options>
 				<Option Goto="110"/>
