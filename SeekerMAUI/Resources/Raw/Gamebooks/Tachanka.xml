@@ -4141,7 +4141,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="370">
-			<Text>Вы заметили, что ваши слова не убедили Никифора (Запишите слово «дети»).\n\nМожете ехать:</Text>
+			<Texts>
+				<Text>Вы заметили, что ваши слова не убедили Никифора.</Text>
+				<Text Style="Small">Запишите слово «дети».</Text>
+				<Text>Можете ехать:</Text>
+			</Texts>
 			<Triggers>дети</Triggers>
 			<Options>
 				<Option Goto="35" Text="В поселок Гавра"/>
