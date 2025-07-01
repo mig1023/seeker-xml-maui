@@ -2333,7 +2333,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="291">
-			<Text>Двигайся к выходу, но вдруг неизвестно откуда вылетевшая стрела пронзила руку. Отбавь -2В.</Text>
+			<Texts>
+				<Text>Двигайся к выходу, но вдруг неизвестно откуда вылетевшая стрела пронзила руку.</Text>
+				<Text Style="Small">Отбавь -2В.</Text>
+			</Texts>
 			<Modifications>
 				<Endurance Value="-2"/>
 			</Modifications>
