@@ -37,6 +37,7 @@
 		</Dictionaries>
 		<Buttons>
 			<Fight>Сражаться</Fight>
+			<Dices>Бросить кубики</Dices>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -111,10 +112,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="10">
-			<Text>Брось две кости.</Text>
+			<Actions>
+				<Dices Crew="Captain">
+					<Count>2</Count>
+					<ByLuck/>
+				</Dices>
+			</Actions>
 			<Options>
-				<Option Goto="154" Text="Выпавшее число больше или равно уровню твоей УДАЧЛИВОСТИ"/>
-				<Option Goto="123" Text="Выпавшее число меньше уровня твоей УДАЧЛИВОСТИ"/>
+				<Option Goto="154" Text="Выпавшее число больше или равно уровню твоей УДАЧЛИВОСТИ" Tag="goodLuck"/>
+				<Option Goto="123" Text="Выпавшее число меньше уровня твоей УДАЧЛИВОСТИ" Tag="badLuck"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="11">
