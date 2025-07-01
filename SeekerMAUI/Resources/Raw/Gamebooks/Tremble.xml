@@ -1966,7 +1966,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="245">
-			<Text>Нажимай на них изо всех сил. Но они даже не дрогнули. Отбавь -1B.</Text>
+			<Texts>
+				<Text>Нажимай на них изо всех сил. Но они даже не дрогнули.</Text>
+				<Text Style="Small">Отбавь -1B.</Text>
+			</Texts>
 			<Modifications>
 				<Endurance Value="-1"/>
 			</Modifications>
