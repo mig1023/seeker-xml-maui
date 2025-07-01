@@ -1450,7 +1450,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="177">
-			<Text>Под камнем было спрятано огненное ядро. Можешь его взять. Прибавь себе 3 балла счастья.</Text>
+			<Texts>
+				<Text>Под камнем было спрятано огненное ядро. Можешь его взять.</Text>
+				<Text Style="Small">Прибавь себе 3 балла счастья.</Text>
+			</Texts>
 			<Modifications>
 				<Luck Value="3"/>
 			</Modifications>
