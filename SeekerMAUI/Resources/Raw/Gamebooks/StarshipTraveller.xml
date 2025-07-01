@@ -1457,10 +1457,17 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="172">
-			<Text>Офицер по науке говорит, что у него есть предложение. Брось две кости. Если выпавшее число:</Text>
+			<Text>Офицер по науке говорит, что у него есть предложение.</Text>
+			<Actions>
+				<Dices Crew="ScienseOfficer">
+					<Count>2</Count>
+					<BySkill/>
+					<Text>Выпавшее число:</Text>
+				</Dices>
+			</Actions>
 			<Options>
-				<Option Goto="153" Text="Меньше или равно уровню его МАСТЕРСТВА"/>
-				<Option Goto="255" Text="Больше уровня его МАСТЕРСТВА"/>
+				<Option Goto="153" Text="Меньше или равно уровню его МАСТЕРСТВА" Tag="badSkill"/>
+				<Option Goto="255" Text="Больше уровня его МАСТЕРСТВА" Tag="goodSkill"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="173">
