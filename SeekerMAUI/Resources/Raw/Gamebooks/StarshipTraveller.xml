@@ -2647,10 +2647,16 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="326">
-			<Text>Брось две кости. Если выпавшее число...</Text>
+			<Actions>
+				<Dices Crew="Captain">
+					<Count>2</Count>
+					<BySkill/>
+					<Text>Выпавшее число:</Text>
+				</Dices>
+			</Actions>
 			<Options>
-				<Option Goto="12" Text="Больше уровня твоего МАСТЕРСТВА"/>
-				<Option Goto="266" Text="Меньше или равно уровню твоего МАСТЕРСТВА"/>
+				<Option Goto="12" Text="Больше уровня твоего МАСТЕРСТВА" Tag="goodSkill"/>
+				<Option Goto="266" Text="Меньше или равно уровню твоего МАСТЕРСТВА" Tag="badSkill"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="327">
