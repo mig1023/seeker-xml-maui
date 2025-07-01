@@ -113,7 +113,7 @@
 		</Paragraph>
 		<Paragraph No="10">
 			<Actions>
-				<Dices Crew="Captain">
+				<Dices>
 					<Count>2</Count>
 					<ByLuck/>
 				</Dices>
@@ -311,11 +311,17 @@
 				<Option Goto="122" Text="Выхватишь бластер и откроешь огонь"/>
 			</Options>
 		</Paragraph>
-		<Paragraph No="33">
-			<Text>Брось две кости. Выпавшее число...</Text>
+		<Paragraph No="33">		
+			<Actions>
+				<Dices Crew="ScienseOfficer">
+					<Count>2</Count>
+					<BySkill/>
+					<Text>Выпавшее число...</Text>
+				</Dices>
+			</Actions>
 			<Options>
-				<Option Goto="332" Text="Меньше или равно уровню МАСТЕРСТВА** твоего Офицера по науке"/>
-				<Option Goto="224" Text="Больше уровня его МАСТЕРСТВА**"/>
+				<Option Goto="332" Text="Меньше или равно уровню МАСТЕРСТВА** твоего Офицера по науке" Tag="badSkill"/>
+				<Option Goto="224" Text="Больше уровня его МАСТЕРСТВА**" Tag="goodSkill"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="34">
