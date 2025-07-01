@@ -34,7 +34,9 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             {
                 action.Crew = xmlAction.Attributes["Crew"].InnerText;
                 action.Max = MaxSelection;
-                action.Button = Constants.FullNames[action.Crew];
+
+                if (action.Type == "Select")
+                    action.Button = Constants.FullNames[action.Crew];
             }
 
             if (xmlAction["Enemy"] != null)

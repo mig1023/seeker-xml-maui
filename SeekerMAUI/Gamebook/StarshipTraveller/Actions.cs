@@ -17,9 +17,6 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
         public bool ByFourAndMore { get; set; }
         public bool ByLuck { get; set; }
         public bool BySkill { get; set; }
-        public bool ByScienceSkill { get; set; }
-        public bool ByMedicalSkill { get; set; }
-        public bool ByEngineeringSkill { get; set; }
         public bool ByShields { get; set; }
 
         public List<Character> Enemies { get; set; }
@@ -130,13 +127,13 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                 int secondDice = Game.Dice.Roll();
                 dicesResult += secondDice;
 
-                diceCheck.Add($"BIG|На кубиках выпало: " +
+                diceCheck.Add($"На кубиках выпало: " +
                     $"{Game.Dice.Symbol(firstDice)} + " +
                     $"{Game.Dice.Symbol(secondDice)} = {dicesResult}");
             }
             else
             {
-                diceCheck.Add($"BIG|На кубикe выпало: {Game.Dice.Symbol(firstDice)}");
+                diceCheck.Add($"На кубикe выпало: {Game.Dice.Symbol(firstDice)}");
             }
 
             if (ByOne)
@@ -156,8 +153,8 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             }
             else if (ByLuck)
             {
-                int luck = Character.Team["Captain"].Luck;
-                diceCheck.Add($"BIG|Удачливость капитана: {luck}");
+                int luck = Character.Protagonist.Luck;
+                diceCheck.Add($"Удачливость команды: {luck}");
 
                 return DicesResult(diceCheck, luck <= dicesResult,
                     "Выпало значение не превышающее Удачливости!", "goodLuck",
@@ -165,35 +162,9 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             }
             else if (BySkill)
             {
-                int skill = Character.Team["Captain"].Skill;
-                diceCheck.Add($"BIG|Мастерство капитана: {skill}");
-
-                return DicesResult(diceCheck, skill <= dicesResult,
-                    "Выпало значение не превышающее Мастерства!", "goodSkill",
-                    "Выпало значение превышающее Мастерство!", "badSkill");
-            }
-            else if (ByScienceSkill)
-            {
-                int skill = Character.Team["ScienseOfficer"].Skill;
-                diceCheck.Add($"BIG|Мастерство Офицера по науке: {skill}");
-
-                return DicesResult(diceCheck, skill <= dicesResult,
-                    "Выпало значение не превышающее Мастерства!", "goodSkill",
-                    "Выпало значение превышающее Мастерство!", "badSkill");
-            }
-            else if (ByMedicalSkill)
-            {
-                int skill = Character.Team["MedicalOfficer"].Skill;
-                diceCheck.Add($"BIG|Мастерство Судовой врача: {skill}");
-
-                return DicesResult(diceCheck, skill <= dicesResult,
-                    "Выпало значение не превышающее Мастерства!", "goodSkill",
-                    "Выпало значение превышающее Мастерство!", "badSkill");
-            }
-            else if (ByEngineeringSkill)
-            {
-                int skill = Character.Team["EngineeringOfficer"].Skill;
-                diceCheck.Add($"BIG|Мастерство Старшешл инженера: {skill}");
+                int skill = Character.Team[Crew].Skill;
+                string name = Constants.FullNames[Crew];
+                diceCheck.Add($"Мастерство ({name}): {skill}");
 
                 return DicesResult(diceCheck, skill <= dicesResult,
                     "Выпало значение не превышающее Мастерства!", "goodSkill",
@@ -202,7 +173,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             else if (ByShields)
             {
                 int shields = Character.Protagonist.Shields;
-                diceCheck.Add($"BIG|Защита корабля: {shields}");
+                diceCheck.Add($"Защита корабля: {shields}");
 
                 return DicesResult(diceCheck, shields <= dicesResult,
                     "Выпало значение не превышающее Защиту корабля!", "goodShields",
