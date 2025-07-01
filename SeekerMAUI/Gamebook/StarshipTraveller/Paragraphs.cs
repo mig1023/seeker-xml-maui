@@ -30,7 +30,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             foreach (string param in GetProperties(action))
                 SetProperty(action, param, xmlAction);
 
-            if (!string.IsNullOrEmpty(xmlAction.Attributes["Crew"].InnerText))
+            if (!string.IsNullOrEmpty(xmlAction.Attributes["Crew"]?.InnerText ?? string.Empty))
             {
                 action.Crew = xmlAction.Attributes["Crew"].InnerText;
                 action.Max = MaxSelection;
