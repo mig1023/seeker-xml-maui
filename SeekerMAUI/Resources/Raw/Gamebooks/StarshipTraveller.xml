@@ -845,9 +845,16 @@
 		</Paragraph>
 		<Paragraph No="101">
 			<Text>Судовой Врач обходит несколько хижин и осматривает их обитателей в надежде установить причину таинственной болезни. Брось две кости. Выпавшее число:</Text>
+			<Actions>
+				<Dices Crew="MedicalOfficer">
+					<Count>2</Count>
+					<BySkill/>
+					<Text>Выпавшее число:</Text>
+				</Dices>
+			</Actions>
 			<Options>
-				<Option Goto="7" Text="Больше или равно уровню МАСТЕРСТВА судового Врача"/>
-				<Option Goto="68" Text="Меньше уровня его МАСТЕРСТВА"/>
+				<Option Goto="7" Text="Больше или равно уровню МАСТЕРСТВА судового Врача" Tag="goodSkill"/>
+				<Option Goto="68" Text="Меньше уровня его МАСТЕРСТВА" Tag="badSkill"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="102">
