@@ -2361,9 +2361,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="294">
-			<Text>В каменной щели найдешь бутылку с эликсиром невидимости. Можешь взять ее. Получаешь (+2С).</Text>
+			<Texts>
+				<Text>В каменной щели найдешь бутылку с эликсиром невидимости. Можешь взять ее.</Text>
+				<Text Style="Small">Получаешь +2С.</Text>
+			</Texts>
 			<Modifications>
-				<Luck Value="1"/>
+				<Luck Value="2"/>
 			</Modifications>
 			<Options>
 				<Option Goto="171"/>
