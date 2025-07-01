@@ -1771,10 +1771,16 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="210">
-			<Text>Закончив обход, Врач жалуется на плохое самочувствие. Брось две кости.</Text>
+			<Text>Закончив обход, Врач жалуется на плохое самочувствие.</Text>
+			<Actions>
+				<Dices>
+					<Count>2</Count>
+					<ByLuck/>
+				</Dices>
+			</Actions>
 			<Options>
-				<Option Goto="219" Text="Выпавшее число больше или равно уровню твоей УДАЧЛИВОСТИ"/>
-				<Option Goto="107" Text="Выпавшее число меньше уровня твоей УДАЧЛИВОСТИ"/>
+				<Option Goto="219" Text="Выпавшее число больше или равно уровню твоей УДАЧЛИВОСТИ" Tag="goodLuck"/>
+				<Option Goto="107" Text="Выпавшее число меньше уровня твоей УДАЧЛИВОСТИ" Tag="badLuck"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="211">
