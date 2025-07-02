@@ -267,63 +267,11 @@ namespace SeekerMAUI.Gamebook.DangerFromBehindTheSnowWall
             return new List<string> { $"BIG|Кубики: {line}" };
         }
 
-        public List<string> DiceWound()
-        {
-            int dice = Game.Dice.Roll();
-            Character.Protagonist.Strength -= dice;
-            string strength = Game.Services.CoinsNoun(dice, "СИЛУ", "СИЛЫ", "СИЛ");
+        public List<string> DiceWound() =>
+            Wounds.Dice();
 
-            return new List<string>
-            {
-                $"BIG|На кубике выпало: {Game.Dice.Symbol(dice)}",
-                $"BIG|BAD|BOLD|Вы потеряли {dice} {strength}"
-            };
-        }
-
-        private int ColdNightWounds(int dice)
-        {
-            if (dice == 1)
-            {
-                return 1;
-            }
-            else if (dice < 5)
-            {
-                return 2;
-            }
-            else
-            {
-                return 4;
-            }
-        }
-
-        private int ColdDayWounds(int dice)
-        {
-            if (dice < 3)
-            {
-                return 4;
-            }
-            else if (dice < 5)
-            {
-                return 5;
-            }
-            else
-            {
-                return 6;
-            }
-        }
-
-        public List<string> ColdDiceWound()
-        {
-            int dice = Game.Dice.Roll();
-            int loss = DayWounds ? ColdDayWounds(dice) : ColdNightWounds(dice);
-            string strength = Game.Services.CoinsNoun(loss, "СИЛУ", "СИЛЫ", "СИЛ");
-
-            return new List<string>
-            {
-                $"BIG|На кубике выпало: {Game.Dice.Symbol(dice)}",
-                $"BIG|BAD|BOLD|Вы потеряли {loss} {strength}"
-            };
-        }
+        public List<string> ColdDiceWound() =>
+            Wounds.ColdDice(DayWounds);
 
         public List<string> Break()
         {
@@ -441,75 +389,11 @@ namespace SeekerMAUI.Gamebook.DangerFromBehindTheSnowWall
             return skillCheck;
         }
 
-        public List<string> AthleticShape()
-        {
-            List<string> lines = new List<string> { "BIG|Рассчитываем ФОРМУ:" };
+        public List<string> AthleticShape() =>
+            Athletic.Shape();
 
-            int athletic = Character.Protagonist.Skill - 8;
-
-            lines.Add($"1. Из Ловкости ({Character.Protagonist.Skill} ед.) " +
-                $"вычитаем восемь и получаем {athletic} ед. Формы.");
-
-            if (Character.Protagonist.Strength < 4)
-            {
-                athletic -= 2;
-
-                lines.Add($"2. Т.к. Сила равна или меньше трём (а она равна " +
-                    $"{Character.Protagonist.Strength}), то Форма уменьшается " +
-                    $"на 2 ед. и становится равна {athletic}.");
-            }
-            else if ((Character.Protagonist.Strength > 3) && (Character.Protagonist.Strength < 7))
-            {
-                lines.Add($"2. Т.к. Сила в диапазоне от 4 до 6 ед. (а она равна " +
-                    $"{Character.Protagonist.Strength}), то Форма не получает никаких " +
-                    $"бонусов и остаётся равна {athletic}.");
-            }
-            else
-            {
-                string range = String.Empty;
-                int bonus = 0;
-
-                if (Character.Protagonist.Strength < 15)
-                {
-                    bonus += 1;
-                    range = "в диапазоне от 7 до 14 ед.";
-                }
-                else if ((Character.Protagonist.Strength > 14) && (Character.Protagonist.Strength < 21))
-                {
-                    bonus += 2;
-                    range = "в диапазоне от 15 до 20 ед.";
-                }
-                else
-                {
-                    bonus += 3;
-                    range = "равна или больше 20 ед.";
-                }
-
-                athletic += bonus;
-
-                lines.Add($"2. Т.к. Сила {range} (а она равна {Character.Protagonist.Strength}), " +
-                    $"то Форма увеличивается на {bonus} ед. и становится равна {athletic}.");
-            }
-
-            Character.Protagonist.AthleticShape = athletic;
-            string athleticLine = Game.Services.CoinsNoun(athletic, "единица", "единицы", "единиц");
-            lines.Add($"BIG|BOLD|Итоговая Форма: {athletic} {athleticLine}");
-
-            return lines;
-        }
-
-        public List<string> AthleticBonus()
-        {
-            int dice = Game.Dice.Roll();
-            int athleticShape = Character.Protagonist.AthleticShape ?? 0;
-            Character.Protagonist.AthleticShape += dice;
-
-           return new List<string>
-           {
-                $"BIG|На кубике выпало: {Game.Dice.Symbol(dice)}",
-                $"BIG|BOLD|Форма увеличилась на {athleticShape} и теперь равна {athleticShape + dice}"
-            };
-        }
+        public List<string> AthleticBonus() =>
+            Athletic.Bonus();
 
         public List<string> EscapeFromFire()
         {
