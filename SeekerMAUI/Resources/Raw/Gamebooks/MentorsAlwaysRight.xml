@@ -31,7 +31,7 @@
 		<Buttons>
 			<Luck>Проверить удачу</Luck>
 			<Button Action="Fight, LeechFight">Сражаться</Button>
-			<Button Action="Dice, DiceWounds, StoneThrow, SimpleDice, DicesGame">Кинуть кубик</Button>
+			<Button Action="DiceRoll, DiceWounds, StoneThrow, SimpleDice, DicesGame">Кинуть кубик</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
@@ -616,9 +616,9 @@
 				<Option Goto="343" Text="Вы камуфлировались грязью" Availability="Camouflage">
 					<Text>Иначе — бросьте кубик:</Text>
 				</Option>
-				<Dice>
+				<DiceRoll>
 					<Text>Выпал:</Text>
-				</Dice>
+				</DiceRoll>
 			</Actions>
 			<Options>
 				<Option Goto="147" Text="Чет"/>
