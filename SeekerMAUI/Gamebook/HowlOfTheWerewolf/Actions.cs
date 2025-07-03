@@ -1,7 +1,5 @@
 ﻿using SeekerMAUI.Gamebook.HowlOfTheWerewolf.Personages;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace SeekerMAUI.Gamebook.HowlOfTheWerewolf
 {
@@ -187,46 +185,6 @@ namespace SeekerMAUI.Gamebook.HowlOfTheWerewolf
             return changeCheck;
         }
 
-        public List<string> Dice() =>
-            new List<string> { $"BIG|На кубике выпало: {Game.Dice.Symbol(Game.Dice.Roll())}" };
-
-        public List<string> DicesEndurance()
-        {
-            List<string> diceCheck = new List<string> { };
-
-            int result = 0;
-
-            for (int i = 1; i <= 3; i++)
-            {
-                int dice = Game.Dice.Roll();
-                result += dice;
-                diceCheck.Add($"На {i} выпало: {Game.Dice.Symbol(dice)}");
-            }
-
-            diceCheck.Add($"BIG|Сумма на кубиках: {result}");
-
-            diceCheck.Add(Result(result < Character.Protagonist.Endurance, "Меньше!", "Больше"));
-
-            return diceCheck;
-        }
-
-        public List<string> DiceAnxiety()
-        {
-            List<string> diceCheck = new List<string> { };
-
-            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
-            int result = firstDice + secondDice;
-
-            diceCheck.Add($"На кубиках выпало: {Game.Dice.Symbol(firstDice)} + " +
-                $"{Game.Dice.Symbol(firstDice)} = {result}");
-
-            diceCheck.Add($"Текущий уровень тревоги: {Character.Protagonist.Anxiety}");
-
-            diceCheck.Add(Result(result > Character.Protagonist.Anxiety, "Больше!", "Меньше"));
-
-            return diceCheck;
-        }
-
         public List<string> Competition()
         {
             List<string> competition = new List<string> { };
@@ -274,70 +232,23 @@ namespace SeekerMAUI.Gamebook.HowlOfTheWerewolf
             return competition;
         }
 
-        public List<string> DicesRestore()
-        {
-            List<string> diceRestore = new List<string> { };
+        public List<string> Dice() =>
+            Dices.Roll();
 
-            int dice = Game.Dice.Roll();
+        public List<string> DicesEndurance() =>
+            Dices.Endurance(this);
 
-            diceRestore.Add($"На кубике выпало: {Game.Dice.Symbol(dice)}");
+        public List<string> DicesRestore() =>
+            Dices.Restore();
 
-            string line = "BIG|GOOD|Восстановлен";
+        public List<string> DiceWounds() =>
+            Dices.Wounds(Value);
 
-            if (dice < 3)
-            {
-                Character.Protagonist.Mastery = Character.Protagonist.MaxMastery;
-                line += "о Мастерство";
-            }
-            else if (dice > 4)
-            {
-                Character.Protagonist.Luck = Character.Protagonist.MaxLuck;
-                line += "а Удача";
-            }
-            else
-            {
-                Character.Protagonist.Endurance = Character.Protagonist.MaxEndurance;
-                line += "а Выносливость";
-            }
+        public List<string> DiceGold() =>
+            Dices.Gold(Value);
 
-            diceRestore.Add(line);
-
-            return diceRestore;
-        }
-
-        public List<string> DiceWounds()
-        {
-            List<string> diceCheck = new List<string> { };
-
-            int dice = Game.Dice.Roll();
-
-            string bonus = (Value > 0 ? $" + ещё {Value}" : String.Empty);
-
-            diceCheck.Add($"На кубике выпало: {Game.Dice.Symbol(dice)}{bonus}");
-
-            Character.Protagonist.Endurance -= dice + Value;
-
-            diceCheck.Add($"BIG|BAD|Вы потеряли жизней: {dice + Value}");
-
-            return diceCheck;
-        }
-
-        public List<string> DiceGold()
-        {
-            List<string> diceCheck = new List<string> { };
-
-            int dice = Game.Dice.Roll();
-
-            diceCheck.Add($"На кубике выпало: {Game.Dice.Symbol(dice)} + ещё {Value}");
-
-            dice += Value;
-
-            Character.Protagonist.Gold -= dice;
-
-            diceCheck.Add($"BIG|GOOD|Вы нашли золотых: {dice}");
-
-            return diceCheck;
-        }
+        public List<string> DiceAnxiety() =>
+            Dices.Anxiety(this);
 
         public override bool IsButtonEnabled(bool secondButton = false)
         {
