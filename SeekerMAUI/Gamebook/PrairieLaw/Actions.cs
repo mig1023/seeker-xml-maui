@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace SeekerMAUI.Gamebook.PrairieLaw
 {
@@ -180,26 +178,8 @@ namespace SeekerMAUI.Gamebook.PrairieLaw
             return luckCheck;
         }
 
-        public List<string> DiceWounds()
-        {
-            List<string> diceCheck = new List<string> { };
-
-            int dicesCount = (Dices == 0 ? 1 : Dices);
-            int dices = 0;
-
-            for (int i = 1; i <= dicesCount; i++)
-            {
-                int dice = Game.Dice.Roll();
-                dices += dice;
-                diceCheck.Add($"На {i} выпало: {Game.Dice.Symbol(dice)}");
-            }
-
-            Character.Protagonist.Strength -= dices;
-
-            diceCheck.Add($"BIG|BAD|Вы потеряли жизней: {dices}");
-
-            return diceCheck;
-        }
+        public List<string> DiceWounds() =>
+            Dice.Wounds(Dices);
 
         public override bool IsButtonEnabled(bool secondButton = false)
         {
@@ -299,124 +279,17 @@ namespace SeekerMAUI.Gamebook.PrairieLaw
             return salesReport;
         }
 
-        public List<string> RedOrBlackGame()
-        {
-            List<string> gameReport = new List<string>();
+        public List<string> RedOrBlackGame() =>
+            Games.RedOrBlack();
 
-            bool red = (Game.Dice.Roll() > 3);
-            int dice = Game.Dice.Roll();
-            bool even = (dice % 2 == 0);
-            string redLine = red ? "красное (чёт)" : "чёрное (нечет)";
-            string evenLine = even ? "красное" : "чёрное";
+        public List<string> DoubleGame() =>
+            Games.Double();
 
-            gameReport.Add($"Вы поставили на {redLine}");
-            gameReport.Add($"На рулетке выпало: {Game.Dice.Symbol(dice)} - {evenLine}");
+        public List<string> DiceLtlGame() =>
+            Games.Ltl();
 
-            if (red == even)
-            {
-                gameReport.Add("GOOD|Вы ВЫИГРАЛИ и получили 1$ :)");
-                Character.Protagonist.Cents += 100;
-            }
-            else
-            {
-                gameReport.Add("BAD|Вы ПРОИГРАЛИ и потеряли 1$ :(");
-                Character.Protagonist.Cents -= 100;
-            }
-
-            return gameReport;
-        }
-
-        public List<string> DoubleGame()
-        {
-            List<string> gameReport = new List<string>();
-
-            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
-
-            gameReport.Add($"На рулетке выпали: " +
-                $"{Game.Dice.Symbol(firstDice)} и {Game.Dice.Symbol(secondDice)}");
-
-            if (firstDice == secondDice)
-            {
-                gameReport.Add("GOOD|Цифры совпали - вы ВЫИГРАЛИ и получили 5$ :)");
-                Character.Protagonist.Cents += 500;
-            }
-            else
-            {
-                gameReport.Add("BAD|Вы ПРОИГРАЛИ и потеряли 1$ :(");
-                Character.Protagonist.Cents -= 100;
-            }
-
-            return gameReport;
-        }
-
-        public List<string> DiceLtlGame()
-        {
-            List<string> gameReport = new List<string>();
-
-            int dice = Game.Dice.Roll();
-            bool even = (dice % 2 == 0);
-            string evelLine = even ? "чётное" : "нечётное";
-
-            gameReport.Add($"На кубике выпало: {Game.Dice.Symbol(dice)} - {evelLine}");
-
-            if (even)
-            {
-                gameReport.Add("GOOD|Вы ВЫИГРАЛИ и получаете 1$ :)");
-                Character.Protagonist.Cents += 100;
-            }
-            else
-            {
-                gameReport.Add("BAD|Вы ПРОИГРАЛИ и потеряли 1$ :(");
-                Character.Protagonist.Cents -= 100;
-            }
-
-            return gameReport;
-        }
-
-        public List<string> DiceGame()
-        {
-            List<string> gameReport = new List<string>();
-
-            int dice = Game.Dice.Roll();
-            bool even = (dice % 2 == 0);
-            bool nuggetsGame = Game.Option.IsTriggered("Игра на самородок");
-            string evelLine = even ? "чётное" : "нечётное";
-
-            gameReport.Add($"На кубике выпало: {Game.Dice.Symbol(dice)} - {evelLine}");
-
-            if (even)
-            {
-                gameReport.Add("GOOD|Вы ВЫИГРАЛИ :)");
-
-                if (nuggetsGame)
-                {
-                    gameReport.Add("Самородок теперь ваш.");
-                    Character.Protagonist.Nuggets += 1;
-                }
-                else
-                {
-                    gameReport.Add("Вы выиграли 3 доллара.");
-                    Character.Protagonist.Cents += 300;
-                }
-            }
-            else
-            {
-                gameReport.Add("BAD|Вы ПРОИГРАЛИ :(");
-
-                if (nuggetsGame)
-                {
-                    gameReport.Add("Вы потеряли 1$");
-                    Character.Protagonist.Cents -= 100;
-                }
-                else
-                {
-                    gameReport.Add("Вы потеряли 3$");
-                    Character.Protagonist.Cents -= 300;
-                }
-            }
-
-            return gameReport;
-        }
+        public List<string> DiceGame() =>
+            Games.Big();
 
         public List<string> Fight()
         {
