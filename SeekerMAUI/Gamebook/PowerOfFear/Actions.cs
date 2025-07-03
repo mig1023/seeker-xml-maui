@@ -1,7 +1,4 @@
-﻿using SeekerMAUI.Gamebook.KoshcheisChain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 
 namespace SeekerMAUI.Gamebook.PowerOfFear
 {
