@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace SeekerMAUI.Gamebook.Moria
 {
@@ -58,7 +56,7 @@ namespace SeekerMAUI.Gamebook.Moria
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
             GameOverBy(Character.Protagonist.Fellowship.Count, out toEndParagraph, out toEndText);
 
-        private string Declination(string enemy, int count)
+        public string Declination(string enemy, int count)
         {
             List<string> declin = Constants.Declination[enemy]
                 .Split(',')
@@ -68,82 +66,6 @@ namespace SeekerMAUI.Gamebook.Moria
             string line = Game.Services.CoinsNoun(count, declin[0], declin[1], declin[1]);
 
             return $"{count} {line}";
-        }
-
-        private void DeathInFight(ref List<string> fight, string hero)
-        {
-            fight.Add($"BAD|BOLD|{hero} погиб в бою!");
-            fight.Add(String.Empty);
-            Character.Protagonist.Fellowship.Remove(hero);
-        }
-
-        private void PartOfFight(ref List<string> fight, string hero, int count)
-        {
-            if (!IsStillSomeoneToFight())
-                return;
-
-            int frags = 0;
-            int lastDice = 0;
-            bool secondRound = false;
-            string enemy = Enemies[0];
-
-            fight.Add($"BOLD|{hero} сражается против {Declination(enemy, count)}");
-
-            while (frags < count)
-            {
-                int strength = Constants.Fellowship[hero];
-                int dice = Game.Dice.Roll();
-                int heroAttack = strength + dice;
-
-                fight.Add($"{hero}: {strength} Сила + {Game.Dice.Symbol(dice)} = {heroAttack}");
-
-                if ((dice < lastDice) && !secondRound)
-                {
-                    fight.Add($"{hero} выкинул кубик меньше, чем с предудщим врагом - к сожалению, это смертельно...");
-                    DeathInFight(ref fight, hero);
-                    return;
-                }
-
-                lastDice = dice;
-                secondRound = false;
-
-                strength = Constants.Enemies[enemy];
-                dice = Game.Dice.Roll();
-                int enemyAttack = strength + dice;
-
-                fight.Add($"{enemy}: {strength} Сила + {Game.Dice.Symbol(dice)} = {enemyAttack}");
-
-                if (heroAttack > enemyAttack)
-                {
-                    fight.Add($"GOOD|BOLD|{hero} победил!");
-                    Enemies.Remove(enemy);
-                    frags += 1;
-                }
-                else if (heroAttack < enemyAttack)
-                {
-                    DeathInFight(ref fight, hero);
-                    return;
-                }
-                else
-                {
-                    fight.Add("BOLD|Ничья! Силы противников равны! Сейчас они сойдутся ещё раз!");
-                    secondRound = true;
-                }
-            }
-
-            fight.Add(String.Empty);
-        }
-
-        private List<string> StrongWarriorsInFellowship() =>
-            Character.Protagonist.Fellowship.Where(x => Constants.Fellowship[x] > 3).ToList();
-
-        private bool IsStillSomeoneToFight() =>
-            (Enemies.Count > 0) && (Character.Protagonist.Fellowship.Count > 0);
-
-        private int EnemiesForEach(int count)
-        {
-            int countForEach = Enemies.Count / count;
-            return countForEach > 0 ? countForEach : 1;
         }
 
         public List<string> Fight()
@@ -161,34 +83,34 @@ namespace SeekerMAUI.Gamebook.Moria
                 return fight;
             }
 
-            while (IsStillSomeoneToFight())
+            while (Fights.IsStillSomeoneToFight(this))
             {
-                List<string> strongWarriors = StrongWarriorsInFellowship();
+                List<string> strongWarriors = Fights.StrongWarriorsInFellowship();
 
                 if (Enemies.Count <= (strongWarriors.Count * 3))
                 {
                     fight.Add($"GRAY|Врагов не так уж много, поэтому против них выходят сильные войны!");
                     fight.Add(String.Empty);
 
-                    int countForEach = EnemiesForEach(strongWarriors.Count);
+                    int countForEach = Fights.EnemiesForEach(this, strongWarriors.Count);
 
                     foreach (string warrior in strongWarriors)
-                        PartOfFight(ref fight, warrior, countForEach);
+                        Fights.Part(this, ref fight, warrior, countForEach);
                 }
                 else
                 {
                     fight.Add($"GRAY|Враги бесчисленны, сразиться придётся каждому!!");
                     fight.Add(String.Empty);
 
-                    int countForEach = EnemiesForEach(Character.Protagonist.Fellowship.Count);
+                    int countForEach = Fights.EnemiesForEach(this, Character.Protagonist.Fellowship.Count);
 
                     List<string> allWarriors = new List<string>(Character.Protagonist.Fellowship);
 
                     foreach (string warrior in allWarriors)
-                        PartOfFight(ref fight, warrior, countForEach);
+                        Fights.Part(this, ref fight, warrior, countForEach);
                 }
 
-                if (IsStillSomeoneToFight())
+                if (Fights.IsStillSomeoneToFight(this))
                 {
                     fight.Add($"GRAY|Осталось ещё {Declination(Enemies[0], Enemies.Count)}!");
                 }
@@ -243,92 +165,14 @@ namespace SeekerMAUI.Gamebook.Moria
             }
         }
 
-        public List<string> DeathsByArrows()
-        {
-            List<string> deaths = new List<string>();
+        public List<string> DeathsByArrows() =>
+            Events.DeathsByArrows();
 
-            for (int i = 0; i < 2; i++)
-            {
-                if (Character.Protagonist.Fellowship.Count < 1)
-                    continue;
+        public List<string> Balrog() =>
+            Events.Balrog();
 
-                int dice = Game.Dice.Roll(size: Character.Protagonist.Fellowship.Count) - 1;
-                string name = Character.Protagonist.Fellowship[dice];
-
-                deaths.Add($"BIG|BAD|BOLD|Погиб {name}! :(");
-
-                Character.Protagonist.Fellowship.Remove(name);
-            }
-
-            return deaths;
-        }
-
-        public List<string> Balrog()
-        {
-            List<string> fight = new List<string>();
-
-            int strength = Constants.Fellowship["Гэндальф"];
-            int success = 0;
-
-            fight.Add("BOLD|Гэндальф сражается против Балрога");
-            fight.Add(String.Empty);
-
-            for (int i = 1; i <= 4; i++)
-            {
-                if (success >= 3)
-                    continue;
-
-                fight.Add($"Раунд {i}");
-
-                int gendalfDice = Game.Dice.Roll();
-
-                fight.Add($"Бросок Гэндальфа: {Game.Dice.Symbol(gendalfDice)}");
-
-                if (gendalfDice > 4)
-                {
-                    fight.Add("BOLD|GOOD|Гэндальф успешно нанёс ранение Балрогу!");
-                    success += 1;
-                }
-                else
-                {
-                    fight.Add("BOLD|BAD|Гэндальф не смог ранить Балрога!");
-                }
-
-                if (success >= 3)
-                    continue;
-
-                int balrogDice = Game.Dice.Roll();
-
-                fight.Add($"Бросок Балрога: {Game.Dice.Symbol(balrogDice)}");
-
-                if (balrogDice >= strength)
-                {
-                    fight.Add("BOLD|BAD|Балрог наносит смертельный удар!");
-                    fight.Add("BOLD|BIG|BAD|Гэндальф погиб :(");
-                    Character.Protagonist.Fellowship.Remove("Гэндальф");
-
-                    return fight;
-                }
-                else
-                {
-                    fight.Add($"BOLD|GOOD|Балрог не смог ранить Гэндальфа!");
-                }
-
-                fight.Add(String.Empty);
-            }
-
-            if (success >= 3)
-            {
-                fight.Add("BIG|GOOD|Гэндальф ПОБЕДИЛ :)");
-            }
-            else
-            {
-                fight.Add("BIG|GOOD|Гэндальф не смог победить, Балрога, " +
-                    "но, тем не менее, он продержался все 4 раунда! :)");
-            }
-
-            return fight;
-        }
+        public List<string> RunningUnderArrows() =>
+            Events.RunningUnderArrows();
 
         public List<string> Cast()
         {
@@ -362,41 +206,6 @@ namespace SeekerMAUI.Gamebook.Moria
 
             fight.Add("BIG|GOOD|Волшебство преуспело :)");
             return fight;
-        }
-
-        public List<string> RunningUnderArrows()
-        {
-            List<string> deaths = new List<string>();
-            List<string> fellowship = new List<string>(Character.Protagonist.Fellowship);
-
-            foreach (string warrior in fellowship)
-            {
-                if ((warrior == "Гэндальф") || (warrior == "Фродо"))
-                    continue;
-
-                deaths.Add($"BOLD|Свою судьбу испытывает {warrior}");
-
-                int dice = Game.Dice.Roll();
-                bool coin = dice % 2 == 0;
-
-                if (coin)
-                {
-                    deaths.Add("На кубике выпал: Орел");
-                    deaths.Add("GOOD|Ему повезло!");
-                }
-                else
-                {
-                    deaths.Add("На кубике выпала: Решка");
-                    deaths.Add("BAD|Удача отвернулась от него!");
-                    deaths.Add("BAD|BOLD|Стрела орка его настигла...");
-
-                    Character.Protagonist.Fellowship.Remove(warrior);
-                }
-
-                deaths.Add(String.Empty);
-            }
-
-            return deaths;
         }
     }
 }
