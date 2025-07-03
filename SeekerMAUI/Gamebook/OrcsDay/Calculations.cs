@@ -66,5 +66,64 @@ namespace SeekerMAUI.Gamebook.OrcsDay
 
             return orcishness;
         }
+
+        public static List<string> Overcome()
+        {
+            List<string> overcome = new List<string> { "BOLD|CЧИТАЕМ:" };
+
+            while (true)
+            {
+                int sense = Character.Protagonist.Courage + Character.Protagonist.Wits;
+                int orcishness = Character.Protagonist.Muscle + Character.Protagonist.Orcishness + 5;
+
+                overcome.Add("BOLD|Борьба:");
+
+                overcome.Add($"С одной стороны: {Character.Protagonist.Courage} (смелость) + " +
+                    $"{Character.Protagonist.Wits} (мозги) = {sense}");
+
+                overcome.Add($"С другой: {Character.Protagonist.Muscle} (мышцы) + " +
+                    $"{Character.Protagonist.Orcishness} (оркишность) + 5 = {orcishness}");
+
+                overcome.Add($"В результате: {sense} " +
+                    $"{Game.Services.Сomparison(sense, orcishness)} {orcishness}");
+
+                if (sense >= orcishness)
+                {
+                    overcome.Add("BOLD|GOOD|Ты выиграл!");
+                    overcome.Add("Оркишность снизилась на единицу!");
+
+                    Character.Protagonist.Orcishness -= 1;
+
+                    if (Character.Protagonist.Orcishness <= 0)
+                    {
+                        overcome.Add("BIG|GOOD|Ты освободился от своей Оркской природы! :)");
+                        overcome.Add("Ты получаешь за это дополнительно 3 единицы Смелости!");
+
+                        Character.Protagonist.Courage += 3;
+
+                        if (Game.Option.IsTriggered("Кандидат в Властелины"))
+                        {
+                            overcome.Add("\nBOLD|Ты стал Тёмным Властелином!");
+                            Game.Option.Trigger("Тёмный Властелин");
+                        }
+
+                        return overcome;
+                    }
+                }
+                else
+                {
+                    overcome.Add("BOLD|BAD|Ты проиграл!");
+                    overcome.Add("Смелость снизилась на единицу!");
+
+                    Character.Protagonist.Courage -= 1;
+
+                    if (Character.Protagonist.Courage <= 0)
+                    {
+                        overcome.Add("BIG|BAD|Ты остался рабом своей Оркской природы :(");
+                        return overcome;
+                    }
+                }
+            }
+        }
     }
 }
