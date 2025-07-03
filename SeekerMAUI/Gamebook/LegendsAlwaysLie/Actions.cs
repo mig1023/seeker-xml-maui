@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace SeekerMAUI.Gamebook.LegendsAlwaysLie
 {
@@ -306,100 +304,26 @@ namespace SeekerMAUI.Gamebook.LegendsAlwaysLie
             }
         }
 
-        public List<string> DiceCheck()
-        {
-            List<string> diceCheck = new List<string> { };
+        public List<string> DiceCheck() =>
+            Dice.Check();
 
-            int dice = Game.Dice.Roll();
-            
-            diceCheck.Add($"На кубикe выпало: {Game.Dice.Symbol(dice)}");
-            diceCheck.Add(dice % 2 == 0 ? "BIG|ЧЁТНОЕ ЧИСЛО!" : "BIG|НЕЧЁТНОЕ ЧИСЛО!");
+        public List<string> DiceWounds() =>
+            Dice.Wounds(Dices, DiceBonus);
 
-            return diceCheck;
-        }
+        public List<string> MushroomsForConnery() =>
+            Events.MushroomsForConnery();
 
-        public List<string> MushroomsForConnery()
-        {
-            if (Character.Protagonist.ConneryTrust >= 6)
-            {
-                Character.Protagonist.ConneryHitpoints += 3;
-                return new List<string> { "BIG|GOOD|Коннери хмыкнул и съел :)" };
-            }
-            else
-            {
-                return new List<string> { "BIG|BAD|Коннери отказался :(" };
-            }
-        }
+        public List<string> FootwrapsReplacement() =>
+            Events.FootwrapsReplacement();
 
-        public List<string> FootwrapsReplacement()
-        {
-            Game.Option.Trigger("Legs", remove: true);
+        public List<string> FootwrapsDeadlyReplacement() =>
+            Events.FootwrapsDeadlyReplacement();
 
-            return new List<string> { "BIG|GOOD|Вы успешно поменяли портянки :)" };
-        }
+        public List<string> CureSprain() =>
+            Events.CureSprain();
 
-        public List<string> FootwrapsDeadlyReplacement()
-        {
-            Character.Protagonist.Hitpoints += (Game.Option.IsTriggered("Legs") ? 4 : 2);
-
-            return new List<string> { "BIG|GOOD|Вы успешно поменяли портянки :)" };
-        }
-
-        public List<string> CureSprain()
-        {
-            Character.Protagonist.Strength += 1;
-            Character.Protagonist.Magicpoints -= 1;
-
-            return new List<string> { "BIG|GOOD|Вы успешно вылечили растяжение" };
-        }
-
-        public List<string> ShareFood()
-        {
-            Game.Option.Trigger("FoodIsDivided");
-
-            if (FoodSharing == FoodSharingType.KeepMyself)
-            {
-                Character.Protagonist.Hitpoints += 5;
-            }
-            else if (FoodSharing == FoodSharingType.ToHim)
-            {
-                Character.Protagonist.ConneryHitpoints += 5;
-            }
-            else
-            {
-                Character.Protagonist.Hitpoints += 3;
-                Character.Protagonist.ConneryHitpoints += 3;
-            }
-
-            return new List<string> { "RELOAD" };
-        }
-
-        public List<string> DiceWounds()
-        {
-            List<string> diceCheck = new List<string> { };
-
-            int dicesCount = (Dices == 0 ? 1 : Dices);
-            int dices = 0;
-            
-            for (int i = 1; i <= dicesCount; i++)
-            {
-                int dice = Game.Dice.Roll();
-                dices += dice;
-                diceCheck.Add($"На {i} выпало: {Game.Dice.Symbol(dice)}");
-            }
-
-            if (DiceBonus != 0)
-            {
-                dices += DiceBonus;
-                diceCheck.Add($"Добавляем {DiceBonus} по условию");
-            }
-
-            Character.Protagonist.Hitpoints -= dices;
-
-            diceCheck.Add($"BIG|BAD|Вы потеряли жизней: {dices}");
-
-            return diceCheck;
-        }
+        public List<string> ShareFood() =>
+            Events.ShareFood(FoodSharing);
 
         public List<string> Fight()
         {
