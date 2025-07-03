@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
 {
@@ -137,14 +135,17 @@ namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
             }
         }
 
-        public List<string> Camouflage()
-        {
-            Game.Option.Trigger("Camouflage");
+        public List<string> Camouflage() =>
+            Events.Camouflage();
 
-            return new List<string> { "Вы успешно себя закамуфлировали грязью :)" };
-        }
+        public List<string> GetMagicBlade() =>
+            Events.MagicBlade();
 
-        private static int CureSpellCount() =>
+
+        public List<string> StoneThrow() =>
+            Events.StoneThrow(this);
+
+        public static int CureSpellCount() =>
             Character.Protagonist.Spells.Where(x => x.Contains("ЛЕЧЕНИЕ")).Count();
 
         public override bool IsButtonEnabled(bool secondButton = false)
@@ -262,14 +263,6 @@ namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
 
             return result;
         }
-        
-        public List<string> GetMagicBlade()
-        {
-            Game.Option.Trigger("MagicSword");
-            Character.Protagonist.Gold -= 5;
-
-            return new List<string> { "BIG|GOOD|Ваш меч теперь заколдован :)" };
-        }
 
         public List<string> LeechFight()
         {
@@ -293,104 +286,20 @@ namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
             return fight;
         }
 
-        public List<string> Dice()
-        {
-            int dice = Game.Dice.Roll();
-            string odd = dice % 2 == 0 ? "чёт" : "нечет";
-            return new List<string> { $"BIG|На кубике выпало: {Game.Dice.Symbol(dice)} - {odd}" };
-        }
+        public List<string> DiceRoll() =>
+            Dice.Roll();
 
-        public List<string> StoneThrow()
-        {
-            if (Character.Protagonist.Specialization == Character.SpecializationType.Thrower)
-                return new List<string> { "BIG|GOOD|Ваша специализациея является метание ножей - и вы не промахнулись :)" };
+        public List<string> DicesGame() =>
+            Dice.Games();
 
-            int dice = Game.Dice.Roll();
+        public List<string> DiceWounds() =>
+            Dice.Wounds(Dices);
 
-            List<string> stoneThrow = new List<string> { };
+        public List<string> CureRabies() =>
+            Cure.Rabies();
 
-            stoneThrow.Add($"На кубике выпало: {Game.Dice.Symbol(dice)}");
-            stoneThrow.Add(Result(dice > 4, "Вы попали", "Вы промахнулись"));
-
-            return stoneThrow;
-        }
-
-        public List<string> DicesGame()
-        {
-            List<string> game = new List<string> { };
-
-            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
-
-            game.Add($"На кубиках выпало: {Game.Dice.Symbol(firstDice)} и {Game.Dice.Symbol(secondDice)}");
-            game.Add($"BIG|BOLD|Итого выпало: {firstDice + secondDice}");
-
-            return game;
-        }
-
-        public List<string> DiceWounds()
-        {
-            List<string> diceCheck = new List<string> { };
-
-            int dicesCount = (Dices == 0 ? 1 : Dices);
-            int dices = 0;
-
-            for (int i = 1; i <= dicesCount; i++)
-            {
-                int dice = Game.Dice.Roll();
-                dices += dice;
-                diceCheck.Add($"На {i} выпало: {Game.Dice.Symbol(dice)}");
-            }
-
-            Character.Protagonist.Hitpoints -= dices;
-
-            diceCheck.Add($"BIG|BAD|Вы потеряли жизней: {dices}");
-
-            return diceCheck;
-        }
-
-        public List<string> CureRabies()
-        {
-            if (CureSpellCount() < 1)
-                return new List<string> { "BIG|BAD|У вас нет ЛЕЧИЛКИ :(" };
-
-            List<string> cure = new List<string> { };
-
-            Character.Protagonist.Spells.Remove("ЛЕЧЕНИЕ");
-
-            Game.Option.Trigger("Rabies", remove: true);
-            cure.Add("BIG|GOOD|Вы успешно вылечили болезнь!");
-
-            Character.Protagonist.Hitpoints += 3;
-            cure.Add("BOLD|Вы дополнительно получили +3 жизни.");
-
-            return cure;
-        }
-
-        public List<string> CureFracture()
-        {
-            if (Wound > 1)
-            {
-                if (CureSpellCount() < 2)
-                    return new List<string> { "BIG|BAD|У вас нет двух ЛЕЧИЛОК :(" };
-
-                for (int i = 0; i <= 1; i++)
-                    Character.Protagonist.Spells.Remove("ЛЕЧЕНИЕ");
-
-                Character.Protagonist.Hitpoints += 4;
-            }    
-            else
-            {
-                if (CureSpellCount() < 1)
-                    return new List<string> { "BIG|BAD|У вас нет ЛЕЧИЛКИ :(" };
-
-                Character.Protagonist.Spells.Remove("ЛЕЧЕНИЕ");
-                Character.Protagonist.Strength -= 1;
-            }
-
-            Game.Option.Trigger(OnlyOne);
-
-            return new List<string> { "RELOAD" };
-        }
+        public List<string> CureFracture() =>
+            Cure.Fracture(Wound, OnlyOne);
 
         public override List<string> StaticButtons()
         {
