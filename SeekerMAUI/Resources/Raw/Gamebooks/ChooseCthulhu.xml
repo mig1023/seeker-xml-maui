@@ -1184,8 +1184,8 @@
 		<Paragraph No="152">
 			<Text>Вы падаете на землю. У вас резко перехватывает дыхание. Из головы обильно сочится кровь.</Text>
 			<Options>
-				<Option Goto="171" Text="Если ваше здоровье упало до нуля"/>
-				<Option Goto="161" Text="Если нет"/>
+				<Option Goto="171" Text="Здоровье упало до нуля"/>
+				<Option Goto="161" Text="Не упало"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="153">
