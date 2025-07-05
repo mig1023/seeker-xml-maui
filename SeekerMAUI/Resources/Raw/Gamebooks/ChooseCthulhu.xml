@@ -1890,8 +1890,8 @@
 		<Paragraph No="258">
 			<Text>Горячая кровь заливает всю вашу спину. Перед глазами все плывет.\n\nСделайте проверку на Выносливость.</Text>
 			<Options>
-				<Option Goto="265" Text="Если проверка успешна"/>
-				<Option Goto="272" Text="Если нет"/>
+				<Option Goto="265" Text="Проверка успешна"/>
+				<Option Goto="272" Text="Проверка провалена"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="259">
