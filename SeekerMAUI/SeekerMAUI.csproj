@@ -199,6 +199,7 @@
 	  <None Remove="Resources\Images\Images\FIFA1966\ozerov.jpg" />
 	  <None Remove="Resources\Images\Images\genesis_plan1.jpg" />
 	  <None Remove="Resources\Images\Images\genesis_plan2.jpg" />
+	  <None Remove="Resources\Images\Images\Nightmare\experiment.jpg" />
 	  <None Remove="Resources\Images\Images\nightmare_allday.jpg" />
 	  <None Remove="Resources\Images\Images\nightmare_circus.jpg" />
 	  <None Remove="Resources\Images\Images\nightmare_diary.jpg" />
@@ -439,6 +440,7 @@
 	  <MauiImage Include="Resources\Images\Images\Nightmare\diary.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\dummy.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\elevator.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Nightmare\experiment.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\focus.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\internet.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\jungle.jpg" />

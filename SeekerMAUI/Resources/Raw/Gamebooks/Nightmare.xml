@@ -19,6 +19,7 @@
 				<Item Name="1349" Value="043c63"/>
 				<Item Name="1486" Value="647f8b"/>
 				<Item Name="1622" Value="14a3cd"/>
+				<Item Name="1755" Value="203a49"/>
 			</Buttons>
 		</Dictionaries>
 		<Buttons>
@@ -66,6 +67,9 @@
 				</Option>
 				<Option Goto="814" Text="Наперегонки с торнадо" Image="Twister">
 					<Text Style="Small, Upper">Into the Twister of Terror, 1999</Text>
+				</Option>
+				<Option Goto="1755" Text="Смертельные эксперименты доктора Иика" Image="Experiment">
+					<Text Style="Small, Upper">The Deadly Experiments of Dr. Eeek, 1996</Text>
 				</Option>
 			</Options>
 		</Paragraph>
