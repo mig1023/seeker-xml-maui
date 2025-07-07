@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.Intrinsics.X86;
 
 namespace SeekerMAUI.Gamebook.StarshipTraveller
 {
@@ -100,20 +99,10 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                 return Fights.BlasterCombat(this, Enemies);
             }
         }
-        
-        private List<string> DicesResultLine(List<string> lines, string text, string tag)
-        {
-            lines.Add($"BIG|BOLD|{text}!");
-            Game.Buttons.Disable(tag);
 
-            return lines;
-        }
-
-        private List<string> DicesResult(List<string> lines, bool first,
-            string firstText, string firstTag, string secondText, string secondTag)
-        {
-            return first ? DicesResultLine(lines, firstText, firstTag) : DicesResultLine(lines, secondText, secondTag);
-        }
+        private List<string> DicesResult(List<string> lines, bool first, string firstText, string firstTag,
+            string secondText, string secondTag) =>
+            Dice.Result(lines, first, firstText, firstTag, secondText, secondTag);
 
         public List<string> Dices()
         {
