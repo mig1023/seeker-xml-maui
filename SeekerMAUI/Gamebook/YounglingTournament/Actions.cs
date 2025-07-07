@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using static SeekerMAUI.Gamebook.YounglingTournament.Character;
 
 namespace SeekerMAUI.Gamebook.YounglingTournament
@@ -126,50 +124,12 @@ namespace SeekerMAUI.Gamebook.YounglingTournament
             return enemies;
         }
 
-        public List<string> DiceWounds()
-        {
-            List<string> diceCheck = new List<string> { };
+        public List<string> DiceWounds() =>
+            Dice.Wounds();
 
-            int dice = Game.Dice.Roll();
-
-            diceCheck.Add($"На кубике выпало: {Game.Dice.Symbol(dice)}");
-
-            Character.Protagonist.Hitpoints -= dice;
-
-            diceCheck.Add($"BIG|BAD|Вы потеряли жизней: {dice}");
-
-            return diceCheck;
-        }
-
-        public List<string> EnemyDiceWounds()
-        {
-            List<string> diceCheck = new List<string> { };
-
-            int dice = Game.Dice.Roll();
-
-            int bonus = 0;
-            string bonusLine = String.Empty;
-            string[] enemy = Enemy.Split(',');
-
-            bool withBonus = Enum.TryParse(BonusTechnique, out Character.ForcesTypes techniqueType);
-            
-            if (withBonus)
-            {
-                bonus = Character.Protagonist.ForceTechniques[techniqueType];
-                bonusLine = $" + {bonus} за ранг";
-            }
-
-            diceCheck.Add($"На кубике выпало: {Game.Dice.Symbol(dice)}{bonusLine}");
-
-            dice += bonus;
-
-            Character.SetHitpoints(enemy[0], dice, int.Parse(enemy[1]));
-
-            diceCheck.Add($"BIG|GOOD|{enemy[0]} потерял жизней: {dice}");
-
-            return diceCheck;
-        }
-
+        public List<string> EnemyDiceWounds() =>
+            Dice.EnemyWounds(this);
+        
         public List<string> ForceTest()
         {
             List<string> test = new List<string>();
@@ -190,67 +150,11 @@ namespace SeekerMAUI.Gamebook.YounglingTournament
             return test;
         }
 
-        public List<string> MixedFightAttack()
-        {
-            List<string> attackCheck = new List<string> { };
+        public List<string> MixedFightAttack() =>
+            MixedFight.Attack();
 
-            int deflecting = 4 + Character.Protagonist.SwordTechniques[SwordTypes.Rivalry];
-
-            attackCheck.Add("Выстрел: 10 (сила выстрела) x 9 (меткость) = 90");
-
-            attackCheck.Add($"Отражение: 4 + " +
-                $"{Character.Protagonist.SwordTechniques[SwordTypes.Rivalry]} " +
-                $"ранг = {deflecting}");
-
-            int result = 90 / deflecting;
-
-            attackCheck.Add($"Результат: " +
-                $"90 выстрел / {deflecting} отражение = {result}");
-
-            if (result > 0)
-            {
-                Character.Protagonist.Hitpoints -= result;
-                attackCheck.Add($"BIG|BAD|Вы потеряли жизней: {result}");
-            }
-            else
-            {
-                attackCheck.Add("BIG|GOOD|Вам удалось отразить " +
-                    "выстрел противника в него самого!");
-            }
-                
-            return attackCheck;
-        }
-
-        public List<string> MixedFightDefence()
-        {
-            List<string> defenseCheck = new List<string> { };
-
-            int deflecting = 4 + Character.Protagonist.SwordTechniques[SwordTypes.Rivalry];
-
-            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
-            int shoot = firstDice + secondDice + 19;
-
-            defenseCheck.Add($"Выстрел: " +
-                $"{Game.Dice.Symbol(firstDice)} + " +
-                $"{Game.Dice.Symbol(secondDice)} + " +
-                $"10 (сила выстрела) + 9 (меткость) = {shoot}");
-
-            defenseCheck.Add($"Отражение: 4 + " +
-                $"{Character.Protagonist.SwordTechniques[SwordTypes.Rivalry]} " +
-                $"ранг = {deflecting}");
-
-            int result = shoot / deflecting;
-
-            defenseCheck.Add($"Результат: " +
-                $"{shoot} выстрел / {deflecting} " +
-                $"отражение = {result}");
-
-            Character.Protagonist.Hitpoints -= result;
-
-            defenseCheck.Add($"BIG|BAD|Вы потеряли жизней: {result}");
-
-            return defenseCheck;
-        }
+        public List<string> MixedFightDefence() =>
+            MixedFight.Defence();
 
         public List<string> FireFight()
         {
