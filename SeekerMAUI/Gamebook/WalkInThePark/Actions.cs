@@ -1,7 +1,5 @@
 ﻿using SeekerMAUI.Gamebook.WalkInThePark.Parts;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace SeekerMAUI.Gamebook.WalkInThePark
 {
@@ -39,14 +37,17 @@ namespace SeekerMAUI.Gamebook.WalkInThePark
             return Parts[part];
         }
 
-        public override List<string> Status() => GetPart().Status();
+        public override List<string> Status() =>
+            GetPart().Status();
 
-        public override List<string> AdditionalStatus() => GetPart().AdditionalStatus();
+        public override List<string> AdditionalStatus() =>
+            GetPart().AdditionalStatus();
 
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
             GetPart().GameOver(this, out toEndParagraph, out toEndText);
 
-        public override List<string> Representer() => GetPart().Representer(this);
+        public override List<string> Representer() =>
+            GetPart().Representer(this);
 
         public List<string> Luck()
         {
@@ -173,7 +174,7 @@ namespace SeekerMAUI.Gamebook.WalkInThePark
             return ratingReport;
         }
 
-        private bool IsTriggered(string startWith, out string trigger)
+        public bool IsTriggered(string startWith, out string trigger)
         {
             trigger = String.Empty;
 
@@ -225,55 +226,14 @@ namespace SeekerMAUI.Gamebook.WalkInThePark
             return new List<string> { "RELOAD" };
         }
 
-        public List<string> SellBeer()
-        {
-            List<string> sell = new List<string>();
+        public List<string> SellBeer() =>
+            Sales.Beer(this);
 
-            while (IsTriggered("пиво", out string beer))
-            {
-                sell.Add($"Продаём {beer} (по 50р)");
-                sell.Add($"BIG|GOOD|BOLD|Ты заработал полтинник!");
-                Character.Protagonist.Money += 50;
+        public List<string> SellAccordion() =>
+            Sales.Accordion();
 
-                Game.Option.Trigger(beer, remove: true);
-            }
-
-            return sell;
-        }
-        
-        public List<string> SellAccordion()
-        {
-            List<string> sell = new List<string>
-            {
-                $"Продаём баян (1000р)",
-                $"BIG|GOOD|BOLD|Ты заработал косарь!"
-            };
-
-            Character.Protagonist.Money += 1000;
-
-            Game.Option.Trigger("баян", remove: true);
-
-            return sell;
-        }
-        
-        public List<string> SellSunflowerSeeds()
-        {
-            List<string> sell = new List<string>
-            {
-                "BOLD|Продаём сэмки (по 25р пачка)",
-            };
-
-            int count = Character.Protagonist.SunflowerSeeds;
-            string pack = Game.Services.CoinsNoun(count, "пачку", "пачки", "пачек");
-            sell.Add($"Всего {count} {pack} сэмак");
-
-            int sum = Character.Protagonist.SunflowerSeeds * 25;
-            Character.Protagonist.Money += sum;
-
-            sell.Add($"BIG|GOOD|BOLD|Ты заработал {sum} рублёв!");
-
-            return sell;
-        }
+        public List<string> SellSunflowerSeeds() =>
+            Sales.SunflowerSeeds();
 
         public override bool Availability(string option)
         {
