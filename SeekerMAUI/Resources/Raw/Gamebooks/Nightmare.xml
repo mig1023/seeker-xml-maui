@@ -20,6 +20,7 @@
 				<Item Name="1486" Value="647f8b"/>
 				<Item Name="1622" Value="14a3cd"/>
 				<Item Name="1755" Value="203a49"/>
+				<Item Name="1885" Value="d71c17"/>
 			</Buttons>
 		</Dictionaries>
 		<Buttons>
@@ -70,6 +71,9 @@
 				</Option>
 				<Option Goto="1755" Text="Смертельные эксперименты доктора Иика" Image="Experiment">
 					<Text Style="Small, Upper">The Deadly Experiments of Dr. Eeek, 1996</Text>
+				</Option>
+				<Option Goto="1885" Text="Рыцарь в кричащих доспехах" Image="Knight">
+					<Text Style="Small, Upper">The Knight in Screaming Armour, 1996</Text>
 				</Option>
 			</Options>
 		</Paragraph>
