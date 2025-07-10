@@ -21,6 +21,7 @@
 				<Item Name="1622" Value="14a3cd"/>
 				<Item Name="1755" Value="203a49"/>
 				<Item Name="1885" Value="d71c17"/>
+				<Item Name="2021" Value="1a0d16"/>
 			</Buttons>
 		</Dictionaries>
 		<Buttons>
@@ -74,6 +75,9 @@
 				</Option>
 				<Option Goto="1885" Text="Рыцарь в кричащих доспехах" Image="Knight">
 					<Text Style="Small, Upper">The Knight in Screaming Armour, 1996</Text>
+				</Option>
+				<Option Goto="2021" Text="Игрушечный террор: Батарейки включены" Image="Toy">
+					<Text Style="Small, Upper">Toy Terror: Batteries Included, 1997</Text>
 				</Option>
 			</Options>
 		</Paragraph>

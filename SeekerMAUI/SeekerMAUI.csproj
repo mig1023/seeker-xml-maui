@@ -201,6 +201,7 @@
 	  <None Remove="Resources\Images\Images\genesis_plan2.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\experiment.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\knight.jpg" />
+	  <None Remove="Resources\Images\Images\Nightmare\toy.jpg" />
 	  <None Remove="Resources\Images\Images\nightmare_allday.jpg" />
 	  <None Remove="Resources\Images\Images\nightmare_circus.jpg" />
 	  <None Remove="Resources\Images\Images\nightmare_diary.jpg" />
@@ -457,6 +458,7 @@
 	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare7.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\plants.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\squeezer.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Nightmare\toy.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\twister.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Pawn\move1.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Pawn\move12.jpg" />
