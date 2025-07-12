@@ -14912,5 +14912,11 @@
 				<Option Goto="2273" Text="Переходи"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="2246">
+			<Text>Барни прав. Ты сопля.\n\nИ пропустишь из-за его правоты всё приключение.\n\nЧто, хочешь заслужить еще один шанс?\n\nЛадно, давай.</Text>
+			<Options>
+				<Option Goto="2183" Text="Поспеши — дай отпор Барни-Задире!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
