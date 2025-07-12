@@ -22,6 +22,7 @@
 				<Item Name="1755" Value="203a49"/>
 				<Item Name="1885" Value="d71c17"/>
 				<Item Name="2021" Value="1a0d16"/>
+				<Item Name="2158" Value="302a5d"/>
 			</Buttons>
 		</Dictionaries>
 		<Buttons>
@@ -78,6 +79,9 @@
 				</Option>
 				<Option Goto="2021" Text="Игрушечный террор: Батарейки включены" Image="Toy">
 					<Text Style="Small, Upper">Toy Terror: Batteries Included, 1997</Text>
+				</Option>
+				<Option Goto="2158" Text="Берегись лиловой пасты" Image="Purple">
+					<Text Style="Small, Upper">Purple Peanut Butter</Text>
 				</Option>
 			</Options>
 		</Paragraph>
