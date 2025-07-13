@@ -23,6 +23,7 @@
 				<Item Name="1885" Value="d71c17"/>
 				<Item Name="2021" Value="1a0d16"/>
 				<Item Name="2158" Value="352c64"/>
+				<Item Name="2293" Value="38627a"/>
 			</Buttons>
 		</Dictionaries>
 		<Buttons>
@@ -82,6 +83,9 @@
 				</Option>
 				<Option Goto="2158" Text="Берегись Лиловой Пасты!" Image="Purple">
 					<Text Style="Small, Upper">Beware of the Purple Peanut Butter, 1996</Text>
+				</Option>
+				<Option Goto="2293" Text="Зловещие творения профессора Шока" Image="Creations">
+					<Text Style="Small, Upper">The Creepy Creations of Professor Shock, 1997</Text>
 				</Option>
 			</Options>
 		</Paragraph>
