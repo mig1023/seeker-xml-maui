@@ -15784,5 +15784,11 @@
 				<Option Goto="2316" Text="Бегом"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="2385">
+			<Text>ЗАГОГУЛИНА, ОТРАЖЁННАЯ В ЗЕРКАЛЕ (ДВАЖДЫ ОТЗЕРКАЛЕННАЯ). ГЛАСИТ:\n\nДля побега из этого места в ваш прежний мир просто снова пройдите через зеркало. [Картинка: image2.jpeg]\n\nПолучил подсказку?</Text>
+			<Options>
+				<Option Goto="2371" Text="Возвращайся"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
