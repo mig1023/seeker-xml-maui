@@ -24,6 +24,7 @@
 				<Item Name="2021" Value="1a0d16"/>
 				<Item Name="2158" Value="352c64"/>
 				<Item Name="2293" Value="38627a"/>
+				<Item Name="2428" Value="6e1124"/>
 			</Buttons>
 		</Dictionaries>
 		<Buttons>
@@ -86,6 +87,9 @@
 				</Option>
 				<Option Goto="2293" Text="Зловещие творения профессора Шока" Image="Creations">
 					<Text Style="Small, Upper">The Creepy Creations of Professor Shock, 1997</Text>
+				</Option>
+				<Option Goto="2428" Text="Вампира просьба не кормить!" Image="Vampire">
+					<Text Style="Small, Upper">Please Don't Feed the Vampire!, 1997</Text>
 				</Option>
 			</Options>
 		</Paragraph>
