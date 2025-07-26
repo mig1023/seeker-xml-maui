@@ -208,6 +208,7 @@
 	  <None Remove="Resources\Images\Images\Nightmare\knight.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\museum.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\purple.jpg" />
+	  <None Remove="Resources\Images\Images\Nightmare\shop.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\toy.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\vampire.jpg" />
 	  <None Remove="Resources\Images\Images\nightmare_allday.jpg" />
@@ -462,6 +463,7 @@
 	  <MauiImage Include="Resources\Images\Images\Nightmare\knight.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\museum.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\purple.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Nightmare\shop.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\spell.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\night.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare1.jpg" />
