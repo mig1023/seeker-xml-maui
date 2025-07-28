@@ -209,6 +209,7 @@
 	  <None Remove="Resources\Images\Images\Nightmare\museum.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\purple.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\shop.jpg" />
+	  <None Remove="Resources\Images\Images\Nightmare\tales.png" />
 	  <None Remove="Resources\Images\Images\Nightmare\toy.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\vampire.jpg" />
 	  <None Remove="Resources\Images\Images\nightmare_allday.jpg" />
@@ -475,6 +476,7 @@
 	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare7.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\plants.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\squeezer.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Nightmare\tales.png" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\toy.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\twister.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\vampire.jpg" />
