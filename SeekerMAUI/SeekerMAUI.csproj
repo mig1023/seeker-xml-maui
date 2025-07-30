@@ -204,6 +204,7 @@
 	  <None Remove="Resources\Images\Images\Nightmare\escape.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\escape2.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\experiment.jpg" />
+	  <None Remove="Resources\Images\Images\Nightmare\granny.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\house.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\knight.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\museum.jpg" />
@@ -458,6 +459,7 @@
 	  <MauiImage Include="Resources\Images\Images\Nightmare\escape2.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\experiment.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\focus.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Nightmare\granny.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\house.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\internet.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\jungle.jpg" />
