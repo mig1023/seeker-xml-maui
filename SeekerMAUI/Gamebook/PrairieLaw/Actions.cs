@@ -23,7 +23,7 @@ namespace SeekerMAUI.Gamebook.PrairieLaw
 
         public override List<string> AdditionalStatus() => new List<string>
         {
-            $"Долларов: {ToDollars(Character.Protagonist.Cents)}",
+            $"Деньги: {ToDollars(Character.Protagonist.Cents)} $",
             $"Патронов: {Character.Protagonist.Cartridges}",
         };
 
