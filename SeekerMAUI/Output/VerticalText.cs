@@ -33,6 +33,16 @@ namespace SeekerMAUI.Output
                 float correction = horizontal - ((horizontal / count) * (count - index + 1));
                 float xpos = (float)((heightPart * index) + (heightPart / 2)) - correction;
 
+                if (status.Contains("BOLD|"))
+                {
+                    canvas.Font = new Microsoft.Maui.Graphics.Font(string.Empty, Constants.VERTICAL_BOLD_TEXT);
+                    line = line.Replace("BOLD|", String.Empty);
+                }
+                else
+                {
+                    canvas.Font = new Microsoft.Maui.Graphics.Font(string.Empty);
+                }
+
                 if (status.Contains("CROSSEDOUT|"))
                 {
                     line = line.Replace("CROSSEDOUT|", String.Empty);

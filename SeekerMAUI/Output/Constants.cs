@@ -51,6 +51,8 @@ namespace SeekerMAUI.Output
         public static float VERTICAL_LINE_BONUS = 3;
         public static float VERTICAL_FONT = 12;
 
+        public static int VERTICAL_BOLD_TEXT = 1200;
+
         public enum SortBy 
         {
             Title = 1,

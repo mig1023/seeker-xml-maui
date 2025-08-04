@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using static SeekerMAUI.Game.Data;
 
 namespace SeekerMAUI.Output
 {
     class StatusBar
     {
-        private static int Clear(string line) =>
-            line.Replace("CROSSEDOUT|", String.Empty).Length;
-
         public static List<Label> Main(List<string> statusLines)
         {
             List<Label> statusLabels = new List<Label>();

@@ -27,6 +27,17 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             $"Удача: {Character.Protagonist.Luck}"
         };
 
+        private string crewStatus(Character crew, string team)
+        {
+            if (crew.Stamina <= 0)
+                return "CROSSEDOUT|";
+            
+            if (Character.Team[team].Selected)
+                return "BOLD|";
+
+            return string.Empty;
+        }
+
         public override List<string> AdditionalStatus()
         {
             var statusLines = new List<string>();
@@ -35,7 +46,8 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             {
                 var crew = Character.Team[team];
                 var name = Constants.Names[team];
-                string isAlive = crew.Stamina > 0 ? string.Empty : "CROSSEDOUT|";
+                var isAlive = crewStatus(crew, team);
+
                 statusLines.Add($"{isAlive}{name}");
             }
 
