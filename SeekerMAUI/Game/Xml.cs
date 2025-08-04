@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
@@ -156,7 +157,8 @@ namespace SeekerMAUI.Game
         }
 
         public static void GameLoad(string name,
-            Data.DisableMethodDelegate disableOption, Data.RenameMethodDelegate renameOption)
+            Data.DisableMethodDelegate disableOption, Data.RenameMethodDelegate renameOption,
+            BackgroundWorker backgroundWorker)
         {
             Data.XmlParagraphs.Clear();
             Data.Triggers.Clear();
@@ -168,8 +170,14 @@ namespace SeekerMAUI.Game
             Description gamebook = List.GetDescription(name);
             XmlDocument xmlFile = GetGamebookXmlFile("Gamebooks/" + gamebook.XmlBook);
 
+            var progress = 0;
+
             foreach (XmlNode xmlNode in xmlFile.SelectNodes("Gamebook/Paragraphs/Paragraph"))
+            {
                 Data.XmlParagraphs.Add(Xml.IntParse(xmlNode.Attributes["No"]), xmlNode);
+                backgroundWorker.ReportProgress(progress);
+                progress += 1;
+            }           
 
             Data.Constants.Clean();
             Data.DisableMethod = disableOption;

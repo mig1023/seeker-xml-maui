@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System.ComponentModel;
 using SeekerMAUI.Gamebook;
 
 namespace SeekerMAUI
@@ -31,8 +31,10 @@ namespace SeekerMAUI
                 if (!Game.Settings.IsEnabled("WithoutStyles"))
                     Options.Children.Add(Output.Interface.GamebookImage(gamebook));
 
-                Options.Children.Add(Output.Buttons.Gamebook(gamebook,
-                    (sender, e) => Gamebook_Click(gamebook.Book)));
+                var button = Output.Buttons.Gamebook(gamebook);
+                button.Clicked += (sender, e) => Gamebook_Click(gamebook, button);
+
+                Options.Children.Add(button);
 
                 Output.Disclaimer.Gamebook(gamebook, ref Options);
             }
@@ -135,22 +137,34 @@ namespace SeekerMAUI
             }
         }
 
-        private void Gamebook_Click(string gamebook)
+        private void GameLoading(string gamebook, BackgroundWorker backgroundWorker)
         {
-            History.Continue.CurrentGame(gamebook);
+            Game.Data.CreateGamebookInstances(gamebook);
+            Game.Xml.GameLoad(gamebook, DisableMethod, RenameMethod, backgroundWorker);
+        }
 
-            try
-            {
-                Game.Data.CreateGamebookInstances(gamebook);
-                Game.Xml.GameLoad(gamebook, DisableMethod, RenameMethod);
-            }
-            catch (Exception ex)
-            {
-                Error("Ошибка загрузки книги:", ex.Message);
-                return;
-            }
+        private void GameLoadingProgress(Description gamebook, Button button, ProgressChangedEventArgs e)
+        {
+            button.Text = $"{Output.Constants.LOADING} ({e.ProgressPercentage} / {gamebook.Paragraphs})";
+        }
 
+        private void GameLoaded()
+        {
             Paragraph(0);
+        }
+
+        private void Gamebook_Click(Description gamebook, Button button)
+        {
+            History.Continue.CurrentGame(gamebook.Book);
+            Output.Buttons.Loading(button);
+
+            var back = new BackgroundWorker();
+            back.DoWork += (sender, e) => GameLoading(gamebook.Book, back);
+            back.ProgressChanged += (sender, e) => GameLoadingProgress(gamebook, button, e);
+            back.RunWorkerCompleted += (sender, e) => GameLoaded();
+            back.WorkerReportsProgress = true;
+
+            back.RunWorkerAsync();
         }
 
         private void Settings_Click(object sender, EventArgs e)

@@ -134,7 +134,7 @@ namespace SeekerMAUI.Output
             return SetBorderAndTextColor(systemButton, system: true);
         }
 
-        public static Button Gamebook(Description gamebook, EventHandler onClick)
+        public static Button Gamebook(Description gamebook)
         {
             Button gamebookButton = new Button
             {
@@ -145,7 +145,7 @@ namespace SeekerMAUI.Output
                 LineBreakMode = LineBreakMode.WordWrap,
             };
 
-            gamebookButton.Clicked += onClick;
+            //gamebookButton.Clicked += onClick;
 
             if (!String.IsNullOrEmpty(gamebook.BorderColor))
             {
@@ -258,6 +258,15 @@ namespace SeekerMAUI.Output
             }
 
             return button;
+        }
+
+        public static void Loading(Button button)
+        {
+            button.BackgroundColor = Colors.WhiteSmoke;
+            button.TextColor = Colors.DarkGray;
+            button.BorderColor = Colors.DarkGray;
+            button.BorderWidth = Constants.BORDER_WIDTH;
+            button.Text = Constants.LOADING;
         }
     }
 }
