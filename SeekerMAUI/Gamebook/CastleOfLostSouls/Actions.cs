@@ -87,7 +87,7 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
 
                         Enemy.Constitution -= wound;
 
-                        fight.Add($"GOOD|Противник теряет {wound} ед. Телосложения! " +
+                        fight.Add($"Противник теряет {wound} ед. Телосложения! " +
                             $"В результате, у него осталось {Enemy.Constitution} ед. Телосложения.");
 
                         if (Enemy.Constitution <= 0)
@@ -131,7 +131,7 @@ namespace SeekerMAUI.Gamebook.CastleOfLostSouls
 
                         Character.Protagonist.Constitution -= wound;
 
-                        fight.Add($"BAD|Вы теряете {wound} ед. Телосложения! " +
+                        fight.Add($"Вы теряете {wound} ед. Телосложения! " +
                             $"В результате, у вас осталось {Character.Protagonist.Constitution} ед. Телосложения.");
 
                         if (Character.Protagonist.Constitution <= 0)
