@@ -187,7 +187,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
                 fight.Add($"HEAD|BOLD|РАУНД: {round}");
 
                 var dice = Game.Dice.Roll(size: 10) - 1;
-                fight.Add($"Случайное число: {dice}");
+                fight.Add($"СЛУЧАЙНОЕ ЧИСЛО: {dice + 1}");
 
                 BattleTable.Get(dice, out int heroDamage, out int enemyDamage);
                 fight.Add($"GRAY|Табличные значения: {enemyDamage}/{heroDamage}");
