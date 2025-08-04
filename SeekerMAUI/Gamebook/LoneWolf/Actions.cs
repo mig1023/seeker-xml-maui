@@ -114,7 +114,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
             coefficient += int.Parse(bonus[0]) * (penalty ? -1 : 1);
 
-            var negative = penalty ? "—" : "+";
+            var negative = penalty ? "-" : "+";
             var reason = string.Empty;
 
             if (!string.IsNullOrEmpty(bonus[2]))
@@ -161,7 +161,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             }
 
             coefficient -= Enemy.Skill;
-            coefficientLine += $"\n— {Enemy.Skill} Боевой навык врага";
+            coefficientLine += $"\n- {Enemy.Skill} Боевой навык врага";
 
             if (!String.IsNullOrEmpty(SkillPenalty))
             {
@@ -173,12 +173,12 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             fight.Add($"GRAY|{coefficientLine}");
 
             var table = BattleTable.Init(coefficient);
-            var tableLine = $"Таблица результатов битв:";
+            var tableLine = $"ТАБЛИЦА РЕЗУЛЬТАТОВ БИТВ:";
 
             foreach (var line in table)
             {
                 var damages = line.Value.Split('/');
-                tableLine += $"\n{line.Key} \t ---> \t [ {damages[0]} вы / {damages[1]} враг ]";
+                tableLine += $"\n{line.Key} \t ---> \t [ {damages[0]} врагу / {damages[1]} вам ]";
             }
 
             fight.Add($"GRAY|{tableLine}\n");
