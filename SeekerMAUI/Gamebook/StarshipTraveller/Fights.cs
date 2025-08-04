@@ -99,17 +99,17 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                         }
                         else if (dices > enemy.Shields)
                         {
-                            fight.Add($"Сумма в {dices} больше показателя защиты твоего противника!");
+                            fight.Add($"Сумма в {dices} больше показателя защиты твоего корабля!");
                             fight.Add("BOLD|BAD|Его выстрел нанёс твоему кораблю ущерб равный 4!");
 
                             Character.Protagonist.Shields -= 4;
                         }
                         else
                         {
-                            fight.Add($"Сумма в {dices} меньше показателя защиты твоего противника!");
+                            fight.Add($"Сумма в {dices} меньше показателя защиты твоего корабля!");
                             fight.Add("BOLD|BAD|Его выстрел нанёс твоему кораблю ущерб равный 2!");
 
-                            enemy.Shields -= 2;
+                            Character.Protagonist.Shields -= 2;
                         }
 
                         fight.Add($"Теперь твой уровень защиты стал равен {Character.Protagonist.Shields}!");
