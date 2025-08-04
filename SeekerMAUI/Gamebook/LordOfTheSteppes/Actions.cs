@@ -90,7 +90,11 @@ namespace SeekerMAUI.Gamebook.LordOfTheSteppes
         public override string ButtonText()
         {
             if (!String.IsNullOrEmpty(Button))
+            {
                 return Button;
+            }
+
+            bool specialTechnique = SpecialTechnique != Character.SpecialTechniques.Nope;
 
             switch (Type)
             {
@@ -101,7 +105,7 @@ namespace SeekerMAUI.Gamebook.LordOfTheSteppes
                     return "Сражаться";
 
                 case "Get":
-                    return "Купить";
+                    return specialTechnique ? "Выбрать" : "Купить";
 
                 default:
                     return Button;
