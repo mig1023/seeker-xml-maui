@@ -211,6 +211,10 @@
 	  <None Remove="Resources\Images\Images\Nightmare\nightmare10.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\nightmare11.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\nightmare12.jpg" />
+	  <None Remove="Resources\Images\Images\Nightmare\nightmare13.jpg" />
+	  <None Remove="Resources\Images\Images\Nightmare\nightmare13.png" />
+	  <None Remove="Resources\Images\Images\Nightmare\nightmare14.jpg" />
+	  <None Remove="Resources\Images\Images\Nightmare\nightmare14.png" />
 	  <None Remove="Resources\Images\Images\Nightmare\nightmare8.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\nightmare9.jpg" />
 	  <None Remove="Resources\Images\Images\Nightmare\purple.jpg" />
@@ -473,6 +477,8 @@
 	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare10.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare11.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare12.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare13.jpg" />
+	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare14.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare8.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\nightmare9.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Nightmare\purple.jpg" />
