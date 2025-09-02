@@ -137,30 +137,20 @@ namespace SeekerMAUI.Output
                     gamebook.Original, ref disclaimer, border, changedPart);
             }
 
-            if (gamebook.Authors.Count > 1)
-            {
-                string authors = String.Join("\n", gamebook.Authors);
+            var authorsHeader = "Автор" + (gamebook.Authors.Count > 1 ? "ы:" : ":");
+            var authors = String.Join("\n", gamebook.Authors);
+            var translatorHeader = "Переводчик" + (gamebook.Translators.Count > 1 ? "и:" : ":");
+            var translators =String.Join("\n", gamebook.Translators);
 
-                AddElement("Авторы:",
-                    authors, ref disclaimer, border, changedPart);
+            if (gamebook.Translators.Count > 0)
+            {
+                AddLtlElement(authorsHeader, authors, translatorHeader, translators,
+                    ref disclaimer, border, changedPart);
             }
             else
             {
-                AddElement("Автор:",
-                    gamebook.Authors.First(), ref disclaimer, border, changedPart);
-            }
-
-            if (gamebook.Translators.Count > 1)
-            {
-                string translators = String.Join("\n", gamebook.Translators);
-
-                AddElement("Переводчики:",
-                    translators, ref disclaimer, border, changedPart);
-            }
-            else if (gamebook.Translators.Count > 0)
-            {
-                AddElement("Переводчик:",
-                    gamebook.Translators.First(), ref disclaimer, border, changedPart);
+                AddElement(authorsHeader, authors,
+                    ref disclaimer, border, changedPart);
             }
 
             if (!String.IsNullOrEmpty(gamebook.Text))
