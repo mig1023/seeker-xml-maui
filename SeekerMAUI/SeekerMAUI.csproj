@@ -309,6 +309,9 @@
 	  <None Remove="Resources\Images\Images\thosewhoareabouttodie_retiarius.jpg" />
 	  <None Remove="Resources\Images\Images\thosewhoareabouttodie_secutor.jpg" />
 	  <None Remove="Resources\Images\Images\thosewhoareabouttodie_thracians.jpg" />
+	  <None Remove="Resources\Images\Images\ThreePaths\conan.jpg" />
+	  <None Remove="Resources\Images\Images\ThreePaths\fargal.jpg" />
+	  <None Remove="Resources\Images\Images\ThreePaths\hagen.jpg" />
 	  <None Remove="Resources\Images\Images\trail_plan.jpg" />
 	  <None Remove="Resources\Images\Images\trail_report.jpg" />
 	  <None Remove="Resources\Images\Images\vweapons_plan.jpg" />
@@ -568,6 +571,9 @@
 	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\retiarius.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\secutor.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ThoseWhoAreAboutToDie\thracians.jpg" />
+	  <MauiImage Include="Resources\Images\Images\ThreePaths\conan.jpg" />
+	  <MauiImage Include="Resources\Images\Images\ThreePaths\fargal.jpg" />
+	  <MauiImage Include="Resources\Images\Images\ThreePaths\hagen.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Trail\plan.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Trail\report.jpg" />
 	  <MauiImage Include="Resources\Images\Images\VWeapons\evacuationplan.jpg" />
