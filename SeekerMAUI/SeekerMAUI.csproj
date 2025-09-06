@@ -263,6 +263,8 @@
 	  <None Remove="Resources\Images\Images\pawn_move30.jpg" />
 	  <None Remove="Resources\Images\Images\pawn_move6.jpg" />
 	  <None Remove="Resources\Images\Images\pawn_move7.jpg" />
+	  <None Remove="Resources\Images\Images\PensionerSimulator\Part1.jpg" />
+	  <None Remove="Resources\Images\Images\PensionerSimulator\Part2.jpg" />
 	  <None Remove="Resources\Images\Images\seatales_easternshores.jpg" />
 	  <None Remove="Resources\Images\Images\seatales_fever.jpg" />
 	  <None Remove="Resources\Images\Images\seatales_interactivenovel.jpg" />
@@ -525,6 +527,8 @@
 	  <MauiImage Include="Resources\Images\Images\Pawn\move30.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Pawn\move6.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Pawn\move7.jpg" />
+	  <MauiImage Include="Resources\Images\Images\PensionerSimulator\Part1.jpg" />
+	  <MauiImage Include="Resources\Images\Images\PensionerSimulator\Part2.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SeaTales\easternshores.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SeaTales\fever.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SeaTales\interactivenovel.jpg" />

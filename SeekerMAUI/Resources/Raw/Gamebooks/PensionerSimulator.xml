@@ -17,8 +17,10 @@
 		<Paragraph No="0">
 			<Text>Все совпадения случайны.\n\nВсё написанное художественный вымысел.\n\nАвтор уважает стариков.\n</Text>
 			<Options>
-				<Start Goto="1"/>
-				<Option Goto="15" Text="Сразу к Кровавой Охоте" Style="35365e"/>
+				<Start Goto="1" Image="Part1">
+					<Text Style="Small">Пропустить всю первую часть приключения, перейдя к части «Симулятор пенсионерки 2: Кровавая Охота»:</Text>
+				</Option>
+				<Option Goto="15" Text="Сразу к Кровавой Охоте" Image="Part2" Style="35365e"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1">
