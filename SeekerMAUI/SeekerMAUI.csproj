@@ -158,6 +158,9 @@
 	  <None Remove="Resources\Images\Images\adventuresofabeardlessdeceiver_akyn4.jpg" />
 	  <None Remove="Resources\Images\Images\adventuresofabeardlessdeceiver_akyn5.jpg" />
 	  <None Remove="Resources\Images\Images\adventuresofabeardlessdeceiver_akyn6.jpg" />
+	  <None Remove="Resources\Images\Images\BlackCastleDungeon\Addon.jpg" />
+	  <None Remove="Resources\Images\Images\BlackCastleDungeon\Original.jpg" />
+	  <None Remove="Resources\Images\Images\BlackCastleDungeon\Remake.jpg" />
 	  <None Remove="Resources\Images\Images\ChooseCthulhu\dreams.jpg" />
 	  <None Remove="Resources\Images\Images\ChooseCthulhu\flame.jpg" />
 	  <None Remove="Resources\Images\Images\ChooseYourOwnAdventure\unicorn.jpg" />
@@ -424,6 +427,9 @@
 	  <MauiImage Include="Resources\Images\Images\AdventuresOfABeardlessDeceiver\akyn4.jpg" />
 	  <MauiImage Include="Resources\Images\Images\AdventuresOfABeardlessDeceiver\akyn5.jpg" />
 	  <MauiImage Include="Resources\Images\Images\AdventuresOfABeardlessDeceiver\akyn6.jpg" />
+	  <MauiImage Include="Resources\Images\Images\BlackCastleDungeon\Addon.jpg" />
+	  <MauiImage Include="Resources\Images\Images\BlackCastleDungeon\Original.jpg" />
+	  <MauiImage Include="Resources\Images\Images\BlackCastleDungeon\Remake.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseCthulhu\dreams.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseCthulhu\flame.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\canyon.jpg" />
