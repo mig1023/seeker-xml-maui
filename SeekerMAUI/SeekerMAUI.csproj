@@ -266,8 +266,8 @@
 	  <None Remove="Resources\Images\Images\pawn_move30.jpg" />
 	  <None Remove="Resources\Images\Images\pawn_move6.jpg" />
 	  <None Remove="Resources\Images\Images\pawn_move7.jpg" />
-	  <None Remove="Resources\Images\Images\PensionerSimulator\Part1.jpg" />
-	  <None Remove="Resources\Images\Images\PensionerSimulator\Part2.jpg" />
+	  <None Remove="Resources\Images\Images\PensionerSimulator\pensioner1.jpg" />
+	  <None Remove="Resources\Images\Images\PensionerSimulator\pensioner2.jpg" />
 	  <None Remove="Resources\Images\Images\seatales_easternshores.jpg" />
 	  <None Remove="Resources\Images\Images\seatales_fever.jpg" />
 	  <None Remove="Resources\Images\Images\seatales_interactivenovel.jpg" />
@@ -427,9 +427,9 @@
 	  <MauiImage Include="Resources\Images\Images\AdventuresOfABeardlessDeceiver\akyn4.jpg" />
 	  <MauiImage Include="Resources\Images\Images\AdventuresOfABeardlessDeceiver\akyn5.jpg" />
 	  <MauiImage Include="Resources\Images\Images\AdventuresOfABeardlessDeceiver\akyn6.jpg" />
-	  <MauiImage Include="Resources\Images\Images\BlackCastleDungeon\Addon.jpg" />
-	  <MauiImage Include="Resources\Images\Images\BlackCastleDungeon\Original.jpg" />
-	  <MauiImage Include="Resources\Images\Images\BlackCastleDungeon\Remake.jpg" />
+	  <MauiImage Include="Resources\Images\Images\BlackCastleDungeon\addon.jpg" />
+	  <MauiImage Include="Resources\Images\Images\BlackCastleDungeon\original.jpg" />
+	  <MauiImage Include="Resources\Images\Images\BlackCastleDungeon\remake.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseCthulhu\dreams.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseCthulhu\flame.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\canyon.jpg" />
@@ -533,8 +533,8 @@
 	  <MauiImage Include="Resources\Images\Images\Pawn\move30.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Pawn\move6.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Pawn\move7.jpg" />
-	  <MauiImage Include="Resources\Images\Images\PensionerSimulator\Part1.jpg" />
-	  <MauiImage Include="Resources\Images\Images\PensionerSimulator\Part2.jpg" />
+	  <MauiImage Include="Resources\Images\Images\PensionerSimulator\pensioner1.jpg" />
+	  <MauiImage Include="Resources\Images\Images\PensionerSimulator\pensioner2.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SeaTales\easternshores.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SeaTales\fever.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SeaTales\interactivenovel.jpg" />
