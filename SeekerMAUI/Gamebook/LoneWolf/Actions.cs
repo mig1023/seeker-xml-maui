@@ -131,7 +131,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
 
         public List<string> Fight()
         {
-            List<string> fight = new List<string>();
+            List<string> fight = new List<string> { "HEAD|BOLD|ГОТОВИМСЯ К БОЮ" };
 
             var round = 1;
             var coefficient = Character.Protagonist.Skill;
