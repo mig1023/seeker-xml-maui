@@ -90,7 +90,7 @@ namespace SeekerMAUI.Gamebook.SeaTales.Parts
                 test.Add("BOLD|Пункты Брехни обнуляются.");
             }
 
-            Game.Buttons.Rename("Пропустить", "Далее");
+            Game.Buttons.Rename("Пропустить", "ДАЛЕЕ");
 
             return test;
         }

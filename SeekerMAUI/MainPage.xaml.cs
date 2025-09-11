@@ -132,7 +132,7 @@ namespace SeekerMAUI
 
                 Button button = option as Button;
 
-                if (button.Text == oldName)
+                if (button.Text.ToLower() == oldName.ToLower())
                     button.Text = newName;
             }
         }
