@@ -72,13 +72,16 @@ namespace SeekerMAUI.Gamebook.SeaTales.Parts
 
             test.Add($"BOLD|Нужно выдержать {levelNamePart}ую проверку!\nПробуем выбросить {dicesLine}\n");
 
-            int dice = Game.Dice.Roll();
+            var dice = Game.Dice.Roll();
+            var next = string.Empty;
             test.Add($"Бросаем кубик: {Game.Dice.Symbol(dice)}");
 
             if (targetDices.Contains(dice))
             {
                 test.Add("BIG|GOOD|BOLD|Слушают! :)");
                 test.Add(action.Success);
+
+                next = "ДАЛЕЕ";
             }
             else
             {
@@ -88,9 +91,11 @@ namespace SeekerMAUI.Gamebook.SeaTales.Parts
                 test.Add("\nРассказчик наплёл совсем уж околесицу - в такое никто не поверит! " +
                     "Его перебивает другой выпивоха и начинает свой рассказ.");
                 test.Add("BOLD|Пункты Брехни обнуляются.");
+
+                next = "ЗАСЛУШАЕМ ДРУГОГО ВЫПИВОХУ";
             }
 
-            Game.Buttons.Rename("Пропустить", "ДАЛЕЕ");
+            Game.Buttons.Rename("Пропустить", next);
 
             return test;
         }
