@@ -15,12 +15,14 @@
 	</Introduction>
 	<Paragraphs>
 		<Paragraph No="0">
-			<Text>Все совпадения случайны.\n\nВсё написанное художественный вымысел.\n\nАвтор уважает стариков.\n</Text>
+			<Text>Все совпадения случайны.\n\nВсё написанное художественный вымысел.\n\nАвтор уважает стариков.\n\nВ процессе приключений ни один котик не пострадал.</Text>
 			<Options>
 				<Option Goto="1" Text="Симулятор пенсионерки" Image="Pensioner1">
-					<Text Style="Small">Пропустить всю первую часть приключения, перейдя к части «Симулятор пенсионерки 2: Кровавая Охота»:</Text>
+					<Text Style="Small, Upper">Zaratystra, 2018</Text>
 				</Option>
-				<Option Goto="15" Text="Кровавая Охота" Image="Pensioner2" Style="35365e"/>
+				<Option Goto="15" Text="Кровавая Охота" Image="Pensioner2" Style="35365e">
+					<Text Style="Small, Upper">the_arsonist, перевод Мария Ерошкина и др., 2019</Text>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1">
