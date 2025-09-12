@@ -20,6 +20,8 @@ namespace SeekerMAUI.Gamebook
 
         public string BorderColor;
 
+        public string LinkColor;
+
         public string Illustration;
 
         public List<string> Authors;

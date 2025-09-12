@@ -45,19 +45,28 @@ namespace SeekerMAUI.Output
             return disclaimer;
         }
 
-        private static Label Link(string color)
+        private static Label Link(Description gamebook)
         {
             Label link = new Label()
             {
                 Text = Constants.DISCLAIMER_LINK,
                 HorizontalTextAlignment = TextAlignment.Start,
                 FontSize = Interface.Font(NamedSize.Micro),
-                TextColor = Color.FromHex(color),
                 FontAttributes = FontAttributes.Bold,
             };
 
-            if (link.TextColor == Colors.White)
-                link.TextColor = Constants.LINK_COLOR_DEFAULT;
+            if (!string.IsNullOrEmpty(gamebook.LinkColor))
+            {
+                link.TextColor = Color.FromHex(gamebook.LinkColor);
+            }
+            else if (gamebook.BookColor == Constants.COLOR_WHITE)
+            {
+                link.TextColor = Color.FromHex(Constants.COLOR_BLACK);
+            }
+            else
+            {
+                link.TextColor = Color.FromHex(gamebook.BookColor);
+            }
 
             return link;
         }
@@ -218,9 +227,6 @@ namespace SeekerMAUI.Output
             return close;
         }
 
-        private static string LinkColorFuse(string color) =>
-            color == Constants.COLOR_WHITE ? Constants.COLOR_BLACK : color;
-
         public static void Gamebook(Description gamebook, ref StackLayout options)
         {
             Frame border = new Frame
@@ -236,7 +242,7 @@ namespace SeekerMAUI.Output
                 Margin = new Thickness(0, 0, 0, 5),
             };
 
-            Label change = Link(LinkColorFuse(gamebook.BookColor));
+            Label change = Link(gamebook);
 
             textLayout.Children.Add(LinkedElement(GamebookDisclaimer(gamebook), OpenTapped(border, change, gamebook)));
             textLayout.Children.Add(LinkedElement(change, OpenTapped(border, change, gamebook)));
