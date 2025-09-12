@@ -795,7 +795,10 @@
 		<Size>130224</Size>
 		<Playthrough>На весь вечер</Playthrough>
 		<Setting>Фэнтези</Setting>
-		<Color>acc6dc</Color>
+		<Colors>
+			<Book>acc6dc</Book>
+			<Link>899eb0</Link>
+		</Colors>
 	</DangerFromBehindTheSnowWall>
 	<Hunt>
 		<Title>Охота</Title>
