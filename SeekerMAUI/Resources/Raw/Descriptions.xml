@@ -1230,7 +1230,10 @@
 		<Size>25894</Size>
 		<Playthrough>На полчаса</Playthrough>
 		<Setting>Приключения</Setting>
-		<Color>8faf9f</Color>
+		<Colors>
+			<Book>8faf9f</Book>
+			<Link>728c7f</Link>
+		</Colors>
 	</CastleOfLostSouls>
 	<Witness>
 		<Title>Свидетель</Title>
