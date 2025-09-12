@@ -5,6 +5,7 @@
 			<Author>Константин Таро, 2012</Author>
 		</Copyright>
 		<Styles>
+			<System Value="d0d0d0"/>
 			<Color Name="Main, Option, Continue" Value="151515"/>
 		</Styles>
 	</Introduction>
