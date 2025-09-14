@@ -593,7 +593,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="76">
-			<Text>Проверь свою Реакцию.</Text>
+			<Text>Проверь свою Реакцию:</Text>
 			<Options>
 				<Option Goto="63" Text="Реакция более 7" Availability="РЕАКЦИЯ > 7"/>
 				<Option Goto="68" Text="Реакция равна или меньше 7" Availability="РЕАКЦИЯ &lt;= 7"/>
@@ -1072,7 +1072,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="142">
-			<Text>Быстрым прыжком ты сокращаешь дистанцию с копейщиком. Он бьёт тебя древком в грудь, но тебя защищает надёжная кираса и ты даже не замечаешь удара. Рубанув по горлу копьеносца, ты не собираешься лицезреть потоки крови, бьющие из раны и быстро разворачиваешься, ведь сзади остался бандит с топором.\n\nПроверь свою Реакцию.</Text>
+			<Text>Быстрым прыжком ты сокращаешь дистанцию с копейщиком. Он бьёт тебя древком в грудь, но тебя защищает надёжная кираса и ты даже не замечаешь удара. Рубанув по горлу копьеносца, ты не собираешься лицезреть потоки крови, бьющие из раны и быстро разворачиваешься, ведь сзади остался бандит с топором.\n\nПроверь свою Реакцию:</Text>
 			<Options>
 				<Option Goto="154" Text="Реакция больше 5" Availability="РЕАКЦИЯ > 5"/>
 				<Option Goto="156" Text="Реакция 5 или меньше" Availability="РЕАКЦИЯ &lt;= 5"/>
@@ -1137,7 +1137,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="152">
-			<Text>Проверь свою Реакцию.</Text>
+			<Text>Проверь свою Реакцию:</Text>
 			<Options>
 				<Option Goto="161" Text="Реакция больше 6" Availability="РЕАКЦИЯ > 6"/>
 				<Option Goto="146" Text="Реакция 6 или меньше" Availability="РЕАКЦИЯ &lt;= 6"/>
@@ -1220,14 +1220,14 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="165">
-			<Text>Проверь свою Реакцию.</Text>
+			<Text>Проверь свою Реакцию:</Text>
 			<Options>
 				<Option Goto="155" Text="Реакция больше 7" Availability="РЕАКЦИЯ > 7"/>
 				<Option Goto="159" Text="Реакция 7 или меньше" Availability="РЕАКЦИЯ &lt;= 7"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="166">
-			<Text>Проверь свою Силу.</Text>
+			<Text>Проверь свою Силу:</Text>
 			<Options>
 				<Option Goto="143" Text="Сила больше 4" Availability="СИЛА > 4"/>
 				<Option Goto="153" Text="Сила 4 или меньше" Availability="СИЛА &lt;= 4"/>
@@ -1280,7 +1280,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="173">
-			<Text>Отбросив гладиус в сторону, ты готовишься встретить врага. Он подбегает и бьёт тебя ножом в живот.\n\nПроверь свою Реакцию.</Text>
+			<Text>Отбросив гладиус в сторону, ты готовишься встретить врага. Он подбегает и бьёт тебя ножом в живот.\n\nПроверь свою Реакцию:</Text>
 			<Options>
 				<Option Goto="181" Text="Реакция больше 6" Availability="РЕАКЦИЯ > 6"/>
 				<Option Goto="188" Text="Реакция 6 или меньше" Availability="РЕАКЦИЯ &lt;= 6"/>
@@ -1812,7 +1812,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="247">
-			<Text>Проверь свою Силу.</Text>
+			<Text>Проверь свою Силу:</Text>
 			<Options>
 				<Option Goto="223" Text="Сила больше 7" Availability="СИЛА > 7"/>
 				<Option Goto="235" Text="Сила 7 или меньше" Availability="СИЛА &lt;= 7"/>
@@ -1876,7 +1876,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="257">
-			<Text>Проверь свою Силу.</Text>
+			<Text>Проверь свою Силу:</Text>
 			<Options>
 				<Option Goto="267" Text="Сила больше 3" Availability="СИЛА > 3"/>
 				<Option Goto="256" Text="Сила 3 или меньше" Availability="СИЛА &lt;= 3"/>
@@ -2045,7 +2045,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="283">
-			<Text>Проверь свою Силу.</Text>
+			<Text>Проверь свою Силу:</Text>
 			<Options>
 				<Option Goto="280" Text="Сила больше 6" Availability="СИЛА > 6"/>
 				<Option Goto="290" Text="Сила она 6 или меньше" Availability="СИЛА &lt;= 6"/>
@@ -2083,7 +2083,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="289">
-			<Text>Размахнувшись, ты наносишь удар колуном. Проверь свою Силу.</Text>
+			<Text>Размахнувшись, ты наносишь удар колуном. Проверь свою Силу:</Text>
 			<Options>
 				<Option Goto="285" Text="Сила больше 5" Availability="СИЛА > 5"/>
 				<Option Goto="292" Text="Сила 5 или меньше" Availability="СИЛА &lt;= 5"/>
