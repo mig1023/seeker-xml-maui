@@ -11,6 +11,7 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
         public int DinnerHitpointsBonus { get; set; }
         public bool DinnerAlready { get; set; }
         public bool ReturnedStuffs { get; set; }
+        public bool DeathMatch { get; set; }
 
         public override List<string> Representer()
         {
@@ -179,12 +180,15 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
 
                         if (!Fights.SetCurrentWarrior(ref fight))
                         {
-                            fight.Add($"BAD|BOLD|К сожалению, вам придётся " +
-                                $"отказаться от миссии спасения Оллира... " +
-                                $"Возможно, вам больше повезёт в следующий раз...");
+                            if (DeathMatch)
+                            {
+                                fight.Add($"BAD|BOLD|К сожалению, вам придётся " +
+                                    $"отказаться от миссии спасения Оллира... " +
+                                    $"Возможно, вам больше повезёт в следующий раз...");
 
-                            Character.Protagonist.GameOver = true;
-
+                                Character.Protagonist.GameOver = true;
+                            }
+                            
                             return Fail(fight);
                         }
                     }
