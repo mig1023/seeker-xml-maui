@@ -84,8 +84,11 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
                 return false;
             }
 
-            fight.Add($"GRAY|{Character.Protagonist.Name} ранен слишком серьёзно и не " +
-                $"может продолжать бой! Товарищ должен принять меч из израненных рук!");
+            if (!start)
+            {
+                fight.Add($"GRAY|{carrentName} ранен слишком серьёзно и не может " +
+                    $"продолжать бой! Товарищ должен принять меч из израненных рук!");
+            }
 
             ShowCurrentWarrior(ref fight, start);
             return true;
