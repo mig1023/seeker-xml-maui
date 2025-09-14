@@ -48,6 +48,8 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             if ((Character.Protagonist.Hitpoint > 3) && !start)
                 return true;
 
+            var carrentName = Character.Protagonist.Name;
+
             SaveCurrentWarriorHitPoints();
 
             if (Character.Protagonist.ThibautHitpoint > 3)
@@ -76,8 +78,14 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             }
             else
             {
+                fight.Add($"GRAY|Дело кажется безнадёжным, " +
+                    $"друзья не могу позволить Суи продолжать бой!!");
+
                 return false;
             }
+
+            fight.Add($"GRAY|{Character.Protagonist.Name} ранен слишком серьёзно и не " +
+                $"может продолжать бой! Товарищ должен принять меч из израненных рук!");
 
             ShowCurrentWarrior(ref fight, start);
             return true;

@@ -117,7 +117,11 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
                         continue;
 
                     Character enemyInFight = enemy;
-                    fight.Add($"{enemy.Name} (жизнь {enemy.Hitpoint})");
+
+                    var enemyHitpoints = Game.Services.CoinsNoun(enemy.Hitpoint,
+                           "жизнь", "жизни", "жизней");
+
+                    fight.Add($"{enemy.Name} ({enemy.Hitpoint} {enemyHitpoints})");
 
                     Game.Dice.DoubleRoll(out int protagonistRollFirst, out int protagonistRollSecond);
                     int protagonistHitStrength = protagonistRollFirst + protagonistRollSecond + Character.Protagonist.Skill;
@@ -137,10 +141,10 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
 
                     if (protagonistHitStrength > enemyHitStrength)
                     {
-                        fight.Add($"GOOD|{enemy.Name} ранен");
-
                         enemy.Hitpoint -= 2;
                         enemyWounds += 1;
+
+                        fight.Add($"GOOD|{enemy.Name} ранен");
 
                         bool enemyLost = Fights.NoMoreEnemies(FightEnemies);
 
@@ -162,9 +166,13 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
                     }
                     else if (protagonistHitStrength < enemyHitStrength)
                     {
-                        fight.Add($"BAD|{enemy.Name} ранил {Character.Protagonist.Name}");
-
                         Character.Protagonist.Hitpoint -= 2;
+
+                        var hitpoints = Game.Services.CoinsNoun(Character.Protagonist.Hitpoint, 
+                            "жизнь", "жизни", "жизней");
+
+                        fight.Add($"BAD|{enemy.Name} ранил {Character.Protagonist.Name} " +
+                            $"(осталось {Character.Protagonist.Hitpoint} {hitpoints})");
 
                         if (!Fights.SetCurrentWarrior(ref fight))
                             return Fail(fight);
