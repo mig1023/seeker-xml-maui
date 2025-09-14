@@ -94,6 +94,9 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
         public override bool AvailabilityNode(string option) =>
             AvailabilityTrigger(option);
 
+        public override bool GameOver(out int toEndParagraph, out string toEndText) =>
+            GameOverBy(Character.Protagonist.GameOver, out toEndParagraph, out toEndText);
+
         public List<string> Fight()
         {
             List<string> fight = new List<string>();
@@ -175,7 +178,15 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
                             $"(осталось {Character.Protagonist.Hitpoint} {hitpoints})");
 
                         if (!Fights.SetCurrentWarrior(ref fight))
+                        {
+                            fight.Add($"BAD|BOLD|К сожалению, вам придётся " +
+                                $"отказаться от миссии спасения Оллира... " +
+                                $"Возможно, вам больше повезёт в следующий раз...");
+
+                            Character.Protagonist.GameOver = true;
+
                             return Fail(fight);
+                        }
                     }
                     else
                     {

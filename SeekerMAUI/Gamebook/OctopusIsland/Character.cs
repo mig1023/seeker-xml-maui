@@ -68,6 +68,8 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
 
         public int Skill { get; set; }
 
+        public bool GameOver { get; set; }
+
         public override void Init()
         {
             base.Init();
@@ -85,6 +87,8 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             Food = 4;
             LifeGivingOintment = 40;
             StolenStuffs = 0;
+
+            GameOver = false;
         }
 
         public Character Clone() => new Character()
@@ -106,11 +110,13 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             Food = this.Food,
             LifeGivingOintment = this.LifeGivingOintment,
             StolenStuffs = this.StolenStuffs,
+            GameOver = this.GameOver,
         };
 
         public override string Save() => String.Join("|",
             ThibautHitpoint, ThibautSkill, SergeHitpoint, SergeSkill, XolotlHitpoint,
-            XolotlSkill, SouhiHitpoint, SouhiSkill, Food, LifeGivingOintment, StolenStuffs);
+            XolotlSkill, SouhiHitpoint, SouhiSkill, Food, LifeGivingOintment, StolenStuffs,
+            GameOver ? "1" : "0");
 
         public override void Load(string saveLine)
         {
@@ -127,6 +133,7 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             Food = int.Parse(save[8]);
             LifeGivingOintment = int.Parse(save[9]);
             StolenStuffs = int.Parse(save[10]);
+            GameOver = save[11] == "1";
 
             IsProtagonist = true;
         }

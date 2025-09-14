@@ -79,7 +79,7 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             else
             {
                 fight.Add($"GRAY|Дело кажется безнадёжным, " +
-                    $"друзья не могу позволить Суи продолжать бой!!");
+                    $"друзья не могут позволить Суи продолжать бой!!");
 
                 return false;
             }
