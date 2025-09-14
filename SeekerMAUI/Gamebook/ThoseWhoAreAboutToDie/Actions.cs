@@ -20,11 +20,12 @@ namespace SeekerMAUI.Gamebook.ThoseWhoAreAboutToDie
         {
             if (option.Contains(">") || option.Contains("<"))
             {
-                if (Params.Fail(option))
-                    return false;
+                return !Params.Fail(option);
             }
-
-            return AvailabilityTrigger(option);
+            else
+            {
+                return AvailabilityTrigger(option);
+            }
         }
 
         public List<string> TryToWound()
