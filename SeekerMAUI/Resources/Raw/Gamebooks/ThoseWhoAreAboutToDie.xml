@@ -460,7 +460,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="56">
-			<Text>Секутор замахивается мечом. Если твоя Реакция больше 7, то ты замечаешь, что выпад ложный.</Text>
+			<Texts>
+				<Text>Секутор замахивается мечом.</Text>
+				<Text Style="Small">Если твоя Реакция больше 7, то ты замечаешь, что выпад ложный.</Text>
+			</Texts>
 			<Modifications>
 				<ReactionByReaction Value="7"/>
 			</Modifications>
