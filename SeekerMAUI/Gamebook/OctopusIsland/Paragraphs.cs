@@ -18,6 +18,7 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             action.WoundsToWin = Xml.IntParse(xmlAction["WoundsToWin"]);
             action.DinnerHitpointsBonus = Xml.IntParse(xmlAction["Dinner"]);
             action.ReturnedStuffs = Xml.BoolParse(xmlAction["ReturnedStuffs"]);
+            action.DeathMatch = Xml.BoolParse(xmlAction["DeathMatch"]);
 
             if (xmlAction["Enemy"] != null)
                 action.Enemies = new List<Character> { EnemyParse(xmlAction["Enemy"]) };
