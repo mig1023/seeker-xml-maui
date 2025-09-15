@@ -109,29 +109,29 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             Thibaut = new Character
             {
                 Name = "Тибо",
-                Skill = int.Parse(save[0]),
-                Hitpoint = int.Parse(save[1]),
+                Hitpoint = int.Parse(save[0]),
+                Skill = int.Parse(save[1]),
             };
 
             Serge = new Character
             {
                 Name = "Серж",
-                Skill = int.Parse(save[2]),
-                Hitpoint = int.Parse(save[3]),
+                Hitpoint = int.Parse(save[2]),
+                Skill = int.Parse(save[3]),
             };
 
             Xolotl = new Character
             {
                 Name = "Ксолотл",
-                Skill = int.Parse(save[4]),
-                Hitpoint = int.Parse(save[5]),
+                Hitpoint = int.Parse(save[4]),
+                Skill = int.Parse(save[5]),
             };
 
             Souhi = new Character
             {
                 Name = "Суи",
-                Skill = int.Parse(save[6]),
-                Hitpoint = int.Parse(save[7]),
+                Hitpoint = int.Parse(save[6]),
+                Skill = int.Parse(save[7]),
             };
 
             Team = new List<Character> { Serge, Xolotl, Thibaut, Souhi };

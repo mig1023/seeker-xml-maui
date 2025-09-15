@@ -40,14 +40,6 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             return statuses;
         }
 
-        //=> new List<string>
-        //{
-        //    $"Серж: {Character.Protagonist.Serge.Skill}/{Character.Protagonist.Serge.Hitpoint}",
-        //    $"Ксолотл: {Character.Protagonist.Xolotl.Skill}/{Character.Protagonist.Xolotl.Hitpoint}",
-        //    $"Тибо: {Character.Protagonist.Thibaut.Skill}/{Character.Protagonist.Thibaut.Hitpoint}",
-        //    $"Суи: {Character.Protagonist.Souhi.Skill}/{Character.Protagonist.Souhi.Hitpoint}",
-        //};
-
         public override List<string> StaticButtons()
         {
             List<string> staticButtons = new List<string> { };
@@ -85,30 +77,6 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             {
                 return false;
             }
-
-            //if (action.Contains("СЕРЖА"))
-            //{
-            //    Character.Protagonist.Serge.Hitpoint = Ointment.Cure(Character.Protagonist.Serge.Hitpoint);
-            //}
-            //else if (action.Contains("КСОЛОТЛА"))
-            //{
-            //    Character.Protagonist.Xolotl.Hitpoint = Ointment.Cure(Character.Protagonist.Xolotl.Hitpoint);
-            //}
-            //else if (action.Contains("ТИБО"))
-            //{
-
-            //    Character.Protagonist.Thibaut.Hitpoint = Ointment.Cure(Character.Protagonist.Thibaut.Hitpoint);
-            //}
-            //else if (action.Contains("СУИ"))
-            //{
-            //    Character.Protagonist.Souhi.Hitpoint = Ointment.Cure(Character.Protagonist.Souhi.Hitpoint);
-            //}
-            //else
-            //{
-            //    return false;
-            //}
-
-            //return true;
         }
 
         public override bool IsButtonEnabled(bool secondButton = false) =>
@@ -169,8 +137,6 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
                             Character.Protagonist.StolenStuffs = 0;
                         }
 
-                        //Fights.SaveCurrentWarriorHitPoints();
-
                         return fight;
                     }
                     else
@@ -212,9 +178,9 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
                 }
 
                 fight.Add(String.Empty);
-            }
 
-            round += 1;
+                round += 1;
+            }
         }
 
         public List<string> Dinner()
