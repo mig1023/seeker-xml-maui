@@ -4,8 +4,8 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
-        public List<Character> Enemies { get; set; }
         public Character Enemy { get; set; }
+
         public int WoundsToWin { get; set; }
         public int DinnerHitpointsBonus { get; set; }
         public bool DinnerAlready { get; set; }
@@ -30,13 +30,23 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             $"Животворная мазь: {Character.Protagonist.LifeGivingOintment}",
         };
 
-        public override List<string> AdditionalStatus() => new List<string>
+        public override List<string> AdditionalStatus()
         {
-            $"Серж: {Character.Protagonist.SergeSkill}/{Character.Protagonist.SergeHitpoint}",
-            $"Ксолотл: {Character.Protagonist.XolotlSkill}/{Character.Protagonist.XolotlHitpoint}",
-            $"Тибо: {Character.Protagonist.ThibautSkill}/{Character.Protagonist.ThibautHitpoint}",
-            $"Суи: {Character.Protagonist.SouhiSkill}/{Character.Protagonist.SouhiHitpoint}",
-        };
+            var statuses = new List<string>();
+
+            foreach (var hero in Character.Team)
+                statuses.Add($"{hero.Name}: {hero.Skill}/{hero.Hitpoint}");
+
+            return statuses;
+        }
+
+        //=> new List<string>
+        //{
+        //    $"Серж: {Character.Protagonist.Serge.Skill}/{Character.Protagonist.Serge.Hitpoint}",
+        //    $"Ксолотл: {Character.Protagonist.Xolotl.Skill}/{Character.Protagonist.Xolotl.Hitpoint}",
+        //    $"Тибо: {Character.Protagonist.Thibaut.Skill}/{Character.Protagonist.Thibaut.Hitpoint}",
+        //    $"Суи: {Character.Protagonist.Souhi.Skill}/{Character.Protagonist.Souhi.Hitpoint}",
+        //};
 
         public override List<string> StaticButtons()
         {
@@ -45,16 +55,16 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             if (Character.Protagonist.LifeGivingOintment <= 0)
                 return staticButtons;
 
-            if (Character.Protagonist.SergeHitpoint < 20)
+            if (Character.Serge.Hitpoint < 20)
                 staticButtons.Add("ВЫЛЕЧИТЬ СЕРЖА");
 
-            if (Character.Protagonist.XolotlHitpoint < 20)
+            if (Character.Xolotl.Hitpoint < 20)
                 staticButtons.Add("ВЫЛЕЧИТЬ КСОЛОТЛА");
 
-            if (Character.Protagonist.ThibautHitpoint < 20)
+            if (Character.Thibaut.Hitpoint < 20)
                 staticButtons.Add("ВЫЛЕЧИТЬ ТИБО");
 
-            if (Character.Protagonist.SouhiHitpoint < 20)
+            if (Character.Souhi.Hitpoint < 20)
                 staticButtons.Add("ВЫЛЕЧИТЬ СУИ");
 
             return staticButtons;
@@ -62,29 +72,43 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
 
         public override bool StaticAction(string action)
         {
-            if (action.Contains("СЕРЖА"))
-            {
-                Character.Protagonist.SergeHitpoint = Ointment.Cure(Character.Protagonist.SergeHitpoint);
-            }
-            else if (action.Contains("КСОЛОТЛА"))
-            {
-                Character.Protagonist.XolotlHitpoint = Ointment.Cure(Character.Protagonist.XolotlHitpoint);
-            }
-            else if (action.Contains("ТИБО"))
-            {
+            Character hero = Character.Team
+                .Where(x => action.ToUpper().Contains(x.Name))
+                .FirstOrDefault();
 
-                Character.Protagonist.ThibautHitpoint = Ointment.Cure(Character.Protagonist.ThibautHitpoint);
-            }
-            else if (action.Contains("СУИ"))
+            if (hero != null)
             {
-                Character.Protagonist.SouhiHitpoint = Ointment.Cure(Character.Protagonist.SouhiHitpoint);
+                hero.Hitpoint += Ointment.Cure(hero.Hitpoint);
+                return true;
             }
             else
             {
                 return false;
             }
 
-            return true;
+            //if (action.Contains("СЕРЖА"))
+            //{
+            //    Character.Protagonist.Serge.Hitpoint = Ointment.Cure(Character.Protagonist.Serge.Hitpoint);
+            //}
+            //else if (action.Contains("КСОЛОТЛА"))
+            //{
+            //    Character.Protagonist.Xolotl.Hitpoint = Ointment.Cure(Character.Protagonist.Xolotl.Hitpoint);
+            //}
+            //else if (action.Contains("ТИБО"))
+            //{
+
+            //    Character.Protagonist.Thibaut.Hitpoint = Ointment.Cure(Character.Protagonist.Thibaut.Hitpoint);
+            //}
+            //else if (action.Contains("СУИ"))
+            //{
+            //    Character.Protagonist.Souhi.Hitpoint = Ointment.Cure(Character.Protagonist.Souhi.Hitpoint);
+            //}
+            //else
+            //{
+            //    return false;
+            //}
+
+            //return true;
         }
 
         public override bool IsButtonEnabled(bool secondButton = false) =>
@@ -112,12 +136,12 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
                     continue;
 
                 Game.Dice.DoubleRoll(out int protagonistRollFirst, out int protagonistRollSecond);
-                int protagonistHitStrength = protagonistRollFirst + protagonistRollSecond + Character.Protagonist.Skill;
+                int protagonistHitStrength = protagonistRollFirst + protagonistRollSecond + Character.CurrentWarrior.Skill;
 
-                fight.Add($"{Character.Protagonist.Name}: мощность удара: " +
+                fight.Add($"{Character.CurrentWarrior.Name}: мощность удара: " +
                     $"{Game.Dice.Symbol(protagonistRollFirst)} + " +
                     $"{Game.Dice.Symbol(protagonistRollSecond)} + " +
-                    $"{Character.Protagonist.Skill} = {protagonistHitStrength}");
+                    $"{Character.CurrentWarrior.Skill} = {protagonistHitStrength}");
 
                 Game.Dice.DoubleRoll(out int enemyRollFirst, out int enemyRollSecond);
                 int enemyHitStrength = enemyRollFirst + enemyRollSecond + Enemy.Skill;
@@ -145,7 +169,7 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
                             Character.Protagonist.StolenStuffs = 0;
                         }
 
-                        Fights.SaveCurrentWarriorHitPoints();
+                        //Fights.SaveCurrentWarriorHitPoints();
 
                         return fight;
                     }
@@ -160,13 +184,13 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
                 }
                 else if (protagonistHitStrength < enemyHitStrength)
                 {
-                    Character.Protagonist.Hitpoint -= 2;
+                    Character.CurrentWarrior.Hitpoint -= 2;
 
-                    var hitpoints = Game.Services.CoinsNoun(Character.Protagonist.Hitpoint, 
+                    var hitpoints = Game.Services.CoinsNoun(Character.CurrentWarrior.Hitpoint, 
                         "жизнь", "жизни", "жизней");
 
-                    fight.Add($"BAD|BOLD|{Enemy.Name} ранил {Character.Protagonist.Name} " +
-                        $"(осталось {Character.Protagonist.Hitpoint} {hitpoints})");
+                    fight.Add($"BAD|BOLD|{Enemy.Name} ранил {Character.CurrentWarrior.Name} " +
+                        $"(осталось {Character.CurrentWarrior.Hitpoint} {hitpoints})");
 
                     if (!Fights.SetCurrentWarrior(ref fight))
                     {
@@ -197,10 +221,10 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
         {
             Character.Protagonist.Food -= 1;
 
-            Character.Protagonist.SouhiHitpoint += DinnerHitpointsBonus;
-            Character.Protagonist.SergeHitpoint += DinnerHitpointsBonus;
-            Character.Protagonist.ThibautHitpoint += DinnerHitpointsBonus;
-            Character.Protagonist.XolotlHitpoint += DinnerHitpointsBonus;
+            Character.Souhi.Hitpoint += DinnerHitpointsBonus;
+            Character.Serge.Hitpoint += DinnerHitpointsBonus;
+            Character.Thibaut.Hitpoint += DinnerHitpointsBonus;
+            Character.Xolotl.Hitpoint += DinnerHitpointsBonus;
 
             DinnerAlready = true;
 
