@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace SeekerMAUI.Gamebook.OctopusIsland
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
         public List<Character> Enemies { get; set; }
+        public Character Enemy { get; set; }
         public int WoundsToWin { get; set; }
         public int DinnerHitpointsBonus { get; set; }
         public bool DinnerAlready { get; set; }
@@ -15,15 +14,14 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
 
         public override List<string> Representer()
         {
-            List<string> enemies = new List<string>();
+            List<string> enemy = new List<string>();
 
-            if (Enemies == null)
-                return enemies;
+            if (Enemy == null)
+                return enemy;
 
-            foreach (Character enemy in Enemies)
-                enemies.Add($"{enemy.Name}\nловкость {enemy.Skill}  жизни {enemy.Hitpoint}");
+            enemy.Add($"{Enemy.Name}\nловкость {Enemy.Skill}  жизни {Enemy.Hitpoint}");
 
-            return enemies;
+            return enemy;
         }
 
         public override List<string> Status() => new List<string>
@@ -102,11 +100,6 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
         {
             List<string> fight = new List<string>();
 
-            List<Character> FightEnemies = new List<Character>();
-
-            foreach (Character enemy in Enemies)
-                FightEnemies.Add(enemy.Clone());
-
             int round = 1, enemyWounds = 0;
 
             Fights.SetCurrentWarrior(ref fight, start: true);
@@ -115,96 +108,89 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             {
                 fight.Add($"HEAD|Раунд: {round}");
 
-                foreach (Character enemy in FightEnemies)
+                if (Enemy.Hitpoint <= 0)
+                    continue;
+
+                Game.Dice.DoubleRoll(out int protagonistRollFirst, out int protagonistRollSecond);
+                int protagonistHitStrength = protagonistRollFirst + protagonistRollSecond + Character.Protagonist.Skill;
+
+                fight.Add($"{Character.Protagonist.Name}: мощность удара: " +
+                    $"{Game.Dice.Symbol(protagonistRollFirst)} + " +
+                    $"{Game.Dice.Symbol(protagonistRollSecond)} + " +
+                    $"{Character.Protagonist.Skill} = {protagonistHitStrength}");
+
+                Game.Dice.DoubleRoll(out int enemyRollFirst, out int enemyRollSecond);
+                int enemyHitStrength = enemyRollFirst + enemyRollSecond + Enemy.Skill;
+
+                fight.Add($"{Enemy.Name}: мощность удара: " +
+                    $"{Game.Dice.Symbol(enemyRollFirst)} + " +
+                    $"{Game.Dice.Symbol(enemyRollSecond)} + " +
+                    $"{Enemy.Skill} = {enemyHitStrength}");
+
+                if (protagonistHitStrength > enemyHitStrength)
                 {
-                    if (enemy.Hitpoint <= 0)
-                        continue;
+                    Enemy.Hitpoint -= 2;
+                    enemyWounds += 1;
 
-                    Character enemyInFight = enemy;
-
-                    Game.Dice.DoubleRoll(out int protagonistRollFirst, out int protagonistRollSecond);
-                    int protagonistHitStrength = protagonistRollFirst + protagonistRollSecond + Character.Protagonist.Skill;
-
-                    fight.Add($"{Character.Protagonist.Name}: мощность удара: " +
-                        $"{Game.Dice.Symbol(protagonistRollFirst)} + " +
-                        $"{Game.Dice.Symbol(protagonistRollSecond)} + " +
-                        $"{Character.Protagonist.Skill} = {protagonistHitStrength}");
-
-                    Game.Dice.DoubleRoll(out int enemyRollFirst, out int enemyRollSecond);
-                    int enemyHitStrength = enemyRollFirst + enemyRollSecond + enemy.Skill;
-
-                    fight.Add($"{enemy.Name}: мощность удара: " +
-                        $"{Game.Dice.Symbol(enemyRollFirst)} + " +
-                        $"{Game.Dice.Symbol(enemyRollSecond)} + " +
-                        $"{enemy.Skill} = {enemyHitStrength}");
-
-                    if (protagonistHitStrength > enemyHitStrength)
+                    if ((Enemy.Hitpoint <= 0) || ((WoundsToWin > 0) && (WoundsToWin <= enemyWounds)))
                     {
-                        enemy.Hitpoint -= 2;
-                        enemyWounds += 1;
+                        fight.Add($"GOOD|BOLD|{Enemy.Name} ранен и повержен!");
 
-                        bool enemyLost = Fights.NoMoreEnemies(FightEnemies);
+                        fight.Add(String.Empty);
+                        fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
 
-                        if (enemyLost || ((WoundsToWin > 0) && (WoundsToWin <= enemyWounds)))
+                        if (ReturnedStuffs)
                         {
-                            fight.Add($"GOOD|BOLD|{enemy.Name} ранен и повержен!");
-
-                            fight.Add(String.Empty);
-                            fight.Add("BIG|GOOD|Вы ПОБЕДИЛИ :)");
-
-                            if (ReturnedStuffs)
-                            {
-                                fight.Add("GOOD|Вы вернули украденные у вас рюкзаки!");
-                                Character.Protagonist.StolenStuffs = 0;
-                            }
-
-                            Fights.SaveCurrentWarriorHitPoints();
-
-                            return fight;
+                            fight.Add("GOOD|Вы вернули украденные у вас рюкзаки!");
+                            Character.Protagonist.StolenStuffs = 0;
                         }
-                        else
-                        {
-                            var enemyHitpoints = Game.Services.CoinsNoun(enemy.Hitpoint,
-                                "жизнь", "жизни", "жизней");
 
-                            fight.Add($"GOOD|BOLD|{enemy.Name} ранен " +
-                                $"(осталось {enemy.Hitpoint} {enemyHitpoints})");
-                        }
-                    }
-                    else if (protagonistHitStrength < enemyHitStrength)
-                    {
-                        Character.Protagonist.Hitpoint -= 2;
+                        Fights.SaveCurrentWarriorHitPoints();
 
-                        var hitpoints = Game.Services.CoinsNoun(Character.Protagonist.Hitpoint, 
-                            "жизнь", "жизни", "жизней");
-
-                        fight.Add($"BAD|BOLD|{enemy.Name} ранил {Character.Protagonist.Name} " +
-                            $"(осталось {Character.Protagonist.Hitpoint} {hitpoints})");
-
-                        if (!Fights.SetCurrentWarrior(ref fight))
-                        {
-                            if (DeathMatch)
-                            {
-                                fight.Add($"BAD|\nК сожалению, вам придётся " +
-                                    $"отказаться от миссии спасения Оллира... " +
-                                    $"Возможно, вам больше повезёт в следующий раз...");
-
-                                Character.Protagonist.GameOver = true;
-                            }
-                            
-                            return Fail(fight);
-                        }
+                        return fight;
                     }
                     else
                     {
-                        fight.Add("BOLD|Ничья в раунде");
-                    }
+                        var enemyHitpoints = Game.Services.CoinsNoun(Enemy.Hitpoint,
+                            "жизнь", "жизни", "жизней");
 
-                    fight.Add(String.Empty);
+                        fight.Add($"GOOD|BOLD|{Enemy.Name} ранен " +
+                            $"(осталось {Enemy.Hitpoint} {enemyHitpoints})");
+                    }
+                }
+                else if (protagonistHitStrength < enemyHitStrength)
+                {
+                    Character.Protagonist.Hitpoint -= 2;
+
+                    var hitpoints = Game.Services.CoinsNoun(Character.Protagonist.Hitpoint, 
+                        "жизнь", "жизни", "жизней");
+
+                    fight.Add($"BAD|BOLD|{Enemy.Name} ранил {Character.Protagonist.Name} " +
+                        $"(осталось {Character.Protagonist.Hitpoint} {hitpoints})");
+
+                    if (!Fights.SetCurrentWarrior(ref fight))
+                    {
+                        if (DeathMatch)
+                        {
+                            fight.Add($"BAD|\nК сожалению, вам придётся " +
+                                $"отказаться от миссии спасения Оллира... " +
+                                $"Возможно, вам больше повезёт в следующий раз...");
+
+                            Character.Protagonist.GameOver = true;
+                        }
+                            
+                        return Fail(fight);
+                    }
+                }
+                else
+                {
+                    fight.Add("BOLD|Ничья в раунде");
                 }
 
-                round += 1;
+                fight.Add(String.Empty);
             }
+
+            round += 1;
         }
 
         public List<string> Dinner()

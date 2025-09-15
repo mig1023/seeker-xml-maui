@@ -6,9 +6,6 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
 {
     class Fights
     {
-        public static bool NoMoreEnemies(List<Character> enemies) =>
-            enemies.Where(x => x.Hitpoint > 0).Count() == 0;
-
         public static void SaveCurrentWarriorHitPoints()
         {
             if (String.IsNullOrEmpty(Character.Protagonist.Name))

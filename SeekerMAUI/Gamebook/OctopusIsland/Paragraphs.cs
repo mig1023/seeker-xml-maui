@@ -19,9 +19,7 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             action.DinnerHitpointsBonus = Xml.IntParse(xmlAction["Dinner"]);
             action.ReturnedStuffs = Xml.BoolParse(xmlAction["ReturnedStuffs"]);
             action.DeathMatch = Xml.BoolParse(xmlAction["DeathMatch"]);
-
-            if (xmlAction["Enemy"] != null)
-                action.Enemies = new List<Character> { EnemyParse(xmlAction["Enemy"]) };
+            action.Enemy = EnemyParse(xmlAction["Enemy"]);
 
             return action;
         }
@@ -47,12 +45,20 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
             return option;
         }
 
-        private static Character EnemyParse(XmlNode xmlEnemy) => new Character
+        private static Character EnemyParse(XmlNode xmlEnemy)
         {
-            Name = Xml.StringParse(xmlEnemy.Attributes["Name"]),
-            Skill = Xml.IntParse(xmlEnemy.Attributes["Skill"]),
-            Hitpoint = Xml.IntParse(xmlEnemy.Attributes["Hitpoint"]),
-        };
+            if (xmlEnemy == null)
+                return null;
+
+            var enemy = new Character
+            {
+                Name = Xml.StringParse(xmlEnemy.Attributes["Name"]),
+                Skill = Xml.IntParse(xmlEnemy.Attributes["Skill"]),
+                Hitpoint = Xml.IntParse(xmlEnemy.Attributes["Hitpoint"]),
+            };
+
+            return enemy;
+        }
 
         public override Abstract.IModification ModificationParse(XmlNode xmlModification) =>
             Xml.ModificationParse(xmlModification, new Modification());
