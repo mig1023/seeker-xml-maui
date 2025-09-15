@@ -65,7 +65,7 @@ namespace SeekerMAUI.Gamebook.OctopusIsland
         public override bool StaticAction(string action)
         {
             Character hero = Character.Team
-                .Where(x => action.ToUpper().Contains(x.Name))
+                .Where(x => action.Contains(x.Name.ToUpper()))
                 .FirstOrDefault();
 
             if (hero != null)
