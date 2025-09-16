@@ -248,38 +248,39 @@ namespace SeekerMAUI.Gamebook.FaithfulSwordOfTheKing
             List<string> pursuit = new List<string>();
 
             int threeTimesInRow = 0, theyWin = 0;
-            
+            var result = "\nВ итоге они";
+
             for (int i = 1; i < 12; i++)
             {
                 Game.Dice.DoubleRoll(out int protagonistSpeed, out int enemiesSpeed);
 
-                pursuit.Add($"Ваша скорость: " +
-                    $"{Game.Dice.Symbol(protagonistSpeed)}  <-->  " +
-                    $"Их скорость: {Game.Dice.Symbol(enemiesSpeed)}");
+                pursuit.Add($"HEAD|BOLD|\nЭтап: {i}");
+                pursuit.Add($"Ваша скорость: {Game.Dice.Symbol(protagonistSpeed)}");
+                pursuit.Add($"Их скорость: {Game.Dice.Symbol(enemiesSpeed)}");
 
                 if (protagonistSpeed > enemiesSpeed)
                 {
-                    pursuit.Add("GOOD|Вы быстрее");
+                    pursuit.Add("GOOD|BOLD|Вы быстрее, они отстают!");
                     threeTimesInRow = 0;
                 }
                 else
                 {
-                    pursuit.Add("BAD|Они быстрее");
+                    pursuit.Add("BAD|BOLD|Они быстрее, они нагоняют...");
                     threeTimesInRow += 1;
                     theyWin += 1;
 
                     if (threeTimesInRow >= 3)
                     {
-                        pursuit.Add(String.Empty);
-                        pursuit.Add("BIG|BAD|Они без труда догнали вас :(");
-
+                        pursuit.Add($"BIG|BAD|\n{result} без труда догнали вас :(");
                         return pursuit;
                     }
                 }
             }
 
-            pursuit.Add(String.Empty);
-            pursuit.Add(Result(theyWin <= 6, "Они не догнали вас", "Они догнали вас"));
+            
+
+            pursuit.Add("\n" + Result(theyWin <= 6,
+                $"{result} не догнали вас", $"{result} догнали вас"));
 
             return pursuit;
         }
