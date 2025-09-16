@@ -2198,7 +2198,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="259">
-			<Text>Резкий импульс сотрясает всё ваше тело. Потеряйте 3 очка Здоровья. Дверь остаётся запертой.</Text>
+			<Texts>
+				<Text>Резкий импульс сотрясает всё ваше тело.</Text>
+				<Text Style="Small">Потеряйте 3 очка Здоровья.</Text>
+				<Text>Дверь остаётся запертой.</Text>
+			</Texts>
 			<Modifications>
 				<Hitpoints Value="-3"/>
 			</Modifications>
