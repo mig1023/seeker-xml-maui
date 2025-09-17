@@ -78,7 +78,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="6">
-			<Text>Получите 1 очко Позора за свою трусость. Ваш покровитель Арес?</Text>
+			<Texts>
+				<Text Style="Small">Получите 1 очко Позора за свою трусость.</Text>
+				<Text>Ваш покровитель Арес?</Text>
+			</Texts>
 			<Modifications>
 				<Shame Value="1"/>
 			</Modifications>
