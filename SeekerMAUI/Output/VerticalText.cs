@@ -22,16 +22,21 @@ namespace SeekerMAUI.Output
 
             int index = 0;
             int count = statusLines.Count;
-            double heightPart = (int)DeviceDisplay.MainDisplayInfo.Width / count;
+            double statusLength = statusLines.Sum(x => x.Length);
+
             float yposText = Constants.VERTICAL_YPOS_TEXT;
             float yposLine = Constants.VERTICAL_YPOS_LINE;
             float horizontal = Constants.HORIZONTAL_HEIGHT;
 
+            double allHeights = 0;
+
             foreach (var status in statusLines)
             {
+                double lenPart = (double)status.Length / statusLength;
+                double heightPart = (int)DeviceDisplay.MainDisplayInfo.Width * lenPart;              
                 string line = status.ToString();
-                float correction = horizontal - ((horizontal / count) * (count - index + 1));
-                float xpos = (float)((heightPart * index) + (heightPart / 2)) - correction;
+                float xpos = (float)(allHeights + (heightPart / 2));
+                allHeights += heightPart;
 
                 if (status.Contains("BOLD|"))
                 {
