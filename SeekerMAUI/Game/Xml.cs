@@ -177,6 +177,8 @@ namespace SeekerMAUI.Game
                 Data.XmlParagraphs.Add(Xml.IntParse(xmlNode.Attributes["No"]), xmlNode);
                 backgroundWorker.ReportProgress(progress);
                 progress += 1;
+
+                Thread.Sleep(4);
             }           
 
             Data.Constants.Clean();
