@@ -5,11 +5,12 @@ namespace SeekerMAUI.Output
 {
     public class VerticalText : BindableObject, IDrawable 
     {
-        public List<string> statusLines { get; set; }
+        public List<string> StatusLines { get; set; }
 
         public void Draw(ICanvas canvas, RectF dirtyRect)
         {
             string textColor = Game.Data.Constants.GetColor(ColorTypes.AdditionalFont);
+            bool equalParts = Game.Data.Constants.GetBool("EqualPartsInStatuses");
 
             canvas.FontSize = Constants.VERTICAL_FONT;
 
@@ -20,20 +21,24 @@ namespace SeekerMAUI.Output
 
             canvas.Rotate(90);
 
-            int index = 0;
-            int count = statusLines.Count;
-            double statusLength = statusLines.Sum(x => x.Length);
-
+            double statusLength = StatusLines.Sum(x => x.Length);
             float yposText = Constants.VERTICAL_YPOS_TEXT;
             float yposLine = Constants.VERTICAL_YPOS_LINE;
-            float horizontal = Constants.HORIZONTAL_HEIGHT;
 
-            double allHeights = 0;
+            double allHeights = 0, lenPart = 0;
 
-            foreach (var status in statusLines)
+            foreach (var status in StatusLines)
             {
-                double lenPart = (double)status.Length / statusLength;
-                double heightPart = (int)DeviceDisplay.MainDisplayInfo.Width * lenPart;              
+                if (equalParts)
+                {
+                    lenPart = (double)1 / StatusLines.Count;
+                }
+                else
+                {
+                    lenPart = (double)status.Length / statusLength;
+                }
+
+                double heightPart = DeviceDisplay.MainDisplayInfo.Width * lenPart;              
                 string line = status.ToString();
                 float xpos = (float)(allHeights + (heightPart / 2));
                 allHeights += heightPart;
@@ -62,8 +67,6 @@ namespace SeekerMAUI.Output
                 {
                     canvas.DrawString(line, xpos, yposText, HorizontalAlignment.Center);
                 }
-                
-                index += 1;
             }
         }
     }

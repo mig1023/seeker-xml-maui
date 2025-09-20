@@ -692,7 +692,7 @@ namespace SeekerMAUI
                 AdditionalStatus.IsVisible = true;
 
                 var verticalText = new Output.VerticalText();
-                verticalText.statusLines = addStatuses;
+                verticalText.StatusLines = addStatuses;
                 AdditionalStatus.Drawable = verticalText;
             }
         }
