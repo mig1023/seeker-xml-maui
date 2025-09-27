@@ -1016,5 +1016,12 @@
 				<Option Goto="82"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="131">
+			<Text>131.</Text>
+			<Options>
+				<Option Goto="292" Text="Если мумии еще тут и в сознании - если их обычное состояние заслуживает этого слова"/>
+				<Option Goto="256" Text="Если ты их победил, или они ушли"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
