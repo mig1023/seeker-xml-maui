@@ -1002,5 +1002,13 @@
 				<Option Goto="524" Text="Если у тебя нет ничего стоящего, или ты ничего не хочешь отдавать, вернись и попробуй другой вариант"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="129">
+			<Text>Который сейчас час?</Text>
+			<Options>
+				<Option Goto="227" Text="Если между 6:00 и 19:00 (день)"/>
+				<Option Goto="162" Text="Если еще нет 6:00, или уже позже 19:00 (ночь)"/>
+				<Option Goto="99" Text="Если же ты уже был здесь в это время суток, то"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
