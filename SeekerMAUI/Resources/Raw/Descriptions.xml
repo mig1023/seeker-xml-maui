@@ -1273,4 +1273,17 @@
 		<Setting>Космос</Setting>
 		<Color>0b1a39</Color>
 	</StarshipTraveller>
+	<KnightOfTheLivingDead>
+		<Title>Рыцарь живых мертвецов</Title>
+		<Original>Knight of the Living Dead</Original>
+		<Author>Аллен Варни</Author>
+		<Translator>Сергей Посниченко</Translator>
+		<Year>1989</Year>
+		<Text>Лич Абракса подняла тебя из могилы, чтобы ты нашел хотя бы несколько из двенадцати частей волшебного Посоха Уотердипа. Ты ничего не помнишь о своей прежней жизни, но ты и не поддался злу нежизни. Да, ты поищешь посох… чтобы с его помощью одолеть лича и предотвратить разрушение города Уотердип!\n\nВы вместе с личем находитесь на кладбище – Городе мертвых. Твой единственный «товарищ», это твое подсознание, воплощенное в черепе хорька, и слышать которое можешь только ты.</Text>
+		<Paragraphs>566</Paragraphs>
+		<Size>1</Size>
+		<Playthrough>На часок-полтора</Playthrough>
+		<Setting>Фэнтези</Setting>
+		<Color>d33207</Color>
+	</KnightOfTheLivingDead>
 </Gamebooks>

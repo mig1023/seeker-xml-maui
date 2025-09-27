@@ -94,6 +94,7 @@
 	  <None Remove="Resources\Images\Cover\insight.jpg" />
 	  <None Remove="Resources\Images\Cover\invisiblefront.jpg" />
 	  <None Remove="Resources\Images\Cover\keperlace.jpg" />
+	  <None Remove="Resources\Images\Cover\knightofthelivingdead.jpg" />
 	  <None Remove="Resources\Images\Cover\koshcheischain.jpg" />
 	  <None Remove="Resources\Images\Cover\landoftallgrasses.jpg" />
 	  <None Remove="Resources\Images\Cover\landofunwarybears.jpg" />
@@ -364,6 +365,7 @@
 	  <MauiImage Include="Resources\Images\Cover\insight.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\invisiblefront.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\keperlace.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\knightofthelivingdead.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\koshcheischain.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\landoftallgrasses.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\landofunwarybears.jpg" />
