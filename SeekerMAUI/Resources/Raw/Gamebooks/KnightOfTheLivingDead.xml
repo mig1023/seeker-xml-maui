@@ -1091,5 +1091,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="142">
+			<Text>142.</Text>
+			<Options>
+				<Option Goto="338" Text="Можешь попробовать подняться по туннелю вверх, откуда пришел"/>
+				<Option Goto="96" Text="или пойти дальше вглубь конструкта-червя"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
