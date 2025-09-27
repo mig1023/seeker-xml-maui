@@ -1270,5 +1270,12 @@
 				<Option Goto="378" Text="Уходи"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="165">
+			<Text>Тут все осталось по-прежнему - за исключением того, что летучая мышь улетела осматривать другие места. Все, что ты изменил, осталось измененным.</Text>
+			<Options>
+				<Option Goto="184" Text="Осмотреться"/>
+				<Option Goto="242" Text="Уходи"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
