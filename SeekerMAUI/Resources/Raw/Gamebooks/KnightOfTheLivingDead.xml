@@ -79,5 +79,12 @@
 				<Option Goto="441" Text="После первого раунда боя можешь попытаться сбежать, если хочешь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="8">
+			<Text>Отметь полчаса и брось кость.</Text>
+			<Options>
+				<Option Goto="55" Text="Если выпало от 1 до 8"/>
+				<Option Goto="459" Text="от 9 до 12"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
