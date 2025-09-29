@@ -1625,5 +1625,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="212">
+			<Text>Стекло этого ручного зеркальца темное и явно ничего не отражает. Но когда ты смотришься в него, то не веришь своим глазам!</Text>
+			<Options>
+				<Option Goto="71" Text="Если ты используешь Память A"/>
+				<Option Goto="180" Text="Если ты используешь Память B"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
