@@ -2727,5 +2727,13 @@
 				<Option Goto="482" Text="попробуешь приказать скелету отдать тебе шар"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="354">
+			<Text>Как ты можешь не дать этим негодяям уничтожить редкое дерево?</Text>
+			<Options>
+				<Option Goto="563" Text="Можешь атаковать их"/>
+				<Option Goto="291" Text="попытаться приказать им остановиться"/>
+				<Option Goto="333" Text="В противном случае, они его срубят"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
