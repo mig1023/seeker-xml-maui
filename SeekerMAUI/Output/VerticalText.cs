@@ -24,6 +24,7 @@ namespace SeekerMAUI.Output
             double statusLength = StatusLines.Sum(x => x.Length);
             float yposText = Constants.VERTICAL_YPOS_TEXT;
             float yposLine = Constants.VERTICAL_YPOS_LINE;
+            double displayWidth = DeviceDisplay.MainDisplayInfo.Width - Constants.HORIZONTAL_HEIGHT;
 
             double allHeights = 0, lenPart = 0;
 
@@ -38,7 +39,7 @@ namespace SeekerMAUI.Output
                     lenPart = (double)status.Length / statusLength;
                 }
 
-                double heightPart = DeviceDisplay.MainDisplayInfo.Width * lenPart;              
+                double heightPart = displayWidth * lenPart;              
                 string line = status.ToString();
                 float xpos = (float)(allHeights + (heightPart / 2));
                 allHeights += heightPart;
