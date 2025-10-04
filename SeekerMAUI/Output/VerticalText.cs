@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Maui.Graphics;
+using System;
 using static SeekerMAUI.Game.Data;
 
 namespace SeekerMAUI.Output
@@ -24,7 +25,7 @@ namespace SeekerMAUI.Output
             double statusLength = StatusLines.Sum(x => x.Length);
             float yposText = Constants.VERTICAL_YPOS_TEXT;
             float yposLine = Constants.VERTICAL_YPOS_LINE;
-            double displayWidth = DeviceDisplay.MainDisplayInfo.Width - Constants.HORIZONTAL_HEIGHT;
+            double displayWidth = DeviceDisplay.MainDisplayInfo.Width - Constants.HORIZONTAL_STATUS_SIZE;
 
             double allHeights = 0, lenPart = 0;
 

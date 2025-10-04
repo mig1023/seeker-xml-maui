@@ -648,7 +648,7 @@ namespace SeekerMAUI
             {
                 Status.IsVisible = true;
 
-                MainGrid.RowDefinitions[2].Height = Output.Constants.HORIZONTAL_HEIGHT;
+                MainGrid.RowDefinitions[2].Height = Output.Constants.HORIZONTAL_STATUS_SIZE;
 
                 Status.BackgroundColor = Color.FromHex(
                     Game.Data.Constants.GetColor(Game.Data.ColorTypes.StatusBar));
@@ -684,7 +684,7 @@ namespace SeekerMAUI
                 string backgroundColor = Game.Data.Constants.GetColor(
                     Game.Data.ColorTypes.AdditionalStatus);
 
-                MainGrid.ColumnDefinitions[1].Width = 20;
+                MainGrid.ColumnDefinitions[1].Width = Output.Constants.VERTICAL_STATUS_SIZE;
 
                 AdditionalStatusBorder.BackgroundColor = String.IsNullOrEmpty(backgroundColor) ?
                     Colors.LightGray : Color.FromHex(backgroundColor);
