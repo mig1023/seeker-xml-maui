@@ -181,10 +181,13 @@ namespace SeekerMAUI.Gamebook.SongOfJaguarsCliff
             fighters.Add(Character.Protagonist);
             fighters = fighters.OrderBy(x => x.Priority).ToList();
 
+            var order = 0;
+
             foreach (Character fighter in fighters)
             {
+                order += 1;
                 string info = fighter.Priority == 3 ? " - пропускает первый ход" : String.Empty;
-                fight.Add($"{fighter.Name}{info}");
+                fight.Add($"{order}. {fighter.Name}{info}");
             }
 
             int round = 0;
