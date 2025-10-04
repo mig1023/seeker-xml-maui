@@ -334,8 +334,14 @@ namespace SeekerMAUI.Gamebook.LordOfTheSteppes
             {
                 FightOrder = FightAll.OrderByDescending(o => o.Initiative).ToList();
 
+                var order = 0;
+
                 foreach (Character fighter in FightOrder)
-                    fight.Add($"{fighter.Name} (инициатива {fighter.Initiative})");
+                {
+                    order += 1;
+                    fight.Add($"{order}. {fighter.Name} (инициатива {fighter.Initiative})");
+                }
+                    
             }
             else
             {
