@@ -46,8 +46,9 @@ namespace SeekerMAUI.Output
 
                 if (status.Contains("BOLD|"))
                 {
-                    canvas.Font = new Microsoft.Maui.Graphics.Font(string.Empty, Constants.VERTICAL_BOLD_TEXT);
                     line = line.Replace("BOLD|", String.Empty);
+
+                    canvas.Font = new Microsoft.Maui.Graphics.Font(string.Empty, Constants.VERTICAL_BOLD_TEXT);
                 }
                 else
                 {
@@ -58,16 +59,13 @@ namespace SeekerMAUI.Output
                 {
                     line = line.Replace("CROSSEDOUT|", String.Empty);
 
-                    float length = (line.Length * Constants.VERTICAL_LINE_LEN) + 
+                    float length = (line.Length * Constants.VERTICAL_LINE_LEN) +
                         Constants.VERTICAL_LINE_BONUS;
 
-                    canvas.DrawString(line, xpos, yposText, HorizontalAlignment.Center);
                     canvas.DrawLine(xpos - length, yposLine, xpos + length, yposLine);
                 }
-                else
-                {
-                    canvas.DrawString(line, xpos, yposText, HorizontalAlignment.Center);
-                }
+
+                canvas.DrawString(line, xpos, yposText, HorizontalAlignment.Center);
             }
         }
     }
