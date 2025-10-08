@@ -1446,7 +1446,7 @@
 			<Options>
 				<Option Goto="527" Text="Осмотреть книги на полках"/>
 				<Option Goto="72" Text="Осмотреть прочие вещи в библиотеке"/>
-				<Option Goto="393" Text="уйти"/>
+				<Option Goto="393" Text="Уйти"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="174">
