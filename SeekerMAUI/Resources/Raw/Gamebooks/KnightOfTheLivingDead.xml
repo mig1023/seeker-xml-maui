@@ -4371,9 +4371,11 @@
 				<Option Goto="481" Text="«О курении трубок»"/>
 				<Option Goto="308" Text="«Научный труд о вампирах»"/>
 				<Option Goto="278" Text="«Религиозные обычаи в Северном Фаэруне»"/>
-				<Option Goto="167" Text="«Удивительные рассказы о големах»"/>
-				<Option Goto="72" Text="вернуться, чтобы осмотреть что-то еще"/>
-				<Option Goto="393" Text="уйти"/>
+				<Option Goto="167" Text="«Удивительные рассказы о големах»">
+					<Text>Либо:</Text>
+				</Option>
+				<Option Goto="72" Text="Вернуться, чтобы осмотреть что-то еще"/>
+				<Option Goto="393" Text="Уйти"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="528">
