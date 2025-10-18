@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
 {
@@ -7,6 +7,8 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
         public static Character Protagonist { get; set; }
         public override void Set(object character) =>
             Protagonist = (Character)character;
+
+        public string Memory { get; set; }
 
         public string Weapon { get; set; }
 
@@ -25,7 +27,8 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
         {
             base.Init();
 
-            Weapon = string.Empty;
+            Memory = string.Empty;
+            Weapon = "Меч";
             Attack = 0;
             Damage = 0;
             Hitpoints = 1;
@@ -34,6 +37,7 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
         public Character Clone() => new Character()
         {
             IsProtagonist = this.IsProtagonist,
+            Memory = this.Memory,
             Name = this.Name,
             Weapon = this.Weapon,
             Attack = this.Attack,
@@ -42,16 +46,17 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
         };
 
         public override string Save() => String.Join("|",
-            Weapon, Attack, Damage, Hitpoints);
+            Memory, Weapon, Attack, Damage, Hitpoints);
 
         public override void Load(string saveLine)
         {
             string[] save = saveLine.Split('|');
 
-            Weapon = save[0];
-            Attack = int.Parse(save[1]);
-            Damage = int.Parse(save[2]);
-            Hitpoints = int.Parse(save[3]);
+            Memory = save[0];
+            Weapon = save[1];
+            Attack = int.Parse(save[2]);
+            Damage = int.Parse(save[3]);
+            Hitpoints = int.Parse(save[4]);
 
             IsProtagonist = true;
         }
