@@ -6,22 +6,13 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
     {
         public override void Do()
         {
-            if (Name == "Memory")
+            if ((Name == "Memory") && (ValueString == "A"))
             {
-                Character.Protagonist.Memory = ValueString;
-
-                if (ValueString == "A")
-                {
-                    Character.Protagonist.Attack = 8;
-                    Character.Protagonist.Damage = 7;
-                    Character.Protagonist.Hitpoints = 40;
-                }
-                else
-                {
-                    Character.Protagonist.Attack = 7;
-                    Character.Protagonist.Damage = 8;
-                    Character.Protagonist.Hitpoints = 50;
-                }
+                Character.Protagonist.LateInit("A", 8, 7, 40);
+            }
+            else if (Name == "Memory")
+            {
+                Character.Protagonist.LateInit("B", 7, 8, 50);
             }
             else
             {

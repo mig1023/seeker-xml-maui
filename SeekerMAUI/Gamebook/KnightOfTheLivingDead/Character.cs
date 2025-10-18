@@ -34,6 +34,14 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
             Hitpoints = 1;
         }
 
+        public void LateInit(string memory, int attack, int damage, int hitpoints)
+        {
+            Memory = memory;
+            Attack = attack;
+            Damage = damage;
+            Hitpoints = hitpoints;
+        }
+
         public Character Clone() => new Character()
         {
             IsProtagonist = this.IsProtagonist,
