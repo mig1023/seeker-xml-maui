@@ -39,9 +39,6 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
             return paragraph;
         }
 
-        public override Option OptionParse(XmlNode xmlOption) =>
-            OptionParseWithDo(xmlOption, new Modification());
-
         public override Abstract.IModification ModificationParse(XmlNode xmlModification) =>
             Xml.ModificationParse(xmlModification, new Modification());
     }
