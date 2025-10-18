@@ -24,7 +24,7 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
 
                 XmlNode optionMod = xmlOption.SelectSingleNode("*");
 
-                if ((optionMod != null) && (optionMod["Value"] != null))
+                if ((optionMod != null) && (optionMod.Attributes["Value"] != null))
                     option.Do.Add(Xml.ModificationParse(optionMod, new Modification()));
 
                 paragraph.Options.Add(option);
