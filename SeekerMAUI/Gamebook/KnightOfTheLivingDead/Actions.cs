@@ -53,6 +53,8 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
                     if (!attackAlready)
                     {
                         fight.Add("BOLD|ТВОЙ УДАР:");
+
+                        attackAlready = true;
                         hit = Dodecahedron.Roll(ref fight);
 
                         if (hit <= Character.Protagonist.Attack)
