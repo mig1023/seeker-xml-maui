@@ -1024,7 +1024,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="115">
-			<Text>Брось кость.</Text>
+			<Actions>
+				<SimpleDice/>
+			</Actions>
 			<Options>
 				<Option Goto="371" Text="Выпало 1-8"/>
 				<Option Goto="514" Text="Выпало 9-12"/>
