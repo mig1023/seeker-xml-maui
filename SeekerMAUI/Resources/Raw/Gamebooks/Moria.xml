@@ -205,7 +205,7 @@
 		<Paragraph No="21">
 			<Text>Когда путники вошли в эту комнату, то они тут же услышали журчание воды — подземный источник пробил себе здесь дорогу.</Text>
 			<Modifications>
-				<WayBack Value="21"/>
+				<WayBack/>
 			</Modifications>
 			<Options>
 				<Option Goto="208" Text="Если хотите пить">
