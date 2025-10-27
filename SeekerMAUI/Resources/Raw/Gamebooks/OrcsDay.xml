@@ -573,7 +573,7 @@
 				</Test>
 			</Actions>
 			<Modifications>
-				<WayBack Value="34"/>
+				<WayBack/>
 			</Modifications>
 			<Options>
 				<Option Goto="5" Text="Повезло" Tag="Win"/>
