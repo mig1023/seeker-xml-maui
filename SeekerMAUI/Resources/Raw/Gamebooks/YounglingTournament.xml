@@ -929,7 +929,7 @@
 			</Texts>
 			<Modifications>
 				<LightSide Value="20"/>
-				<WayBack Value="90"/>
+				<WayBack/>
 			</Modifications>
 			<Triggers>Недоверие</Triggers>
 			<Options>
