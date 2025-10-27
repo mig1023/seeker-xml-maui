@@ -475,7 +475,7 @@
 		<Paragraph No="30">
 			<Text>Приключенцы с радостью принимают тебя в свою группу и интересуются, как тебя зовут. У тебя есть имя?</Text>
 			<Modifications>
-				<WayBack Value="30"/>
+				<WayBack/>
 			</Modifications>
 			<Options>
 				<Option Goto="66" Text="Если есть" Availability="Обрёл имя">
