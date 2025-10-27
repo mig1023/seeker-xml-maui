@@ -5508,7 +5508,7 @@
 			</Actions>
 			<Modifications>
 				<DarkSide Value="50"/>
-				<WayBack Value="505"/>
+				<WayBack/>
 			</Modifications>
 			<Options>
 				<Option Goto="600" Text="Вы отбавили Выносливость всех противников до нуля"/>
