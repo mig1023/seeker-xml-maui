@@ -952,7 +952,7 @@
 			</Texts>
 			<Modifications>
 				<LightSide Value="10"/>
-				<WayBack Value="91"/>
+				<WayBack/>
 			</Modifications>
 			<Triggers>Недоверие</Triggers>
 			<Options>
