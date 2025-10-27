@@ -672,7 +672,7 @@
 				</Test>
 			</Actions>
 			<Modifications>
-				<WayBack Value="42"/>
+				<WayBack/>
 			</Modifications>
 			<Options>
 				<Option Goto="62" Text="Провально" Tag="Fail">
