@@ -134,7 +134,7 @@
 		</Paragraph>
 		<Paragraph No="15">
 			<Modifications>
-				<WayBack Value="15"/>
+				<WayBack/>
 			</Modifications>
 			<Options>
 				<Option Goto="241" Text="Отказываешься от попытки переплыть озеро"/>
