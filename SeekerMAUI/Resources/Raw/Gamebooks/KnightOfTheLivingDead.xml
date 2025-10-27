@@ -4819,10 +4819,11 @@
 				<WayBack Value="555"/>
 			</Modifications>
 			<Options>
-				<Option Goto="489" Text="Узнать больше о Посохе Уотердипа"/>
-				<Option Goto="362" Text="узнать о конкретно этой части">
+				<Option Goto="551" Text="Узнать больше о Посохе Уотердипа"/>
+				<Option Goto="489" Text="Узнать о конкретно этой части">
 					<Text>Опьяненный контактом с божеством, отворачиваешься от алтаря к двери. Больше ты не можешь вернуться в святилище.</Text>
 				</Option>
+				<Option Goto="362"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="556">
