@@ -5471,7 +5471,7 @@
 			</Actions>
 			<Modifications>
 				<DarkSide Value="50"/>
-				<WayBack Value="503"/>
+				<WayBack/>
 			</Modifications>
 			<Untriggers>Корпускула Комы</Untriggers>
 			<Triggers>Темная сторона</Triggers>
