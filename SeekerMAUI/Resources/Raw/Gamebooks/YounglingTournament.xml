@@ -5421,7 +5421,7 @@
 			<Triggers>Темная сторона</Triggers>
 			<Modifications>
 				<DarkSide Value="50"/>
-				<WayBack Value="501"/>
+				<WayBack/>
 			</Modifications>
 			<Options>
 				<Option Goto="600" Text="Вы отбавили Выносливость обоих противников до нуля"/>
