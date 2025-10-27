@@ -934,7 +934,7 @@
 			</Texts>
 			<Modifications>
 				<Life Value="2"/>
-				<WayBack Value="100"/>
+				<WayBack/>
 			</Modifications>
 			<Options>
 				<Option Goto="61" Text="Покурить" Availability="Курильщик, В поиске сигарет, !Покурил на 100">
