@@ -1542,7 +1542,7 @@
 		<Paragraph No="208">
 			<Text>Все, кто выпьет этой воды, может прибавить себе 1 единицу силы! Свой путь вы можете продолжить:</Text>
 			<Modifications>
-				<WayBack Value="208"/>
+				<WayBack/>
 			</Modifications>
 			<Options>
 				<Option Goto="11" Text="На запад"/>
