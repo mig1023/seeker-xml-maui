@@ -517,5 +517,11 @@
 				<Option Goto="183" Text="Переход"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="77">
+			<Text>Бросок к серверной стойке. Толкнуть ее изо всех сил. С оглушительным скрежетом стойка падает на дрона, прижимая его к полу. Сноп искр — и он затихает.</Text>
+			<Options>
+				<Option Goto="42" Text="Дверь разблокирована. Уйти"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
