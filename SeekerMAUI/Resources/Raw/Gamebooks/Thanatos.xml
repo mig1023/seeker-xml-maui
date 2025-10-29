@@ -422,5 +422,11 @@
 				<Option Goto="104" Text="Найти укрытие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="62">
+			<Text>Пустой параграф</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
