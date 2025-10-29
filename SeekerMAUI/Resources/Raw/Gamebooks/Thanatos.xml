@@ -511,5 +511,11 @@
 				<Option Goto="161" Text="Переход"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="76">
+			<Text>Замереть. Существо не заметило. Дождаться, пока оно снова склонится над своей "трапезой", и на цыпочках проскользнуть мимо. Добраться до двери в криоотсек и тихо закрыть ее.</Text>
+			<Options>
+				<Option Goto="183" Text="Переход"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
