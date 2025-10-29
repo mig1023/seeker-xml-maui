@@ -244,5 +244,11 @@
 				<Option Goto="133" Text="Одумается"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="35">
+			<Text>Пустой параграф</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
