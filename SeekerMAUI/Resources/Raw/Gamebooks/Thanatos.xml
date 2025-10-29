@@ -86,5 +86,11 @@
 				<Option Goto="28" Text="Броском сократить дистанцию и полоснуть скальпелем по тугим жгутинам-«сухожилиям»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="10">
+			<Text>Пустой параграф</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
