@@ -453,5 +453,11 @@
 				<Option Goto="2" Text="Вернуться в главный коридор"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="67">
+			<Text>Выстрел в трубы над существом. Лед и пар окутывают зал. Существо шипит, его движения замедляются, оно покрывается инеем. Обезврежено.</Text>
+			<Options>
+				<Option Goto="26" Text="Бежать к капсулам"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
