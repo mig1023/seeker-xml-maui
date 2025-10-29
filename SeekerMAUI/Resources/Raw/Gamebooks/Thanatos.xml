@@ -205,5 +205,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="29">
+			<Text>Пустой параграф</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
