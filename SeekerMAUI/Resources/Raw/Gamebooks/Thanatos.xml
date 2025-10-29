@@ -492,5 +492,11 @@
 				<Option Goto="2" Text="Выйти в главный коридор"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="73">
+			<Text>Вы открываете огонь, и чудовище падает, сражённое пулями. Путь свободен.</Text>
+			<Options>
+				<Option Goto="183" Text="Войти в криоотсек"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
