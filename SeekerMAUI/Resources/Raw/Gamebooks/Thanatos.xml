@@ -270,5 +270,11 @@
 				<Option Goto="98" Text="Задать следующий вопрос или выбрать другое действие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="39">
+			<Text>Пустой параграф</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
