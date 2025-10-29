@@ -142,5 +142,11 @@
 				<Option Goto="167" Text="Переход"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="19">
+			<Text>Ползти вперед. Через пару минут — решетка, ведущая в главный коридор перед мостиком. Отодвинуть ее и спрыгнуть на пол. Ловушка пройдена.</Text>
+			<Options>
+				<Option Goto="2" Text="Выбрать, куда направиться дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
