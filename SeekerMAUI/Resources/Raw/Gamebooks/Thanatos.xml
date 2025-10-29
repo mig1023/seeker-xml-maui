@@ -343,5 +343,11 @@
 				<Option Goto="1" Text="Выход"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="50">
+			<Text>Удар по стеклу — витрина разлетается с оглушительным звоном. Внутри — лишь коллекционные жетоны и памятные медали: красиво, но бесполезно. Шум прокатывается по коридору.</Text>
+			<Options>
+				<Option Goto="56" Text="Переход"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
