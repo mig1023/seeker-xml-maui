@@ -384,5 +384,13 @@
 				<Option Goto="104" Text="Отскочить от кресла"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="56">
+			<Text>Из вентиляции вываливается тварь — бывший член экипажа, но его тело искажено. Он несется вперед, издавая визг.</Text>
+			<Options>
+				<Option Goto="60" Text="Стрелять из пистолета УП-4"/>
+				<Option Goto="85" Text="Готовиться к ближнему бою с монтировкой"/>
+				<Option Goto="141" Text="Увернуться и сбежать, если нет оружия"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
