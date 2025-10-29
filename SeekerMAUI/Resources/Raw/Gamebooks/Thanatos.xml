@@ -337,5 +337,11 @@
 				<Option Goto="5" Text="Попытаться взломать протокол"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="49">
+			<Text>Перед тобой Реестр Судеб\n\nЗамкни все 19 исходов — и тайная награда откроется тому, кто не отступает.</Text>
+			<Options>
+				<Option Goto="1" Text="Выход"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
