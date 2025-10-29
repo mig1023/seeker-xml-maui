@@ -529,5 +529,12 @@
 				<Option Goto="102" Text="Переход"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="79">
+			<Text>Решение принято. Протокол "Цербер". Нужно вернуться в криогенный отсек. Путь назад — через коридоры медотсека.</Text>
+			<Options>
+				<Option Goto="179" Text="Двигаться быстро, рискуя нашуметь"/>
+				<Option Goto="181" Text="Двигаться максимально тихо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
