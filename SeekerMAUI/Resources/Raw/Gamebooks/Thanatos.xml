@@ -92,5 +92,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="11">
+			<Text>В полной темноте. Через несколько изнурительных минут замок взломан. Гермодверь поддается. Вы на свободе.</Text>
+			<Options>
+				<Option Goto="2" Text="Вы в главном коридоре"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
