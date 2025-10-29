@@ -311,5 +311,11 @@
 				<Option Goto="126" Text="Уйти как и планировали"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="45">
+			<Text>Обыск стола. В ящике, под кипой бумаг, находится маленький ключ с выгравированным гербом флота. Он подходит к замку на офицерском кейсе.</Text>
+			<Options>
+				<Option Goto="145" Text="Открыть кейс ключом"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
