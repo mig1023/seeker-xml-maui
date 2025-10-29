@@ -498,5 +498,12 @@
 				<Option Goto="183" Text="Войти в криоотсек"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="74">
+			<Text>Теперь вы пешка в игре Геры. Покинуть мостик. Цель — научная лаборатория. Она находится за жилым отсеком.</Text>
+			<Options>
+				<Option Goto="117" Text="Идти к жилым каютам"/>
+				<Option Goto="131" Text="Направиться прямо в научную лабораторию"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
