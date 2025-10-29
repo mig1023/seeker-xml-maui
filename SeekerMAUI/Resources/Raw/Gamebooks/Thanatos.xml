@@ -180,5 +180,11 @@
 				<Option Goto="116" Text="Схватить тяжелый планшет и использовать как оружие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="25">
+			<Text>Пустой параграф</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
