@@ -1026,5 +1026,11 @@
 				<Option Goto="111" Text="Идти к главной консоли"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="154">
+			<Text>Пустой параграф</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
