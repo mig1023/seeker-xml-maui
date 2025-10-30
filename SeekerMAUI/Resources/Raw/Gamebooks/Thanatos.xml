@@ -551,5 +551,11 @@
 				<Option Goto="177" Text="Попытаться осторожно подтянуть ноги и найти опору"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="82">
+			<Text>Пустой параграф</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
