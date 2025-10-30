@@ -1255,5 +1255,11 @@
 				<Option Goto="148" Text="Вернуться в зал в поисках рычага или отвертки"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="188">
+			<Text>188.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
