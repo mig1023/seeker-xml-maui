@@ -1032,5 +1032,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="155">
+			<Text>За поворотом валяется расплющенный кабельный «скорпион». Тишина. Куски пластика прилипли к полу. Здесь больше нечего делать.</Text>
+			<Options>
+				<Option Goto="90" Text="Дальше по туннелю"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
