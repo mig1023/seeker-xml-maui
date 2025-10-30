@@ -601,5 +601,11 @@
 				<Option Goto="2" Text="Вернуться в главный коридор"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="90">
+			<Text>Тишина — союзник. Путь заканчивается решеткой в полу. Внизу — платформа с консолью ручного управления реактором. Тихо снять решетку и спрыгнуть.</Text>
+			<Options>
+				<Option Goto="172" Text="Переход"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
