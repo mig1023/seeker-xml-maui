@@ -1190,5 +1190,11 @@
 				<Option Goto="43" Text="Переход"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="178">
+			<Text>Пустой параграф</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
