@@ -999,5 +999,14 @@
 				<Option Goto="1" Text="Начать Заново"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="151">
+			<Text>Дверь на склад не заперта. Вход в небольшое, темное помещение. За спиной раздается скрежет, и дверь захлопывается. Кромешная тьма. Что-то маленькое и быстрое задевает ногу.</Text>
+			<Options>
+				<Option Goto="191" Text="Включить фонарик"/>
+				<Option Goto="47" Text="Включить фонарик"/>
+				<Option Goto="94" Text="Прорываться к двери"/>
+				<Option Goto="118" Text="Затаиться в углу"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
