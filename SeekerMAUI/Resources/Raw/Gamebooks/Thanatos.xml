@@ -607,5 +607,11 @@
 				<Option Goto="172" Text="Переход"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="91">
+			<Text>Риск — благородное дело. Раскачавшись, прыгнуть. Удар о решетку — она поддается. Удается ухватиться за край и втянуть себя в узкий, пыльный туннель.</Text>
+			<Options>
+				<Option Goto="43" Text="Переход"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
