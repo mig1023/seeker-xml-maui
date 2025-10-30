@@ -950,5 +950,11 @@
 				<Option Goto="159" Text="Переход"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="143">
+			<Text>Обманное движение, и когда тварь дергается, нырок вправо, проскальзывая мимо. Удается добежать до двери криоотсека, успев захлопнуть ее перед самым носом монстра.</Text>
+			<Options>
+				<Option Goto="183" Text="Переход"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
