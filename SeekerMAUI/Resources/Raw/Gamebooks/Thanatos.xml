@@ -956,5 +956,11 @@
 				<Option Goto="183" Text="Переход"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="144">
+			<Text>Удар. Монтировка с хрустом проламывает панцирь твари. Она визжит, но второй удар успокаивает ее.\n\n$ ^«Скорпион мертв»</Text>
+			<Options>
+				<Option Goto="90" Text="Продолжить путь по правому туннелю"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
