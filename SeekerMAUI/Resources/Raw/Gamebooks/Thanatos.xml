@@ -575,5 +575,12 @@
 				<Option Goto="170" Text="Подняться и войти в каюту капитана"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="86">
+			<Text>Осмотр капсулы завершен. Пора двигаться дальше. Перед глазами все тот же выбор.</Text>
+			<Options>
+				<Option Goto="157" Text="Направиться к запертой капсуле с красным индикатором"/>
+				<Option Goto="187" Text="Найти выход из отсека"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
