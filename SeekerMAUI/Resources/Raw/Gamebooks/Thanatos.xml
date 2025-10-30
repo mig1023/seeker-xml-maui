@@ -1184,5 +1184,11 @@
 				<Option Goto="158" Text="Переход"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="177">
+			<Text>Выдержка и сила. Игнорируя панику, найти опору на соседнем кабеле. Добравшись до решетки, выдавить ее и забраться в темноту вентиляционной шахты.</Text>
+			<Options>
+				<Option Goto="43" Text="Переход"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
