@@ -1170,5 +1170,13 @@
 				<Option Goto="58" Text="В ловушке, и здесь кончается воздух"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="175">
+			<Text>Снова в коридоре жилого отсека.</Text>
+			<Options>
+				<Option Goto="36" Text="Попробовать открыть дверь капитана, если еще не делали этого"/>
+				<Option Goto="2" Text="Вернуться в главный коридор"/>
+				<Option Goto="135" Text="Пойти в свою каюту"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
