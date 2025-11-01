@@ -1115,7 +1115,9 @@
 			</Texts>
 			<Triggers>КОНЦОВКА 13: ОБРАТНЫЙ УДАР</Triggers>
 			<Options>
-				<Option Goto="1" Text="Начать Заново"/>
+				<Option Goto="1" Text="Начать заново">
+					<RestartGame/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="151">
