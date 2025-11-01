@@ -969,7 +969,9 @@
 			</Texts>
 			<Triggers>КОНЦОВКА 6: НОВЫЙ БОГ</Triggers>
 			<Options>
-				<Option Goto="1" Text="Начать Заново"/>
+				<Option Goto="1" Text="Начать заново">
+					<RestartGame/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="130">
