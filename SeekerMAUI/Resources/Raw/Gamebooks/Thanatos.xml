@@ -648,7 +648,9 @@
 			</Texts>
 			<Triggers>КОНЦОВКА 18: НЕТ ВРЕМЕНИ</Triggers>
 			<Options>
-				<Option Goto="1" Text="Начать Заново"/>
+				<Option Goto="1" Text="Начать заново">
+					<RestartGame/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="88">
