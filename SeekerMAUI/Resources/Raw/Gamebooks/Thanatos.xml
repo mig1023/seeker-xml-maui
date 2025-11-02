@@ -6,10 +6,10 @@
 		</Copyright>
 		<Styles>
 			<Main Value="6a783e"/>
-			
 			<Background Value="000000"/>
 			<Font Value="96a077"/>
-			<Color Name="Continue, Option" Value="4a542b"/>
+			<Continue Value="4a542b"/>
+			<Option Value="c99b4b"/>
 			<StatusBar Value="3f4825"/>
 			<StatusFont Value="000000"/>
 			<SystemFont Value="788551"/>
