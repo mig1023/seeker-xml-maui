@@ -8,7 +8,10 @@ namespace SeekerMAUI.Gamebook.Thanatos
         {
             if (Name == "RestartGame")
             {
-                Game.Data.Triggers = new List<string>();
+                Game.Data.Triggers = Game.Data.Triggers
+                    .Where(x => x.StartsWith("КОНЦОВКА"))
+                    .ToList();
+
                 Character.Protagonist.Cycle += 1;
             }
             else if(Name == "KeyOfDestiny")
