@@ -83,9 +83,14 @@ namespace SeekerMAUI.Gamebook.Moria
                 return fight;
             }
 
+            var round = 0;
+
             while (Fights.IsStillSomeoneToFight(this))
             {
                 List<string> strongWarriors = Fights.StrongWarriorsInFellowship();
+
+                round += 1;
+                fight.Add($"\nHEAD|BOLD|*  *  *   РАУНД: {round}   *  *  *\n");
 
                 if (Enemies.Count <= (strongWarriors.Count * 3))
                 {
