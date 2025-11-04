@@ -178,7 +178,7 @@ namespace SeekerMAUI.Gamebook.LoneWolf
             foreach (var line in table)
             {
                 var damages = line.Value.Split('/');
-                tableLine += $"\n{line.Key} \t ---> \t [ {damages[0]} врагу / {damages[1]} вам ]";
+                tableLine += $"\n{line.Key} \t ---> \t [ {int.Parse(damages[0]):d2} врагу / {int.Parse(damages[1]):d2} вам ]";
             }
 
             fight.Add($"GRAY|{tableLine}\n");
