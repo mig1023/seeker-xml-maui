@@ -210,8 +210,6 @@ namespace SeekerMAUI.Gamebook.SongOfJaguarsCliff
                         continue;
                     }
 
-                    fight.Add(String.Empty);
-
                     Character enemy = ChooseEnemy(fighter, fighters);
                     Weapon.NextAction action = Weapon.ChooseWeapon(fighter, enemy);
 
