@@ -692,5 +692,12 @@
 				<Option Goto="170"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="100">
+			<Text>Вы задумываетесь над словами горничной, что она не слышала выстрелов, потому что плакала.</Text>
+			<Options>
+				<Option Goto="514" Text="Если Вы спросите ее, почему она плакала"/>
+				<Option Goto="97" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
