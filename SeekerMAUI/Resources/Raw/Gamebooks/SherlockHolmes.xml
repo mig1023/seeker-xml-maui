@@ -518,5 +518,11 @@
 				<Option Goto="14" Text="Если 4-12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="74">
+			<Text>Дальнейшее изучение сейфа не дает никаких результатов.</Text>
+			<Options>
+				<Option Goto="95"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
