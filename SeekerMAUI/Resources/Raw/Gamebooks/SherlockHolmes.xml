@@ -61,5 +61,11 @@
 				<Option Goto="253"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="6">
+			<Text>Вы напрягаете все свое внимание, но, к сожалению, не находите ничего полезного.</Text>
+			<Options>
+				<Option Goto="378"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
