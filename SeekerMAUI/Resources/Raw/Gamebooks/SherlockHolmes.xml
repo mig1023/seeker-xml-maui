@@ -718,5 +718,11 @@
 				<Option Goto="181" Text="В противном случае"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="104">
+			<Text>Вы закрываете платяной шкаф, уверенный, что ничего интересного в нем не найдете.\n\nДалее</Text>
+			<Options>
+				<Option Goto="305"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
