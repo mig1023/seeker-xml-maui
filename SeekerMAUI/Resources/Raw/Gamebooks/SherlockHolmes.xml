@@ -428,5 +428,12 @@
 				<Option Goto="253"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="62">
+			<Text>Наконец-то со сбором улик в Эплдор Тауэрс покончено.</Text>
+			<Options>
+				<Option Goto="69" Text="Если Вы хотите поразмышлять над их значением"/>
+				<Option Goto="149" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
