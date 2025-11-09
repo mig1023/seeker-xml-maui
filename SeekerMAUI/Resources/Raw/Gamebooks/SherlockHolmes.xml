@@ -699,5 +699,11 @@
 				<Option Goto="97" Text="В противном случае"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="101">
+			<Text>- Есть у вас какие-нибудь мысли по поводу того, кто мог убить мистера Милвертона? - спрашиваете Вы.\n\nДалее</Text>
+			<Options>
+				<Option Goto="92"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
