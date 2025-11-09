@@ -645,5 +645,12 @@
 				<Option Goto="323"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="93">
+			<Text>Вы размышляете над словами доктора Гордона.\n\nБросьте кубики и прибавьте к результату значение Вашей Интуиции:</Text>
+			<Options>
+				<Option Goto="292" Text="Если получилось 2-5"/>
+				<Option Goto="143" Text="Если 6-12"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
