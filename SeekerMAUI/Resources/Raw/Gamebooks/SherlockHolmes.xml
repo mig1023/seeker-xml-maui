@@ -415,5 +415,12 @@
 				<Option Goto="292"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="60">
+			<Text>- Итак, инспектор, кто у нас следующий по списку? - спрашиваете Вы Лестрейда.\n\n- Рейнольдс, извозчик - отвечает Лестрейд - Хотите его допросить?</Text>
+			<Options>
+				<Option Goto="184" Text="Если Вы желаете поговорить с Рейнольдсом"/>
+				<Option Goto="123" Text="Иначе"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
