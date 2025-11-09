@@ -422,5 +422,11 @@
 				<Option Goto="123" Text="Иначе"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="61">
+			<Text>Наконец Вы слышите, что городские часы бьют десять. Вы еще ждете некоторое время, но никто так и не появляется.</Text>
+			<Options>
+				<Option Goto="253"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
