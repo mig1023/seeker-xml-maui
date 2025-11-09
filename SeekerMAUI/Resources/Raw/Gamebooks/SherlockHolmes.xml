@@ -293,5 +293,11 @@
 				<Option Goto="283" Text="Если будете исследовать цепочку следов злоумышленников"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="41">
+			<Text>Вы благодарите извозчика за помощь и отдаете ему его награду.\n\nВычтите 5 шиллингов из денег, указанных на листке персонажа.</Text>
+			<Options>
+				<Option Goto="253"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
