@@ -38,7 +38,7 @@ namespace SeekerMAUI.Prototypes
             ConstantSettings.ContainsKey(name) && (ConstantSettings[name] == "True");
 
         public string GetString(string name) =>
-            ConstantSettings[name];
+            ConstantSettings?[name] ?? string.Empty;
 
         public virtual string GetColor(ButtonTypes type)
         {
