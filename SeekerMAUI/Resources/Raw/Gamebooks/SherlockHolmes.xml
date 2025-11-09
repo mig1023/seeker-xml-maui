@@ -1,0 +1,22 @@
+<Gamebook>
+	<Introduction>
+		<Copyright>
+			<Title>Серия «Загадки Шерлока Холмса»</Title>
+			<Author>Джеральд Линц, 1987</Author>
+		</Copyright>
+		<Dictionaries>
+			<Buttons>
+				<Item Name="1" Value="be2926"/>
+			</Buttons>
+		</Dictionaries>
+	</Introduction>
+	<Paragraphs>
+		<Paragraph No="0">
+			<Options>
+				<Option Goto="1" Text="Убийство в Эплдор Тауэрс" Image="AppledoreTowers" Style="be2926">
+					<Text Style="Small, Upper">Death at Appledore Towers, 1987</Text>
+				</Option>
+			</Options>
+		</Paragraph>
+	</Paragraphs>
+</Gamebook>

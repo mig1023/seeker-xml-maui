@@ -127,6 +127,7 @@
 	  <None Remove="Resources\Images\Cover\seasofblood.jpg" />
 	  <None Remove="Resources\Images\Cover\seatales.jpg" />
 	  <None Remove="Resources\Images\Cover\sheriff.jpg" />
+	  <None Remove="Resources\Images\Cover\sherlockholmes.jpg" />
 	  <None Remove="Resources\Images\Cover\silentschool.jpg" />
 	  <None Remove="Resources\Images\Cover\silveragesilhouette.jpg" />
 	  <None Remove="Resources\Images\Cover\songofjaguarscliff.jpg" />
@@ -277,6 +278,7 @@
 	  <None Remove="Resources\Images\Images\seatales_space.jpg" />
 	  <None Remove="Resources\Images\Images\sheriff_place.jpg" />
 	  <None Remove="Resources\Images\Images\sheriff_woman.jpg" />
+	  <None Remove="Resources\Images\Images\SherlockHolmes\appledoretowers.jpg" />
 	  <None Remove="Resources\Images\Images\silentschool_chess.jpg" />
 	  <None Remove="Resources\Images\Images\SongOfJaguarsCliff\song82a.jpg" />
 	  <None Remove="Resources\Images\Images\SongOfJaguarsCliff\song82b.jpg" />
@@ -398,6 +400,7 @@
 	  <MauiImage Include="Resources\Images\Cover\seasofblood.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\seatales.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\sheriff.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\sherlockholmes.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\silentschool.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\silveragesilhouette.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\songofjaguarscliff.jpg" />
@@ -546,6 +549,7 @@
 	  <MauiImage Include="Resources\Images\Images\SeaTales\space.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Sheriff\place.jpg" />
 	  <MauiImage Include="Resources\Images\Images\Sheriff\woman.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SherlockHolmes\appledoretowers.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SilentSchool\chess.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\song153.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\song181.jpg" />
