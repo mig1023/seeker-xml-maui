@@ -450,5 +450,12 @@
 				<Option Goto="462" Text="Иначе"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="65">
+			<Text>Ожидая чьего-нибудь появления в ответ на Ваше объявление, Вы погружаетесь в размышления над найденными уликами.</Text>
+			<Options>
+				<Option Goto="262" Text="Если Вы поместили объявления в 1 или 2 газетах"/>
+				<Option Goto="264" Text="Если в 3 или больше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
