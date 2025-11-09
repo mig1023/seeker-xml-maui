@@ -356,5 +356,11 @@
 				<Option Goto="116"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="51">
+			<Text>С затекшей спиной от долгого нахождения в согнутой позе над дорожкой, Вы поднимаетесь и потягиваетесь.</Text>
+			<Options>
+				<Option Goto="273"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
