@@ -672,5 +672,12 @@
 				<Option Goto="481" Text="В противном случае"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="97">
+			<Text>Вы пытаетесь решить, что полезного для расследования может рассказать Вам Мэри Джонс.</Text>
+			<Options>
+				<Option Goto="15" Text="Если Вы спросите ее мнение о Милвертоне"/>
+				<Option Goto="228" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
