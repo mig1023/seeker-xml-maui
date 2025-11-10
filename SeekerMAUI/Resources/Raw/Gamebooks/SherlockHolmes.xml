@@ -901,5 +901,11 @@
 				<Option Goto="321" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="131">
+			<Text>Ничего интересного среди пепла вы не находите.</Text>
+			<Options>
+				<Option Goto="431"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
