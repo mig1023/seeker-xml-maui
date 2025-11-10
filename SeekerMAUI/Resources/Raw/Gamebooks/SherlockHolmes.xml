@@ -1103,5 +1103,11 @@
 				<Option Goto="210" Text="Если Вы предложите ему фунт"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="161">
+			<Text>Чувствуя облегчение от того, что разговор с ней закончен, Вы благодарите миссис Линдон за помощь, и она покидает комнату.</Text>
+			<Options>
+				<Option Goto="4"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
