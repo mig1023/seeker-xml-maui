@@ -1248,5 +1248,11 @@
 				<Option Goto="328" Text="Если от 8 до 12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="183">
+			<Text>Среди одежды Вы не находите ничего интересного и закрываете комод.</Text>
+			<Options>
+				<Option Goto="484"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
