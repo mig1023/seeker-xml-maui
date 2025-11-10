@@ -907,5 +907,12 @@
 				<Option Goto="431"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="132">
+			<Text>Вы сверяетесь со своим списком и находите там братьев Джона и Джеймса Паттерсонов.</Text>
+			<Options>
+				<Option Goto="130" Text="Если Вы хотите встретиться с ними"/>
+				<Option Goto="276" Text="Если у Вас нет такого желания"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
