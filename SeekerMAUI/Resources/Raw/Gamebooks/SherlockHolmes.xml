@@ -800,5 +800,11 @@
 				<Option Goto="60"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="116">
+			<Text>Вы благодарите мисс Майлс за помощь, и горничная провожает Вас к выходу.</Text>
+			<Options>
+				<Option Goto="141"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
