@@ -962,5 +962,11 @@
 				<Option Goto="116" Text="Если Вы благодарите ее и уходите"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="140">
+			<Text>Осмотр двери не приносит результатов, и Вы переключаете внимание на большой сейф в углу.</Text>
+			<Options>
+				<Option Goto="251"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
