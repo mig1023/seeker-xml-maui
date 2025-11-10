@@ -752,5 +752,12 @@
 				<Option Goto="237" Text="Если назовете убийцу"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="109">
+			<Text>Вы задаетесь вопросом, может ли она рассказать Вам еще что-нибудь полезное.</Text>
+			<Options>
+				<Option Goto="114" Text="Если у Вас отмечен Вывод 11"/>
+				<Option Goto="296" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
