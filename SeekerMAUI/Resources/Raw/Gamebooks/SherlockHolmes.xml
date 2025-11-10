@@ -1116,5 +1116,11 @@
 				<Option Goto="157" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="163">
+			<Text>Из вежливости Вы еще некоторое время беседуете с полковником Доркингом, затем благодарите его за потраченное время и уходите.</Text>
+			<Options>
+				<Option Goto="71"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
