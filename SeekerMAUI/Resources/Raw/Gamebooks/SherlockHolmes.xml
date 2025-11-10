@@ -806,5 +806,12 @@
 				<Option Goto="141"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="117">
+			<Text>Вы размышляете, может ли Элен знать что-нибудь полезное для Вашего расследования.</Text>
+			<Options>
+				<Option Goto="47" Text="Если Вы спросите, как она относилась к Милвертону"/>
+				<Option Goto="439" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
