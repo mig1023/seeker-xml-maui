@@ -794,5 +794,11 @@
 				<Option Goto="296" Text="Иначе"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="115">
+			<Text>Вы благодарите лакея за помощь. Он кланяется и покидает Вас.</Text>
+			<Options>
+				<Option Goto="60"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
