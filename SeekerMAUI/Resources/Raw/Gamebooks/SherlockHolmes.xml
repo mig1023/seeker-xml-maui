@@ -942,5 +942,11 @@
 				<Option Goto="521" Text="Если не отмечено"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="137">
+			<Text>Решив не разговаривать с Джонни, Вы размышляете, чем заняться дальше.</Text>
+			<Options>
+				<Option Goto="162"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
