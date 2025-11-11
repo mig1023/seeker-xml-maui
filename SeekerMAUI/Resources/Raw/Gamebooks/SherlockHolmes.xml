@@ -1445,5 +1445,13 @@
 				<Option Goto="403" Text="Если от 8 до 12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="212">
+			<Text>Минуты ожидания кажутся бесконечными.\n\nБросьте кубики:</Text>
+			<Options>
+				<Option Goto="27" Text="Если получилось от 2 до 4"/>
+				<Option Goto="437" Text="Если от 5 до 7"/>
+				<Option Goto="61" Text="Если получилось от 8 до 12"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
