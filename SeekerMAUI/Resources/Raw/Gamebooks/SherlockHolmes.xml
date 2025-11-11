@@ -1547,5 +1547,12 @@
 				<Option Goto="389" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="227">
+			<Text>Вы возвращаетесь обратно к оранжерее и снова оглядываете ее, размышляя, есть ли здесь еще что-то, стоящее Вашего внимания.</Text>
+			<Options>
+				<Option Goto="273" Text="Если у Вас отмечено Решение 1"/>
+				<Option Goto="31" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
