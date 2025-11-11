@@ -1833,5 +1833,12 @@
 				<Option Goto="253"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="268">
+			<Text>Итак, по разговору горничной понятно, что она нервничает.</Text>
+			<Options>
+				<Option Goto="377" Text="Если Вы спросите ее, в чем причина такой нервозности"/>
+				<Option Goto="296" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
