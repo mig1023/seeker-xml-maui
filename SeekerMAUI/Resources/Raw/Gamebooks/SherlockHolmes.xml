@@ -1453,5 +1453,12 @@
 				<Option Goto="61" Text="Если получилось от 8 до 12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="213">
+			<Text>На следующее утро Вы рано встаете и быстро завтракаете, чтобы поскорее продолжить расследование.</Text>
+			<Options>
+				<Option Goto="339" Text="Если у Вас отмечено Решение 8"/>
+				<Option Goto="312" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
