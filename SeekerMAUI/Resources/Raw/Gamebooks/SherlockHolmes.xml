@@ -1897,5 +1897,11 @@
 				<Option Goto="272" Text="Если Вы решаете отказаться от встречи"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="277">
+			<Text>Вы идете на почту и просите местный справочник, чтобы найти адрес Эскота, но не обнаруживаете в нем никого с таким именем.\n\nДалее</Text>
+			<Options>
+				<Option Goto="111"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
