@@ -1588,5 +1588,11 @@
 				<Option Goto="484" Text="Если не хотите"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="233">
+			<Text>Выслушав Ваши обвинения, Холмс говорит:\n\n- Вы связали Ватсона и меня с этим делом, но при этом упустили большое количество фактов. Так вы можете сделать только хуже.</Text>
+			<Options>
+				<Option Goto="105"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
