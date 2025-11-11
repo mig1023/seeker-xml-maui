@@ -1957,5 +1957,11 @@
 				<Option Goto="522"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="286">
+			<Text>Вы благодарите Элен за ответы. Юная судомойка очень сильно нервничала и Вы радуетесь, что закончили прежде, чем у нее окончательно началась истерика.</Text>
+			<Options>
+				<Option Goto="526"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
