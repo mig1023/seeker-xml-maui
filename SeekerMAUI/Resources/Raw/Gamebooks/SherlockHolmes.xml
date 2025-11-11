@@ -1771,5 +1771,11 @@
 				<Option Goto="304" Text="Если от 8 до 12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="259">
+			<Text>Польщенный вниманием, с которым Вас слушают Холмс и Ватсон, Вы рассказываете им о результатах своего пребывания в Эплдор Тауэрс.\n\nДалее</Text>
+			<Options>
+				<Option Goto="387"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
