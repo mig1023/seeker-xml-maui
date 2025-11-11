@@ -1275,5 +1275,12 @@
 				<Option Goto="12" Text="Если от 5 до 12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="187">
+			<Text>Йетс - один из тех немногих, кто мог тем вечером запереть Брутаса.</Text>
+			<Options>
+				<Option Goto="429" Text="Если Вы спросите его про собаку"/>
+				<Option Goto="521" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
