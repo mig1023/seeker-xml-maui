@@ -1600,5 +1600,11 @@
 				<Option Goto="477"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="235">
+			<Text>Вы еще некоторое время вежливо беседуете с леди Евой и ее кузиной, затем благодарите их за помощь и покидаете квартиру.\n\nДалее</Text>
+			<Options>
+				<Option Goto="272"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
