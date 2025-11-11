@@ -1460,5 +1460,11 @@
 				<Option Goto="312" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="214">
+			<Text>Вы больше не можете придумать, о чем спросить извозчика. Вы благодарите его за помощь, и он уходит.</Text>
+			<Options>
+				<Option Goto="123"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
