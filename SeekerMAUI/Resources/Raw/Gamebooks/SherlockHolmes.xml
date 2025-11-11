@@ -1903,5 +1903,12 @@
 				<Option Goto="111"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="278">
+			<Text>Очевидно, что Рейнольдс часто возил Милвертона к жертвам его махинаций. Вы прикидываете, расскажет ли он к кому Милвертон ездил в последнее время.</Text>
+			<Options>
+				<Option Goto="133" Text="Если Вы спросите его об этом"/>
+				<Option Goto="214" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
