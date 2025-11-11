@@ -1917,5 +1917,12 @@
 				<Option Goto="325" Text="Если от 7 до 12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="280">
+			<Text>В ожидании ответа на объявление, Вы размышляете над собранными уликами, пытаясь сложить из них полную картину.</Text>
+			<Options>
+				<Option Goto="212" Text="Если Вы разместили объявление в 1 или 2 газетах"/>
+				<Option Goto="215" Text="Если в 3 или более"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
