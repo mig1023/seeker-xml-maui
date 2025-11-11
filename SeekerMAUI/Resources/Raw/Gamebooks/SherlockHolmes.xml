@@ -1581,5 +1581,12 @@
 				<Option Goto="225" Text="Если от 8 до 12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="232">
+			<Text>Вы огладываете комнату, размышляя, какие тайны здесь могут быть скрыты. Ваш взгляд останавливается на большом комоде с кучей ящиков.</Text>
+			<Options>
+				<Option Goto="56" Text="Если Вы хотите осмотреть комод"/>
+				<Option Goto="484" Text="Если не хотите"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
