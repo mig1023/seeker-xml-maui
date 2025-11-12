@@ -2646,5 +2646,12 @@
 				<Option Goto="118"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="390">
+			<Text>К кому Вы поедете - к Хорнету или Осборну?</Text>
+			<Options>
+				<Option Goto="285" Text="Если хотите посетить издательство"/>
+				<Option Goto="152" Text="Если Осборна"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
