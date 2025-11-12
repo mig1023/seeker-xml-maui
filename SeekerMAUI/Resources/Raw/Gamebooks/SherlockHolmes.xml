@@ -2340,5 +2340,12 @@
 				<Option Goto="526"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="344">
+			<Text>Вы благодарите Дженкинса за помощь, и секретарь мгновенно покидает комнату. Лестрейд заглядывает в список и говорит, что следующей идет миссис Линдон, экономка.</Text>
+			<Options>
+				<Option Goto="148" Text="Если Вы хотите опросить ее"/>
+				<Option Goto="4" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
