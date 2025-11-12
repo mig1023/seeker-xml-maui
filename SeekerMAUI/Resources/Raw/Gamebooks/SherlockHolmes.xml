@@ -2053,5 +2053,11 @@
 				<Option Goto="474" Text="Если Вы поедете к графине без него"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="300">
+			<Text>Вы полностью осмотрели стены и по тому же пути вернулись к дому.\n\nДалее</Text>
+			<Options>
+				<Option Goto="227"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
