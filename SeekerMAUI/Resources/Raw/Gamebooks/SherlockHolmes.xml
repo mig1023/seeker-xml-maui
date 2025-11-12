@@ -2144,5 +2144,11 @@
 				<Option Goto="180"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="314">
+			<Text>- Нет, ни вы, ни Ватсон в Милвертона не убивали, - говорите Вы. - Убийцы не вы.\n\nДалее</Text>
+			<Options>
+				<Option Goto="108"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
