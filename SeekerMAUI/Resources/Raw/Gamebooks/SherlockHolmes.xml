@@ -2620,5 +2620,12 @@
 				<Option Goto="82" Text="Если от 8 до 12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="386">
+			<Text>Пытаясь навести порядок в своих мыслях, Вы делаете несколько заметок.</Text>
+			<Options>
+				<Option Goto="71" Text="Если у Вас отмечено Решение 17"/>
+				<Option Goto="395" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
