@@ -2084,5 +2084,12 @@
 				<Option Goto="525"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="305">
+			<Text>Единственное, что Вы еще не осмотрели в спальне - это ванная комната.</Text>
+			<Options>
+				<Option Goto="451" Text="Если Вы хотите ей заняться"/>
+				<Option Goto="62" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
