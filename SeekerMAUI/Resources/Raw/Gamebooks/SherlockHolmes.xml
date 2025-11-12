@@ -2685,5 +2685,11 @@
 				<Option Goto="71" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="396">
+			<Text>Вы благодарите капитана Грея и лейтенанта Фрэзера за помощь и покидаете казарму.</Text>
+			<Options>
+				<Option Goto="132"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
