@@ -2678,5 +2678,12 @@
 				<Option Goto="124"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="395">
+			<Text>Последнее имя в Вашем списке - имя леди Сильвии Дэниелс. Хотите попытаться встретиться с ней?</Text>
+			<Options>
+				<Option Goto="480" Text="Если хотите"/>
+				<Option Goto="71" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
