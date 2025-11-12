@@ -2328,5 +2328,11 @@
 				<Option Goto="489" Text="Если от 8 до 12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="342">
+			<Text>- Извините, я не нахожу никакой связи между вашими делами и нашими, -резко говорит Джон Паттерсон. - Не тратьте впустую время, сэр.\n\nДалее</Text>
+			<Options>
+				<Option Goto="411"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
