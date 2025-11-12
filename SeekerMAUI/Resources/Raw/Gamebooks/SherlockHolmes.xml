@@ -2640,5 +2640,11 @@
 				<Option Goto="40"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="389">
+			<Text>Ничего полезного в записной книжке больше найти не удается. Вы смотрите на Лестрейда и кладете ее обратно в ящик стола.</Text>
+			<Options>
+				<Option Goto="118"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
