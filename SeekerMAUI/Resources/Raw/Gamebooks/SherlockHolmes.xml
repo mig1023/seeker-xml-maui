@@ -2672,5 +2672,11 @@
 				<Option Goto="289"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="394">
+			<Text>Судя по всему, злоумышленники сначала вырезали часть дверного стекла, а затем, просунув руку в отверстие, открыли замок. Очевидно, все было сделано тихо и аккуратно.</Text>
+			<Options>
+				<Option Goto="124"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
