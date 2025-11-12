@@ -2666,5 +2666,11 @@
 				<Option Goto="367"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="393">
+			<Text>К сожалению, следы на пустоши растаяли слишком быстро, чтобы можно было проследить, куда они ведут.</Text>
+			<Options>
+				<Option Goto="289"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
