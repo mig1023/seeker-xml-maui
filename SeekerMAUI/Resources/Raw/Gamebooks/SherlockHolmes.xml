@@ -2386,5 +2386,11 @@
 				<Option Goto="170" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="351">
+			<Text>Поговорив с братьями о том, о сем еще некоторое время, Вы благодарите Паттерсонов за помощь и покидаете их квартиру.\n\nДалее</Text>
+			<Options>
+				<Option Goto="276"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
