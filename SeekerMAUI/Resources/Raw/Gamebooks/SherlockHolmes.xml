@@ -2019,5 +2019,12 @@
 				<Option Goto="407"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="295">
+			<Text>Вы смотрите на прикроватный столик. Он стоит так, чтобы до него можно было дотянуться, не вставая с кровати. Сверху на нем нет ничего, ящик закрыт.</Text>
+			<Options>
+				<Option Goto="382" Text="Если Вы хотите осмотреть ящик"/>
+				<Option Goto="232" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
