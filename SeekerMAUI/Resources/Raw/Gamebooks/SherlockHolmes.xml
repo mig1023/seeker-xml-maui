@@ -2026,5 +2026,11 @@
 				<Option Goto="232" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="296">
+			<Text>Вы решаете, что горничную Вам спрашивать больше не о чем. Вы благодарите ее и отпускаете.\n\nДалее</Text>
+			<Options>
+				<Option Goto="28"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
