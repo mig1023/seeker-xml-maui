@@ -2736,5 +2736,11 @@
 				<Option Goto="163" Text="Если поблагодарите его и уйдете"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="404">
+			<Text>Вы не знаете о чем еще можно спросить леди Еву.</Text>
+			<Options>
+				<Option Goto="272"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
