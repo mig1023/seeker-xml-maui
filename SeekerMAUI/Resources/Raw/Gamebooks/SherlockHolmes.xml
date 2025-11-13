@@ -3120,5 +3120,11 @@
 				<Option Goto="424" Text="Если от 6 до 12"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="462">
+			<Text>Вы благодарите мальчика за помощь и взглядом провожаете его, покидающего комнату.</Text>
+			<Options>
+				<Option Goto="162"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
