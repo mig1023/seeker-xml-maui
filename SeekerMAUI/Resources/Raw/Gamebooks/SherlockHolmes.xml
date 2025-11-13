@@ -3010,5 +3010,12 @@
 				<Option Goto="518" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="445">
+			<Text>Вам приходит в голову вопрос, почему у стены садовник прекратил погоню, а не погнался за преступниками дальше?</Text>
+			<Options>
+				<Option Goto="249" Text="Если Вы спросите его, почему он остановился"/>
+				<Option Goto="48" Text="Если Ваши вопросы к Грину закончились"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
