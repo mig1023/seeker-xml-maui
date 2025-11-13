@@ -2879,5 +2879,14 @@
 				<Option Goto="55" Text="Если спросите, что он знает о Милвертоне"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="426">
+			<Text>Набрав воздуха, Вы собираетесь назвать Холмсу имя женщины, убившей Милвертона.</Text>
+			<Options>
+				<Option Goto="16" Text="Если назовете мисс Майлс"/>
+				<Option Goto="464" Text="Если леди Еву Блэквелл"/>
+				<Option Goto="355" Text="Если леди Блейкни"/>
+				<Option Goto="505" Text="Если мисс Филиппу Блэквелл"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
