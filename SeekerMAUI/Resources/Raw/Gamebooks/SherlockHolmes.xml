@@ -2940,5 +2940,11 @@
 				<Option Goto="379"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="435">
+			<Text>Оказавшись в переулке позади дома, Вы быстро скрываетесь в тумане. Никто не пытается Вас остановить.</Text>
+			<Options>
+				<Option Goto="362"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
