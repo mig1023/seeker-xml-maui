@@ -3514,5 +3514,11 @@
 				<Option Goto="149" Text="В противном случае"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="521">
+			<Text>Вы благодарите Йетса за помощь, он, прощаясь, приподнимает кепку и уходит, явно радуясь окончанию разговора.</Text>
+			<Options>
+				<Option Goto="376"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
