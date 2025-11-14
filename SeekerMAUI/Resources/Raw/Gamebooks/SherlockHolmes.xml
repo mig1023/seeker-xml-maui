@@ -3302,5 +3302,11 @@
 				<Option Goto="80"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="490">
+			<Text>Холмс выслушивает Вас, затем говорит:\n\n- Вы доказали, что один из нас был в ту ночь в Эплдор Тауэрс. Поскольку это был или я или Ватсон, нетрудно догадаться, кто был в напарниках.</Text>
+			<Options>
+				<Option Goto="105"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
