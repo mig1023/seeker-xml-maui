@@ -3282,5 +3282,12 @@
 				<Option Goto="105"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="487">
+			<Text>Вы размышляете, какой вопрос миссис Линдон задать следующим.</Text>
+			<Options>
+				<Option Goto="453" Text="Если Вы спросите ее о хозяйственных делах"/>
+				<Option Goto="161" Text="Если позволите ей идти"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
