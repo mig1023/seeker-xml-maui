@@ -3395,5 +3395,12 @@
 				<Option Goto="220" Text="В противном случае"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="503">
+			<Text>Вы задумываетесь, что ответить на вопрос Холмса.</Text>
+			<Options>
+				<Option Goto="260" Text="Если скажете, что это Холмс и Ватсон убили Милвертона"/>
+				<Option Goto="314" Text="Если скажете, что кто-то еще"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
