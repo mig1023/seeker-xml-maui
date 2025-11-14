@@ -3339,5 +3339,11 @@
 				<Option Goto="164"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="495">
+			<Text>Вы осматриваете ее но ничего интересного не обнаруживаете. Одеяла и покрывало аккуратно застелены, их края приглашающее загнуты. Подушки хорошо взбиты.</Text>
+			<Options>
+				<Option Goto="295"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
