@@ -3455,5 +3455,11 @@
 				<Option Goto="161" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="512">
+			<Text>Вы благодарите Бесси за помощь. Очевидно - она не знает ничего, что могло бы Вам помочь.</Text>
+			<Options>
+				<Option Goto="246"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
