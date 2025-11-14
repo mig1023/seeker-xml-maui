@@ -3461,5 +3461,12 @@
 				<Option Goto="246"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="513">
+			<Text>- Вам нужны более серьезные доказательства, - говорит Холмс. - Ведь вы выдвигаете очень серьезное обвинение.</Text>
+			<Options>
+				<Option Goto="444" Text="Если у Вас отмечены Решение 19 и Улика S"/>
+				<Option Goto="106" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
