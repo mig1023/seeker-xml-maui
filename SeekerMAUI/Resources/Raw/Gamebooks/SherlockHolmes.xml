@@ -3534,5 +3534,11 @@
 				<Option Goto="44"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="524">
+			<Text>Вы решаете, что смысл разговаривать есть только с людьми, упомянутыми и секретарем Милвертона, и его кухаркой.\n\nОтметьте Решение 17.</Text>
+			<Options>
+				<Option Goto="276"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
