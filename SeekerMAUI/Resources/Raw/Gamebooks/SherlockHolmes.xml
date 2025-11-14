@@ -3560,5 +3560,12 @@
 				<Option Goto="396"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="528">
+			<Text>Вы думаете, что осторожность секретаря излишней и удивляетесь, почему они с Силверсмитом не спасли бумаги.</Text>
+			<Options>
+				<Option Goto="293" Text="Если спросите его об этом"/>
+				<Option Goto="510" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
