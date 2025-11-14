@@ -3573,5 +3573,12 @@
 				<Option Goto="170"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="530">
+			<Text>Что бы такого сделать, чтоб важные люди стали с Вами разговаривать?</Text>
+			<Options>
+				<Option Goto="290" Text="Если у Вас отмечено Решение 20"/>
+				<Option Goto="318" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
