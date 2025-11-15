@@ -4253,5 +4253,14 @@
 				<Option Goto="695"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="634">
+			<Text>Вы стоите на пороге конюшни полковника Стюарта.</Text>
+			<Options>
+				<Option Goto="626" Text="Осмотреть комнату конюха"/>
+				<Option Goto="669" Text="Осмотреть стойло Звезды Ирландии"/>
+				<Option Goto="544" Text="Осмотреть каптёрку"/>
+				<Option Goto="733" Text="Закончить"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
