@@ -4002,5 +4002,11 @@
 				<Option Goto="728"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="596">
+			<Text>Утягиваемому прочь возбужденной толпой, Вам не удаётся уделить достаточно внимания сплетням окружающих, и ничего полезного из них Вы не узнаёте.\n\nДалее</Text>
+			<Options>
+				<Option Goto="764"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
