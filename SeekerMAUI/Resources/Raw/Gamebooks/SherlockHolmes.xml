@@ -3969,5 +3969,11 @@
 				<Option Goto="588" Text="Если отсутствует «Улики/G»: Далее"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="591">
+			<Text>Вы пытаетесь тщательно прислушиваться и внимательно смотреть в толпе по сторонам, но ничего интересного узнать не выходит.\n\nДалее</Text>
+			<Options>
+				<Option Goto="764"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
