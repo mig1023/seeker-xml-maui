@@ -16,6 +16,9 @@
 				<Option Goto="1" Text="Убийство в Эплдор Тауэрс" Image="AppledoreTowers" Style="be2926">
 					<Text Style="Small, Upper">Death at Appledore Towers, 1987</Text>
 				</Option>
+				<Option Goto="531" Text="Звезда Ирландии" Image="StarOfIreland" Style="be2926">
+					<Text Style="Small, Upper">Murder at the Diogenes Club I, 1987</Text>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1">
@@ -3571,6 +3574,12 @@
 			<Options>
 				<Option Goto="290" Text="Если у Вас отмечено Решение 20"/>
 				<Option Goto="318" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
+		<Paragraph No="531">
+			<Text>ИГРА ВОТ-ВОТ НАЧНЁТСЯ\n\nТеперь у Вас есть возможность поработать в компании самого известного в мире частного детектива. И не пугайтесь, если у Вас с первого раза не получится идеально провести расследование, просто начните снова!\n\nВозможно Вам, как детективу, кстати придётся совет, данный Холмсом Ватсону:\n\n«Вот один из моих давних принципов: когда вам удастся отсеять все невозможные варианты, останется один. Именно он и будет решением»\n\nУспехов Вам и удачи!\n\n$ ^«Журнал»</Text>
+			<Options>
+				<Option Goto="674" Text="Создать персонажа"/>
 			</Options>
 		</Paragraph>
 	</Paragraphs>
