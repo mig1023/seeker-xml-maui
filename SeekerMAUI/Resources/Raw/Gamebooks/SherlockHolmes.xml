@@ -3633,5 +3633,12 @@
 				<Option Goto="554"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="540">
+			<Text>Может быть, получится разузнать что-то у Роско и его приятелей?</Text>
+			<Options>
+				<Option Goto="682" Text="Пойти искать Роско"/>
+				<Option Goto="764" Text="Не тратить на это время"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
