@@ -3601,5 +3601,12 @@
 				<Option Goto="661"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="535">
+			<Text>Вы размышляете над его ответом, одновременно подбирая формулировку для следующего вопроса.</Text>
+			<Options>
+				<Option Goto="650" Text="Спросить его о причине плохого выступления Звезды Ирландии"/>
+				<Option Goto="686" Text="Не спрашивать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
