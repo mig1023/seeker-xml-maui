@@ -3697,5 +3697,11 @@
 				<Option Goto="646" Text="Продолжить с тем, что есть"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="549">
+			<Text>Вы перечитываете этикетку, но это не помогает. Вы понятия не имеете, что это может быть за препарат и как он мог бы подействовать на лошадь.\n\nДалее</Text>
+			<Options>
+				<Option Goto="742"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
