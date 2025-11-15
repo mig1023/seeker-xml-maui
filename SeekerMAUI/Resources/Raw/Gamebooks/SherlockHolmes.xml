@@ -4140,5 +4140,12 @@
 				<Option Goto="624" Text="Продолжить с тем, что есть"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="617">
+			<Text>- Теперь, когда стол Ватсона вами изучен, - продолжает Холмс, - ответьте, что он пишет -письма или рассказ?</Text>
+			<Options>
+				<Option Goto="688" Text="Письма"/>
+				<Option Goto="777" Text="Рассказ"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
