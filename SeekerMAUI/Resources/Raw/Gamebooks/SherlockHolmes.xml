@@ -3781,5 +3781,11 @@
 				<Option Goto="733"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="562">
+			<Text>- Простите, шеф, но пока я подбирал бутылочку, что он бросил, он успел слинять. А потом я увидел его тока когда он снова в конюшню вернулся.\n\nДалее</Text>
+			<Options>
+				<Option Goto="728"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
