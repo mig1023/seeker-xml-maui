@@ -3949,5 +3949,12 @@
 				<Option Goto="603" Text="Если отсутствует «Улики/T»: Далее"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="588">
+			<Text>Вы подбираете подходящий вопрос.</Text>
+			<Options>
+				<Option Goto="738" Text="Спросить Рейнса, делал ли он ставку на Звезду Ирландии"/>
+				<Option Goto="650" Text="Спросить о возможных причинах плохого выступления лошади"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
