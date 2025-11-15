@@ -3627,5 +3627,11 @@
 				<Option Goto="603" Text="Не спрашивать"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="539">
+			<Text>Вы отправили юного Стэнли следить за Боузером и Фитцхью.\n\nОтмечено Решение 2\n\n$ ^«Решение 2»\n\nДалее</Text>
+			<Options>
+				<Option Goto="554"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
