@@ -4304,5 +4304,11 @@
 				<Option Goto="557" Text="Если отсутствует «Улики/A»: Далее"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="641">
+			<Text>Вы отправили юного Стэнли следить за Роско.\n\nОтмечено Решение 1\n\n$ ^«Решение 1»\n\nДалее</Text>
+			<Options>
+				<Option Goto="554"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
