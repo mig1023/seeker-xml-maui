@@ -4562,5 +4562,11 @@
 				<Option Goto="613"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="681">
+			<Text>Полковник Стюарт ведёт Вас через толпу к конюшням. Он ступает бодрой, твёрдой походкой и видно, что он спешит изо всех сил.\n\nДалее</Text>
+			<Options>
+				<Option Goto="610"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
