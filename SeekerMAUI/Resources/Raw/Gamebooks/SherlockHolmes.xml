@@ -4342,5 +4342,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="647">
+			<Text>Вы не можете припомнить, чтобы читали где-нибудь о свойствах этого препарата.</Text>
+			<Options>
+				<Option Goto="546" Text="Если отмечено «Улики/G»: У Вас отмечена Улика G"/>
+				<Option Goto="724" Text="Если отсутствует «Улики/G»: Далее"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
