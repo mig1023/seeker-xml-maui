@@ -4393,5 +4393,12 @@
 				<Option Goto="577"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="655">
+			<Text>Вы не находите ничего интересного. Даже после особенно тщательных поисков Вы находите лишь несколько маленьких тайников, которые всё равно оказываются пусты.</Text>
+			<Options>
+				<Option Goto="634" Text="Поискать в другом месте"/>
+				<Option Goto="733" Text="Закончить"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
