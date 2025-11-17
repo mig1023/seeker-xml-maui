@@ -4613,5 +4613,12 @@
 				<Option Goto="602"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="689">
+			<Text>Тщательный обыск не приносит ничего интересного.</Text>
+			<Options>
+				<Option Goto="634" Text="Поискать в другом месте"/>
+				<Option Goto="733" Text="Закончить"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
