@@ -4872,5 +4872,11 @@
 				<Option Goto="679" Text="Если отсутствует «Улики/H»: Далее"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="729">
+			<Text>- Прекрасно, - говорит Холмс. - Чистосердечное признание облегчает ситуацию. Хорошая работа.\n\nЕго похвала согревает Вам сердце.\n\nДалее</Text>
+			<Options>
+				<Option Goto="541"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
