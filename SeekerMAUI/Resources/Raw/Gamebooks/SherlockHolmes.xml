@@ -7,6 +7,7 @@
 		<Dictionaries>
 			<Buttons>
 				<Item Name="1" Value="be2926"/>
+				<Item Name="531" Value="293a3d"/>
 			</Buttons>
 		</Dictionaries>
 	</Introduction>
@@ -16,7 +17,7 @@
 				<Option Goto="1" Text="Убийство в Эплдор Тауэрс" Image="AppledoreTowers" Style="be2926">
 					<Text Style="Small, Upper">Death at Appledore Towers, 1987</Text>
 				</Option>
-				<Option Goto="531" Text="Звезда Ирландии" Image="StarOfIreland" Style="be2926">
+				<Option Goto="531" Text="Звезда Ирландии" Image="StarOfIreland" Style="293a3d">
 					<Text Style="Small, Upper">Murder at the Diogenes Club I, 1987</Text>
 				</Option>
 			</Options>
