@@ -4782,5 +4782,12 @@
 				<Option Goto="565"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="716">
+			<Text>Вы делаете в блокноте пару пометок и размышляете, стоит ли спросить у полковника Стюарта ещё о чём-нибудь.</Text>
+			<Options>
+				<Option Goto="782" Text="Спросить его о работниках"/>
+				<Option Goto="587" Text="Приступить к опросу их самих"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
