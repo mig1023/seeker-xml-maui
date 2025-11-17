@@ -4837,5 +4837,12 @@
 				<Option Goto="541" Text="Продолжить с тем, что есть"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="724">
+			<Text>Вы аккуратно убираете флакон в карман пиджака и размышляете, имеет ли смысл обыскивать другие части конюшни.</Text>
+			<Options>
+				<Option Goto="634" Text="Продолжить искать"/>
+				<Option Goto="733" Text="Закончить"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
