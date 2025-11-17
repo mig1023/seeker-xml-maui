@@ -5161,5 +5161,11 @@
 				<Option Goto="794"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="772">
+			<Text>- Если бы вы действительно хорошо изучили все доказательства, - говорит Холмс, раскуривая трубку, - стало бы очевидным, что препарат лошади дал конюх, Джон Оливер.\n\nДалее</Text>
+			<Options>
+				<Option Goto="622"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
