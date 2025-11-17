@@ -4645,5 +4645,11 @@
 				<Option Goto="653"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="694">
+			<Text>Вы отправили юного Стэнли следить за конюхом полковника Стюарта - Оливером.\n\nОтмечено Решение 3\n\n$ ^«Решение 3»\n\nДалее</Text>
+			<Options>
+				<Option Goto="554"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
