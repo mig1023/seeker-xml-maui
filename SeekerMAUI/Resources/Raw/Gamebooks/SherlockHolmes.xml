@@ -5173,5 +5173,11 @@
 				<Option Goto="780"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="774">
+			<Text>Вы получаете достижение "Элементарно!" за то, что Вам удалось добыть улики G или H и I, а также U и X, полностью раскрывающие это дело!\n\nСпасибо за игру!\n\n$ получено достижение «Элементарно!»</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
