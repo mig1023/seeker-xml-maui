@@ -5203,5 +5203,11 @@
 				<Option Goto="732"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="779">
+			<Text>Изучив этикетку, Вы признаёте в "лекарстве" препарат, который мог бы замедлить лошадь.\n\nОтмечен Вывод 8.\n\n$ ^«Вывод 8»\n\nДалее</Text>
+			<Options>
+				<Option Goto="742"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
