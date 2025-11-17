@@ -4909,5 +4909,11 @@
 				<Option Goto="551" Text="Не подходить"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="734">
+			<Text>Совместному походу за выигрышем Ватсона, Вы предпочли отправиться с полковником на конюшню.\n\nОтмечено Решение 4\n\n$ ^«Решение 4»\n\nДалее</Text>
+			<Options>
+				<Option Goto="681"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
