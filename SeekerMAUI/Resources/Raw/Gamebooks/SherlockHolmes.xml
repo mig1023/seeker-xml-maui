@@ -5108,5 +5108,11 @@
 				<Option Goto="547"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="764">
+			<Text>Посмотрев на часы, Вы обнаруживаете, что вот-вот наступит время встречи с "солдатом нерегулярной армии" Холмса. Пришла пора покинуть трассу.\n\nДалее</Text>
+			<Options>
+				<Option Goto="652"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
