@@ -4885,5 +4885,14 @@
 				<Option Goto="672" Text="Продолжить с тем, что есть"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="731">
+			<Text>- Достойный обзор улик, - тихо произносит Холмс. - Но перейдем к сути. Кого вы обвиняете в отравлении Звезды Ирландии?</Text>
+			<Options>
+				<Option Goto="581" Text="Жокея"/>
+				<Option Goto="769" Text="Генри Рейнса, тренера"/>
+				<Option Goto="542" Text="Боузера и Фитцхью"/>
+				<Option Goto="566" Text="Джона Оливера, конюха"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
