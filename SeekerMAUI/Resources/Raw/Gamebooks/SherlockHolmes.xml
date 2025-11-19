@@ -5455,5 +5455,12 @@
 				<Option Goto="816" Text="Отправитесь ловить убийцу"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="816">
+			<Text>Вы с волнением ждёте от Холмса дальнейших предложений.</Text>
+			<Options>
+				<Option Goto="1040" Text="Если отмечено «Улики/Q»: У Вас отмечена Улика Q"/>
+				<Option Goto="985" Text="Если отсутствует «Улики/Q»: Далее"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
