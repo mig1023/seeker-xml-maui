@@ -6006,5 +6006,11 @@
 				<Option Goto="1099"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="899">
+			<Text>Вы доставляете убийцу в полицию и с триумфом возвращаетесь на Бейкер-стрит.</Text>
+			<Options>
+				<Option Goto="1058"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
