@@ -6076,5 +6076,11 @@
 				<Option Goto="1113"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="910">
+			<Text>Предположив, что записка содержит шифр, Вы решаете ещё раз внимательно перечитать её.</Text>
+			<Options>
+				<Option Goto="849"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
