@@ -5775,5 +5775,11 @@
 				<Option Goto="969"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="863">
+			<Text>Вы благодарите месье Арманда за потраченное время и покидаете отель.</Text>
+			<Options>
+				<Option Goto="885"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
