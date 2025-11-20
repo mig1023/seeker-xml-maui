@@ -5987,5 +5987,11 @@
 				<Option Goto="949" Text="Если в наличии 9 «Кубики + Навык + Дедукция/Результат»: Результат от 9 до 12, $«Результат» = 0 "/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="896">
+			<Text>Этот шифр более бестолковый, чем Вы способны вынести.</Text>
+			<Options>
+				<Option Goto="1056"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
