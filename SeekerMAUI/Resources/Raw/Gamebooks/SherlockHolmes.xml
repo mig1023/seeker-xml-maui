@@ -6165,5 +6165,11 @@
 				<Option Goto="840"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="924">
+			<Text>Проведённый тест не показывает наличия в бутылке бренди ничего необычного.</Text>
+			<Options>
+				<Option Goto="1168"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
