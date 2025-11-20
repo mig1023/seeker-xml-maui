@@ -5844,5 +5844,11 @@
 				<Option Goto="1093"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="874">
+			<Text>- Полковника Сильвестра убил юрист, Генри Гамильтон, - уверенно заявляете Вы. Холмс поднимает бровь.\n\n- Да? - спрашивает он. - И зачем ему это делать, по вашему мнению?</Text>
+			<Options>
+				<Option Goto="1107"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
