@@ -5920,5 +5920,12 @@
 				<Option Goto="1189"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="886">
+			<Text>Вы объясняете Арманду, что расследуете смерть полковника Сильвестра и вам известно, что в прошлом у него с полковником были дела.</Text>
+			<Options>
+				<Option Goto="870" Text="Спросите, что он думает о полковнике Сильвестре"/>
+				<Option Goto="863" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
