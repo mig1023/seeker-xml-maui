@@ -6135,5 +6135,11 @@
 				<Option Goto="1045"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="919">
+			<Text>Некоторое время Вы возитесь с замком с помощью перочинного ножа Ватсона, но вскрыть его и дверь Вам так и не удаётся.</Text>
+			<Options>
+				<Option Goto="1101"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
