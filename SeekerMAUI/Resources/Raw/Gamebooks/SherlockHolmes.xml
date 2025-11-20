@@ -5927,5 +5927,12 @@
 				<Option Goto="863" Text="Нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="887">
+			<Text>Вы возвращаете письма слуге, и он швыряет их в сторону.\n\n- Чем-то ещё могу вам помочь? - спрашивает он.</Text>
+			<Options>
+				<Option Goto="843" Text="Попросите показать бренди Сильвестра"/>
+				<Option Goto="1101" Text="В противном случае"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
