@@ -6770,5 +6770,11 @@
 				<Option Goto="1172"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1016">
+			<Text>Смущённый перспективой допрашивать Холмса и полагая, что Холмс рассказал бы всё важное и без него, Вы решаете обойтись без допроса детектива.</Text>
+			<Options>
+				<Option Goto="858"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
