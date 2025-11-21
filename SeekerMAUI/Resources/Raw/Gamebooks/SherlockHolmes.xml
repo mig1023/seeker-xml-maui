@@ -6782,5 +6782,11 @@
 				<Option Goto="886"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1018">
+			<Text>Боюсь, что да, - отвечаете Вы. - Полковник почти осушил его.</Text>
+			<Options>
+				<Option Goto="1054"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
