@@ -6465,5 +6465,11 @@
 				<Option Goto="809" Text="Нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="969">
+			<Text>Вы отдаёте записку Ватсону на хранение. Затем, поворачиваетесь к Холмсу и спрашиваете:\n\n- У вас найдётся немного времени, чтобы изучить остальные улики?</Text>
+			<Options>
+				<Option Goto="1118"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
