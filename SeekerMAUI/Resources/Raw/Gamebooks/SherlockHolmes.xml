@@ -6814,5 +6814,11 @@
 				<Option Goto="826"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1023">
+			<Text>Вы пробуете вспомнить ещё что-нибудь полезное в текущей ситуации, но на ум ничего не приходит.</Text>
+			<Options>
+				<Option Goto="1155"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
