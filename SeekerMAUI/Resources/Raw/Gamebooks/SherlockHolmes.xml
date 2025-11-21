@@ -6595,5 +6595,11 @@
 				<Option Goto="1042"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="989">
+			<Text>У вас нет никаких предположений, куда мог деться Гамильтон. Не удаётся придумать ни одного варианта, как его можно было бы выследить.</Text>
+			<Options>
+				<Option Goto="1131"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
