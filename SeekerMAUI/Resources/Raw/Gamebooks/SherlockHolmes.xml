@@ -7191,5 +7191,11 @@
 				<Option Goto="1131"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1080">
+			<Text>От серии чётких ударов слуга отключается. Вы с Ватсоном начинаете перебирать бумаги, но они в таком беспорядке и путанице, что ничего интересного найти не удаётся.</Text>
+			<Options>
+				<Option Goto="1101"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
