@@ -7433,5 +7433,12 @@
 				<Option Goto="1098" Text="Если в наличии 1 «Время на допросы/Осталось минут»: Нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1117">
+			<Text>Хотя на стук никто не ответил, внутри Вам удаётся расслышать шум, похожий на звуки двигаемой мебели.</Text>
+			<Options>
+				<Option Goto="925" Text="Хотите выломать дверь"/>
+				<Option Goto="1101" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
