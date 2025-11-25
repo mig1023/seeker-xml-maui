@@ -7366,5 +7366,12 @@
 				<Option Goto="831"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1107">
+			<Text>Вы аккуратно перебираете доказательства, которые могли бы убедить детектива, что вина Гамильтона доказана.</Text>
+			<Options>
+				<Option Goto="803" Text="Если отмечено «Улики/Q»: У Вас отмечена Улика Q"/>
+				<Option Goto="1037" Text="Если отсутствует «Улики/Q»: Далее"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
