@@ -7606,5 +7606,11 @@
 				<Option Goto="806"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1144">
+			<Text>Узнав у Эмбера всё, что было возможно, Вы благодарите его за потраченное время и уходите.</Text>
+			<Options>
+				<Option Goto="994"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
