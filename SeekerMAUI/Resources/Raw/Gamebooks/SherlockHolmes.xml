@@ -7544,5 +7544,11 @@
 				<Option Goto="1033"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1134">
+			<Text>Возбужденно вышагивавший, всё это время, взад и вперед Гамильтон, внезапно разбегается и пытается выпрыгнуть через ближайшее окно!</Text>
+			<Options>
+				<Option Goto="1019"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
