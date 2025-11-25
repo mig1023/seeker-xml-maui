@@ -7569,5 +7569,11 @@
 				<Option Goto="856"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1138">
+			<Text>Охота продолжается всю ночь, но никаких новостей про Гамильтона так и не поступает. Очевидно, он ушёл от преследования.</Text>
+			<Options>
+				<Option Goto="1131"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
