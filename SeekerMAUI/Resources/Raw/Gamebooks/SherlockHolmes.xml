@@ -7823,5 +7823,11 @@
 				<Option Goto="1105" Text="Нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1178">
+			<Text>С некоторым облегчением Вы благодарите Холмса за проявленное терпение. Он, похоже, тоже расслабляется.</Text>
+			<Options>
+				<Option Goto="858"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
