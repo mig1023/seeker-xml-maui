@@ -8062,5 +8062,11 @@
 				<Option Goto="1211" Text="Следующее утро"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1213">
+			<Text>Обрати внимание на все!</Text>
+			<Options>
+				<Option Goto="1223" Text="Осмотрел и готов двигаться дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
