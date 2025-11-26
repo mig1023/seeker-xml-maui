@@ -8163,5 +8163,11 @@
 				<Option Goto="1217" Text="Дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1229">
+			<Text>— Сомневаюсь.</Text>
+			<Options>
+				<Option Goto="1220" Text="Назад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
