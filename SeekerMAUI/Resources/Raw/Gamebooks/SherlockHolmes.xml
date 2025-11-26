@@ -9,6 +9,7 @@
 				<Item Name="1" Value="be2926"/>
 				<Item Name="531" Value="293a3d"/>
 				<Item Name="795" Value="b52f08"/>
+				<Item Name="1199" Value="414656"/>
 			</Buttons>
 		</Dictionaries>
 	</Introduction>
@@ -23,6 +24,9 @@
 				</Option>
 				<Option Goto="795" Text="Убийство в клубе Диоген" Image="MurderAtDiogenesClub" Style="b52f08">
 					<Text Style="Small, Upper">Murder at the Diogenes Club II, 1987</Text>
+				</Option>
+				<Option Goto="1199" Text="Новые приключения Шерлока Холмса и доктора Ватсона" Image="NewAdventures" Style="414656">
+					<Text Style="Small, Upper">sirius.2611, 2021</Text>
 				</Option>
 			</Options>
 		</Paragraph>

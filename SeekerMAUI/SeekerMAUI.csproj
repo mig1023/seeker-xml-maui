@@ -280,6 +280,7 @@
 	  <None Remove="Resources\Images\Images\sheriff_woman.jpg" />
 	  <None Remove="Resources\Images\Images\SherlockHolmes\appledoretowers.jpg" />
 	  <None Remove="Resources\Images\Images\SherlockHolmes\murderatdiogenesclub.jpg" />
+	  <None Remove="Resources\Images\Images\SherlockHolmes\newadventures.jpg" />
 	  <None Remove="Resources\Images\Images\SherlockHolmes\starofireland.jpg" />
 	  <None Remove="Resources\Images\Images\silentschool_chess.jpg" />
 	  <None Remove="Resources\Images\Images\SongOfJaguarsCliff\song82a.jpg" />
@@ -553,6 +554,7 @@
 	  <MauiImage Include="Resources\Images\Images\Sheriff\woman.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SherlockHolmes\appledoretowers.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SherlockHolmes\murderatdiogenesclub.jpg" />
+	  <MauiImage Include="Resources\Images\Images\SherlockHolmes\newadventures.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SherlockHolmes\starofireland.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SilentSchool\chess.jpg" />
 	  <MauiImage Include="Resources\Images\Images\SongOfJaguarsCliff\song153.jpg" />
