@@ -8093,5 +8093,11 @@
 				<Option Goto="1212" Text="Бейкер-стрит"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1218">
+			<Text>— Нет, Ватсон, это не имеет значения.</Text>
+			<Options>
+				<Option Goto="1203" Text="Назад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
