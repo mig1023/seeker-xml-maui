@@ -8133,5 +8133,11 @@
 				<Option Goto="1200" Text="Продолжить расследование"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1224">
+			<Text>— Это было бы верно, но вы должны включить спичку в свое расследование, Ватсон.</Text>
+			<Options>
+				<Option Goto="1211" Text="Назад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
