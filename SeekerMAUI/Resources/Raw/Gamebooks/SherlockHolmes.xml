@@ -8032,5 +8032,14 @@
 				<Option Goto="1225" Text="записка"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1209">
+			<Text>— Что же вы думаете, Шерлок Холмс, девушка пролетала на воздушном шаре над Лондоном и выпала из него?\n\n— Мой дорогой друг, вы опять забываете важную деталь.</Text>
+			<Options>
+				<Option Goto="1221" Text="Сломанная шея"/>
+				<Option Goto="1201" Text="Жребий"/>
+				<Option Goto="1221" Text="Песок"/>
+				<Option Goto="1221" Text="Высота"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
