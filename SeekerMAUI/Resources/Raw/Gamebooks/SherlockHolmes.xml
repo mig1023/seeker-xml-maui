@@ -7979,5 +7979,11 @@
 				<Option Goto="1227" Text="В полицию"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1202">
+			<Text>Нужно было читать внимательнее...</Text>
+			<Options>
+				<Option Goto="1206" Text="Перейти назад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
