@@ -8087,5 +8087,11 @@
 				<Option Goto="1231" Text="Скинем манекен со смотровой вышки"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1217">
+			<Text>— Что будем делать дальше, Холмс?\n\n— Поедем читать газеты, конечно же!\n\n— Что? Я имею в виду касательно этого дела.\n\n— Я тоже.</Text>
+			<Options>
+				<Option Goto="1212" Text="Бейкер-стрит"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
