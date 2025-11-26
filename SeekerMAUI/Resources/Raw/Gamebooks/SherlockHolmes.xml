@@ -8139,5 +8139,11 @@
 				<Option Goto="1211" Text="Назад"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1225">
+			<Text>Нужно было читать внимательнее</Text>
+			<Options>
+				<Option Goto="1208" Text="вернуться назад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
