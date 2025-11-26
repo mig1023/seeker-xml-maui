@@ -8068,5 +8068,11 @@
 				<Option Goto="1223" Text="Осмотрел и готов двигаться дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1214">
+			<Text>— Мы только теряем тут время, ничего нового на теле не появилось и появиться не может!</Text>
+			<Options>
+				<Option Goto="1220" Text="В полицию"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
