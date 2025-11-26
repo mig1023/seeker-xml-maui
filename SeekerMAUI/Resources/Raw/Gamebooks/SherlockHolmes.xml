@@ -56,8 +56,8 @@
 		<Paragraph No="4">
 			<Text>Лестрейд сверяется со списком и говорит, что следующая идет госпожа Кокс, кухарка.\n\n- Будете разговаривать с ней? - спрашивает он.</Text>
 			<Options>
-				<Option Goto="107" Text="Если будете"/>
-				<Option Goto="510" Text="Если нет"/>
+				<Option Goto="107" Text="Будете"/>
+				<Option Goto="510" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="5">
