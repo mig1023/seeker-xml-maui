@@ -8074,5 +8074,11 @@
 				<Option Goto="1220" Text="В полицию"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1215">
+			<Text>Девушка стояла на смотровой вышке, достала спичку, чтобы прикурить сигарету, оступилась и упала, сломав шею.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
