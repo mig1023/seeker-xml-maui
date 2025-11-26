@@ -75,8 +75,8 @@
 		<Paragraph No="7">
 			<Text>Вы обдумываете дальнейшие вопросы к братьям.</Text>
 			<Options>
-				<Option Goto="336" Text="Если Вы спросите их об убийстве Милвертона"/>
-				<Option Goto="351" Text="Иначе"/>
+				<Option Goto="336" Text="Спросите их об убийстве Милвертона"/>
+				<Option Goto="351" Text="Не станете этого делать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="8">
