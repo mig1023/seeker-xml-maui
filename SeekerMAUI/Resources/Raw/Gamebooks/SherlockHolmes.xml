@@ -8024,5 +8024,13 @@
 				<Option Goto="1230" Text="Рассказать о трупе"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1208">
+			<Text>— ...рядом с трупом на земле лежала</Text>
+			<Options>
+				<Option Goto="1206" Text="спичка"/>
+				<Option Goto="1225" Text="иголка"/>
+				<Option Goto="1225" Text="записка"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
