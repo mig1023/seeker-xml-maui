@@ -8099,5 +8099,11 @@
 				<Option Goto="1203" Text="Назад"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1219">
+			<Text>Let's try again!</Text>
+			<Options>
+				<Option Goto="1204" Text="Назад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
