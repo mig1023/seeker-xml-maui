@@ -823,8 +823,8 @@
 		<Paragraph No="118">
 			<Text>Закончив со столом, Вы осматриваете кабинет, решая, чем заняться дальше.</Text>
 			<Options>
-				<Option Goto="406" Text="Если Вы хотите осмотреть книжный шкаф"/>
-				<Option Goto="380" Text="Иначе"/>
+				<Option Goto="406" Text="Осмотреть книжный шкаф"/>
+				<Option Goto="380" Text="Не будете этого делать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="119">
