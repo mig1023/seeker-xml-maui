@@ -978,8 +978,8 @@
 		<Paragraph No="141">
 			<Text>Вы размышляете, стоит ли нанести визит полковнику Доркингу.</Text>
 			<Options>
-				<Option Goto="211" Text="Если хотите встретиться с ним"/>
-				<Option Goto="386" Text="Если у Вас нет такого желания"/>
+				<Option Goto="211" Text="Хотите встретиться с ним"/>
+				<Option Goto="386" Text="Нет такого желания"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="142">
