@@ -1816,9 +1816,9 @@
 		<Paragraph No="264">
 			<Text>Ожидая ответа на объявление, Вы пытаетесь быть столь же терпеливым, каким обычно в таких случаях бывает Холмс.\n\nБросьте кубики:</Text>
 			<Options>
-				<Option Goto="61" Text="Если результат от 2 до 4"/>
-				<Option Goto="39" Text="Если от 5 до 9"/>
-				<Option Goto="437" Text="Если от 10 до 12"/>
+				<Option Goto="61" Text="Результат от 2 до 4"/>
+				<Option Goto="39" Text="Результат от 5 до 9"/>
+				<Option Goto="437" Text="Результат от 10 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="265">
