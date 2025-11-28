@@ -1740,8 +1740,8 @@
 		<Paragraph No="253">
 			<Text>Вы выходите из квартиры, размышляя над планом действий.</Text>
 			<Options>
-				<Option Goto="287" Text="Если у Вас отмечена Улика T"/>
-				<Option Goto="269" Text="Если нет"/>
+				<Option Goto="287" Text="Отмечена Улика T"/>
+				<Option Goto="269" Text="Не отмечена"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="254">
