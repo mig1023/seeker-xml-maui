@@ -1464,8 +1464,8 @@
 		<Paragraph No="213">
 			<Text>На следующее утро Вы рано встаете и быстро завтракаете, чтобы поскорее продолжить расследование.</Text>
 			<Options>
-				<Option Goto="339" Text="Если у Вас отмечено Решение 8"/>
-				<Option Goto="312" Text="Если нет"/>
+				<Option Goto="339" Text="Отмечено Решение 8"/>
+				<Option Goto="312" Text="Не отмечено"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="214">
