@@ -1319,8 +1319,8 @@
 		<Paragraph No="192">
 			<Text>Вы пробегаете глазами информацию, собранную в Эппердор Тауэрс и пытаетесь определить имена потенциальных подозреваемых.</Text>
 			<Options>
-				<Option Goto="159" Text="Если у Вас отмечена Улика D"/>
-				<Option Goto="358" Text="Если нет"/>
+				<Option Goto="159" Text="Отмечена Улика D"/>
+				<Option Goto="358" Text="Не отмечена"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="193">
