@@ -1692,8 +1692,8 @@
 		<Paragraph No="246">
 			<Text>Лестрейд говорит, что следующим по списку идет лакей Шепард.</Text>
 			<Options>
-				<Option Goto="479" Text="Если Вы хотите поговорить с Шепардом"/>
-				<Option Goto="60" Text="Если нет"/>
+				<Option Goto="479" Text="Поговорить с Шепардом"/>
+				<Option Goto="60" Text="Не делать этого"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="247">
