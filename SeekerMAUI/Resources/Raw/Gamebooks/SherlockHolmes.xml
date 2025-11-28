@@ -1565,8 +1565,8 @@
 		<Paragraph No="228">
 			<Text>Вы прикидываете, какую еще полезную информацию способна рассказать Вам горничная.</Text>
 			<Options>
-				<Option Goto="166" Text="Если у Вас отмечен Вывод 11"/>
-				<Option Goto="208" Text="Если нет"/>
+				<Option Goto="166" Text="Отмечен Вывод 11"/>
+				<Option Goto="208" Text="Не отмечен"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="229">
