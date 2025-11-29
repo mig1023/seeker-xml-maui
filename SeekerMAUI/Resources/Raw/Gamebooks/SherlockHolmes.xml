@@ -3496,8 +3496,8 @@
 		<Paragraph No="516">
 			<Text>Вы продолжаете объяснять, как смогли придти к своим выводам.</Text>
 			<Options>
-				<Option Goto="459" Text="Если у Вас отмечены Улики D и Z, или Улика S и Решение 19"/>
-				<Option Goto="444" Text="В противном случае"/>
+				<Option Goto="459" Text="Отмечены Улики D и Z, или Улика S и Решение 19"/>
+				<Option Goto="444" Text="Не отмечены"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="517">
