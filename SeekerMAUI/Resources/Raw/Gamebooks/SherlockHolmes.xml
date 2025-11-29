@@ -2690,8 +2690,8 @@
 		<Paragraph No="395">
 			<Text>Последнее имя в Вашем списке - имя леди Сильвии Дэниелс. Хотите попытаться встретиться с ней?</Text>
 			<Options>
-				<Option Goto="480" Text="Если хотите"/>
-				<Option Goto="71" Text="Если нет"/>
+				<Option Goto="480" Text="Да"/>
+				<Option Goto="71" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="396">
