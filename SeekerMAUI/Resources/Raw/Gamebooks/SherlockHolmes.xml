@@ -2383,8 +2383,8 @@
 		<Paragraph No="349">
 			<Text>Вы решаете, что нет смысла тратить время на вещи, лежащие на столе.</Text>
 			<Options>
-				<Option Goto="498" Text="Если поищете что-нибудь внутри стола"/>
-				<Option Goto="118" Text="Если нет"/>
+				<Option Goto="498" Text="Поищете что-нибудь внутри стола"/>
+				<Option Goto="118" Text="Не будете этого делать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="350">
