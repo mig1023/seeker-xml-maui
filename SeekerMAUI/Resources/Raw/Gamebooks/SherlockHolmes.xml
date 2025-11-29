@@ -2577,8 +2577,8 @@
 		<Paragraph No="378">
 			<Text>Вы покончили с кабинетом Милвертона и выбираете, чем заняться теперь. Лестрейд спрашивает, будете ли Вы осматривать спальню.</Text>
 			<Options>
-				<Option Goto="279" Text="Если будете"/>
-				<Option Goto="62" Text="Если нет"/>
+				<Option Goto="279" Text="Да"/>
+				<Option Goto="62" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="379">
