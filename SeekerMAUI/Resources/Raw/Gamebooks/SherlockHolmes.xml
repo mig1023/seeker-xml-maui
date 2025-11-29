@@ -3275,8 +3275,8 @@
 		<Paragraph No="484">
 			<Text>Вы размышляете - есть ли смысл обыскивать одежду Милвертона, висящую в платяном шкафу.</Text>
 			<Options>
-				<Option Goto="241" Text="Если Вы сделаете это"/>
-				<Option Goto="305" Text="Если нет"/>
+				<Option Goto="241" Text="Сделаете это"/>
+				<Option Goto="305" Text="Не будете этого делать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="485">
