@@ -3588,8 +3588,8 @@
 		<Paragraph No="530">
 			<Text>Что бы такого сделать, чтоб важные люди стали с Вами разговаривать?</Text>
 			<Options>
-				<Option Goto="290" Text="Если у Вас отмечено Решение 20"/>
-				<Option Goto="318" Text="В противном случае"/>
+				<Option Goto="290" Text="Отмечено Решение 20"/>
+				<Option Goto="318" Text="Не отмечено"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="531">
