@@ -8038,9 +8038,9 @@
 		<Paragraph No="1208">
 			<Text>— ...рядом с трупом на земле лежала</Text>
 			<Options>
-				<Option Goto="1206" Text="спичка"/>
-				<Option Goto="1225" Text="иголка"/>
-				<Option Goto="1225" Text="записка"/>
+				<Option Goto="1206" Text="Спичка"/>
+				<Option Goto="1225" Text="Иголка"/>
+				<Option Goto="1225" Text="Записка"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1209">
