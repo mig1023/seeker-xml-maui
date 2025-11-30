@@ -8151,15 +8151,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="1225">
-			<Text>Нужно было читать внимательнее</Text>
+			<Text>Нужно было читать внимательнее...</Text>
 			<Options>
-				<Option Goto="1208" Text="вернуться назад"/>
+				<Option Goto="1208" Text="Назад"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1226">
-			<Text>Надо было внимательнее читать</Text>
+			<Text>Надо было внимательнее читать...</Text>
 			<Options>
-				<Option Goto="1230" Text="вернуться назад и подумать еще"/>
+				<Option Goto="1230" Text="Вернуться назад и подумать еще"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1227">
