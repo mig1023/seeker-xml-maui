@@ -2655,7 +2655,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="390">
-			<Text>К кому Вы поедете - к Хорнету или Осборну?</Text>
+			<Text>К кому Вы поедете — к Хорнету или Осборну?</Text>
 			<Options>
 				<Option Goto="285" Text="Посетить издательство"/>
 				<Option Goto="152" Text="Посетить Осборна"/>
