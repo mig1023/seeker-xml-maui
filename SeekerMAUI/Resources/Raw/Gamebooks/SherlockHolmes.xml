@@ -5443,7 +5443,7 @@
 			<Options>
 				<Option Goto="993" Text="Просто спросите его мнение о полковнике Сильвестре"/>
 				<Option Goto="836" Text="Начнёте жёстко давить на него"/>
-				<Option Goto="1051" Text="Иначе"/>
+				<Option Goto="1051" Text="Не будете этого делать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="813">
