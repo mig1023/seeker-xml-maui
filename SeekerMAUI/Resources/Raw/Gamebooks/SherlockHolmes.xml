@@ -5698,7 +5698,7 @@
 			<Options>
 				<Option Goto="1001" Text="Можете перечитать записку"/>
 				<Option Goto="841" Text="Вы разобрались с шифром"/>
-				<Option Goto="1191" Text="Нет"/>
+				<Option Goto="1191" Text="Не разобрались с ним"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="850">
