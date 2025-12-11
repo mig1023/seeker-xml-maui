@@ -27,6 +27,7 @@
 				<Item Name="1909" Value="dd995b"/>
 				<Item Name="1925" Value="202d30"/>
 				<Item Name="1943" Value="2d6953"/>
+				<Item Name="1997" Value="a7a7a7"/>
 			</Buttons>
 		</Dictionaries>
 	</Introduction>
@@ -95,6 +96,9 @@
 				</Option>
 				<Option Goto="1943" Text="Магия единорога" Image="Unicorn">
 					<Text Style="Small, Upper">Дебора Гудман, перевод Сергея Посниченко, 1985</Text>
+				</Option>
+				<Option Goto="1997" Text="Экспресс «Белый медведь»" Image="PolarExpress">
+					<Text Style="Small, Upper">Эдвард Паккард, перевод Сергея Посниченко, 1984</Text>
 				</Option>
 			</Options>
 		</Paragraph>
