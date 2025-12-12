@@ -492,11 +492,12 @@
 		<Paragraph No="69">
 			<Text>В ы пытаетесь собрать в единую картину все, что Вам удалось узнать за последнее время, и размышляете, какие дальнейшие шаги следует предпринять.</Text>
 			<Options>
-				<Option Goto="520" Text="Отмечены Вывод 5 и Улики G и D"/>
-				<Option Goto="520" Text="Отмечены Выводы 3 и 5 и Улика G"/>
-				<Option Goto="309" Text="Отмечены Улики G и D или Улика G и Вывод 3"/>
-				<Option Goto="327" Text="Отмечены Вывод 5 и Улика D"/>
-				<Option Goto="369" Text="Отмечены Вывод 5 и Улика G"/>
+				<Option Goto="520" Text="Отмечены Вывод 5 и Улики G и D" Availability="5, G, D"/>
+				<Option Goto="520" Text="Отмечены Выводы 3 и 5 и Улика G" Availability="3, 5, G"/>
+				<Option Goto="309" Text="Отмечены Улики G и D" Availability="G, D"/>
+				<Option Goto="309" Text="Отмечены Улики Улика G и Вывод 3" Availability="G, 3"/>
+				<Option Goto="327" Text="Отмечены Вывод 5 и Улика D" Availability="5, D"/>
+				<Option Goto="369" Text="Отмечены Вывод 5 и Улика G" Availability="5, G"/>
 				<Option Goto="188" Text="Ничего из этого"/>
 			</Options>
 		</Paragraph>
