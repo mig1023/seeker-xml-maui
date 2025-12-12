@@ -7969,7 +7969,7 @@
 			<Options>
 				<Option Goto="399" Text="Спросите его о полковнике Сильвестре"/>
 				<Option Goto="166" Text="Направитесь за Гамильтоном"/>
-				<Option Goto="206" Text="Иначе"/>
+				<Option Goto="206" Text="Не будете делать ни того, ни другого"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1199">
