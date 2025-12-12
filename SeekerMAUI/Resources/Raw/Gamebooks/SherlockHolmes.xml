@@ -956,8 +956,8 @@
 			<Text>Вы размышляете, что интересного для Вас может знать конюх.</Text>
 			<Options>
 				<Option Goto="521" Text="Спросите его, кто запер собаку"/>
-				<Option Goto="187" Text="Отмечено Решение 11"/>
-				<Option Goto="521" Text="Не отмечено"/>
+				<Option Goto="187" Text="Отмечено Решение 11" Availability="11"/>
+				<Option Goto="521" Text="Не отмечено" Availability="!11"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="137">
