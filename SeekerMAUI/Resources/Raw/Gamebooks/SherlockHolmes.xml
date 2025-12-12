@@ -1254,9 +1254,9 @@
 		<Paragraph No="180">
 			<Text>Утро выдалось прекрасное, хотя и несколько холодное. Приготовленные на завтрак яйца, сосиски и рулет Вы съедаете очень быстро, дабы не трать впустую драгоценное время.</Text>
 			<Options>
-				<Option Goto="280" Text="Отмечено Решение 14"/>
-				<Option Goto="65" Text="Отмечено Решение 15"/>
-				<Option Goto="253" Text="Не отмечено ни то, ни другое"/>
+				<Option Goto="280" Text="Отмечено Решение 14" Availability="14"/>
+				<Option Goto="65" Text="Отмечено Решение 15" Availability="15"/>
+				<Option Goto="253" Text="Не отмечено ни то, ни другое" Availability="!14, !15"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="181">
