@@ -771,8 +771,8 @@
 		<Paragraph No="109">
 			<Text>Вы задаетесь вопросом, может ли она рассказать Вам еще что-нибудь полезное.</Text>
 			<Options>
-				<Option Goto="114" Text="Отмечен Вывод 11"/>
-				<Option Goto="296" Text="Не отмечен"/>
+				<Option Goto="114" Text="Отмечен Вывод 11" Availability="11"/>
+				<Option Goto="296" Text="Не отмечен" Availability="!11"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="110">
