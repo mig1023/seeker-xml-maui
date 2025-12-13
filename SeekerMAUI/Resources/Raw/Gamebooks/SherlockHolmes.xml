@@ -2490,8 +2490,8 @@
 		<Paragraph No="358">
 			<Text>Вы еще раз задумываетесь над собранной Вами информацией, пытаясь отделить зерна от плевел.</Text>
 			<Options>
-				<Option Goto="430" Text="Отмечена Улика M"/>
-				<Option Goto="253" Text="Не отмечена"/>
+				<Option Goto="430" Text="Отмечена Улика M" Availability="M"/>
+				<Option Goto="253" Text="Не отмечена" Availability="!M"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="359">
