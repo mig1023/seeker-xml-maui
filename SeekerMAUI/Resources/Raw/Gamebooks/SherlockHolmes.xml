@@ -2689,8 +2689,8 @@
 		<Paragraph No="387">
 			<Text>На мгновение Вы задумываетесь, какие из улик могут помочь Вам определить личности злоумышленников.</Text>
 			<Options>
-				<Option Goto="481" Text="Отмечена улика N"/>
-				<Option Goto="89" Text="Не отмечена"/>
+				<Option Goto="481" Text="Отмечена улика N" Availability="N"/>
+				<Option Goto="89" Text="Не отмечена" Availability="!N"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="388">
