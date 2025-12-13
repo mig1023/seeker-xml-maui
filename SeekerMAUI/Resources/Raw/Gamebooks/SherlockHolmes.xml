@@ -1588,8 +1588,8 @@
 		<Paragraph No="227">
 			<Text>Вы возвращаетесь обратно к оранжерее и снова оглядываете ее, размышляя, есть ли здесь еще что-то, стоящее Вашего внимания.</Text>
 			<Options>
-				<Option Goto="273" Text="Отмечено Решение 1"/>
-				<Option Goto="31" Text="Не отмечено"/>
+				<Option Goto="273" Text="Отмечено Решение 1" Availability="1"/>
+				<Option Goto="31" Text="Не отмечено" Availability="!1"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="228">
