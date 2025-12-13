@@ -3501,8 +3501,8 @@
 		<Paragraph No="508">
 			<Text>Вы пробуете рассказать имеющиеся у Вас доказательства.</Text>
 			<Options>
-				<Option Goto="516" Text="Отмечены Улики K, L или Z"/>
-				<Option Goto="513" Text="Не отмечена ни одна из них"/>
+				<Option Goto="516" Text="Отмечены Улики K, L или Z" Availability="K|L|Z"/>
+				<Option Goto="513" Text="Не отмечена ни одна из них" Availability="!K, !L, !Z"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="509">
