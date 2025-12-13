@@ -2161,9 +2161,10 @@
 		<Paragraph No="309">
 			<Text>Вы сопоставляете найденные улики и понимаете, что Милвертон был в комнате, а двое злоумышленников в это время скрывались в нише между оконной рамой и шторами. И простояли там весьма долго.</Text>
 			<Options>
-				<Option Goto="122" Text="Отмечена Улика B или Улики B и D"/>
-				<Option Goto="452" Text="Отмечена Улика AA или Улика D"/>
-				<Option Goto="149" Text="Ничего из этого не отмечено"/>
+				<Option Goto="122" Text="Отмечены Улика B и D" Availability="B, D"/>
+				<Option Goto="122" Text="Отмечена Улика B" Availability="D"/>
+				<Option Goto="452" Text="Отмечена Улика AA или Улика D" Availability="AA|D"/>
+				<Option Goto="149" Text="Ничего из этого не отмечено" Availability="!AA, !D, !B"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="310">
