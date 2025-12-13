@@ -1899,8 +1899,8 @@
 		<Paragraph No="271">
 			<Text>Вам не удается придумать никаких альтернативных способов, чтобы увеличить шансы разговорить возможных подозреваемых.</Text>
 			<Options>
-				<Option Goto="290" Text="Отмечено Решение 20"/>
-				<Option Goto="288" Text="Не отмечено"/>
+				<Option Goto="290" Text="Отмечено Решение 20" Availability="20"/>
+				<Option Goto="288" Text="Не отмечено" Availability="!20"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="272">
