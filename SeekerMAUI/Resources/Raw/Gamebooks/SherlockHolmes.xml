@@ -2254,8 +2254,8 @@
 		<Paragraph No="322">
 			<Text>Оба брата резко смотрят на Вас, в глазах у них пылает гнев.\n\n— И какие это, интересно, дела могут связывать нас с мистером Милвертоном? — недобро усмехается Джеймс.</Text>
 			<Options>
-				<Option Goto="329" Text="Отмечена Улика K"/>
-				<Option Goto="411" Text="Не отмечена"/>
+				<Option Goto="329" Text="Отмечена Улика K" Availability="K"/>
+				<Option Goto="411" Text="Не отмечена" Availability="!K"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="323">
