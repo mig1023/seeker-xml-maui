@@ -3032,8 +3032,8 @@
 		<Paragraph No="439">
 			<Text>Лестрейд смотрит на Вас. Его взгляд спрашивает: «Сколько еще времени вы впустую собираетесь потратить на эту судомойку?». Вы же размышляете над тем, что ценного она могла бы знать.</Text>
 			<Options>
-				<Option Goto="400" Text="Отмечен Вывод 11"/>
-				<Option Goto="286" Text="Не отмечен"/>
+				<Option Goto="400" Text="Отмечен Вывод 11" Availability="11"/>
+				<Option Goto="286" Text="Не отмечен" Availability="!11"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="440">
