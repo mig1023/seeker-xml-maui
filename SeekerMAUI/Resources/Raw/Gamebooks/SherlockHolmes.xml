@@ -2027,8 +2027,8 @@
 		<Paragraph No="289">
 			<Text>Вы решаете, что пользы от следов на пустоши больше не будет. Сопровождаемый Лестрейдом, Вы возвращаетесь к воротам в усадьбу, чтобы продолжить расследование.</Text>
 			<Options>
-				<Option Goto="227" Text="Отмечено Решение 2"/>
-				<Option Goto="408" Text="Не отмечено"/>
+				<Option Goto="227" Text="Отмечено Решение 2" Availability="2"/>
+				<Option Goto="408" Text="Не отмечено" Availability="!2"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="290">
