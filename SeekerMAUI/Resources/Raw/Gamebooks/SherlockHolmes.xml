@@ -1524,6 +1524,7 @@
 		</Paragraph>
 		<Paragraph No="218">
 			<Text>Вы отдаете извозчику деньги, он благодарит Вас и уходит. Вычтите 5 шиллингов из денег на листке персонажа.\n\nОтметьте Улику V.</Text>
+			<Triggers>V</Triggers>
 			<Options>
 				<Option Goto="253"/>
 			</Options>
