@@ -3534,8 +3534,8 @@
 		<Paragraph No="513">
 			<Text>— Вам нужны более серьезные доказательства, — говорит Холмс. — Ведь вы выдвигаете очень серьезное обвинение.</Text>
 			<Options>
-				<Option Goto="444" Text="Отмечены Решение 19 и Улика S"/>
-				<Option Goto="106" Text="Не отмечены"/>
+				<Option Goto="444" Text="Отмечены Решение 19 и Улика S" Availability="19, S"/>
+				<Option Goto="106" Text="Не отмечены" Availability="!19, !S"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="514">
@@ -3554,7 +3554,7 @@
 		<Paragraph No="516">
 			<Text>Вы продолжаете объяснять, как смогли придти к своим выводам.</Text>
 			<Options>
-				<Option Goto="459" Text="Отмечены Улики D и Z, или Улика S и Решение 19"/>
+				<Option Goto="459" Text="Отмечены Улики D и Z, или Улика S и Решение 19" Availability="D|S, Z|19"/>
 				<Option Goto="444" Text="Не отмечены"/>
 			</Options>
 		</Paragraph>
