@@ -4137,8 +4137,8 @@
 		<Paragraph No="602">
 			<Text>— Так... что же он пишет, — бормочете Вы про себя. — Какие у меня есть зацепки...</Text>
 			<Options>
-				<Option Goto="753" Text="Если отмечено «Улики/Z»: У Вас отмечена Улика Z"/>
-				<Option Goto="550" Text="Если отсутствует «Улики/Z»: Далее"/>
+				<Option Goto="753" Text="У Вас отмечена Улика Z" Availability="G"/>
+				<Option Goto="550" Text="Не отмечена" Availability="!Z"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="603">
