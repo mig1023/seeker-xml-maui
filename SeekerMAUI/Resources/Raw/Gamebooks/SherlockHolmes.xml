@@ -4972,8 +4972,8 @@
 		<Paragraph No="728">
 			<Text>Вы не спеша завершаете ужин, обдумывая информацию, которую удалось добыть.</Text>
 			<Options>
-				<Option Goto="593" Text="Если отмечено «Улики/H»: У Вас отмечена Улика H"/>
-				<Option Goto="679" Text="Если отсутствует «Улики/H»: Далее"/>
+				<Option Goto="593" Text="У Вас отмечена Улика H" Availability="H"/>
+				<Option Goto="679" Text="Не отмечена" Availability="!H"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="729">
