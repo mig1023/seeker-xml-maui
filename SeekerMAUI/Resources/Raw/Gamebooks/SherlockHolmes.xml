@@ -6757,8 +6757,8 @@
 		<Paragraph No="994">
 			<Text>Вы размышляете, куда двигаться дальше.</Text>
 			<Options>
-				<Option Goto="1146" Text="Если отмечено «Решения и Выводы/Вывод 17»: У Вас отмечен Вывод 17"/>
-				<Option Goto="1033" Text="Если отсутствует «Решения и Выводы/Вывод 17»: Далее"/>
+				<Option Goto="1146" Text="У Вас отмечен Вывод 17" Availability="17"/>
+				<Option Goto="1033" Text="Не отмечен" Availability="!17"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="995">
