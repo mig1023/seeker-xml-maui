@@ -22,5 +22,7 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             return option;
         }
 
+        public override Abstract.IModification ModificationParse(XmlNode xmlModification) =>
+           (Abstract.IModification)base.ModificationParse(xmlModification, new Modification());
     }
 }
