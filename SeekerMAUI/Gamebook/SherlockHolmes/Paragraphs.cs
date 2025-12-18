@@ -9,8 +9,18 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
         public override Paragraph Get(int id, XmlNode xmlParagraph) =>
             base.Get(xmlParagraph);
 
-        public override Abstract.IActions ActionParse(XmlNode xmlAction) =>
-            (Actions)ActionTemplate(xmlAction, new Actions());
+        public override Abstract.IActions ActionParse(XmlNode xmlAction)
+        {
+            Actions action = (Actions)ActionTemplate(xmlAction, new Actions());
+
+            foreach (string param in GetProperties(action))
+                SetProperty(action, param, xmlAction);
+
+            if (action.Type == "Option")
+                action.Option = OptionParse(xmlAction);
+
+            return action;
+        }
 
         public override Option OptionParse(XmlNode xmlOption)
         {
