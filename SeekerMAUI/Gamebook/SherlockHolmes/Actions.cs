@@ -18,7 +18,7 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
 
         public override List<string> Representer()
         {
-            if (!String.IsNullOrEmpty(Stat))
+            if (Type.StartsWith("Get"))
             {
                 int currentStat = GetProperty(Character.Protagonist, Stat);
                 string diffLine = String.Empty;
@@ -56,6 +56,23 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             {
                 return true;
             }
+        }
+
+        public List<string> Test()
+        {
+            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+
+            int currentStat = GetProperty(Character.Protagonist, Stat);
+            int result = firstDice + secondDice + currentStat;
+            List<string> test = new List<string>();
+
+            test.Add($"Кубики: {Game.Dice.Symbol(firstDice)} + {Game.Dice.Symbol(secondDice)}");
+            test.Add($"{Constants.StatNames[Stat]} равна {currentStat}");
+            test.Add($"BIG|BOLD|ИТОГО: {firstDice} + {secondDice} + {currentStat} = {result}");
+
+            Character.Protagonist.LastDices = result;
+
+            return test;
         }
 
         public List<string> Get() =>
