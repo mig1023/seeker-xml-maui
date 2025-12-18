@@ -4,7 +4,18 @@
 			<Title>Серия «Загадки Шерлока Холмса»</Title>
 			<Author>Джеральд Линц, 1987</Author>
 		</Copyright>
+		<Lists>
+			<WithoutStatuses Items="0"/>
+		</Lists>
 		<Dictionaries>
+			<StatNames>
+				<Item Name="Dexterity" Value="Ловкость"/>
+				<Item Name="Ingenuity" Value="Изобретательность"/>
+				<Item Name="Intuition" Value="Интуиция"/>
+				<Item Name="Eloquence" Value="Красноречие"/>
+				<Item Name="Observation" Value="Наблюдательность"/>
+				<Item Name="Erudition" Value="Эрудиция"/>
+			</StatNames>
 			<Buttons>
 				<Item Name="1" Value="be2926"/>
 				<Item Name="531" Value="293a3d"/>
