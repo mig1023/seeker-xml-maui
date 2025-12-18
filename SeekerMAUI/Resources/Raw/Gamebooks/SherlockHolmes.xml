@@ -6500,7 +6500,7 @@
 			<Text>— Вижу осадок, — говорите Вы, завершив тесты, — но количества не достаточно, чтобы определить вещество.\n\n— Прискорбно, — бормочет Холмс. — Это всё, что осталось в стакане?</Text>
 			<Options>
 				<Option Goto="911" Text="У Вас отмечена Улика K" Availability="K"/>
-				<Option Goto="1018" Text="Не отмечена" Availability="!K">
+				<Option Goto="1018" Text="Не отмечена" Availability="!K"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="956">
