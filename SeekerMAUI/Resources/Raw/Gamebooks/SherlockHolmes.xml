@@ -7501,8 +7501,8 @@
 		<Paragraph No="1107">
 			<Text>Вы аккуратно перебираете доказательства, которые могли бы убедить детектива, что вина Гамильтона доказана.</Text>
 			<Options>
-				<Option Goto="803" Text="Если отмечено «Улики/Q»: У Вас отмечена Улика Q"/>
-				<Option Goto="1037" Text="Если отсутствует «Улики/Q»: Далее"/>
+				<Option Goto="803" Text="У Вас отмечена Улика Q" Availability="Q"/>
+				<Option Goto="1037" Text="Не отмечена" Availability="!Q"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1108">
