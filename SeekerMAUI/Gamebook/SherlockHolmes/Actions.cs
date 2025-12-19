@@ -20,18 +20,23 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
         {
             if (Type.StartsWith("Get"))
             {
-                int currentStat = GetProperty(Character.Protagonist, Stat);
-                string diffLine = String.Empty;
+                var currentStat = GetProperty(Character.Protagonist, Stat);
+                var diffLine = string.Empty;
 
                 if (currentStat > 0)
                 {
-                    string count = Game.Services.CoinsNoun(currentStat, "единица", "единицы", "единицы");
+                    var count = Game.Services.CoinsNoun(currentStat, "единица", "единицы", "единицы");
                     diffLine = $"\n+{currentStat} {count}";
                 }
 
                 return new List<string> { $"{Head}{diffLine}" };
             }
-            else if (!String.IsNullOrEmpty(Head))
+            else if (!string.IsNullOrEmpty(Stat))
+            {
+                var property = Constants.StatNames[Stat].ToUpper();
+                return new List<string> { $"ПРОВЕРЯЕТСЯ {property}" };
+            }
+            else if (!string.IsNullOrEmpty(Head))
             {
                 return new List<string> { Head };
             }
@@ -45,7 +50,7 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
         {
             if (!String.IsNullOrEmpty(Stat))
             {
-                int stat = GetProperty(Character.Protagonist, Stat);
+                var stat = GetProperty(Character.Protagonist, Stat);
 
                 if (secondButton)
                     return (stat > 0);
@@ -58,13 +63,26 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             }
         }
 
+        public override bool AvailabilityNode(string option)
+        {
+            if (Game.Services.AvailabilityByСomparison(option))
+            {
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
+            }
+            else
+            {
+                return AvailabilityTrigger(option);
+            }
+        }
+
         public List<string> Test()
         {
             Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
             List<string> test = new List<string>();
 
-            int result = firstDice + secondDice;
-            test.Add($"Кубики: {Game.Dice.Symbol(firstDice)} + {Game.Dice.Symbol(secondDice)}");
+            var result = firstDice + secondDice;
+            test.Add($"BIG|Кубики: {Game.Dice.Symbol(firstDice)} + {Game.Dice.Symbol(secondDice)}");
 
             if (string.IsNullOrEmpty(Stat))
             {
@@ -72,17 +90,17 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
                 return test;
             }
 
-            int currentStat = GetProperty(Character.Protagonist, Stat);
+            var currentStat = GetProperty(Character.Protagonist, Stat);
             result += currentStat;
 
-            test.Add($"{Constants.StatNames[Stat]} равна {currentStat}");
+            test.Add($"BIG|{Constants.StatNames[Stat]} равна {currentStat}");
 
             if (currentStat <= 0)
             {
                 result -= 2;
 
                 test.Add("BAD|Навык равен нуля, поэтому при броске будет применяться штраф в -2 единицы");
-                test.Add($"BIG|BOLD|ИТОГО: {firstDice} + {secondDice} - {currentStat} = {result}");
+                test.Add($"BIG|BOLD|ИТОГО: {firstDice} + {secondDice} - 2 = {result}");
             }
             else
             {
@@ -90,6 +108,15 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             }
 
             Character.Protagonist.LastDices = result;
+
+            for (int i = 2; i <= 12; i++)
+            {
+                if (result > i)
+                    Game.Buttons.Disable($"Less{i}");
+
+                if (result < i)
+                    Game.Buttons.Disable($"More{i}");
+            }
 
             return test;
         }

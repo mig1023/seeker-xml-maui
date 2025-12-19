@@ -6,6 +6,8 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
     {
         public static Dictionary<string, string> StatNames { get; set; }
 
+        public static Dictionary<string, string> Availabilities { get; set; }
+
         public static Dictionary<int, string> Buttons { get; set; }
 
         public override string GetColor(ButtonTypes type)
