@@ -100,8 +100,8 @@
 				<StatBonuses Value="6"/>
 			</Modifications>
 			<Options>
-				<Option Goto="66" Text="Получилось от 2 до 8" Tag="Less8"/>
-				<Option Goto="346" Text="Получилось от 9 до 12" Tag="More9"/>
+				<Option Goto="66" Text="Получилось от 2 до 8"/>
+				<Option Goto="346" Text="Получилось от 9 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="2">
@@ -118,8 +118,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="129" Text="Получилось от 2 до 7" Tag="Less7"/>
-				<Option Goto="510" Text="Получилось от 8 до 12" Tag="More8"/>
+				<Option Goto="129" Text="Получилось от 2 до 7"/>
+				<Option Goto="510" Text="Получилось от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="4">
@@ -168,8 +168,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="22" Text="Получилось от 2 до 7" Tag="Less7"/>
-				<Option Goto="14" Text="Получилось от 8 до 12" Tag="More8"/>
+				<Option Goto="22" Text="Получилось от 2 до 7"/>
+				<Option Goto="14" Text="Получилось от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="11">
@@ -180,8 +180,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="86" Text="Получилось от 2 до 5" Tag="Less5"/>
-				<Option Goto="30" Text="Получилось от 6 до 12" Tag="More6"/>
+				<Option Goto="86" Text="Получилось от 2 до 5"/>
+				<Option Goto="30" Text="Получилось от 6 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="12">
@@ -224,8 +224,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="519" Text="Получилось от 2 до 7" Tag="Less7"/>
-				<Option Goto="299" Text="Получилось от 8 до 12" Tag="More8"/>
+				<Option Goto="519" Text="Получилось от 2 до 7"/>
+				<Option Goto="299" Text="Получилось от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="18">
@@ -236,8 +236,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="24" Text="Получилось от 2 до 6" Tag="Less6"/>
-				<Option Goto="222" Text="Получилось от 7 до 12" Tag="More7"/>
+				<Option Goto="24" Text="Получилось от 2 до 6"/>
+				<Option Goto="222" Text="Получилось от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="19">
@@ -255,9 +255,9 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="92" Text="Получилось от 2 до 5" Tag="Less5"/>
-				<Option Goto="476" Text="Получилось от 6 до 8" Tag="Between6-9"/>
-				<Option Goto="307" Text="Получилось от 9 до 12" Tag="More9"/>
+				<Option Goto="92" Text="Получилось от 2 до 5"/>
+				<Option Goto="476" Text="Получилось от 6 до 8"/>
+				<Option Goto="307" Text="Получилось от 9 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="21">
@@ -284,8 +284,8 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="435" Text="Получилось от 2 до 7" Tag="Less7"/>
-				<Option Goto="438" Text="Получилось от 8 до 12" Tag="More8"/>
+				<Option Goto="435" Text="Получилось от 2 до 7"/>
+				<Option Goto="438" Text="Получилось от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="25">
@@ -329,8 +329,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="511" Text="Получилось от 2 до 6" Tag="Less6"/>
-				<Option Goto="509" Text="Получилось от 7 до 12" Tag="More7"/>
+				<Option Goto="511" Text="Получилось от 2 до 6"/>
+				<Option Goto="509" Text="Получилось от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="30">
@@ -348,8 +348,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="242" Text="Получилось от 2 до 6" Tag="Less6"/>
-				<Option Goto="58" Text="Получилось от 7 до 12" Tag="More7"/>
+				<Option Goto="242" Text="Получилось от 2 до 6"/>
+				<Option Goto="58" Text="Получилось от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="32">
@@ -405,8 +405,8 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="437" Text="Получилось от 2 до 5" Tag="Less5"/>
-				<Option Goto="253" Text="Получилось от 6 до 12" Tag="More6"/>
+				<Option Goto="437" Text="Получилось от 2 до 5"/>
+				<Option Goto="253" Text="Получилось от 6 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="40">
@@ -436,8 +436,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="22" Text="Получилось от 2 до 7" Tag="Less7"/>
-				<Option Goto="14" Text="Получилось 8 до 12" Tag="More8"/>
+				<Option Goto="22" Text="Получилось от 2 до 7"/>
+				<Option Goto="14" Text="Получилось 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="44">
@@ -509,8 +509,8 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="61" Text="Получилось от 2 до 6" Tag="Less6"/>
-				<Option Goto="437" Text="Получилось от 7 до 12" Tag="More7"/>
+				<Option Goto="61" Text="Получилось от 2 до 6"/>
+				<Option Goto="437" Text="Получилось от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="55">
@@ -521,8 +521,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="45" Text="Получилось от 2 до 6" Tag="Less6"/>
-				<Option Goto="298" Text="Получлось от 7 до 12" Tag="More7"/>
+				<Option Goto="45" Text="Получилось от 2 до 6"/>
+				<Option Goto="298" Text="Получлось от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="56">
@@ -533,8 +533,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="183" Text="Получилось от 2 до 8" Tag="Less8"/>
-				<Option Goto="443" Text="Получилось от 9 до 12" Tag="More9"/>
+				<Option Goto="183" Text="Получилось от 2 до 8"/>
+				<Option Goto="443" Text="Получилось от 9 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="57">
@@ -615,9 +615,9 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="6" Text="Получилось от 2 до 5" Tag="Less5"/>
-				<Option Goto="53" Text="Получилось от 6 до 8" Tag="Between6-8"/>
-				<Option Goto="90" Text="Получилось от 9 до 12" Tag="More9"/>
+				<Option Goto="6" Text="Получилось от 2 до 5"/>
+				<Option Goto="53" Text="Получилось от 6 до 8"/>
+				<Option Goto="90" Text="Получилось от 9 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="68">
@@ -670,8 +670,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="22" Text="Получилось от 2 до 3" Tag="Less3"/>
-				<Option Goto="14" Text="Получилось от 4 до 12" Tag="More4"/>
+				<Option Goto="22" Text="Получилось от 2 до 3"/>
+				<Option Goto="14" Text="Получилось от 4 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="74">
@@ -688,8 +688,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="115" Text="Получилось от 2 до 7" Tag="Less7"/>
-				<Option Goto="120" Text="Получилось от 8 до 12" Tag="More8"/>
+				<Option Goto="115" Text="Получилось от 2 до 7"/>
+				<Option Goto="120" Text="Получилось от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="76">
@@ -707,8 +707,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="147" Text="Получилось от 2 до 8" Tag="Less8"/>
-				<Option Goto="9" Text="Получилось от 9 до 12" Tag="More9"/>
+				<Option Goto="147" Text="Получилось от 2 до 8"/>
+				<Option Goto="9" Text="Получилось от 9 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="78">
@@ -726,8 +726,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="111" Text="Получилось от 2 до 7" Tag="Less7"/>
-				<Option Goto="277" Text="Получилось от 8 до 12" Tag="More8"/>
+				<Option Goto="111" Text="Получилось от 2 до 7"/>
+				<Option Goto="277" Text="Получилось от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="80">
@@ -764,9 +764,9 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="393" Text="Получилось от 2 до 5" Tag="Less5"/>
-				<Option Goto="354" Text="Получилось от 6 до 8" Tag="Between6-8"/>
-				<Option Goto="178" Text="Получилось от 9 до 12" Tag="More9"/>
+				<Option Goto="393" Text="Получилось от 2 до 5"/>
+				<Option Goto="354" Text="Получилось от 6 до 8"/>
+				<Option Goto="178" Text="Получилось от 9 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="85">
@@ -783,8 +783,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="404" Text="Получилось от 2 до 6" Tag="Less6"/>
-				<Option Goto="88" Text="Получилось от 7 до 12" Tag="More7"/>
+				<Option Goto="404" Text="Получилось от 2 до 6"/>
+				<Option Goto="88" Text="Получилось от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="87">
@@ -823,8 +823,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="375" Text="Получилось от 2 до 6" Tag="Less6"/>
-				<Option Goto="320" Text="Получилось от 7 до 12" Tag="More7"/>
+				<Option Goto="375" Text="Получилось от 2 до 6"/>
+				<Option Goto="320" Text="Получилось от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="92">
@@ -841,8 +841,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="292" Text="Получилось от 2 до 5" Tag="Less5"/>
-				<Option Goto="143" Text="Получилось от 6 до 12" Tag="More6"/>
+				<Option Goto="292" Text="Получилось от 2 до 5"/>
+				<Option Goto="143" Text="Получилось от 6 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="94">
@@ -961,8 +961,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="7" Text="Получилось от 2 до 7" Tag="Less7"/>
-				<Option Goto="334" Text="Получилось от 8 до 12" Tag="More8"/>
+				<Option Goto="7" Text="Получилось от 2 до 7"/>
+				<Option Goto="334" Text="Получилось от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="111">
@@ -976,9 +976,9 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="364" Text="Получилось от 2 до 4" Tag="Less4"/>
-				<Option Goto="454" Text="Получилось от 5 до 8" Tag="Between5-8"/>
-				<Option Goto="168" Text="Получилось от 9 до 12" Tag="More9"/>
+				<Option Goto="364" Text="Получилось от 2 до 4"/>
+				<Option Goto="454" Text="Получилось от 5 до 8"/>
+				<Option Goto="168" Text="Получилось от 9 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="112">
@@ -1066,8 +1066,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="247" Text="Получилось от 2 до 6" Tag="Less6"/>
-				<Option Goto="70" Text="Получилось от 7 до 12" Tag="More7"/>
+				<Option Goto="247" Text="Получилось от 2 до 6"/>
+				<Option Goto="70" Text="Получилось от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="125">
@@ -1099,8 +1099,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="214" Text="Получилось от 2 до 7" Tag="Less7"/>
-				<Option Goto="278" Text="Получилось от 8 до 12" Tag="More8"/>
+				<Option Goto="214" Text="Получилось от 2 до 7"/>
+				<Option Goto="278" Text="Получилось от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="129">
@@ -1138,8 +1138,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="214" Text="Получилось от 2 до 6" Tag="Less6"/>
-				<Option Goto="301" Text="Получилось от 7 до 12" Tag="More7"/>
+				<Option Goto="214" Text="Получилось от 2 до 6"/>
+				<Option Goto="301" Text="Получилось от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="134">
@@ -1211,8 +1211,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="59" Text="Получилось от 2 до 7" Tag="Less7"/>
-				<Option Goto="274" Text="Получилось от 8 до 12" Tag="More8"/>
+				<Option Goto="59" Text="Получилось от 2 до 7"/>
+				<Option Goto="274" Text="Получилось от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="144">
@@ -1264,8 +1264,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="360" Text="Получилось от 2 до 7" Tag="Less7"/>
-				<Option Goto="21" Text="Получилось от 8 до 12" Tag="More8"/>
+				<Option Goto="360" Text="Получилось от 2 до 7"/>
+				<Option Goto="21" Text="Получилось от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="151">
@@ -1439,8 +1439,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="131" Text="Получилась от 2 до 6" Tag="Less6"/>
-				<Option Goto="303" Text="Получилась от 7 до 12" Tag="More7"/>
+				<Option Goto="131" Text="Получилась от 2 до 6"/>
+				<Option Goto="303" Text="Получилась от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="176">
@@ -1451,8 +1451,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="491" Text="Получилась от 2 до 7" Tag="Less7"/>
-				<Option Goto="527" Text="Получилась от 8 до 12" Tag="More8"/>
+				<Option Goto="491" Text="Получилась от 2 до 7"/>
+				<Option Goto="527" Text="Получилась от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="177">
@@ -1498,8 +1498,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="322" Text="Получилась от 2 до 7" Tag="Less7"/>
-				<Option Goto="328" Text="Получилась от 8 до 12" Tag="More8"/>
+				<Option Goto="322" Text="Получилась от 2 до 7"/>
+				<Option Goto="328" Text="Получилась от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="183">
@@ -1531,8 +1531,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="2" Text="Получилась от 2 до 4" Tag="Less4"/>
-				<Option Goto="12" Text="Получилась от 5 до 12" Tag="More5"/>
+				<Option Goto="2" Text="Получилась от 2 до 4"/>
+				<Option Goto="12" Text="Получилась от 5 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="187">
@@ -1554,8 +1554,8 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="61" Text="Получилась от 2 до 6" Tag="Less6"/>
-				<Option Goto="206" Text="Получилась от 7 до 12" Tag="More7"/>
+				<Option Goto="61" Text="Получилась от 2 до 6"/>
+				<Option Goto="206" Text="Получилась от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="190">
@@ -1635,8 +1635,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="270" Text="Получилась от 2 до 7" Tag="Less8"/>
-				<Option Goto="252" Text="Получилась от 8 до 12" Tag="More9"/>
+				<Option Goto="270" Text="Получилась от 2 до 7"/>
+				<Option Goto="252" Text="Получилась от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="201">
@@ -1647,9 +1647,9 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="523" Text="Получилась от 2 до 7" Tag="Less7"/>
-				<Option Goto="135" Text="Получилась от 8 до 11" Tag="Between8-11"/>
-				<Option Goto="263" Text="Получилась 12" Tag="More12"/>
+				<Option Goto="523" Text="Получилась от 2 до 7"/>
+				<Option Goto="135" Text="Получилась от 8 до 11"/>
+				<Option Goto="263" Text="Получилось 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="202">
@@ -1660,9 +1660,9 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="523" Text="Получилась от 2 до 4" Tag="Less4"/>
-				<Option Goto="135" Text="Получилась от 5 до 8" Tag="Between5-8"/>
-				<Option Goto="263" Text="Получилась от 9 до 12" Tag="More9"/>
+				<Option Goto="523" Text="Получилась от 2 до 4"/>
+				<Option Goto="135" Text="Получилась от 5 до 8"/>
+				<Option Goto="263" Text="Получилась от 9 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="203">
@@ -1703,8 +1703,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="48" Text="Получилась от 2 до 7" Tag="Less7"/>
-				<Option Goto="445" Text="Получилась от 8 до 12" Tag="More8"/>
+				<Option Goto="48" Text="Получилась от 2 до 7"/>
+				<Option Goto="445" Text="Получилась от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="208">
@@ -1715,8 +1715,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="268" Text="Получилась от 2 до 7" Tag="Less7"/>
-				<Option Goto="465" Text="Получилась от 8 до 12" Tag="More8"/>
+				<Option Goto="268" Text="Получилась от 2 до 7"/>
+				<Option Goto="465" Text="Получилась от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="209">
@@ -1727,9 +1727,9 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="523" Text="Получилась 2" Tag="Less2"/>
-				<Option Goto="135" Text="Получилась 3 или 4" Tag="Between3-4"/>
-				<Option Goto="263" Text="Получилась от 5 до 12" Tag="More5"/>
+				<Option Goto="523" Text="Получилась 2"/>
+				<Option Goto="135" Text="Получилась 3 или 4"/>
+				<Option Goto="263" Text="Получилась от 5 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="210">
@@ -1746,8 +1746,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="473" Text="Получилась от 2 до 7" Tag="Less7"/>
-				<Option Goto="403" Text="Получилась от 8 до 12" Tag="More8"/>
+				<Option Goto="473" Text="Получилась от 2 до 7"/>
+				<Option Goto="403" Text="Получилась от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="212">
@@ -1756,9 +1756,9 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="27" Text="Получилась от 2 до 4" Tag="Less4"/>
-				<Option Goto="437" Text="Получилась от 5 до 7" Tag="Between5-7"/>
-				<Option Goto="61" Text="Получилась от 8 до 12" Tag="More8"/>
+				<Option Goto="27" Text="Получилась от 2 до 4"/>
+				<Option Goto="437" Text="Получилась от 5 до 7"/>
+				<Option Goto="61" Text="Получилась от 8 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="213">
@@ -1780,9 +1780,9 @@
 				<Test/>
 			</Actions>
 			<Options>
-				<Option Goto="27" Text="Получилось от 2 до 3" Tag="Less3"/>
-				<Option Goto="437" Text="Получилось от 4 до 9" Tag="Between4-9"/>
-				<Option Goto="61" Text="Получилось от 10 до 12" Tag="More10"/>
+				<Option Goto="27" Text="Получилось от 2 до 3"/>
+				<Option Goto="437" Text="Получилось от 4 до 9"/>
+				<Option Goto="61" Text="Получилось от 10 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="216">
@@ -1793,8 +1793,8 @@
 				</Test>
 			</Actions>
 			<Options>
-				<Option Goto="97" Text="Получилось от 2 до 6" Tag="Less6"/>
-				<Option Goto="100" Text="Получилось от 7 до 12" Tag="More12"/>
+				<Option Goto="97" Text="Получилось от 2 до 6"/>
+				<Option Goto="100" Text="Получилось от 7 до 12"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="217">
@@ -1819,7 +1819,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="220">
-			<Text>Размышляя, что в ней еще может быть интересного, Вы быстро пролистываете записную книжку, несмотря на озабоченность Лестрейда.\n\nБросьте кубики и прибавьте к результату значение Вашей Наблюдательности:</Text>
+			<Text>Размышляя, что в ней еще может быть интересного, Вы быстро пролистываете записную книжку, несмотря на озабоченность Лестрейда.</Text>
+			<Actions>
+				<Test>
+					<Stat>Observation</Stat>
+				</Test>
+			</Actions>
 			<Options>
 				<Option Goto="389" Text="Получилось от 2 до 7"/>
 				<Option Goto="226" Text="Получилось от 8 до 12"/>
