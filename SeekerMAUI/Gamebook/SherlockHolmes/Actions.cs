@@ -108,35 +108,51 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
                 test.Add($"BIG|BOLD|ИТОГО: {firstDice} + {secondDice} + {currentStat} = {result}");
             }
 
+            if (result < 2)
+            {
+                result = 2;
+                test.Add("GRAY|Округляем вверх до 2 единиц");
+            }
+                
+            if (result > 12)
+            {
+                result = 12;
+                test.Add("GRAY|Округляем ввниз до 12 единиц");
+            }
+                
             Character.Protagonist.LastDices = result;
 
             foreach (var option in Game.Data.CurrentParagraph.Options)
             {
-                if (option.Tag.StartsWith("Less"))
-                {
-                    var less = int.Parse(option.Tag.Replace("Less", string.Empty));
+                if (!option.Text.StartsWith("Получилось"))
+                    continue;
 
-                    if (result > less)
-                        Game.Buttons.Disable(option.Tag);
+                var range = option.Text.Split(" ");
+
+                if (range.Length == 2)
+                {
+                    var dice = int.Parse(range[1]);
+
+                    if (dice != result)
+                        Game.Buttons.Disable(option.Text);
                 }
-                else if (option.Tag.StartsWith("More"))
+                else
                 {
-                    var less = int.Parse(option.Tag.Replace("More", string.Empty));
+                    int min, max;
 
-                    if (result < less)
-                        Game.Buttons.Disable(option.Tag);
-                }
-                else if (option.Tag.StartsWith("Between"))
-                {
-                    var range = option.Tag.Replace("Between", string.Empty);
-
-                    var between = range
-                        .Split('-')
-                        .Select(x => int.Parse(x))
-                        .ToList();
-
-                    if ((result < between[0]) || (result > between[1]))
-                        Game.Buttons.Disable(option.Tag);
+                    if (range.Length == 4)
+                    {
+                        min = int.Parse(range[1]);
+                        max = int.Parse(range[3]);
+                    }
+                    else
+                    {
+                        min = int.Parse(range[2]);
+                        max = int.Parse(range[4]);
+                    }
+                        
+                    if ((result < min) || (result > max))
+                        Game.Buttons.Disable(option.Text);
                 }
             }
 
