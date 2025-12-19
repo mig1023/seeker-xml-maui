@@ -1708,10 +1708,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="208">
-			<Text>Горничная явно нервничает. Вы размышляете, не пытается ли она скрыть от Вас какую-нибудь тайну.\n\nБросьте кубики и прибавьте к результату значение Вашей Интуиции:</Text>
+			<Text>Горничная явно нервничает. Вы размышляете, не пытается ли она скрыть от Вас какую-нибудь тайну.</Text>
+			<Actions>
+				<Test>
+					<Stat>Intuition</Stat>
+				</Test>
+			</Actions>
 			<Options>
-				<Option Goto="268" Text="Получилась от 2 до 7"/>
-				<Option Goto="465" Text="Получилась от 8 до 12"/>
+				<Option Goto="268" Text="Получилась от 2 до 7" Tag="Less7"/>
+				<Option Goto="465" Text="Получилась от 8 до 12" Tag="More8"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="209">
