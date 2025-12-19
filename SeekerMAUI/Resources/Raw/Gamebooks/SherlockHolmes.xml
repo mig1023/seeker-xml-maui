@@ -1851,7 +1851,12 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="223">
-			<Text>— А вы знаете, кто мог тогда запереть собаку?\n\nБросьте кубики и прибавьте к результату значение Вашего Красноречия:</Text>
+			<Text>— А вы знаете, кто мог тогда запереть собаку?</Text>
+			<Actions>
+				<Test>
+					<Stat>Eloquence</Stat>
+				</Test>
+			</Actions>
 			<Options>
 				<Option Goto="446" Text="Получилось от 2 до 7"/>
 				<Option Goto="99" Text="Получилось от 8 до 12"/>
