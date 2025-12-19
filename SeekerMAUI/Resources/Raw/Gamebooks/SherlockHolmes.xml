@@ -1696,10 +1696,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="207">
-			<Text>Вы размышляете, может ли Грин рассказать Вам еще что-нибудь полезное. Бросьте кубики и прибавьте к результату значение Вашей Интуиции:</Text>
+			<Text>Вы размышляете, может ли Грин рассказать Вам еще что-нибудь полезное.</Text>
+			<Actions>
+				<Test>
+					<Stat>Intuition</Stat>
+				</Test>
+			</Actions>
 			<Options>
-				<Option Goto="48" Text="Получилась от 2 до 7"/>
-				<Option Goto="445" Text="Получилась от 8 до 12"/>
+				<Option Goto="48" Text="Получилась от 2 до 7" Tag="Less7"/>
+				<Option Goto="445" Text="Получилась от 8 до 12" Tag="More8"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="208">
