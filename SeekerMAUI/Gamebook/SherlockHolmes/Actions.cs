@@ -68,7 +68,18 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
 
             test.Add($"Кубики: {Game.Dice.Symbol(firstDice)} + {Game.Dice.Symbol(secondDice)}");
             test.Add($"{Constants.StatNames[Stat]} равна {currentStat}");
-            test.Add($"BIG|BOLD|ИТОГО: {firstDice} + {secondDice} + {currentStat} = {result}");
+
+            if (currentStat <= 0)
+            {
+                result -= 2;
+
+                test.Add("Навык равен нуля, поэтому при броске будет применяться штраф в -2 единицы");
+                test.Add($"BIG|BOLD|ИТОГО: {firstDice} + {secondDice} - {currentStat} = {result}");
+            }
+            else
+            {
+                test.Add($"BIG|BOLD|ИТОГО: {firstDice} + {secondDice} + {currentStat} = {result}");
+            }
 
             Character.Protagonist.LastDices = result;
 
