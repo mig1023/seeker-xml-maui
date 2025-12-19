@@ -61,19 +61,27 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
         public List<string> Test()
         {
             Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
-
-            int currentStat = GetProperty(Character.Protagonist, Stat);
-            int result = firstDice + secondDice + currentStat;
             List<string> test = new List<string>();
 
+            int result = firstDice + secondDice;
             test.Add($"Кубики: {Game.Dice.Symbol(firstDice)} + {Game.Dice.Symbol(secondDice)}");
+
+            if (string.IsNullOrEmpty(Stat))
+            {
+                test.Add($"BIG|BOLD|ИТОГО: {firstDice} + {secondDice} = {result}");
+                return test;
+            }
+
+            int currentStat = GetProperty(Character.Protagonist, Stat);
+            result += currentStat;
+
             test.Add($"{Constants.StatNames[Stat]} равна {currentStat}");
 
             if (currentStat <= 0)
             {
                 result -= 2;
 
-                test.Add("Навык равен нуля, поэтому при броске будет применяться штраф в -2 единицы");
+                test.Add("BAD|Навык равен нуля, поэтому при броске будет применяться штраф в -2 единицы");
                 test.Add($"BIG|BOLD|ИТОГО: {firstDice} + {secondDice} - {currentStat} = {result}");
             }
             else
