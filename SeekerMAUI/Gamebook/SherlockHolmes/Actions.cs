@@ -93,7 +93,8 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             var currentStat = GetProperty(Character.Protagonist, Stat);
             result += currentStat;
 
-            test.Add($"BIG|{Constants.StatNames[Stat]} равна {currentStat}");
+            var equal = Stat == "Eloquence" ? "равно" : "равна";
+            test.Add($"BIG|{Constants.StatNames[Stat]} {equal} {currentStat}");
 
             if (currentStat <= 0)
             {
@@ -109,13 +110,34 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
 
             Character.Protagonist.LastDices = result;
 
-            for (int i = 2; i <= 12; i++)
+            foreach (var option in Game.Data.CurrentParagraph.Options)
             {
-                if (result > i)
-                    Game.Buttons.Disable($"Less{i}");
+                if (option.Tag.StartsWith("Less"))
+                {
+                    var less = int.Parse(option.Tag.Replace("Less", string.Empty));
 
-                if (result < i)
-                    Game.Buttons.Disable($"More{i}");
+                    if (result > less)
+                        Game.Buttons.Disable(option.Tag);
+                }
+                else if (option.Tag.StartsWith("More"))
+                {
+                    var less = int.Parse(option.Tag.Replace("More", string.Empty));
+
+                    if (result < less)
+                        Game.Buttons.Disable(option.Tag);
+                }
+                else if (option.Tag.StartsWith("Between"))
+                {
+                    var range = option.Tag.Replace("Between", string.Empty);
+
+                    var between = range
+                        .Split('-')
+                        .Select(x => int.Parse(x))
+                        .ToList();
+
+                    if ((result < between[0]) || (result > between[1]))
+                        Game.Buttons.Disable(option.Tag);
+                }
             }
 
             return test;
