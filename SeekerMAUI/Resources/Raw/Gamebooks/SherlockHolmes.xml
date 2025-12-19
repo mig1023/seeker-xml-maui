@@ -1092,10 +1092,15 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="128">
-			<Text>Вы прикидываете, что еще полезного мог бы рассказать извозчик.\n\nБросьте кубики и прибавьте к результату значение Вашей Интуиции:</Text>
+			<Text>Вы прикидываете, что еще полезного мог бы рассказать извозчик.</Text>
+			<Actions>
+				<Test>
+					<Stat>Intuition</Stat>
+				</Test>
+			</Actions>
 			<Options>
-				<Option Goto="214" Text="Получилось от 2 до 7"/>
-				<Option Goto="278" Text="Получилось от 8 до 12"/>
+				<Option Goto="214" Text="Получилось от 2 до 7" Tag="Less7"/>
+				<Option Goto="278" Text="Получилось от 8 до 12" Tag="More8"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="129">
