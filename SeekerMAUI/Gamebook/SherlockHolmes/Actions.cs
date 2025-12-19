@@ -76,7 +76,28 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             }
         }
 
-        public List<string> Test()
+        public List<string> Test() =>
+            TestByProperties();
+
+        public List<string> Dexterity() =>
+            TestByProperties("Dexterity");
+
+        public List<string> Ingenuity() =>
+            TestByProperties("Ingenuity");
+
+        public List<string> Intuition() =>
+            TestByProperties("Intuition");
+
+        public List<string> Eloquence() =>
+            TestByProperties("Eloquence");
+
+        public List<string> Observation() =>
+            TestByProperties("Observation");
+
+        public List<string> Erudition() =>
+            TestByProperties("Erudition");
+
+        public List<string> TestByProperties(string property = "")
         {
             Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
             List<string> test = new List<string>();
@@ -84,17 +105,17 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             var result = firstDice + secondDice;
             test.Add($"BIG|Кубики: {Game.Dice.Symbol(firstDice)} + {Game.Dice.Symbol(secondDice)}");
 
-            if (string.IsNullOrEmpty(Stat))
+            if (string.IsNullOrEmpty(property))
             {
                 test.Add($"BIG|BOLD|ИТОГО: {firstDice} + {secondDice} = {result}");
                 return test;
             }
 
-            var currentStat = GetProperty(Character.Protagonist, Stat);
+            var currentStat = GetProperty(Character.Protagonist, property);
             result += currentStat;
 
-            var equal = Stat == "Eloquence" ? "равно" : "равна";
-            test.Add($"BIG|{Constants.StatNames[Stat]} {equal} {currentStat}");
+            var equal = property == "Eloquence" ? "равно" : "равна";
+            test.Add($"BIG|{Constants.StatNames[property]} {equal} {currentStat}");
 
             if (currentStat <= 0)
             {
