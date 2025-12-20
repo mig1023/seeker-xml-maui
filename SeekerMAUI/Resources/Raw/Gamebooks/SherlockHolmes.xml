@@ -4121,7 +4121,7 @@
 		<Paragraph No="547">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="699" Text="Результат от 2 до 6" Availability="БРОСОК <= 6"/>
+				<Option Goto="699" Text="Результат от 2 до 6" Availability="БРОСОК &lt;= 6"/>
 				<Option Goto="592" Text="Результат от 7 до 12" Availability="БРОСОК > 6"/>
 			</Options>
 		</Paragraph>
@@ -4184,7 +4184,7 @@
 		<Paragraph No="556">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="545" Text="Результат от 2 до 7" Availability="БРОСОК <= 7"/>
+				<Option Goto="545" Text="Результат от 2 до 7" Availability="БРОСОК &lt;= 7"/>
 				<Option Goto="599" Text="Результат от 8 до 12" Availability="БРОСОК > 7"/>
 			</Options>
 		</Paragraph>
@@ -4204,7 +4204,7 @@
 		<Paragraph No="559">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="726" Text="Результат от 2 до 7" Availability="БРОСОК <= 7"/>
+				<Option Goto="726" Text="Результат от 2 до 7" Availability="БРОСОК &lt;= 7"/>
 				<Option Goto="676" Text="Результат от 8 до 12" Availability="БРОСОК > 7"/>
 			</Options>
 		</Paragraph>
@@ -4258,7 +4258,7 @@
 		<Paragraph No="567">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="757" Text="Результат от 2 до 7" Availability="БРОСОК <= 7"/>
+				<Option Goto="757" Text="Результат от 2 до 7" Availability="БРОСОК &lt;= 7"/>
 				<Option Goto="765" Text="Результат от 8 до 12" Availability="БРОСОК > 7"/>
 			</Options>
 		</Paragraph>
@@ -4287,7 +4287,7 @@
 		<Paragraph No="571">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="664" Text="Результат от 2 до 7" Availability="БРОСОК <= 7"/>
+				<Option Goto="664" Text="Результат от 2 до 7" Availability="БРОСОК &lt;= 7"/>
 				<Option Goto="600" Text="Результат от 8 до 12" Availability="БРОСОК > 7"/>
 			</Options>
 		</Paragraph>
@@ -4329,7 +4329,7 @@
 		<Paragraph No="577">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="564" Text="Результат от 2 до 10" Availability="БРОСОК <= 10"/>
+				<Option Goto="564" Text="Результат от 2 до 10" Availability="БРОСОК &lt;= 10"/>
 				<Option Goto="569" Text="Результат от 11 до 12" Availability="БРОСОК > 10"/>
 			</Options>
 		</Paragraph>
@@ -4342,7 +4342,7 @@
 		<Paragraph No="579">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="645" Text="Результат от 2 до 8" Availability="БРОСОК <= 8"/>
+				<Option Goto="645" Text="Результат от 2 до 8" Availability="БРОСОК &lt;= 8"/>
 				<Option Goto="621" Text="Результат от 9 до 12" Availability="БРОСОК > 8"/>
 			</Options>
 		</Paragraph>
@@ -4366,7 +4366,7 @@
 		<Paragraph No="582">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="711" Text="Результат от 2 до 5" Availability="БРОСОК <= 5"/>
+				<Option Goto="711" Text="Результат от 2 до 5" Availability="БРОСОК &lt;= 5"/>
 				<Option Goto="792" Text="Результат от 6 до 12" Availability="БРОСОК > 5"/>
 			</Options>
 		</Paragraph>
@@ -4451,7 +4451,7 @@
 		<Paragraph No="594">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="747" Text="Результат от 2 до 9" Availability="БРОСОК <= 9"/>
+				<Option Goto="747" Text="Результат от 2 до 9" Availability="БРОСОК &lt;= 9"/>
 				<Option Goto="763" Text="Результат от 10 до 12" Availability="БРОСОК > 9"/>
 			</Options>
 		</Paragraph>
@@ -4526,8 +4526,8 @@
 		<Paragraph No="605">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="665" Text="Результат от 2 до 8" Availability="БРОСОК <= 8"/>
-				<Option Goto="675" Text="Результат от 9 до 12" Availability="БРОСОК <= 8"/>
+				<Option Goto="665" Text="Результат от 2 до 8" Availability="БРОСОК &lt;= 8"/>
+				<Option Goto="675" Text="Результат от 9 до 12" Availability="БРОСОК &lt;= 8"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="606">
@@ -4653,7 +4653,7 @@
 		<Paragraph No="623">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="786" Text="Результат от 2 до 8" Availability="БРОСОК <= 8"/>
+				<Option Goto="786" Text="Результат от 2 до 8" Availability="БРОСОК &lt;= 8"/>
 				<Option Goto="565" Text="Результат от 9 до 12" Availability="БРОСОК > 8"/>
 			</Options>
 		</Paragraph>
@@ -4683,15 +4683,15 @@
 		<Paragraph No="627">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="756" Text="Результат от 2 до 8" Availability="БРОСОК <= 8"/>
+				<Option Goto="756" Text="Результат от 2 до 8" Availability="БРОСОК &lt;= 8"/>
 				<Option Goto="572" Text="Результат от 9 до 12" Availability="БРОСОК > 8"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="628">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="702" Text="Результат от 2 до 6"/>
-				<Option Goto="736" Text="Результат от 7 до 12, «Результат» = 0"/>
+				<Option Goto="702" Text="Результат от 2 до 6" Availability="БРОСОК &lt;= 6"/>
+				<Option Goto="736" Text="Результат от 7 до 12" Availability="БРОСОК > 6"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="629">
