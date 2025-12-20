@@ -145,7 +145,7 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
 
             foreach (var option in Game.Data.CurrentParagraph.Options)
             {
-                if (!option.Text.StartsWith("Получилось"))
+                if (!option.Text.StartsWith("Получилось") && !option.Text.StartsWith("Результат"))
                     continue;
 
                 var range = option.Text.Split(" ");
