@@ -6697,8 +6697,8 @@
 		<Paragraph No="902">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="927" Text="Результат от 2 до 6"/>
-				<Option Goto="966" Text="Результат от 7 до 12"/>
+				<Option Goto="927" Text="Результат от 2 до 6" Availability="БРОСОК &lt;= 6"/>
+				<Option Goto="966" Text="Результат от 7 до 12" Availability="БРОСОК > 6"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="903">
