@@ -6074,7 +6074,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="819">
-			<Text>Вы никогда не слышали о бренди «Святой Габриэль».\n\nБросьте кубики и прибавьте значение Вашей Интуиции.</Text>
+			<Text>Вы никогда не слышали о бренди «Святой Габриэль».</Text>
+			<Actions>
+				<Intuition/>
+			</Actions>
 			<Options>
 				<Option Goto="1128"/>
 			</Options>
