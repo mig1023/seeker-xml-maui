@@ -8160,9 +8160,9 @@
 		<Paragraph No="1111">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="1079" Text="Результат от 2 до 6"/>
-				<Option Goto="921" Text="Если в наличии 7 «Кубики + Навык + Дедукция/Результат», но отсутствует 9 «Кубики + Навык + Дедукция/Результат»: Результат от 7 до 8"/>
-				<Option Goto="1114" Text="Результат от 9 до 12"/>
+				<Option Goto="1079" Text="Результат от 2 до 6" Availability="БРОСОК &lt;= 6"/>
+				<Option Goto="921" Text="Результат от 7 до 8" Availability="БРОСОК > 6, БРОСОК &lt;= 8"/>
+				<Option Goto="1114" Text="Результат от 9 до 12" Availability="БРОСОК > 8"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1112">
