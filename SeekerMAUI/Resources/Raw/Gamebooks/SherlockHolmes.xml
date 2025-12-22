@@ -2064,7 +2064,9 @@
 		<Paragraph No="261">
 			<Text>Вы приступаете к осмотру следов, оставленных слугами. Это следы, которые они оставили, когда бежали к наружной двери в кабинет.</Text>
 			<Actions>
-				<Observation/>
+				<Observation>
+					<Bonus>A -> улику A -> 2</Bonus>
+				</Observation>
 			</Actions>
 			<Options>
 				<Option Goto="242" Text="Получилась от 2 до 6"/>
