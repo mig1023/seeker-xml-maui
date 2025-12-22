@@ -6,6 +6,8 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
     {
         public string Stat { get; set; }
 
+        public string Bonus { get; set; }
+
         public override List<string> AdditionalStatus() => new List<string>
         {
             $"Ловкость: {Character.Protagonist.Dexterity}",
@@ -127,6 +129,22 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             else
             {
                 test.Add($"BIG|BOLD|ИТОГО: {firstDice} + {secondDice} + {currentStat} = {result}");
+            }
+
+            if (!string.IsNullOrEmpty(Bonus))
+            {
+                var bonuses = Bonus
+                    .Split("->")
+                    .Select(x => x.Trim())
+                    .ToList();
+
+                if (Game.Option.IsTriggered(bonuses[0]))
+                {
+                    result += int.Parse(bonuses[2]);
+
+                    test.Add($"Особый бонус +{bonuses[2]} за {bonuses[1]}");
+                    test.Add($"Таким образом итоговое значение стало {result}");
+                }
             }
 
             if (result < 2)
