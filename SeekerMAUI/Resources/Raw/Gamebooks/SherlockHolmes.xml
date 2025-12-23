@@ -4956,7 +4956,9 @@
 		<Paragraph No="660">
 			<Text>Вы хорошо помните о том, что лорд Хэмптон пытался недорого купить Звезду Ирландии.</Text>
 			<Options>
-				<Option Goto="615" Text="Спросить его об этом, $ «Количество» +1"/>
+				<Option Goto="615" Text="Спросить его об этом">
+					<EvidenceCount Value="1"/>
+				</Option>
 				<Option Goto="770" Text="Не спрашивать"/>
 			</Options>
 		</Paragraph>
