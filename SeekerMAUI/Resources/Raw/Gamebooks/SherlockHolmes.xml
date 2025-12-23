@@ -5459,7 +5459,9 @@
 			<Options>
 				<Option Goto="735" Text="У Вас отмечено Решение 21" Availability="21"/>
 				<Option Goto="642" Text="У Вас отмечена Улика H" Availability="H"/>
-				<Option Goto="771" Text="Если отсутствуют Улика H и Решение 21, $ «Количество» +1" Availability="!21, !H"/>
+				<Option Goto="771" Text="Если отсутствуют Улика H и Решение 21" Availability="!21, !H">
+					<EvidenceCount Value="1"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="726">
