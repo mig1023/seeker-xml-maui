@@ -16,22 +16,35 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             if ((story == 2) || (story == 3))
                 statuses.Add($"Найдено улик: {Character.Protagonist.EvidenceCount}");
 
-            if (Character.Protagonist.Dexterity != null)
+            if ((story == 3) && (Character.Protagonist.Time >= 0))
+            {
+                TimeSpan time = TimeSpan.FromMinutes(Character.Protagonist.Time);
+
+                string hourPassed = Game.Services.CoinsNoun(time.Hours, String.Empty, "а", "ов");
+                string hours = time.Hours > 0 ? $"{time.Hours} час{hourPassed} " : String.Empty;
+
+                string minutesPassed = Game.Services.CoinsNoun(time.Minutes, "а", "ы", String.Empty);
+                string minutes = time.Minutes > 0 ? $"{time.Minutes} минут{minutesPassed} " : String.Empty;
+
+                statuses.Add($"Оставшееся время: {hours}{minutes}");
+            }
+
+            if (Character.Protagonist.Dexterity > 0)
                 statuses.Add($"Ловкость: {Character.Protagonist.Dexterity}");
 
-            if (Character.Protagonist.Ingenuity != null)
+            if (Character.Protagonist.Ingenuity > 0)
                 statuses.Add($"Изобретательность: {Character.Protagonist.Ingenuity}");
 
-            if (Character.Protagonist.Intuition != null)
+            if (Character.Protagonist.Intuition > 0)
                 statuses.Add($"Интуиция: {Character.Protagonist.Intuition}");
 
-            if (Character.Protagonist.Eloquence != null)
+            if (Character.Protagonist.Eloquence > 0)
                 statuses.Add($"Красноречие: {Character.Protagonist.Eloquence}");
 
-            if (Character.Protagonist.Observation != null)
+            if (Character.Protagonist.Observation > 0)
                 statuses.Add($"Наблюдательность: {Character.Protagonist.Observation}");
 
-            if (Character.Protagonist.Erudition != null)
+            if (Character.Protagonist.Erudition > 0)
                 statuses.Add($"Эрудиция: {Character.Protagonist.Erudition}");
 
             if (Constants.StoryPart() > 3)
@@ -101,6 +114,28 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             else
             {
                 return AvailabilityTrigger(option);
+            }
+        }
+
+        public override bool GameOver(out int toEndParagraph, out string toEndText)
+        {
+            var part = Constants.StoryPart();
+            var timeEnd = Character.Protagonist.Time >= 120;
+            var endTimeParagraph = Game.Data.CurrentParagraphID == 1151;
+
+            if ((part == 3) && timeEnd && !endTimeParagraph)
+            {
+                toEndParagraph = 1151;
+                toEndText = "Время, выделенное на допросы и осмотры в клубе, закончилось";
+
+                return true;
+            }
+            else
+            {
+                toEndParagraph = 0;
+                toEndText = string.Empty;
+
+                return false;
             }
         }
 
