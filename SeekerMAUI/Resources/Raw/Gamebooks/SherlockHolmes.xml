@@ -8585,6 +8585,9 @@
 		</Paragraph>
 		<Paragraph No="1151">
 			<Text>К сожалению, допустимое время Вашего нахождения в клубе Диоген закончилось.\n\nСэр Эндрю интеллигентно, но крайне настойчиво выпроваживает Вас.</Text>
+			<Modifications>
+				<TimeCleaning/>
+			</Modifications>
 			<Options>
 				<Option Goto="1121"/>
 			</Options>
