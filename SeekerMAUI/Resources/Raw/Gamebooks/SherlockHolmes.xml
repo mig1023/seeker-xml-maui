@@ -7200,8 +7200,12 @@
 		<Paragraph No="959">
 			<Text>Результат броска:</Text>
 			<Options>
-				<Option Goto="1010" Text="Результат от 2 до 4, «Количество» +1" Availability="БРОСОК &lt;= 4"/>
-				<Option Goto="907" Text="Результат от 5 до 12, «Количество» +1" Availability="БРОСОК > 4"/>
+				<Option Goto="1010" Text="Результат от 2 до 4" Availability="БРОСОК &lt;= 4">
+					<EvidenceCount Value="1"/>
+				</Option>
+				<Option Goto="907" Text="Результат от 5 до 12" Availability="БРОСОК > 4">
+					<EvidenceCount Value="1"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="960">
