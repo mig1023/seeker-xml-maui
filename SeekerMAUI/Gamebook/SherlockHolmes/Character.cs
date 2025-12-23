@@ -54,6 +54,8 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
 
         public int LastDices { get; set; }
 
+        public int EvidenceCount { get; set; }
+
         public override void Init()
         {
             base.Init();
@@ -66,6 +68,7 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             Erudition = 0;
             StatBonuses = 0;
             LastDices = 0;
+            EvidenceCount = 0;
         }
 
         public Character Clone() => new Character()
@@ -79,11 +82,13 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             Erudition = this.Erudition,
             StatBonuses = this.StatBonuses,
             LastDices = this.LastDices,
+            EvidenceCount = this.EvidenceCount,
         };
 
         public override string Save() => String.Join("|",
             Dexterity, Ingenuity, Intuition, Eloquence,
-            Observation, Erudition, StatBonuses, LastDices);
+            Observation, Erudition, StatBonuses, LastDices,
+            EvidenceCount);
 
         public override void Load(string saveLine)
         {
@@ -97,6 +102,7 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             Erudition = int.Parse(save[5]);
             StatBonuses = int.Parse(save[6]);
             LastDices = int.Parse(save[7]);
+            EvidenceCount = int.Parse(save[8]);
 
             IsProtagonist = true;
         }

@@ -11,6 +11,10 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
         public override List<string> AdditionalStatus()
         {
             var statuses = new List<string>();
+            var story = Constants.StoryPart();
+
+            if ((story == 2) || (story == 3))
+                statuses.Add($"Найдено улик: {Character.Protagonist.EvidenceCount}");
 
             if (Character.Protagonist.Dexterity != null)
                 statuses.Add($"Ловкость: {Character.Protagonist.Dexterity}");
