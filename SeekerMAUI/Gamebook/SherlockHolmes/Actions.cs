@@ -8,15 +8,37 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
 
         public string Bonus { get; set; }
 
-        public override List<string> AdditionalStatus() => new List<string>
+        public override List<string> AdditionalStatus()
         {
-            $"Ловкость: {Character.Protagonist.Dexterity}",
-            $"Изобретательность: {Character.Protagonist.Ingenuity}",
-            $"Интуиция: {Character.Protagonist.Intuition}",
-            $"Красноречие: {Character.Protagonist.Eloquence}",
-            $"Наблюдательность: {Character.Protagonist.Observation}",
-            $"Эрудиция: {Character.Protagonist.Erudition}",
-        };
+            var statuses = new List<string>();
+
+            if (Character.Protagonist.Dexterity != null)
+                statuses.Add($"Ловкость: {Character.Protagonist.Dexterity}");
+
+            if (Character.Protagonist.Ingenuity != null)
+                statuses.Add($"Изобретательность: {Character.Protagonist.Ingenuity}");
+
+            if (Character.Protagonist.Intuition != null)
+                statuses.Add($"Интуиция: {Character.Protagonist.Intuition}");
+
+            if (Character.Protagonist.Eloquence != null)
+                statuses.Add($"Красноречие: {Character.Protagonist.Eloquence}");
+
+            if (Character.Protagonist.Observation != null)
+                statuses.Add($"Наблюдательность: {Character.Protagonist.Observation}");
+
+            if (Character.Protagonist.Erudition != null)
+                statuses.Add($"Эрудиция: {Character.Protagonist.Erudition}");
+
+            if (Constants.StoryPart() > 3)
+            {
+                return null;
+            }
+            else
+            {
+                return statuses.Count > 0 ? statuses : null;
+            }
+        }
 
         public override List<string> Representer()
         {

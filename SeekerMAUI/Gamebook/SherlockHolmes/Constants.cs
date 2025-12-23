@@ -10,6 +10,20 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
 
         public static Dictionary<int, string> Buttons { get; set; }
 
+        public static int StoryPart()
+        {
+            int part = 0;
+            int current = Game.Data.CurrentParagraphID;
+
+            foreach (int startParagraph in Buttons.Keys.OrderBy(x => x))
+            {
+                if (current >= startParagraph)
+                    part += 1;
+            }
+
+            return part > 0 ? part : 1;
+        }
+
         public override string GetColor(ButtonTypes type)
         {
             if ((type == ButtonTypes.Main) || (type == ButtonTypes.Action))
