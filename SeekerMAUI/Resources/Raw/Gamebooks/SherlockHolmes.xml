@@ -5664,7 +5664,9 @@
 			<Triggers>C</Triggers>
 			<Options>
 				<Option Goto="576" Text="Спросить Роско, что за деньги он собирает"/>
-				<Option Goto="673" Text="Не спрашивать, $ «Количество» +1"/>
+				<Option Goto="673" Text="Не спрашивать">
+					<EvidenceCount Value="1"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="753">
