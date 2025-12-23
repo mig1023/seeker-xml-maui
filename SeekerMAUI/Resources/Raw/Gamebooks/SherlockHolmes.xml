@@ -5935,7 +5935,9 @@
 			<Text>Результат броска:</Text>
 			<Options>
 				<Option Goto="716" Text="Результат от 2 до 6" Availability="БРОСОК &lt;= 6"/>
-				<Option Goto="775" Text="Результат от 7 до 12, «Количество» +1" Availability="БРОСОК > 6"/>
+				<Option Goto="775" Text="Результат от 7 до 12" Availability="БРОСОК > 6">
+					<EvidenceCount Value="1"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="791">
