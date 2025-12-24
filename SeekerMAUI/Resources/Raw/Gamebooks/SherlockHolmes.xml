@@ -7701,10 +7701,13 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="1004">
-			<Text>Вы решаете, что допросить мистера Гамильтона было бы разумно.\n\n$ «Прошло минут» +1, «Осталось минут» -1</Text>
+			<Text>Вы решаете, что допросить мистера Гамильтона было бы разумно.</Text>
+			<Modifications>
+				<Time Value="1"/>
+			</Modifications>
 			<Options>
-				<Option Goto="890" Text="Если в наличии 1 «Время на допросы/Осталось минут»:У Вас отмечена Улика Q" Availability="Q"/>
-				<Option Goto="1063" Text="Если в наличии 1 «Время на допросы/Осталось минут»: Не отмечена" Availability="!Q"/>
+				<Option Goto="890" Text="У Вас отмечена Улика Q" Availability="Q"/>
+				<Option Goto="1063" Text="Не отмечена" Availability="!Q"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1005">
