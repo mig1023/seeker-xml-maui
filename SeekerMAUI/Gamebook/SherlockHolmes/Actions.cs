@@ -16,7 +16,7 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             if ((story == 2) || (story == 3))
                 statuses.Add($"Найдено улик: {Character.Protagonist.EvidenceCount}");
 
-            if ((story == 3) && (Character.Protagonist.Time >= 0))
+            if ((story == 3) && (Character.Protagonist.Time > 0))
             {
                 TimeSpan time = TimeSpan.FromMinutes(Character.Protagonist.Time);
 
@@ -26,7 +26,7 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
                 string minutesPassed = Game.Services.CoinsNoun(time.Minutes, "а", "ы", String.Empty);
                 string minutes = time.Minutes > 0 ? $"{time.Minutes} минут{minutesPassed} " : String.Empty;
 
-                statuses.Add($"Оставшееся время: {hours}{minutes}");
+                statuses.Add($"Прошло времи: {hours}{minutes}");
             }
 
             if (Character.Protagonist.Dexterity > 0)
