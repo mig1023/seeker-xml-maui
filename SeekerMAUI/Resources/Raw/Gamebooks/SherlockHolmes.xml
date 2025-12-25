@@ -1751,7 +1751,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="218">
-			<Text>Вы отдаете извозчику деньги, он благодарит Вас и уходит.\n\nОтметьте Улику V.</Text>
+			<Texts>
+				<Text>Вы отдаете извозчику деньги, он благодарит Вас и уходит.</Text>
+				<Text Style="Small">Отметьте Улику V.</Text>
+			</Texts>
 			<Triggers>V</Triggers>
 			<Options>
 				<Option Goto="253"/>
