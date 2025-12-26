@@ -4265,7 +4265,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="539">
-			<Text>Вы отправили юного Стэнли следить за Боузером и Фитцхью.\n\nОтмечено Решение 2</Text>
+			<Texts>
+				<Text>Вы отправили юного Стэнли следить за Боузером и Фитцхью.</Text>
+				<Text Style="Small">Отмечено Решение 2.</Text>
+			</Texts>
 			<Triggers>2</Triggers>
 			<Options>
 				<Option Goto="554"/>
