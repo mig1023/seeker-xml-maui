@@ -5492,7 +5492,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="694">
-			<Text>Вы отправили юного Стэнли следить за конюхом полковника Стюарта — Оливером.\n\nОтмечено Решение 3</Text>
+			<Texts>
+				<Text>Вы отправили юного Стэнли следить за конюхом полковника Стюарта — Оливером.</Text>
+				<Text Style="Small">Отмечено Решение 3.</Text>
+			</Texts>
 			<Triggers>3</Triggers>
 			<Options>
 				<Option Goto="554"/>
