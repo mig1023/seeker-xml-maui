@@ -4094,7 +4094,7 @@
 		<Paragraph No="516">
 			<Text>Вы продолжаете объяснять, как смогли придти к своим выводам.</Text>
 			<Options>
-				<Option Goto="459" Text="Отмечены Улики D и Z, или Улика S и Решение 19" Availability="D|S, Z|19"/>
+				<Option Goto="459" Text="Отмечены Улики D и Z, или Улика S и Решение 19" Availability="DZS"/>
 				<Option Goto="444" Text="Не отмечены"/>
 			</Options>
 		</Paragraph>
