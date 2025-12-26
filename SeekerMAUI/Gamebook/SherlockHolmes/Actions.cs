@@ -117,6 +117,22 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
             }
         }
 
+        public override bool Availability(string option)
+        {
+            if (option == "NOE")
+            {
+                var n = Game.Option.IsTriggered("N");
+                var o = Game.Option.IsTriggered("O");
+                var e = Game.Option.IsTriggered("E");
+
+                return (n|o) && !e;
+            }
+            else
+            {
+                return base.Availability(option);
+            }
+        }
+
         public override bool GameOver(out int toEndParagraph, out string toEndText)
         {
             var part = Constants.StoryPart();
