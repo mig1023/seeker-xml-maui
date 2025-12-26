@@ -125,7 +125,7 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
                 var o = Game.Option.IsTriggered("O");
                 var e = Game.Option.IsTriggered("E");
 
-                return (n||o) && !e;
+                return (n || o) && !e;
             }
             else if (option == "QREX")
             {
@@ -134,7 +134,15 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
                 var e = Game.Option.IsTriggered("E");
                 var x = Game.Option.IsTriggered("X");
 
-                return (q||r) && (e||x);
+                return (q || r) && (e || x);
+            }
+            else if (option == "EOX")
+            {
+                var e = Game.Option.IsTriggered("E");
+                var o = Game.Option.IsTriggered("O");
+                var x = Game.Option.IsTriggered("X");
+
+                return (e || o) && x;
             }
             else
             {
