@@ -119,30 +119,9 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
 
         public override bool Availability(string option)
         {
-            if (option == "NOE")
+            if (Availabilities.TriggersString(option))
             {
-                var n = Game.Option.IsTriggered("N");
-                var o = Game.Option.IsTriggered("O");
-                var e = Game.Option.IsTriggered("E");
-
-                return (n || o) && !e;
-            }
-            else if (option == "QREX")
-            {
-                var q = Game.Option.IsTriggered("Q");
-                var r = Game.Option.IsTriggered("R");
-                var e = Game.Option.IsTriggered("E");
-                var x = Game.Option.IsTriggered("X");
-
-                return (q || r) && (e || x);
-            }
-            else if (option == "EOX")
-            {
-                var e = Game.Option.IsTriggered("E");
-                var o = Game.Option.IsTriggered("O");
-                var x = Game.Option.IsTriggered("X");
-
-                return (e || o) && x;
+                return Availabilities.TriggersCheck(option);
             }
             else
             {
