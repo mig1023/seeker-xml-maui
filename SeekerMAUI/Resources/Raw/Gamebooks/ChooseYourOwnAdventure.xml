@@ -28,6 +28,7 @@
 				<Item Name="1925" Value="202d30"/>
 				<Item Name="1943" Value="2d6953"/>
 				<Item Name="1997" Value="a7a7a7"/>
+				<Item Name="2017" Value="3a3a33"/>
 			</Buttons>
 		</Dictionaries>
 	</Introduction>
@@ -99,6 +100,9 @@
 				</Option>
 				<Option Goto="1997" Text="Экспресс «Белый медведь»" Image="PolarExpress">
 					<Text Style="Small, Upper">Эдвард Паккард, перевод Сергея Посниченко, 1984</Text>
+				</Option>
+				<Option Goto="2017" Text="Тайна фильма" Image="MovieMystery">
+					<Text Style="Small, Upper">Сюзан Сондерз, перевод Сергея Посниченко, 1987</Text>
 				</Option>
 			</Options>
 		</Paragraph>
