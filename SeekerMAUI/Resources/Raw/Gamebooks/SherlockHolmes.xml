@@ -24,6 +24,7 @@
 				<Item Name="531" Value="293a3d"/>
 				<Item Name="795" Value="b52f08"/>
 				<Item Name="1199" Value="414656"/>
+				<Item Name="1233" Value="513c3e"/>
 			</Buttons>
 		</Dictionaries>
 		<Buttons>
@@ -44,6 +45,9 @@
 				</Option>
 				<Option Goto="1199" Text="Новые приключения Шерлока Холмса и доктора Ватсона" Image="NewAdventures" Style="414656">
 					<Text Style="Small, Upper">sirius.2611, 2021</Text>
+				</Option>
+				<Option Goto="1233" Text="Это элементарно, Ватсон" Image="Elementary" Style="513c3e">
+					<Text Style="Small, Upper">Константин Таро, 2011</Text>
 				</Option>
 			</Options>
 		</Paragraph>
