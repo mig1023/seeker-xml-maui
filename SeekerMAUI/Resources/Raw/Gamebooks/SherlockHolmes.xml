@@ -9934,5 +9934,11 @@
 				<Option Goto="1242"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1237">
+			<Text>Замок на двери исправен. Никаких следов взлома.</Text>
+			<Options>
+				<Option Goto="1242"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
