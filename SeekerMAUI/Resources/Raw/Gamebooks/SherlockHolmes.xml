@@ -10085,5 +10085,11 @@
 				<Option Goto="1245"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1258">
+			<Text>Замки и стекла на окнах целые. Все окна надежно закрыты изнутри.</Text>
+			<Options>
+				<Option Goto="1242"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
