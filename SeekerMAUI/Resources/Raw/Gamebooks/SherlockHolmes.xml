@@ -9952,5 +9952,11 @@
 				<Option Goto="1242"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1240">
+			<Text>Железная увесистая кочерга, покрытая копотью со следами запекшейся крови на конце. Кочерга чуть согнулась от удара.</Text>
+			<Options>
+				<Option Goto="1242"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
