@@ -9928,5 +9928,11 @@
 				<Option Goto="1245"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1236">
+			<Text>На тканевой обивке сидения кресла вы заметили несколько капель крови.</Text>
+			<Options>
+				<Option Goto="1242"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
