@@ -29,6 +29,7 @@
 				<Item Name="1943" Value="2d6953"/>
 				<Item Name="1997" Value="a7a7a7"/>
 				<Item Name="2017" Value="3a3a33"/>
+				<Item Name="2034" Value="799d5e"/>
 			</Buttons>
 		</Dictionaries>
 	</Introduction>
@@ -103,6 +104,9 @@
 				</Option>
 				<Option Goto="2017" Text="Тайна фильма" Image="MovieMystery">
 					<Text Style="Small, Upper">Сюзан Сондерз, перевод Сергея Посниченко, 1987</Text>
+				</Option>
+				<Option Goto="2034" Text="Великие сокровища зубной пасты «Зоппер»" Image="Toothpaste">
+					<Text Style="Small, Upper">Дженнифер Бах и Эми Брост, перевод Сергея Посниченко, 1987</Text>
 				</Option>
 			</Options>
 		</Paragraph>
