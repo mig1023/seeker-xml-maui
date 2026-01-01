@@ -8,6 +8,18 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
 
         public string Bonus { get; set; }
 
+        public override List<string> Status()
+        {
+            if (Constants.StoryPart() == 5)
+            {
+                return new List<string> { $"Единиц внимания: {Character.Protagonist.Attention}" };
+            }
+            else
+            {
+                return null;
+            }
+        }
+            
         public override List<string> AdditionalStatus()
         {
             var statuses = new List<string>();
@@ -133,9 +145,22 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
         {
             var part = Constants.StoryPart();
             var timeEnd = Character.Protagonist.Time >= 120;
-            var endTimeParagraph = Game.Data.CurrentParagraphID == 1151;
+            var attentionEnd = Character.Protagonist.Attention <= 0;
+            var endTimeParagraph3 = Game.Data.CurrentParagraphID == 1151;
 
-            if ((part == 3) && timeEnd && !endTimeParagraph)
+            var endsPraragraphs5 = 
+                (Game.Data.CurrentParagraphID == 1261) ||
+                (Game.Data.CurrentParagraphID == 1264) ||
+                (Game.Data.CurrentParagraphID == 1265);
+
+            if ((part == 5) && attentionEnd && endsPraragraphs5)
+            {
+                toEndParagraph = 1261;
+                toEndText = "Единицы Внимания кончились";
+
+                return true;
+            }
+            else  if ((part == 3) && timeEnd && !endTimeParagraph3)
             {
                 toEndParagraph = 1151;
                 toEndText = "Время, выделенное на допросы и осмотры в клубе, закончилось";
