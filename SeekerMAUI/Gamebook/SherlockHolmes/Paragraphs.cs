@@ -24,7 +24,7 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
 
         public override Option OptionParse(XmlNode xmlOption)
         {
-            Option option = OptionsTemplate(xmlOption);
+            Option option = OptionParseWithDo(xmlOption, new Modification());
 
             if (Constants.Buttons.ContainsKey(option.Goto))
                 option.Style = Constants.Buttons[option.Goto];
