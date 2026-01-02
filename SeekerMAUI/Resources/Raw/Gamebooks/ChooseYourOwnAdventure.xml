@@ -35,6 +35,7 @@
 	</Introduction>
 	<Paragraphs>
 		<Paragraph No="0">
+			<Text Style="Bold, Center">*  *  *  БОЛЬШИЕ КНИГИ:  *  *  *</Text>
 			<Options>
 				<Option Goto="1" Text="Остров динозавров" Image="Dinosaur">
 					<Text Style="Small, Upper">Эдвард Паккард, перевод Е. Нестеровой, 1993</Text>
@@ -88,7 +89,10 @@
 					<Text Style="Small, Upper">Эдвард Паккард, перевод Н. Нестеровой, 1992</Text>
 				</Option>
 				<Option Goto="1795" Text="Пришельцы из космоса" Image="Invaders">
-					<Text Style="Small, Upper">Эдвард Паккард, перевод У. Сапциной, 1991</Text>
+					<Texts>
+						<Text Style="Small, Upper">Эдвард Паккард, перевод У. Сапциной, 1991</Text>
+						<Text Style="Bold, Center">*  *  *  МАЛЕНЬКИЕ КНИЖКИ:  *  *  *</Text>
+					</Texts>
 				</Option>
 				<Option Goto="1909" Text="Похищение феи" Image="Fairy">
 					<Text Style="Small, Upper">Шэннон Гиллиган, перевод Сергея Посниченко, 1985</Text>
