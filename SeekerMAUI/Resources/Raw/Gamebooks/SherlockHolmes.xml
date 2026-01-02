@@ -9973,70 +9973,73 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="1242">
-			<Text>Ваши дальнейшие действия?\n\nОсмотреть более тщательно тело убитого:</Text>
+			<Texts>
+				<Text>Ваши дальнейшие действия?</Text>
+				<Text Style="Bold">Осмотреть более тщательно тело убитого:</Text>
+			</Texts>
 			<Options>
 				<Option Goto="1255" Text="Поверхностно">
 					<Attention Value="-1"/>
 				</Option>
 				<Option Goto="1246" Text="Внимательно">
 					<Attention Value="-2"/>
-					<Text>Осмотреть орудие убийства (кочергу):</Text>
+					<Text Style="Bold">Осмотреть орудие убийства (кочергу):</Text>
 				</Option>
 				<Option Goto="1240" Text="Поверхностно">
 					<Attention Value="-1"/>
 				</Option>
 				<Option Goto="1254" Text="Внимательно">
 					<Attention Value="-2"/>
-					<Text>Осмотреть старое оружие на стенах кухни:</Text>
+					<Text Style="Bold">Осмотреть старое оружие на стенах кухни:</Text>
 				</Option>
 				<Option Goto="1263" Text="Поверхностно">
 					<Attention Value="-1"/>
 				</Option>
 				<Option Goto="1248" Text="Внимательно">
 					<Attention Value="-2"/>
-					<Text>Осмотреть стол с посудой:</Text>
+					<Text Style="Bold">Осмотреть стол с посудой:</Text>
 				</Option>
 				<Option Goto="1243" Text="Поверхностно">
 					<Attention Value="-1"/>
 				</Option>
 				<Option Goto="1256" Text="Внимательно">
 					<Attention Value="-2"/>
-					<Text>Осмотреть шнур, которым была привязана леди Абигаль:</Text>
+					<Text Style="Bold">Осмотреть шнур, которым была привязана леди Абигаль:</Text>
 				</Option>
 				<Option Goto="1259" Text="Поверхностно">
 					<Attention Value="-1"/>
 				</Option>
 				<Option Goto="1262" Text="Внимательно">
 					<Attention Value="-2"/>
-					<Text>Осмотреть кресло, к которому была привязана леди Абигаль:</Text>
+					<Text Style="Bold">Осмотреть кресло, к которому была привязана леди Абигаль:</Text>
 				</Option>
 				<Option Goto="1236" Text="Поверхностно">
 					<Attention Value="-1"/>
 				</Option>
 				<Option Goto="1251" Text="Внимательно">
 					<Attention Value="-2"/>
-					<Text>Осмотреть оборванный конец шнура, который остался висеть на звонке:</Text>
+					<Text Style="Bold">Осмотреть оборванный конец шнура, который остался висеть на звонке:</Text>
 				</Option>
 				<Option Goto="1252" Text="Поверхностно">
 					<Attention Value="-1"/>
 				</Option>
 				<Option Goto="1239" Text="Внимательно">
 					<Attention Value="-2"/>
-					<Text>Осмотреть замок на двери ведущей из столовой в сад:</Text>
+					<Text Style="Bold">Осмотреть замок на двери ведущей из столовой в сад:</Text>
 				</Option>
 				<Option Goto="1237" Text="Поверхностно">
 					<Attention Value="-1"/>
 				</Option>
 				<Option Goto="1247" Text="Внимательно">
 					<Attention Value="-2"/>
-					<Text>Осмотреть землю за дверью ведущей в сад:</Text>
+					<Text Style="Bold">Осмотреть землю за дверью ведущей в сад:</Text>
 				</Option>
 				<Option Goto="1243" Text="Поверхностно">
 					<Attention Value="-1"/>
 				</Option>
 				<Option Goto="1260" Text="Внимательно">
 					<Attention Value="-2"/>
-					<Text>Осмотреть замки на окнах:</Text>
+					<Text Style="Bold">Осмотреть замки на окнах:</Text>
 				</Option>
 				<Option Goto="1250" Text="Поверхностно">
 					<Attention Value="-1"/>
