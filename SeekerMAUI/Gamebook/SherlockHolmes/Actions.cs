@@ -153,7 +153,7 @@ namespace SeekerMAUI.Gamebook.SherlockHolmes
                 (Game.Data.CurrentParagraphID == 1264) ||
                 (Game.Data.CurrentParagraphID == 1265);
 
-            if ((part == 5) && attentionEnd && endsPraragraphs5)
+            if ((part == 5) && attentionEnd && !endsPraragraphs5)
             {
                 toEndParagraph = 1261;
                 toEndText = "Единицы Внимания кончились";
