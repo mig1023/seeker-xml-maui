@@ -58,5 +58,11 @@
 				<Option Goto="425" Text="Выход из города здесь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="6">
+			<Text>В этой версии не используется</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
