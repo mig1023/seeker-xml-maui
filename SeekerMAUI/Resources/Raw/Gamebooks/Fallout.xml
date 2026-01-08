@@ -208,5 +208,12 @@
 				<Option Goto="379"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="28">
+			<Text>Вы подходите к женщине, та говорит, что её зовут миссис Бишоп и вы явно ошиблись адресом.</Text>
+			<Options>
+				<Option Goto="309" Text="Подойдя к ней, если ваше обаяние меньше трёх"/>
+				<Option Goto="292" Text="если же три или выше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
