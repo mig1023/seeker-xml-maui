@@ -637,5 +637,14 @@
 				<Option Goto="97"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="92">
+			<Text>В главном административном здании вы можете пойти</Text>
+			<Options>
+				<Option Goto="152" Text="В кабинет Маклюра"/>
+				<Option Goto="357" Text="В кабинет Первого Гражданина"/>
+				<Option Goto="287" Text="В кабинет Получения Гражданства"/>
+				<Option Goto="359" Text="Можно просто уйти"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
