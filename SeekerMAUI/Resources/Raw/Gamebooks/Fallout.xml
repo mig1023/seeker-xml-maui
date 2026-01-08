@@ -747,5 +747,15 @@
 				<Option Goto="152"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="107">
+			<Text>Вы проходите в казино «Десперадо», им управляет семья Мордино. Вы можете направиться:</Text>
+			<Options>
+				<Option Goto="371" Text="К стойке, поболтать с барменом"/>
+				<Option Goto="355" Text="К молодому человеку с ножом"/>
+				<Option Goto="133" Text="На второй этаж"/>
+				<Option Goto="19" Text="Поиграть немного"/>
+				<Option Goto="5" Text="Можно, наконец, просто уйти"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
