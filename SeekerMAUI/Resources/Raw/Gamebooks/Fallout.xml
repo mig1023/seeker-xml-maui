@@ -235,5 +235,15 @@
 				<Option Goto="56"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="32">
+			<Text>В баре Бакнеров сидит в основном та часть города, которая трапперами не является, так как трапперы отдыхают в «Золотом Гекко». Здесь находятся:</Text>
+			<Options>
+				<Option Goto="86" Text="Дикарь с палкой в носу"/>
+				<Option Goto="392" Text="Едва стоящий на ногах мужчина"/>
+				<Option Goto="164" Text="Миссис Бакнер"/>
+				<Option Goto="349" Text="Мисс Бакнер за стойкой"/>
+				<Option Goto="10" Text="Можете выйти из бара на свежий воздух"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
