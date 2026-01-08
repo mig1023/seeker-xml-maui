@@ -150,5 +150,17 @@
 				<Option Goto="107"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="20">
+			<Text>Вы в коридоре В, здесь можно:</Text>
+			<Options>
+				<Option Goto="25" Text="Отправиться на склад"/>
+				<Option Goto="90" Text="Можно пойти пообщаться с Льюис"/>
+				<Option Goto="157" Text="Можно пойти в лабораторию лекарственных препаратов"/>
+				<Option Goto="342" Text="Какая-то непонятная дверь"/>
+				<Option Goto="120" Text="Можно пойти в коридор С"/>
+				<Option Goto="100" Text="А также в Главный коридор"/>
+				<Option Goto="180" Text="И в коридор А"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
