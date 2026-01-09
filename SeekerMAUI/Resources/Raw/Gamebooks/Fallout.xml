@@ -1672,5 +1672,11 @@
 				<Option Goto="25"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="247">
+			<Text>Вы спрашиваете бармена что в меню:\n\nПиво - 20 золотых\n\nДжин - 20 золотых\n\nНюка-кола - 10 золотых\n\nПустынный орёл - 1000 золотых\n\nКогда возьмёте, что хотели уходите.</Text>
+			<Options>
+				<Option Goto="61"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
