@@ -1559,5 +1559,15 @@
 				<Option Goto="385" Text="Сходить в лабораторию биоразработок"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="230">
+			<Text>Вы на базе «Наварро».</Text>
+			<Options>
+				<Option Goto="319" Text="Можете пойти в столовую"/>
+				<Option Goto="184" Text="Можете пройти в ремонтную мастерскую №1"/>
+				<Option Goto="257" Text="Можете пройти в ремонтную мастерскую №2"/>
+				<Option Goto="229" Text="Можно спуститься в подземную часть базы"/>
+				<Option Goto="270" Text="Можно пройти на взлётно-посадочную полосу"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
