@@ -1978,5 +1978,19 @@
 				<Option Goto="359" Text="Можно просто покинуть этот саркофаг"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="294">
+			<Text>В западной части Дена вы замечаете несколько мест, где можно побывать:</Text>
+			<Options>
+				<Option Goto="24" Text="Здание с надписью ночлежка"/>
+				<Option Goto="253" Text="Здание с надписью «У Тубби»"/>
+				<Option Goto="177" Text="Бункер Братства Стали"/>
+				<Option Goto="114" Text="Казино «Бордо»"/>
+				<Option Goto="105" Text="Трущобы"/>
+				<Option Goto="172" Text="«Офис» Лары"/>
+				<Option Goto="196" Text="Можно подойти за консультацией к милым и смышлёным ребятишкам"/>
+				<Option Goto="144" Text="Или можно уйти в восточную часть города"/>
+				<Option Goto="462" Text="Либо покинуть город вообще"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
