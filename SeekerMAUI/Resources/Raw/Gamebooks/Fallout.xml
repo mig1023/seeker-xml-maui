@@ -1968,5 +1968,15 @@
 				<Option Goto="309"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="293">
+			<Text>Внутри Убежища вы можете подойти</Text>
+			<Options>
+				<Option Goto="303" Text="К мужчине в белом халате (очевидно доктору)"/>
+				<Option Goto="527" Text="К женщине в белом халате (доктор-женщина? Нетипично)"/>
+				<Option Goto="212" Text="К главному компьютеру"/>
+				<Option Goto="514" Text="Можно просто побродить по Убежищу"/>
+				<Option Goto="359" Text="Можно просто покинуть этот саркофаг"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
