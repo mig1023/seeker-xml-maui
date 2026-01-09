@@ -1550,5 +1550,14 @@
 				<Option Goto="343"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="229">
+			<Text>Вы на базе «Наварро».</Text>
+			<Options>
+				<Option Goto="93" Text="Можете пойти в арсенал"/>
+				<Option Goto="288" Text="Можно сходить к капитану"/>
+				<Option Goto="230" Text="Подняться на поверхность"/>
+				<Option Goto="385" Text="Сходить в лабораторию биоразработок"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
