@@ -1172,5 +1172,12 @@
 				<Option Goto="294" Text="иначе просто уходите"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="173">
+			<Text>Вы оглядываетесь в поисках человека, которого вам заказали убить.</Text>
+			<Options>
+				<Option Goto="282" Text="Пооглядывавшись с полчаса вы его, наконец, находите (если прошла проверка по навыку следопыта-II)"/>
+				<Option Goto="309" Text="иначе"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
