@@ -1179,5 +1179,12 @@
 				<Option Goto="309" Text="иначе"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="174">
+			<Text>Вы подсаживаетесь к хмурому парню, сводите брови, выпячиваете губы...</Text>
+			<Options>
+				<Option Goto="203" Text="если у вас прошла проверка по обаянию-1, или у вас есть перк «маньяк»m"/>
+				<Option Goto="69" Text="иначе человек ни за что не будет с вами разговаривать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
