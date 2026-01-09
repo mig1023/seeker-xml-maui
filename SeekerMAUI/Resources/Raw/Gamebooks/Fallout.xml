@@ -981,5 +981,15 @@
 				<Option Goto="56"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="144">
+			<Text>Вам на глаза попадаются следующие местные достопримечательности:</Text>
+			<Options>
+				<Option Goto="96" Text="Ресторан Мамочки"/>
+				<Option Goto="49" Text="Заведение «Дыра»"/>
+				<Option Goto="158" Text="Трущобы"/>
+				<Option Goto="491" Text="Здание с охраной у входа и вывеской «Гильдия Работорговцев»"/>
+				<Option Goto="294" Text="уйти в западную часть город"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
