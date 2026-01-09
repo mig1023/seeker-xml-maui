@@ -1331,5 +1331,16 @@
 				<Option Goto="294"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="197">
+			<Text>Вы попадаете в торговый район Новой Калифорнийской Республики. Здесь располагаются:</Text>
+			<Options>
+				<Option Goto="14" Text="Базар Бастера"/>
+				<Option Goto="127" Text="Ларёк вкусной и питательной пищи"/>
+				<Option Goto="361" Text="Бар «Сырой Салун»"/>
+				<Option Goto="318" Text="Фирма по продаже живого товара"/>
+				<Option Goto="320" Text="Вход во внутреннюю часть города"/>
+				<Option Goto="230" Text="Вы можете также улететь отсюда"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
