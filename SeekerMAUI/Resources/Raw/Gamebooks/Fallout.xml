@@ -1510,5 +1510,16 @@
 				<Option Goto="555" Text="второго Джером Мэйнс"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="224">
+			<Text>Вы в подземном бункере Хубологистов. Можете здесь погулять немного:</Text>
+			<Options>
+				<Option Goto="190" Text="Можно подойти к человеку в серой рясе"/>
+				<Option Goto="101" Text="Ещё один человек в коричневой рясе стоит подальше"/>
+				<Option Goto="384" Text="Человек в шикарном костюме, окружённый охраной"/>
+				<Option Goto="248" Text="Учёный в белом халате"/>
+				<Option Goto="2" Text="Представление с участием звёзд!!!"/>
+				<Option Goto="77" Text="Можете уйти из бункера"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
