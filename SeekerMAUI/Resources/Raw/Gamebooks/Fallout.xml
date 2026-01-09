@@ -1318,5 +1318,12 @@
 				<Option Goto="320"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="195">
+			<Text>Вы догадываетесь спросить Бишопа о его советнике.</Text>
+			<Options>
+				<Option Goto="282" Text="если ваш интеллект три или выше"/>
+				<Option Goto="331" Text="иначе, вы возвращаетесь к первоначальной теме разговора"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
