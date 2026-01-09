@@ -2158,5 +2158,21 @@
 				<Option Goto="230"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="320">
+			<Text>Во внутренней части города вас просят убрать оружие, здесь всё буквально кишит полицейскими, тут всё ими заражено:</Text>
+			<Options>
+				<Option Goto="235" Text="Полицейский участок"/>
+				<Option Goto="138" Text="Поликлиника"/>
+				<Option Goto="59" Text="Магазин «Всякая всячина»"/>
+				<Option Goto="260" Text="База Рейнджеров"/>
+				<Option Goto="131" Text="Ворота к ранчо Вестина"/>
+				<Option Goto="526" Text="Бункер «Братства Стали»"/>
+				<Option Goto="575" Text="Здание регистрации"/>
+				<Option Goto="35" Text="Бар"/>
+				<Option Goto="194" Text="Ворота к вилле заместителя мэра"/>
+				<Option Goto="108" Text="Мэрия"/>
+				<Option Goto="197" Text="Можете уйти как пришли"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
