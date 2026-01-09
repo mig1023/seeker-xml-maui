@@ -1478,5 +1478,15 @@
 				<Option Goto="10"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="220">
+			<Text>Вы попали в Гекко, город мутантов. Здесь есть настоящая атомная станция, вам просто необходимо всеми силами туда попасть. А вообще, здесь можно пойти:</Text>
+			<Options>
+				<Option Goto="494" Text="К сараю рядом"/>
+				<Option Goto="545" Text="Внутрь ядерной электростанции"/>
+				<Option Goto="417" Text="Проход в другую часть города"/>
+				<Option Goto="448" Text="Бар"/>
+				<Option Goto="445" Text="Или можно покинуть город"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
