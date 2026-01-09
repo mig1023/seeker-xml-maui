@@ -1218,5 +1218,15 @@
 				<Option Goto="205" Text="Если вам симпатичнее третий"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="180">
+			<Text>Вы забрели в коридор А, отсюда открывается вид на:</Text>
+			<Options>
+				<Option Goto="88" Text="Дверь с какой-то вывеской"/>
+				<Option Goto="132" Text="Исследовательскую лабораторию"/>
+				<Option Goto="312" Text="Отдел пропаганды"/>
+				<Option Goto="20" Text="А можно уйти в коридор В"/>
+				<Option Goto="100" Text="Или в Главный коридор"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
