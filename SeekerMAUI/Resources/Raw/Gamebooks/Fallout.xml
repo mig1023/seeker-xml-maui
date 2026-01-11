@@ -2432,5 +2432,22 @@
 				<Option Goto="226" Text="Справа клуб «Акула»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="359">
+			<Text>Вы во внутренней части Волт-Сити. Здесь можно пойти:</Text>
+			<Options>
+				<Option Goto="92" Text="В Главное Административное Здание"/>
+				<Option Goto="273" Text="В бар"/>
+				<Option Goto="53" Text="К странному человеку, который что-то говорит про рабство"/>
+				<Option Goto="367" Text="В Коррекционный Центр"/>
+				<Option Goto="241" Text="В Распределительный Центр"/>
+				<Option Goto="186" Text="В Убежище"/>
+				<Option Goto="119" Text="В магазин А"/>
+				<Option Goto="15" Text="В магазин В"/>
+				<Option Goto="71" Text="В ремонтную мастерскую"/>
+				<Option Goto="310" Text="В Центр Специальных Услуг"/>
+				<Option Goto="201" Text="В информационный центр"/>
+				<Option Goto="3" Text="Обратно во внешнюю часть города"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
