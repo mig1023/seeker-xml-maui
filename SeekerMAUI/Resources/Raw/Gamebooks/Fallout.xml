@@ -2337,5 +2337,12 @@
 				<Option Goto="224"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="345">
+			<Text>Внутри оказалась лопата!</Text>
+			<Options>
+				<Option Goto="328" Text="Если вы хотите использовать её на местном кладбище, то вам сюда"/>
+				<Option Goto="294" Text="иначе её можно продать за 30 золотых тому же Тубису, после чего"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
