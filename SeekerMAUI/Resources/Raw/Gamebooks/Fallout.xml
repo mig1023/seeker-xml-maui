@@ -2716,5 +2716,11 @@
 				<Option Goto="140" Text="наконец, всегда есть план Б: «море крови и я посреди трупов на белом коне»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="400">
+			<Text>В этой версии не используется</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
