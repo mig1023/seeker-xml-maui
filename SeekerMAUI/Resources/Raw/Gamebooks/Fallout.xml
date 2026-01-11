@@ -2251,5 +2251,14 @@
 				<Option Goto="3"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="333">
+			<Text>Вы во дворце Императора Ши, вам куда?</Text>
+			<Options>
+				<Option Goto="236" Text="Человек в белом халате слева, видимо, заведующий"/>
+				<Option Goto="34" Text="Зал Императора"/>
+				<Option Goto="252" Text="Мужчина в дальней комнате"/>
+				<Option Goto="77" Text="Можно просто уйти"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
