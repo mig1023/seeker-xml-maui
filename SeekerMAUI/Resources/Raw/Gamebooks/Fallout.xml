@@ -2641,5 +2641,11 @@
 				<Option Goto="329" Text="Кроме того, здесь есть проход в восточную часть базы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="388">
+			<Text>Вы в доках, решили посмотреть роботов.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
