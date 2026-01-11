@@ -2591,5 +2591,12 @@
 				<Option Goto="352"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="381">
+			<Text>Бросьте кубик, и сравните то, что выпало с вашим параметром удачи.</Text>
+			<Options>
+				<Option Goto="57" Text="Если число оказалось меньше"/>
+				<Option Goto="313" Text="иначе"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
