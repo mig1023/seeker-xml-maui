@@ -2898,5 +2898,11 @@
 				<Option Goto="597"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="427">
+			<Text>Параграф не дописан, возвращайтесь.</Text>
+			<Options>
+				<Option Goto="540"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
