@@ -3371,5 +3371,11 @@
 				<Option Goto="450"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="501">
+			<Text>В этой версии не используется</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
