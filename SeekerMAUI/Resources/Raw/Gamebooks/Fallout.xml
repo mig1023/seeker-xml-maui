@@ -3131,5 +3131,15 @@
 				<Option Goto="521"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="464">
+			<Text>Торговый квартал. Кто знает, может быть здесь можно найти что-нибудь кроме наркотиков?</Text>
+			<Options>
+				<Option Goto="249" Text="Магазин «Фармацевтика Ренеско»"/>
+				<Option Goto="47" Text="Магазин «Оружие Нью-Рено» (внизу приписано «...мозги», но потом зачёркнуто)"/>
+				<Option Goto="211" Text="Местная церквушка"/>
+				<Option Goto="122" Text="Автосервис"/>
+				<Option Goto="358" Text="Можно вернуться на Вторую улицу"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
