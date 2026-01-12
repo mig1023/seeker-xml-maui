@@ -3469,5 +3469,17 @@
 				<Option Goto="584"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="517">
+			<Text>Здесь расположен огромный оружейный завод, и куча оружейных лавок поменьше, а также дома.</Text>
+			<Options>
+				<Option Goto="449" Text="Оружейный завод"/>
+				<Option Goto="599" Text="Оружейная лавка «Одноглазый»"/>
+				<Option Goto="531" Text="Тир «Подстреленный койот»"/>
+				<Option Goto="428" Text="Оружейная ремонтная лавка «У Снуппи»"/>
+				<Option Goto="347" Text="На выход"/>
+				<Option Goto="412" Text="На холм"/>
+				<Option Goto="563" Text="В торговый район"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
