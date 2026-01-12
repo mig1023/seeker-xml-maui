@@ -3271,5 +3271,11 @@
 				<Option Goto="540"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="485">
+			<Text>В этой версии не используется</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
