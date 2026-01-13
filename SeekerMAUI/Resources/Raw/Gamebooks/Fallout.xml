@@ -3762,5 +3762,18 @@
 				<Option Goto="410"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="563">
+			<Text>Господи, благослави Америку, вы в раю.</Text>
+			<Options>
+				<Option Goto="504" Text="Оружейный магазин «Западный»"/>
+				<Option Goto="458" Text="Охотничий магазин"/>
+				<Option Goto="421" Text="Оружейный магазин боеприпасов"/>
+				<Option Goto="582" Text="Бар"/>
+				<Option Goto="569" Text="Отдел организации экскурсий"/>
+				<Option Goto="347" Text="Можно пройти к воротам"/>
+				<Option Goto="412" Text="Район с причудливым названием Холм"/>
+				<Option Goto="517" Text="И, наконец, Главная улица"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
