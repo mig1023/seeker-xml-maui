@@ -3699,5 +3699,11 @@
 				<Option Goto="120" Text="Уйти отсюда чрезвычайно просто, вот сюда"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="553">
+			<Text>В этой версии не используется</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
