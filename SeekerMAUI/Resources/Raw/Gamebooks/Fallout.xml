@@ -3611,5 +3611,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="539">
+			<Text>В этой версии не используется</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
