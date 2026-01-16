@@ -666,8 +666,10 @@
 			<Options>
 				<Option Goto="152" Text="В кабинет Маклюра"/>
 				<Option Goto="357" Text="В кабинет Первого Гражданина"/>
-				<Option Goto="287" Text="В кабинет Получения Гражданства"/>
-				<Option Goto="359" Text="Можно просто уйти"/>
+				<Option Goto="287" Text="В кабинет Получения Гражданства">
+					<Text>Можно просто уйти...</Text>
+				</Option>
+				<Option Goto="359"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="93">
