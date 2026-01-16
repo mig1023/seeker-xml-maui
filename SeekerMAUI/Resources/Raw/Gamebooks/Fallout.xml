@@ -706,8 +706,10 @@
 				<Option Goto="183" Text="Офис компании «Коковиф»"/>
 				<Option Goto="198" Text="Здание с надписью «Менеджер караванов»"/>
 				<Option Goto="240" Text="Бар «Последний вздох, и ты сдох»"/>
-				<Option Goto="256" Text="Здесь есть проход в район шахт"/>
-				<Option Goto="343" Text="А можно уйти в центр города"/>
+				<Option Goto="256" Text="Здесь есть проход в район шахт">
+					<Text>А можно уйти в центр города...</Text>
+				</Option>
+				<Option Goto="343"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="98">
