@@ -58,8 +58,10 @@
 				<Option Goto="264" Text="Справа невдалеке вы видите заведение «Кошачья Лапа»"/>
 				<Option Goto="107" Text="Чуть подальше казино «Desperado» с негорящими буквами «Des» и «а»"/>
 				<Option Goto="166" Text="По левую сторону от вас стоит человек, который немигая смотрит прямо в ваши нечестные глаза"/>
-				<Option Goto="358" Text="Можно, пройдя под вывеской «New Reno. The biggest small city of the world», отправиться на Вторую улицу"/>
-				<Option Goto="425" Text="Выход из города здесь"/>
+				<Option Goto="358" Text="Пройдя под вывеской «New Reno. The biggest small city of the world», отправиться на Вторую улицу">
+					<Text>Выход из города здесь:</Text>
+				</Option>
+				<Option Goto="425" Text="«Exit»"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="6">
