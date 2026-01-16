@@ -866,12 +866,14 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="120">
-			<Text>Перед вами коридор С, здесь можно пойти</Text>
+			<Text>Перед вами коридор С, здесь можно пойти:</Text>
 			<Options>
 				<Option Goto="305" Text="К причалу"/>
-				<Option Goto="552" Text="Отдел биоразработок"/>
-				<Option Goto="404" Text="Материальный отдел"/>
-				<Option Goto="20" Text="Или можно вернуться в коридор В"/>
+				<Option Goto="552" Text="В отдел биоразработок"/>
+				<Option Goto="404" Text="В материальный отдел">
+					<Text>Или можно вернуться в коридор В...</Text>
+				</Option>
+				<Option Goto="20"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="121">
