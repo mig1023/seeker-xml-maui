@@ -1394,8 +1394,10 @@
 				<Option Goto="127" Text="Ларёк вкусной и питательной пищи"/>
 				<Option Goto="361" Text="Бар «Сырой Салун»"/>
 				<Option Goto="318" Text="Фирма по продаже живого товара"/>
-				<Option Goto="320" Text="Вход во внутреннюю часть города"/>
-				<Option Goto="230" Text="Вы можете также улететь отсюда"/>
+				<Option Goto="320" Text="Вход во внутреннюю часть города">
+					<Text>Вы можете также улететь отсюда...</Text>
+				</Option>
+				<Option Goto="230"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="198">
