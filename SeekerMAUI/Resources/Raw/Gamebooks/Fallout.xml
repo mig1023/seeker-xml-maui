@@ -728,11 +728,13 @@
 			<Text>Перед вами Главный Коридор Базы Анклава. Здесь несколько дверей, ведущих в:</Text>
 			<Options>
 				<Option Goto="113" Text="Комнату релаксации"/>
-				<Option Goto="134" Text="Комнату отдыха"/>
-				<Option Goto="180" Text="Можно также уйти в Коридор А"/>
-				<Option Goto="20" Text="Коридор В"/>
-				<Option Goto="439" Text="Тренировочный центр"/>
-				<Option Goto="79" Text="Или можно направиться к главному выходу"/>
+				<Option Goto="134" Text="Комнату отдыха">
+					<Text>Можно также уйти:</Text>
+				</Option>
+				<Option Goto="180" Text="В Коридор А"/>
+				<Option Goto="20" Text="В Коридор В"/>
+				<Option Goto="439" Text="В Тренировочный центр"/>
+				<Option Goto="79" Text="Направиться к главному выходу"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="101">
