@@ -2707,8 +2707,8 @@
 		<Paragraph No="381">
 			<Text>Бросьте кубик, и сравните то, что выпало с вашим параметром удачи.</Text>
 			<Options>
-				<Option Goto="57" Text="Если число оказалось меньше"/>
-				<Option Goto="313" Text="иначе"/>
+				<Option Goto="57" Text="Число оказалось меньше"/>
+				<Option Goto="313" Text="Окказалось больше или равно"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="382">
