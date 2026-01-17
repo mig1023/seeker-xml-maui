@@ -2553,8 +2553,10 @@
 				<Option Goto="15" Text="В магазин В"/>
 				<Option Goto="71" Text="В ремонтную мастерскую"/>
 				<Option Goto="310" Text="В Центр Специальных Услуг"/>
-				<Option Goto="201" Text="В информационный центр"/>
-				<Option Goto="3" Text="Обратно во внешнюю часть города"/>
+				<Option Goto="201" Text="В информационный центр">
+					<Text>Либо пойти обратно во внешнюю часть города</Text>
+				</Option>
+				<Option Goto="3"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="360">
