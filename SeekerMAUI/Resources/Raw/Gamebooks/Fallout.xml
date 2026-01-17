@@ -2268,8 +2268,10 @@
 				<Option Goto="575" Text="Здание регистрации"/>
 				<Option Goto="35" Text="Бар"/>
 				<Option Goto="194" Text="Ворота к вилле заместителя мэра"/>
-				<Option Goto="108" Text="Мэрия"/>
-				<Option Goto="197" Text="Можете уйти как пришли"/>
+				<Option Goto="108" Text="Мэрия">
+					<Text>Можете уйти как пришли...</Text>
+				</Option>
+				<Option Goto="197"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="321">
