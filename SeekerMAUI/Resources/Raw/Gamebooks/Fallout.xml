@@ -2426,13 +2426,15 @@
 		<Paragraph No="343">
 			<Text>Вы попали в Реддинг, небольшой грязный шахтёрский городок.</Text>
 			<Options>
-				<Option Goto="97" Text="Можете пройти в рабочий район"/>
-				<Option Goto="256" Text="Можете сходить в район шахт"/>
-				<Option Goto="324" Text="Здесь есть местный аналог казино"/>
-				<Option Goto="290" Text="Тюрьма, она же офис шерифа"/>
-				<Option Goto="378" Text="Бар «Салун Маламут»"/>
-				<Option Goto="207" Text="Поликлиника"/>
-				<Option Goto="560" Text="Можно смотаться из города к чёртовой матери"/>
+				<Option Goto="97" Text="Пройти в рабочий район"/>
+				<Option Goto="256" Text="Сходить в район шахт"/>
+				<Option Goto="324" Text="Зайти в местный аналог казино"/>
+				<Option Goto="290" Text="В тюрьма, она же офис шерифа"/>
+				<Option Goto="378" Text="В бар «Салун Маламут»"/>
+				<Option Goto="207" Text="В поликлиника">
+					<Text>Или смотаться из города к чёртовой матери...</Text>
+				</Option>
+				<Option Goto="560"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="344">
