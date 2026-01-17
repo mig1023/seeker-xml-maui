@@ -2691,9 +2691,11 @@
 				<Option Goto="269" Text="К парочке справа"/>
 				<Option Goto="162" Text="В бар"/>
 				<Option Goto="27" Text="К мужчине под надписью «Пушки»"/>
-				<Option Goto="89" Text="Можно подойти к грустному мужчине"/>
-				<Option Goto="322" Text="Можно спуститься на нижнюю палубу"/>
-				<Option Goto="77" Text="Можно, наконец, уйти в город"/>
+				<Option Goto="89" Text="Подойти к грустному мужчине"/>
+				<Option Goto="322" Text="Спуститься на нижнюю палубу">
+					<Text>Можно, наконец, уйти в город...</Text>
+				</Option>
+				<Option Goto="77"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="380">
