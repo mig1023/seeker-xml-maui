@@ -2329,7 +2329,6 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="329">
-			<Text>329.</Text>
 			<Options>
 				<Option Goto="387" Text="Проход на запад свободен"/>
 				<Option Goto="170" Text="Проход на юг по синему коридору свободен"/>
