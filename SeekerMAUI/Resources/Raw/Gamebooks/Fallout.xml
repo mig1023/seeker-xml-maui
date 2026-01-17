@@ -2298,8 +2298,10 @@
 			<Options>
 				<Option Goto="368" Text="Столы, на которых играют"/>
 				<Option Goto="18" Text="Мэр-бомж"/>
-				<Option Goto="243" Text="Пункт обмена валюты"/>
-				<Option Goto="343" Text="Можете уйти"/>
+				<Option Goto="243" Text="Пункт обмена валюты">
+					<Text>Можете уйти...</Text>
+				</Option>
+				<Option Goto="343"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="325">
