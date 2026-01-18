@@ -3386,8 +3386,8 @@
 		<Paragraph No="481">
 			<Text>У вас нет права на ошибку, сделайте проверку по навыку убеждения-II.</Text>
 			<Options>
-				<Option Goto="411" Text="если всё в порядке вам разрешат в сопровождении пройти на базу супер-мутантов"/>
-				<Option Goto="573" Text="иначе сражайтесь, tertium non datur"/>
+				<Option Goto="411" Text="Если всё в порядке вам разрешат в сопровождении пройти на базу супер-мутантов"/>
+				<Option Goto="573" Text="Иначе сражайтесь, tertium non datur"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="482">
