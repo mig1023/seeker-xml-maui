@@ -3927,7 +3927,7 @@
 				<Option Goto="569" Text="Отдел организации экскурсий"/>
 				<Option Goto="347" Text="Можно пройти к воротам"/>
 				<Option Goto="412" Text="Район с причудливым названием Холм"/>
-				<Option Goto="517" Text="И, наконец, Главная улица"/>
+				<Option Goto="517" Text="Главная улица"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="564">
