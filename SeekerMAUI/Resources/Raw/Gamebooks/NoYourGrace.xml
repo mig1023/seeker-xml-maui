@@ -269,5 +269,11 @@
 				<Option Goto="86" Text="А вокруг продолжается яростная схватка"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="34">
+			<Text>Игра сохранена.\n\n$ достигнута точка сохранения, ^«Сохранением</Text>
+			<Options>
+				<Option Goto="275" Text="Вернетесь в замок"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
