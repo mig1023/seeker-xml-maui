@@ -1066,5 +1066,11 @@
 				<Option Goto="230" Text="Вам с трудом удается взять себя в руки"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="148">
+			<Text>Иво качает головой.\n\n— Нет не так.</Text>
+			<Options>
+				<Option Goto="176" Text="Далее"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
