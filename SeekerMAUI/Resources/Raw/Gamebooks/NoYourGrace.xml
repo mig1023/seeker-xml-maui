@@ -1831,5 +1831,11 @@
 				<Option Goto="275" Text="Вы обдумываете чем бы еще заняться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="252">
+			<Text>Игра сохранена\n\n$ достигнута точка сохранения, ^«СохранениеЗ»</Text>
+			<Options>
+				<Option Goto="275" Text="Вернетесь в замок"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
