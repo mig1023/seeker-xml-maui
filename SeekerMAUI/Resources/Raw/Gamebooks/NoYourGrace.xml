@@ -1856,5 +1856,18 @@
 				<Option Goto="32" Text="Далее"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="256">
+			<Text>Вы собираете разрозненные мысли воедино, тщательно воскрешая в памяти всё, что вам известно об основных действующих лицах этой истории.</Text>
+			<Options>
+				<Option Goto="215" Text="Принцесса Лорсулия"/>
+				<Option Goto="640" Text="Король Эрик"/>
+				<Option Goto="168" Text="Королевство Даверн"/>
+				<Option Goto="547" Text="Король Иво"/>
+				<Option Goto="265" Text="Король Талис"/>
+				<Option Goto="219" Text="Королевство Атана"/>
+				<Option Goto="584" Text="Город Хагос"/>
+				<Option Goto="96" Text="Вернуться в справочник"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
