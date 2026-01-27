@@ -4077,5 +4077,11 @@
 				<Option Goto="211" Text="Вы летите прочь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="560">
+			<Text>Игра сохранена\n\n$ достигнута точка сохранения, ^«Сохранение4»</Text>
+			<Options>
+				<Option Goto="275" Text="Вернетесь в замок"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
