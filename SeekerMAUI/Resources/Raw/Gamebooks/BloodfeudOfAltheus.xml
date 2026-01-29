@@ -1608,6 +1608,7 @@
 		<Paragraph No="176">
 			<Text>Вепрь нападает на вас:</Text>
 			<Actions>
+				<Option Goto="493" Text="Предпочтёте отступить"/>
 				<Fight>
 					<Enemy Name="Вепрь" Strength="10" Defence="18"/>
 					<FightToDeath/>
@@ -1615,7 +1616,6 @@
 			</Actions>
 			<Options>
 				<Option Goto="615" Text="Побеждаете его"/>
-				<Option Goto="493" Text="Удается успешно отступить"/>
 				<Option Goto="378" Text="Погибаете, но Зевс дарует вам спасение" Availability="ВОСКРЕШЕНИЕ">
 					<Resurrection Value="-1"/>
 				</Option>
