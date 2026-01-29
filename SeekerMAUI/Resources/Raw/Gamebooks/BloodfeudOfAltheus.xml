@@ -3111,6 +3111,8 @@
 		<Paragraph No="333">
 			<Text>Бандиты вооружены длинными ножами. Доспехов на них нет.</Text>
 			<Actions>
+				<Option Goto="374" Text="Вы сдадитесь"/>
+				<Option Goto="228" Text="Предпочтете сбежать"/>
 				<Fight>
 					<Enemies>
 						<Enemy Name="Первый бандит" Strength="6" Defence="10"/>
@@ -3120,11 +3122,9 @@
 			</Actions>
 			<Options>
 				<Option Goto="171" Text="Они оба тяжело ранены"/>
-				<Option Goto="374" Text="Вы сдались"/>
 				<Option Goto="553" Text="Вы убиты, но Зевс спасает вас" Availability="ВОСКРЕШЕНИЕ">
 					<Resurrection Value="-1"/>
 				</Option>
-				<Option Goto="228" Text="Вам удается сбежать"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="334">
