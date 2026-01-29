@@ -474,7 +474,7 @@ namespace SeekerMAUI.Gamebook.BloodfeudOfAltheus
                     }
                     else if (autoFail)
                     {
-                        fight.Add("GRAY|На кубиках выпало слишком мало, он промахиваетесь автоматически!");
+                        fight.Add("GRAY|На кубиках выпало слишком мало, он промахивается автоматически!");
                     }
                     else
                     {
