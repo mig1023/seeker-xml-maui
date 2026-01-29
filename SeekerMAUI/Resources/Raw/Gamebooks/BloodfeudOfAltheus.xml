@@ -3292,8 +3292,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="353">
-			<Text>Сражайтесь:</Text>
 			<Actions>
+				<Option Goto="275" Text="Бежите от боя"/>
+				<Option Goto="355" Text="Сдаетесь">
+					<Text>Сражайтесь:</Text>
+				</Option>
 				<Fight>
 					<Enemy Name="Амазонка" Strength="7" Defence="13"/>
 				</Fight>
@@ -3302,8 +3305,6 @@
 				<Option Goto="180" Text="Погибли и спасены Зевсом" Availability="ВОСКРЕШЕНИЕ">
 					<Resurrection Value="-1"/>
 				</Option>
-				<Option Goto="275" Text="Бежите от боя"/>
-				<Option Goto="355" Text="Сдаетесь"/>
 				<Option Goto="291" Text="Тяжело ранили амазонку"/>
 			</Options>
 		</Paragraph>
