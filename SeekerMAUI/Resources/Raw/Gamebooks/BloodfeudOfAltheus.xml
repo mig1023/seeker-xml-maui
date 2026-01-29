@@ -2307,6 +2307,7 @@
 			</Texts>
 			<Actions>
 				<Fight>
+					<Option Goto="472" Text="Отступаете"/>
 					<Enemies>
 						<Enemy Name="Первый стражник" Strength="5" Defence="14"/>
 						<Enemy Name="Второй стражник" Strength="5" Defence="14"/>
@@ -2319,7 +2320,6 @@
 			</Actions>
 			<Options>
 				<Option Goto="267" Text="Побеждаете"/>
-				<Option Goto="472" Text="Отступаете"/>
 				<Option Goto="134" Text="Погибаете, и вас спасет Зевс" Availability="ВОСКРЕШЕНИЕ">
 					<Resurrection Value="-1"/>
 				</Option>
