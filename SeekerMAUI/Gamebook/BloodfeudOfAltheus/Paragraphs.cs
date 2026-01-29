@@ -36,6 +36,11 @@ namespace SeekerMAUI.Gamebook.BloodfeudOfAltheus
                     action.Enemies.Add(EnemyParse(xmlEnemy));
             }
 
+            if (action.Type == "Option")
+            {
+                action.Option = OptionParseWithDo(xmlAction, new Modification());
+            }
+
             return action;
         }
 
