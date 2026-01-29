@@ -370,6 +370,8 @@
 				<Text Style="Small">Сила заговорщиков 6 (5 + 1 за кинжал), Защита 13 (12 + 1 за медвежью шкуру).</Text>
 			</Texts>
 			<Actions>
+				<Option Goto="450" Text="Сдаетесь"/>
+				<Option Goto="134" Text="Бежите из таверны и покидаете Фивы"/>
 				<Fight>
 					<Enemies>
 						<Enemy Name="Первый заговорщик" Strength="6" Defence="13"/>
@@ -380,11 +382,9 @@
 			</Actions>
 			<Options>
 				<Option Goto="301" Text="Оба ваших противника тяжело ранены"/>
-				<Option Goto="450" Text="Сдаетесь"/>
 				<Option Goto="134" Text="Погибли, но Зевс спас вас" Availability="ВОСКРЕШЕНИЕ">
 					<Resurrection Value="-1"/>
 				</Option>
-				<Option Goto="134" Text="Бежите из таверны и покидаете Фивы"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="38">
