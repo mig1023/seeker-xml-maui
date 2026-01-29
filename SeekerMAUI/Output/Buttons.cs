@@ -42,7 +42,7 @@ namespace SeekerMAUI.Output
                 option.Text = (option.Goto == 0 ? "Начать сначала" : "Далее");
         }
 
-        public static Button Option(Game.Option option, EventHandler onClick)
+        public static Button Option(Game.Option option, EventHandler onClick, bool action)
         {
             bool optionColor = !String.IsNullOrEmpty(option.Availability) &&
                 !option.Availability.Contains(">") && !option.Availability.Contains("<");
@@ -75,6 +75,9 @@ namespace SeekerMAUI.Output
                 LineBreakMode = LineBreakMode.WordWrap,
                 BindingContext = option.Tag,
             };
+
+            if (action)
+                optionButton.Margin = new Thickness(0, 0, 0, 5);
 
             if (optionButton.IsEnabled)
                 optionButton.BackgroundColor = Color.FromHex(color);

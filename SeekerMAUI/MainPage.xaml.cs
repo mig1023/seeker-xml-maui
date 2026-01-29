@@ -391,7 +391,7 @@ namespace SeekerMAUI
                 {
                     if (action.Type == "Option")
                     {
-                        Button button = AddOptionButton(action.Option, ref gameOver);
+                        Button button = AddOptionButton(action.Option, ref gameOver, action: true);
                         Action.Children.Add(button);
                         Game.Option.ListAdd(action.Option, button);
                         AddAftertext(ref Action, action.Option.Aftertexts);
@@ -615,7 +615,7 @@ namespace SeekerMAUI
             }
         }
 
-        private Button AddOptionButton(Game.Option option, ref bool gameOver)
+        private Button AddOptionButton(Game.Option option, ref bool gameOver, bool action = false)
         {
             Output.Buttons.EmptyOptionTextFuse(option);
 
@@ -624,7 +624,7 @@ namespace SeekerMAUI
             EventHandler optionClick = (object sender, EventArgs e) =>
                 Paragraph(option.Goto, optionName: option.Text, optionModifications: option.Do);
 
-            return Output.Buttons.Option(option, optionClick);
+            return Output.Buttons.Option(option, optionClick, action);
         }
 
         private void AddAdditionalButton(string name, EventHandler eventHandler) =>
