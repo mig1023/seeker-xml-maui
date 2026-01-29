@@ -5083,8 +5083,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="547">
-			<Text>Сразитесь с чудовищем:</Text>
 			<Actions>
+				<Option Goto="562" Text="Хранить молчание и затихнете в надежде, что исполинский змей не заметит корабль"/>
+				<Option Goto="34" Text="Взываете к морскому богу с просьбой о помощи">
+					<Text>Сразитесь с чудовищем:</Text>
+				</Option>
 				<Fight>
 					<Enemy Name="Чудовище" Strength="18" Defence="11"/>
 				</Fight>
@@ -5092,8 +5095,6 @@
 			<IntuitiveSolution/>
 			<Options>
 				<Option Goto="533" Text="Победили это океанское отродье"/>
-				<Option Goto="562" Text="Хранить молчание и затихнете в надежде, что исполинский змей не заметит корабль"/>
-				<Option Goto="34" Text="Взываете к морскому богу с просьбой о помощи"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="548">
