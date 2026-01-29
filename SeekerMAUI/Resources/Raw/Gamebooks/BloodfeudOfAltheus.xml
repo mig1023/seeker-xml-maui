@@ -5303,13 +5303,13 @@
 		<Paragraph No="570">
 			<Text>Одетый в черное человек не кажется удивленным, когда ваши сломанные конечности и окровавленная грудная клетка исцеляются и становятся невредимыми. Он удваивает свои усилия, но его натиск ослаб.</Text>
 			<Actions>
+				<Option Goto="121" Text="Сдаетесь"/>
+				<Option Goto="387" Text="Отступаете"/>
 				<Fight>
 					<Enemy Name="Человек" Strength="7" Defence="12"/>
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="121" Text="Сдаетесь"/>
-				<Option Goto="387" Text="Отступаете"/>
 				<Option Goto="519" Text="Тяжело ранили вашего противника"/>
 			</Options>
 		</Paragraph>
