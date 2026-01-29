@@ -4290,6 +4290,8 @@
 		<Paragraph No="462">
 			<Text>Разбойников двое, они вооружены длинными ножами:</Text>
 			<Actions>
+				<Option Goto="374" Text="Хотите сдаться"/>
+				<Option Goto="536" Text="Предпочитаете отступить"/>
 				<Fight>
 					<Enemies>
 						<Enemy Name="Первый разбойник" Strength="6" Defence="10"/>
@@ -4299,11 +4301,9 @@
 			</Actions>
 			<Options>
 				<Option Goto="600" Text="Они тяжело ранены"/>
-				<Option Goto="374" Text="Хотите сдаться"/>
 				<Option Goto="536" Text="Вы умерли и спасены Зевсом" Availability="ВОСКРЕШЕНИЕ">
 					<Resurrection Value="-1"/>
 				</Option>
-				<Option Goto="536" Text="Вы хотите отступить"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="463">
