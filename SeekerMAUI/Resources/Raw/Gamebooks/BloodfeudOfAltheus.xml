@@ -1146,7 +1146,7 @@
 			<Actions>
 				<Option Goto="97" Text="Отступите"/>
 				<Option Goto="376" Text="Сдадитесь">
-					<Text>Будете сражаться с амазонкой, одетая в леопардовую шкуру:</Text>
+					<Text>Будете сражаться с амазонкой, одетой в леопардовую шкуру:</Text>
 				</Option>
 				<Fight>
 					<Enemy Name="Амазонка" Strength="8" Defence="15"/>
@@ -2456,8 +2456,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="262">
-			<Text>Воительница, облаченная в медвежью шкуру:</Text>
 			<Actions>
+				<Option Goto="275" Text="Бежите с поля боя"/>
+				<Option Goto="355" Text="Сдаетесь">
+					<Text>Будете сражаться с амазонкой, облаченной в медвежью шкуру:</Text>
+				</Option>
 				<Fight>
 					<Enemy Name="Воительница" Strength="7" Defence="14"/>
 				</Fight>
@@ -2466,8 +2469,7 @@
 				<Option Goto="180" Text="Умерли и спасены Зевсом" Availability="ВОСКРЕШЕНИЕ">
 					<Resurrection Value="-1"/>
 				</Option>
-				<Option Goto="275" Text="Бежите с поля боя"/>
-				<Option Goto="355" Text="Сдаетесь"/>
+				
 				<Option Goto="375" Text="Тяжело ранили ее"/>
 			</Options>
 		</Paragraph>
