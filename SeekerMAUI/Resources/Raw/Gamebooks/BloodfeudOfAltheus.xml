@@ -1650,8 +1650,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="179">
-			<Text>Сражайтесь:</Text>
 			<Actions>
+				<Option Goto="562" Text="Подождете в надежде, что тварь не станет нападать на корабль">
+					<Text>Вступите в бой:</Text>
+				</Option>
 				<Fight>
 					<Enemy Name="Чудовище" Strength="22" Defence="14"/>
 					<FightToDeath/>
@@ -1659,7 +1661,6 @@
 			</Actions>
 			<Options>
 				<Option Goto="533" Text="Победили его"/>
-				<Option Goto="562" Text="Подождете в надежде, что тварь не станет нападать на корабль"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="180">
