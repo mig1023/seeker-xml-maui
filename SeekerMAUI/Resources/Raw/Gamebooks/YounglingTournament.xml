@@ -4974,7 +4974,7 @@
 			</Actions>
 			<Options>
 				<Option Goto="461" Text="Он нанес 3 укола" Singleton="УКОЛОВ У ВРАГА > 2"/>
-				<Option Goto="462" Text="Не в порядке"/>
+				<Option Goto="462" Text="Этого не произошло"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="461">
