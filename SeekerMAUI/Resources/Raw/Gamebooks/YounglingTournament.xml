@@ -6067,7 +6067,7 @@
 			</Modifications>
 			<Options>
 				<Option Goto="562" Text="Вы нанесли 3 укола" Availability="УКОЛОВ > 2"/>
-				<Option Goto="561" Text="Не в порядке"/>
+				<Option Goto="561" Text="Этого не произошло"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="559">
