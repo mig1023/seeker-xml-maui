@@ -4235,7 +4235,7 @@
 			</Modifications>
 			<Options>
 				<Option Goto="404" Text="Он нанес 3 укола" Singleton="УКОЛОВ У ВРАГА > 2"/>
-				<Option Goto="405" Text="Не в порядке"/>
+				<Option Goto="405" Text="Этого не произошло"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="404">
