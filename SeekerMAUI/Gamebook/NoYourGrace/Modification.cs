@@ -6,7 +6,15 @@ namespace SeekerMAUI.Gamebook.NoYourGrace
     {
         public override void Do()
         {
-            return base.Do(Character.Protagonist);
+            if (Constants.Availabilities.ContainsKey(Name))
+            {
+                int currentValue = GetProperty(Character.Protagonist, Constants.Availabilities[Name]);
+                SetProperty(Character.Protagonist, Constants.Availabilities[Name], currentValue + Value);
+            }
+            else
+            {
+                base.Do(Character.Protagonist);
+            }
         }
     }
 }
