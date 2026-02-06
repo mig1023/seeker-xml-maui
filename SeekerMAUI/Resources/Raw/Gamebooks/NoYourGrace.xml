@@ -8,9 +8,53 @@
 			<Main Value="db9152"/>
 			<ButtonFont Value="000000"/>
 		</Styles>
-		<Default>
-			<HideDisabledOption/>
-		</Default>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="Иво" Value="Ivo"/>
+				<Item Name="Армия" Value="Army"/>
+				<Item Name="Дворяне" Value="Nobles"/>
+				<Item Name="Торговцы" Value="Traders"/>
+				<Item Name="Церковь" Value="Church"/>
+				<Item Name="Неделя" Value="Week"/>
+				<Item Name="Золото" Value="Gold"/>
+				<Item Name="Даверн" Value="Davern"/>
+				<Item Name="Долг" Value="Debt"/>
+				<Item Name="ДолгФлорентини" Value="FlorentinisDebt"/>
+				<Item Name="Обвинение" Value="Accusation"/>
+				<Item Name="Бодрость" Value="Vitality"/>
+				<Item Name="Ловкость" Value="Dexterity"/>
+				<Item Name="Колдовство" Value="Sorcery"/>
+				<Item Name="Ингредиенты" Value="Ingredients"/>
+				<Item Name="ПобедныеОчки" Value="VictoryPoints"/>
+				<Item Name="Доход" Value="Income"/>
+				<Item Name="Исследование" Value="Research"/>
+				<Item Name="Романтика" Value="Romance"/>
+				<Item Name="Случай" Value="Random"/>
+				<Item Name="Кубик" Value="Dice"/>
+				<Item Name="Усталость" Value="Fatigue"/>
+				<Item Name="УсталостьЛекции" Value="LectureFatigue"/>
+				<Item Name="Метка" Value="Label"/>
+				<Item Name="Единица" Value="Unit"/>
+				<Item Name="Подвиги" Value="Feats"/>
+				<Item Name="Натиск" Value="Charge"/>
+				<Item Name="Финт" Value="Fent"/>
+				<Item Name="Выпад" Value="Lunge"/>
+				<Item Name="Атака" Value="Attack"/>
+				<Item Name="Перемещение" Value="Movement"/>
+				<Item Name="Защита" Value="Defense"/>
+				<Item Name="ЗащитаЛорсулии" Value="LorsuliaDefense"/>
+				<Item Name="ДействияЛорсулии" Value="LorsuliaActions"/>
+				<Item Name="СилыЛоялистов" Value="LoyalistForces"/>
+				<Item Name="СилыВосставших" Value="RebelForces"/>
+				<Item Name="ЗащитаПротивника" Value="EnemyDefense"/>
+				<Item Name="ФинтПротивника" Value="EnemyFeint"/>
+				<Item Name="Удар" Value="EnemyHit"/>
+				<Item Name="ЖизньЛорсулии" Value="LorsuliaHitpoints"/>
+				<Item Name="ЖизньПротивника:" Value="EnemyHitpoints"/>
+				<Item Name="ДействияПротивника" Value="EnemyActions"/>
+				<Item Name="ЛовкостьПротивника" Value="EnemyAgility"/>
+			</Availabilities>
+		</Dictionaries>
 	</Introduction>
 	<Paragraphs>
 		<Paragraph No="0">
