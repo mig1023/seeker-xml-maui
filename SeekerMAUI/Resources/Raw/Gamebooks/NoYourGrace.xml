@@ -2147,7 +2147,9 @@
 				<Option Goto="649" Text="Прикажете отвести девушку на допрос к Иво, $ «Иво» +10"/>
 				<Option Goto="649" Text="Велите бросить ее в темницу, $ «Армия» +10"/>
 				<Option Goto="649" Text="Отпустите девушку из жалости, $ «Армия» -5, «Иво» -5, «Торговцы» -5"/>
-				<Option Goto="216" Text="Допросите девушку сами, $ «Бодрость» -1" Availability="Бодрость > 0"/>
+				<Option Goto="216" Text="Допросите девушку сами" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="269">
