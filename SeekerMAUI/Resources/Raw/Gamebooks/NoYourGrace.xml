@@ -1407,7 +1407,9 @@
 			<Options>
 				<Option Goto="275" Text="Вернетесь во дворец"/>
 				<Option Goto="542" Text="Пошлете стражников обыскать палатку, $ «Армия» -5, «Колдовство» -1, «Церковь» +5"/>
-				<Option Goto="608" Text="Попробуете обыскать палатку самостоятельно, $ «Бодрость» -1" Availability="Бодрость > 0"/>
+				<Option Goto="608" Text="Попробуете обыскать палатку самостоятельно" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="173">
