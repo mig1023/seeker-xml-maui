@@ -1219,7 +1219,9 @@
 				<Option Goto="62" Text="Что?"/>
 				<Option Goto="62" Text="Что?!"/>
 				<Option Goto="62" Text="Что?!!"/>
-				<Option Goto="62" Text="Что?!!!, $ «Иво» +5"/>
+				<Option Goto="62" Text="Что?!!!">
+					<Ivo Value="5"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="143">
