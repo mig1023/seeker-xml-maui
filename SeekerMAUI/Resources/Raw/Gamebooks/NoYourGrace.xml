@@ -391,7 +391,9 @@
 				<Option Goto="275" Text="Откажетесь от набора вспомогательных войск вообще" Availability="Бодрость > 0">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="275" Text="Оставите решение за Иво, $ «Иво» -10"/>
+				<Option Goto="275" Text="Оставите решение за Иво">
+					<Ivo Value="-10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="28">
