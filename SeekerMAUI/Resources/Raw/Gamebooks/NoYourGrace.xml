@@ -1778,7 +1778,9 @@
 				<Option Goto="275" Text="Накажете юного монархиста">
 					<Traders Value="10"/>
 				</Option>
-				<Option Goto="275" Text="Накажете революционера, $ «Дворяне» +10"/>
+				<Option Goto="275" Text="Накажете революционера">
+					<Nobles Value="10"/>
+				</Option>
 				<Option Goto="275" Text="Накажете обоих, $ «Торговцы» +10, «Дворяне» +10, «Армия» +10"/>
 			</Options>
 		</Paragraph>
