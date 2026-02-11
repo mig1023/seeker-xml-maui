@@ -316,7 +316,13 @@
 					<Traders Value="10"/>
 					<Nobles Value="20"/>
 				</Option>
-				<Option Goto="275" Text="Попросите Иво поехать на маскарад, $ «Бодрость» -3, «Иво» -10, «Дворяне» -10, «Торговцы» +20, Х«Обещание»"/>
+				<Option Goto="275" Text="Попросите Иво поехать на маскарад">
+					<Vitality Value="-3"/>
+					<Ivo Value="-10"/>
+					<Nobles Value="-10"/>
+					<Traders Value="20"/>
+					<Trigger Value="Обещание"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="16">
