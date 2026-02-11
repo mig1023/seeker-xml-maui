@@ -1907,7 +1907,9 @@
 				<Option Goto="391" Text="— Рудольфу?">
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="391" Text="— Графу Коммину...., $ «Дворяне» -10"/>
+				<Option Goto="391" Text="— Графу Коммину....">
+					<Nobles Value="-10"/>
+				</Option>
 				<Option Goto="391" Text="— Я не знаю! Я, честно, никому не мешаю!"/>
 				<Option Goto="22" Text="— Мне кажется, в библиотеке Гревно был кто-то невидимый, $ «Иво» +15" Availability="Библиотека"/>
 			</Options>
