@@ -1903,7 +1903,9 @@
 				<Option Goto="391" Text="— Риго!">
 					<Army Value="-10"/>
 				</Option>
-				<Option Goto="391" Text="— Его Преподобию Оуэну!, $ «Церковь» -10"/>
+				<Option Goto="391" Text="— Его Преподобию Оуэну!">
+					<Church Value="-10"/>
+				</Option>
 				<Option Goto="391" Text="— Рудольфу?">
 					<Traders Value="-10"/>
 				</Option>
