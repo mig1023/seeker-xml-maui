@@ -1836,7 +1836,9 @@
 				<Option Goto="275" Text="Накажете революционера">
 					<Nobles Value="10"/>
 				</Option>
-				<Option Goto="275" Text="Накажете обоих, $ «Traders» +10, «Nobles» +10, «Army» +10"/>
+				<Option Goto="275" Text="Накажете обоих, $ «Traders» +10, «Nobles» +10">
+					<Army Value="10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="214">
