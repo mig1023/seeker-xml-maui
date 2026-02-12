@@ -2718,7 +2718,9 @@
 				<Option Goto="407" Text="— Ты прав, я прежде всего королева Атаны и должна носить цвета своей страны, $ «Davern» -10, «Ivo» +10">
 					<Army Value="10"/>
 				</Option>
-				<Option Goto="407" Text="— Я буду носить его потому, что это твой подарок!, $ «Davern» -10, «Ivo» +20"/>
+				<Option Goto="407" Text="— Я буду носить его потому, что это твой подарок!, $ «Davern» -10">
+					<Ivo Value="20"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="318">
