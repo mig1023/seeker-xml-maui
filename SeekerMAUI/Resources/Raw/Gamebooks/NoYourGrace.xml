@@ -2677,7 +2677,9 @@
 			<Options>
 				<Option Goto="275" Text="Купите прялку, $ «Gold» -50, «Sorcery» +1, ^«Прялка», «Church» -10" Availability="Золото >= 50"/>
 				<Option Goto="459" Text="Откажетесь покупать прялку"/>
-				<Option Goto="275" Text="Прикажете отрубить торговцу голову и заберете прялку себе, $ «Sorcery» +1, ^«Прялка», «Church» -20"/>
+				<Option Goto="275" Text="Прикажете отрубить торговцу голову и заберете прялку себе, $ «Sorcery» +1, ^«Прялка»">
+					<Church Value="-20"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="314">
