@@ -2697,7 +2697,9 @@
 				<Option Goto="84" Text="Игриво спросите, а что это он во дворце красивых девушек не замечает, $ «Nobles» +20, «Romance» +2">
 					<Traders Value="20"/>
 				</Option>
-				<Option Goto="501" Text="Гневно пригрозите судом и опалой, $ «Nobles» -20, «Romance» -5, «Ivo» -10"/>
+				<Option Goto="501" Text="Гневно пригрозите судом и опалой, $ «Nobles» -20, «Romance» -5">
+					<Ivo Value="-10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="316">
