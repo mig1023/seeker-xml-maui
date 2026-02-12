@@ -3648,7 +3648,9 @@
 				<Option Goto="275" Text="Разжалуете солдат и отправите их в рудники как разбойников, $ «Vitality» -1, «Army» -20, «Traders» +10" Availability="Бодрость > 0"/>
 				<Option Goto="275" Text="Пригрозите торговцам проверкой и заставите отозвать жалобу, $ «Vitality» -1, «Army» +10, «Traders» -20" Availability="Бодрость > 0"/>
 				<Option Goto="275" Text="Обвините во всем интенданта и взыщите с него ущерб, $ «Vitality» -1, «Nobles» -20, «Army» +10, «Traders» +10" Availability="Бодрость > 0"/>
-				<Option Goto="275" Text="Оставите решение за Иво, $ «Ivo» -10, «Army» -10"/>
+				<Option Goto="275" Text="Оставите решение за Иво, $ «Ivo» -10">
+					<Army Value="-10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="427">
