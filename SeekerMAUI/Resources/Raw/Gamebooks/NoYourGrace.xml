@@ -3698,7 +3698,9 @@
 				<Option Goto="543" Text="Одобрите отправку монахов-лекарей, $ «Church» -10">
 					<Label Value="-1"/>
 				</Option>
-				<Option Goto="543" Text="Скрепя сердце, согласитесь на жесткие карантинные меры, $ «Nobles» -10, «Label» -2"/>
+				<Option Goto="543" Text="Скрепя сердце, согласитесь на жесткие карантинные меры, $ «Nobles» -10">
+					<Label Value="-2"/>
+				</Option>
 				<Option Goto="543" Text="Заплатите иностранному доктору, $ «Gold» -250" Availability="Золото >= 250"/>
 			</Options>
 		</Paragraph>
