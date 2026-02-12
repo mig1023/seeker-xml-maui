@@ -4744,7 +4744,9 @@
 				<Option Goto="622" Text="Порекомендуете средство от вони">
 					<Ivo Value="5"/>
 				</Option>
-				<Option Goto="622" Text="Предложите позвать священника и освятить комнату, $ «Ivo» +10, «Church» +10"/>
+				<Option Goto="622" Text="Предложите позвать священника и освятить комнату, $ «Ivo» +10">
+					<Church Value="10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="559">
