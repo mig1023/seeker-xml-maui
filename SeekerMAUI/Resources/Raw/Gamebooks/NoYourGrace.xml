@@ -4597,7 +4597,9 @@
 				<Option Goto="186" Text="Вынесете этот вопрос на заседание Совета">
 					<Davern Value="20"/>
 				</Option>
-				<Option Goto="9" Text="Не будете накалять обстановку и смолчите, $ «Davern» -20, «Army» +10"/>
+				<Option Goto="9" Text="Не будете накалять обстановку и смолчите, $ «Davern» -20">
+					<Army Value="10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="541">
