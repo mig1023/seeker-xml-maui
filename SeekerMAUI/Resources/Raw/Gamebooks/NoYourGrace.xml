@@ -2933,7 +2933,9 @@
 				<Option Goto="544" Text="Поддержите свою пехоту в центре стрелками и прикроете фланги конницей">
 					<Army Value="10"/>
 				</Option>
-				<Option Goto="449" Text="Бросите пехоту из центра наперерез отступающей коннице Риго, $ «Army» +15, «Nobles» +10, «Traders» +5, «Church» +5"/>
+				<Option Goto="449" Text="Бросите пехоту из центра наперерез отступающей коннице Риго, $ «Army» +15, «Nobles» +10, «Traders» +5">
+					<Church Value="5"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="345">
