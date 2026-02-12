@@ -1743,7 +1743,9 @@
 				<Option Goto="104" Text="Ваш план... приемлем, господин граф">
 					<Nobles Value="20"/>
 				</Option>
-				<Option Goto="104" Text="Благодарю, но после свадьбы мы с Иво сами решим вопрос с наследником, $ «Ivo» +10, «Church» +10"/>
+				<Option Goto="104" Text="Благодарю, но после свадьбы мы с Иво сами решим вопрос с наследником, $ «Ivo» +10">
+					<Church Value="10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="203">
