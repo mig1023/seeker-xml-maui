@@ -4298,7 +4298,9 @@
 				<Option Goto="18" Text="Наш брак является законным, как и союз Атаны и Даверна., $ «Davern» +10, «Army» -10">
 					<Church Value="-10"/>
 				</Option>
-				<Option Goto="606" Text="Я готова принести брачные клятвы в храме Всемогущего., $ «Davern» -10, «Church» +5"/>
+				<Option Goto="606" Text="Я готова принести брачные клятвы в храме Всемогущего., $ «Davern» -10">
+					<Church Value="5"/>
+				</Option>
 				<Option Goto="46" Text="Промолчите и пусть Иво сам выкручивается.">
 					<Ivo Value="-10"/>
 				</Option>
