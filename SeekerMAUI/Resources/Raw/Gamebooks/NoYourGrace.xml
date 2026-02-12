@@ -1969,7 +1969,9 @@
 			<Options>
 				<Option Goto="197" Text="Напишите письмо герцогине с вашим согласием, $ «Nobles» +5, ^«Заговор», Х«иелана»"/>
 				<Option Goto="275" Text="Не будете ничего предпринимать"/>
-				<Option Goto="513" Text="Попытаетесь бежать в Даверн пока не поздно, $ «Ivo» -30, «Army» -15, «Nobles» -15, «Traders» -15, «Church» -15"/>
+				<Option Goto="513" Text="Попытаетесь бежать в Даверн пока не поздно, $ «Ivo» -30, «Army» -15, «Nobles» -15, «Traders» -15">
+					<Church Value="-15"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="230">
