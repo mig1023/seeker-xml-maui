@@ -2630,7 +2630,8 @@
 				<Option Goto="567" Text="Поедете на бал в особняк Коммина">
 					<Nobles Value="20"/>
 				</Option>
-				<Option Goto="494" Text="Посетите торжественную службу в Соборе, $ «Church» +20">
+				<Option Goto="494" Text="Посетите торжественную службу в Соборе">
+					<Church Value="20"/>
 					<Sorcery Value="-2"/>
 				</Option>
 				<Option Goto="36" Text="Поедете в гости к Рудольфу">
