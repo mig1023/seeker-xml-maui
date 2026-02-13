@@ -343,7 +343,9 @@
 				<Option Goto="27" Text="Будете придерживаться вашего странного договора с Влкром, $ ^«Горцы», «Church» -10">
 					<Ivo Value="-10"/>
 				</Option>
-				<Option Goto="247" Text="Воспользуетесь моментом и внезапно нападете на горцев, $ «Army» +10, «Nobles» +10"/>
+				<Option Goto="247" Text="Воспользуетесь моментом и внезапно нападете на горцев, $ «Army» +10">
+					<Nobles Value="10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="18">
