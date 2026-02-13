@@ -1596,7 +1596,9 @@
 				<Option Goto="665" Text="Устроите громкий скандал и попробуете вломиться в комнату, $ «Ivo» -15">
 					<Nobles Value="-5"/>
 				</Option>
-				<Option Goto="11" Text="Заплачете и уйдете, $ «Ivo» -5, «Army» -5, «Church» +5"/>
+				<Option Goto="11" Text="Заплачете и уйдете, $ «Ivo» -5, «Army» -5">
+					<Church Value="5"/>
+				</Option>
 				<Option Goto="470" Text="Выбьете дверь с нецензурной бранью, $ «Ivo» -10, «Army» +10" Availability="Ловкость >= 3"/>
 			</Options>
 		</Paragraph>
