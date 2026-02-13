@@ -4288,7 +4288,8 @@
 				</Option>
 				<Option Goto="15" Text="Попросите епископа отправить какого из монахов на помощь деревне, $ «Vitality» -1, «Church» -10, «Traders» +10" Availability="Бодрость > 0"/>
 				<Option Goto="15" Text="Объявите солидную награду за волчьи головы, чтобы привлечь наемников, $ «Vitality» -1, «Gold» -100, «Traders» +10" Availability="Бодрость >= 1, Золото >= 100"/>
-				<Option Goto="15" Text="Отправите его к Иво, $ «Ivo» -10">
+				<Option Goto="15" Text="Отправите его к Иво">
+					<Ivo Value="-10"/>
 					<Traders Value="-20"/>
 				</Option>
 			</Options>
