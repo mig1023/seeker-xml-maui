@@ -332,7 +332,9 @@
 				<Option Goto="583" Text="Прикроете дверь и пойдете по плану, как ни в чем не бывало, $ «Nobles» +20, «Army» +10">
 					<Traders Value="10"/>
 				</Option>
-				<Option Goto="60" Text="Быстренько унесете ноги, $ «Nobles» -10, «Romance» -1"/>
+				<Option Goto="60" Text="Быстренько унесете ноги, $ «Nobles» -10">
+					<Romance Value="-1"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="17">
