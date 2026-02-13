@@ -1164,7 +1164,9 @@
 				<Option Goto="590" Text="Будете стойко терпеть, $ «Ivo» +15">
 					<Sorcery Value="-1"/>
 				</Option>
-				<Option Goto="83" Text="Используете время, чтобы попрактиковаться в верховой езде и фехтовании с генералом Риго, $ «Ivo» -6, «Army» +10, «Dexterity» +1"/>
+				<Option Goto="83" Text="Используете время, чтобы попрактиковаться в верховой езде и фехтовании с генералом Риго, $ «Ivo» -6, «Army» +10">
+					<Dexterity Value="1"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="123">
