@@ -458,7 +458,9 @@
 				<Option Goto="536" Text="Не будете ему мешать, ведь ваш отец явно ошибся, $ «Ivo» +5">
 					<Davern Value="-20"/>
 				</Option>
-				<Option Goto="75" Text="Сожмете руку Иво в немой просьбе промолчать, $ «Davern» +10, «Ivo» -10"/>
+				<Option Goto="75" Text="Сожмете руку Иво в немой просьбе промолчать, $ «Davern» +10">
+					<Ivo Value="-10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="33">
