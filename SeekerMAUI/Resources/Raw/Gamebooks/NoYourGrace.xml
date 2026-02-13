@@ -1285,7 +1285,9 @@
 				<Option Goto="129" Text="Поспешите за Иво и попытаетесь его утешить">
 					<Ivo Value="10"/>
 				</Option>
-				<Option Goto="347" Text="Останетесь в зале и примете роль хозяйки вечера, $ «Army» +10, «Nobles» +10, «Traders» +10, «Church» +10"/>
+				<Option Goto="347" Text="Останетесь в зале и примете роль хозяйки вечера, $ «Army» +10, «Nobles» +10, «Traders» +10">
+					<Church Value="10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="136">
