@@ -2464,7 +2464,8 @@
 				<Option Goto="181" Text="Поедете с графом, $ «Nobles» +5, «Romance» +1">
 					<Ivo Value="-5"/>
 				</Option>
-				<Option Goto="365" Text="Кинетесь бежать в темноту, $ «Army» -5">
+				<Option Goto="365" Text="Кинетесь бежать в темноту">
+					<Army Value="-5"/>
 					<Vitality Value="-1"/>
 				</Option>
 			</Options>
