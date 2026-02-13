@@ -1550,7 +1550,9 @@
 			<Options>
 				<Option Goto="103" Text="Откажете барону в таможенных льготах, $«Vitality» -1, «Traders» +5, «Church» +5, «Nobles» -10" Availability="Бодрость > 0"/>
 				<Option Goto="103" Text="Отмените пошлины на товары барона, $ «Vitality» -1, «Gold» -25, «Nobles» +15, «Traders» -10, «Church» -5, ^«Вино»" Availability="Бодрость >= 1, Золото >= 25"/>
-				<Option Goto="103" Text="Оставите решение за Иво, $ «Ivo» -10, «Nobles» -10"/>
+				<Option Goto="103" Text="Оставите решение за Иво, $ «Ivo» -10">
+					<Nobles Value="-10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="171">
