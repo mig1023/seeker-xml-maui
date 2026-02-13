@@ -3178,7 +3178,8 @@
 				<Option Goto="478" Text="Конечно, граф. Я всегда рада выслушать вас.">
 					<Army Value="-10"/>
 				</Option>
-				<Option Goto="404" Text="Не сейчас, граф. У нас важное обсуждение., $ «Nobles» -5">
+				<Option Goto="404" Text="Не сейчас, граф. У нас важное обсуждение.">
+					<Nobles Value="-5"/>
 					<Romance Value="-1"/>
 				</Option>
 			</Options>
