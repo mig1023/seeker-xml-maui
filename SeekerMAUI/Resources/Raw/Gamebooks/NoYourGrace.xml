@@ -1024,7 +1024,9 @@
 				<Option Goto="50" Text="Я слышала историю про ведьму Еги-бабу, повелевающую мраком, туманом и снегом, $«Ivo» +10, «Church» +10">
 					<Davern Value="-10"/>
 				</Option>
-				<Option Goto="56" Text="Это я ее вызвала! Я и не такое могу!, $ «Army» +10, «Nobles» +10, «Church» -20, «Traders» -10, «Ivo» -20, «Sorcery» +2"/>
+				<Option Goto="56" Text="Это я ее вызвала! Я и не такое могу!, $ «Army» +10, «Nobles» +10, «Church» -20, «Traders» -10, «Ivo» -20">
+					<Sorcery Value="2"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="103">
