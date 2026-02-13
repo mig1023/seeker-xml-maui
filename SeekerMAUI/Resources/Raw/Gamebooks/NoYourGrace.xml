@@ -3533,7 +3533,8 @@
 				<Option Goto="308" Text="Ответите крестьянке, что ничего не можете сделать, $ ^«Тиран», «Traders» -20, «Church» -10">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="315" Text="Несмотря на запрет все же поговорите с фон Дартсом сами, $ «Vitality» -1">
+				<Option Goto="315" Text="Несмотря на запрет все же поговорите с фон Дартсом сами">
+					<Vitality Value="-1"/>
 					<Ivo Value="-20"/>
 				</Option>
 			</Options>
