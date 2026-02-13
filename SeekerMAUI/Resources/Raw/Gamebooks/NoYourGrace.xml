@@ -5575,7 +5575,9 @@
 				<Option Goto="143" Text="Найдете формальную зацепку в законах и оправдаете подсудимого, $ «Vitality» -2, «Nobles» -20, «Church» +20" Availability="Бодрость > 2"/>
 				<Option Goto="143" Text="Приговорите обвиняемого к тюремного заключению до полного выяснения обстоятельств, $ «Vitality» -1, «Nobles» +10, «Church» +10, Х«Охотник Тулман»" Availability="Бодрость > 0"/>
 				<Option Goto="143" Text="Отправите убийцу девушки на виселицу, $«Vitality» -1, Х«Охотник Тулман», «Nobles» +30, «Church» -20" Availability="Бодрость > 0"/>
-				<Option Goto="426" Text="Оставите решение за Иво, $ Х«Охотник Тулман», «Ivo» -10"/>
+				<Option Goto="426" Text="Оставите решение за Иво, $ Х«Охотник Тулман»">
+					<Ivo Value="-10"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="664">
