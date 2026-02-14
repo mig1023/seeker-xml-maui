@@ -3591,7 +3591,8 @@
 					<Church Value="-10"/>
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="308" Text="Ответите крестьянке, что ничего не можете сделать, $ ^«Тиран», «Traders» -20, «Church» -10">
+				<Option Goto="308" Text="Ответите крестьянке, что ничего не можете сделать, $ ^«Тиран», «Traders» -20">
+					<Church Value="-10"/>
 					<Vitality Value="-1"/>
 				</Option>
 				<Option Goto="315" Text="Несмотря на запрет все же поговорите с фон Дартсом сами">
