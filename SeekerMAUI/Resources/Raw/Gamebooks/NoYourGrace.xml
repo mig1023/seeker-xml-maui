@@ -3123,7 +3123,8 @@
 				<Option Goto="313" Text="Ужесточите наказание за неуплату налогов, $ «Army» +20, «Nobles» -10, «Traders» -20, «Gold» +100" Availability="Бодрость > 0"/>
 				<Option Goto="313" Text="Согласитесь на чеканку небольшой партии облегченной монеты и прикажете перемешать ее с настоящими деньгами, $ «Gold» +250, «Nobles» +10, «Army» -10" Availability="Бодрость > 0"/>
 				<Option Goto="313" Text="Отчеканите крупную партия облегченной монеты, чтобы покрыть все расходы, $ «Gold» +1000, «Army» -20, «Nobles» -10, «Traders» -15, «Church» -10" Availability="Бодрость > 0"/>
-				<Option Goto="313" Text="Оставите решение за Иво, $ «Ivo» -10, «Gold» -200">
+				<Option Goto="313" Text="Оставите решение за Иво, $ «Ivo» -10">
+					<Gold Value="-200"/>
 					<Traders Value="-10"/>
 				</Option>
 			</Options>
