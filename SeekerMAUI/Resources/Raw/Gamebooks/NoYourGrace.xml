@@ -1390,7 +1390,8 @@
 				<Option Goto="275" Text="Одобрите покупку античной статуи, $ «Vitality» -1, «Gold» -150, «Nobles» +10, «Church» -10, ^«Богиня»" Availability="Бодрость >= 1, Золото >= 150"/>
 				<Option Goto="275" Text="Откажете, сказав что языческим изваяниям не место во дворце, $ «Vitality» -1, «Church» +10, «Nobles» -10" Availability="Бодрость > 0"/>
 				<Option Goto="275" Text="Установим в парке моя статую! На коне! Разрывающей пасть тигра! В окружении писающих мальчиков!!, $ «Vitality» -1, «Gold» -50, «Ivo» +10, «Nobles» +10" Availability="Бодрость >= 1, Золото >= 50"/>
-				<Option Goto="275" Text="Оставите решение за Иво, $ «Ivo» +20">
+				<Option Goto="275" Text="Оставите решение за Иво">
+					<Ivo Value="20"/>
 					<Gold Value="-100"/>
 				</Option>
 			</Options>
