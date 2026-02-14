@@ -1680,7 +1680,8 @@
 				<Option Goto="564" Text="Будете громко звать на помощь">
 					<Army Value="10"/>
 				</Option>
-				<Option Goto="480" Text="Затаите дыхание и подождете пока Иво утонет, $ «Army» -20">
+				<Option Goto="480" Text="Затаите дыхание и подождете пока Иво утонет">
+					<Army Value="-20"/>
 					<Ivo Value="-30"/>
 				</Option>
 			</Options>
