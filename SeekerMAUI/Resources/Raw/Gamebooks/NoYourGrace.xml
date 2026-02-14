@@ -2573,7 +2573,8 @@
 				<Option Goto="643" Text="Разрешите использовать магию для лечения болезни">
 					<Church Value="-20"/>
 				</Option>
-				<Option Goto="261" Text="Затворитесь в замке пока эпидемия не закончится, $ «Army» -15, «Nobles» -15, «Traders» -15">
+				<Option Goto="261" Text="Затворитесь в замке пока эпидемия не закончится, $ «Army» -15, «Nobles» -15">
+					<Traders Value="-15"/>
 					<Church Value="-15"/>
 				</Option>
 			</Options>
