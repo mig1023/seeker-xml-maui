@@ -4361,7 +4361,8 @@
 				<Option Goto="550" Text="Помнится, вы интересовались поместьем Лунная поляна. Оно ваше, $ «Nobles» -20, «Romance» -2">
 					<Gold Value="-50"/>
 				</Option>
-				<Option Goto="626" Text="Я подарю вам танец, граф, $ «Nobles» +10">
+				<Option Goto="626" Text="Я подарю вам танец, граф">
+					<Nobles Value="10"/>
 					<Romance Value="1"/>
 				</Option>
 				<Option Goto="49" Text="Увы, граф, я замоталась и совсем забыла. Простите.." Availability="Романтика >= 5"/>
