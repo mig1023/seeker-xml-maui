@@ -3426,7 +3426,8 @@
 					<Ivo Value="10"/>
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="613" Text="Заплатите актерам всю сумму, $ «Gold» -100, «Ivo» -10">
+				<Option Goto="613" Text="Заплатите актерам всю сумму, $ «Gold» -100">
+					<Ivo Value="-10"/>
 					<Traders Value="10"/>
 				</Option>
 			</Options>
