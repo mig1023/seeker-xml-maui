@@ -5336,7 +5336,8 @@
 				<Option Goto="553" Text="Погладите котика">
 					<Vitality Value="-3"/>
 				</Option>
-				<Option Goto="553" Text="Пнете блохастую тварь, $ «Vitality» -2">
+				<Option Goto="553" Text="Пнете блохастую тварь">
+					<Vitality Value="-2"/>
 					<Ivo Value="10"/>
 				</Option>
 			</Options>
