@@ -3422,7 +3422,8 @@
 				<Option Goto="479" Text="На всякий случай прикажете арестовать актеров и бросить из в темницу">
 					<Traders Value="-20"/>
 				</Option>
-				<Option Goto="613" Text="Заплатите актерам половину суммы, $ «Gold» -50, «Ivo» +10">
+				<Option Goto="613" Text="Заплатите актерам половину суммы, $ «Gold» -50">
+					<Ivo Value="10"/>
 					<Traders Value="-10"/>
 				</Option>
 				<Option Goto="613" Text="Заплатите актерам всю сумму, $ «Gold» -100, «Ivo» -10">
