@@ -4589,7 +4589,8 @@
 					<Nobles Value="-10"/>
 				</Option>
 				<Option Goto="286" Text="Я бы хотела... надеяться, что вы будете рядом, $«Nobles» +10, «Romance» +20" Availability="Романтика >= 5"/>
-				<Option Goto="314" Text="Будем надеяться, что этого не случиться, $ «Ivo» +10">
+				<Option Goto="314" Text="Будем надеяться, что этого не случиться">
+					<Ivo Value="10"/>
 					<Nobles Value="-20"/>
 				</Option>
 			</Options>
