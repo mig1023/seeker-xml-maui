@@ -4542,7 +4542,8 @@
 				<Option Goto="348" Text="Используете подневольный труд заключенных, $ «Vitality» -1, «Gold» -500, «Army» -10, «Nobles» -10, «Traders» -10, ^«Тиран», «Income» +80, ^«Уголь»" Availability="Бодрость >= 1, Золото >= 500"/>
 				<Option Goto="348" Text="Реализуете проект в изначальном варианте, $ «Vitality» -1, «Gold» -700, «Traders» +20, «Nobles» -10, «Income» +80, ^«Уголь»" Availability="Бодрость >= 1, Золото >= 700"/>
 				<Option Goto="348" Text="Построите дополнительную систему шлюзов для нужд обороны, $ «Vitality» -1, «Gold» -800, «Traders» +20, «Army» +10, «Nobles» -10, «Income» +80, ^«Уголь»" Availability="Бодрость >= 1, Золото >= 800"/>
-				<Option Goto="348" Text="Оставите решение за Иво, $ «Ivo» +10">
+				<Option Goto="348" Text="Оставите решение за Иво">
+					<Ivo Value="10"/>
 					<Traders Value="-10"/>
 				</Option>
 			</Options>
