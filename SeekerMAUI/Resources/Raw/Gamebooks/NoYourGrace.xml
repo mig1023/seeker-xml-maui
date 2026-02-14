@@ -3194,7 +3194,8 @@
 			<Options>
 				<Option Goto="125" Text="Попросите графа Коммина о помощи"/>
 				<Option Goto="234" Text="Попросите о помощи Даймера, $ «Random» = 0, добавить к «Random» случайное число от 1 до «Dice», (Если в наличии 6 «Механика/Случай»: Х«Даймер»), «Random» = 0, «Army» +10, «Traders» +10" Availability="Даймер"/>
-				<Option Goto="520" Text="Накажете сборщиков податей, $ «Vitality» -1, «Gold» -100">
+				<Option Goto="520" Text="Накажете сборщиков податей, $ «Vitality» -1">
+					<Gold Value="-100"/>
 					<Army Value="-20"/>
 				</Option>
 				<Option Goto="520" Text="Оштрафуете купцов, $ «Vitality» -1, «Gold» -100">
