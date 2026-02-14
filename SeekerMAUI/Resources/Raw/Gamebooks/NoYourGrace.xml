@@ -461,7 +461,8 @@
 					<Ivo Value="5"/>
 					<Davern Value="-20"/>
 				</Option>
-				<Option Goto="75" Text="Сожмете руку Иво в немой просьбе промолчать, $ «Davern» +10">
+				<Option Goto="75" Text="Сожмете руку Иво в немой просьбе промолчать">
+					<Davern Value="10"/>
 					<Ivo Value="-10"/>
 				</Option>
 			</Options>
