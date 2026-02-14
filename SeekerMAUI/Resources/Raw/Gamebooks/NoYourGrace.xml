@@ -2856,7 +2856,8 @@
 				<Option Goto="484" Text="Робко попросите отпустить похищенную девушку">
 					<Nobles Value="-10"/>
 				</Option>
-				<Option Goto="84" Text="Игриво спросите, а что это он во дворце красивых девушек не замечает, $ «Nobles» +20, «Romance» +2">
+				<Option Goto="84" Text="Игриво спросите, а что это он во дворце красивых девушек не замечает, $ «Nobles» +20">
+					<Romance Value="2"/>
 					<Traders Value="20"/>
 				</Option>
 				<Option Goto="501" Text="Гневно пригрозите судом и опалой, $ «Nobles» -20, «Romance» -5">
