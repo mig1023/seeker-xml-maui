@@ -4507,7 +4507,8 @@
 					<Davern Value="10"/>
 					<Army Value="-10"/>
 				</Option>
-				<Option Goto="70" Text="Будете защищать атанских солдат перед местными лордами, $ «Davern» -10">
+				<Option Goto="70" Text="Будете защищать атанских солдат перед местными лордами">
+					<Davern Value="-10"/>
 					<Army Value="10"/>
 				</Option>
 				<Option Goto="70" Text="Закупите продовольствие в Прациссе, чтобы снять напряжение, $ «Gold» -100" Availability="Золото >= 100"/>
