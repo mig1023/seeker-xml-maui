@@ -715,7 +715,8 @@
 			<Options>
 				<Option Goto="384" Text="Согласитесь на субсидию, $ «Vitality» -1, «Gold» -20, «Traders» +10" Availability="Бодрость >= 1, Золото >= 20"/>
 				<Option Goto="310" Text="Откажете старосте, $ «Vitality» -1, «Traders» -10" Availability="Бодрость > 0"/>
-				<Option Goto="310" Text="Отправите крестьянина к Иво, $ «Ivo» -10">
+				<Option Goto="310" Text="Отправите крестьянина к Иво">
+					<Ivo Value="-10"/>
 					<Traders Value="-10"/>
 				</Option>
 			</Options>
