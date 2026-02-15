@@ -1051,7 +1051,8 @@
 					<Church Value="10"/>
 					<Davern Value="-10"/>
 				</Option>
-				<Option Goto="56" Text="Это я ее вызвала! Я и не такое могу!, $ «Army» +10, «Nobles» +10, «Church» -20, «Traders» -10, «Ivo» -20">
+				<Option Goto="56" Text="Это я ее вызвала! Я и не такое могу!, $ «Army» +10, «Nobles» +10, «Church» -20, «Traders» -10">
+					<Ivo Value="-20"/>
 					<Sorcery Value="2"/>
 				</Option>
 			</Options>
