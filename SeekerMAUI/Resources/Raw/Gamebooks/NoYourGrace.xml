@@ -1638,7 +1638,8 @@
 				<Option Goto="452" Text="Подадите на стол дорогие южные вина, $ «Gold» -100, «Nobles» +15" Availability="Золото >= 100"/>
 				<Option Goto="452" Text="Намекнете барону Кавке, что ему лучше постараться, если он хочет сохранить свои льготы, $ «Gold» -30, «Nobles» +10" Availability="Вино, Золото >= 30"/>
 				<Option Goto="452" Text="Подадите местное пиво и наливки. Вкусно и точка!, $ «Gold» -25, «Army» +5, «Nobles» -10" Availability="Золото >= 25"/>
-				<Option Goto="452" Text="Прочитаете в начале бала проповедь о вреде пьянства, $ «Vitality» -1, «Church» +10, «Army» -10">
+				<Option Goto="452" Text="Прочитаете в начале бала проповедь о вреде пьянства, $ «Vitality» -1, «Church» +10">
+					<Army Value="-10"/>
 					<Nobles Value="-10"/>
 					<Traders Value="-10"/>
 				</Option>
