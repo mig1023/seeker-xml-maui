@@ -777,7 +777,8 @@
 					<Church Value="-10"/>
 					<Davern Value="10"/>
 				</Option>
-				<Option Goto="471" Text="Призовете бузотеров поберечь пыл для общего врага — радовийцев, $ «Church» -10">
+				<Option Goto="471" Text="Призовете бузотеров поберечь пыл для общего врага — радовийцев">
+					<Church Value="-10"/>
 					<Army Value="5"/>
 					<Davern Value="5"/>
 				</Option>
