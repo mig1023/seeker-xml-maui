@@ -1340,7 +1340,8 @@
 				<Option Goto="129" Text="Поспешите за Иво и попытаетесь его утешить">
 					<Ivo Value="10"/>
 				</Option>
-				<Option Goto="347" Text="Останетесь в зале и примете роль хозяйки вечера, $ «Army» +10">
+				<Option Goto="347" Text="Останетесь в зале и примете роль хозяйки вечера">
+					<Army Value="10"/>
 					<Nobles Value="10"/>
 					<Traders Value="10"/>
 					<Church Value="10"/>
