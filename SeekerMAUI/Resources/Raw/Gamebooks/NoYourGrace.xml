@@ -2535,7 +2535,8 @@
 				<Option Goto="649" Text="Велите бросить ее в темницу">
 					<Army Value="10"/>
 				</Option>
-				<Option Goto="649" Text="Отпустите девушку из жалости, $ «Army» -5">
+				<Option Goto="649" Text="Отпустите девушку из жалости">
+					<Army Value="-5"/>
 					<Ivo Value="-5"/>
 					<Traders Value="-5"/>
 				</Option>
