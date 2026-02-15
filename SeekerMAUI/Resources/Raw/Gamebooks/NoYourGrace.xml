@@ -3874,7 +3874,8 @@
 					<Church Value="-10"/>
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="308" Text="Предложите ей деньги за молчание. Пятьдесят, нет, сто золотых!, $ ^«Тиран», «Traders» -20">
+				<Option Goto="308" Text="Предложите ей деньги за молчание. Пятьдесят, нет, сто золотых!, $ ^«Тиран»">
+					<Traders Value="-20"/>
 					<Church Value="-10"/>
 					<Vitality Value="-1"/>
 				</Option>
