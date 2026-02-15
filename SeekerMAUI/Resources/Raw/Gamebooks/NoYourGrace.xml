@@ -1394,7 +1394,8 @@
 					<Gold Value="-100"/>
 					<Army Value="-20"/>
 				</Option>
-				<Option Goto="520" Text="Оштрафуете купцов, $ «Vitality» -1, «Gold» -100">
+				<Option Goto="520" Text="Оштрафуете купцов, $ «Vitality» -1">
+					<Gold Value="-100"/>
 					<Traders Value="-25"/>
 				</Option>
 				<Option Goto="354" Text="Будете вычитывать жалобы в поисках компромисса">
