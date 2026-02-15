@@ -3717,7 +3717,8 @@
 					<Church Value="10"/>
 				</Option>
 				<Option Goto="458" Text="— Сама ты мерзкая старая ведьма!"/>
-				<Option Goto="205" Text="— Заплачете от обиды и выбежите из зала, $ «Ivo» -10">
+				<Option Goto="205" Text="— Заплачете от обиды и выбежите из зала">
+					<Ivo Value="-10"/>
 					<Army Value="-10"/>
 					<Nobles Value="-10"/>
 					<Church Value="10"/>
