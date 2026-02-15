@@ -782,7 +782,8 @@
 					<Army Value="5"/>
 					<Davern Value="5"/>
 				</Option>
-				<Option Goto="471" Text="Прикажете Рикеру не вмешиваться — пусть драчуны выяснят чей бог сильнее, $ «Church» -10">
+				<Option Goto="471" Text="Прикажете Рикеру не вмешиваться — пусть драчуны выяснят чей бог сильнее">
+					<Church Value="-10"/>
 					<Army Value="-10"/>
 					<Davern Value="-10"/>
 				</Option>
