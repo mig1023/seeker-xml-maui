@@ -2017,7 +2017,8 @@
 				<Option Goto="275" Text="Накажете революционера">
 					<Nobles Value="10"/>
 				</Option>
-				<Option Goto="275" Text="Накажете обоих, $ «Traders» +10">
+				<Option Goto="275" Text="Накажете обоих">
+					<Traders Value="10"/>
 					<Nobles Value="10"/>
 					<Army Value="10"/>
 				</Option>
