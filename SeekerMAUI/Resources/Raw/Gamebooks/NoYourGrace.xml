@@ -2942,7 +2942,8 @@
 					<Romance Value="2"/>
 					<Traders Value="20"/>
 				</Option>
-				<Option Goto="501" Text="Гневно пригрозите судом и опалой, $ «Nobles» -20">
+				<Option Goto="501" Text="Гневно пригрозите судом и опалой">
+					<Nobles Value="-20"/>
 					<Romance Value="-5"/>
 					<Ivo Value="-10"/>
 				</Option>
