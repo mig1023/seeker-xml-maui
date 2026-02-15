@@ -1664,7 +1664,8 @@
 					<Ivo Value="-15"/>
 					<Nobles Value="-5"/>
 				</Option>
-				<Option Goto="11" Text="Заплачете и уйдете, $ «Ivo» -5">
+				<Option Goto="11" Text="Заплачете и уйдете">
+					<Ivo Value="-5"/>
 					<Army Value="-5"/>
 					<Church Value="5"/>
 				</Option>
