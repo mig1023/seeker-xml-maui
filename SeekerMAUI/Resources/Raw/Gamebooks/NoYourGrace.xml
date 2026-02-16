@@ -1270,7 +1270,9 @@
 				<Option Goto="51" Text="Отложите решение до лучших времен, $ «Army» -10, «Nobles» +5, «Traders» +5" Availability="Бодрость > 0">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="51" Text="Прикажете для соблюдения секретности бросить мастера Ашари в темницу, разрушить его мастерскую, найти и сжечь чертежи оружия, $«Army» -20, «Nobles» +15, «Church» +10, «Traders» +5, «Vitality» -1" Availability="Бодрость > 0"/>
+				<Option Goto="51" Text="Прикажете для соблюдения секретности бросить мастера Ашари в темницу, разрушить его мастерскую, найти и сжечь чертежи оружия, $«Army» -20, «Nobles» +15, «Church» +10, «Traders» +5" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
+				</Option>
 				<Option Goto="51" Text="Оставите решение за Иво">
 					<Ivo Value="-10"/>
 					<Army Value="-10"/>
