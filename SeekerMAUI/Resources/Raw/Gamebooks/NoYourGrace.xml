@@ -1027,7 +1027,9 @@
 				<Option Goto="94" Text="Уменьшить таможенные пошлины, $ «Gold» -50, «Traders» -5" Availability="Золото >= 50">
 					<Nobles Value="5"/>
 				</Option>
-				<Option Goto="94" Text="Повысить жалование армии, $ «Gold» -50, «Army» +5" Availability="Золото >= 50"/>
+				<Option Goto="94" Text="Повысить жалование армии, $ «Gold» -50" Availability="Золото >= 50">
+					<Army Value="5"/>
+				</Option>
 				<Option Goto="94" Text="Сделать щедрое пожертвование церкви, $ «Gold» -50, «Church» +5" Availability="Золото >= 50"/>
 				<Option Goto="267" Text="Подумать еще"/>
 			</Options>
