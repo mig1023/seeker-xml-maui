@@ -2439,7 +2439,9 @@
 				<Option Goto="346" Text="Выделите деньги на строительство моста, $ «Traders» +10, «Gold» -80" Availability="Бодрость >= 1, Золото >= 80">
 					<Nobles Value="-15"/>
 				</Option>
-				<Option Goto="346" Text="Откажете в прошении, $ «Nobles» +10, «Traders» -5" Availability="Бодрость > 0"/>
+				<Option Goto="346" Text="Откажете в прошении, $ «Nobles» +10" Availability="Бодрость > 0">
+					<Traders Value="-5"/>
+				</Option>
 				<Option Goto="346" Text="Оставите решение за Иво">
 					<Ivo Value="-10"/>
 					<Traders Value="-10"/>
