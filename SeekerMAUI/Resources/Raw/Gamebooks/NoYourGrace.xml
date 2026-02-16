@@ -1284,7 +1284,9 @@
 			<Options>
 				<Option Goto="246" Text="Одобрите проект Рудольфа, $ «Vitality» -1, «Gold» -400, «Traders» +10, «Income» +50, ^«Текстиль»" Availability="Золото >= 400"/>
 				<Option Goto="246" Text="Согласитесь,нос условием, что детям будут платить полное жалование,$«Vitality» -1, «Gold» -500, «Traders» +20, «Church» +5, «Nobles» -5, «Income» +50, ^«Текстиль»" Availability="Бодрость >= 1, Золото >= 500"/>
-				<Option Goto="246" Text="Отклоните проект, $ «Vitality» -1, «Traders» -20, «Nobles» +5" Availability="Бодрость > 0"/>
+				<Option Goto="246" Text="Отклоните проект, $ «Vitality» -1, «Traders» -20" Availability="Бодрость > 0">
+					<Nobles Value="5"/>
+				</Option>
 				<Option Goto="246" Text="Оставите решение за Иво">
 					<Ivo Value="-10"/>
 					<Traders Value="-10"/>
