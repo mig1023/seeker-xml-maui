@@ -995,7 +995,9 @@
 				<Option Goto="653" Text="Примете план Рудольфа и разрешите создать табачные плантации, $«Vitality» -1, «Gold» -100, «Income» +10, «Traders» +10" Availability="Бодрость >= 1, Золото >= 100">
 					<Church Value="-15"/>
 				</Option>
-				<Option Goto="653" Text="Продолжите покупать иностранный табак, $«Vitality» -1, «Traders» -5, «Church» -5" Availability="Бодрость > 0"/>
+				<Option Goto="653" Text="Продолжите покупать иностранный табак, $«Vitality» -1, «Traders» -5" Availability="Бодрость > 0">
+					<Church Value="-5"/>
+				</Option>
 				<Option Goto="653" Text="Оставите решение за Иво">
 					<Ivo Value="-10"/>
 					<Church Value="10"/>
