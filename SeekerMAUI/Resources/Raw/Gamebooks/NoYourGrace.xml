@@ -5944,7 +5944,9 @@
 				<Option Goto="598" Text="Бросите просительницу в темницу, $ «Vitality» -1, «Nobles» +10, «Traders» +10" Availability="Бодрость > 0">
 					<Church Value="10"/>
 				</Option>
-				<Option Goto="598" Text="Откажете в ее просьбе и выставите ее вон, $ «Vitality» -1, ^«Культ», «Nobles» +5, «Traders» +5, «Church» +5" Availability="Бодрость > 0"/>
+				<Option Goto="598" Text="Откажете в ее просьбе и выставите ее вон, $ «Vitality» -1, ^«Культ», «Nobles» +5, «Traders» +5" Availability="Бодрость > 0">
+					<Church Value="5"/>
+				</Option>
 				<Option Goto="598" Text="Дадите денег на строительство госпиталей, $ «Vitality» -1, «Gold» -200, ^«Госпиталь», «Church» +5, «Nobles» -10" Availability="Бодрость >= 1, Золото >= 200"/>
 				<Option Goto="598" Text="Дадите вдвое больше денег, чтобы нанять хороших врачей, $ «Vitality» -1, «Gold» -400, ^«Госпиталь», «Church» +15, «Nobles» -20, «Traders» -10" Availability="Бодрость >= 1, Золото >= 400"/>
 				<Option Goto="598" Text="Оставите решение за Иво, $ «Ivo» -10, ^«Культ»"/>
