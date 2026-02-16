@@ -764,7 +764,9 @@
 				<Option Goto="400" Text="Разобраться с графиней Риттой, $ ^«Отрава», (Если в наличии 5 «Механика/Случай»: Х«Даймер»)" Availability="Ритта, !Отрава">
 					<Ivo Value="20"/>
 				</Option>
-				<Option Goto="526" Text="Прикажете припугнуть ваших недоброжелателей в армии, $ «Army» +10, «Sorcery» +1, «Gold» -50" Availability="Золото >= 50, !Армия &lt; 20"/>
+				<Option Goto="526" Text="Прикажете припугнуть ваших недоброжелателей в армии, $ «Army» +10, «Sorcery» +1" Availability="Золото >= 50, !Армия &lt; 20">
+					<Gold Value="-50"/>
+				</Option>
 				<Option Goto="12" Text="Вернетесь на рынок"/>
 			</Options>
 		</Paragraph>
