@@ -3945,7 +3945,9 @@
 			<Options>
 				<Option Goto="635" Text="Поддержите Риго и повысите сержантов, $ «Vitality» -1, «Nobles» -20, «Army» +10, ^«Сержанты»" Availability="Бодрость > 0"/>
 				<Option Goto="635" Text="Встанете на сторону графа Коммина и сохраните продажу офицерских патентов дворянам, $ «Vitality» -1, «Gold» +150, «Nobles» +10, «Army» -10, ^«Патенты»" Availability="Бодрость > 0"/>
-				<Option Goto="635" Text="Оставите должности вакантными, слава богу, войны вроде не намечается, $ «Vitality» -1, «Army» -20" Availability="Бодрость > 0"/>
+				<Option Goto="635" Text="Оставите должности вакантными, слава богу, войны вроде не намечается, $ «Vitality» -1" Availability="Бодрость > 0">
+					<Army Value="-20"/>
+				</Option>
 				<Option Goto="635" Text="Оставите решение за Иво">
 					<Ivo Value="-10"/>
 					<Army Value="-10"/>
