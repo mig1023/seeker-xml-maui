@@ -3467,7 +3467,9 @@
 				<Option Goto="111" Text="Наймете группу опытных наемников, $ «Vitality» -1, «Gold» -100, «Army» +5" Availability="Бодрость >= 1, Золото >= 100">
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="465" Text="Предложите Оуэну отправить несколько ученых монахов, $ «Vitality» -1, «Church» -20" Availability="Бодрость > 0"/>
+				<Option Goto="465" Text="Предложите Оуэну отправить несколько ученых монахов, $ «Vitality» -1" Availability="Бодрость > 0">
+					<Church Value="-20"/>
+				</Option>
 				<Option Goto="654" Text="Отправите рыцарей из Ордена проверить округу, $ «Vitality» -1, «Church» -10" Availability="Бодрость >= 1, !Орден"/>
 				<Option Goto="654" Text="Пошлете охотника на чудовищ разведать окрестности" Availability="Бодрость >= 1, !Охотник Тулман">
 					<Vitality Value="-1"/>
