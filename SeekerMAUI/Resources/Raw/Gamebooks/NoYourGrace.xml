@@ -1844,7 +1844,9 @@
 				<Option Goto="76" Text="Сделаете длинный выпад вперед с ударом кинжалом, $ «Lunge» -1" Availability="Выпад >= 1, Действия Лорсулии >= 1">
 					<LorsuliaActions Value="-1"/>
 				</Option>
-				<Option Goto="565" Text="Нанесете короткий и быстрый удар кинжалом, $ «Attack» -1, «LorsuliaActions» -1" Availability="Атака >= 1, Действия Лорсулии >= 1"/>
+				<Option Goto="565" Text="Нанесете короткий и быстрый удар кинжалом, $ «Attack» -1" Availability="Атака >= 1, Действия Лорсулии >= 1">
+					<LorsuliaActions Value="-1"/>
+				</Option>
 				<Option Goto="469" Text="Отскочите назад, чтобы перевести дыхание, $ «Movement» -1, «LorsuliaActions» -1" Availability="Перемещение >= 1, Действия Лорсулии >= 1"/>
 				<Option Goto="409" Text="Перехватите кинжал поудобнее для парирования, $ «Defense» -1, «LorsuliaActions» -1" Availability="Защита >= 1, Действия Лорсулии >= 1"/>
 				<Option Goto="291" Text="Победа!" Availability="Жизнь противника &lt; 1"/>
