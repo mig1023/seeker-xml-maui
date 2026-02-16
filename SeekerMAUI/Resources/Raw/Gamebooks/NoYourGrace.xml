@@ -2390,7 +2390,9 @@
 				<Option Goto="239" Text="Повысить налоги,$ «Gold» +50" Availability="Торговцы >= 10">
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="239" Text="Увеличить таможенные пошлины, $ «Nobles» -10, «Gold» +50, «Traders» +5" Availability="Дворяне >= 10"/>
+				<Option Goto="239" Text="Увеличить таможенные пошлины, $ «Nobles» -10, «Gold» +50" Availability="Дворяне >= 10">
+					<Traders Value="5"/>
+				</Option>
 				<Option Goto="239" Text="Снизить жалование армии, $ «Army» -10, «Gold» +50" Availability="Армия >= 10"/>
 				<Option Goto="239" Text="Обложить налогом монастырское имущество, $ «Gold» +50, «Church» -10" Availability="Церковь >= 10"/>
 				<Option Goto="267" Text="Подумать еще"/>
