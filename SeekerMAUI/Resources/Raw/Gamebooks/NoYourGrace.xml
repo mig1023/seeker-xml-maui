@@ -809,7 +809,9 @@
 					<Army Value="-10"/>
 					<Davern Value="-10"/>
 				</Option>
-				<Option Goto="471" Text="Организуете общую попойку от имени Всемогущего и за ваш счет, $ «Church» +10, «Army» +10, «Davern» +10, «Gold» -50" Availability="Вино, Золото >= 50"/>
+				<Option Goto="471" Text="Организуете общую попойку от имени Всемогущего и за ваш счет, $ «Church» +10, «Army» +10, «Davern» +10" Availability="Вино, Золото >= 50">
+					<Gold Value="-50"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="71">
