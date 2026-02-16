@@ -2396,7 +2396,9 @@
 				<Option Goto="239" Text="Снизить жалование армии, $ «Army» -10" Availability="Армия >= 10">
 					<Gold Value="50"/>
 				</Option>
-				<Option Goto="239" Text="Обложить налогом монастырское имущество, $ «Gold» +50, «Church» -10" Availability="Церковь >= 10"/>
+				<Option Goto="239" Text="Обложить налогом монастырское имущество, $ «Gold» +50" Availability="Церковь >= 10">
+					<Church Value="-10"/>
+				</Option>
 				<Option Goto="267" Text="Подумать еще"/>
 			</Options>
 		</Paragraph>
