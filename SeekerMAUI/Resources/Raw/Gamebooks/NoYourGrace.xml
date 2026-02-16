@@ -1767,7 +1767,9 @@
 				<Option Goto="637" Text="Предложите наемникам 100 золотых, $«Lunge» +1, «RebelForces» +1" Availability="Золото >= 100">
 					<Gold Value="-100"/>
 				</Option>
-				<Option Goto="270" Text="Предложите наемникам 250 золотых, $ «Lunge» +1, «RebelForces» +1, «Gold» -250" Availability="Золото >= 250"/>
+				<Option Goto="270" Text="Предложите наемникам 250 золотых, $ «Lunge» +1, «RebelForces» +1" Availability="Золото >= 250">
+					<Gold Value="-250"/>
+				</Option>
 				<Option Goto="637" Text="Предложите наемникам 500 золотых, $ «Lunge» +1, «RebelForces» +2, «Gold» -500" Availability="Золото >= 500"/>
 				<Option Goto="637" Text="Предложите наемникам 1000 золотых, $ «Lunge» +1, «RebelForces» +3, «Gold» -1000" Availability="Золото >= 1000"/>
 				<Option Goto="637" Text="Если выполнено условие: («Королевство/Торговцы»>=90) И (not («Секреты/Банкрот»)): Пообещаете наемникам 2000 золотых, но после своего восшествия на престол">
