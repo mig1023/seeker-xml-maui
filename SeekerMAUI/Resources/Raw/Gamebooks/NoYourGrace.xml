@@ -1030,7 +1030,9 @@
 				<Option Goto="94" Text="Повысить жалование армии, $ «Gold» -50" Availability="Золото >= 50">
 					<Army Value="5"/>
 				</Option>
-				<Option Goto="94" Text="Сделать щедрое пожертвование церкви, $ «Gold» -50, «Church» +5" Availability="Золото >= 50"/>
+				<Option Goto="94" Text="Сделать щедрое пожертвование церкви, $ «Gold» -50" Availability="Золото >= 50">
+					<Church Value="5"/>
+				</Option>
 				<Option Goto="267" Text="Подумать еще"/>
 			</Options>
 		</Paragraph>
