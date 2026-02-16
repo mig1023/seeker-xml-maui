@@ -2119,7 +2119,9 @@
 				<Option Goto="502" Text="Напишите, что у вас все хорошо, $ «Vitality» -1, «Ivo» +10" Availability="Бодрость > 0">
 					<Davern Value="-5"/>
 				</Option>
-				<Option Goto="502" Text="Пожалуетесь на грубое обращение Иво, $«Vitality» -1, «Ivo» -10" Availability="Бодрость > 0"/>
+				<Option Goto="502" Text="Пожалуетесь на грубое обращение Иво, $«Vitality» -1" Availability="Бодрость > 0">
+					<Ivo Value="-10"/>
+				</Option>
 				<Option Goto="502" Text="Отправите со знакомым торговцем просьбу о помощи, $ «Vitality» -1, «Ivo» -20, «Army» -10, Х«Торговец из Даверна»" Availability="Бодрость >= 1, !Торговец из Даверна"/>
 				<Option Goto="502" Text="Отправите предупреждение со знакомым торговцем, $ «Vitality» -1, «Davern» +20, Х«Торговец из Даверна»" Availability="Бодрость >= 1, !Торговец из Даверна"/>
 				<Option Goto="396" Text="Решите похулиганить и напишите письмо, полное вымышленных эротических подробностей, $ «Vitality» -1, «Nobles» +10" Availability="Бодрость >= 1, !Камасутра"/>
