@@ -1121,7 +1121,9 @@
 			<Options>
 				<Option Goto="275" Text="Пошлете солдат жестко наказать бунтовщиков, $ «Vitality» -1, «Army» +10, «Traders» +10, У«Тиран»" Availability="Бодрость > 0"/>
 				<Option Goto="275" Text="Закроете мастерские, $ «Vitality» -1, «Nobles» +5, «Traders» -10, «Income» -40, Х«Текстиль»" Availability="Бодрость > 0"/>
-				<Option Goto="275" Text="Повысите плату работникам, $ «Vitality» -1, «Gold» -50, «Income» -10, «Traders» +20, «Nobles» -10, «Army» -10" Availability="Бодрость >= 1, Золото >= 50"/>
+				<Option Goto="275" Text="Повысите плату работникам, $ «Vitality» -1, «Gold» -50, «Income» -10, «Traders» +20, «Nobles» -10" Availability="Бодрость >= 1, Золото >= 50">
+					<Army Value="-10"/>
+				</Option>
 				<Option Goto="275" Text="Оставите решение за Иво">
 					<Ivo Value="-10"/>
 				</Option>
