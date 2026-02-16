@@ -3329,7 +3329,9 @@
 				<Option Goto="483" Text="Предложите компромисс — дозволите вырубку, но обяжете деревню сажать новые деревья, $ «Vitality» -1, «Nobles» -10" Availability="Бодрость > 0">
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="483" Text="Отправите лесоруба в армию, пусть там покажет свою удаль, $ «Vitality» -1, «Ivo» +10, «Army» +10, «Traders» -10" Availability="Бодрость > 0"/>
+				<Option Goto="483" Text="Отправите лесоруба в армию, пусть там покажет свою удаль, $ «Vitality» -1, «Ivo» +10, «Army» +10" Availability="Бодрость > 0">
+					<Traders Value="-10"/>
+				</Option>
 				<Option Goto="483" Text="Отправите лесоруба к Иво">
 					<Ivo Value="-10"/>
 					<Traders Value="-10"/>
