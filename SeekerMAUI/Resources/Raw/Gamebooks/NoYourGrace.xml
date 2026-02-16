@@ -3159,7 +3159,9 @@
 				<Option Goto="275" Text="Похороните Пылинку в дворцовом саду, $ Х«пылинка»"/>
 				<Option Goto="275" Text="Сделаете из ее меха шарф и отправите как подарок родителям, $ «Davern» +30, Х«Пылинка»"/>
 				<Option Goto="380" Text="Отравите Иво в отместку, $ Х«пылинка»" Availability="Яд"/>
-				<Option Goto="427" Text="Используете целебное снадобье на Пылинке, $ Х«Целебное зелье», «Church» -30, «Sorcery» +1" Availability="Целебное зелье"/>
+				<Option Goto="427" Text="Используете целебное снадобье на Пылинке, $ Х«Целебное зелье», «Church» -30" Availability="Целебное зелье">
+					<Sorcery Value="1"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="320">
