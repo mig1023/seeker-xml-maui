@@ -880,7 +880,9 @@
 				<Option Goto="146" Text="Дадите согласие на строительство торговых постов, $ «Vitality» -1, «Gold» -300, ^«Меха», «Income» +100, «Traders» +20, «Nobles» +10, «Church» +10" Availability="Бодрость >= 1, Золото >= 300">
 					<Army Value="-10"/>
 				</Option>
-				<Option Goto="146" Text="План Рудольфа кажется слишком рискованным, $«Vitality» -1, «Traders» -15, «Army» +5" Availability="Бодрость > 0"/>
+				<Option Goto="146" Text="План Рудольфа кажется слишком рискованным, $«Vitality» -1, «Traders» -15" Availability="Бодрость > 0">
+					<Army Value="5"/>
+				</Option>
 				<Option Goto="146" Text="Оставите решение за Иво">
 					<Ivo Value="-10"/>
 				</Option>
