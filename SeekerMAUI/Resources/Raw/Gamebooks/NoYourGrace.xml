@@ -2370,7 +2370,9 @@
 				<Option Goto="295" Text="Купите обычных коней, все равно воевать в ближайшее время вы не планируете, $ «Vitality» -1, «Gold» -50, «Army» -10" Availability="Бодрость >= 1, Золото >= 50">
 					<Traders Value="5"/>
 				</Option>
-				<Option Goto="295" Text="Отложите решение на год-другой, $ «Vitality» -1, «Traders» +10, «Army» -15" Availability="Бодрость > 0"/>
+				<Option Goto="295" Text="Отложите решение на год-другой, $ «Vitality» -1, «Traders» +10" Availability="Бодрость > 0">
+					<Army Value="-15"/>
+				</Option>
 				<Option Goto="295" Text="Пусть Иво сам разбирается с лошадьми.">
 					<Ivo Value="10"/>
 				</Option>
