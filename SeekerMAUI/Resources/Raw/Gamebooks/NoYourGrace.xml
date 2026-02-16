@@ -2724,7 +2724,9 @@
 				<Option Goto="271" Text="Взять взаймы у местных ростовщиков, $«Gold» +100, «Debt» +100" Availability="Долг &lt; 1">
 					<Income Value="-0"/>
 				</Option>
-				<Option Goto="271" Text="Взять кредит у Банка де Флорентини,$«Gold» +200, «FlorentinisDebt» +200, «Army» -10, «Income» -0" Availability="Долг Флорентини &lt; 1"/>
+				<Option Goto="271" Text="Взять кредит у Банка де Флорентини,$«Gold» +200, «FlorentinisDebt» +200, «Army» -10" Availability="Долг Флорентини &lt; 1">
+					<Income Value="-0"/>
+				</Option>
 				<Option Goto="271" Text="Если в наличии 1 «Королевство/Долг», в наличии «Королевство/Долг» «Королевство/Золото»: Выплатить заем ростовщикам, $ отнять от «Gold» количество «Debt», «Debt» = 0">
 					<Income Value="15"/>
 				</Option>
