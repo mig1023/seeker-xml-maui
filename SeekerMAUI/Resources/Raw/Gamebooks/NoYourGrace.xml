@@ -954,7 +954,9 @@
 				<Option Goto="237" Text="Выделите субсидию, но попросите растение вашим именем не называть, $«Vitality» -1, «Gold» -100, «Church» +15, «Traders» +5" Availability="Бодрость >= 1, Золото >= 100">
 					<Nobles Value="-10"/>
 				</Option>
-				<Option Goto="237" Text="Одобрите субсидию и войдете в историю и меню, $ «Vitality» -1, «Gold» -100, «Church» +10, «Traders» +20, «Nobles» -20" Availability="Бодрость >= 1, Золото >= 100"/>
+				<Option Goto="237" Text="Одобрите субсидию и войдете в историю и меню, $ «Vitality» -1, «Gold» -100, «Church» +10, «Traders» +20" Availability="Бодрость >= 1, Золото >= 100">
+					<Nobles Value="-20"/>
+				</Option>
 				<Option Goto="237" Text="Оставите решение за Иво">
 					<Ivo Value="-10"/>
 				</Option>
