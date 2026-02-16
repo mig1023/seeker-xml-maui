@@ -3404,7 +3404,9 @@
 				<Option Goto="313" Text="Согласитесь на чеканку небольшой партии облегченной монеты и прикажете перемешать ее с настоящими деньгами, $ «Gold» +250, «Nobles» +10" Availability="Бодрость > 0">
 					<Army Value="-10"/>
 				</Option>
-				<Option Goto="313" Text="Отчеканите крупную партия облегченной монеты, чтобы покрыть все расходы, $ «Gold» +1000, «Army» -20, «Nobles» -10, «Traders» -15, «Church» -10" Availability="Бодрость > 0"/>
+				<Option Goto="313" Text="Отчеканите крупную партия облегченной монеты, чтобы покрыть все расходы, $ «Gold» +1000, «Army» -20, «Nobles» -10, «Traders» -15" Availability="Бодрость > 0">
+					<Church Value="-10"/>
+				</Option>
 				<Option Goto="313" Text="Оставите решение за Иво">
 					<Ivo Value="-10"/>
 					<Gold Value="-200"/>
