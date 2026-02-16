@@ -2513,7 +2513,9 @@
 				<Option Goto="652" Text="«Божественная мера и порядок мира», $ «Vitality» -1, «Sorcery» -1" Availability="Перемещение >= 1, Бодрость >= 1">
 					<Church Value="10"/>
 				</Option>
-				<Option Goto="632" Text="«Клятва над лунным клинком», $ «Vitality» -1, «Sorcery» +1" Availability="Защита >= 1, Бодрость >= 1"/>
+				<Option Goto="632" Text="«Клятва над лунным клинком», $ «Vitality» -1" Availability="Защита >= 1, Бодрость >= 1">
+					<Sorcery Value="1"/>
+				</Option>
 				<Option Goto="275" Text="Вернетесь в замок"/>
 			</Options>
 		</Paragraph>
