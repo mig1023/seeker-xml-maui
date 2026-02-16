@@ -2128,7 +2128,9 @@
 					<Nobles Value="10"/>
 				</Option>
 				<Option Goto="57" Text="Устало отложите перо"/>
-				<Option Goto="502" Text="Предупредите, что король Иво не собирается выполнять договор, $ «Vitality» -1, «Ivo» -15, «Davern» -10, «Army» -10, «Davern» +5" Availability="Бодрость > 0"/>
+				<Option Goto="502" Text="Предупредите, что король Иво не собирается выполнять договор, $ «Vitality» -1, «Ivo» -15, «Davern» -10, «Army» -10" Availability="Бодрость > 0">
+					<Davern Value="5"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="213">
