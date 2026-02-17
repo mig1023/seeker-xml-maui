@@ -6144,7 +6144,8 @@
 				<Option Goto="275" Text="Раздадите детям старую одежду, $ «Vitality» -1" Availability="Бодрость > 0">
 					<Church Value="5"/>
 				</Option>
-				<Option Goto="275" Text="Пожертвуете приюту немного денег, $ «Vitality» -1, «Traders» +5" Availability="Бодрость >= 1, Золото >= 5">
+				<Option Goto="275" Text="Пожертвуете приюту немного денег, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 5">
+					<Traders Value="5"/>
 					<Gold Value="-5"/>
 				</Option>
 				<Option Goto="638" Text="Пожертвуете приюту целебное зелье, $Х«Целебное зелье», «Traders» +15" Availability="Целебное зелье">
