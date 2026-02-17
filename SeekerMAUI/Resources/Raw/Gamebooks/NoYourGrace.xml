@@ -6027,7 +6027,8 @@
 				<Option Goto="637" Text="Блеснете золотом в кабаках, предложив им 100 золотых, $ «Movement» +1" Availability="Золото >= 100">
 					<Gold Value="-100"/>
 				</Option>
-				<Option Goto="637" Text="Подкупите мастеров цехов, предложив им 250 золотых, $ «RebelForces» +1, «Movement» +1" Availability="Золото >= 250">
+				<Option Goto="637" Text="Подкупите мастеров цехов, предложив им 250 золотых, $ «RebelForces» +1" Availability="Золото >= 250">
+					<Movement Value="1"/>
 					<Gold Value="-250"/>
 				</Option>
 				<Option Goto="637" Text="Подкупите старейшин гильдий, предложив им 500 золотых, $ «RebelForces» +2, «Movement» +1, (Если отмечено «Ресурсы/Железо»: «RebelForces» +2)" Availability="Золото >= 500">
