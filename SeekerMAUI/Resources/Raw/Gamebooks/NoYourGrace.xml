@@ -3580,7 +3580,9 @@
 					<Church Value="-15"/>
 					<Army Value="-5"/>
 				</Option>
-				<Option Goto="405" Text="Наденете кроваво-красное ожерелье фон Дартса, $ «Nobles» +10, «Sorcery» +1, «Romance» +1, «Church» -15, ^«Ожерелье»"/>
+				<Option Goto="405" Text="Наденете кроваво-красное ожерелье фон Дартса, $ «Nobles» +10, «Sorcery» +1, «Romance» +1, «Church» -15">
+					<Trigger Value="Ожерелье"/>
+				</Option>
 				<Option Goto="405" Text="Наденете ладанку, преподнесенную Его Преподобием Оуэном, $ «Church» +10, «Sorcery» -1, «Romance» -1, «Nobles» -15, ^«Ладанка»"/>
 				<Option Goto="405" Text="Ответите, что носите ожерелье — подарок матери и не можете принять эти подарки., $«Nobles» -10">
 					<Church Value="-10"/>
