@@ -6183,7 +6183,9 @@
 				<Option Goto="203" Text="Выгоните Иелану и попросите кастеляна подыскать вам новую камеристку, $ «Nobles» +10, «Traders» -10, «Church» -10">
 					<Untrigger Value="Иелана"/>
 				</Option>
-				<Option Goto="203" Text="Прикажете стражникам бросить Иелану в темницу, $ «Ivo» -10, «Traders» -20, «Church» -20, Х«Иелана»"/>
+				<Option Goto="203" Text="Прикажете стражникам бросить Иелану в темницу, $ «Ivo» -10, «Traders» -20, «Church» -20">
+					<Untrigger Value="Иелана"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="646">
