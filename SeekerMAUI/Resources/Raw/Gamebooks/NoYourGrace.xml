@@ -5082,7 +5082,8 @@
 				<Option Goto="416" Text="Прибегнете к займам или внеочередному сбору налогов" Availability="Метка >= 1, Бодрость >= 2">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="348" Text="Откажетесь поддержать проект, $ «Vitality» -1, «Nobles» +10" Availability="Бодрость > 0">
+				<Option Goto="348" Text="Откажетесь поддержать проект, $ «Vitality» -1" Availability="Бодрость > 0">
+					<Nobles Value="10"/>
 					<Traders Value="-10"/>
 				</Option>
 				<Option Goto="348" Text="Реализуете проект, не выплачивая ни компенсаций, ни жалования, $«Vitality» -1, «Gold» -300, ^«Тиран», «Nobles» -40, «Traders» -10, «Army» -10, «Income» +80, ^«Уголь»" Availability="Бодрость >= 1, Золото >= 300"/>
