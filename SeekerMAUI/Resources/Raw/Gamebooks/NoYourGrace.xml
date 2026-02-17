@@ -6363,7 +6363,8 @@
 					<Traders Value="10"/>
 					<Church Value="10"/>
 				</Option>
-				<Option Goto="598" Text="Откажете в ее просьбе и выставите ее вон, $ «Vitality» -1, ^«Культ», «Nobles» +5, «Traders» +5" Availability="Бодрость > 0">
+				<Option Goto="598" Text="Откажете в ее просьбе и выставите ее вон, $ «Vitality» -1, ^«Культ», «Nobles» +5" Availability="Бодрость > 0">
+					<Traders Value="5"/>
 					<Church Value="5"/>
 				</Option>
 				<Option Goto="598" Text="Дадите денег на строительство госпиталей, $ «Vitality» -1, «Gold» -200, ^«Госпиталь», «Church» +5" Availability="Бодрость >= 1, Золото >= 200">
