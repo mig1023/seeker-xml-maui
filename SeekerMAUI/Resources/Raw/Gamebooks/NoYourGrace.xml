@@ -4972,7 +4972,9 @@
 				<Option Goto="166" Text="Расскажете Иво о своей догадке">
 					<Ivo Value="-10"/>
 				</Option>
-				<Option Goto="569" Text="Промолчите и просто поможете Иво с документами,$«Ivo» +10, «Vitality» -1" Availability="Бодрость > 0"/>
+				<Option Goto="569" Text="Промолчите и просто поможете Иво с документами,$«Ivo» +10" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
+				</Option>
 				<Option Goto="275" Text="Извинитесь и уйдете к себе"/>
 			</Options>
 		</Paragraph>
