@@ -4979,7 +4979,8 @@
 					<Traders Value="5"/>
 					<Nobles Value="-5"/>
 				</Option>
-				<Option Goto="12" Text="Купите новое шелковое платье за 25 золотых, $ «Ivo» +5, «Gold» -25" Availability="Золото >= 25">
+				<Option Goto="12" Text="Купите новое шелковое платье за 25 золотых, $ «Ivo» +5" Availability="Золото >= 25">
+					<Gold Value="-25"/>
 					<Nobles Value="5"/>
 				</Option>
 				<Option Goto="12" Text="Купите изящную меховую муфту за 30 золотых, $ «Gold» -30, «Ivo» +10" Availability="Меха, Золото >= 30">
