@@ -4361,7 +4361,9 @@
 				<Option Goto="208" Text="Оштрафуете лорда и прикажете ему держать своих псов на привязи, $ «Vitality» -1, «Gold» +50" Availability="Бодрость > 0">
 					<Nobles Value="-15"/>
 				</Option>
-				<Option Goto="208" Text="Выкупите дорогу у лорда и сделаете ее общественной, $ «Vitality» -1, «Gold» -100, «Nobles» -15" Availability="Бодрость >= 1, Золото >= 100"/>
+				<Option Goto="208" Text="Выкупите дорогу у лорда и сделаете ее общественной, $ «Vitality» -1, «Gold» -100" Availability="Бодрость >= 1, Золото >= 100">
+					<Nobles Value="-15"/>
+				</Option>
 				<Option Goto="208" Text="Признаете право лорда защищаться от бродяг, $ «Vitality» -1, «Nobles» +10, «Traders» -15, «Church» -10" Availability="Бодрость > 0"/>
 			</Options>
 		</Paragraph>
