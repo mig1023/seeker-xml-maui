@@ -6305,7 +6305,9 @@
 				<Option Goto="598" Text="Дадите вдвое больше денег, чтобы нанять хороших врачей, $ «Vitality» -1, «Gold» -400, ^«Госпиталь», «Church» +15, «Nobles» -20" Availability="Бодрость >= 1, Золото >= 400">
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="598" Text="Оставите решение за Иво, $ «Ivo» -10, ^«Культ»"/>
+				<Option Goto="598" Text="Оставите решение за Иво, $ «Ivo» -10">
+					<Trigger Value="Культ"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="662">
