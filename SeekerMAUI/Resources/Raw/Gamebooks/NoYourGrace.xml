@@ -4441,7 +4441,9 @@
 				<Option Goto="126" Text="Выберете элегантное стильное и, главное, недорогое платье, $ «Gold» -25, «Ivo» +10" Availability="Золото >= 25">
 					<Nobles Value="5"/>
 				</Option>
-				<Option Goto="126" Text="Оденетесь в вычурный экзотический наряд, $ «Gold» -15, «Ivo» +10, «Army» -10" Availability="Золото >= 15"/>
+				<Option Goto="126" Text="Оденетесь в вычурный экзотический наряд, $ «Gold» -15, «Ivo» +10" Availability="Золото >= 15">
+					<Army Value="-10"/>
+				</Option>
 				<Option Goto="126" Text="Оденете палантин послушницы, $ «Church» +10" Availability="Крещение"/>
 				<Option Goto="126" Text="Обойдетесь имеющимся гардеробом">
 					<Ivo Value="-10"/>
