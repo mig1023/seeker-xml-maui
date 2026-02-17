@@ -4565,7 +4565,8 @@
 				<Option Goto="144" Text="Одобрите прошение,$«Traders» +5" Availability="Бодрость > 0">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="144" Text="Не только одобрите прошение, но и дадите денег на расширение заведения, $ «Traders» +10, «Church» -10" Availability="Бодрость > 0">
+				<Option Goto="144" Text="Не только одобрите прошение, но и дадите денег на расширение заведения, $ «Traders» +10" Availability="Бодрость > 0">
+					<Church Value="-10"/>
 					<Vitality Value="-1"/>
 				</Option>
 			</Options>
