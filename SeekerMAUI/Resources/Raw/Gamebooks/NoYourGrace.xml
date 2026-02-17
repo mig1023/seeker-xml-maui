@@ -4749,7 +4749,9 @@
 				<Option Goto="15" Text="Отправите в деревню десяток солдат, $ «Vitality» -1, «Army» -10" Availability="Бодрость > 0">
 					<Traders Value="10"/>
 				</Option>
-				<Option Goto="15" Text="Отправите воинов Ордена, $ «Vitality» -1, «Church» +20, «Traders» +10" Availability="Бодрость >= 1, !Орден"/>
+				<Option Goto="15" Text="Отправите воинов Ордена, $ «Vitality» -1, «Church» +20" Availability="Бодрость >= 1, !Орден">
+					<Traders Value="10"/>
+				</Option>
 				<Option Goto="15" Text="Выгоните мужичка взашей">
 					<Traders Value="-20"/>
 				</Option>
