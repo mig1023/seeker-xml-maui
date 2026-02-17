@@ -4316,7 +4316,9 @@
 				<Option Goto="546" Text="Подольете любовное зелье генералу Риго, $Х«Любовное зелье», «Army» +50" Availability="Любовное зелье">
 					<Sorcery Value="1"/>
 				</Option>
-				<Option Goto="546" Text="Подольете любовное зелье графу Коммину, $Х«Любовное зелье», «Nobles» +20, «Sorcery» +1" Availability="Любовное зелье"/>
+				<Option Goto="546" Text="Подольете любовное зелье графу Коммину, $Х«Любовное зелье», «Nobles» +20" Availability="Любовное зелье">
+					<Sorcery Value="1"/>
+				</Option>
 				<Option Goto="546" Text="Подольете любовное зелье Рудольфу, $Х«Любовное зелье», «Traders» +50, «Sorcery» +1" Availability="Любовное зелье"/>
 				<Option Goto="546" Text="Подольете любовное зелье епископу Оуэну, $Х«Любовное зелье», «Church» +20, «Sorcery» +1" Availability="Любовное зелье"/>
 				<Option Goto="380" Text="Отравите Иво" Availability="Яд"/>
