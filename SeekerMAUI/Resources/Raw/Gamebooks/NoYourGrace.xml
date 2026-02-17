@@ -4137,7 +4137,9 @@
 					<Traders Value="-10"/>
 				</Option>
 				<Option Goto="570" Text="Мне пригодилась бы кое-какая информация... о Рудольфе"/>
-				<Option Goto="287" Text="Я хотела бы быть вашим другом, господин Даймер, $ «Traders» +10, ^«Даймер»"/>
+				<Option Goto="287" Text="Я хотела бы быть вашим другом, господин Даймер, $ «Traders» +10">
+					<Trigger Value="Даймер"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="421">
