@@ -4200,7 +4200,9 @@
 				<Option Goto="275" Text="Компенсируете торговцам убытки из казны и замнете дело, $ «Army» +20, «Gold» -150" Availability="Бодрость >= 1, Золото >= 150">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="275" Text="Разжалуете солдат и отправите их в рудники как разбойников, $ «Vitality» -1, «Army» -20, «Traders» +10" Availability="Бодрость > 0"/>
+				<Option Goto="275" Text="Разжалуете солдат и отправите их в рудники как разбойников, $ «Vitality» -1, «Army» -20" Availability="Бодрость > 0">
+					<Traders Value="10"/>
+				</Option>
 				<Option Goto="275" Text="Пригрозите торговцам проверкой и заставите отозвать жалобу, $ «Vitality» -1, «Army» +10, «Traders» -20" Availability="Бодрость > 0"/>
 				<Option Goto="275" Text="Обвините во всем интенданта и взыщите с него ущерб, $ «Vitality» -1, «Nobles» -20, «Army» +10, «Traders» +10" Availability="Бодрость > 0"/>
 				<Option Goto="275" Text="Оставите решение за Иво">
