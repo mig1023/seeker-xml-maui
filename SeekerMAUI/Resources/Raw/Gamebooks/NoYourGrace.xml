@@ -5122,7 +5122,9 @@
 				<Option Goto="170" Text="Отпустите его, $ «Vitality» -1, «Church» +10, «Army» -5, «Nobles» -10" Availability="Бодрость > 0">
 					<Sorcery Value="1"/>
 				</Option>
-				<Option Goto="170" Text="Поместите его в монастырскую тюрьму, пока не будет установлена истина, $ «Vitality» -1, «Nobles» +5, «Church» +5" Availability="Бодрость > 0"/>
+				<Option Goto="170" Text="Поместите его в монастырскую тюрьму, пока не будет установлена истина, $ «Vitality» -1, «Nobles» +5" Availability="Бодрость > 0">
+					<Church Value="5"/>
+				</Option>
 				<Option Goto="170" Text="Оставите решение за Иво">
 					<Ivo Value="10"/>
 				</Option>
