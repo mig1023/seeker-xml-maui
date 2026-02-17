@@ -4943,7 +4943,9 @@
 				<Option Goto="12" Text="Купите изящную меховую муфту за 30 золотых, $ «Gold» -30, «Ivo» +10" Availability="Меха, Золото >= 30">
 					<Nobles Value="10"/>
 				</Option>
-				<Option Goto="12" Text="Купите лучшее в лавке платье с кружевами и стразами за 50 золотых, $ «Gold» -50, «Ivo» +10, «Nobles» +10" Availability="Золото >= 50"/>
+				<Option Goto="12" Text="Купите лучшее в лавке платье с кружевами и стразами за 50 золотых, $ «Gold» -50, «Ivo» +10" Availability="Золото >= 50">
+					<Nobles Value="10"/>
+				</Option>
 				<Option Goto="12" Text="Вернетесь на рынок"/>
 			</Options>
 		</Paragraph>
