@@ -4787,7 +4787,8 @@
 					<Army Value="-10"/>
 					<Traders Value="10"/>
 				</Option>
-				<Option Goto="15" Text="Отправите воинов Ордена, $ «Vitality» -1, «Church» +20" Availability="Бодрость >= 1, !Орден">
+				<Option Goto="15" Text="Отправите воинов Ордена, $ «Vitality» -1" Availability="Бодрость >= 1, !Орден">
+					<Church Value="20"/>
 					<Traders Value="10"/>
 				</Option>
 				<Option Goto="15" Text="Выгоните мужичка взашей">
