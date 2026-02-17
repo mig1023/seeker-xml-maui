@@ -4787,7 +4787,9 @@
 					<Gold Value="500"/>
 				</Option>
 				<Option Goto="672" Text="Пятистам золотых, $ «Traders» -50, Х«Рудник», ^«Тиран»" Availability="Рудник"/>
-				<Option Goto="139" Text="Десяти золотым в неделю, $ Х«Рудник», «Income» +10" Availability="Рудник"/>
+				<Option Goto="139" Text="Десяти золотым в неделю, $ Х«Рудник»" Availability="Рудник">
+					<Income Value="10"/>
+				</Option>
 				<Option Goto="507" Text="Двадцати пяти золотым в неделю, $ Х«Рудник», «Income» +25, «Traders» -20" Availability="Рудник"/>
 				<Option Goto="672" Text="Пятидесяти золотым в неделю, $ Х«Рудник», ^«Тиран», «Traders» -50" Availability="Рудник"/>
 				<Option Goto="139" Text="Вашей дружбе, $ «Traders» +30" Availability="Рудник"/>
