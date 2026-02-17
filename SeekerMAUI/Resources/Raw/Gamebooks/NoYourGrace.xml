@@ -4084,7 +4084,9 @@
 				<Option Goto="416" Text="Снизить жалование армии, $ «Army» -10" Availability="Армия >= 10">
 					<Gold Value="50"/>
 				</Option>
-				<Option Goto="416" Text="Обложить налогом монастырское имущество, $ «Gold» +50, «Church» -10" Availability="Церковь >= 10"/>
+				<Option Goto="416" Text="Обложить налогом монастырское имущество, $ «Gold» +50" Availability="Церковь >= 10">
+					<Church Value="-10"/>
+				</Option>
 				<Option Goto="416" Text="Взять взаймы у местных ростовщиков, $«Gold» +100, «Debt» +100, «Income» -0" Availability="Долг &lt; 1"/>
 				<Option Goto="416" Text="Взять кредит у Банка де Флорентини,$«Gold» +200, «FlorentinisDebt» +200, «Army» -10, «Income» -0" Availability="Долг Флорентини &lt; 1"/>
 				<Option Goto="511" Text="Вернуться на заседание Совета, $ «Label» = 0" Availability="Метка >= 1"/>
