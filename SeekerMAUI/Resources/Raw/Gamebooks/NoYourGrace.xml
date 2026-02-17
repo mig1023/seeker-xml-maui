@@ -4987,7 +4987,8 @@
 					<Ivo Value="10"/>
 					<Nobles Value="10"/>
 				</Option>
-				<Option Goto="12" Text="Купите лучшее в лавке платье с кружевами и стразами за 50 золотых, $ «Gold» -50, «Ivo» +10" Availability="Золото >= 50">
+				<Option Goto="12" Text="Купите лучшее в лавке платье с кружевами и стразами за 50 золотых, $ «Gold» -50" Availability="Золото >= 50">
+					<Ivo Value="10"/>
 					<Nobles Value="10"/>
 				</Option>
 				<Option Goto="12" Text="Вернетесь на рынок"/>
