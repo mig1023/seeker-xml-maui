@@ -5556,7 +5556,9 @@
 				<Option Goto="173" Text="Закажете лучшие импортные шелка для обивки зала, $ «Gold» -100" Availability="Золото >= 100">
 					<Nobles Value="10"/>
 				</Option>
-				<Option Goto="173" Text="Используете отечественные ткани, $ «Gold» -25, «Nobles» +5, «Traders» +10" Availability="Текстиль, Золото >= 25"/>
+				<Option Goto="173" Text="Используете отечественные ткани, $ «Gold» -25, «Nobles» +5" Availability="Текстиль, Золото >= 25">
+					<Traders Value="10"/>
+				</Option>
 				<Option Goto="173" Text="Развесите по стенам трофейные вражеские знамена">
 					<Army Value="-10"/>
 					<Nobles Value="-10"/>
