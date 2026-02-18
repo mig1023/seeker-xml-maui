@@ -3483,7 +3483,8 @@
 					<Nobles Value="10"/>
 					<Army Value="-10"/>
 				</Option>
-				<Option Goto="313" Text="Отчеканите крупную партия облегченной монеты, чтобы покрыть все расходы, $ «Gold» +1000, «Army» -20, «Nobles» -10, «Traders» -15" Availability="Бодрость > 0">
+				<Option Goto="313" Text="Отчеканите крупную партия облегченной монеты, чтобы покрыть все расходы, $ «Gold» +1000, «Army» -20, «Nobles» -10" Availability="Бодрость > 0">
+					<Traders Value="-15"/>
 					<Church Value="-10"/>
 				</Option>
 				<Option Goto="313" Text="Оставите решение за Иво">
