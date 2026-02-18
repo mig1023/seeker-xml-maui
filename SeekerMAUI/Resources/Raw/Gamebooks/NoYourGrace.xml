@@ -2521,7 +2521,8 @@
 					<Nobles Value="-5"/>
 					<Church Value="-5"/>
 				</Option>
-				<Option Goto="206" Text="Пошлете солдат для охраны монастыря, $«Vitality» -1, ^«Монастырь», «Traders» +15, «Army» -10" Availability="Бодрость > 0">
+				<Option Goto="206" Text="Пошлете солдат для охраны монастыря, $«Vitality» -1, ^«Монастырь», «Traders» +15" Availability="Бодрость > 0">
+					<Army Value="-10"/>
 					<Nobles Value="-20"/>
 				</Option>
 				<Option Goto="206" Text="Оставите решение за Иво">
