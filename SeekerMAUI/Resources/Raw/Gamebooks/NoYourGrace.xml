@@ -823,7 +823,8 @@
 					<Army Value="-10"/>
 					<Davern Value="-10"/>
 				</Option>
-				<Option Goto="471" Text="Организуете общую попойку от имени Всемогущего и за ваш счет, $ «Church» +10, «Army» +10" Availability="Вино, Золото >= 50">
+				<Option Goto="471" Text="Организуете общую попойку от имени Всемогущего и за ваш счет, $ «Church» +10" Availability="Вино, Золото >= 50">
+					<Army Value="10"/>
 					<Davern Value="10"/>
 					<Gold Value="-50"/>
 				</Option>
