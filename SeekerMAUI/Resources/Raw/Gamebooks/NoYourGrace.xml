@@ -2742,7 +2742,8 @@
 				<Option Goto="94" Text="Снискать популярность среди сословий королевства" Availability="Бодрость > 0">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="267" Text="Послать денег в помощь отцу, $ «Vitality» -1, «Gold» -50, «Davern» +20, «Ivo» -5, «Nobles» -5, «Army» -5, «Traders» -5" Availability="Бодрость >= 1, Золото >= 50">
+				<Option Goto="267" Text="Послать денег в помощь отцу, $ «Vitality» -1, «Gold» -50, «Davern» +20, «Ivo» -5, «Nobles» -5, «Army» -5" Availability="Бодрость >= 1, Золото >= 50">
+					<Traders Value="-5"/>
 					<Church Value="-5"/>
 				</Option>
 				<Option Goto="275" Text="Заняться другими делами"/>
