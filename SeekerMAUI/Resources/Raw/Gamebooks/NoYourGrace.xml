@@ -1799,7 +1799,8 @@
 					<RebelForces Value="1"/>
 					<Gold Value="-100"/>
 				</Option>
-				<Option Goto="270" Text="Предложите наемникам 250 золотых, $ «Lunge» +1, «RebelForces» +1" Availability="Золото >= 250">
+				<Option Goto="270" Text="Предложите наемникам 250 золотых, $ «Lunge» +1" Availability="Золото >= 250">
+					<RebelForces Value="1"/>
 					<Gold Value="-250"/>
 				</Option>
 				<Option Goto="637" Text="Предложите наемникам 500 золотых, $ «Lunge» +1, «RebelForces» +2" Availability="Золото >= 500">
