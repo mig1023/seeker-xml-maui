@@ -4480,7 +4480,8 @@
 					<Gold Value="-100"/>
 					<Nobles Value="-15"/>
 				</Option>
-				<Option Goto="208" Text="Признаете право лорда защищаться от бродяг, $ «Vitality» -1, «Nobles» +10" Availability="Бодрость > 0">
+				<Option Goto="208" Text="Признаете право лорда защищаться от бродяг, $ «Vitality» -1" Availability="Бодрость > 0">
+					<Nobles Value="10"/>
 					<Traders Value="-15"/>
 					<Church Value="-10"/>
 				</Option>
