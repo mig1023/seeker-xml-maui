@@ -2414,7 +2414,8 @@
 			<Options>
 				<Option Goto="538" Text="Выделите деньги на новых коней, $ «Vitality» -1, «Gold» -250, «Army» +20, «Nobles» -10, «Traders» -10, ^«Кони»" Availability="Бодрость >= 1, Золото >= 250"/>
 				<Option Goto="295" Text="Выкупите вышедших из моды лошадей у дворян, $ «Vitality» -1, «Gold» -125, «Army» +10, «Nobles» +10, ^«Кони»" Availability="Бодрость >= 1, Золото >= 125"/>
-				<Option Goto="295" Text="Купите обычных коней, все равно воевать в ближайшее время вы не планируете, $ «Vitality» -1, «Gold» -50, «Army» -10" Availability="Бодрость >= 1, Золото >= 50">
+				<Option Goto="295" Text="Купите обычных коней, все равно воевать в ближайшее время вы не планируете, $ «Vitality» -1, «Gold» -50" Availability="Бодрость >= 1, Золото >= 50">
+					<Army Value="-10"/>
 					<Traders Value="5"/>
 				</Option>
 				<Option Goto="295" Text="Отложите решение на год-другой, $ «Vitality» -1, «Traders» +10" Availability="Бодрость > 0">
