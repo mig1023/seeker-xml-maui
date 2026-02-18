@@ -892,7 +892,8 @@
 					<Church Value="10"/>
 					<Army Value="-10"/>
 				</Option>
-				<Option Goto="146" Text="План Рудольфа кажется слишком рискованным, $«Vitality» -1, «Traders» -15" Availability="Бодрость > 0">
+				<Option Goto="146" Text="План Рудольфа кажется слишком рискованным, $«Vitality» -1" Availability="Бодрость > 0">
+					<Traders Value="-15"/>
 					<Army Value="5"/>
 				</Option>
 				<Option Goto="146" Text="Оставите решение за Иво">
