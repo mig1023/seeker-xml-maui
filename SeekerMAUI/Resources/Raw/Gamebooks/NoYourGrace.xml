@@ -629,7 +629,8 @@
 					<Vitality Value="-1"/>
 				</Option>
 				<Option Goto="630" Text="Оставите пророка в темнице, $ Ж«Пророк»" Availability="Бодрость > 0"/>
-				<Option Goto="630" Text="Отдадите его на попечение Оуэна, $ «Nobles» -20, «Church» +10" Availability="Бодрость > 0">
+				<Option Goto="630" Text="Отдадите его на попечение Оуэна, $ «Nobles» -20" Availability="Бодрость > 0">
+					<Church Value="10"/>
 					<Traders Value="-5"/>
 				</Option>
 				<Option Goto="630" Text="Оставите решение за Иво">
