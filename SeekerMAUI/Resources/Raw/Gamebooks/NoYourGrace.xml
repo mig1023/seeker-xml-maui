@@ -6470,7 +6470,8 @@
 					<Church Value="5"/>
 					<Nobles Value="-10"/>
 				</Option>
-				<Option Goto="598" Text="Дадите вдвое больше денег, чтобы нанять хороших врачей, $ «Vitality» -1, «Gold» -400, ^«Госпиталь», «Church» +15" Availability="Бодрость >= 1, Золото >= 400">
+				<Option Goto="598" Text="Дадите вдвое больше денег, чтобы нанять хороших врачей, $ «Vitality» -1, «Gold» -400, ^«Госпиталь»" Availability="Бодрость >= 1, Золото >= 400">
+					<Church Value="15"/>
 					<Nobles Value="-20"/>
 					<Traders Value="-10"/>
 				</Option>
