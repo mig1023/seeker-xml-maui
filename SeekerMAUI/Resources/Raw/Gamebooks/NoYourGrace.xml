@@ -2418,7 +2418,8 @@
 					<Army Value="-10"/>
 					<Traders Value="5"/>
 				</Option>
-				<Option Goto="295" Text="Отложите решение на год-другой, $ «Vitality» -1, «Traders» +10" Availability="Бодрость > 0">
+				<Option Goto="295" Text="Отложите решение на год-другой, $ «Vitality» -1" Availability="Бодрость > 0">
+					<Traders Value="10"/>
 					<Army Value="-15"/>
 				</Option>
 				<Option Goto="295" Text="Пусть Иво сам разбирается с лошадьми.">
