@@ -2122,7 +2122,8 @@
 					<Traders Value="10"/>
 					<Church Value="10"/>
 				</Option>
-				<Option Goto="493" Text="Попросите поставить «Безумие чар», $ «Vitality» -1, «Gold» -50, «Ivo» +10" Availability="Бодрость >= 1, Золото >= 50">
+				<Option Goto="493" Text="Попросите поставить «Безумие чар», $ «Vitality» -1, «Gold» -50" Availability="Бодрость >= 1, Золото >= 50">
+					<Ivo Value="10"/>
 					<Nobles Value="10"/>
 				</Option>
 				<Option Goto="381" Text="Рискнете поставить «Шерлох — принц Иеллеса», чтобы посмотреть реакцию Иво, $«Vitality» -1" Availability="Бодрость >= 1, Золото >= 100">
