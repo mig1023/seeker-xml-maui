@@ -4675,7 +4675,8 @@
 					<Traders Value="-10"/>
 					<Church Value="-10"/>
 				</Option>
-				<Option Goto="104" Text="Мы готовы, $«Army» +10, «Nobles» +10" Availability="Иво >= 40">
+				<Option Goto="104" Text="Мы готовы, $«Army» +10" Availability="Иво >= 40">
+					<Nobles Value="10"/>
 					<Traders Value="10"/>
 					<Church Value="10"/>
 				</Option>
