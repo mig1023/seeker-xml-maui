@@ -3507,7 +3507,8 @@
 					<Nobles Value="5"/>
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="442" Text="Одобрите план Рудольфа, $ «Vitality» -1, «Traders» +10" Availability="Бодрость > 0">
+				<Option Goto="442" Text="Одобрите план Рудольфа, $ «Vitality» -1" Availability="Бодрость > 0">
+					<Traders Value="10"/>
 					<Nobles Value="-10"/>
 				</Option>
 				<Option Goto="442" Text="Организуете закупки зерна казной, $ «Vitality» -1, «Gold» -100, «Nobles» +5, «Traders» -15, «Army» -10, ^«Зерно»" Availability="Бодрость >= 1, Золото >= 100"/>
