@@ -2584,7 +2584,8 @@
 					<Traders Value="10"/>
 					<Church Value="-10"/>
 				</Option>
-				<Option Goto="250" Text="Приобретете магические ингредиенты, $ «Gold» -50, «Sorcery» +1" Availability="Золото >= 50">
+				<Option Goto="250" Text="Приобретете магические ингредиенты, $ «Gold» -50" Availability="Золото >= 50">
+					<Sorcery Value="1"/>
 					<Ingredients Value="1"/>
 				</Option>
 				<Option Goto="12" Text="Вернетесь обратно на рынок"/>
