@@ -3475,7 +3475,8 @@
 					<Church Value="5"/>
 					<Nobles Value="-5"/>
 				</Option>
-				<Option Goto="313" Text="Ужесточите наказание за неуплату налогов, $ «Army» +20, «Nobles» -10, «Traders» -20" Availability="Бодрость > 0">
+				<Option Goto="313" Text="Ужесточите наказание за неуплату налогов, $ «Army» +20, «Nobles» -10" Availability="Бодрость > 0">
+					<Traders Value="-20"/>
 					<Gold Value="100"/>
 				</Option>
 				<Option Goto="313" Text="Согласитесь на чеканку небольшой партии облегченной монеты и прикажете перемешать ее с настоящими деньгами, $ «Gold» +250, «Nobles» +10" Availability="Бодрость > 0">
