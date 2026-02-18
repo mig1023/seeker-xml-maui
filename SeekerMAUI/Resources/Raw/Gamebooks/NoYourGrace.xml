@@ -4413,7 +4413,8 @@
 					<Ivo Value="50"/>
 					<Sorcery Value="1"/>
 				</Option>
-				<Option Goto="546" Text="Подольете любовное зелье генералу Риго, $Х«Любовное зелье», «Army» +50" Availability="Любовное зелье">
+				<Option Goto="546" Text="Подольете любовное зелье генералу Риго, $Х«Любовное зелье»" Availability="Любовное зелье">
+					<Army Value="50"/>
 					<Sorcery Value="1"/>
 				</Option>
 				<Option Goto="546" Text="Подольете любовное зелье графу Коммину, $Х«Любовное зелье», «Nobles» +20" Availability="Любовное зелье">
