@@ -1013,7 +1013,8 @@
 					<Traders Value="10"/>
 					<Church Value="-15"/>
 				</Option>
-				<Option Goto="653" Text="Продолжите покупать иностранный табак, $«Vitality» -1, «Traders» -5" Availability="Бодрость > 0">
+				<Option Goto="653" Text="Продолжите покупать иностранный табак, $«Vitality» -1" Availability="Бодрость > 0">
+					<Traders Value="-5"/>
 					<Church Value="-5"/>
 				</Option>
 				<Option Goto="653" Text="Оставите решение за Иво">
