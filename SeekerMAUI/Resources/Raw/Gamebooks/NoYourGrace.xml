@@ -4216,7 +4216,8 @@
 					<Debt Value="100"/>
 					<Income Value="-0"/>
 				</Option>
-				<Option Goto="416" Text="Взять кредит у Банка де Флорентини,$«Gold» +200, «FlorentinisDebt» +200" Availability="Долг Флорентини &lt; 1">
+				<Option Goto="416" Text="Взять кредит у Банка де Флорентини,$«Gold» +200" Availability="Долг Флорентини &lt; 1">
+					<FlorentinisDebt Value="200"/>
 					<Army Value="-10"/>
 					<Income Value="-0"/>
 				</Option>
