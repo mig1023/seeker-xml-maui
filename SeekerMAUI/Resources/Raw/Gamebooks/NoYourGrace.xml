@@ -3451,7 +3451,8 @@
 					<Traders Value="10"/>
 					<Nobles Value="-10"/>
 				</Option>
-				<Option Goto="483" Text="Предложите компромисс — дозволите вырубку, но обяжете деревню сажать новые деревья, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="483" Text="Предложите компромисс — дозволите вырубку, но обяжете деревню сажать новые деревья" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Nobles Value="-10"/>
 					<Traders Value="-10"/>
 				</Option>
