@@ -4252,7 +4252,8 @@
 				<Option Goto="416" Text="Повысить налоги, $«Gold» +50" Availability="Торговцы >= 10">
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="416" Text="Увеличить таможенные пошлины, $ «Nobles» -10" Availability="Дворяне >= 10">
+				<Option Goto="416" Text="Увеличить таможенные пошлины" Availability="Дворяне >= 10">
+					<Nobles Value="-10"/>
 					<Gold Value="50"/>
 					<Traders Value="5"/>
 				</Option>
