@@ -3622,7 +3622,8 @@
 					<Army Value="5"/>
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="465" Text="Предложите Оуэну отправить несколько ученых монахов, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="465" Text="Предложите Оуэну отправить несколько ученых монахов" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Church Value="-20"/>
 				</Option>
 				<Option Goto="654" Text="Отправите рыцарей из Ордена проверить округу, $ «Vitality» -1" Availability="Бодрость >= 1, !Орден">
