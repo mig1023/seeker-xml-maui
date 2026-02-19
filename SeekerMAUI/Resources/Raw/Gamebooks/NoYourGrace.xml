@@ -4386,7 +4386,8 @@
 					<Gold Value="-150"/>
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="275" Text="Разжалуете солдат и отправите их в рудники как разбойников, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="275" Text="Разжалуете солдат и отправите их в рудники как разбойников" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Army Value="-20"/>
 					<Traders Value="10"/>
 				</Option>
