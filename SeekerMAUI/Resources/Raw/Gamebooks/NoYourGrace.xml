@@ -3633,7 +3633,9 @@
 				<Option Goto="654" Text="Пошлете охотника на чудовищ разведать окрестности" Availability="Бодрость >= 1, !Охотник Тулман">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="425" Text="Оставите решение за Иво, $ «Ivo» -20" Availability="!Орден"/>
+				<Option Goto="425" Text="Оставите решение за Иво" Availability="!Орден">
+					<Ivo Value="-20"/>
+				</Option>
 				<Option Goto="654" Text="Оставите решение за Иво" Availability="Орден">
 					<Ivo Value="-30"/>
 					<Church Value="-20"/>
