@@ -3548,7 +3548,8 @@
 					<Nobles Value="10"/>
 					<Army Value="-10"/>
 				</Option>
-				<Option Goto="313" Text="Отчеканите крупную партия облегченной монеты, чтобы покрыть все расходы, $ «Gold» +1000" Availability="Бодрость > 0">
+				<Option Goto="313" Text="Отчеканите крупную партия облегченной монеты, чтобы покрыть все расходы" Availability="Бодрость > 0">
+					<Gold Value="1000"/>
 					<Army Value="-20"/>
 					<Nobles Value="-10"/>
 					<Traders Value="-15"/>
