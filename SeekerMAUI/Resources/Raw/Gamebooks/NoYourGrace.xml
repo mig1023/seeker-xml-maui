@@ -3446,7 +3446,8 @@
 					<Nobles Value="10"/>
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="483" Text="Велите баронессе убрать егерей и разрешить лесорубам работать, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="483" Text="Велите баронессе убрать егерей и разрешить лесорубам работать" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Traders Value="10"/>
 					<Nobles Value="-10"/>
 				</Option>
