@@ -3616,7 +3616,8 @@
 				<Option Goto="667" Text="Отправите эскадрон солдат прочесать окрестные леса, $«Vitality» -1" Availability="Бодрость > 0">
 					<Army Value="10"/>
 				</Option>
-				<Option Goto="111" Text="Наймете группу опытных наемников, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 100">
+				<Option Goto="111" Text="Наймете группу опытных наемников" Availability="Бодрость >= 1, Золото >= 100">
+					<Vitality Value="-1"/>
 					<Gold Value="-100"/>
 					<Army Value="5"/>
 					<Traders Value="-10"/>
