@@ -4391,7 +4391,8 @@
 					<Army Value="-20"/>
 					<Traders Value="10"/>
 				</Option>
-				<Option Goto="275" Text="Пригрозите торговцам проверкой и заставите отозвать жалобу, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="275" Text="Пригрозите торговцам проверкой и заставите отозвать жалобу" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Army Value="10"/>
 					<Traders Value="-20"/>
 				</Option>
