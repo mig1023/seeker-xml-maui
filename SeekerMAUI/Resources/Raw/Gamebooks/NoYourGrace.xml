@@ -3456,7 +3456,8 @@
 					<Nobles Value="-10"/>
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="483" Text="Отправите лесоруба в армию, пусть там покажет свою удаль, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="483" Text="Отправите лесоруба в армию, пусть там покажет свою удаль" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Ivo Value="10"/>
 					<Army Value="10"/>
 					<Traders Value="-10"/>
