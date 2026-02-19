@@ -3465,7 +3465,8 @@
 					<Army Value="-5"/>
 					<Church Value="-5"/>
 				</Option>
-				<Option Goto="81" Text="Одобрите создание Ордена, $ «Vitality» -1, ^«Орден», «Church» +20" Availability="Бодрость > 0">
+				<Option Goto="81" Text="Одобрите создание Ордена, $ «Vitality» -1, ^«Орден»" Availability="Бодрость > 0">
+					<Church Value="20"/>
 					<Army Value="-15"/>
 					<Traders Value="-5"/>
 				</Option>
