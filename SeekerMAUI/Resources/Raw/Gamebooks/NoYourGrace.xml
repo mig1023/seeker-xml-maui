@@ -5299,7 +5299,8 @@
 					<Church Value="-10"/>
 					<Sorcery Value="-1"/>
 				</Option>
-				<Option Goto="170" Text="Отпустите его, $ «Vitality» -1, «Church» +10" Availability="Бодрость > 0">
+				<Option Goto="170" Text="Отпустите его, $ «Vitality» -1" Availability="Бодрость > 0">
+					<Church Value="10"/>
 					<Army Value="-5"/>
 					<Nobles Value="-10"/>
 					<Sorcery Value="1"/>
