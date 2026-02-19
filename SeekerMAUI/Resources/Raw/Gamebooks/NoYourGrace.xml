@@ -3626,7 +3626,8 @@
 					<Vitality Value="-1"/>
 					<Church Value="-20"/>
 				</Option>
-				<Option Goto="654" Text="Отправите рыцарей из Ордена проверить округу, $ «Vitality» -1" Availability="Бодрость >= 1, !Орден">
+				<Option Goto="654" Text="Отправите рыцарей из Ордена проверить округу" Availability="Бодрость >= 1, !Орден">
+					<Vitality Value="-1"/>
 					<Church Value="-10"/>
 				</Option>
 				<Option Goto="654" Text="Пошлете охотника на чудовищ разведать окрестности" Availability="Бодрость >= 1, !Охотник Тулман">
