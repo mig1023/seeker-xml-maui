@@ -2189,7 +2189,8 @@
 					<Nobles Value="10"/>
 				</Option>
 				<Option Goto="57" Text="Устало отложите перо"/>
-				<Option Goto="502" Text="Предупредите, что король Иво не собирается выполнять договор, $ «Vitality» -1, «Ivo» -15, «Davern» -10" Availability="Бодрость > 0">
+				<Option Goto="502" Text="Предупредите, что король Иво не собирается выполнять договор, $ «Vitality» -1, «Ivo» -15" Availability="Бодрость > 0">
+					<Davern Value="-10"/>
 					<Army Value="-10"/>
 					<Davern Value="5"/>
 				</Option>
