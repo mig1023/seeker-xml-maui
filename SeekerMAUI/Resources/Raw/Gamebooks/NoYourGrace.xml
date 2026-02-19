@@ -3576,7 +3576,8 @@
 					<Nobles Value="5"/>
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="442" Text="Одобрите план Рудольфа, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="442" Text="Одобрите план Рудольфа" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Traders Value="10"/>
 					<Nobles Value="-10"/>
 				</Option>
