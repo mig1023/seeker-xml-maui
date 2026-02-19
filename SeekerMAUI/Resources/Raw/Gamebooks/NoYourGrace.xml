@@ -4228,7 +4228,8 @@
 					<Traders Value="10"/>
 				</Option>
 				<Option Goto="14" Text="Побеседуете с Оуэном" Availability="Богословие, Церковь >= 30"/>
-				<Option Goto="376" Text="Попытаетесь выяснить, где содержат пойманных ведьм, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="376" Text="Попытаетесь выяснить, где содержат пойманных ведьм" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Sorcery Value="1"/>
 				</Option>
 				<Option Goto="275" Text="Займетесь другими делами"/>
