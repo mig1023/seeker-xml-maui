@@ -4396,7 +4396,8 @@
 					<Army Value="10"/>
 					<Traders Value="-20"/>
 				</Option>
-				<Option Goto="275" Text="Обвините во всем интенданта и взыщите с него ущерб, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="275" Text="Обвините во всем интенданта и взыщите с него ущерб" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Nobles Value="-20"/>
 					<Army Value="10"/>
 					<Traders Value="10"/>
