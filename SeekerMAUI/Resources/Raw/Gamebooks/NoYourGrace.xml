@@ -5188,7 +5188,8 @@
 					<Gold Value="-25"/>
 					<Nobles Value="5"/>
 				</Option>
-				<Option Goto="12" Text="Купите изящную меховую муфту за 30 золотых, $ «Gold» -30" Availability="Меха, Золото >= 30">
+				<Option Goto="12" Text="Купите изящную меховую муфту за 30 золотых" Availability="Меха, Золото >= 30">
+					<Gold Value="-30"/>
 					<Ivo Value="10"/>
 					<Nobles Value="10"/>
 				</Option>
