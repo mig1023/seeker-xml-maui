@@ -3549,7 +3549,8 @@
 					<Army Value="-5"/>
 					<Church Value="-5"/>
 				</Option>
-				<Option Goto="81" Text="Одобрите создание Ордена, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="81" Text="Одобрите создание Ордена" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Trigger Value="Орден"/>
 					<Church Value="20"/>
 					<Army Value="-15"/>
