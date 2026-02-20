@@ -1165,7 +1165,9 @@
 				<Option Goto="275" Text="Пошлете солдат жестко наказать бунтовщиков, $ «Vitality» -1, «Army» +10, «Traders» +10" Availability="Бодрость > 0">
 					<Untrigger Value="Тиран"/>
 				</Option>
-				<Option Goto="275" Text="Закроете мастерские, $ «Vitality» -1, «Nobles» +5, «Traders» -10, «Income» -40, Х«Текстиль»" Availability="Бодрость > 0"/>
+				<Option Goto="275" Text="Закроете мастерские, $ «Vitality» -1, «Nobles» +5, «Traders» -10, «Income» -40" Availability="Бодрость > 0">
+					<Untrigger Value="Текстиль"/>
+				</Option>
 				<Option Goto="275" Text="Повысите плату работникам, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 50">
 					<Gold Value="-50"/>
 					<Income Value="-10"/>
