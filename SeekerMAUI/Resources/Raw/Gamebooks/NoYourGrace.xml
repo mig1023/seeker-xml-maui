@@ -2627,7 +2627,9 @@
 					<Sorcery Value="1"/>
 					<Nobles Value="10"/>
 				</Option>
-				<Option Goto="532" Text="«Книга чудес и кошмаров», $ «Vitality» -1, «Sorcery» +1, ^«Фольклор»" Availability="Выпад >= 1, Бодрость >= 1"/>
+				<Option Goto="532" Text="«Книга чудес и кошмаров», $ «Vitality» -1, «Sorcery» +1" Availability="Выпад >= 1, Бодрость >= 1">
+					<Trigger Value="Фольклор"/>
+				</Option>
 				<Option Goto="525" Text="«Вычстатмагфиз», $ «Vitality» -1" Availability="Атака >= 1, Бодрость >= 1">
 					<Sorcery Value="1"/>
 				</Option>
