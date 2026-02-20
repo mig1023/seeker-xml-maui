@@ -5306,7 +5306,9 @@
 				<Option Goto="348" Text="Реализуете проект, не выплачивая ни компенсаций, ни жалования, $«Vitality» -1, «Gold» -300, ^«Тиран», «Nobles» -40, «Traders» -10, «Army» -10, «Income» +80" Availability="Бодрость >= 1, Золото >= 300">
 					<Trigger Value="Уголь"/>
 				</Option>
-				<Option Goto="348" Text="Не будете выплачивать компенсаций землевладельцам, $ «Vitality» -1, «Gold» -500, «Nobles» -40, «Traders» +20, «Income» +80, ^«Уголь»" Availability="Бодрость >= 1, Золото >= 500"/>
+				<Option Goto="348" Text="Не будете выплачивать компенсаций землевладельцам, $ «Vitality» -1, «Gold» -500, «Nobles» -40, «Traders» +20, «Income» +80" Availability="Бодрость >= 1, Золото >= 500">
+					<Trigger Value="Уголь"/>
+				</Option>
 				<Option Goto="348" Text="Используете подневольный труд заключенных, $ «Vitality» -1, «Gold» -500, «Army» -10, «Nobles» -10, «Traders» -10, ^«Тиран», «Income» +80, ^«Уголь»" Availability="Бодрость >= 1, Золото >= 500"/>
 				<Option Goto="348" Text="Реализуете проект в изначальном варианте, $ «Vitality» -1, «Gold» -700, «Traders» +20, «Nobles» -10, «Income» +80, ^«Уголь»" Availability="Бодрость >= 1, Золото >= 700"/>
 				<Option Goto="348" Text="Построите дополнительную систему шлюзов для нужд обороны, $ «Vitality» -1, «Gold» -800, «Traders» +20, «Army» +10, «Nobles» -10, «Income» +80, ^«Уголь»" Availability="Бодрость >= 1, Золото >= 800"/>
