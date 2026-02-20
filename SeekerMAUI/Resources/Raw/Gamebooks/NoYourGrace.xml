@@ -998,7 +998,8 @@
 					<Traders Value="5"/>
 					<Nobles Value="-10"/>
 				</Option>
-				<Option Goto="237" Text="Одобрите субсидию и войдете в историю и меню, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 100">
+				<Option Goto="237" Text="Одобрите субсидию и войдете в историю и меню" Availability="Бодрость >= 1, Золото >= 100">
+					<Vitality Value="-1"/>
 					<Gold Value="-100"/>
 					<Church Value="10"/>
 					<Traders Value="20"/>
