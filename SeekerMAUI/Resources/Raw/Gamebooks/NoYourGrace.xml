@@ -5083,7 +5083,8 @@
 					<Income Value="25"/>
 					<Traders Value="-20"/>
 				</Option>
-				<Option Goto="672" Text="Пятидесяти золотым в неделю, $ Х«Рудник», ^«Тиран»" Availability="Рудник">
+				<Option Goto="672" Text="Пятидесяти золотым в неделю, $ Х«Рудник»" Availability="Рудник">
+					<Trigger Value="Тиран"/>
 					<Traders Value="-50"/>
 				</Option>
 				<Option Goto="139" Text="Вашей дружбе, $ «Traders» +30" Availability="Рудник"/>
