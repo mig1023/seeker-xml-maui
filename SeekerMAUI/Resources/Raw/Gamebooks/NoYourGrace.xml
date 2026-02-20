@@ -3460,7 +3460,8 @@
 					<Gold Value="-20"/>
 					<Trigger Value="Двуручный молот"/>
 				</Option>
-				<Option Goto="336" Text="Купите латы, $ «Gold» -50" Availability="Золото >= 50, !Латы">
+				<Option Goto="336" Text="Купите латы" Availability="Золото >= 50, !Латы">
+					<Gold Value="-50"/>
 					<Trigger Value="Латы"/>
 				</Option>
 				<Option Goto="445" Text="Рискнете попросить что-то для открывания замков" Availability="Торговцы >= 60, !Отмычки"/>
