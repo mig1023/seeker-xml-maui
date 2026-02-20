@@ -4883,7 +4883,8 @@
 					<Army Value="-10"/>
 					<Davern Value="-10"/>
 				</Option>
-				<Option Goto="182" Text="Закупите недостающее снаряжение за свой счет, $ «Davern» +10" Availability="Золото >= 100">
+				<Option Goto="182" Text="Закупите недостающее снаряжение за свой счет" Availability="Золото >= 100">
+					<Davern Value="10"/>
 					<Gold Value="-100"/>
 				</Option>
 			</Options>
