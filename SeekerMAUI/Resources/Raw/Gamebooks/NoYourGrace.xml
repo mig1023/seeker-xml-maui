@@ -1342,7 +1342,8 @@
 					<Church Value="-5"/>
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="51" Text="Отложите решение до лучших времен, $ «Army» -10" Availability="Бодрость > 0">
+				<Option Goto="51" Text="Отложите решение до лучших времен" Availability="Бодрость > 0">
+					<Army Value="-10"/>
 					<Nobles Value="5"/>
 					<Traders Value="5"/>
 					<Vitality Value="-1"/>
