@@ -437,7 +437,8 @@
 					<Traders Value="-20"/>
 					<Nobles Value="10"/>
 				</Option>
-				<Option Goto="275" Text="Наберете наемников, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 300">
+				<Option Goto="275" Text="Наберете наемников" Availability="Бодрость >= 1, Золото >= 300">
+					<Vitality Value="-1"/>
 					<Gold Value="-300"/>
 					<Nobles Value="-10"/>
 					<Army Value="5"/>
