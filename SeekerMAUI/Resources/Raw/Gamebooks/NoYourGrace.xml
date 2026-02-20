@@ -5825,7 +5825,8 @@
 					<Gold Value="-100"/>
 					<Nobles Value="10"/>
 				</Option>
-				<Option Goto="173" Text="Используете отечественные ткани, $ «Gold» -25" Availability="Текстиль, Золото >= 25">
+				<Option Goto="173" Text="Используете отечественные ткани" Availability="Текстиль, Золото >= 25">
+					<Gold Value="-25"/>
 					<Nobles Value="5"/>
 					<Traders Value="10"/>
 				</Option>
