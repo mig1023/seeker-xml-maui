@@ -5097,7 +5097,8 @@
 				<Option Goto="139" Text="Ста золотым, $«Gold» +100" Availability="Рудник">
 					<Untrigger Value="Рудник"/>
 				</Option>
-				<Option Goto="507" Text="Трёмстам золотым, $ «Traders» -20" Availability="Рудник">
+				<Option Goto="507" Text="Трёмстам золотым" Availability="Рудник">
+					<Traders Value="-20"/>
 					<Untrigger Value="Рудник"/>
 					<Gold Value="500"/>
 				</Option>
