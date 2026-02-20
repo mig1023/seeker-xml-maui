@@ -6681,7 +6681,8 @@
 					<Traders Value="10"/>
 					<Church Value="10"/>
 				</Option>
-				<Option Goto="598" Text="Откажете в ее просьбе и выставите ее вон, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="598" Text="Откажете в ее просьбе и выставите ее вон" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Trigger Value="Культ"/>
 					<Nobles Value="5"/>
 					<Traders Value="5"/>
