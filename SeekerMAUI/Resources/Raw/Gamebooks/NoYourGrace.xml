@@ -1087,7 +1087,8 @@
 					<Traders Value="-5"/>
 					<Nobles Value="5"/>
 				</Option>
-				<Option Goto="94" Text="Повысить жалование армии, $ «Gold» -50" Availability="Золото >= 50">
+				<Option Goto="94" Text="Повысить жалование армии" Availability="Золото >= 50">
+					<Gold Value="-50"/>
 					<Army Value="5"/>
 				</Option>
 				<Option Goto="94" Text="Сделать щедрое пожертвование церкви, $ «Gold» -50" Availability="Золото >= 50">
