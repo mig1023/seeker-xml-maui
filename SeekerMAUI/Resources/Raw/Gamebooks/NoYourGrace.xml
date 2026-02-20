@@ -5038,7 +5038,9 @@
 				<Option Goto="507" Text="Трёмстам золотым, $ «Traders» -20, Х«Рудник»" Availability="Рудник">
 					<Gold Value="500"/>
 				</Option>
-				<Option Goto="672" Text="Пятистам золотых, $ «Traders» -50, Х«Рудник», ^«Тиран»" Availability="Рудник"/>
+				<Option Goto="672" Text="Пятистам золотых, $ «Traders» -50, Х«Рудник»" Availability="Рудник">
+					<Trigger Value="Тиран"/>
+				</Option>
 				<Option Goto="139" Text="Десяти золотым в неделю, $ Х«Рудник»" Availability="Рудник">
 					<Income Value="10"/>
 				</Option>
