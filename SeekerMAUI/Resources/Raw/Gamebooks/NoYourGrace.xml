@@ -4575,7 +4575,8 @@
 					<Gold Value="50"/>
 					<Nobles Value="-15"/>
 				</Option>
-				<Option Goto="208" Text="Выкупите дорогу у лорда и сделаете ее общественной, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 100">
+				<Option Goto="208" Text="Выкупите дорогу у лорда и сделаете ее общественной" Availability="Бодрость >= 1, Золото >= 100">
+					<Vitality Value="-1"/>
 					<Gold Value="-100"/>
 					<Nobles Value="-15"/>
 				</Option>
