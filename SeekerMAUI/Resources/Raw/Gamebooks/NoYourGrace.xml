@@ -1043,7 +1043,8 @@
 					<Traders Value="-10"/>
 					<Army Value="-5"/>
 				</Option>
-				<Option Goto="653" Text="Примете план Рудольфа и разрешите создать табачные плантации, $«Vitality» -1" Availability="Бодрость >= 1, Золото >= 100">
+				<Option Goto="653" Text="Примете план Рудольфа и разрешите создать табачные плантации" Availability="Бодрость >= 1, Золото >= 100">
+					<Vitality Value="-1"/>
 					<Gold Value="-100"/>
 					<Income Value="10"/>
 					<Traders Value="10"/>
