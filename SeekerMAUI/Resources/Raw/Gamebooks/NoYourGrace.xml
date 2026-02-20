@@ -763,7 +763,8 @@
 					<Gold Value="-20"/>
 					<Traders Value="10"/>
 				</Option>
-				<Option Goto="310" Text="Откажете старосте, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="310" Text="Откажете старосте" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Traders Value="-10"/>
 				</Option>
 				<Option Goto="310" Text="Отправите крестьянина к Иво">
