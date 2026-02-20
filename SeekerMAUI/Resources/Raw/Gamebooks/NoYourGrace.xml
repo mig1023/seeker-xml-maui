@@ -6373,7 +6373,8 @@
 					<Vitality Value="-1"/>
 					<Church Value="5"/>
 				</Option>
-				<Option Goto="275" Text="Пожертвуете приюту немного денег, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 5">
+				<Option Goto="275" Text="Пожертвуете приюту немного денег" Availability="Бодрость >= 1, Золото >= 5">
+					<Vitality Value="-1"/>
 					<Traders Value="5"/>
 					<Gold Value="-5"/>
 				</Option>
