@@ -5289,7 +5289,8 @@
 				<Option Goto="416" Text="Прибегнете к займам или внеочередному сбору налогов" Availability="Метка >= 1, Бодрость >= 2">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="348" Text="Откажетесь поддержать проект, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="348" Text="Откажетесь поддержать проект" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Nobles Value="10"/>
 					<Traders Value="-10"/>
 				</Option>
