@@ -4570,7 +4570,8 @@
 				<Option Goto="208" Text="Оставите решение за Иво">
 					<Ivo Value="-10"/>
 				</Option>
-				<Option Goto="208" Text="Оштрафуете лорда и прикажете ему держать своих псов на привязи, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="208" Text="Оштрафуете лорда и прикажете ему держать своих псов на привязи" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Gold Value="50"/>
 					<Nobles Value="-15"/>
 				</Option>
