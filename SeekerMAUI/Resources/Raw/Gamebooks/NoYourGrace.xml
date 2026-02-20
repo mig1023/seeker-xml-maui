@@ -5001,7 +5001,8 @@
 					<Church Value="-10"/>
 					<Traders Value="10"/>
 				</Option>
-				<Option Goto="15" Text="Объявите солидную награду за волчьи головы, чтобы привлечь наемников, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 100">
+				<Option Goto="15" Text="Объявите солидную награду за волчьи головы, чтобы привлечь наемников" Availability="Бодрость >= 1, Золото >= 100">
+					<Vitality Value="-1"/>
 					<Gold Value="-100"/>
 					<Traders Value="10"/>
 				</Option>
