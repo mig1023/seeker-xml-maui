@@ -4665,7 +4665,8 @@
 					<Ivo Value="10"/>
 					<Nobles Value="5"/>
 				</Option>
-				<Option Goto="126" Text="Оденетесь в вычурный экзотический наряд, $ «Gold» -15" Availability="Золото >= 15">
+				<Option Goto="126" Text="Оденетесь в вычурный экзотический наряд" Availability="Золото >= 15">
+					<Gold Value="-15"/>
 					<Ivo Value="10"/>
 					<Army Value="-10"/>
 				</Option>
