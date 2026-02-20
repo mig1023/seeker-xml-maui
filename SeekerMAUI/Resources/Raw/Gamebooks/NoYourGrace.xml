@@ -430,7 +430,8 @@
 					<Army Value="10"/>
 					<Traders Value="5"/>
 				</Option>
-				<Option Goto="275" Text="Поручите охрану дорог местным лордам, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 100">
+				<Option Goto="275" Text="Поручите охрану дорог местным лордам" Availability="Бодрость >= 1, Золото >= 100">
+					<Vitality Value="-1"/>
 					<Gold Value="-100"/>
 					<Army Value="-10"/>
 					<Traders Value="-20"/>
