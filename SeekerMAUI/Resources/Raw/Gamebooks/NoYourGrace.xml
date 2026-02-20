@@ -1078,7 +1078,8 @@
 		<Paragraph No="94">
 			<Text>Деньги у вас еще есть. Пока. Так почему бы не сникать себе немного популярности за счет Иво? И вы решаете немного облегчить налоговое бремя.</Text>
 			<Options>
-				<Option Goto="94" Text="Снизить налоги, $ «Traders» +5" Availability="Золото >= 50">
+				<Option Goto="94" Text="Снизить налоги" Availability="Золото >= 50">
+					<Traders Value="5"/>
 					<Gold Value="-50"/>
 				</Option>
 				<Option Goto="94" Text="Уменьшить таможенные пошлины, $ «Gold» -50" Availability="Золото >= 50">
