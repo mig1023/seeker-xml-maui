@@ -6747,7 +6747,8 @@
 					<Church Value="-20"/>
 					<Sorcery Value="1"/>
 				</Option>
-				<Option Goto="143" Text="Найдете формальную зацепку в законах и оправдаете подсудимого, $ «Vitality» -2" Availability="Бодрость > 2">
+				<Option Goto="143" Text="Найдете формальную зацепку в законах и оправдаете подсудимого" Availability="Бодрость > 2">
+					<Vitality Value="-2"/>
 					<Nobles Value="-20"/>
 					<Church Value="20"/>
 				</Option>
