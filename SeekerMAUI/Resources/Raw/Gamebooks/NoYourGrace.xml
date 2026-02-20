@@ -4996,7 +4996,8 @@
 				<Option Goto="15" Text="Выгоните мужичка взашей">
 					<Traders Value="-20"/>
 				</Option>
-				<Option Goto="15" Text="Попросите епископа отправить какого из монахов на помощь деревне, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="15" Text="Попросите епископа отправить какого из монахов на помощь деревне" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Church Value="-10"/>
 					<Traders Value="10"/>
 				</Option>
