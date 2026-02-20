@@ -3434,7 +3434,9 @@
 				<Option Goto="336" Text="Купите кинжал, $ «Gold» -1" Availability="Золото >= 1, !Кинжал">
 					<Trigger Value="Кинжал"/>
 				</Option>
-				<Option Goto="336" Text="Купите рапиру, $ «Gold» -10, ^«Рапира»" Availability="Золото >= 10, !Рапира"/>
+				<Option Goto="336" Text="Купите рапиру, $ «Gold» -10" Availability="Золото >= 10, !Рапира">
+					<Trigger Value="Рапира"/>
+				</Option>
 				<Option Goto="336" Text="Купите двуручный молот, $ «Gold» -20, ^«Двуручный молот»" Availability="Золото >= 20, !Двуручный молот"/>
 				<Option Goto="336" Text="Купите латы, $ «Gold» -50, ^«Латы»" Availability="Золото >= 50, !Латы"/>
 				<Option Goto="445" Text="Рискнете попросить что-то для открывания замков" Availability="Торговцы >= 60, !Отмычки"/>
