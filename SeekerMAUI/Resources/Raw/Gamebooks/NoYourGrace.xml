@@ -6254,7 +6254,8 @@
 					<Movement Value="1"/>
 					<Gold Value="-100"/>
 				</Option>
-				<Option Goto="637" Text="Подкупите мастеров цехов, предложив им 250 золотых, $ «RebelForces» +1" Availability="Золото >= 250">
+				<Option Goto="637" Text="Подкупите мастеров цехов, предложив им 250 золотых" Availability="Золото >= 250">
+					<RebelForces Value="1"/>
 					<Movement Value="1"/>
 					<Gold Value="-250"/>
 				</Option>
