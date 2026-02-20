@@ -4660,7 +4660,8 @@
 					<Nobles Value="10"/>
 					<Traders Value="5"/>
 				</Option>
-				<Option Goto="126" Text="Выберете элегантное стильное и, главное, недорогое платье, $ «Gold» -25" Availability="Золото >= 25">
+				<Option Goto="126" Text="Выберете элегантное стильное и, главное, недорогое платье" Availability="Золото >= 25">
+					<Gold Value="-25"/>
 					<Ivo Value="10"/>
 					<Nobles Value="5"/>
 				</Option>
