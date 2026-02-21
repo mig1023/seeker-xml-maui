@@ -1579,7 +1579,8 @@
 				<Option Goto="275" Text="Одобрите покупку античной статуи, $ «Vitality» -1, «Gold» -150, «Nobles» +10, «Church» -10" Availability="Бодрость >= 1, Золото >= 150">
 					<Trigger Value="Богиня"/>
 				</Option>
-				<Option Goto="275" Text="Откажете, сказав что языческим изваяниям не место во дворце, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="275" Text="Откажете, сказав что языческим изваяниям не место во дворце" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Church Value="10"/>
 					<Nobles Value="-10"/>
 				</Option>
