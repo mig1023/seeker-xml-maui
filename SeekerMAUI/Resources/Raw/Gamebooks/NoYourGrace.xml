@@ -2711,7 +2711,8 @@
 					<Vitality Value="-1"/>
 					<Sorcery Value="1"/>
 				</Option>
-				<Option Goto="652" Text="«Божественная мера и порядок мира», $ «Vitality» -1" Availability="Перемещение >= 1, Бодрость >= 1">
+				<Option Goto="652" Text="«Божественная мера и порядок мира»" Availability="Перемещение >= 1, Бодрость >= 1">
+					<Vitality Value="-1"/>
 					<Sorcery Value="-1"/>
 					<Church Value="10"/>
 				</Option>
