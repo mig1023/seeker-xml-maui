@@ -2265,7 +2265,8 @@
 					<Ivo Value="10"/>
 					<Davern Value="-5"/>
 				</Option>
-				<Option Goto="502" Text="Пожалуетесь на грубое обращение Иво, $«Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="502" Text="Пожалуетесь на грубое обращение Иво" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Ivo Value="-10"/>
 				</Option>
 				<Option Goto="502" Text="Отправите со знакомым торговцем просьбу о помощи, $ «Vitality» -1, «Ivo» -20, «Army» -10" Availability="Бодрость >= 1, !Торговец из Даверна">
