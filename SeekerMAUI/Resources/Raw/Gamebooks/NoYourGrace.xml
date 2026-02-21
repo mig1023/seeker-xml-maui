@@ -2646,7 +2646,8 @@
 					<Nobles Value="10"/>
 					<Church Value="-15"/>
 				</Option>
-				<Option Goto="206" Text="Согласитесь с епископом и оставите озеро за монастырем, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="206" Text="Согласитесь с епископом и оставите озеро за монастырем" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Church Value="10"/>
 					<Nobles Value="-15"/>
 				</Option>
