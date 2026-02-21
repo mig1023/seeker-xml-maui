@@ -1966,7 +1966,8 @@
 					<Lunge Value="-1"/>
 					<LorsuliaActions Value="-1"/>
 				</Option>
-				<Option Goto="565" Text="Нанесете короткий и быстрый удар кинжалом, $ «Attack» -1" Availability="Атака >= 1, Действия Лорсулии >= 1">
+				<Option Goto="565" Text="Нанесете короткий и быстрый удар кинжалом" Availability="Атака >= 1, Действия Лорсулии >= 1">
+					<Attack Value="-1"/>
 					<LorsuliaActions Value="-1"/>
 				</Option>
 				<Option Goto="469" Text="Отскочите назад, чтобы перевести дыхание, $ «Movement» -1" Availability="Перемещение >= 1, Действия Лорсулии >= 1">
