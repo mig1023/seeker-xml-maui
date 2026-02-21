@@ -2398,7 +2398,8 @@
 					<Davern Value="-15"/>
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="124" Text="Поручите Рудольфу тайно выкупить и закрыть бордель, $ «Davern» +10" Availability="Золото >= 200, Бодрость >= 1">
+				<Option Goto="124" Text="Поручите Рудольфу тайно выкупить и закрыть бордель" Availability="Золото >= 200, Бодрость >= 1">
+					<Davern Value="10"/>
 					<Gold Value="-200"/>
 					<Vitality Value="-1"/>
 				</Option>
