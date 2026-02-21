@@ -2622,7 +2622,8 @@
 					<Gold Value="-80"/>
 					<Nobles Value="-15"/>
 				</Option>
-				<Option Goto="346" Text="Откажете в прошении, $ «Nobles» +10" Availability="Бодрость > 0">
+				<Option Goto="346" Text="Откажете в прошении" Availability="Бодрость > 0">
+					<Nobles Value="10"/>
 					<Traders Value="-5"/>
 				</Option>
 				<Option Goto="346" Text="Оставите решение за Иво">
