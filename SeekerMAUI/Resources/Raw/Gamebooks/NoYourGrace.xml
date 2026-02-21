@@ -1970,7 +1970,8 @@
 					<Attack Value="-1"/>
 					<LorsuliaActions Value="-1"/>
 				</Option>
-				<Option Goto="469" Text="Отскочите назад, чтобы перевести дыхание, $ «Movement» -1" Availability="Перемещение >= 1, Действия Лорсулии >= 1">
+				<Option Goto="469" Text="Отскочите назад, чтобы перевести дыхание" Availability="Перемещение >= 1, Действия Лорсулии >= 1">
+					<Movement Value="-1"/>
 					<LorsuliaActions Value="-1"/>
 				</Option>
 				<Option Goto="409" Text="Перехватите кинжал поудобнее для парирования, $ «Defense» -1" Availability="Защита >= 1, Действия Лорсулии >= 1">
