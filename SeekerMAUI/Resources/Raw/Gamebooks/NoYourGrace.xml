@@ -2223,7 +2223,8 @@
 					<Traders Value="10"/>
 					<Church Value="10"/>
 				</Option>
-				<Option Goto="493" Text="Попросите поставить «Безумие чар», $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 50">
+				<Option Goto="493" Text="Попросите поставить «Безумие чар»" Availability="Бодрость >= 1, Золото >= 50">
+					<Vitality Value="-1"/>
 					<Gold Value="-50"/>
 					<Ivo Value="10"/>
 					<Nobles Value="10"/>
