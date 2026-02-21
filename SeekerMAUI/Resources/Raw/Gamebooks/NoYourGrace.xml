@@ -1863,7 +1863,8 @@
 					<Army Value="-5"/>
 					<Church Value="5"/>
 				</Option>
-				<Option Goto="470" Text="Выбьете дверь с нецензурной бранью, $ «Ivo» -10" Availability="Ловкость >= 3">
+				<Option Goto="470" Text="Выбьете дверь с нецензурной бранью" Availability="Ловкость >= 3">
+					<Ivo Value="-10"/>
 					<Army Value="10"/>
 				</Option>
 			</Options>
