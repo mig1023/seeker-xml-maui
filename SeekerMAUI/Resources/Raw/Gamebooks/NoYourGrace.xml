@@ -1837,7 +1837,8 @@
 					<Gold Value="-30"/>
 					<Nobles Value="10"/>
 				</Option>
-				<Option Goto="452" Text="Подадите местное пиво и наливки. Вкусно и точка!, $ «Gold» -25" Availability="Золото >= 25">
+				<Option Goto="452" Text="Подадите местное пиво и наливки. Вкусно и точка!" Availability="Золото >= 25">
+					<Gold Value="-25"/>
 					<Army Value="5"/>
 					<Nobles Value="-10"/>
 				</Option>
