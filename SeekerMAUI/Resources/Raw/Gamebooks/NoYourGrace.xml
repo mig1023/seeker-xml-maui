@@ -2193,7 +2193,8 @@
 				<Option Goto="275" Text="Дадите торговцу право беспошлинно торговать в Атане, $«Vitality» -1, «Davern» +10, «Traders» -10, «Army» -10" Availability="Бодрость > 0">
 					<Trigger Value="Торговец из Даверна"/>
 				</Option>
-				<Option Goto="275" Text="Откажете, сославшись, что перед законом все равны, $«Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="275" Text="Откажете, сославшись, что перед законом все равны" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Davern Value="-10"/>
 					<Gold Value="10"/>
 					<Army Value="5"/>
