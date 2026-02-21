@@ -1974,7 +1974,8 @@
 					<Movement Value="-1"/>
 					<LorsuliaActions Value="-1"/>
 				</Option>
-				<Option Goto="409" Text="Перехватите кинжал поудобнее для парирования, $ «Defense» -1" Availability="Защита >= 1, Действия Лорсулии >= 1">
+				<Option Goto="409" Text="Перехватите кинжал поудобнее для парирования" Availability="Защита >= 1, Действия Лорсулии >= 1">
+					<Defense Value="-1"/>
 					<LorsuliaActions Value="-1"/>
 				</Option>
 				<Option Goto="291" Text="Победа!" Availability="Жизнь противника &lt; 1"/>
