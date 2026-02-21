@@ -1962,7 +1962,8 @@
 					<Fent Value="-1"/>
 					<LorsuliaActions Value="-1"/>
 				</Option>
-				<Option Goto="76" Text="Сделаете длинный выпад вперед с ударом кинжалом, $ «Lunge» -1" Availability="Выпад >= 1, Действия Лорсулии >= 1">
+				<Option Goto="76" Text="Сделаете длинный выпад вперед с ударом кинжалом" Availability="Выпад >= 1, Действия Лорсулии >= 1">
+					<Lunge Value="-1"/>
 					<LorsuliaActions Value="-1"/>
 				</Option>
 				<Option Goto="565" Text="Нанесете короткий и быстрый удар кинжалом, $ «Attack» -1" Availability="Атака >= 1, Действия Лорсулии >= 1">
