@@ -2658,7 +2658,8 @@
 					<Nobles Value="-5"/>
 					<Church Value="-5"/>
 				</Option>
-				<Option Goto="206" Text="Пошлете солдат для охраны монастыря, $«Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="206" Text="Пошлете солдат для охраны монастыря" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Trigger Value="Монастырь"/>
 					<Traders Value="15"/>
 					<Army Value="-10"/>
