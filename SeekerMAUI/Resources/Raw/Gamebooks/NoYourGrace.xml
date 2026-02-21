@@ -1370,7 +1370,8 @@
 				<Option Goto="246" Text="Согласитесь,нос условием, что детям будут платить полное жалование,$«Vitality» -1, «Gold» -500, «Traders» +20, «Church» +5, «Nobles» -5, «Income» +50" Availability="Бодрость >= 1, Золото >= 500">
 					<Trigger Value="Текстиль"/>
 				</Option>
-				<Option Goto="246" Text="Отклоните проект, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="246" Text="Отклоните проект" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Traders Value="-20"/>
 					<Nobles Value="5"/>
 				</Option>
