@@ -2716,7 +2716,8 @@
 					<Sorcery Value="-1"/>
 					<Church Value="10"/>
 				</Option>
-				<Option Goto="632" Text="«Клятва над лунным клинком», $ «Vitality» -1" Availability="Защита >= 1, Бодрость >= 1">
+				<Option Goto="632" Text="«Клятва над лунным клинком»" Availability="Защита >= 1, Бодрость >= 1">
+					<Vitality Value="-1"/>
 					<Sorcery Value="1"/>
 				</Option>
 				<Option Goto="275" Text="Вернетесь в замок"/>
