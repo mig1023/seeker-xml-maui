@@ -1958,7 +1958,8 @@
 					<Charge Value="-1"/>
 					<LorsuliaActions Value="-1"/>
 				</Option>
-				<Option Goto="481" Text="Сделате ложный выпад, чтобы отвлечь противника, $ «Fent» -1" Availability="Финт >= 1, Действия Лорсулии >= 1">
+				<Option Goto="481" Text="Сделате ложный выпад, чтобы отвлечь противника" Availability="Финт >= 1, Действия Лорсулии >= 1">
+					<Fent Value="-1"/>
 					<LorsuliaActions Value="-1"/>
 				</Option>
 				<Option Goto="76" Text="Сделаете длинный выпад вперед с ударом кинжалом, $ «Lunge» -1" Availability="Выпад >= 1, Действия Лорсулии >= 1">
