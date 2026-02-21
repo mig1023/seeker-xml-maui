@@ -2574,7 +2574,8 @@
 					<Army Value="-10"/>
 					<Gold Value="50"/>
 				</Option>
-				<Option Goto="239" Text="Обложить налогом монастырское имущество, $ «Gold» +50" Availability="Церковь >= 10">
+				<Option Goto="239" Text="Обложить налогом монастырское имущество" Availability="Церковь >= 10">
+					<Gold Value="50"/>
 					<Church Value="-10"/>
 				</Option>
 				<Option Goto="267" Text="Подумать еще"/>
