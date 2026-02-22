@@ -4406,7 +4406,8 @@
 					<Gold Value="50"/>
 					<Church Value="-10"/>
 				</Option>
-				<Option Goto="416" Text="Взять взаймы у местных ростовщиков, $«Gold» +100" Availability="Долг &lt; 1">
+				<Option Goto="416" Text="Взять взаймы у местных ростовщиков" Availability="Долг &lt; 1">
+					<Gold Value="100"/>
 					<Debt Value="100"/>
 					<Income Value="-0"/>
 				</Option>
