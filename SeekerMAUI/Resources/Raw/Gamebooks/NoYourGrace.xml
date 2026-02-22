@@ -5558,7 +5558,8 @@
 					<Nobles Value="10"/>
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="348" Text="Реализуете проект, не выплачивая ни компенсаций, ни жалования, $«Vitality» -1, «Gold» -300, ^«Тиран», «Nobles» -40, «Traders» -10, «Army» -10" Availability="Бодрость >= 1, Золото >= 300">
+				<Option Goto="348" Text="Реализуете проект, не выплачивая ни компенсаций, ни жалования, $«Vitality» -1, «Gold» -300, ^«Тиран», «Nobles» -40, «Traders» -10" Availability="Бодрость >= 1, Золото >= 300">
+					<Army Value="-10"/>
 					<Income Value="80"/>
 					<Trigger Value="Уголь"/>
 				</Option>
