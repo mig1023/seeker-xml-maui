@@ -6743,7 +6743,9 @@
 				<Option Goto="54" Text="Вы изумленно нащупываете ожерелье на шее" Availability="Ожерелье">
 					<Church Value="10"/>
 				</Option>
-				<Option Goto="464" Text="Вы отчаянно роетесь в ящиках и шкатулках, $ «Church» -20" Availability="!Ожерелье"/>
+				<Option Goto="464" Text="Вы отчаянно роетесь в ящиках и шкатулках" Availability="!Ожерелье">
+					<Church Value="-20"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="655">
