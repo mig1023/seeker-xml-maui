@@ -2310,7 +2310,8 @@
 					<Army Value="-10"/>
 					<Untrigger Value="Торговец из Даверна"/>
 				</Option>
-				<Option Goto="502" Text="Отправите предупреждение со знакомым торговцем, $ «Vitality» -1" Availability="Бодрость >= 1, !Торговец из Даверна">
+				<Option Goto="502" Text="Отправите предупреждение со знакомым торговцем" Availability="Бодрость >= 1, !Торговец из Даверна">
+					<Vitality Value="-1"/>
 					<Davern Value="20"/>
 					<Untrigger Value="Торговец из Даверна"/>
 				</Option>
