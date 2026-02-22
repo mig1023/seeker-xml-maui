@@ -5577,7 +5577,8 @@
 					<Income Value="80"/>
 					<Trigger Value="Уголь"/>
 				</Option>
-				<Option Goto="348" Text="Построите дополнительную систему шлюзов для нужд обороны, $ «Vitality» -1, «Gold» -800, «Traders» +20, «Army» +10, «Nobles» -10" Availability="Бодрость >= 1, Золото >= 800">
+				<Option Goto="348" Text="Построите дополнительную систему шлюзов для нужд обороны, $ «Vitality» -1, «Gold» -800, «Traders» +20, «Army» +10" Availability="Бодрость >= 1, Золото >= 800">
+					<Nobles Value="-10"/>
 					<Income Value="80"/>
 					<Trigger Value="Уголь"/>
 				</Option>
