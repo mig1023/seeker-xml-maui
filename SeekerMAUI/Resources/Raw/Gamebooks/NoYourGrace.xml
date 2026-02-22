@@ -2499,7 +2499,9 @@
 					<Nobles Value="-10"/>
 				</Option>
 				<Option Goto="391" Text="— Я не знаю! Я, честно, никому не мешаю!"/>
-				<Option Goto="22" Text="— Мне кажется, в библиотеке Гревно был кто-то невидимый, $ «Ivo» +15" Availability="Библиотека"/>
+				<Option Goto="22" Text="— Мне кажется, в библиотеке Гревно был кто-то невидимый" Availability="Библиотека">
+					<Ivo Value="15"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="231">
