@@ -6554,7 +6554,8 @@
 					<Traders Value="5"/>
 					<Gold Value="-5"/>
 				</Option>
-				<Option Goto="638" Text="Пожертвуете приюту целебное зелье, $Х«Целебное зелье»" Availability="Целебное зелье">
+				<Option Goto="638" Text="Пожертвуете приюту целебное зелье" Availability="Целебное зелье">
+					<Untrigger Value="Целебное зелье"/>
 					<Traders Value="15"/>
 					<Church Value="15"/>
 				</Option>
