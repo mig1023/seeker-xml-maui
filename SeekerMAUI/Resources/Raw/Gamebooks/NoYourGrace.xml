@@ -6846,7 +6846,8 @@
 					<Traders Value="5"/>
 					<Church Value="5"/>
 				</Option>
-				<Option Goto="598" Text="Дадите денег на строительство госпиталей, $ «Vitality» -1, «Gold» -200" Availability="Бодрость >= 1, Золото >= 200">
+				<Option Goto="598" Text="Дадите денег на строительство госпиталей, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 200">
+					<Gold Value="-200"/>
 					<Trigger Value="Госпиталь"/>
 					<Church Value="5"/>
 					<Nobles Value="-10"/>
