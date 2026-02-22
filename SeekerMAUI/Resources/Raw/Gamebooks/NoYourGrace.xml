@@ -6912,7 +6912,8 @@
 					<Nobles Value="-20"/>
 					<Church Value="20"/>
 				</Option>
-				<Option Goto="143" Text="Приговорите обвиняемого к тюремного заключению до полного выяснения обстоятельств, $ «Vitality» -1, «Nobles» +10, «Church» +10" Availability="Бодрость > 0">
+				<Option Goto="143" Text="Приговорите обвиняемого к тюремного заключению до полного выяснения обстоятельств, $ «Vitality» -1, «Nobles» +10" Availability="Бодрость > 0">
+					<Church Value="10"/>
 					<Untrigger Value="Охотник Тулман"/>
 				</Option>
 				<Option Goto="143" Text="Отправите убийцу девушки на виселицу" Availability="Бодрость > 0">
