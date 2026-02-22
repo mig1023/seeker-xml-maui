@@ -5445,7 +5445,9 @@
 					<Davern Value="-10"/>
 					<Army Value="10"/>
 				</Option>
-				<Option Goto="70" Text="Закупите продовольствие в Прациссе, чтобы снять напряжение, $ «Gold» -100" Availability="Золото >= 100"/>
+				<Option Goto="70" Text="Закупите продовольствие в Прациссе, чтобы снять напряжение" Availability="Золото >= 100">
+					<Gold Value="-100"/>
+				</Option>
 				<Option Goto="70" Text="Потребуете от Рудольфа прислать обоз с продовольствием из Атаны">
 					<Nobles Value="10"/>
 					<Traders Value="-10"/>
