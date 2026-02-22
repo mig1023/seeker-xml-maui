@@ -1820,7 +1820,8 @@
 					<Church Value="5"/>
 					<Nobles Value="-10"/>
 				</Option>
-				<Option Goto="103" Text="Отмените пошлины на товары барона, $ «Vitality» -1, «Gold» -25, «Nobles» +15, «Traders» -10" Availability="Бодрость >= 1, Золото >= 25">
+				<Option Goto="103" Text="Отмените пошлины на товары барона, $ «Vitality» -1, «Gold» -25, «Nobles» +15" Availability="Бодрость >= 1, Золото >= 25">
+					<Traders Value="-10"/>
 					<Church Value="-5"/>
 					<Trigger Value="Вино"/>
 				</Option>
