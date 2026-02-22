@@ -2895,7 +2895,8 @@
 				<Option Goto="94" Text="Снискать популярность среди сословий королевства" Availability="Бодрость > 0">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="267" Text="Послать денег в помощь отцу, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 50">
+				<Option Goto="267" Text="Послать денег в помощь отцу" Availability="Бодрость >= 1, Золото >= 50">
+					<Vitality Value="-1"/>
 					<Gold Value="-50"/>
 					<Davern Value="20"/>
 					<Ivo Value="-5"/>
