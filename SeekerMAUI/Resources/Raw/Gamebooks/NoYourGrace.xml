@@ -2305,7 +2305,8 @@
 					<Vitality Value="-1"/>
 					<Ivo Value="-10"/>
 				</Option>
-				<Option Goto="502" Text="Отправите со знакомым торговцем просьбу о помощи, $ «Vitality» -1, «Ivo» -20" Availability="Бодрость >= 1, !Торговец из Даверна">
+				<Option Goto="502" Text="Отправите со знакомым торговцем просьбу о помощи, $ «Vitality» -1" Availability="Бодрость >= 1, !Торговец из Даверна">
+					<Ivo Value="-20"/>
 					<Army Value="-10"/>
 					<Untrigger Value="Торговец из Даверна"/>
 				</Option>
