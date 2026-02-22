@@ -5221,7 +5221,9 @@
 					<Trigger Value="Тиран"/>
 					<Traders Value="-50"/>
 				</Option>
-				<Option Goto="139" Text="Вашей дружбе, $ «Traders» +30" Availability="Рудник"/>
+				<Option Goto="139" Text="Вашей дружбе" Availability="Рудник">
+					<Traders Value="30"/>
+				</Option>
 				<Option Goto="275" Text="Извинитесь, прервете разговор и вернетесь в замок"/>
 			</Options>
 		</Paragraph>
