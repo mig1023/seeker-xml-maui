@@ -558,7 +558,8 @@
 					<Ingredients Value="-1"/>
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="302" Text="Сварите бодрящую настойку, $ «Ingredients» -1, «Vitality» +2" Availability="Бодрость >= 1, Ингредиенты >= 1">
+				<Option Goto="302" Text="Сварите бодрящую настойку, $ «Ingredients» -1" Availability="Бодрость >= 1, Ингредиенты >= 1">
+					<Vitality Value="2"/>
 					<Trigger Value="Кофе"/>
 				</Option>
 				<Option Goto="655" Text="Если в наличии 1 «Лорсулия/Бодрость», в наличии 3 «Лорсулия/Ингредиенты», но отсутствует «Лорсулия/Целебное зелье»: Приготовите целебное зелье, $ ^«Целебное зелье»">
