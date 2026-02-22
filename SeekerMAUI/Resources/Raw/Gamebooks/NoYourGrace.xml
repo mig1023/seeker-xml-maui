@@ -5196,7 +5196,8 @@
 					<Untrigger Value="Рудник"/>
 					<Income Value="10"/>
 				</Option>
-				<Option Goto="507" Text="Двадцати пяти золотым в неделю, $ Х«Рудник»" Availability="Рудник">
+				<Option Goto="507" Text="Двадцати пяти золотым в неделю" Availability="Рудник">
+					<Untrigger Value="Рудник"/>
 					<Income Value="25"/>
 					<Traders Value="-20"/>
 				</Option>
