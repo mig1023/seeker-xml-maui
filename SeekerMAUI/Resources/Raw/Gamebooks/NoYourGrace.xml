@@ -4624,7 +4624,9 @@
 					<Nobles Value="-10"/>
 					<Label Value="-2"/>
 				</Option>
-				<Option Goto="543" Text="Заплатите иностранному доктору, $ «Gold» -250" Availability="Золото >= 250"/>
+				<Option Goto="543" Text="Заплатите иностранному доктору" Availability="Золото >= 250">
+					<Gold Value="-250"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="433">
