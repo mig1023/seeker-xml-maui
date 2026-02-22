@@ -4662,7 +4662,8 @@
 					<Army Value="50"/>
 					<Sorcery Value="1"/>
 				</Option>
-				<Option Goto="546" Text="Подольете любовное зелье графу Коммину, $Х«Любовное зелье»" Availability="Любовное зелье">
+				<Option Goto="546" Text="Подольете любовное зелье графу Коммину" Availability="Любовное зелье">
+					<Untrigger Value="Любовное зелье"/>
 					<Nobles Value="20"/>
 					<Sorcery Value="1"/>
 				</Option>
