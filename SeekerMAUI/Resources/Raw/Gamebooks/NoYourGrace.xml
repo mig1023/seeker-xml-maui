@@ -4667,7 +4667,8 @@
 					<Nobles Value="20"/>
 					<Sorcery Value="1"/>
 				</Option>
-				<Option Goto="546" Text="Подольете любовное зелье Рудольфу, $Х«Любовное зелье»" Availability="Любовное зелье">
+				<Option Goto="546" Text="Подольете любовное зелье Рудольфу" Availability="Любовное зелье">
+					<Untrigger Value="Любовное зелье"/>
 					<Traders Value="50"/>
 					<Sorcery Value="1"/>
 				</Option>
