@@ -558,7 +558,8 @@
 					<Ingredients Value="-1"/>
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="302" Text="Сварите бодрящую настойку, $ «Ingredients» -1" Availability="Бодрость >= 1, Ингредиенты >= 1">
+				<Option Goto="302" Text="Сварите бодрящую настойку" Availability="Бодрость >= 1, Ингредиенты >= 1">
+					<Ingredients Value="-1"/>
 					<Vitality Value="2"/>
 					<Trigger Value="Кофе"/>
 				</Option>
