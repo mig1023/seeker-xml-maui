@@ -3414,7 +3414,9 @@
 				<Option Goto="275" Text="Сделаете из ее меха шарф и отправите как подарок родителям, $ «Davern» +30">
 					<Untrigger Value="Пылинка"/>
 				</Option>
-				<Option Goto="380" Text="Отравите Иво в отместку, $ Х«пылинка»" Availability="Яд"/>
+				<Option Goto="380" Text="Отравите Иво в отместку" Availability="Яд">
+					<Untrigger Value="пылинка"/>
+				</Option>
 				<Option Goto="427" Text="Используете целебное снадобье на Пылинке" Availability="Целебное зелье">
 					<Untrigger Value="Целебное зелье"/>
 					<Church Value="-30"/>
