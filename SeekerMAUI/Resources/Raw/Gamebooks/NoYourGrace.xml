@@ -2906,7 +2906,9 @@
 				<Option Goto="271" Text="Встретится с банкирами" Availability="Бодрость >= 1, !Банкрот">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="486" Text="Намекнете Рудольфу, что знаете про его тайный рудник, $ «Traders» -10" Availability="Рудник, Неделя >= 6"/>
+				<Option Goto="486" Text="Намекнете Рудольфу, что знаете про его тайный рудник" Availability="Рудник, Неделя >= 6">
+					<Traders Value="-10"/>
+				</Option>
 				<Option Goto="94" Text="Снискать популярность среди сословий королевства" Availability="Бодрость > 0">
 					<Vitality Value="-1"/>
 				</Option>
