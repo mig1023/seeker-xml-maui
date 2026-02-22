@@ -1385,7 +1385,8 @@
 					<Income Value="50"/>
 					<Trigger Value="Текстиль"/>
 				</Option>
-				<Option Goto="246" Text="Согласитесь,нос условием, что детям будут платить полное жалование,$«Vitality» -1, «Gold» -500, «Traders» +20, «Church» +5, «Nobles» -5" Availability="Бодрость >= 1, Золото >= 500">
+				<Option Goto="246" Text="Согласитесь,нос условием, что детям будут платить полное жалование,$«Vitality» -1, «Gold» -500, «Traders» +20, «Church» +5" Availability="Бодрость >= 1, Золото >= 500">
+					<Nobles Value="-5"/>
 					<Income Value="50"/>
 					<Trigger Value="Текстиль"/>
 				</Option>
