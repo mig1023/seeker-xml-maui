@@ -3395,7 +3395,8 @@
 					<Untrigger Value="Пылинка"/>
 				</Option>
 				<Option Goto="380" Text="Отравите Иво в отместку, $ Х«пылинка»" Availability="Яд"/>
-				<Option Goto="427" Text="Используете целебное снадобье на Пылинке, $ Х«Целебное зелье»" Availability="Целебное зелье">
+				<Option Goto="427" Text="Используете целебное снадобье на Пылинке" Availability="Целебное зелье">
+					<Untrigger Value="Целебное зелье"/>
 					<Church Value="-30"/>
 					<Sorcery Value="1"/>
 				</Option>
