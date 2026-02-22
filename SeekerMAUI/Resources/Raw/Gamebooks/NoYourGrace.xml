@@ -5563,7 +5563,8 @@
 					<Income Value="80"/>
 					<Trigger Value="Уголь"/>
 				</Option>
-				<Option Goto="348" Text="Не будете выплачивать компенсаций землевладельцам, $ «Vitality» -1, «Gold» -500, «Nobles» -40, «Traders» +20" Availability="Бодрость >= 1, Золото >= 500">
+				<Option Goto="348" Text="Не будете выплачивать компенсаций землевладельцам, $ «Vitality» -1, «Gold» -500, «Nobles» -40" Availability="Бодрость >= 1, Золото >= 500">
+					<Traders Value="20"/>
 					<Income Value="80"/>
 					<Trigger Value="Уголь"/>
 				</Option>
