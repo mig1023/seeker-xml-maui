@@ -3682,7 +3682,8 @@
 					<Nobles Value="5"/>
 					<Church Value="-20"/>
 				</Option>
-				<Option Goto="81" Text="Запретите заодно и дворянам иметь личную гвардию, $«Vitality» -1, «Army» +15, «Nobles» -15" Availability="Бодрость > 0">
+				<Option Goto="81" Text="Запретите заодно и дворянам иметь личную гвардию, $«Vitality» -1, «Army» +15" Availability="Бодрость > 0">
+					<Nobles Value="-15"/>
 					<Church Value="-15"/>
 					<Untrigger Value="Патенты"/>
 				</Option>
