@@ -5536,10 +5536,12 @@
 					<Nobles Value="10"/>
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="348" Text="Реализуете проект, не выплачивая ни компенсаций, ни жалования, $«Vitality» -1, «Gold» -300, ^«Тиран», «Nobles» -40, «Traders» -10, «Army» -10, «Income» +80" Availability="Бодрость >= 1, Золото >= 300">
+				<Option Goto="348" Text="Реализуете проект, не выплачивая ни компенсаций, ни жалования, $«Vitality» -1, «Gold» -300, ^«Тиран», «Nobles» -40, «Traders» -10, «Army» -10" Availability="Бодрость >= 1, Золото >= 300">
+					<Income Value="80"/>
 					<Trigger Value="Уголь"/>
 				</Option>
-				<Option Goto="348" Text="Не будете выплачивать компенсаций землевладельцам, $ «Vitality» -1, «Gold» -500, «Nobles» -40, «Traders» +20, «Income» +80" Availability="Бодрость >= 1, Золото >= 500">
+				<Option Goto="348" Text="Не будете выплачивать компенсаций землевладельцам, $ «Vitality» -1, «Gold» -500, «Nobles» -40, «Traders» +20" Availability="Бодрость >= 1, Золото >= 500">
+					<Income Value="80"/>
 					<Trigger Value="Уголь"/>
 				</Option>
 				<Option Goto="348" Text="Используете подневольный труд заключенных, $ «Vitality» -1, «Gold» -500, «Army» -10, «Nobles» -10, «Traders» -10, ^«Тиран», «Income» +80" Availability="Бодрость >= 1, Золото >= 500">
