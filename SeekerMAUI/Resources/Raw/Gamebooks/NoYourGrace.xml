@@ -2844,7 +2844,9 @@
 				<Option Goto="572" Text="Следующая неделя" Availability="Неделя = 11"/>
 				<Option Goto="364" Text="Следующая неделя" Availability="Неделя = 12"/>
 				<Option Goto="87" Text="Следующая неделя" Availability="Неделя = 13"/>
-				<Option Goto="540" Text="Следующая неделя, $ Х«Арест»" Availability="Неделя = 14"/>
+				<Option Goto="540" Text="Следующая неделя" Availability="Неделя = 14">
+					<Untrigger Value="Арест"/>
+				</Option>
 				<Option Goto="91" Text="Следующая неделя" Availability="Неделя = 15"/>
 				<Option Goto="485" Text="Следующая неделя" Availability="Неделя = 16"/>
 				<Option Goto="462" Text="Следующая неделя" Availability="Неделя = 17"/>
