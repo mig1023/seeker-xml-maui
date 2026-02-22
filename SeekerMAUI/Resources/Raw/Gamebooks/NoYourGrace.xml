@@ -1194,7 +1194,8 @@
 					<Traders Value="10"/>
 					<Untrigger Value="Тиран"/>
 				</Option>
-				<Option Goto="275" Text="Закроете мастерские, $ «Vitality» -1, «Nobles» +5, «Traders» -10, «Income» -40" Availability="Бодрость > 0">
+				<Option Goto="275" Text="Закроете мастерские, $ «Vitality» -1, «Nobles» +5, «Traders» -10" Availability="Бодрость > 0">
+					<Income Value="-40"/>
 					<Untrigger Value="Текстиль"/>
 				</Option>
 				<Option Goto="275" Text="Повысите плату работникам" Availability="Бодрость >= 1, Золото >= 50">
