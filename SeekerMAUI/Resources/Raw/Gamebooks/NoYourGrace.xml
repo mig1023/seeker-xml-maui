@@ -3763,7 +3763,8 @@
 					<Traders Value="10"/>
 					<Nobles Value="-10"/>
 				</Option>
-				<Option Goto="442" Text="Организуете закупки зерна казной, $ «Vitality» -1, «Gold» -100, «Nobles» +5, «Traders» -15, «Army» -10" Availability="Бодрость >= 1, Золото >= 100">
+				<Option Goto="442" Text="Организуете закупки зерна казной, $ «Vitality» -1, «Gold» -100, «Nobles» +5, «Traders» -15" Availability="Бодрость >= 1, Золото >= 100">
+					<Army Value="-10"/>
 					<Trigger Value="Зерно"/>
 				</Option>
 				<Option Goto="442" Text="Оставите решение за Иво">
