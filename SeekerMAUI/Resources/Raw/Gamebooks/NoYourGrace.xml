@@ -2568,7 +2568,8 @@
 					<Traders Value="-10"/>
 					<Trigger Value="Кони"/>
 				</Option>
-				<Option Goto="295" Text="Выкупите вышедших из моды лошадей у дворян, $ «Vitality» -1, «Gold» -125, «Army» +10, «Nobles» +10" Availability="Бодрость >= 1, Золото >= 125">
+				<Option Goto="295" Text="Выкупите вышедших из моды лошадей у дворян, $ «Vitality» -1, «Gold» -125, «Army» +10" Availability="Бодрость >= 1, Золото >= 125">
+					<Nobles Value="10"/>
 					<Trigger Value="Кони"/>
 				</Option>
 				<Option Goto="295" Text="Купите обычных коней, все равно воевать в ближайшее время вы не планируете" Availability="Бодрость >= 1, Золото >= 50">
