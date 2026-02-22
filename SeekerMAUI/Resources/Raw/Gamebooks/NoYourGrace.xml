@@ -4827,7 +4827,9 @@
 					<Ivo Value="10"/>
 					<Army Value="-10"/>
 				</Option>
-				<Option Goto="126" Text="Оденете палантин послушницы, $ «Church» +10" Availability="Крещение"/>
+				<Option Goto="126" Text="Оденете палантин послушницы" Availability="Крещение">
+					<Church Value="10"/>
+				</Option>
 				<Option Goto="126" Text="Обойдетесь имеющимся гардеробом">
 					<Ivo Value="-10"/>
 					<Nobles Value="-10"/>
