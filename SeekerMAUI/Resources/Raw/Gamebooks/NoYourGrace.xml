@@ -3980,7 +3980,8 @@
 					<Church Value="-15"/>
 					<Army Value="-5"/>
 				</Option>
-				<Option Goto="405" Text="Наденете кроваво-красное ожерелье фон Дартса, $ «Nobles» +10">
+				<Option Goto="405" Text="Наденете кроваво-красное ожерелье фон Дартса">
+					<Nobles Value="10"/>
 					<Sorcery Value="1"/>
 					<Romance Value="1"/>
 					<Church Value="-15"/>
