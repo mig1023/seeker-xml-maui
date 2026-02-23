@@ -6970,7 +6970,8 @@
 					<Nobles Value="-20"/>
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="598" Text="Оставите решение за Иво, $ «Ivo» -10">
+				<Option Goto="598" Text="Оставите решение за Иво">
+					<Ivo Value="-10"/>
 					<Trigger Value="Культ"/>
 				</Option>
 			</Options>
