@@ -5602,7 +5602,8 @@
 					<Income Value="80"/>
 					<Trigger Value="Уголь"/>
 				</Option>
-				<Option Goto="348" Text="Используете подневольный труд заключенных, $ «Vitality» -1, «Gold» -500, «Army» -10" Availability="Бодрость >= 1, Золото >= 500">
+				<Option Goto="348" Text="Используете подневольный труд заключенных, $ «Vitality» -1, «Gold» -500" Availability="Бодрость >= 1, Золото >= 500">
+					<Army Value="-10"/>
 					<Nobles Value="-10"/>
 					<Traders Value="-10"/>
 					<Trigger Value="Тиран"/>
