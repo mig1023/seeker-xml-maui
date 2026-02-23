@@ -5606,7 +5606,8 @@
 					<Income Value="80"/>
 					<Trigger Value="Уголь"/>
 				</Option>
-				<Option Goto="348" Text="Реализуете проект в изначальном варианте, $ «Vitality» -1" Availability="Бодрость >= 1, Золото >= 700">
+				<Option Goto="348" Text="Реализуете проект в изначальном варианте" Availability="Бодрость >= 1, Золото >= 700">
+					<Vitality Value="-1"/>
 					<Gold Value="-700"/>
 					<Traders Value="20"/>
 					<Nobles Value="-10"/>
