@@ -3983,7 +3983,8 @@
 					<Church Value="-15"/>
 					<Trigger Value="Ожерелье"/>
 				</Option>
-				<Option Goto="405" Text="Наденете ладанку, преподнесенную Его Преподобием Оуэном, $ «Church» +10, «Sorcery» -1, «Romance» -1">
+				<Option Goto="405" Text="Наденете ладанку, преподнесенную Его Преподобием Оуэном, $ «Church» +10, «Sorcery» -1">
+					<Romance Value="-1"/>
 					<Nobles Value="-15"/>
 					<Trigger Value="Ладанка"/>
 				</Option>
