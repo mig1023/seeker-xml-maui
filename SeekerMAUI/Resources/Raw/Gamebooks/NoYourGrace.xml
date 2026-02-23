@@ -4349,7 +4349,8 @@
 					<Army Value="10"/>
 					<Trigger Value="Сержанты"/>
 				</Option>
-				<Option Goto="635" Text="Встанете на сторону графа Коммина и сохраните продажу офицерских патентов дворянам, $ «Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="635" Text="Встанете на сторону графа Коммина и сохраните продажу офицерских патентов дворянам" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Gold Value="150"/>
 					<Nobles Value="10"/>
 					<Army Value="-10"/>
