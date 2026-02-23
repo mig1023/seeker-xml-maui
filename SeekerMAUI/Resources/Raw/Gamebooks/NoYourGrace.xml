@@ -3700,7 +3700,8 @@
 					<Nobles Value="5"/>
 					<Church Value="-20"/>
 				</Option>
-				<Option Goto="81" Text="Запретите заодно и дворянам иметь личную гвардию, $«Vitality» -1" Availability="Бодрость > 0">
+				<Option Goto="81" Text="Запретите заодно и дворянам иметь личную гвардию" Availability="Бодрость > 0">
+					<Vitality Value="-1"/>
 					<Army Value="15"/>
 					<Nobles Value="-15"/>
 					<Church Value="-15"/>
