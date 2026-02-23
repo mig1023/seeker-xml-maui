@@ -6847,7 +6847,8 @@
 					<Church Value="-10"/>
 					<Untrigger Value="Иелана"/>
 				</Option>
-				<Option Goto="203" Text="Прикажете стражникам бросить Иелану в темницу, $ «Ivo» -10">
+				<Option Goto="203" Text="Прикажете стражникам бросить Иелану в темницу">
+					<Ivo Value="-10"/>
 					<Traders Value="-20"/>
 					<Church Value="-20"/>
 					<Untrigger Value="Иелана"/>
