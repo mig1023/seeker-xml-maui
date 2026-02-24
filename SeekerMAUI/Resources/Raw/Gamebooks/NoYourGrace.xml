@@ -3146,9 +3146,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="279">
-			<Text>— Оптимистка — хмыкает Иво.— Думаешь, что хуже уже не будет? Будет.</Text>
+			<Text>— Оптимистка — хмыкает Иво. — Думаешь, что хуже уже не будет? Будет.</Text>
 			<Options>
-				<Option Goto="160" Text="Далее"/>
+				<Option Goto="160"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="280">
