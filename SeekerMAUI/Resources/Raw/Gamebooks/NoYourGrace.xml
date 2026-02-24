@@ -4603,7 +4603,8 @@
 					<Untrigger Value="Рудник"/>
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="200" Text="Четверть золота, которое вы захватили на руднике, $ «Gold» +250, Х«Рудник»">
+				<Option Goto="200" Text="Четверть золота, которое вы захватили на руднике, $ «Gold» +250">
+					<Untrigger Value="Рудник"/>
 					<Traders Value="-10"/>
 				</Option>
 				<Option Goto="570" Text="Мне пригодилась бы кое-какая информация... о Рудольфе"/>
