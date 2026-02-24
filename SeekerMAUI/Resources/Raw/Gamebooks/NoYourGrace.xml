@@ -1717,6 +1717,7 @@
 					<Untrigger Value="Сержанты"/>
 					<Untrigger Value="Кони"/>
 					<Untrigger Value="Меха"/>
+					<Income Value="-100"/>
 					<Ivo Value="-20"/>
 					<Army Value="-40"/>
 					<Nobles Value="-20"/>
