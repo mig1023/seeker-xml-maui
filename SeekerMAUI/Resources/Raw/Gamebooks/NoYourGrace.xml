@@ -6501,7 +6501,7 @@
 					<Church Value="20"/>
 					<Gold Value="-100"/>
 				</Option>
-				<Option Goto="357" Text="— Напечатаем много букварей и азбук, чтобы научить народ грамоте" Availability="Бодрость >= 1, Золото >= 100">
+				<Option Goto="357" Text="«Напечатаем много букварей и азбук, чтобы научить народ грамоте»" Availability="Бодрость >= 1, Золото >= 100">
 					<Vitality Value="-1"/>
 					<Gold Value="-100"/>
 					<Traders Value="5"/>
