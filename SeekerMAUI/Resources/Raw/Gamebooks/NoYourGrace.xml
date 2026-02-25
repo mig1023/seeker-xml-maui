@@ -2574,7 +2574,7 @@
 				<Option Goto="391" Text="«Рудольфу?»">
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="391" Text="— Графу Коммину....">
+				<Option Goto="391" Text="«Графу Коммину....»">
 					<Nobles Value="-10"/>
 				</Option>
 				<Option Goto="391" Text="— Я не знаю! Я, честно, никому не мешаю!"/>
