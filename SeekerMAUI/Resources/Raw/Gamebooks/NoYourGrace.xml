@@ -3490,7 +3490,7 @@
 					<Ivo Value="10"/>
 					<Army Value="10"/>
 				</Option>
-				<Option Goto="407" Text="— Я буду носить его потому, что это твой подарок!">
+				<Option Goto="407" Text="«Я буду носить его потому, что это твой подарок!»">
 					<Davern Value="-10"/>
 					<Ivo Value="20"/>
 				</Option>
