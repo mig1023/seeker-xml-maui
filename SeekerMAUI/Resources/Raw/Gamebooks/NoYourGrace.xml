@@ -520,7 +520,7 @@
 		<Paragraph No="37">
 			<Text>Иво удивленно поднимает бровь и впервые за эти десять дней его губы трогает улыбка\n\n— Ты действительно так думаешь?</Text>
 			<Options>
-				<Option Goto="176" Text="Далее"/>
+				<Option Goto="176"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="38">
