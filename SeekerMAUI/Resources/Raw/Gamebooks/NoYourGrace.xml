@@ -5063,7 +5063,7 @@
 					<Army Value="-10"/>
 					<Davern Value="10"/>
 				</Option>
-				<Option Goto="566" Text="— Я поеду с тобой в Атану.">
+				<Option Goto="566" Text="«Я поеду с тобой в Атану.»">
 					<Ivo Value="5"/>
 				</Option>
 			</Options>
