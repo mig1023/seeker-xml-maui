@@ -1659,7 +1659,7 @@
 		<Paragraph No="148">
 			<Text>Иво качает головой.\n\n— Нет не так.</Text>
 			<Options>
-				<Option Goto="176" Text="Далее"/>
+				<Option Goto="176"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="149">
