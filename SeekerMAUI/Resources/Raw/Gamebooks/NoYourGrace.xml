@@ -6473,7 +6473,7 @@
 				<Option Goto="646" Text="«Да, несомненно.»" Availability="Золото >= 300">
 					<Gold Value="-300"/>
 				</Option>
-				<Option Goto="646" Text="— Мы выплатим эту сумму частями в течении года">
+				<Option Goto="646" Text="«Мы выплатим эту сумму частями в течении года»">
 					<Income Value="-30"/>
 				</Option>
 			</Options>
