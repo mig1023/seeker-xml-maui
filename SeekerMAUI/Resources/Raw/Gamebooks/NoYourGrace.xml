@@ -1475,7 +1475,7 @@
 				<Option Goto="476" Text="«Мы прорвемся, мой король!»">
 					<Ivo Value="10"/>
 				</Option>
-				<Option Goto="476" Text="— А я говорила! Я же тебе говорила!!">
+				<Option Goto="476" Text="«А я говорила! Я же тебе говорила!!»">
 					<Ivo Value="15"/>
 				</Option>
 			</Options>
