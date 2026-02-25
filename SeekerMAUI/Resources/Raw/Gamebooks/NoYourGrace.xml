@@ -1431,7 +1431,7 @@
 					<Romance Value="2"/>
 					<Trigger Value="Обещание"/>
 				</Option>
-				<Option Goto="131" Text="— Право, не знаю, граф, насколько это будет прилично.">
+				<Option Goto="131" Text="«Право, не знаю, граф, насколько это будет прилично.»">
 					<Nobles Value="-20"/>
 					<Traders Value="-10"/>
 				</Option>
