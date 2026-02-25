@@ -1091,7 +1091,7 @@
 			<Options>
 				<Option Goto="453" Text="«Тогда можно доверить командование генералу Риго»"/>
 				<Option Goto="499" Text="«Можно поручить ее кому то из младших офицеров»"/>
-				<Option Goto="331" Text="— Я сама поведу армию!"/>
+				<Option Goto="331" Text="«Я сама поведу армию!»"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="94">
