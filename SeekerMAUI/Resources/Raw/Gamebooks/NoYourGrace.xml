@@ -5994,7 +5994,7 @@
 				<Option Goto="280" Availability="Метка >= 1">
 					<Vitality Value="-1"/>
 				</Option>
-				<Option Goto="373" Text="Далее" Availability="Метка &lt; 1"/>
+				<Option Goto="373" Availability="Метка &lt; 1"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="544">
