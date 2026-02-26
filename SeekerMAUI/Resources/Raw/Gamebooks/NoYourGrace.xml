@@ -985,6 +985,7 @@
 			<Options>
 				<Option Goto="618" Text="Протянув на прощание руку для поцелуя, вы возвращаетесь к себе">
 					<Trigger Value="Обещание"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="85">
