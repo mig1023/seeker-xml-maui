@@ -4788,7 +4788,9 @@
 				<Option Goto="195" Text="Вы решаете прогуляться по особняку, суя нос куда не надо" Availability="Случай = 1">
 					<Set Value="Random, 0"/>
 				</Option>
-				<Option Goto="440" Text="Вы решаете прогуляться по особняку, суя нос куда не надо, $ «Random» = 0" Availability="Случай = 2"/>
+				<Option Goto="440" Text="Вы решаете прогуляться по особняку, суя нос куда не надо" Availability="Случай = 2">
+					<Set Value="Random, 0"/>
+				</Option>
 				<Option Goto="121" Text="Вы решаете прогуляться по особняку, суя нос куда не надо, $ «Random» = 0" Availability="Случай = 3"/>
 				<Option Goto="657" Text="Вы решаете прогуляться по особняку, суя нос куда не надо, $ «Random» = 0" Availability="Случай = 4"/>
 				<Option Goto="274" Text="Вы решаете прогуляться по особняку, суя нос куда не надо, $ «Random» = 0" Availability="Случай = 5"/>
