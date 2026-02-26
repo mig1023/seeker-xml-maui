@@ -6062,6 +6062,7 @@
 			<Options>
 				<Option Goto="600" Text="Поговорите с старшей наставницей">
 					<Trigger Value="Близнец"/>
+				</Option>
 				<Option Goto="101" Text="Вы возвращаетесь во дворец"/>
 			</Options>
 		</Paragraph>
