@@ -6645,7 +6645,9 @@
 				<Option Goto="338" Text="Если отмечено «Персонажи/Даймер», в наличии 50 «Королевство/Торговцы», в наличии 200 «Механика/Доход»: Даймер, $«LorsuliaDefense» = 4">
 					<Set Value="Dexterity, 4"/>
 				</Option>
-				<Option Goto="338" Text="Если отмечено «Персонажи/Охотник Тулман», в наличии 50 «Королевство/Церковь», но отсутствует «Секреты/Культ»: Тулман,$«LorsuliaDefense» = 4, «Dexterity» = 4"/>
+				<Option Goto="338" Text="Если отмечено «Персонажи/Охотник Тулман», в наличии 50 «Королевство/Церковь», но отсутствует «Секреты/Культ»: Тулман,$«LorsuliaDefense» = 4">
+					<Set Value="Dexterity, 4"/>
+				</Option>
 				<Option Goto="338" Text="Странная седовласая женщина-наемница, $ «LorsuliaDefense» = 5, «Dexterity» = 7" Availability="Чемпион"/>
 				<Option Goto="63" Text="- Я сама буду сражаться!, $ приравнять «LorsuliaDefense» к «Dexterity», (Если в наличии 6 «Лорсулия/Ловкость»: «LorsuliaDefense» = 5)"/>
 			</Options>
