@@ -1745,7 +1745,9 @@
 		<Paragraph No="155">
 			<Text>— Что! — остолбенело восклицают советники.\n\nВлкр удивлен, но лишь на мгновение. Он выхватывает небольшой кинжал.\n\n— Здесь и сейчас, королева.\n\nВы достаете свое оружие и готовитесь к бою.</Text>
 			<Options>
-				<Option Goto="180" Text="Влкр кружит около вас как хищник вокруг добычи, $ «Label» = 6, приравнять «LorsuliaDefense» к «Dexterity», (Если в наличии 6 «Лорсулия/Ловкость»: «LorsuliaDefense» = 5), «EnemyAgility» = 5, «EnemyDefense» = 5, «LorsuliaHitpoints» = 1, «EnemyHitpoints» = 1"/>
+				<Option Goto="180" Text="Влкр кружит около вас как хищник вокруг добычи, $ «Label» = 6, приравнять «LorsuliaDefense» к «Dexterity», (Если в наличии 6 «Лорсулия/Ловкость»: «LorsuliaDefense» = 5), «EnemyAgility» = 5, «EnemyDefense» = 5, «LorsuliaHitpoints» = 1">
+					<Set Value="EnemyHitpoints, 1"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="156">
