@@ -2131,6 +2131,7 @@
 			<Options>
 				<Option Goto="275" Text="Вы возвращаетесь во дворец">
 					<Trigger Value="Дети"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="191">
