@@ -3878,6 +3878,7 @@
 				<Option Goto="275" Text="Вернетесь в замок"/>
 				<Option Goto="648" Text="Спрячетесь и попытаетесь подслушать">
 					<Trigger Value="Рудник"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="351">
