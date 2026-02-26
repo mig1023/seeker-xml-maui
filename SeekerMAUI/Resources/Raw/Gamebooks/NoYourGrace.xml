@@ -4810,6 +4810,7 @@
 			<Options>
 				<Option Goto="199" Text="Испытав колечко, вы отпускаете воровку">
 					<Trigger Value="Невидимка"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="436">
