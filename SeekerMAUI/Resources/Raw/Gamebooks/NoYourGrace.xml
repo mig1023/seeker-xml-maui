@@ -2604,6 +2604,7 @@
 			<Options>
 				<Option Goto="436" Text="Вернесь в обратно в камеру">
 					<Trigger Value="Чемпион"/>
+				</Option>
 				<Option Goto="297" Text="Согласитесь, чтобы скелет занял ваше место"/>
 			</Options>
 		</Paragraph>
