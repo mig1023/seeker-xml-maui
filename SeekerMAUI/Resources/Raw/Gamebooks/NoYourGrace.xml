@@ -6720,7 +6720,10 @@
 					<Set Value="Dexterity, 4"/>
 					<Set Value="LorsuliaDefense, 4"/>
 				</Option>
-				<Option Goto="338" Text="Странная седовласая женщина-наемница, $ «LorsuliaDefense» = 5, «Dexterity» = 7" Availability="Чемпион"/>
+				<Option Goto="338" Text="Странная седовласая женщина-наемница" Availability="Чемпион">
+					<Set Value="Dexterity, 7"/>
+					<Set Value="LorsuliaDefense, 5"/>
+				</Option>
 				<Option Goto="63" Text="- Я сама буду сражаться!, $ приравнять «LorsuliaDefense» к «Dexterity», (Если в наличии 6 «Лорсулия/Ловкость»: «LorsuliaDefense» = 5)"/>
 			</Options>
 		</Paragraph>
