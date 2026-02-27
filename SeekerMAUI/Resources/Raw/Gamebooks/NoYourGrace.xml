@@ -6708,7 +6708,10 @@
 					<Set Value="Dexterity, 4"/>
 					<Set Value="LorsuliaDefense, 4"/>
 				</Option>
-				<Option Goto="368" Text="Граф Коммин, $ «LorsuliaDefense» = 5, «Dexterity» = 6" Availability="Романтика >= 10, Дворяне >= 50"/>
+				<Option Goto="368" Text="Граф Коммин" Availability="Романтика >= 10, Дворяне >= 50">
+					<Set Value="Dexterity, 6"/>
+					<Set Value="LorsuliaDefense, 5"/>
+				</Option>
 				<Option Goto="338" Text="Если отмечено «Персонажи/Даймер», в наличии 50 «Королевство/Торговцы», в наличии 200 «Механика/Доход»: Даймер, $«LorsuliaDefense» = 4">
 					<Set Value="Dexterity, 4"/>
 				</Option>
