@@ -3265,7 +3265,9 @@
 				<Option Goto="529" Text="Мари оседает на пол, зажимая кровавую рану" Availability="Метка = 1">
 					<Set Value="Label, 0"/>
 				</Option>
-				<Option Goto="115" Text="Убитый лакей кулем валится на пол, $ «Label» = 0" Availability="Метка = 2"/>
+				<Option Goto="115" Text="Убитый лакей кулем валится на пол" Availability="Метка = 2">
+					<Set Value="Label, 0"/>
+				</Option>
 				<Option Goto="554" Text="Убитый лакей кулем валится на пол, $ «Label» = 0" Availability="Метка = 3"/>
 				<Option Goto="33" Text="Убитый варвар оседает на землю, $ «Label» = 0" Availability="Метка = 4"/>
 				<Option Goto="194" Text="Под крики толпы противник падает на камни площади" Availability="Метка = 5"/>
