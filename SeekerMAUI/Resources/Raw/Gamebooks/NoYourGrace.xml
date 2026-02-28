@@ -1773,8 +1773,9 @@
 					<Untrigger Value="Иегер"/>
 					<Set Value="Label, 0"/>
 				</Option>
-				<Option Goto="577" Text=") И («Лорсулия/Ловкость» >2) И («Лорсулия/Бодрость» >=2): Клинок скользит по вашему ребру, $ «Vitality» = 0">
+				<Option Goto="577" Text="Клинок скользит по вашему ребру, $ «Vitality» = 0" Availability="Ловкость > 2, Бодрость >= 2">
 					<Set Value="Label, 0"/>
+					<Set Value="Vitality, 0"/>
 				</Option>
 				<Option Goto="399" Text="Клинок вонзается вам в грудь">
 					<Set Value="Label, 0"/>
