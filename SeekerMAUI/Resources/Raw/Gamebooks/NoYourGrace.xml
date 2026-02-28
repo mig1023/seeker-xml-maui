@@ -1913,7 +1913,7 @@
 					<Vitality Value="-1"/>
 					<Nobles Value="5"/>
 				</Option>
-				<Option Goto="428" Text="Если в наличии «Механика/Усталость» «Лорсулия/Бодрость»: Будете веселится всю ночь до утра, $ отнять от «Vitality» количество «Fatigue»">
+				<Option Goto="428" Text="Будете веселится всю ночь до утра, $ отнять от «Vitality» количество «Fatigue»" Availability="Усталость, Бодрость > 0">
 					<Nobles Value="10"/>
 					<Army Value="5"/>
 				</Option>
