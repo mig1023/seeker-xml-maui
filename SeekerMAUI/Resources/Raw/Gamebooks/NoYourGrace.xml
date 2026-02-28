@@ -1360,6 +1360,7 @@
 					<Army Value="10"/>
 					<Nobles Value="-5"/>
 					<Church Value="-5"/>
+					<Traders Value="-20"/>
 				</Option>
 			</Options>
 		</Paragraph>
