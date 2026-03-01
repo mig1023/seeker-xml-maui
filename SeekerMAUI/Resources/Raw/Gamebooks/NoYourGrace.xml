@@ -3105,13 +3105,13 @@
 					<Debt Value="100"/>
 					<Income Value="-0"/>
 				</Option>
-				<Option Goto="271" Text="Взять кредит у Банка де Флорентини" Availability="Долг Флорентини &lt; 1">
+				<Option Goto="271" Text="Взять кредит у Банка де Флорентини" Availability="ДолгФлорентини &lt; 1">
 					<Gold Value="200"/>
 					<FlorentinisDebt Value="200"/>
 					<Army Value="-10"/>
 					<Income Value="-0"/>
 				</Option>
-				<Option Goto="271" Text="Выплатить заем ростовщикам, $ отнять от «Gold» количество «Debt»" Availability="Долг > 0, Долг > 0, Золото > 0">
+				<Option Goto="271" Text="Выплатить заем ростовщикам, $ отнять от «Gold» количество «Debt»" Availability="Долг > 0, Золото > 0">
 					<Income Value="15"/>
 					<Set Value="Debt,0"/>
 				</Option>
@@ -3120,7 +3120,7 @@
 					<Income Value="25"/>
 					<Set Value="FlorentinisDebt,0"/>
 				</Option>
-				<Option Goto="120" Text="Если выполнено условие: («Королевство/Долг»>0) ИЛИ («Королевство/Долг Флорентини»>0): Объявить, что по долгам вы платить не будете"/>
+				<Option Goto="120" Text="Объявить, что по долгам вы платить не будете" Availability="Долг > 0|ДолгФлорентини > 0"/>
 				<Option Goto="267" Text="Вернуться в казначейство"/>
 			</Options>
 		</Paragraph>
