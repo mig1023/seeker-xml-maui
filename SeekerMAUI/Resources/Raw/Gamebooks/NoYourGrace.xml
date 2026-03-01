@@ -4961,7 +4961,7 @@
 					<Trigger Value="Отрава"/>
 					<Ivo Value="30"/>
 				</Option>
-				<Option Goto="597" Text="Если отмечено «Лорсулия/Яд», но отсутствует 30 «Королевство/Армия»: Отравите злословящего о вас офицера">
+				<Option Goto="597" Text="Отравите злословящего о вас офицера" Availability="Яд, Армия &lt; 30">
 					<Army Value="30"/>
 					<Sorcery Value="1"/>
 					<Untrigger Value="Яд"/>
