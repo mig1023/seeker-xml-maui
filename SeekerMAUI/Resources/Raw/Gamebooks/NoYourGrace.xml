@@ -4976,7 +4976,7 @@
 					<Sorcery Value="1"/>
 					<Untrigger Value="Яд"/>
 				</Option>
-				<Option Goto="597" Text="Если отмечено «Лорсулия/Яд», но отсутствует 30 «Королевство/Церковь»: Отравите священника, обвиняющего вас в ереси">
+				<Option Goto="597" Text="Отравите священника, обвиняющего вас в ереси" Availability="Яд, Церковь &lt; 30">
 					<Church Value="30"/>
 					<Sorcery Value="1"/>
 					<Untrigger Value="Яд"/>
