@@ -33,6 +33,9 @@
 		<Buttons>
 			<Button Action="Test, Dexterity, Ingenuity, Intuition, Eloquence, Observation, Erudition">Бросить кубики</Button>
 		</Buttons>
+		<Default>
+			<HideDisabledOption/>
+		</Default>
 	</Introduction>
 	<Paragraphs>
 		<Paragraph No="0">
@@ -8492,8 +8495,8 @@
 		<Paragraph No="1056">
 			<Text>Шифр сбивает Вас с толку. Вы очень надеетесь, что записка не имеет отношения к смерти полковника Сильвестра.</Text>
 			<Options>
-				<Option Goto="1053" Text="Далее" Availability="В Диогене»"/>
-				<Option Goto="1191" Text="Далее" Availability="!В Диогене»"/>
+				<Option Goto="1053" Availability="В Диогене»"/>
+				<Option Goto="1191" Availability="!В Диогене»"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1057">
