@@ -1523,7 +1523,7 @@
 			</Texts>
 			<Triggers>16</Triggers>
 			<Options>
-				<Option Goto="87" Text="Встретиться сЛестрейдом"/>
+				<Option Goto="87" Text="Встретиться с Лестрейдом"/>
 				<Option Goto="285" Text="Посетить газетное издательство"/>
 			</Options>
 		</Paragraph>
