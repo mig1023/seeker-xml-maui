@@ -3951,7 +3951,7 @@
 				<Option Goto="490" Text="Трактир, чтобы отдохнуть и подкрепиться">
 					<Text>Если ни одно из этих мест вас не привлекает...</Text>
 				</Option>
-				<Option Goto="271" Text=""/>
+				<Option Goto="271"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="459">
