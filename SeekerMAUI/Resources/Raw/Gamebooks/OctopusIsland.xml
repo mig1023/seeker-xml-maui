@@ -516,7 +516,7 @@
 				<SouhiHitpoint Value="-10"/>
 			</Modifications>
 			<Options>
-				<Option Goto="210" Text="Далее"/>
+				<Option Goto="210"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="65">
