@@ -4675,9 +4675,9 @@
 				<Buffoonery Value="1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="" Text="Попытаетесь бежать"/>
-				<Option Goto="" Text="Попытаетесь атаковать"/>
-				<Option Goto="" Text="Попытаетесь заговорить зубы"/>
+				<Option Goto="1008" Text="Попытаетесь бежать"/>
+				<Option Goto="987" Text="Попытаетесь атаковать"/>
+				<Option Goto="991" Text="Попытаетесь заговорить зубы"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="476">
