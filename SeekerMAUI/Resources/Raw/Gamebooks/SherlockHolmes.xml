@@ -8345,7 +8345,7 @@
 				<Option Goto="855" Text="У Вас отмечены Выводы 17, 18 и 19" Availability="17, 18, 19"/>
 				<Option Goto="1055" Text="У Вас отмечены Выводы 17 и 18" Availability="17, 18"/>
 				<Option Goto="1064" Text="У Вас отмечены Улика R и Вывод 17" Availability="17, R"/>
-				<Option Goto="1143" Text="Далее" Availability="!23, !17, !R"/>
+				<Option Goto="1143" Availability="!23, !17, !R"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="1038">
