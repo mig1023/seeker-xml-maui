@@ -896,7 +896,7 @@
 						<Text Style="Italic, Selected">Убожество, рожденное в содоме,\nЗачем вы появились предо мной?\nДа сгиньте вы в колючем буреломе,\nНе брызгайте в меня лукавый гной.</Text>
 					</Texts>
 				</Option>
-				<Option Goto="" Text="Выбрать этот вариант"/>
+				<Option Goto="15" Text="Выбрать этот вариант"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="81">
