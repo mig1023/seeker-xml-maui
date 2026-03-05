@@ -4511,7 +4511,7 @@
 		<Paragraph No="610">
 			<Text>Эгерини чувствовал присутствие людей поблизости: взгляд невидимого врага воин буквально ощущал своей кожей. Но решение было принято, и он уверенно ступил на мощёную булыжником мостовую узкой улочки.</Text>
 			<Options>
-				<Option Goto="594" Availability="7" />
+				<Option Goto="594" Availability="7"/>
 				<Option Goto="580" Availability="9, !7"/>
 				<Option Goto="760" Availability="!9, !7"/>
 			</Options>
