@@ -1823,8 +1823,8 @@
 				<Verse Value="Как хороши, как свежи будут розы"/>
 			</Modifications>
 			<Options>
-				<Option Goto="228" Text="У меня есть ВЕХА «Кокаин»" Availability="Кокаин"/>
-				<Option Goto="168" Text="Иначе"/>
+				<Option Goto="228" Availability="Кокаин"/>
+				<Option Goto="168" Availability="!Кокаин"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="160">
