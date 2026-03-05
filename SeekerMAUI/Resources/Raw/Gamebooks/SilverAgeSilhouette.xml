@@ -1168,8 +1168,8 @@
 			</Texts>
 			<Triggers>Мастер слова</Triggers>
 			<Options>
-				<Option Goto="133" Text="Если у меня есть ВЕХА «Лизонька»" Availability="Лизонька"/>
-				<Option Goto="171" Text="Иначе"/>
+				<Option Goto="133" Availability="Лизонька"/>
+				<Option Goto="171" Availability="!Лизонька"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="103">
