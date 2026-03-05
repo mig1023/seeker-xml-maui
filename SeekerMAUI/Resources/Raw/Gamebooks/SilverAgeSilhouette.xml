@@ -1893,8 +1893,8 @@
 		</Paragraph>
 		<Paragraph No="166">
 			<Options>
-				<Option Goto="294" Text="У меня есть ВЕХА «Жена»" Availability="Жена"/>
-				<Option Goto="48" Text="Иначе"/>
+				<Option Goto="294" Availability="Жена"/>
+				<Option Goto="48" Availability="!Жена"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="167">
