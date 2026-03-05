@@ -1881,7 +1881,7 @@
 		<Paragraph No="164">
 			<Options>
 				<Option Goto="88" Text="У меня есть уже одно попадание в Латунского"/>
-				<Option Goto="167" Text="Иначе"/>
+				<Option Goto="167" Text="Попаданий ещё нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="165">
