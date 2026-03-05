@@ -1783,8 +1783,8 @@
 			</Modifications>
 			<Triggers>Собственное издание, Лили</Triggers>
 			<Options>
-				<Option Goto="73" Text="Если у меня есть ВЕХА «Слава», значит, я возвращаюсь в Россию как герой, окруженный лавровым венком почета" Availability="Слава"/>
-				<Option Goto="108" Text="Иначе"/>
+				<Option Goto="73" Text="Я возвращаюсь в Россию как герой, окруженный лавровым венком почета" Availability="Слава"/>
+				<Option Goto="108" Availability="!Слава"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="156">
