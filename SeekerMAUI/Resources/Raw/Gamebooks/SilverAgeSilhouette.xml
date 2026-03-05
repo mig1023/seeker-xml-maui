@@ -1707,8 +1707,8 @@
 			</Modifications>
 			<Triggers>Слава, Собственное издание</Triggers>
 			<Options>
-				<Option Goto="171" Text="У меня есть ВЕХА «Анечка»" Availability="Анечка"/>
-				<Option Goto="104" Text="Иначе"/>
+				<Option Goto="171" Availability="Анечка"/>
+				<Option Goto="104" Availability="!Анечка"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="150">
