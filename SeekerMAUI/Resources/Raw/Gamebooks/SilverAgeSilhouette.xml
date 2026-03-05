@@ -1318,8 +1318,8 @@
 				<Verse Value="Но не прельщают сладкие прогнозы"/>
 			</Modifications>
 			<Options>
-				<Option Goto="116" Text="У меня есть ВЕХА «Слава»" Availability="Слава"/>
-				<Option Goto="190" Text="Иначе"/>
+				<Option Goto="116" Availability="Слава"/>
+				<Option Goto="190" Availability="!Слава"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="114">
