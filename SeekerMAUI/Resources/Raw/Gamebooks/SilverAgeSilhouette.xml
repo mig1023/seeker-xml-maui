@@ -2067,8 +2067,8 @@
 				<Verse Value="Нет ни страны, ни тех, кто жил в стране..."/>
 			</Modifications>
 			<Options>
-				<Option Goto="171" Text="У меня есть ВЕХА «Анечка»" Availability="Анечка"/>
-				<Option Goto="104" Text="Иначе"/>
+				<Option Goto="171" Availability="Анечка"/>
+				<Option Goto="104" Availability="!Анечка"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="185">
