@@ -4788,8 +4788,12 @@
 					<Army Value="-10"/>
 					<Income Value="-0"/>
 				</Option>
-				<Option Goto="511" Text="Вернуться на заседание Совета, $ «Label» = 0" Availability="Метка >= 1"/>
-				<Option Goto="6" Text="Вернуться на заседание Совета, $ «Label» = 0" Availability="Метка >= 2"/>
+				<Option Goto="511" Text="Вернуться на заседание Совета" Availability="Метка >= 1">
+					<Set Value="Label=0"/>
+				</Option>
+				<Option Goto="6" Text="Вернуться на заседание Совета" Availability="Метка >= 2">
+					<Set Value="Label=0"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="417">
