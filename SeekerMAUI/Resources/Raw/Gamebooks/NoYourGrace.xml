@@ -1511,7 +1511,9 @@
 				<Option Goto="454" Text="Подольете отраву им в прадничный пунш" Availability="Яд">
 					<LoyalistForces Value="2"/>
 				</Option>
-				<Option Goto="454" Text="Понадеетесь, что сил ваших сторонников хватит, чтобы справится с охраной дворца, $«LoyalistForces» +5"/>
+				<Option Goto="454" Text="Понадеетесь, что сил ваших сторонников хватит, чтобы справится с охраной дворца">
+					<LoyalistForces Value="5"/>
+				</Option>
 				<Option Goto="293" Text="Откажетесь от этой опасной затеи и пойдете праздновать"/>
 			</Options>
 		</Paragraph>
