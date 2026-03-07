@@ -2255,8 +2255,9 @@
 					<Trigger Value="Портрет"/>
 					<Set Value="Vitality, 6"/>
 				</Option>
-				<Option Goto="220" Text="Покорно проследуете в соседние с Иво покои, $ «Vitality» = 7">
+				<Option Goto="220" Text="Покорно проследуете в соседние с Иво покои">
 					<Ivo Value="5"/>
+					<Set Value="Vitality, 7"/>
 				</Option>
 			</Options>
 		</Paragraph>
