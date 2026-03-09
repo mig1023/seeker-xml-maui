@@ -7188,10 +7188,11 @@
 					<RebelForces Value="2"/>
 					<Movement Value="1"/>
 				</Option>
-				<Option Goto="637" Text="Подкупите старейшин гильдий и мастеров цехов, предложив им 1000 золотых, $ (Если отмечено «Ресурсы/Железо»: «RebelForces» +2)" Availability="Золото >= 1000">
+				<Option Goto="637" Text="Подкупите старейшин гильдий и мастеров цехов, предложив им 1000 золотых" Availability="Золото >= 1000">
 					<RebelForces Value="2"/>
 					<Movement Value="1"/>
 					<Gold Value="-1000"/>
+					<ByCondition Condition="Железо" Value="RebelForces, 2"/>
 				</Option>
 				<Option Goto="454" Text="Заручитесь помощью в другом месте"/>
 			</Options>
