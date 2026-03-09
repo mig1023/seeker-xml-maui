@@ -5203,10 +5203,11 @@
 					<Sorcery Value="1"/>
 					<Untrigger Value="Яд"/>
 				</Option>
-				<Option Goto="275" Text="Мирно проведете обед, $ (Если в наличии ровно 3 «Механика/Случай»: «Nobles» +10), (Если в наличии ровно 4 «Механика/Случай»: «Traders» +10), (Если в наличии ровно 5 «Механика/Случай»: «Church» +10), (Если в наличии ровно 6 «Механика/Случай»: «Army» +10, «Nobles» +10, «Traders» +10, «Church» +10">
+				<Option Goto="275" Text="Мирно проведете обед, $ (Если в наличии ровно 4 «Механика/Случай»: «Traders» +10), (Если в наличии ровно 5 «Механика/Случай»: «Church» +10), (Если в наличии ровно 6 «Механика/Случай»: «Army» +10, «Nobles» +10, «Traders» +10, «Church» +10">
 					<Set Value="Random=0"/>
 					<Random Value="Dice"/>
 					<ByCondition Condition="Случай = 2" Value="Army, 10"/>
+					<ByCondition Condition="Случай = 3" Value="Nobles, 10"/>
 				</Option>
 			</Options>
 		</Paragraph>
