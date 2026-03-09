@@ -7104,7 +7104,9 @@
 					<Set Value="Dexterity=7"/>
 					<Set Value="LorsuliaDefense=5"/>
 				</Option>
-				<Option Goto="63" Text="«Я сама буду сражаться!», $ приравнять «LorsuliaDefense» к «Dexterity», (Если в наличии 6 «Лорсулия/Ловкость»: «LorsuliaDefense» = 5)"/>
+				<Option Goto="63" Text="«Я сама буду сражаться!», $ приравнять «LorsuliaDefense» к «Dexterity»">
+					<ByCondition Condition="Ловкость >= 6" Value="LorsuliaDefense = 5"/>
+				</Option>
 			</Options>
 		</Paragraph>
 		<Paragraph No="616">
