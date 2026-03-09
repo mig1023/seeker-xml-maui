@@ -7081,7 +7081,6 @@
 				<Set Value="EnemyDefense=4"/>
 				<Set Value="LorsuliaHitpoints=1"/>
 				<Set Value="EnemyHitpoints=1"/>
-				<ByCondition Value="EnemyHitpoints, 1"/>
 				<ByCondition Condition="Орден, Церковь &lt; 70" Value="EnemyDefense = 5; EnemyAgility = 5; EnemyHitpoints = 2"/>
 			</Modifications>
 			<Options>
