@@ -6026,11 +6026,12 @@
 					<Nobles Value="10"/>
 					<Traders Value="-10"/>
 				</Option>
-				<Option Goto="348" Text="Реализуете проект, не выплачивая ни компенсаций, ни жалования, $«Vitality» -1, «Gold» -300, ^«Тиран»" Availability="Бодрость >= 1, Золото >= 300">
+				<Option Goto="348" Text="Реализуете проект, не выплачивая ни компенсаций, ни жалования, $ «Gold» -300, ^«Тиран»" Availability="Бодрость >= 1, Золото >= 300">
 					<Nobles Value="-40"/>
 					<Traders Value="-10"/>
 					<Army Value="-10"/>
 					<Income Value="80"/>
+					<Vitality Value="-1"/>
 					<Trigger Value="Уголь"/>
 				</Option>
 				<Option Goto="348" Text="Не будете выплачивать компенсаций землевладельцам" Availability="Бодрость >= 1, Золото >= 500">
