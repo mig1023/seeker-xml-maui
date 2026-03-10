@@ -169,8 +169,11 @@
 	  <None Remove="Resources\Images\Images\BlackCastleDungeon\Remake.jpg" />
 	  <None Remove="Resources\Images\Images\ChooseCthulhu\dreams.jpg" />
 	  <None Remove="Resources\Images\Images\ChooseCthulhu\flame.jpg" />
+	  <None Remove="Resources\Images\Images\ChooseYourOwnAdventure\lost.jpg" />
 	  <None Remove="Resources\Images\Images\ChooseYourOwnAdventure\moviemystery.jpg" />
 	  <None Remove="Resources\Images\Images\ChooseYourOwnAdventure\polarexpress.jpg" />
+	  <None Remove="Resources\Images\Images\ChooseYourOwnAdventure\race.jpg" />
+	  <None Remove="Resources\Images\Images\ChooseYourOwnAdventure\runaway.jpg" />
 	  <None Remove="Resources\Images\Images\ChooseYourOwnAdventure\toothpaste.jpg" />
 	  <None Remove="Resources\Images\Images\ChooseYourOwnAdventure\unicorn.jpg" />
 	  <None Remove="Resources\Images\Images\chooseyourownadventure_canyon.jpg" />
@@ -460,6 +463,7 @@
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\hijacked.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\invaders.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\kingdom.jpg" />
+	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\lost.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\lunapark.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\magic.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\millionaire.jpg" />
@@ -468,6 +472,8 @@
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\outlaws.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\pic1.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\polarexpress.jpg" />
+	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\race.jpg" />
+	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\runaway.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\scene.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\sea.jpg" />
 	  <MauiImage Include="Resources\Images\Images\ChooseYourOwnAdventure\toothpaste.jpg" />
