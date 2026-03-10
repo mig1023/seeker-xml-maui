@@ -34,7 +34,9 @@ namespace SeekerMAUI
                 var button = Output.Buttons.Gamebook(gamebook);
                 button.Clicked += (sender, e) => Gamebook_Click(gamebook, button);
 
-                Options.Children.Add(button);
+                var stack = new StackLayout();
+                stack.Children.Add(button);
+                Options.Children.Add(stack);
 
                 Output.Disclaimer.Gamebook(gamebook, ref Options);
             }
@@ -143,10 +145,13 @@ namespace SeekerMAUI
             Game.Xml.GameLoad(gamebook, DisableMethod, RenameMethod, backgroundWorker);
         }
 
-        private void GameLoadingProgress(Description gamebook, Button button, ProgressChangedEventArgs e)
+        private void GameLoadingProgress(Description gamebook, ProgressBar progress, ProgressChangedEventArgs e)
         {
-            button.Text = $"{Output.Constants.LOADING} ({e.ProgressPercentage} / {gamebook.Paragraphs})";
+            var percent = (double)e.ProgressPercentage / (double)gamebook.Paragraphs;
+            var diff = percent - progress.Progress;
+            progress.Progress += diff;
         }
+
 
         private void GameLoaded()
         {
@@ -156,11 +161,16 @@ namespace SeekerMAUI
         private void Gamebook_Click(Description gamebook, Button button)
         {
             History.Continue.CurrentGame(gamebook.Book);
-            Output.Buttons.Loading(button);
+
+            var parent = button.Parent as StackLayout;
+            parent.Children.Clear();
+
+            var progressBar = new ProgressBar { ProgressColor = button.BackgroundColor };
+            parent.Children.Add(progressBar);
 
             var back = new BackgroundWorker();
             back.DoWork += (sender, e) => GameLoading(gamebook.Book, back);
-            back.ProgressChanged += (sender, e) => GameLoadingProgress(gamebook, button, e);
+            back.ProgressChanged += (sender, e) => GameLoadingProgress(gamebook, progressBar, e);
             back.RunWorkerCompleted += (sender, e) => GameLoaded();
             back.WorkerReportsProgress = true;
 

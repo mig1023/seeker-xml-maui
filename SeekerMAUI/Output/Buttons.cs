@@ -148,8 +148,6 @@ namespace SeekerMAUI.Output
                 LineBreakMode = LineBreakMode.WordWrap,
             };
 
-            //gamebookButton.Clicked += onClick;
-
             if (!String.IsNullOrEmpty(gamebook.BorderColor))
             {
                 gamebookButton.BorderColor = Color.FromHex(gamebook.BorderColor);
@@ -261,15 +259,6 @@ namespace SeekerMAUI.Output
             }
 
             return button;
-        }
-
-        public static void Loading(Button button)
-        {
-            button.BackgroundColor = Colors.WhiteSmoke;
-            button.TextColor = Colors.DarkGray;
-            button.BorderColor = Colors.DarkGray;
-            button.BorderWidth = Constants.BORDER_WIDTH;
-            button.Text = Constants.LOADING;
         }
     }
 }
