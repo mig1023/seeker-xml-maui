@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SeekerMAUI.Gamebook.CreatureOfHavoc;
+using System;
 
 namespace SeekerMAUI.Gamebook.StarshipTraveller
 {
@@ -27,7 +28,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             $"Удача: {Character.Protagonist.Luck}"
         };
 
-        private string crewStatus(Character crew, string team)
+        private string CrewStatus(Character crew, string team)
         {
             if (crew.Hitpoints <= 0)
                 return "CROSSEDOUT|";
@@ -46,7 +47,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             {
                 var crew = Character.Team[team];
                 var name = Constants.Names[team];
-                var isAlive = crewStatus(crew, team);
+                var isAlive = CrewStatus(crew, team);
 
                 statusLines.Add($"{isAlive}{name}");
             }
@@ -69,7 +70,27 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                 var enemy = Enemies.First();
                 enemies.Add($"{enemy.Name}\nвооружение {enemy.Weapons}  защита {enemy.Shields}");
             }
+            else if (HandToHandCombat)
+            {
+                var allies = Character.Team
+                    .Select(x => x.Value)
+                    .Where(x => x.Selected)
+                    .ToList();
 
+                foreach (var ally in allies)
+                {
+                    string name = Constants.FullNames[ally.Name];
+                    enemies.Add($"{name}\nмастерство {ally.Skill}  выносливость {ally.Hitpoints}");
+                }
+
+                enemies.Add("SPLITTER|против");
+
+                foreach (var enemy in Enemies)
+                {
+                    enemies.Add($"{enemy.Name}\nмастерство {enemy.Skill}  выносливость {enemy.Hitpoints}");
+                }
+
+            }
             return enemies;
         }
 

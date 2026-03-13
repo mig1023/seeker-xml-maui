@@ -1,4 +1,5 @@
 using System;
+using System.Xml.Linq;
 
 namespace SeekerMAUI.Gamebook.StarshipTraveller
 {
@@ -164,10 +165,19 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 
                 foreach (var character in all)
                 {
-                    string name = Constants.FullNames[character.Name];
+                    string name = character.Name;
+
+                    if (Constants.FullNames.ContainsKey(name))
+                        name = Constants.FullNames[name];
 
                     character.Opponent = FindOpponent(character, allies.Contains(character) ? enemies : allies);
-                    fight.Add($"GRAY|{name} выбирает на кого напасть: {character.Opponent.Name}");
+
+                    string oppName = character.Opponent.Name;
+
+                    if (Constants.FullNames.ContainsKey(oppName))
+                        oppName = Constants.FullNames[oppName];
+
+                    fight.Add($"GRAY|{name} выбирает на кого напасть: {oppName}");
 
                     Game.Dice.DoubleRoll(out int firstDice, out int secondDice); 
                     var hitStrength = firstDice + secondDice + character.Skill;
@@ -188,7 +198,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                         character.Opponent.Hitpoints -= 2;
 
                         var goodOrBad = allies.Contains(character) ? "GOOD" : "BAD";
-                        fight.Add($"BOLD|{goodOrBad}|{character.Opponent.Name} теряет 2 ед. Выносливости!");
+                        fight.Add($"BOLD|{goodOrBad}|{oppName} теряет 2 ед. Выносливости!");
                         fight.Add($"У него осталось {character.Opponent.Hitpoints} ед. Выносливости");
                     }
                     else if (hitStrength < hitOppStrength)
