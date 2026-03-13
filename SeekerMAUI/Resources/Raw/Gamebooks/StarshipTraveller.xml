@@ -868,9 +868,9 @@
 			<Actions>
 				<Fight>
 					<Enemies>
-						<Enemy Name="ПЕРВЫЙ СТРАЖНИК" Weapons="8" Shields="10"/>
-						<Enemy Name="ПЕРВЫЙ СТРАЖНИК" Weapons="7" Shields="9"/>
-						<Enemy Name="ПЕРВЫЙ СТРАЖНИК" Weapons="7" Shields="10"/>
+						<Enemy Name="ПЕРВЫЙ СТРАЖНИК" Skill="8" Hitpoints="10"/>
+						<Enemy Name="ПЕРВЫЙ СТРАЖНИК" Skill="7" Hitpoints="9"/>
+						<Enemy Name="ПЕРВЫЙ СТРАЖНИК" Skill="7" Hitpoints="10"/>
 					</Enemies>
 					<HandToHandCombat/>
 				</Fight>
