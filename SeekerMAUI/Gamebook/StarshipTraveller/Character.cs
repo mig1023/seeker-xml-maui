@@ -49,8 +49,11 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 
         public bool Selected { get; set; }
 
-        private Character Crew()
+        public Character Opponent { get; set; }
+
+        private Character Crew(string name)
         {
+            Name = name;
             Skill = Game.Dice.Roll() + 6;
             MaxHitpoints = Game.Dice.Roll() + 12;
             Hitpoints = MaxHitpoints;
@@ -67,12 +70,13 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             MaxShields = Game.Dice.Roll() + 12;
             Shields = MaxShields;
             Luck = Game.Dice.Roll() + 6;
+            IsProtagonist = true;
 
             Team = new Dictionary<string, Character>();
 
             foreach (var name in Constants.Team)
             {
-                Team.Add(name, new Character().Crew());
+                Team.Add(name, new Character().Crew(name));
             }
         }
 
@@ -103,7 +107,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             Weapons, MaxShields, Shields, Luck, SaveTeam()
         );
 
-        private Character LoadCrew(string loadLine)
+        private Character LoadTeam(string loadLine)
         {
             var load = loadLine.Split(':');
 
@@ -132,7 +136,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             foreach (var team in save[4].Split(";"))
             {
                 var name = Constants.Team[index];
-                Team.Add(name, LoadCrew(team));
+                Team.Add(name, LoadTeam(team));
                 index += 1;
             }
 

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace SeekerMAUI.Gamebook.StarshipTraveller
 {
@@ -132,10 +132,103 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             }
         }
 
+        private static Character FindOpponent(Character character, List<Character> opponents)
+        {
+            var actualOpponents = opponents
+                .Where(x => x.Hitpoints >= 0)
+                .ToList();
+
+            var opponentDice = Game.Dice.Roll(size: actualOpponents.Count());
+
+            return actualOpponents[opponentDice - 1];
+        }
+
         public static List<string> HandToHandCombat(Actions action, List<Character> enemies)
         {
             List<string> fight = new List<string>();
-            return fight;
+
+            var round = 1;
+
+            var allies = Character.Team
+                .Where(x => x.Value.Selected)
+                .Select(x => x.Value.Clone())
+                .ToList();
+
+            var all = allies
+                .Concat(enemies)
+                .ToList();
+
+            while (true)
+            {
+                fight.Add($"HEAD|BOLD|*  *  *  РАУНД: {round}  *  *  *");
+
+                foreach (var character in all)
+                {
+                    string name = Constants.FullNames[character.Name];
+
+                    character.Opponent = FindOpponent(character, allies.Contains(character) ? enemies : allies);
+                    fight.Add($"GRAY|{name} выбирает на кого напасть: {character.Opponent.Name}");
+
+                    Game.Dice.DoubleRoll(out int firstDice, out int secondDice); 
+                    var hitStrength = firstDice + secondDice + character.Skill;
+                    fight.Add($"Сила его удара: {Game.Dice.Symbol(firstDice)} + " +
+                        $"{Game.Dice.Symbol(secondDice)} + {character.Skill} (Мастерство) = " +
+                        $"{hitStrength}");
+
+                    Game.Dice.DoubleRoll(out int firstOppDice, out int secondOppDice);
+                    var hitOppStrength = firstOppDice + secondOppDice + character.Opponent.Skill;
+                    fight.Add($"Сила удара его противника: {Game.Dice.Symbol(firstOppDice)} + " +
+                        $"{Game.Dice.Symbol(secondOppDice)} + {character.Opponent.Skill} (Мастерство) = " +
+                        $"{hitOppStrength}");
+
+                    if (hitStrength > hitOppStrength)
+                    {
+                        fight.Add("BOLD|Сила удара ВЫШЕ, чем у противника!");
+
+                        character.Opponent.Hitpoints -= 2;
+
+                        var goodOrBad = allies.Contains(character) ? "GOOD" : "BAD";
+                        fight.Add($"BOLD|{goodOrBad}|{character.Opponent.Name} теряет 2 ед. Выносливости!");
+                        fight.Add($"У него осталось {character.Opponent.Hitpoints} ед. Выносливости");
+                    }
+                    else if (hitStrength < hitOppStrength)
+                    {
+                        fight.Add("BOLD|Сила удара НИЖЕ, чем у противника!");
+
+                        character.Hitpoints -= 2;
+
+                        var goodOrBad = allies.Contains(character) ? "BAD" : "GOOD";
+                        fight.Add($"BOLD|{goodOrBad}|{name} теряет 2 ед. Выносливости!");
+                        fight.Add($"У него осталось {character.Hitpoints} ед. Выносливости");
+                    }
+                    else
+                    {
+                        fight.Add("BOLD|Силы противников оказались РАВНЫ, ни один из них не ранил другого!");
+                    }
+
+                    var enemiesEnd = enemies
+                        .Where(x => x.Hitpoints > 0)
+                        .Count() == 0;
+
+                    if (enemiesEnd)
+                    {
+                        return action.Win(fight, you: true);
+                    }
+
+                    var alliesEnd = allies
+                        .Where(x => x.Hitpoints > 0)
+                        .Count() == 0;
+
+                    if (alliesEnd)
+                    {
+                        return action.Fail(fight, you: true);
+                    }
+
+                    fight.Add(string.Empty);
+                }
+
+                round += 1;
+            }
         }
 
         public static List<string> BlasterCombat(Actions action, List<Character> enemies)
