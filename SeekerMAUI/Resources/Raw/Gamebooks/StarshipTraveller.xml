@@ -448,7 +448,7 @@
 			<Actions>
 				<Option Goto="309" Text="Если считаешь, что драка будет не в твою пользу, ты можешь сдаться"/>
 				<Fight>
-					<Enemy Name="СТРАЖНИК" Weapons="11" Shields="14"/>
+					<Enemy Name="СТРАЖНИК" Skill="11" Hitpoints="14"/>
 					<HandToHandCombat/>
 				</Fight>
 			</Actions>
