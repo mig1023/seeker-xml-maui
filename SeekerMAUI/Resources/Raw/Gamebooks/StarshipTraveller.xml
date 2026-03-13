@@ -395,9 +395,9 @@
 				<Option Goto="239" Text="Если считаешь, что драка будет не в твою пользу, ты можешь сдаться"/>
 				<Fight>
 					<Enemies>
-						<Enemy Name="ПЕРВЫЙ СТРАЖНИК" Weapons="8" Shields="7"/>
-						<Enemy Name="ВТОРОЙ СТРАЖНИК" Weapons="7" Shields="7"/>
-						<Enemy Name="ТРЕТИЙ СТРАЖНИК" Weapons="8" Shields="7"/>
+						<Enemy Name="ПЕРВЫЙ СТРАЖНИК" Skill="8" Hitpoints="7"/>
+						<Enemy Name="ВТОРОЙ СТРАЖНИК" Skill="7" Hitpoints="7"/>
+						<Enemy Name="ТРЕТИЙ СТРАЖНИК" Skill="8" Hitpoints="7"/>
 					</Enemies>
 					<HandToHandCombat/>
 				</Fight>
