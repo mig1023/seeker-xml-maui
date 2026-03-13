@@ -1507,9 +1507,9 @@
 			<Actions>
 				<Fight>
 					<Enemies>
-						<Enemy Name="ПЕРВЫЙ ТЕХНИК" Weapons="7" Shields="7"/>
-						<Enemy Name="ВТОРОЙ ТЕХНИК" Weapons="5" Shields="6"/>
-						<Enemy Name="ТРЕТИЙ ТЕХНИК" Weapons="6" Shields="6"/>
+						<Enemy Name="ПЕРВЫЙ ТЕХНИК" Skill="7" Hitpoints="7"/>
+						<Enemy Name="ВТОРОЙ ТЕХНИК" Skill="5" Hitpoints="6"/>
+						<Enemy Name="ТРЕТИЙ ТЕХНИК" Skill="6" Hitpoints="6"/>
 					</Enemies>
 					<HandToHandCombat/>
 				</Fight>
