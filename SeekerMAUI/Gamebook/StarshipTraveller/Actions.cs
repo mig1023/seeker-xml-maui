@@ -29,7 +29,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 
         private string crewStatus(Character crew, string team)
         {
-            if (crew.Stamina <= 0)
+            if (crew.Hitpoints <= 0)
                 return "CROSSEDOUT|";
             
             if (Character.Team[team].Selected)
@@ -78,7 +78,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             if (Type == "Select")
             {
                 var count = Character.Team.Where(x => x.Value.Selected).Count();
-                var isAlive = Character.Team[Crew].Stamina > 0;
+                var isAlive = Character.Team[Crew].Hitpoints > 0;
                 var already = Character.Team[Crew].Selected;
 
                 return isAlive && (count < Max) && !already;

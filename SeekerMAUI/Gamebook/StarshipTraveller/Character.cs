@@ -39,12 +39,12 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             set => _skill = Game.Param.Setter(value, _skill, this);
         }
 
-        private int _stamina;
-        public int MaxStamina { get; set; }
-        public int Stamina
+        private int _hitpoints;
+        public int MaxHitpoints { get; set; }
+        public int Hitpoints
         {
-            get => _stamina;
-            set => _stamina = Game.Param.Setter(value, max: MaxStamina, _stamina, this);
+            get => _hitpoints;
+            set => _hitpoints = Game.Param.Setter(value, max: MaxHitpoints, _hitpoints, this);
         }
 
         public bool Selected { get; set; }
@@ -52,8 +52,8 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
         private Character Crew()
         {
             Skill = Game.Dice.Roll() + 6;
-            MaxStamina = Game.Dice.Roll() + 12;
-            Stamina = MaxStamina;
+            MaxHitpoints = Game.Dice.Roll() + 12;
+            Hitpoints = MaxHitpoints;
             Selected = false;
 
             return this;
@@ -80,10 +80,10 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
         {
             IsProtagonist = this.IsProtagonist,
             Name = this.Name,
-            Weapons = this.Weapons,
-            MaxShields = this.MaxShields,
-            Shields = this.Shields,
-            Luck = this.Luck,
+            Skill = this.Skill,
+            MaxHitpoints = this.MaxHitpoints,
+            Hitpoints = this.Hitpoints,
+            Selected = this.Selected,
         };
 
         private string SaveTeam()
@@ -94,7 +94,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             {
                 var crew = Team[team];
                 var selected = crew.Selected ? "1" : "0";
-                line += $"{crew.Skill}:{crew.MaxStamina}:{crew.Stamina}:{selected};";
+                line += $"{crew.Skill}:{crew.MaxHitpoints}:{crew.Hitpoints}:{selected};";
             }
 
             return line.Remove(line.Length - 1);
@@ -110,8 +110,8 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             return new Character
             {
                 Skill = int.Parse(load[0]),
-                MaxStamina = int.Parse(load[1]),
-                Stamina = int.Parse(load[2]),
+                MaxHitpoints = int.Parse(load[1]),
+                Hitpoints = int.Parse(load[2]),
                 Selected = load[2] == "1"
             };
         }

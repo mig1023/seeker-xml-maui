@@ -68,7 +68,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                 SetPropertyByAttr(enemy, param, xmlEnemy, maxPrefix: true);
 
             enemy.Shields = enemy.MaxShields;
-            enemy.Stamina = enemy.MaxStamina;
+            enemy.Hitpoints = enemy.MaxHitpoints;
 
             return enemy;
         }

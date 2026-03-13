@@ -5,7 +5,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
     class Fights
     {
         private static bool NoMoreEnemies(List<Character> enemies) =>
-            enemies.Where(x => (x.Stamina > 0) && (x.Shields > 0)).Count() == 0;
+            enemies.Where(x => (x.Hitpoints > 0) && (x.Shields > 0)).Count() == 0;
 
         public static List<string> SpaceCombat(Actions action, List<Character> enemies)
         {
