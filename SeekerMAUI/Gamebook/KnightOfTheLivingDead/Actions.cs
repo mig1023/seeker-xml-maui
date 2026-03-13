@@ -52,7 +52,7 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
 
                     if (!attackAlready)
                     {
-                        fight.Add("BOLD|ТВОЙ УДАР:");
+                        fight.Add("BOLD|\nТВОЙ УДАР:");
 
                         attackAlready = true;
                         hit = Dodecahedron.Roll(ref fight);
@@ -83,11 +83,21 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
 
                     fight.Add("BOLD|\nУДАР ПРОТИВНИКА:");
                     hit = Dodecahedron.Roll(ref fight);
+                    var attack = enemy.Attack;
 
-                    if (hit <= enemy.Attack)
+                    if (Game.Option.IsTriggered("Амулет защиты"))
+                    {
+                        attack -= 1;
+
+                        fight.Add("GRAY|На тебе надет Амулет защиты! " +
+                            "Противник должен выбросить не меньше " +
+                            $"{enemy.Attack}, а меньше {attack}!");
+                    }
+
+                    if (hit <= attack)
                     {
                         fight.Add("Выброшенное значение не превышает уровня атаки, " +
-                            $"равное {enemy.Attack}");
+                            $"равное {attack}");
 
                         fight.Add($"BAD|BOLD|Ты ранен!");
 
@@ -102,7 +112,7 @@ namespace SeekerMAUI.Gamebook.KnightOfTheLivingDead
                     else
                     {
                         fight.Add("Выброшенное значение выше уровня атаки, " +
-                            $"равное {enemy.Attack}!");
+                            $"равное {attack}!");
 
                         fight.Add($"BOLD|Враг промахнулся!");
                     }
