@@ -2427,7 +2427,7 @@
 			<Actions>
 				<Option Goto="215" Text="Сдаешься"/>
 				<Fight>
-					<Enemy Name="СТРАЖНИК" Weapons="11" Shields="14"/>
+					<Enemy Name="СТРАЖНИК" Skill="11" Hitpoints="14"/>
 					<HandToHandCombat/>
 				</Fight>
 			</Actions>
