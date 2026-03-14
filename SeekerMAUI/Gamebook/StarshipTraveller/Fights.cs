@@ -177,7 +177,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                         name = Constants.FullNames[name];
                     }
 
-                    fight.Add($"GRAY|{name.ToUpper()} (выносливость: {character.Hitpoints})");
+                    fight.Add($"{name.ToUpper()} (выносливость: {character.Hitpoints})");
 
                     character.Opponent = FindOpponent(character, allies.Contains(character) ? enemies : allies);
 
@@ -266,6 +266,12 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                 .Concat(enemies)
                 .ToList();
 
+            foreach (var enemy in enemies)
+            {
+                enemy.MaxHitpoints = 1;
+                enemy.Hitpoints = 1;
+            }
+
             while (true)
             {
                 fight.Add($"HEAD|BOLD|Раунд: {round}");
@@ -284,8 +290,6 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                         name = Constants.FullNames[name];
                     }
 
-                    fight.Add($"GRAY|{name.ToUpper()} СТРЕЛЯЕТ");
-
                     character.Opponent = FindOpponent(character, allies.Contains(character) ? enemies : allies);
 
                     string oppName = character.Opponent.Name;
@@ -293,7 +297,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                     if (Constants.FullNames.ContainsKey(oppName))
                         oppName = Constants.FullNames[oppName];
 
-                    fight.Add($"GRAY|{name} целится в {oppName}");
+                    fight.Add($"{name} целится в {oppName}");
 
                     Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
                     var shoot = firstDice + secondDice;
@@ -302,12 +306,11 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 
                     if (shoot < character.Skill)
                     {
-                        fight.Add("BOLD|Попал!");
-
+                        var goodOrBad = allies.Contains(character) ? "GOOD" : "BAD";
                         character.Opponent.Hitpoints = 0;
 
-                        var goodOrBad = allies.Contains(character) ? "GOOD" : "BAD";
-                        fight.Add($"BOLD|{goodOrBad}|{oppName} повержен выстрелом бластера!");
+                        fight.Add($"BOLD|{goodOrBad}|Попал!");
+                        fight.Add($"{oppName} повержен выстрелом бластера!");
                     }
                     else
                     {

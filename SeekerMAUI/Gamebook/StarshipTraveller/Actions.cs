@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace SeekerMAUI.Gamebook.StarshipTraveller
 {
@@ -69,7 +69,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                 var enemy = Enemies.First();
                 enemies.Add($"{enemy.Name}\nвооружение {enemy.Weapons}  защита {enemy.Shields}");
             }
-            else if (HandToHandCombat)
+            else 
             {
                 var allies = Character.Team
                     .Select(x => x.Value)
@@ -78,18 +78,20 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 
                 foreach (var ally in allies)
                 {
-                    string name = Constants.FullNames[ally.Name];
-                    enemies.Add($"{name}\nмастерство {ally.Skill}  выносливость {ally.Hitpoints}");
+                    var name = Constants.FullNames[ally.Name];
+                    var hitpoints = HandToHandCombat ? $"  выносливость {ally.Hitpoints}" : string.Empty;
+                    enemies.Add($"{name}\nмастерство {ally.Skill}{hitpoints}");
                 }
 
                 enemies.Add("SPLITTER|против");
 
                 foreach (var enemy in Enemies)
                 {
-                    enemies.Add($"{enemy.Name}\nмастерство {enemy.Skill}  выносливость {enemy.Hitpoints}");
+                    var hitpoints = HandToHandCombat ? $"  выносливость {enemy.Hitpoints}" : string.Empty;
+                    enemies.Add($"{enemy.Name}\nмастерство {enemy.Skill}{hitpoints}");
                 }
-
             }
+
             return enemies;
         }
 
