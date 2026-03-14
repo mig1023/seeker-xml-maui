@@ -2440,10 +2440,10 @@
 			<Actions>
 				<Fight>
 					<Enemies>
-						<Enemy Name="ЛУФФ" Weapons="8"/>
-						<Enemy Name="ПЕРВЫЙ ТЕХНИК" Weapons="7"/>
-						<Enemy Name="ВТОРОЙ ТЕХНИК" Weapons="6"/>
-						<Enemy Name="ТРЕТИЙ ТЕХНИК" Weapons="7"/>
+						<Enemy Name="ЛУФФ" Skill="8"/>
+						<Enemy Name="ПЕРВЫЙ ТЕХНИК" Skill="7"/>
+						<Enemy Name="ВТОРОЙ ТЕХНИК" Skill="6"/>
+						<Enemy Name="ТРЕТИЙ ТЕХНИК" Skill="7"/>
 					</Enemies>
 					<BlasterCombat/>
 				</Fight>
