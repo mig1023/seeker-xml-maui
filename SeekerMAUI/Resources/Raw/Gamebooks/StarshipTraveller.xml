@@ -489,9 +489,9 @@
 			<Actions>
 				<Fight>
 					<Enemies>
-						<Enemy Name="СТАРИК" Weapons="6"/>
-						<Enemy Name="ПЕРВЫЙ ТЕРРИАЛЕЦ" Weapons="7"/>
-						<Enemy Name="ВТОРОЙ ТЕРРИАЛЕЦ" Weapons="5"/>
+						<Enemy Name="СТАРИК" Skill="6"/>
+						<Enemy Name="ПЕРВЫЙ ТЕРРИАЛЕЦ" Skill="7"/>
+						<Enemy Name="ВТОРОЙ ТЕРРИАЛЕЦ" Skill="5"/>
 					</Enemies>
 					<BlasterCombat/>
 					<Text>Если вам удастся застрелить всех терриальцев, поскорее вызывай нуль-транспортер и вместе с уцелевшими членами экипажа возвращайся на борт звёздного корабля «Скиталец».</Text>
