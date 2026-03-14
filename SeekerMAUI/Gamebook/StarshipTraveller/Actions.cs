@@ -1,4 +1,3 @@
-﻿using SeekerMAUI.Gamebook.CreatureOfHavoc;
 using System;
 
 namespace SeekerMAUI.Gamebook.StarshipTraveller

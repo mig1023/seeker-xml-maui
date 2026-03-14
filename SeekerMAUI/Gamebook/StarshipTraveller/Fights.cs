@@ -170,6 +170,8 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                     if (Constants.FullNames.ContainsKey(name))
                         name = Constants.FullNames[name];
 
+                    fight.Add($"GRAY|{name.ToUpper()} (выносливость: {character.Hitpoints})");
+
                     character.Opponent = FindOpponent(character, allies.Contains(character) ? enemies : allies);
 
                     string oppName = character.Opponent.Name;
@@ -177,7 +179,8 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                     if (Constants.FullNames.ContainsKey(oppName))
                         oppName = Constants.FullNames[oppName];
 
-                    fight.Add($"GRAY|{name} выбирает на кого напасть: {oppName}");
+                    fight.Add($"GRAY|{name} выбирал на кого напасть: {oppName} " +
+                        $"(выносливость: {character.Opponent.Hitpoints})");
 
                     Game.Dice.DoubleRoll(out int firstDice, out int secondDice); 
                     var hitStrength = firstDice + secondDice + character.Skill;
