@@ -1652,7 +1652,7 @@
 			<Actions>
 				<Option Goto="141" Text="Спастись бегством"/>
 				<Fight>
-					<Enemy Name="ПАДАЛЫЦИК" Weapons="8"/>
+					<Enemy Name="ПАДАЛЫЦИК" Skill="8"/>
 					<BlasterCombat/>
 				</Fight>
 			</Actions>
