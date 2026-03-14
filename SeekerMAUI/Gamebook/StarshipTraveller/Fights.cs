@@ -165,10 +165,17 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 
                 foreach (var character in all)
                 {
+                    if (character.Hitpoints <= 0)
+                    {
+                        continue;
+                    }
+
                     string name = character.Name;
 
                     if (Constants.FullNames.ContainsKey(name))
+                    {
                         name = Constants.FullNames[name];
+                    }
 
                     fight.Add($"GRAY|{name.ToUpper()} (выносливость: {character.Hitpoints})");
 
