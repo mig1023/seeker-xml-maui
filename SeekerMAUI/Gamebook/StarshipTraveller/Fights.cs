@@ -161,7 +161,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 
             while (true)
             {
-                fight.Add($"HEAD|BOLD|*  *  *  РАУНД: {round}  *  *  *");
+                fight.Add($"HEAD|BOLD|Раунд: {round}");
 
                 foreach (var character in all)
                 {
@@ -254,7 +254,89 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
         public static List<string> BlasterCombat(Actions action, List<Character> enemies)
         {
             List<string> fight = new List<string>();
-            return fight;
+
+            var round = 1;
+
+            var allies = Character.Team
+                .Where(x => x.Value.Selected)
+                .Select(x => x.Value.Clone())
+                .ToList();
+
+            var all = allies
+                .Concat(enemies)
+                .ToList();
+
+            while (true)
+            {
+                fight.Add($"HEAD|BOLD|Раунд: {round}");
+
+                foreach (var character in all)
+                {
+                    if (character.Hitpoints <= 0)
+                    {
+                        continue;
+                    }
+
+                    string name = character.Name;
+
+                    if (Constants.FullNames.ContainsKey(name))
+                    {
+                        name = Constants.FullNames[name];
+                    }
+
+                    fight.Add($"GRAY|{name.ToUpper()} СТРЕЛЯЕТ");
+
+                    character.Opponent = FindOpponent(character, allies.Contains(character) ? enemies : allies);
+
+                    string oppName = character.Opponent.Name;
+
+                    if (Constants.FullNames.ContainsKey(oppName))
+                        oppName = Constants.FullNames[oppName];
+
+                    fight.Add($"GRAY|{name} целится в {oppName}");
+
+                    Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+                    var shoot = firstDice + secondDice;
+                    fight.Add($"Точность выстрела: {Game.Dice.Symbol(firstDice)} + " +
+                        $"{Game.Dice.Symbol(secondDice)} = {shoot}");
+
+                    if (shoot < character.Skill)
+                    {
+                        fight.Add("BOLD|Попал!");
+
+                        character.Opponent.Hitpoints = 0;
+
+                        var goodOrBad = allies.Contains(character) ? "GOOD" : "BAD";
+                        fight.Add($"BOLD|{goodOrBad}|{oppName} повержен выстрелом бластера!");
+                    }
+                    else
+                    {
+                        fight.Add("BOLD|Промахнулся!");
+                    }
+
+                    var enemiesEnd = enemies
+                        .Where(x => x.Hitpoints > 0)
+                        .Count() == 0;
+
+                    if (enemiesEnd)
+                    {
+                        return action.Win(fight, you: true);
+                    }
+
+                    var alliesEnd = allies
+                        .Where(x => x.Hitpoints > 0)
+                        .Count() == 0;
+
+                    if (alliesEnd)
+                    {
+                        return action.Fail(fight, you: true);
+                    }
+
+                    fight.Add(string.Empty);
+                }
+
+                round += 1;
+            }
         }
     }
 }
