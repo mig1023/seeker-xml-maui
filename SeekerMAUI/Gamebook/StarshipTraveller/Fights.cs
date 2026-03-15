@@ -1,5 +1,4 @@
-using System;
-using System.Xml.Linq;
+﻿using System;
 
 namespace SeekerMAUI.Gamebook.StarshipTraveller
 {
@@ -300,9 +299,23 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                     fight.Add($"{name} целится в {oppName}");
 
                     Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+
                     var shoot = firstDice + secondDice;
+                    var additional = string.Empty;
+
+                    if (action.LongDistance)
+                    {
+                        var penalty = 4 - round;
+
+                        if (penalty > 0)
+                        {
+                            shoot += penalty;
+                            additional = $" + {penalty} (за большое расстояние)";
+                        }
+                    }
+
                     fight.Add($"Точность выстрела: {Game.Dice.Symbol(firstDice)} + " +
-                        $"{Game.Dice.Symbol(secondDice)} = {shoot}");
+                        $"{Game.Dice.Symbol(secondDice)}{additional} = {shoot}");
 
                     if (shoot < character.Skill)
                     {
