@@ -314,6 +314,20 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                         }
                     }
 
+                    if (action.ShadowAndDistance)
+                    {
+                        if (allies.Contains(character))
+                        {
+                            shoot += 1;
+                            additional = $" + 1 (за значительное расстояние)";
+                        }
+                        else
+                        {
+                            shoot += 2;
+                            additional = $" + 2 (за то, что вы в тени)";
+                        }
+                    }
+
                     fight.Add($"Точность выстрела: {Game.Dice.Symbol(firstDice)} + " +
                         $"{Game.Dice.Symbol(secondDice)}{additional} = {shoot}");
 

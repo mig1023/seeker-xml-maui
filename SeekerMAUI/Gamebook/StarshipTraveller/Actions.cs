@@ -18,6 +18,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
         public bool BySkill { get; set; }
         public bool ByShields { get; set; }
         public bool LongDistance { get; set; }
+        public bool ShadowAndDistance { get; set; }
 
         public List<Character> Enemies { get; set; }
 
