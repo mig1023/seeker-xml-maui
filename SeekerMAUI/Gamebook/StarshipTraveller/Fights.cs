@@ -132,15 +132,22 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             }
         }
 
-        private static Character FindOpponent(Character character, List<Character> opponents)
+        private static Character FindOpponent(Character character, List<Character> opponents,
+            bool byMaxHitpoints = false)
         {
             var actualOpponents = opponents
                 .Where(x => x.Hitpoints >= 0)
                 .ToList();
 
-            var opponentDice = Game.Dice.Roll(size: actualOpponents.Count());
-
-            return actualOpponents[opponentDice - 1];
+            if (byMaxHitpoints)
+            {
+                return actualOpponents.OrderByDescending(x => x.Hitpoints).First();
+            }
+            else
+            {
+                var opponentDice = Game.Dice.Roll(size: actualOpponents.Count());
+                return actualOpponents[opponentDice - 1];
+            }
         }
 
         public static List<string> HandToHandCombat(Actions action, List<Character> enemies)
@@ -178,7 +185,8 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 
                     fight.Add($"{name.ToUpper()} (выносливость: {character.Hitpoints})");
 
-                    character.Opponent = FindOpponent(character, allies.Contains(character) ? enemies : allies);
+                    character.Opponent = FindOpponent(character,
+                        allies.Contains(character) ? enemies : allies, byMaxHitpoints: action.StrangeFight);
 
                     var oppName = character.Opponent.Name;
 
@@ -233,6 +241,18 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                         if (opponentDead || characterDead)
                         {
                             fight.Add("BOLD|Вот и первый поверженный противник!");
+                            return action.Win(fight, you: true);
+                        }
+                    }
+
+                    if (action.StrangeFight)
+                    {
+                        var opponentFail = (character.Opponent.Hitpoints <= 5) && (character.Opponent.Name == "СТРАЖНИК");
+                        var characterFail = (character.Hitpoints <= 5) && (character.Name == "СТРАЖНИК");
+
+                        if (opponentFail || characterFail)
+                        {
+                            fight.Add("BOLD|Вы снизили Выносливость стражника достаточно сильно, чтобы сбить с его головы шлем!");
                             return action.Win(fight, you: true);
                         }
                     }
