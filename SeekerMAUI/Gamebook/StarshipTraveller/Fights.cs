@@ -169,7 +169,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                         continue;
                     }
 
-                    string name = character.Name;
+                    var name = character.Name;
 
                     if (Constants.FullNames.ContainsKey(name))
                     {
@@ -180,7 +180,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
 
                     character.Opponent = FindOpponent(character, allies.Contains(character) ? enemies : allies);
 
-                    string oppName = character.Opponent.Name;
+                    var oppName = character.Opponent.Name;
 
                     if (Constants.FullNames.ContainsKey(oppName))
                         oppName = Constants.FullNames[oppName];
@@ -223,6 +223,18 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
                     else
                     {
                         fight.Add("BOLD|Силы противников оказались РАВНЫ, ни один из них не ранил другого!");
+                    }
+
+                    if (action.OnlyFirstOne)
+                    {
+                        var opponentDead = (character.Opponent.Hitpoints <= 0) && allies.Contains(character);
+                        var characterDead = (character.Hitpoints <= 0) && enemies.Contains(character);
+
+                        if (opponentDead || characterDead)
+                        {
+                            fight.Add("BOLD|Вот и первый поверженный противник!");
+                            return action.Win(fight, you: true);
+                        }
                     }
 
                     var enemiesEnd = enemies
