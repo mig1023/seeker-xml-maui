@@ -337,6 +337,7 @@
 		<Text>Стихи скажут о себе сами.</Text>
 		<Paragraphs>12</Paragraphs>
 		<Size>306</Size>
+		<Ends>0</Ends>
 		<Playthrough>На пять минут</Playthrough>
 		<Setting>Стихи</Setting>
 		<Colors>
