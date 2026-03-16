@@ -165,7 +165,7 @@ namespace SeekerMAUI
             var parent = button.Parent as StackLayout;
             parent.Children.Clear();
 
-            var progressBar = new ProgressBar { ProgressColor = button.BackgroundColor };
+            var progressBar = Output.Disclaimer.Progress(gamebook, button);
             parent.Children.Add(progressBar);
 
             var back = new BackgroundWorker();

@@ -250,5 +250,17 @@ namespace SeekerMAUI.Output
             options.Children.Add(textLayout);
             options.Children.Add(border);
         }
+
+        public static ProgressBar Progress(Description gamebook, Button button)
+        {
+            var color = button.BackgroundColor;
+
+            if (!string.IsNullOrEmpty(gamebook.ProgressColor))
+            {
+                color = Color.FromHex(gamebook.ProgressColor);
+            }
+
+            return new ProgressBar { ProgressColor = color };
+        }
     }
 }

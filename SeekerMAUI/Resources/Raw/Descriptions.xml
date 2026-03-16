@@ -471,9 +471,10 @@
 		<Playthrough>На весь вечер</Playthrough>
 		<Setting>Новейшая история</Setting>
 		<Colors>
-			<Book>898989</Book>
-			<Font>ffffff</Font>
+			<Book>d8d8d8</Book>
+			<Font>000000</Font>
 			<Link>acacac</Link>
+			<Progress>898989</Progress>
 		</Colors>
 	</Damanskiy>
 	<ByTheWillOfRome>

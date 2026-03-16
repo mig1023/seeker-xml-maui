@@ -342,6 +342,7 @@ namespace SeekerMAUI.Game
             {
                 description.BookColor = ColorLoad(colors, "Book", Data.ColorTypes.BookColor);
                 description.LinkColor = ColorLoad(colors, "Link", Data.ColorTypes.BookColor);
+                description.ProgressColor = ColorLoad(colors, "Progress", Data.ColorTypes.BookColor);
                 description.FontColor = ColorLoad(colors, "Font", Data.ColorTypes.BookFontColor);
                 description.BorderColor = ColorLoad(colors, "Border", Data.ColorTypes.BookBorderColor);
             }
