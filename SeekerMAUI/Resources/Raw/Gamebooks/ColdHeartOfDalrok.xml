@@ -1332,9 +1332,9 @@
 				</Get>
 				<Get>
 					<Head>Веточка орти</Head>
+					<SubHead>...уже упоминавшаяся ранее.</SubHead>
 					<Price>6</Price>
 					<Benefit Name="Trigger" Value="Веточка орти"/>
-					<Text>...уже упоминавшаяся ранее.</Text>
 				</Get>
 				<Get>
 					<Head>Горшочек с гнилушками</Head>
