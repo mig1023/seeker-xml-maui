@@ -6837,8 +6837,8 @@
 				<Get-Decrease>
 					<Button>Добавить, Убрать</Button>
 					<Head>ЗАКЛЯТИЕ ИСЦЕЛЕНИЯ</Head>
+					<SubHead>В любой момент (но не во время сражения) добавит вам 8 ВЫНОСЛИВОСТЕЙ.</SubHead>
 					<ThisIsSpell/>
-					<Text Style="Small">В любой момент (но не во время сражения) добавит вам 8 ВЫНОСЛИВОСТЕЙ.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Добавить, Убрать</Button>
