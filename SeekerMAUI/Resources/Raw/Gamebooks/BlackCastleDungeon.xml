@@ -8069,9 +8069,9 @@
 				</Get>
 				<Get>
 					<Head>СЫР</Head>
+					<SubHead>Добавит 4 ВЫНОСЛИВОСТИ</SubHead>
 					<Price>3</Price>
 					<Benefit Name="Healing" Value="Съесть сыр,4"/>
-					<Text>Добавит 4 ВЫНОСЛИВОСТИ</Text>
 				</Get>
 				<Get>
 					<Head>КОЛБАСА</Head>
