@@ -1281,9 +1281,9 @@
 			<Actions>
 				<Get>
 					<Head>Пузырек</Head>
+					<SubHead>...с черной краской.</SubHead>
 					<Price>2</Price>
 					<Benefit Name="Trigger" Value="Пузырек с черной краской"/>
-					<Text>...с черной краской.</Text>
 				</Get>
 				<Get>
 					<Head>Стрела для лука</Head>
