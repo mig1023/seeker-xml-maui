@@ -415,6 +415,11 @@ namespace SeekerMAUI
                             actionPlace.Children.Add(enemy);
                         }
 
+                        if (!string.IsNullOrEmpty(action.SubHead))
+                        {
+                            actionPlace.Children.Add(Output.Interface.SubHeadText(action.SubHead));
+                        }
+
                         if (!action.Type.Contains("-"))
                         {
                             EventHandler actionClick =

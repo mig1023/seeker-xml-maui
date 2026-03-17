@@ -16,6 +16,7 @@ namespace SeekerMAUI.Prototypes
         public List<Output.Text> Texts { get; set; }
         public string Trigger { get; set; }
         public string Head { get; set; }
+        public string SubHead { get; set; }
         public bool Used { get; set; }
         public Option Option { get; set; }
         public int Price { get; set; }

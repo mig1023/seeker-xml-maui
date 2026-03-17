@@ -35,6 +35,7 @@ namespace SeekerMAUI.Output
         public static double TITLE_TXT_LABEL_MARGIN = 15;
         public static double BORDER_WIDTH = 1;
         public static double REPRESENT_PADDING = -10;
+        public static double SUBHEAD_PADDING = 5;
         public static double DISCLAIMER_BORDER = 8;
         public static double SYS_MENU_SPACING = 4;
         public static double SYS_MENU_HIGHT = 25;

@@ -4,6 +4,7 @@ using SeekerMAUI.Gamebook;
 using System.Linq;
 using System.Text.RegularExpressions;
 using static SeekerMAUI.Game.Data;
+using Microsoft.Maui.Controls.Shapes;
 
 namespace SeekerMAUI.Output
 {
@@ -77,6 +78,20 @@ namespace SeekerMAUI.Output
             HeightRequest = Constants.SYS_MENU_HIGHT,
             HorizontalOptions = LayoutOptions.FillAndExpand,
         };
+
+        public static View SubHeadText(string subHead)
+        {
+            var text = new Label
+            {
+                HorizontalTextAlignment = TextAlignment.Center,
+                Text = subHead,
+                Margin = new Thickness(0, (Constants.SUBHEAD_PADDING * -1), 0, Constants.SUBHEAD_PADDING),
+                FontFamily = TextFontFamily(),
+                FontSize = FontSize(TextFontSize.Small),
+            };
+
+            return text;
+        }
 
         public static List<View> Represent(List<string> enemiesLines)
         {

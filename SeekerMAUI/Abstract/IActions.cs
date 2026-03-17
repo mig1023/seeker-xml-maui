@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Xml;
+﻿using System.Xml;
 
 namespace SeekerMAUI.Abstract
 {
@@ -10,6 +9,7 @@ namespace SeekerMAUI.Abstract
         List<Output.Text> Texts { get; set; }
         string Trigger { get; set; }
         string Head { get; set; }
+        string SubHead { get; set; }
 
         int Price { get; set; }
 

@@ -98,6 +98,7 @@ namespace SeekerMAUI.Prototypes
             actions.Texts = TextsParse(xmlAction);
             actions.Trigger = Xml.StringParse(xmlAction["Trigger"]);
             actions.Head = Xml.StringParse(xmlAction["Head"]);
+            actions.SubHead = Xml.StringParse(xmlAction["SubHead"]);
             actions.Price = Xml.IntParse(xmlAction["Price"]);
             actions.Multiple = Xml.BoolParse(xmlAction["Multiple"]);
 
