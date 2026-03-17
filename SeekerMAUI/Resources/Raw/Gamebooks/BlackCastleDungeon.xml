@@ -8035,10 +8035,10 @@
 				</Get>
 				<Get>
 					<Trigger>Banana</Trigger>
+					<SubHead>Добавит 3 ВЫНОСЛИВОСТИ</SubHead>
 					<Head>БАНАН</Head>
 					<Price>2</Price>
 					<Benefit Name="Healing" Value="Съесть банан,3"/>
-					<Text>Добавит 3 ВЫНОСЛИВОСТИ</Text>
 				</Get>
 				<Get>
 					<Head>ГРУША</Head>
