@@ -8029,9 +8029,9 @@
 				</Get>
 				<Get>
 					<Head>АПЕЛЬСИН</Head>
+					<SubHead>Добавит 2 ВЫНОСЛИВОСТЬ</SubHead>
 					<Price>1</Price>
 					<Benefit Name="Healing" Value="Съесть апельсин,2"/>
-					<Text>Добавит 2 ВЫНОСЛИВОСТЬ</Text>
 				</Get>
 				<Get>
 					<Trigger>Banana</Trigger>
