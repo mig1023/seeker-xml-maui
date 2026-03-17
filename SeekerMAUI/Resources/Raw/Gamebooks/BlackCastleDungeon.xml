@@ -1612,9 +1612,9 @@
 			<Actions>
 				<Get>
 					<Head>ЯБЛОКО</Head>
+					<SubHead>Добавит 1 ВЫНОСЛИВОСТЬ</SubHead>
 					<Price>1</Price>
 					<Benefit Name="Healing" Value="Съесть яблоко,1"/>
-					<Text Style="Small">Добавит 1 ВЫНОСЛИВОСТЬ</Text>
 				</Get>
 				<Get>
 					<Head>МАНДАРИН</Head>
