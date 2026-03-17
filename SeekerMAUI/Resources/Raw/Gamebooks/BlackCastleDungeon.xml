@@ -6825,8 +6825,8 @@
 				<Get-Decrease>
 					<Button>Добавить, Убрать</Button>
 					<Head>ЗАКЛЯТИЕ СЛАБОСТИ</Head>
+					<SubHead>Сделает вашего врага неуклюжим и неповоротливым, ослабит СИЛУ его УДАРА.</SubHead>
 					<ThisIsSpell/>
-					<Text Style="Small">Сделает вашего врага неуклюжим и неповоротливым, ослабит СИЛУ его УДАРА.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Добавить, Убрать</Button>
