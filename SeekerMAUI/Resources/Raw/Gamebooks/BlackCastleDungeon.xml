@@ -4111,10 +4111,10 @@
 			<Actions>
 				<Get>
 					<Head>АНАНАС</Head>
+					<SubHead>Добавит 3 ВЫНОСЛИВОСТЬ</SubHead>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Съесть ананас,3"/>
-					<Text>Добавит 3 ВЫНОСЛИВОСТЬ.</Text>
 				</Get>
 				<Get>
 					<Trigger>Banana</Trigger>
