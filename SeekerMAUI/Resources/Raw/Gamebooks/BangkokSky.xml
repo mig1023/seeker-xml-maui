@@ -4312,8 +4312,8 @@
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
 					<Head>Вождение</Head>
+					<SubHead>Способность водить все виды транспорта.</SubHead>
 					<Stat>Driving</Stat>
-					<Text Style="Small">Способность водить все виды транспорта.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
