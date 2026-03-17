@@ -1303,9 +1303,9 @@
 				</Get>
 				<Get>
 					<Head>Сбор сушеных трав</Head>
+					<SubHead>...который может действовать как снотворное.</SubHead>
 					<Price>4</Price>
 					<Benefit Name="Trigger" Value="Сбор сушеных трав"/>
-					<Text>...который может действовать как снотворное.</Text>
 				</Get>
 				<Get>
 					<Head>Другой сбор</Head>
