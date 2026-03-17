@@ -5662,8 +5662,8 @@
 				<Get-Decrease>
 					<Button>Добавить, Убрать</Button>
 					<Head>ЗАКЛЯТИЕ СИЛЫ</Head>
+					<SubHead>Прибавит вам силу и увеличит вашу СИЛУ УДАРА.</SubHead>
 					<ThisIsSpell/>
-					<Text Style="Small">Прибавит вам силу и увеличит вашу СИЛУ УДАРА.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Добавить, Убрать</Button>
