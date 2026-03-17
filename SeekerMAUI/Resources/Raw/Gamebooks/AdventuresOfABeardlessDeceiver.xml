@@ -27,8 +27,6 @@
 				<Item Name="Oratory" Value="красноречия"/>
 				<Item Name="Popularity" Value="популярности"/>
 			</StatNames>
-		</Dictionaries>
-		<Dictionaries>
 			<Availabilities>
 				<Item Name="ТАНЬГА" Value="Tanga"/>
 				<Item Name="СЛАВА_АКЫНА" Value="AkynGlory"/>
@@ -2471,8 +2469,8 @@
 				<Get-Decrease>
 					<Button>Добавить, Отбавить</Button>
 					<Head>СИЛА</Head>
+					<SubHead>Способность персонажа поднимать и переносить тяжести, бороться, а также общая выносливость.</SubHead>
 					<Stat>Strength</Stat>
-					<Text Style="Small">Способность персонажа поднимать и переносить тяжести, бороться, а также общая выносливость.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Добавить, Отбавить</Button>
