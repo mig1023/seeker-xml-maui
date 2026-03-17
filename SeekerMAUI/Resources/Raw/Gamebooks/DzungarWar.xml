@@ -7081,9 +7081,9 @@
 			<Actions>
 				<Get-Decrease>
 					<Button>Добавить, Отбавить</Button>
+					<SubHead>Способность персонажа поднимать и переносить тяжести, бороться, а также общая выносливость.</SubHead>
 					<Head>СИЛА</Head>
 					<Stat>Strength</Stat>
-					<Text Style="Small">Способность персонажа поднимать и переносить тяжести, бороться, а также общая выносливость.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Добавить, Отбавить</Button>
