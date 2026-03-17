@@ -8017,9 +8017,9 @@
 			<Actions>
 				<Get>
 					<Head>ЯБЛОКО</Head>
+					<SubHead>Добавит 2 ВЫНОСЛИВОСТЬ</SubHead>
 					<Price>1</Price>
 					<Benefit Name="Healing" Value="Съесть яблоко,2"/>
-					<Text>Добавит 2 ВЫНОСЛИВОСТЬ</Text>
 				</Get>
 				<Get>
 					<Head>МАНДАРИН</Head>
