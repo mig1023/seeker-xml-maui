@@ -2472,12 +2472,12 @@
 				<Get>
 					<Button>Переночевать и поужинать</Button>
 					<Head>Комната на постоялом дворе</Head>
+					<SubHead>Можете восстановить 4 СИЛЫ и с утра отправиться в путь.</SubHead>
 					<Price>150</Price>
 					<Benefits>
 						<Strength Value="4"/>
 						<HadFoodToday Value="1"/>
 					</Benefits>
-					<Text>Можете восстановить 4 СИЛЫ и с утра отправиться в путь.</Text>
 				</Get>
 			</Actions>
 			<Options>
