@@ -7106,8 +7106,8 @@
 				<Get-Decrease>
 					<Button>Добавить, Отбавить</Button>
 					<Head>КРАСНОРЕЧИЕ</Head>
+					<SubHead>Способность разговорить собеседника, дар убеждения, умение слагать стихи и песни.</SubHead>
 					<Stat>Oratory</Stat>
-					<Text Style="Small">Способность разговорить собеседника, дар убеждения, умение слагать стихи и песни.</Text>
 				</Get-Decrease>
 			</Actions>
 			<Options>
