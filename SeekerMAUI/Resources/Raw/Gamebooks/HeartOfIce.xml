@@ -2515,14 +2515,14 @@
 				</Get>
 				<Get>
 					<Head>Несравненный проницат</Head>
+					<SubHead>Несравненный проницат стоит 4 скада и придает способность видеть в полной темноте.</SubHead>
 					<Price>4</Price>
 					<Trigger>Ночное зрение</Trigger>
-					<Text>Несравненный проницат стоит 4 скада и придает способность видеть в полной темноте.</Text>
 				</Get>
 			</Actions>
 			<Options>
 				<Option Goto="414" Text="Владеете Знанием улиц" Availability="Знание улиц"/>
-				<Option Goto="25" Text="Не владеете"/>
+				<Option Goto="25" Text="Не владеете" Availability="!Знание улиц"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="267">
