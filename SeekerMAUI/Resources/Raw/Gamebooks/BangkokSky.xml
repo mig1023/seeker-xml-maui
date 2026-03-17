@@ -4300,8 +4300,8 @@
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
 					<Head>Боевые искусства</Head>
+					<SubHead>Способность сражаться без оружия или устранять врага без лишнего шума.</SubHead>
 					<Stat>MartialArts</Stat>
-					<Text Style="Small">Способность сражаться без оружия или устранять врага без лишнего шума.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
