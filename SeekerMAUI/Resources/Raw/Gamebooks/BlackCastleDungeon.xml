@@ -1631,9 +1631,9 @@
 				<Get>
 					<Trigger>Banana</Trigger>
 					<Head>БАНАН</Head>
+					<SubHead>Добавит 2 ВЫНОСЛИВОСТИ</SubHead>
 					<Price>2</Price>
 					<Benefit Name="Healing" Value="Съесть банан,2"/>
-					<Text Style="Small">Добавит 2 ВЫНОСЛИВОСТИ</Text>
 				</Get>
 				<Get>
 					<Head>МОЛОКО</Head>
