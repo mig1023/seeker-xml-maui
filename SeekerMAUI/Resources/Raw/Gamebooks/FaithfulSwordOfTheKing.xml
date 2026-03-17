@@ -1262,7 +1262,8 @@
 					<Benefit Name="Daggers" Value="1"/>
 				</Get>
 				<Get>
-					<Head>ПОРОХ И ПУЛИ на 3 выстрела</Head>
+					<Head>ПОРОХ И ПУЛИ</Head>
+					<SubHead>На 3 выстрела</SubHead>
 					<Price>200</Price>
 					<Multiple/>
 					<Benefit Name="BulletsAndGubpowder" Value="3"/>
