@@ -4001,12 +4001,12 @@
 				<Get>
 					<Button>Позавтракать</Button>
 					<Head>Еда</Head>
+					<SubHead>Завтрак прибавит вам 1 СИЛУ.</SubHead>
 					<Price>50</Price>
 					<Benefits>
 						<Strength Value="1"/>
 						<HadFoodToday Value="1"/>
 					</Benefits>
-					<Text>Завтрак прибавит вам 1 СИЛУ.</Text>
 				</Get>
 			</Actions>
 			<Options>
