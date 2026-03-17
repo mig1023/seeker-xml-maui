@@ -4306,8 +4306,8 @@
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
 					<Head>Физподготовка</Head>
+					<SubHead>Способность бегать, прыгать или прилагать физические усилия.</SubHead>
 					<Stat>Physical</Stat>
-					<Text Style="Small">Способность бегать, прыгать или прилагать физические усилия.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
