@@ -4318,8 +4318,8 @@
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
 					<Head>Огнестрел</Head>
+					<SubHead>Умение обращаться с пистолетами, дробовиками и прочим огнестрелом.</SubHead>
 					<Stat>Firearms</Stat>
-					<Text Style="Small">Умение обращаться с пистолетами, дробовиками и прочим огнестрелом.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
