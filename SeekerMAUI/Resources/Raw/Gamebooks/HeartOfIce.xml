@@ -4382,6 +4382,7 @@
 				</Get>
 				<Get>
 					<Head>Охотник за головами</Head>
+					<SubHead>Сейчас трудные времена, сильный диктует законы слабым.</SubHead>
 					<Choice/>
 					<Benefits>
 						<Skill Value="Хитрость"/>
@@ -4391,7 +4392,6 @@
 						<Money Value="10"/>
 						<Shots Value="6"/>
 					</Benefits>
-					<Text Style="Small">Сейчас трудные времена, сильный диктует законы слабым.</Text>
 				</Get>
 				<Get>
 					<Head>Шпион</Head>
