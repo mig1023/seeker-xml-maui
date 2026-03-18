@@ -1964,10 +1964,10 @@
 					<SubHead>Прибавит 2 к Инициативе</SubHead>
 					<Price>5</Price>
 					<Benefit Name="MaxInitiative" Value="2"/>
-					<Text>Зелье Выздоровления восстановит 6 Жизней (можно выпить сразу или частями):</Text>
 				</Get>
 				<Get>
 					<Head>ЗЕЛЬЕ ВЫЗДОРОВЛЕНИЯ</Head>
+					<SubHead>Восстановит 6 Жизней</SubHead>
 					<Price>3</Price>
 					<Benefit Name="Healing" Value="Выпить зелье Выздоровления,6"/>
 					<Text>Зелье Жизни восстановит здоровье полностью:</Text>
