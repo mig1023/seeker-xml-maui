@@ -4772,10 +4772,10 @@
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Попить воды,1,1"/>
-					<Text>вяленая рыба (одна штука прибавит 1 Жизнь):</Text>
 				</Get>
 				<Get>
 					<Head>ВЯЛЕНАЯ РЫБА</Head>
+					<SubHead>Прибавит 1 Жизнь</SubHead>
 					<Price>1</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Съесть маленькую вяленую рыбу,1"/>
