@@ -4677,10 +4677,11 @@
 						<MaxAttack Value="1"/>
 						<MaxInitiative Value="2"/>
 					</Benefits>
-					<Text>Искусно выполненная кольчуга прибавит 1 к Защите и 1 к максимальному значению Жизни:</Text>
+					<Text>Искусно выполненная кольчуга:</Text>
 				</Get>
 				<Get>
 					<Head>КОЛЬЧУГА</Head>
+					<SubHead>Прибавит 1 к Защите и 1 к максимальному значению Жизни</SubHead>
 					<Price>45</Price>
 					<Benefits>
 						<MaxDefence Value="1"/>
