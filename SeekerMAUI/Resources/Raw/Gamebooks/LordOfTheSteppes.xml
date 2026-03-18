@@ -6609,11 +6609,11 @@
 					<Price>1</Price>
 					<Multiple/>
 					<Benefit Name="Endurance" Value="2"/>
-					<Text>Можете попросить наполнить флягу или другую емкость этим замечательным напитком:</Text>
 				</Get>
 				<Get>
 					<Button>Налить во флягу</Button>
 					<Head>ДЕШЁВОЕ ВИНО</Head>
+					<SubHead>Попросить наполнить флягу или другую емкость этим замечательным напитком</SubHead>
 					<Price>1</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Выпить дешёвого вина,2"/>
