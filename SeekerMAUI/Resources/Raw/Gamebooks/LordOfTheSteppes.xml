@@ -239,11 +239,12 @@
 					<Head>ПРЕВОСХОДНЫЙ УЖИН</Head>
 					<Price>3</Price>
 					<Benefit Name="Endurance" Value="3"/>
-					<Text>а также может приготовить еды в дорогу (1 порция стоит 2 монеты, восстановит 3 Жизни):</Text>
+					<Text>а также может приготовить еды в дорогу:</Text>
 				</Get>
 				<Get>
 					<Button>Купить порцию</Button>
 					<Head>ПОРЦИЯ ЕДЫ</Head>
+					<SubHead>1 порция восстановит 3 Жизни</SubHead>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Поесть,3"/>
