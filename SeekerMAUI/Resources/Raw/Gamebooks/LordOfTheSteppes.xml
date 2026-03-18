@@ -256,10 +256,11 @@
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Выпить вина,3"/>
-					<Text>или превосходным пивом (1 глоток стоит 1 монету, восстановит 2 Жизни):</Text>
+					<Text>...или превосходным пивом:</Text>
 				</Get>
 				<Get>
 					<Head>ПИВО</Head>
+					<SubHead>1 глоток восстановит 2 Жизни</SubHead>
 					<Price>1</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Выпить пива,2"/>
