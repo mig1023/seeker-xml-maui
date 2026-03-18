@@ -6473,10 +6473,10 @@
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Съесть хлебец,2"/>
-					<Text>Сок из ягод (1 глоток стоит 1 монету, восстановит 2 Жизни):</Text>
 				</Get>
 				<Get>
 					<Head>СОК ИЗ ЯГОД</Head>
+					<SubHead>Восстановит 2 Жизни</SubHead>
 					<Price>1</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Выпить сок из ягод,2"/>
