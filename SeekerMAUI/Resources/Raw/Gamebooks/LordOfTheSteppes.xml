@@ -349,11 +349,12 @@
 					<Price>1</Price>
 					<Multiple/>
 					<Benefit Name="Endurance" Value="1"/>
-					<Text>или пива (1 глоток стоит 2 монеты восстанавливает 2 Жизни), которые вы также можете взять с собой:</Text>
+					<Text>...или пива, которые вы также можете взять с собой:</Text>
 				</Get>
 				<Get>
 					<Button>Заказать</Button>
 					<Head>ПИВО</Head>
+					<SubHead>1 глоток восстанавливает 2 Жизни</SubHead>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Endurance" Value="2"/>
