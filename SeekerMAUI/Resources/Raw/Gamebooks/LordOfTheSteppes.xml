@@ -7283,10 +7283,10 @@
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Съесть сыр,2"/>
-					<Text>Молоко (молоко на один глоток прибавит 3 Жизни):</Text>
 				</Get>
 				<Get>
 					<Head>МОЛОКО</Head>
+					<SubHead>Один глоток прибавит 3 Жизни</SubHead>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Попить молока,3"/>
