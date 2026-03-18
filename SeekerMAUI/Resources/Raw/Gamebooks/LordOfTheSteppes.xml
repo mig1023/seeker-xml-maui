@@ -6647,10 +6647,10 @@
 					<Price>3</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Съесть мясную колбаску,5"/>
-					<Text>Хлебцы (восстанавливают 2 Жизни):</Text>
 				</Get>
 				<Get>
 					<Head>ХЛЕБЦЫ</Head>
+					<SubHead>Восстанавливают 2 Жизни</SubHead>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Съесть хлебец,2"/>
