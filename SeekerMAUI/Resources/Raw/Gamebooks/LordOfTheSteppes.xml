@@ -6480,10 +6480,10 @@
 					<Price>1</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Выпить сок из ягод,2"/>
-					<Text>Солонина (1 кусок стоит 3 монеты, восстанавливает 7 Жизней):</Text>
 				</Get>
 				<Get>
 					<Head>СОЛОНИНА</Head>
+					<SubHead>Восстанавливает 7 Жизней</SubHead>
 					<Price>3</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Съесть солонины,7"/>
