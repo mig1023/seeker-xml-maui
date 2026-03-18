@@ -7290,10 +7290,10 @@
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Попить молока,3"/>
-					<Text>Медовуха (вот только Жизни он не прибавит).</Text>
 				</Get>
 				<Get>
 					<Head>МЕДОВУХА</Head>
+					<SubHead>Медовуха хорошая, вот только Жизни он не прибавит.</SubHead>
 					<Price>2</Price>
 					<Multiple/>
 					<Text>Сыта (смесь воды и меда, 1 глоток прибавит 2 Жизни)</Text>
