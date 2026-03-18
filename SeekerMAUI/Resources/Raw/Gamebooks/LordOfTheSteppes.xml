@@ -4577,7 +4577,7 @@
 					<Price>3</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Выпить зелье восстановления по 5 жизней,5"/>
-					<Text>Так и дорогие сильные снадобья (по 6 монет — восстановит 12 Жизней):</Text>
+					<Text>Так и дорогие сильные снадобья:</Text>
 				</Get>
 				<Get>
 					<Head>ЧЕТВЁРТОЕ ЗЕЛЬЕ</Head>
@@ -4588,6 +4588,7 @@
 				</Get>
 				<Get>
 					<Head>ПЯТОЕ ЗЕЛЬЕ</Head>
+					<SubHead>Восстановит 12 Жизнь</SubHead>
 					<Price>6</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Выпить зелье восстановления по 12 жизней,12"/>
