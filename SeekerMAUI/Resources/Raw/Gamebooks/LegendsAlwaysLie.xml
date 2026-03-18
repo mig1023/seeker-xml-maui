@@ -6853,9 +6853,10 @@
 					<Specialization>Warrior</Specialization>
 				</Get>
 				<Get>
-					<Button>Стать магом</Button>
+					<Head>СТАТЬ МАГОМ</Head>
+					<SubHead>Сила мага равна двенадцати, но заклинаний у него пять. Кроме того, он теряете только 1 ЖИЗНЬ при применение заклятий.</SubHead>
+					<Button>Выбрать</Button>
 					<Specialization>Wizard</Specialization>
-					<Text>Сила мага равна двенадцати, но заклинаний у него пять. Кроме того, он теряете только 1 ЖИЗНЬ при применение заклятий.</Text>
 				</Get>
 				<Get>
 					<Button>Стать метателем</Button>
