@@ -349,7 +349,7 @@
 					<Price>1</Price>
 					<Multiple/>
 					<Benefit Name="Endurance" Value="1"/>
-					<Text>...или пива, которые вы также можете взять с собой:</Text>
+					<Text>...или пива, которые вы можете выпить сразу:</Text>
 				</Get>
 				<Get>
 					<Button>Заказать</Button>
@@ -358,22 +358,15 @@
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Endurance" Value="2"/>
-					<Text>которые вы также можете взять с собой:</Text>
-				</Get>
-				<Get>
-					<Button>Налить во фляжку</Button>
-					<Head>ХОЛОДНЫЙ КВАС</Head>
-					<Price>1</Price>
-					<Multiple/>
-					<Benefit Name="Healing" Value="Выпить кваса,1"/>
-					<Text>или пива (1 глоток стоит 2 монеты восстанавливает 2 Жизни), которые вы также можете взять с собой:</Text>
+					<Text>...или можете взять с собой:</Text>
 				</Get>
 				<Get>
 					<Button>Налить во фляжку</Button>
 					<Head>ПИВО</Head>
+					<SubHead>1 глоток восстанавливает 2 Жизни</SubHead>
 					<Price>2</Price>
 					<Multiple/>
-					<Benefit Name="Healing" Value="Выпить пива,2"/>
+					<Benefit Name="Healing" Value="Выпить кваса,1"/>
 					<Text>Если желаете, закажите обед (стоит 3 монеты, восстановит 4 Жизни):</Text>
 				</Get>
 				<Get>
