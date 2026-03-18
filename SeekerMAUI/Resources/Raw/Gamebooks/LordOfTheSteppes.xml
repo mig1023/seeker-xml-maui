@@ -4668,10 +4668,10 @@
 					<SubHead>Прибавит 1 к Нападению</SubHead>
 					<Price>35</Price>
 					<Benefit Name="MaxAttack" Value="1"/>
-					<Text>Второй — прибавит 1 к Нападению и 2 к Инициативе:</Text>
 				</Get>
 				<Get>
 					<Head>ВТОРОЙ МЕЧ</Head>
+					<SubHead>Прибавит 1 к Нападению и 2 к Инициативе</SubHead>
 					<Price>38</Price>
 					<Benefits>
 						<MaxAttack Value="1"/>
