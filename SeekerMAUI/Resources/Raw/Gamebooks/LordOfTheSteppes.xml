@@ -7276,10 +7276,10 @@
 					<Price>1</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Съесть яблоко,1"/>
-					<Text>Сыр (1 кусок прибавит 2 Жизни):</Text>
 				</Get>
 				<Get>
 					<Head>КУСОК СЫРА</Head>
+					<SubHead>1 кусок прибавит 2 Жизни</SubHead>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Съесть сыр,2"/>
