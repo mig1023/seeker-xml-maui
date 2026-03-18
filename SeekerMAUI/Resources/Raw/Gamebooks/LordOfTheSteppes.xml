@@ -4371,10 +4371,11 @@
 					<Multiple/>
 					<Trigger>Сыр</Trigger>
 					<Benefit Name="Healing" Value="Съесть сыр,3"/>
-					<Text>или пива (1 глоток стоит восстанавливает 2 Жизни), которые вы также можете взять с собой:</Text>
+					<Text>...или пива, которые вы также можете взять с собой:</Text>
 				</Get>
 				<Get>
 					<Head>ПИВО</Head>
+					<SubHead>Восстанавливает 2 Жизни</SubHead>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Выпить пива,2"/>
