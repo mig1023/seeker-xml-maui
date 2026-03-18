@@ -2157,11 +2157,12 @@
 					<Price>3</Price>
 					<Multiple/>
 					<Benefit Name="Endurance" Value="7"/>
-					<Text>или одно жаркое — он стоит 2 монеты, 5 Жизней:</Text>
+					<Text>...или одно жаркое:</Text>
 				</Get>
 				<Get>
 					<Button>Заказать жаркое</Button>
 					<Head>ЖАРКОЕ</Head>
+					<SubHead>Восстановит 5 Жизней</SubHead>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Endurance" Value="5"/>
