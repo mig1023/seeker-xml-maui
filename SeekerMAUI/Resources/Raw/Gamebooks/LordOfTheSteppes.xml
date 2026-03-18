@@ -4603,10 +4603,11 @@
 						<MaxAttack Value="1"/>
 						<MaxEndurance Value="2"/>
 					</Benefits>
-					<Text>Другое зелье увеличит вашу ловкость (а вместе с ней — Защиту на 1), его стоимость — 7 монет:</Text>
+					<Text>Другое зелье увеличит вашу ловкость:</Text>
 				</Get>
 				<Get>
 					<Head>ЗЕЛЬЕ ЛОВКОСТИ</Head>
+					<SubHead>Защита увеличивается на 1</SubHead>
 					<Price>7</Price>
 					<Multiple/>
 					<Benefit Name="MaxDefence" Value="1"/>
