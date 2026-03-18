@@ -4566,13 +4566,14 @@
 				</Get>
 				<Get>
 					<Head>ВТОРОЕ ЗЕЛЬЕ</Head>
-					<SubHead>Восстановит 2 Жизнь</SubHead>
+					<SubHead>Восстановит 3 Жизнь</SubHead>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Выпить зелье восстановления по 3 жизни,3"/>
 				</Get>
 				<Get>
 					<Head>ТРЕТЬЕ ЗЕЛЬЕ</Head>
+					<SubHead>Восстановит 5 Жизнь</SubHead>
 					<Price>3</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Выпить зелье восстановления по 5 жизней,5"/>
