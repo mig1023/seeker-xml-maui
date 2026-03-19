@@ -274,16 +274,16 @@
 					<Benefit Name="Weapons" Value="Дерринджер,4,1,0-50,1"/>
 				</Get>
 				<Get>
-					<Head>Кольт</Head>
-					<SubHead>Винчестер дальнобоен и эффективен, но дорог и бесполезен на малой дистанции.</SubHead>
-					<Price>25</Price>
-					<Benefit Name="Weapons" Value="Кольт,6,2,0-100,1"/>
-				</Get>
-				<Get>
 					<Head>Винчестер</Head>
-					<SubHead>Кольт — середина между ними.</SubHead>
+					<SubHead>Винчестер дальнобоен и эффективен, но дорог и бесполезен на малой дистанции.</SubHead>
 					<Price>40</Price>
 					<Benefit Name="Weapons" Value="Винчестер,14,3,50-150,2"/>
+				</Get>
+				<Get>
+					<Head>Кольт</Head>
+					<SubHead>Кольт — середина между ними.</SubHead>
+					<Price>25</Price>
+					<Benefit Name="Weapons" Value="Кольт,6,2,0-100,1"/>
 					<Text>ПОЛЕЗНЫЕ ПРЕДМЕТЫ:</Text>
 				</Get>
 				<Get>
@@ -920,16 +920,16 @@
 					<Benefit Name="Weapons" Value="Дерринджер,4,1,0-50,1"/>
 				</Get>
 				<Get>
-					<Head>Кольт</Head>
-					<SubHead>Винчестер дальнобоен и эффективен, но дорог и бесполезен на малой дистанции.</SubHead>
-					<Price>45</Price>
-					<Benefit Name="Weapons" Value="Кольт,6,2,0-100,1"/>
-				</Get>
-				<Get>
 					<Head>Винчестер</Head>
-					<SubHead>Кольт — середина между ними.</SubHead>
+					<SubHead>Винчестер дальнобоен и эффективен, но дорог и бесполезен на малой дистанции.</SubHead>
 					<Price>75</Price>
 					<Benefit Name="Weapons" Value="Винчестер,14,3,50-150,2"/>
+				</Get>
+				<Get>
+					<Head>Кольт</Head>
+					<SubHead>Кольт — середина между ними.</SubHead>
+					<Price>45</Price>
+					<Benefit Name="Weapons" Value="Кольт,6,2,0-100,1"/>
 					<Text>ПОЛЕЗНЫЕ ПРЕДМЕТЫ:</Text>
 				</Get>
 				<Get>
@@ -1263,19 +1263,17 @@
 					<Benefit Name="Weapons" Value="Дерринджер,4,1,0-50,1"/>
 				</Get>
 				<Get>
-					<Head>Кольт</Head>
-					<SubHead>Винчестер дальнобоен и эффективен, но дорог и бесполезен на малой дистанции.</SubHead>
-					<Price>15</Price>
-					<Benefit Name="Weapons" Value="Кольт,6,2,0-100,1"/>
-				</Get>
-				<Get>
 					<Head>Винчестер</Head>
+					<SubHead>Винчестер дальнобоен и эффективен, но дорог и бесполезен на малой дистанции.</SubHead>
 					<Price>30</Price>
 					<Benefit Name="Weapons" Value="Винчестер,14,3,50-150,2"/>
-					<Texts>
-						<Text Style="Small">Кольт — середина между ними.</Text>
-						<Text>ПОЛЕЗНЫЕ ПРЕДМЕТЫ:</Text>
-					</Texts>
+				</Get>
+				<Get>
+					<Head>Кольт</Head>
+					<SubHead>Кольт — середина между ними.</SubHead>
+					<Price>15</Price>
+					<Benefit Name="Weapons" Value="Кольт,6,2,0-100,1"/>
+					<Text>ПОЛЕЗНЫЕ ПРЕДМЕТЫ:</Text>
 				</Get>
 				<Get>
 					<Head>Моток бинта</Head>
