@@ -7857,16 +7857,17 @@
 					<SubHead>Прибавит 1 к Нападению</SubHead>
 					<Price>15</Price>
 					<Benefit Name="MaxAttack" Value="1"/>
-					<Text>Второй меч за 30 монет (прибавит 2 к Нападению):</Text>
+					<Text>Второй меч за 30 монет ():</Text>
 				</Get>
 				<Get>
 					<Head>ВТОРОЙ МЕЧ</Head>
-					<SubHead>Прибавит 1 к Нападению, 1 к Инициативе и 1 к урону</SubHead>
+					<SubHead>Прибавит 2 к Нападению</SubHead>
 					<Price>30</Price>
 					<Benefit Name="MaxAttack" Value="2"/>
 				</Get>
 				<Get>
 					<Head>САБЛЯ</Head>
+					<SubHead>Прибавит 1 к Нападению, 1 к Инициативе и 1 к урону</SubHead>
 					<Price>35</Price>
 					<Benefits>
 						<MaxAttack Value="1"/>
