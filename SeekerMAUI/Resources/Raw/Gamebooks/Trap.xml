@@ -1862,7 +1862,8 @@
 				</Get>
 				<Get>
 					<Button>Купить</Button>
-					<Head>Меч (+6 к атаке)</Head>
+					<Head>Меч</Head>
+					<SubHead>+6 к атаке</SubHead>
 					<Price>4000</Price>
 					<Benefit Name="Equipment" Value="меч,6,4000"/>
 					<Text>...но если вам очень хочется, можете взять:</Text>
