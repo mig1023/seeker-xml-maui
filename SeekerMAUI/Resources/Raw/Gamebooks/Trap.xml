@@ -1869,7 +1869,8 @@
 				</Get>
 				<Get>
 					<Button>Купить</Button>
-					<Head>Копье (+2 к атаке)</Head>
+					<Head>Копье</Head>
+					<SubHead>+2 к атаке</SubHead>
 					<Price>1000</Price>
 					<Benefit Name="Equipment" Value="копье,2,1000"/>
 					<Text>Из доспехов латные самые тяжелые и громоздкие, поэтому лучше:</Text>
