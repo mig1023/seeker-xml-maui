@@ -1168,7 +1168,8 @@
 				</Get>
 				<Get>
 					<Button>Купить</Button>
-					<Head>Зелье с приятным запахом, +2 к обаянию</Head>
+					<Head>Зелье с приятным запахом</Head>
+					<SubHead>+2 к обаянию</SubHead>
 					<Price>500</Price>
 					<Benefit Name="Charm" Value="2"/>
 				</Get>
