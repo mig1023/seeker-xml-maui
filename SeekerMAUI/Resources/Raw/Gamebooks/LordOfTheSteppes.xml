@@ -7857,7 +7857,6 @@
 					<SubHead>Прибавит 1 к Нападению</SubHead>
 					<Price>15</Price>
 					<Benefit Name="MaxAttack" Value="1"/>
-					<Text>Второй меч за 30 монет ():</Text>
 				</Get>
 				<Get>
 					<Head>ВТОРОЙ МЕЧ</Head>
@@ -7874,10 +7873,10 @@
 						<MaxInitiative Value="1"/>
 						<ExtendedDamage/>
 					</Benefits>
-					<Text>Первый доспех за 20 монет (прибавит 1 к Защите):</Text>
 				</Get>
 				<Get>
 					<Head>ДОСПЕХ</Head>
+					<SubHead>Прибавит 1 к Защите</SubHead>
 					<Price>20</Price>
 					<Benefit Name="MaxDefence" Value="1"/>
 					<Text>Второй доспех за 30 монет (прибавит 1 к Защите и 1 к максимальному значению Жизни):</Text>
