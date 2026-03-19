@@ -1885,7 +1885,8 @@
 				</Get>
 				<Get>
 					<Button>Купить</Button>
-					<Head>Кольчужные доспехи (+4 к атаке)</Head>
+					<Head>Кольчужные доспехи</Head>
+					<SubHead>+4 к атаке</SubHead>
 					<Price>2000</Price>
 					<Benefit Name="Equipment" Value="кольчужные доспехи,4,2000"/>
 					<Text>Когда закончите с покупками:</Text>
