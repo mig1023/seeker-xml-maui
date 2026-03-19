@@ -2200,8 +2200,8 @@
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
 					<Head>ОХОТА</Head>
+					<SubHead>Даёт возможность добывать пищу в тяжелых условиях.</SubHead>
 					<Skill>Hunting</Skill>
-					<Text Style="Small">Даёт возможность добывать пищу в тяжелых условиях.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
