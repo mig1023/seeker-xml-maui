@@ -7879,10 +7879,10 @@
 					<SubHead>Прибавит 1 к Защите</SubHead>
 					<Price>20</Price>
 					<Benefit Name="MaxDefence" Value="1"/>
-					<Text>Второй доспех за 30 монет (прибавит 1 к Защите и 1 к максимальному значению Жизни):</Text>
 				</Get>
 				<Get>
 					<Head>ДОСПЕХ</Head>
+					<SubHead>Прибавит 1 к Защите и 1 к максимальному значению Жизни</SubHead>
 					<Price>30</Price>
 					<Benefits>
 						<MaxDefence Value="1"/>
