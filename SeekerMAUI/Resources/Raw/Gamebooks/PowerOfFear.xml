@@ -2230,8 +2230,8 @@
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
 					<Head>СКРЫТНОСТЬ</Head>
+					<SubHead>Способность красться совершенно бесшумно и скрыться в нужный момент от чужих глаз.</SubHead>
 					<Skill>Stealth</Skill>
-					<Text Style="Small">Способность красться совершенно бесшумно и скрыться в нужный момент от чужих глаз.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
