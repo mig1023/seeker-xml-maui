@@ -1162,7 +1162,8 @@
 			<Actions>
 				<Get>
 					<Button>Купить</Button>
-					<Head>Зелье, восстанавливающее 100 баллов здоровья</Head>
+					<Head>Зелье</Head>
+					<SubHead>Восстанавливающее 100 баллов здоровья</SubHead>
 					<Price>500</Price>
 					<Benefit Name="Healing" Value="Выпить зелье восстановления,100"/>
 				</Get>
