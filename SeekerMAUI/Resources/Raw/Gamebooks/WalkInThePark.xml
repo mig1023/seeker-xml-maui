@@ -478,7 +478,8 @@
 					<Price>40</Price>
 				</Get>
 				<Get>
-					<Head>ТОПОР (УРОН 1)</Head>
+					<Head>ТОПОР</Head>
+					<SubHead>УРОН 1</SubHead>
 					<Price>50</Price>
 					<Benefits>
 						<Damage Value="10"/>
