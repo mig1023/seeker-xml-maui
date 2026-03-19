@@ -2212,8 +2212,8 @@
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
 					<Head>УДАЧА</Head>
+					<SubHead>Позволяет быть чуточку удачливее остальных.</SubHead>
 					<Skill>Luck</Skill>
-					<Text Style="Small">Позволяет быть чуточку удачливее остальных.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
