@@ -2206,8 +2206,8 @@
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
 					<Head>ЛОВКОСТЬ</Head>
+					<SubHead>Позволяет преодолевать препятствия и быстро бегать.</SubHead>
 					<Skill>Agility</Skill>
-					<Text Style="Small">Позволяет преодолевать препятствия и быстро бегать.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
