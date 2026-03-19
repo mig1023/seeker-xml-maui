@@ -451,7 +451,8 @@
 					<Benefit Name="Trigger" Value="Бетонный кастет"/>
 				</Get>
 				<Get>
-					<Head>БОЛЬШОЙ НОЖ ДЛЯ МЯСА (УРОН 1.5)</Head>
+					<Head>БОЛЬШОЙ НОЖ ДЛЯ МЯСА</Head>
+					<SubHead>УРОН 1.5</SubHead>
 					<Price>350</Price>
 					<Benefits>
 						<Damage Value="15"/>
