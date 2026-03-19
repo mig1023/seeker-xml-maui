@@ -7913,10 +7913,10 @@
 					<Price>3</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Съесть вяленого мяса,4"/>
-					<Text>Или лепешки (стоит 2 монеты, восстанавливает 2 Жизни):</Text>
 				</Get>
 				<Get>
 					<Head>ЛЕПЕШКА</Head>
+					<SubHead>Восстанавливают 2 Жизни</SubHead>
 					<Price>2</Price>
 					<Multiple/>
 					<Benefit Name="Healing" Value="Съесть лепешку,2"/>
