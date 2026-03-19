@@ -1457,7 +1457,8 @@
 			<Actions>
 				<GetMagicBlade>
 					<Button>Заколдовать</Button>
-					<Head>Заколдовать свой клинок (ваш удар отнимает три ЖИЗНИ)</Head>
+					<Head>Заколдовать свой клинок</Head>
+					<SubHead>Ваш удар отнимает три ЖИЗНИ</SubHead>
 					<Price>5</Price>
 				</GetMagicBlade>
 				<RestoreSpells>
