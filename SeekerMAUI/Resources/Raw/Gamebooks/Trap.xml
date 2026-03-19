@@ -1176,7 +1176,8 @@
 				</Get>
 				<Get>
 					<Button>Купить</Button>
-					<Head>Зелье +2 к силе и ловкости</Head>
+					<Head>Зелье</Head>
+					<SubHead>+2 к силе и ловкости</SubHead>
 					<Price>500</Price>
 					<Benefit Name="StrengthAndSkill"/>
 				</Get>
