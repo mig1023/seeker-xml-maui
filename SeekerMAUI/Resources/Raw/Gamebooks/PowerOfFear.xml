@@ -2236,8 +2236,8 @@
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
 					<Head>ЗНАНИЯ</Head>
+					<SubHead>Знание тайного и сокровенного.</SubHead>
 					<Skill>Knowledge</Skill>
-					<Text Style="Small">Знание тайного и сокровенного.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
