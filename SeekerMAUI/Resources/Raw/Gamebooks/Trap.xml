@@ -4381,7 +4381,8 @@
 			<Actions>
 				<Get>
 					<Button>Купить</Button>
-					<Head>Чешуйчатый доспех (+5 к атаке)</Head>
+					<Head>Чешуйчатый доспех</Head>
+					<SubHead>+5 к атаке</SubHead>
 					<Price>4000</Price>
 					<Benefit Name="Equipment" Value="чешуйчатый доспехи,5,4000"/>
 				</Get>
