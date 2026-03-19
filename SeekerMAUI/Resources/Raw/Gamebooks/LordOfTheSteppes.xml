@@ -7888,10 +7888,10 @@
 						<MaxDefence Value="1"/>
 						<MaxEndurance Value="1"/>
 					</Benefits>
-					<Text>Третий доспех за 45 монет (прибавит 1 к Защите и 2 к максимальному значению Жизни):</Text>
 				</Get>
 				<Get>
 					<Head>ДОСПЕХ</Head>
+					<SubHead>Прибавит 1 к Защите и 2 к максимальному значению Жизни</SubHead>
 					<Price>45</Price>
 					<Benefits>
 						<MaxDefence Value="1"/>
