@@ -5866,8 +5866,8 @@
 				<Get-Decrease>
 					<Button>Добавить, Отбавить</Button>
 					<Head>СИЛА</Head>
+					<SubHead>Влияет на бой и всевозможные силовые упражнения.</SubHead>
 					<Stat>Strength</Stat>
-					<Text Style="Small">Влияет на бой и всевозможные силовые упражнения.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Добавить, Отбавить</Button>
