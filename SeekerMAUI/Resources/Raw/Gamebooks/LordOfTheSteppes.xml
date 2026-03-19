@@ -7861,9 +7861,9 @@
 				</Get>
 				<Get>
 					<Head>ВТОРОЙ МЕЧ</Head>
+					<SubHead>Прибавит 1 к Нападению, 1 к Инициативе и 1 к урону</SubHead>
 					<Price>30</Price>
 					<Benefit Name="MaxAttack" Value="2"/>
-					<Text>Сабля за 35 монет (прибавит 1 к Нападению, 1 к Инициативе и 1 к урону):</Text>
 				</Get>
 				<Get>
 					<Head>САБЛЯ</Head>
