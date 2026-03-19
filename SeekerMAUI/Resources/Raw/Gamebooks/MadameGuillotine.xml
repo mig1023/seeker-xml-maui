@@ -2315,8 +2315,8 @@
 				<Get-Decrease>
 					<Button>Добавить, Отбавить</Button>
 					<Head>СИЛА</Head>
+					<SubHead>Основная способность вашего персонажа, влияющая на наносимый и получаемый урон.</SubHead>
 					<Stat>Strength</Stat>
-					<Text Style="Small">Основная способность вашего персонажа, влияющая на наносимый и получаемый урон.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Добавить, Отбавить</Button>
