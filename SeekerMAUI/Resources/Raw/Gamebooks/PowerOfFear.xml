@@ -2218,8 +2218,8 @@
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
 					<Head>ВЛАДЕНИЕ ОРУЖИЕМ</Head>
+					<SubHead>Даёт в бою один дополнительный кубик для определения своей силы удара.</SubHead>
 					<Skill>Weapon</Skill>
-					<Text Style="Small">Даёт в бою один дополнительный кубик для определения своей силы удара.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
