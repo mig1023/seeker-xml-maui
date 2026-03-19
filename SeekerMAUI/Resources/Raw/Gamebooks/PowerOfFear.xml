@@ -2224,8 +2224,8 @@
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
 					<Head>ВЗЛОМ И ВОРОВСТВО</Head>
+					<SubHead>Возможность открывать двери и вскрывать замки.</SubHead>
 					<Skill>Theft</Skill>
-					<Text Style="Small">Возможность открывать двери и вскрывать замки.</Text>
 				</Get-Decrease>
 				<Get-Decrease>
 					<Button>Увеличить, Уменьшить</Button>
