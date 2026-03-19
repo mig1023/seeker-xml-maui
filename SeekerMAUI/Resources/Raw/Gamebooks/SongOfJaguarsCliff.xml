@@ -927,12 +927,10 @@
 				</Get>
 				<Get>
 					<Head>Винчестер</Head>
+					<SubHead>Кольт — середина между ними.</SubHead>
 					<Price>75</Price>
 					<Benefit Name="Weapons" Value="Винчестер,14,3,50-150,2"/>
-					<Texts>
-						<Text Style="Small">Кольт — середина между ними.</Text>
-						<Text>ПОЛЕЗНЫЕ ПРЕДМЕТЫ:</Text>
-					</Texts>
+					<Text>ПОЛЕЗНЫЕ ПРЕДМЕТЫ:</Text>
 				</Get>
 				<Get>
 					<Head>Моток бинта</Head>
