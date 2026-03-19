@@ -1258,9 +1258,9 @@
 			<Actions>
 				<Get>
 					<Head>Дерринджер</Head>
+					<SubHead>Дерринджер малоэффективен, но бесшумен.</SubHead>
 					<Price>0</Price>
 					<Benefit Name="Weapons" Value="Дерринджер,4,1,0-50,1"/>
-					<Text Style="Small">Дерринджер малоэффективен, но бесшумен.</Text>
 				</Get>
 				<Get>
 					<Head>Кольт</Head>
