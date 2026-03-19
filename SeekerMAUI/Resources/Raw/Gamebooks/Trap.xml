@@ -1877,7 +1877,8 @@
 				</Get>
 				<Get>
 					<Button>Купить</Button>
-					<Head>Кожаные доспехи (+3 к атаке)</Head>
+					<Head>Кожаные доспехи</Head>
+					<SubHead>+3 к атаке</SubHead>
 					<Price>1000</Price>
 					<Benefit Name="Equipment" Value="кожаные доспехи,3,1000"/>
 					<Text>...либо...</Text>
