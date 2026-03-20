@@ -3411,8 +3411,8 @@
 			<Actions>
 				<Get>
 					<Head>Гуляшь</Head>
+					<SubHead>Эффект поедания неизвестен.</SubHead>
 					<Price>10</Price>
-					<Text Style="Small">Эффект поедания неизвестен.</Text>
 				</Get>
 				<Get>
 					<Head>Ляпешка</Head>
