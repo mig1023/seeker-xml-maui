@@ -3421,8 +3421,8 @@
 				</Get>
 				<Get>
 					<Head>Пастила</Head>
+					<SubHead>САМОЧУВСТВИЕ -2.</SubHead>
 					<Price>60</Price>
-					<Text Style="Small">САМОЧУВСТВИЕ -2.</Text>
 				</Get>
 				<Get>
 					<Head>Люкюм</Head>
