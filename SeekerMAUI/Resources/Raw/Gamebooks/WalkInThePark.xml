@@ -3426,8 +3426,8 @@
 				</Get>
 				<Get>
 					<Head>Люкюм</Head>
+					<SubHead>МГНОВЕННАЯ СМЕРТЬ!</SubHead>
 					<Price>200</Price>
-					<Text Style="Small">МГНОВЕННАЯ СМЕРТЬ!</Text>
 					<Benefit Name="Trigger" Value="Люкюм"/>
 				</Get>
 				<Get>
