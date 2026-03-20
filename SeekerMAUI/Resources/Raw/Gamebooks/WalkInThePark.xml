@@ -3432,8 +3432,8 @@
 				</Get>
 				<Get>
 					<Head>Чабурэк</Head>
+					<SubHead>ФАВОР -1.</SubHead>
 					<Price>30</Price>
-					<Text Style="Small">ФАВОР -1.</Text>
 				</Get>
 				<Get>
 					<Head>Щарбэт</Head>
