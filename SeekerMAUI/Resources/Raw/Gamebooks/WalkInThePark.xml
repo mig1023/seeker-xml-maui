@@ -3048,12 +3048,12 @@
 				</Get>
 				<Get>
 					<Head>Серп «Молот»</Head>
+					<SubHead>УРОН 3.</SubHead>
 					<Price>500</Price>
 					<Benefits>
 						<Damage Value="3"/>
 						<Weapon Value="серп «Молот»"/>
 					</Benefits>
-					<Text Style="Small">УРОН 3.</Text>
 				</Get>
 				<Get>
 					<Head>Перфоратор «Красная Революционная Жидкость»</Head>
