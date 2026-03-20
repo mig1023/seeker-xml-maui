@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using SeekerMAUI.Gamebook;
-using System.Linq;
 using System.Text.RegularExpressions;
 using static SeekerMAUI.Game.Data;
-using Microsoft.Maui.Controls.Shapes;
 
 namespace SeekerMAUI.Output
 {
@@ -84,7 +81,7 @@ namespace SeekerMAUI.Output
             var text = new Label
             {
                 HorizontalTextAlignment = TextAlignment.Center,
-                Text = subHead,
+                Text = Regex.Unescape(subHead),
                 Margin = new Thickness(0, (Constants.SUBHEAD_PADDING * -1), 0, Constants.SUBHEAD_PADDING),
                 FontFamily = TextFontFamily(),
                 FontSize = FontSize(TextFontSize.Small),
