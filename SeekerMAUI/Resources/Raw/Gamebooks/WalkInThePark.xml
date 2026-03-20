@@ -3085,9 +3085,9 @@
 				</Get>
 				<Get>
 					<Head>Кэпочка «По мэлочи»</Head>
+					<SubHead>ФАВОР +1.</SubHead>
 					<Price>1000</Price>
 					<Benefit Name="Fortune" Value="1"/>
-					<Text Style="Small">ФАВОР +1.</Text>
 				</Get>
 				<Get>
 					<Head>Шмотки охранника</Head>
