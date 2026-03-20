@@ -1984,13 +1984,13 @@
 				</Get>
 				<Get>
 					<Head>Пиво «Невское»</Head>
+					<SubHead>ФАВОР +5.</SubHead>
 					<Price>150</Price>
 					<Multiple/>
 					<Benefits>
 						<Trigger Value="пиво невское"/>
 						<Fortune Value="5"/>
 					</Benefits>
-					<Text Style="Small">ФАВОР +5.</Text>
 				</Get>
 				<Get>
 					<Head>Маринованные грибочки «Баба Маня»</Head>
