@@ -3079,9 +3079,9 @@
 				</Get>
 				<Get>
 					<Head>Накладная борода «Сифон»</Head>
+					<SubHead>ТИХОПОПОСТЬ +1.</SubHead>
 					<Price>1000</Price>
 					<Benefit Name="Stealth" Value="1"/>
-					<Text Style="Small">ТИХОПОПОСТЬ +1.</Text>
 				</Get>
 				<Get>
 					<Head>Кэпочка «По мэлочи»</Head>
