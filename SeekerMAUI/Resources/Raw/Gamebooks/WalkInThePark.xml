@@ -1968,9 +1968,9 @@
 			<Actions>
 				<Get>
 					<Head>«Доширак» Лапша</Head>
+					<SubHead>САМОЧУВСТВИЕ +10.</SubHead>
 					<Price>150</Price>
 					<Multiple/>
-					<Text Style="Small">САМОЧУВСТВИЕ +10.</Text>
 				</Get>
 				<Get>
 					<Head>«Просто Ирак»</Head>
