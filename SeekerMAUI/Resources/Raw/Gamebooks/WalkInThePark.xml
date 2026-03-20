@@ -1994,11 +1994,9 @@
 				</Get>
 				<Get>
 					<Head>Маринованные грибочки «Баба Маня»</Head>
+					<SubHead>МОЧЕСТЬ +2.</SubHead>
 					<Price>500</Price>
-					<Texts>
-						<Text Style="Small">МОЧЕСТЬ +2.</Text>
-						<Text>ВААА! Сколько всего интересного, не правда ли?</Text>
-					</Texts>
+					<Text>ВААА! Сколько всего интересного, не правда ли?</Text>
 				</Get>
 			</Actions>
 			<Options>
