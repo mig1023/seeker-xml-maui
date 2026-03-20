@@ -3029,13 +3029,13 @@
 			<Actions>
 				<Get>
 					<Head>Бензопила «Дружба»</Head>
+					<SubHead>УРОН 6, МОЧЕСТЬ -1.</SubHead>
 					<Price>5000</Price>
 					<Benefits>
 						<Damage Value="6"/>
 						<Strength Value="-1"/>
 						<Weapon Value="бензопила «Дружба»"/>
 					</Benefits>
-					<Text Style="Small">УРОН 6, МОЧЕСТЬ -1.</Text>
 				</Get>
 				<Get>
 					<Head>Тесак «Взаимовыручка»</Head>
