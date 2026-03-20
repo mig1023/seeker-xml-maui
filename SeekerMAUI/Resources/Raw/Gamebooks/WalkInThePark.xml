@@ -3073,9 +3073,9 @@
 				</Get>
 				<Get>
 					<Head>Телогрейка «Dirty Spade»</Head>
+					<SubHead>САМОЧУВСТВИЕ +1.</SubHead>
 					<Price>1000</Price>
 					<Benefit Name="MaxHealth" Value="1"/>
-					<Text Style="Small">САМОЧУВСТВИЕ +1.</Text>
 				</Get>
 				<Get>
 					<Head>Накладная борода «Сифон»</Head>
