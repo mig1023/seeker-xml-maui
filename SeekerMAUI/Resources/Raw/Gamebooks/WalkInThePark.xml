@@ -3057,15 +3057,13 @@
 				</Get>
 				<Get>
 					<Head>Перфоратор «Красная Революционная Жидкость»</Head>
+					<SubHead>УРОН 5.</SubHead>
 					<Price>1000</Price>
 					<Benefits>
 						<Damage Value="5"/>
 						<Weapon Value="перфоратор"/>
 					</Benefits>
-					<Texts>
-						<Text Style="Small">УРОН 5.</Text>
-						<Text>ОДЕЖДА:</Text>
-					</Texts>
+					<Text>ОДЕЖДА:</Text>
 				</Get>
 				<Get>
 					<Head>Берцы «Прямо в каку!»</Head>
