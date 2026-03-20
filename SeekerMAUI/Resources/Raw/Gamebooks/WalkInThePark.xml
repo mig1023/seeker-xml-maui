@@ -3437,8 +3437,8 @@
 				</Get>
 				<Get>
 					<Head>Щарбэт</Head>
+					<SubHead>Эффект поедания неизвестен.</SubHead>
 					<Price>1000</Price>
-					<Text Style="Small">Эффект поедания неизвестен.</Text>
 				</Get>
 				<Get>
 					<Head>Плёв</Head>
