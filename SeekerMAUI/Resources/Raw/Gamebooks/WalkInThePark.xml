@@ -3067,9 +3067,9 @@
 				</Get>
 				<Get>
 					<Head>Берцы «Прямо в каку!»</Head>
+					<SubHead>МОЧЕСТЬ +1.</SubHead>
 					<Price>1000</Price>
 					<Benefit Name="Strength" Value="1"/>
-					<Text Style="Small">МОЧЕСТЬ +1.</Text>
 				</Get>
 				<Get>
 					<Head>Телогрейка «Dirty Spade»</Head>
