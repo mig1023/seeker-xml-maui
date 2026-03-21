@@ -3149,7 +3149,7 @@
 				<Option Goto="515" Text="От ужаса у вас едва не останавливается сердце" Availability="Метка = 3">
 					<Set Value="Label=0"/>
 				</Option>
-				<Option Goto="8" Text="От ужаса у вас едва не останавливается сердце," Availability="Метка &lt; 1">
+				<Option Goto="8" Text="От ужаса у вас едва не останавливается сердце" Availability="Метка &lt; 1">
 					<Set Value="Label=0"/>
 				</Option>
 			</Options>
