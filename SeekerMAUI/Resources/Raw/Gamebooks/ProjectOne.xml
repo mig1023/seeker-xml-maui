@@ -9,10 +9,14 @@
 			<Background Value="e3e8eb"/>
 			<System Value="b7bdbe"/>
 			<ActionBox Value="b7c1c3"/>
-			<Action Value="474745"/>
-			<StatusBar Value="474745"/>
-			<Option Value="889293"/>
-			<Continue Value="889293"/>
+			<Color Value="474745">
+				<Action/>
+				<StatusBar/>
+			</Color>
+			<Color Value="889293">
+				<Option/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Buttons>
 			<Fight>Сражаться</Fight>
