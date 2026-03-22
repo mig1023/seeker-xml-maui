@@ -12,7 +12,8 @@
 			<StatusBar Value="417021"/>
 			<ActionBox Value="6daa44"/>
 			<Action Value="53902b"/>
-			<Color Name="Main, Option" Value="37601c"/>
+			<Main Value="37601c"/>
+			<Option Value="37601c"/>
 		</Styles>
 		<Buttons>
 			<Fight>Сражаться</Fight>
