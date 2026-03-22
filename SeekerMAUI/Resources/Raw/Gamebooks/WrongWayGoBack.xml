@@ -7,8 +7,11 @@
 		<Styles>
 			<System Value="d1e3e8"/>
 			<AdditionalStatus Value="b7cbcf"/>
-			<Color Name="Main, Option, Continue" Value="1a768d"/>
-			<Color Name="Action, StatusBar" Value="125262"/>
+			<Main Value="1a768d"/>
+			<Option Value="1a768d"/>
+			<Continue Value="1a768d"/>
+			<Action Value="125262"/>
+			<StatusBar Value="125262"/>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items=""/>
