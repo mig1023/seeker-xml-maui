@@ -7,8 +7,10 @@
 		<Styles>
 			<Continue Value="9a9a9a"/>
 			<System Value="d6d6d6"/>
-			<Main Value="2e2e2e"/>
-			<Option Value="2e2e2e"/>
+			<Color Value="2e2e2e">
+				<Main/>
+				<Option/>
+			</Color>
 		</Styles>
 		<Default>
 			<HideDisabledOption/>
