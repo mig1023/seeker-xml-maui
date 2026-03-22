@@ -6,8 +6,11 @@
 		</Copyright>
 		<Styles>
 			<Main Value="fe2b01"/>
-			<Color Name="StatusBar, Action" Value="981900"/>
-			<Color Name="Option, System, Continue" Value="fdd815"/>
+			<StatusBar Value="981900"/>
+			<Action Value="981900"/>
+			<Option Value="fdd815"/>
+			<System Value="fdd815"/>
+			<Continue Value="fdd815"/>
 		</Styles>
 		<Default>
 			<HideDisabledOption/>
