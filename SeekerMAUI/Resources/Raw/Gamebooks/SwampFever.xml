@@ -15,8 +15,10 @@
 			<System Value="717963"/>
 			<GoodColor Value="145314"/>
 			<BadColor Value="7f0000"/>
-			<Option Value="5c6649"/>
-			<Main Value="5c6649"/>
+			<Color Value="5c6649">
+				<Option/>
+				<Main/>
+			</Color>
 		</Styles>
 		<Dictionaries>
 			<GetRangeTypes>
