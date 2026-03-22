@@ -10,8 +10,10 @@
 			<Main Value="c0ac6c"/>
 			<Action Value="c0a23b"/>
 			<System Value="f9f9f9"/>
-			<ActionBox Value="e6d9ae"/>
-			<Continue Value="e6d9ae"/>
+			<Color Value="e6d9ae">
+				<ActionBox/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Dictionaries>
 			<Availabilities>
