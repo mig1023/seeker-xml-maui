@@ -10,10 +10,14 @@
 			<Background Value="ffdadb"/>
 			<StatusBar Value="aa2218"/>
 			<SystemFont Value="f7f1b6"/>
-			<Main Value="d52b1e"/>
-			<Option Value="d52b1e"/>
-			<ButtonFont Value="eede49"/>
-			<StatusFont Value="eede49"/>
+			<Color Value="d52b1e">
+				<Main/>
+				<Option/>
+			</Color>
+			<Color Value="eede49">
+				<ButtonFont/>
+				<StatusFont/>
+			</Color>
 		</Styles>
 		<Lists>
 			<GetApartments Items="один, два, три, один, два, три"/>
