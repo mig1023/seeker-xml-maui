@@ -10,7 +10,9 @@
 			<AdditionalStatus Value="b5bac3"/>
 			<ActionBox Value="b5bac3"/>
 			<Action Value="091733"/>
-			<Color Name="Main, Option, Continue" Value="0b1a39"/>
+			<Main Value="0b1a39"/>
+			<Option Value="0b1a39"/>
+			<Continue Value="0b1a39"/>
 		</Styles>
 		<Lists>
 			<Team Items="Captain, ScienseOfficer, MedicalOfficer, EngineeringOfficer, SecurityOfficer, SecurityGuard1, SecurityGuard2"/>
