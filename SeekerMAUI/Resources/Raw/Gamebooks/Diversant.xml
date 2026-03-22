@@ -5,11 +5,13 @@
 			<Author>Павел Горохов, 2010</Author>
 		</Copyright>
 		<Styles>
-			<Color Name="Main, Option" Value="708238"/>
 			<System Value="434a1c"/>
 			<Continue Value="5d6436"/>
 			<Background Value="4b5320"/>
-			<Color Name="Font, SystemFont" Value="d4d9c3"/>
+			<Main Value="708238"/>
+			<Option Value="708238"/>
+			<Font Value="d4d9c3"/>
+			<SystemFont Value="d4d9c3"/>
 		</Styles>
 		<Default>
 			<HideDisabledOption/>
