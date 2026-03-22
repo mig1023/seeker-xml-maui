@@ -15,8 +15,10 @@
 			<System Value="af1f28"/>
 			<Option Value="ce2f28"/>
 			<Continue Value="ce2f28"/>
-			<SystemFont Value="ffffff"/>
-			<AdditionalFont Value="ffffff"/>
+			<Color Value="ffffff">
+				<SystemFont/>
+				<AdditionalFont/>
+			</Color>
 		</Styles>
 		<Dictionaries>
 			<Availabilities>
