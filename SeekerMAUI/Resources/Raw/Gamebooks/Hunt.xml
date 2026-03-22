@@ -9,7 +9,8 @@
 			<Continue Value="668f56"/>
 			<System Value="b3c7aa"/>
 			<StatusBar Value="548141"/>
-			<Color Name="Main, Option" Value="41742c"/>
+			<Main Value="41742c"/>
+			<Option Value="41742c"/>
 		</Styles>
 		<Dictionaries>
 			<Availabilities>
