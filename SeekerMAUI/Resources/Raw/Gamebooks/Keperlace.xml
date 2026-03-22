@@ -6,8 +6,14 @@
 		</Copyright>
 		<Styles>
 			<Option Value="377cbf"/>
-			<Color Name="Font, ButtonFont, Border, System" Value="a0f4ef"/>
-			<Color Name="Background, Main, Continue, SystemFont" Value="065cb0"/>
+			<Font Value="a0f4ef"/>
+			<ButtonFont Value="a0f4ef"/>
+			<Border Value="a0f4ef"/>
+			<System Value="a0f4ef"/>
+			<Background Value="065cb0"/>
+			<Main Value="065cb0"/>
+			<Continue Value="065cb0"/>
+			<SystemFont Value="065cb0"/>
 		</Styles>
 		<Default>
 			<HideDisabledOption/>
