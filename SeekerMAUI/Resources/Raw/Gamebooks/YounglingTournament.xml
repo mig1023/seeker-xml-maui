@@ -10,7 +10,8 @@
 			<Main Value="c0ac6c"/>
 			<Action Value="c0a23b"/>
 			<System Value="f9f9f9"/>
-			<Color Name="ActionBox, Continue" Value="e6d9ae"/>
+			<ActionBox Value="e6d9ae"/>
+			<Continue Value="e6d9ae"/>
 		</Styles>
 		<Dictionaries>
 			<Availabilities>
