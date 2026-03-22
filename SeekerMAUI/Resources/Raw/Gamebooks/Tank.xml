@@ -10,13 +10,19 @@
 			<Font Value="b4b4b4"/>
 			<StatusBar Value="961919"/>
 			<AdditionalStatus Value="781414"/>
-			<Main Value="8b0000"/>
-			<Action Value="8b0000"/>
-			<Option Value="610000"/>
-			<Continue Value="610000"/>
-			<System Value="610000"/>
-			<SystemFont Value="ffffff"/>
-			<AdditionalFont Value="ffffff"/>
+			<Color Value="8b0000">
+				<Main/>
+				<Action/>
+			</Color>
+			<Color Value="610000">
+				<Option/>
+				<Continue/>
+				<System/>
+			</Color>
+			<Color Value="ffffff">
+				<SystemFont/>
+				<AdditionalFont/>
+			</Color>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 101"/>
