@@ -10,10 +10,14 @@
 			<Main Value="383e3b"/>
 			<Action Value="516f72"/>
 			<System Value="9dadaf"/>
-			<Option Value="738b8e"/>
-			<Continue Value="738b8e"/>
-			<AdditionalStatus Value="a8b7b8"/>
-			<ActionBox Value="a8b7b8"/>
+			<Color Value="738b8e">
+				<Option/>
+				<Continue/>
+			</Color>
+			<Color Value="a8b7b8">
+				<AdditionalStatus/>
+				<ActionBox/>
+			</Color>
 		</Styles>
 		<Dictionaries>
 			<GetCountName>
