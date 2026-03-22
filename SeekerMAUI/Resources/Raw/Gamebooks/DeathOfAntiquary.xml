@@ -7,7 +7,8 @@
 		<Styles>
 			<Continue Value="9a9a9a"/>
 			<System Value="d6d6d6"/>
-			<Color Name="Main, Option" Value="2e2e2e"/>
+			<Main Value="2e2e2e"/>
+			<Option Value="2e2e2e"/>
 		</Styles>
 		<Default>
 			<HideDisabledOption/>
