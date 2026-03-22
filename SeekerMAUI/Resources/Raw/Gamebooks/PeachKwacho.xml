@@ -10,8 +10,10 @@
 			<Action Value="401f2e"/>
 			<ActionBox Value="ad96a1"/>
 			<SystemFont Value="e3e3e4"/>
-			<Color Name="Main, System" Value="5c2d43"/>
-			<Color Name="Option, Continue" Value="76465d"/>
+			<Main Value="5c2d43"/>
+			<System Value="5c2d43"/>
+			<Option Value="76465d"/>
+			<Continue Value="76465d"/>
 		</Styles>
 		<Buttons>
 			<Fight>Сразиться</Fight>
