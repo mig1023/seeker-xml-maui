@@ -6,14 +6,20 @@
 		</Copyright>
 		<Styles>
 			<StatusBar Value="870808"/>
-			<Main Value="011066"/>
-			<AdditionalStatus Value="011066"/>
-			<Action Value="6a0002"/>
-			<Option Value="6a0002"/>
-			<System Value="6a0002"/>
-			<Continue Value="6a0002"/>
-			<SystemFont Value="ffffff"/>
-			<AdditionalFont Value="ffffff"/>
+			<Color Value="011066">
+				<Main/>
+				<AdditionalStatus/>
+			</Color>
+			<Color Value="6a0002">
+				<Action/>
+				<Option/>
+				<System/>
+				<Continue/>
+			</Color>
+			<Color Value="ffffff">
+				<SystemFont/>
+				<AdditionalFont/>
+			</Color>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 301, 302"/>
