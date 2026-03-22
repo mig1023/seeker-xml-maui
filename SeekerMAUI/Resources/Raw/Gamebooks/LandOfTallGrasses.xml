@@ -5,15 +5,19 @@
 			<Author>С. П. Полищук, 2000</Author>
 		</Copyright>
 		<Styles>
-			<Continue Value="417021"/>
 			<Background Value="5da130"/>
 			<Font Value="ffffff"/>
 			<System Value="8dbd6e"/>
-			<StatusBar Value="417021"/>
 			<ActionBox Value="6daa44"/>
-			<Action Value="53902b"/>
-			<Main Value="37601c"/>
-			<Option Value="37601c"/>
+			<Action Value="53902b"/>			
+			<Color Value="417021">
+				<Continue/>
+				<StatusBar/>
+			</Color>
+			<Color Value="37601c">
+				<Main/>
+				<Option/>
+			</Color>
 		</Styles>
 		<Buttons>
 			<Fight>Сражаться</Fight>
