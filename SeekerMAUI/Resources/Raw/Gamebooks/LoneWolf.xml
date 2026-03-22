@@ -9,8 +9,10 @@
 			<StatusBar Value="1e412b"/>
 			<Action Value="449260"/>
 			<System Value="95ae9e"/>
-			<Main Value="2c5e3e"/>
-			<Option Value="2c5e3e"/>
+			<Color Value="2c5e3e">
+				<Main/>
+				<Option/>
+			</Color>
 		</Styles>
 		<Dictionaries>
 			<CoefficientN12 ItemsByOrder="6/0, 0/-1, 0/-1, 0/8, 0/8, 1/7, 2/6, 3/5, 4/4, 5/3"/>
