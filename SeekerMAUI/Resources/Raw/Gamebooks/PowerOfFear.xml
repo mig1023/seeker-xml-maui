@@ -9,7 +9,10 @@
 			<AdditionalFont Value="ffffff"/>
 			<StatusBar Value="414e5d"/>
 			<System Value="bfc4c9"/>
-			<Color Name="Main, Option, Continue, Action" Value="2c3b4b"/>
+			<Main Value="2c3b4b"/>
+			<Option Value="2c3b4b"/>
+			<Continue Value="2c3b4b"/>
+			<Action Value="2c3b4b"/>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 231"/>
