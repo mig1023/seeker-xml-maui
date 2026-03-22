@@ -9,8 +9,11 @@
 			<StatusBar Value="009559"/>
 			<AdditionalStatus Value="339f6d"/>
 			<System Value="339f6d"/>
-			<Color Name="Main, Option, Continue" Value="006c3a"/>
-			<Color Name="Font, SystemFont" Value="ffffff"/>
+			<Main Value="006c3a"/>
+			<Option Value="006c3a"/>
+			<Continue Value="006c3a"/>
+			<Font Value="ffffff"/>
+			<SystemFont Value="ffffff"/>
 		</Styles>
 		<Dictionaries>
 			<Teams>
