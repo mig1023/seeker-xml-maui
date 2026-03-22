@@ -8,10 +8,14 @@
 			<System Value="434a1c"/>
 			<Continue Value="5d6436"/>
 			<Background Value="4b5320"/>
-			<Main Value="708238"/>
-			<Option Value="708238"/>
-			<Font Value="d4d9c3"/>
-			<SystemFont Value="d4d9c3"/>
+			<Color Value="708238">
+				<Main/>
+				<Option/>
+			</Color>
+			<Color Value="d4d9c3">
+				<Font/>
+				<SystemFont/>
+			</Color>
 		</Styles>
 		<Default>
 			<HideDisabledOption/>
