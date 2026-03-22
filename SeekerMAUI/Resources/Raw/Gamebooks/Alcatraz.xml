@@ -7,7 +7,8 @@
 		<Styles>
 			<Main Value="15465d"/>
 			<System Value="b4cbd2"/>
-			<Color Name="Option, Continue" Value="457e8f"/>
+			<Option Value="457e8f"/>
+			<Continue Value="457e8f"/>
 		</Styles>
 	</Introduction>
 	<Paragraphs>
