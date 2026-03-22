@@ -187,7 +187,12 @@ namespace SeekerMAUI.Game
 
             foreach (XmlNode xmlNode in xmlFile.SelectNodes(Intro("Styles/*")))
             {
-                if (xmlNode.Attributes["Name"] != null)
+                if (xmlNode.Name == "Color")
+                {
+                    foreach (XmlNode type in xmlNode.SelectNodes("*"))
+                        Data.Constants.LoadColor(type.Name, xmlNode.Attributes["Value"].InnerText);
+                }
+                else if (xmlNode.Attributes["Name"] != null)
                 {
                     foreach (string type in Multiples(xmlNode, "Name"))
                         Data.Constants.LoadColor(type, xmlNode.Attributes["Value"].InnerText);
