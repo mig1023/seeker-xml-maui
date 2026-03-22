@@ -5,10 +5,12 @@
 			<Author>Aleks Otter, 2023</Author>
 		</Copyright>
 		<Styles>
-			<Main Value="000000"/>
-			<Option Value="000000"/>
-			<Continue Value="000000"/>
-			<StatusFont Value="000000"/>
+			<Color Value="000000">
+				<Main/>
+				<Option/>
+				<Continue/>
+				<StatusFont/>
+			</Color>
 			<System Value="f4f4f4"/>
 		</Styles>
 		<Default>
