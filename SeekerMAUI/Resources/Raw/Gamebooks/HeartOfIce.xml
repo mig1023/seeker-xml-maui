@@ -9,12 +9,18 @@
 			<StatusBar Value="5c7ca5"/>
 			<Action Value="0679b0"/>
 			<System Value="1f93c9"/>
-			<Font Value="d3f0fd"/>
-			<SystemFont Value="d3f0fd"/>
-			<Main Value="389fcf"/>
-			<ActionBox Value="389fcf"/>
-			<Option Value="6ab7db"/>
-			<Continue Value="6ab7db"/>
+			<Color Value="d3f0fd">
+				<Font/>
+				<SystemFont/>
+			</Color>
+			<Color Value="389fcf">
+				<Main/>
+				<ActionBox/>
+			</Color>
+			<Color Value="6ab7db">
+				<Option/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 454, 455, 456, 457"/>
