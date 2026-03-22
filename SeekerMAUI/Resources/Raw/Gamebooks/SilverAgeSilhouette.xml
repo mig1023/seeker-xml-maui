@@ -10,9 +10,11 @@
 			<StatusBar Value="dfd4ae"/>
 			<ActionBox Value="f5e5ab"/>
 			<Background Value="fcf7e6"/>
-			<Main Value="f8ecc2"/>
-			<Action Value="f8ecc2"/>
-			<Continue Value="f8ecc2"/>
+			<Color Value="f8ecc2">
+				<Main/>
+				<Action/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Default>
 			<FontSize Value="Little"/>
