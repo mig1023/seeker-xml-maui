@@ -12,7 +12,9 @@
 			<Option Value="858581"/>
 			<Action Value="939393"/>
 			<Continue Value="a9a9a6"/>
-			<Color Name="StatusBar, ActionBox, System" Value="b8b8b8"/>
+			<StatusBar Value="b8b8b8"/>
+			<ActionBox Value="b8b8b8"/>
+			<System Value="b8b8b8"/>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 401, 402"/>
