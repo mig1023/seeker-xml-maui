@@ -178,7 +178,7 @@ namespace SeekerMAUI.Game
                 backgroundWorker.ReportProgress(progress);
                 progress += 1;
 
-                Thread.Sleep(4);
+                Thread.Sleep(1);
             }           
 
             Data.Constants.Clean();
