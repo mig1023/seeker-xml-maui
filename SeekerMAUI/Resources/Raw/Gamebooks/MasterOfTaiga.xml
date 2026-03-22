@@ -7,11 +7,15 @@
 		<Styles>
 			<Main Value="3e5434"/>
 			<Background Value="314329"/>
-			<Font Value="a5b0a0"/>
-			<SystemFont Value="a5b0a0"/>
-			<Option Value="64765c"/>
-			<Continue Value="64765c"/>
-			<System Value="64765c"/>
+			<Color Value="a5b0a0">
+				<Font/>
+				<SystemFont/>
+			</Color>
+			<Color Value="64765c">
+				<Option/>
+				<Continue/>
+				<System/>
+			</Color>
 		</Styles>
 	</Introduction>
 	<Paragraphs>
