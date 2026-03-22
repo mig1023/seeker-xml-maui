@@ -8,13 +8,19 @@
 			<Main Value="a4be84"/>
 			<Continue Value="cad9b7"/>
 			<System Value="e9efe2"/>
-			<Action Value="72855c"/>
-			<StatusBar Value="72855c"/>
-			<Font Value="000000"/>
-			<ButtonFont Value="000000"/>
-			<SystemFont Value="000000"/>
-			<ActionBox Value="c8d8b5"/>
-			<AdditionalStatus Value="c8d8b5"/>
+			<Color Value="72855c">
+				<Action/>
+				<StatusBar/>
+			</Color>
+			<Color Value="000000">
+				<Font/>
+				<ButtonFont/>
+				<SystemFont/>
+			</Color>
+			<Color Value="c8d8b5">
+				<ActionBox/>
+				<AdditionalStatus/>
+			</Color>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 102, 103"/>
