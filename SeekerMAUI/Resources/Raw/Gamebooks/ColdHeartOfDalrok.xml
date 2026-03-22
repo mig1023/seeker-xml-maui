@@ -13,8 +13,10 @@
 			<SystemFont Value="ffffff"/>
 			<ActionBox Value="90a68d"/>
 			<Action Value="6a4429"/>
-			<Option Value="61805d"/>
-			<Continue Value="61805d"/>
+			<Color Value="61805d">
+				<Option/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Lists>
 			<Fails Items="Безрезультатно, Не получилось, Безуспешно, Тщетно, Напрасно, Бесполезно, Безнадёжно, Впустую, Вхолостую, Без толку, Бесполезная трата времени, Бесполезная трата усилий, Как мертвому припарки, Толку нет, Не в коня корм"/>
