@@ -7,11 +7,15 @@
 		<Styles>
 			<System Value="d1e3e8"/>
 			<AdditionalStatus Value="b7cbcf"/>
-			<Main Value="1a768d"/>
-			<Option Value="1a768d"/>
-			<Continue Value="1a768d"/>
-			<Action Value="125262"/>
-			<StatusBar Value="125262"/>
+			<Color Value="1a768d">
+				<Main/>
+				<Option/>
+				<Continue/>
+			</Color>
+			<Color Value="125262">
+				<Action/>
+				<StatusBar/>
+			</Color>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items=""/>
