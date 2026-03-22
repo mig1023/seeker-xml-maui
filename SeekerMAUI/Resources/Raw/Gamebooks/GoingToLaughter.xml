@@ -9,7 +9,8 @@
 			<Continue Value="814548"/>
 			<Action Value="693f41"/>
 			<System Value="f3f0f0"/>
-			<Color Name="Main, Option" Value="441012"/>
+			<Main Value="441012"/>
+			<Option Value="441012"/>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 1393, 1394"/>
