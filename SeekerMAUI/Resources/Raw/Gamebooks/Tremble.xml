@@ -9,8 +9,10 @@
 			<Action Value="00a6b6"/>
 			<Continue Value="19927a"/>
 			<SystemFont Value="ffffff"/>
-			<Main Value="038f8d"/>
-			<Option Value="038f8d"/>
+			<Color Value="038f8d">
+				<Main/>
+				<Option/>
+			</Color>
 		</Styles>
 		<Default>
 			<HideDisabledOption/>
