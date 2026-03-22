@@ -9,9 +9,12 @@
 			<Background Value="e7edf3"/>
 			<SystemFont Value="ffffff"/>
 			<AdditionalStatus Value="bcc7d5"/>
-			<Color Name="Continue, System" Value="9ab2c6"/>	
-			<Color Name="ActionBox, StatusBar" Value="a0afc4"/>
-			<Color Name="Action, Option" Value="7c8898"/>
+			<Continue Value="9ab2c6"/>	
+			<System Value="9ab2c6"/>	
+			<ActionBox Value="a0afc4"/>
+			<StatusBar Value="a0afc4"/>
+			<Action Value="7c8898"/>
+			<Option Value="7c8898"/>
 		</Styles>
 		<Dictionaries>
 			<Skills ItemsByOrder="9, 10, 12, 11, 11, 9"/>
