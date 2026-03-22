@@ -8,9 +8,13 @@
 			<Main Value="a4be84"/>
 			<Continue Value="cad9b7"/>
 			<System Value="e9efe2"/>
-			<Color Name="Action, StatusBar" Value="72855c"/>
-			<Color Name="Font, ButtonFont, SystemFont" Value="000000"/>
-			<Color Name="ActionBox, AdditionalStatus" Value="c8d8b5"/>
+			<Action Value="72855c"/>
+			<StatusBar Value="72855c"/>
+			<Font Value="000000"/>
+			<ButtonFont Value="000000"/>
+			<SystemFont Value="000000"/>
+			<ActionBox Value="c8d8b5"/>
+			<AdditionalStatus Value="c8d8b5"/>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 102, 103"/>
