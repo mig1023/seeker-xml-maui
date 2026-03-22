@@ -9,9 +9,12 @@
 			<ActionBox Value="f3e5d1"/>
 			<StatusBar Value="bcaa8f"/>
 			<AdditionalStatus Value="d0c3b0"/>
-			<Color Name="Main, Action" Value="ebd5b3"/>
-			<Color Name="Option, Background" Value="f9f2e8"/>
-			<Color Name="ButtonFont, StatusFont" Value="000000"/>
+			<Main Value="ebd5b3"/>
+			<Action Value="ebd5b3"/>
+			<Option Value="f9f2e8"/>
+			<Background Value="f9f2e8"/>
+			<ButtonFont Value="000000"/>
+			<StatusFont Value="000000"/>
 		</Styles>
 		<Lists>
 			<WithoutStaticsButtons Items="0, 1"/>
