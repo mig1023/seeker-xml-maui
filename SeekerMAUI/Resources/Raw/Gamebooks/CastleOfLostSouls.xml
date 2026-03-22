@@ -6,7 +6,11 @@
 		</Copyright>
 		<Styles>
 			<System Value="afc7bc"/>
-			<Color Name="Main, Option, Continue, StatusBar, Action" Value="8faf9f"/>
+			<Main Value="8faf9f"/>
+			<Option Value="8faf9f"/>
+			<Continue Value="8faf9f"/>
+			<StatusBar Value="8faf9f"/>
+			<Action Value="8faf9f"/>
 		</Styles>
 		<Dictionaries>
 			<StatNames>
