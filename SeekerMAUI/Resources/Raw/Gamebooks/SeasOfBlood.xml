@@ -9,7 +9,8 @@
 			<StatusBar Value="12a0c5"/>
 			<Action Value="0a6076"/>
 			<System Value="8e9fc0"/>
-			<Color Name="Option, Continue" Value="34528e"/>
+			<Option Value="34528e"/>
+			<Continue Value="34528e"/>
 		</Styles>
 		<Buttons>
 			<Fight>Индивидуальное сражение</Fight>
