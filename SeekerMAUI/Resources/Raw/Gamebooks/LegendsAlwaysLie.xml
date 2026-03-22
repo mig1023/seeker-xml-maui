@@ -12,8 +12,10 @@
 			<Main Value="911"/>
 			<Action Value="ba2020"/>
 			<System Value="e6c5c5"/>
-			<Option Value="cc8888"/>
-			<Continue Value="cc8888"/>
+			<Color Value="cc8888">
+				<Option/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 714, 715, 716"/>
