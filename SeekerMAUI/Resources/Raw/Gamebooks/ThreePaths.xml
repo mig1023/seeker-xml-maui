@@ -8,8 +8,10 @@
 			<StatusBar Value="007a7a"/>
 			<Action Value="005b5b"/>
 			<Continue Value="6fc5c5"/>
-			<Main Value="009999"/>
-			<Option Value="009999"/>
+			<Color Value="009999">
+				<Main/>
+				<Option/>
+			</Color>
 		</Styles>
 		<Dictionaries>
 			<Availabilities>
