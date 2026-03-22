@@ -10,8 +10,10 @@
 			<Background Value="faddcb"/>
 			<AdditionalStatus Value="db8314"/>
 			<System Value="8c463e"/>
-			<Color Name="Option, Continue" Value="a56245"/>
-			<Color Name="SystemFont, AdditionalFont" Value="ffffff"/>
+			<Option Value="a56245"/>
+			<Continue Value="a56245"/>
+			<SystemFont Value="ffffff"/>
+			<AdditionalFont Value="ffffff"/>
 		</Styles>
 		<Dictionaries>
 			<TextByYears>
