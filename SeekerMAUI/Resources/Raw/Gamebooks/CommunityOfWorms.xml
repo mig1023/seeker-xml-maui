@@ -5,8 +5,10 @@
 			<Author>Пётр Прокошев, 2017</Author>
 		</Copyright>
 		<Styles>
-			<Main Value="191039"/>
-			<Option Value="191039"/>
+			<Color Value="191039">
+				<Main/>
+				<Option/>
+			</Color>
 		</Styles>
 	</Introduction>
 	<Paragraphs>
