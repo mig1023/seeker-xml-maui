@@ -7,12 +7,16 @@
 		<Styles>
 			<System Value="ced1d7"/>
 			<StatusBar Value="3b4760"/>
-			<AdditionalStatus Value="b5bac3"/>
-			<ActionBox Value="b5bac3"/>
+			<Color Value="b5bac3">
+				<AdditionalStatus/>
+				<ActionBox/>
+			</Color>
 			<Action Value="091733"/>
-			<Main Value="0b1a39"/>
-			<Option Value="0b1a39"/>
-			<Continue Value="0b1a39"/>
+			<Color Value="0b1a39">
+				<Main/>
+				<Option/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Lists>
 			<Team Items="Captain, ScienseOfficer, MedicalOfficer, EngineeringOfficer, SecurityOfficer, SecurityGuard1, SecurityGuard2"/>
