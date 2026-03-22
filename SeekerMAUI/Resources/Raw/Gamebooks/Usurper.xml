@@ -8,9 +8,11 @@
 			<StatusBar Value="222222"/>
 			<System Value="afafaf"/>
 			<AdditionalStatus Value="e8e8e8"/>
-			<Main Value="373839"/>
-			<Option Value="373839"/>
-			<Continue Value="373839"/>
+			<Color Value="373839">
+				<Main/>
+				<Option/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Lists>
 			<Random Items="Тур, Филин, Змея, Полководец, Дуэлянт, Лингвист, Знаток религий, Авантюрист, Лисица"/>
