@@ -5,16 +5,20 @@
 			<Author>Константин Таро, 2010</Author>
 		</Copyright>
 		<Styles>
-			<Main Value="cc5000"/>
-			<Option Value="cc5000"/>
-			<Continue Value="cc5000"/>
-			<System Value="cc5000"/>
-			<StatusFont Value="cc5000"/>
-			<StatusBorder Value="cc5000"/>
-			<Font Value="cc5000"/>
-			<Background Value="000000"/>
-			<ButtonFont Value="000000"/>
-			<ButtonFont Value="000000"/>
+			<Color Value="cc5000">
+				<Main/>
+				<Option/>
+				<Continue/>
+				<System/>
+				<StatusFont/>
+				<StatusBorder/>
+				<Font/>
+			</Color>
+			<Color Value="000000">
+				<Background/>
+				<ButtonFont/>
+				<StatusBar/>
+			</Color>	
 		</Styles>
 		<Dictionaries>
 			<Availabilities>
