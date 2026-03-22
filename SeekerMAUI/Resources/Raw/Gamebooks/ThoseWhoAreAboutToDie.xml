@@ -6,12 +6,16 @@
 		</Copyright>
 		<Styles>
 			<StatusBar Value="fce391"/>
-			<Continue Value="fdeeba"/>
-			<Main Value="fcdd76"/>
-			<Action Value="fcdd76"/>
-			<Option Value="fcdd76"/>
-			<ButtonFont Value="000000"/>
-			<StatusFont Value="000000"/>
+			<Continue Value="fdeeba"/>		
+			<Color Value="fcdd76">
+				<Main/>
+				<Action/>
+				<Option/>
+			</Color>
+			<Color Value="000000">
+				<ButtonFont/>
+				<StatusFont/>
+			</Color>
 		</Styles>
 	</Introduction>
 	<Paragraphs>
