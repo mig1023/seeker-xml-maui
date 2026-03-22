@@ -13,8 +13,10 @@
 			<Main Value="a32520"/>
 			<ActionBox Value="ff9999"/>
 			<System Value="af1f28"/>
-			<Color Name="Option, Continue" Value="ce2f28"/>
-			<Color Name="SystemFont, AdditionalFont" Value="ffffff"/>
+			<Option Value="ce2f28"/>
+			<Continue Value="ce2f28"/>
+			<SystemFont Value="ffffff"/>
+			<AdditionalFont Value="ffffff"/>
 		</Styles>
 		<Dictionaries>
 			<Availabilities>
