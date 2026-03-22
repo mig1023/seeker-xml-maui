@@ -11,7 +11,8 @@
 			<StatusBar Value="081615"/>
 			<Background Value="153736"/>
 			<Font Value="a1afae"/>
-			<Color Name="Option, Continue" Value="123130"/>
+			<Option Value="123130"/>
+			<Continue Value="123130"/>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 103"/>
