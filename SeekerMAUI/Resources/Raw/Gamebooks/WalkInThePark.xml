@@ -9,9 +9,11 @@
 			<Action Value="ba2020"/>
 			<StatusBar Value="b81315"/>
 			<SystemFont Value="ffffff"/>
-			<Option Value="8f0f10"/>
-			<System Value="8f0f10"/>
-			<Continue Value="8f0f10"/>
+			<Color Value="8f0f10">
+				<Option/>
+				<System/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Lists>
 			<How Items="люто, бешено, лихо, резво, слегонца, по полной, крепко, мальца, объёмно"/>
