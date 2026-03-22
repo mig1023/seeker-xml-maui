@@ -7,8 +7,10 @@
 		<Styles>
 			<Main Value="7d2c1c"/>
 			<System Value="f0d1b9"/>
-			<Option Value="b45b27"/>
-			<Continue Value="b45b27"/>
+			<Color Value="b45b27">
+				</Option>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Lists>
 			<CleaningNotebookList Items="Билли убит в амбаре, Все любили Билли, Убит ночью, Не успел защититься, У убийцы есть рука, Убийца женщина, Надо проверить салон мадам Жу-жу, Женская перчатка, Дробовик, Патроны, Портсигар"/>
