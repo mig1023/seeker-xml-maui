@@ -7,13 +7,19 @@
 		<Styles>
 			<Background Value="018749"/>
 			<StatusBar Value="009559"/>
-			<AdditionalStatus Value="339f6d"/>
-			<System Value="339f6d"/>
-			<Main Value="006c3a"/>
-			<Option Value="006c3a"/>
-			<Continue Value="006c3a"/>
-			<Font Value="ffffff"/>
-			<SystemFont Value="ffffff"/>
+			<Color Value="339f6d">
+				<AdditionalStatus/>
+				<System/>
+			</Color>
+			<Color Value="006c3a">
+				<Main/>
+				<Option/>
+				<Continue/>
+			</Color>
+			<Color Value="ffffff">
+				<Font/>
+				<SystemFont/>
+			</Color>
 		</Styles>
 		<Dictionaries>
 			<Teams>
