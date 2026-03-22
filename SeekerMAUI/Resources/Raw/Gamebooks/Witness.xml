@@ -6,7 +6,9 @@
 		</Copyright>
 		<Styles>
 			<System Value="d0d0d0"/>
-			<Color Name="Main, Option, Continue" Value="151515"/>
+			<Main Value="151515"/>
+			<Option Value="151515"/>
+			<Continue Value="151515"/>
 		</Styles>
 	</Introduction>
 	<Paragraphs>
