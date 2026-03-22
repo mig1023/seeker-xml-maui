@@ -6,14 +6,18 @@
 		</Copyright>
 		<Styles>
 			<Option Value="377cbf"/>
-			<Font Value="a0f4ef"/>
-			<ButtonFont Value="a0f4ef"/>
-			<Border Value="a0f4ef"/>
-			<System Value="a0f4ef"/>
-			<Background Value="065cb0"/>
-			<Main Value="065cb0"/>
-			<Continue Value="065cb0"/>
-			<SystemFont Value="065cb0"/>
+			<Color Value="a0f4ef">
+				<Font/>
+				<ButtonFont/>
+				<Border/>
+				<System/>
+			</Color>
+			<Color Value="065cb0">
+				<Background/>
+				<Main/>
+				<Continue/>
+				<SystemFont/>
+			</Color>
 		</Styles>
 		<Default>
 			<HideDisabledOption/>
