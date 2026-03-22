@@ -9,8 +9,10 @@
 			<Main Value="911"/>
 			<Action Value="ba2020"/>
 			<System Value="f0dddd"/>
-			<Option Value="dbabab"/>
-			<Continue Value="dbabab"/>
+			<Color Value="dbabab">
+				<Option/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Dictionaries>
 			<CharactersParams>
