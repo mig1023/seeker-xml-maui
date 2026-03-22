@@ -9,8 +9,10 @@
 			<System Value="dbb37e"/>
 			<ButtonFont Value="000000"/>
 			<Action Value="d6a96f"/>
-			<Option Value="dfbc8f"/>
-			<Continue Value="dfbc8f"/>
+			<Color Value="dfbc8f">
+				<Option/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Buttons>
 			<RollCoin>Бросить монетку</RollCoin>
