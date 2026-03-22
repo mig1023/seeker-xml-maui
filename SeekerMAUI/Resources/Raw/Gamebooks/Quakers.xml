@@ -7,7 +7,8 @@
 		<Styles>
 			<Main Value="646464"/>
 			<SystemFont Value="ffffff"/>
-			<Color Name="Continue, StatusBar" Value="8f8f8f"/>
+			<Continue Value="8f8f8f"/>
+			<StatusBar Value="8f8f8f"/>
 		</Styles>
 		<Default>
 			<HideDisabledOption/>
