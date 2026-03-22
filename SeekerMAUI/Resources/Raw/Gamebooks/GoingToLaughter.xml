@@ -9,8 +9,10 @@
 			<Continue Value="814548"/>
 			<Action Value="693f41"/>
 			<System Value="f3f0f0"/>
-			<Main Value="441012"/>
-			<Option Value="441012"/>
+			<Color Value="441012">
+				<Main/>
+				<Option/>
+			</Color>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 1393, 1394"/>
