@@ -7,9 +7,11 @@
 		<Styles>
 			<StatusBar Value="ce4f36"/>
 			<System Value="eeeeee"/>
-			<Main Value="c93c20"/>
-			<Action Value="c93c20"/>
-			<Option Value="c93c20"/>
+			<Color Value="c93c20">
+				<Main/>
+				<Action/>
+				<Option/>
+			</Color>
 		</Styles>
 		<Default>
 			<HideDisabledOption/>
