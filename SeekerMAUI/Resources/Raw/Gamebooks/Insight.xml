@@ -7,15 +7,19 @@
 		<Styles>
 			<ActionBox Value="efefef"/>
 			<System Value="f4f4f4"/>
-			<Main Value="ffffff"/>
-			<Action Value="ffffff"/>
-			<Option Value="ffffff"/>
-			<StatusBar Value="ffffff"/>
-			<Continue Value="ffffff"/>
-			<ButtonFont Value="000000"/>
-			<StatusFont Value="000000"/>
-			<StatusBorder Value="000000"/>
-			<Border Value="000000"/>
+			<Color Value="ffffff">
+				<Main/>
+				<Action/>
+				<Option/>
+				<StatusBar/>
+				<Continue/>
+			</Color>
+			<Color Value="000000">
+				<ButtonFont/>
+				<StatusFont/>
+				<StatusBorder/>
+				<Border/>
+			</Color>
 		</Styles>
 		<Lists>
 			<WithoutStatuses Items="0, 334, 335"/>
