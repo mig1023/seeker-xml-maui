@@ -7,8 +7,11 @@
 		<Styles>
 			<StatusBar Value="fce391"/>
 			<Continue Value="fdeeba"/>
-			<Color Name="Main, Action, Option" Value="fcdd76"/>
-			<Color Name="ButtonFont, StatusFont" Value="000000"/>
+			<Main Value="fcdd76"/>
+			<Action Value="fcdd76"/>
+			<Option Value="fcdd76"/>
+			<ButtonFont Value="000000"/>
+			<StatusFont Value="000000"/>
 		</Styles>
 	</Introduction>
 	<Paragraphs>
