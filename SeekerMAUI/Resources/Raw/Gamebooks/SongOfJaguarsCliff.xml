@@ -8,9 +8,11 @@
 			<Action Value="5f311c"/>
 			<System Value="b7907e"/>
 			<StatusBar Value="512a18"/>
-			<Main Value="884728"/>
-			<Option Value="884728"/>
-			<Continue Value="884728"/>
+			<Color Value="884728">
+				<Main/>
+				<Option/>
+				<Continue/>
+			</Color>
 		</Styles>
 		<Lists>
 			<PriorityNames Items="стреляет первым,,,пропускает ход"/>
