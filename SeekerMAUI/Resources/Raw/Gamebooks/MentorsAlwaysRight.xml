@@ -5146,9 +5146,10 @@
 					<Specialization>Warrior</Specialization>
 				</Get>
 				<Get>
-					<Button>Стать магом</Button>
+					<Head>СТАТЬ МАГОМ</Head>
+					<SubHead>Сила мага равна двенадцати, три заклинания и столько же обращений.</SubHead>
+					<Button>Выбрать мага</Button>
 					<Specialization>Wizard</Specialization>
-					<Text>Сила мага равна двенадцати, три заклинания и столько же обращений.</Text>
 				</Get>
 				<Get>
 					<Button>Стать метателем</Button>
