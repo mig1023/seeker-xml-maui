@@ -40,7 +40,10 @@
 			<SeaBattle>Морской бой</SeaBattle>
 			<Break>Попытаться</Break>
 			<Forest>Идти через лес</Forest>
-			<Button Action="DicesLuckRecovery, FullLuckRecovery">Восстановить удачу</Button>
+			<Button Value="Восстановить удачу">
+				<DicesLuckRecovery/>
+				<FullLuckRecovery/>
+			</Button>
 		</Buttons>
 		<Default>
 			<HideDisabledOption/>
