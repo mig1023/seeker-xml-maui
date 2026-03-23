@@ -47,7 +47,14 @@
 			<Luck>Проверить удачу</Luck>
 			<Transformation>Узнать</Transformation>
 			<Mastery>Проверить мастерство</Mastery>
-			<Button Action="Dice, DiceGold, DiceAnxiety, DiceWounds, DicesRestore, DicesEndurance">Кинуть кубик</Button>
+			<Button Value="Кинуть кубик">
+				<Dice/>
+				<DiceGold/>
+				<DiceAnxiety/>
+				<DiceWounds/>
+				<DicesRestore/>
+				<DicesEndurance/>
+			</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
