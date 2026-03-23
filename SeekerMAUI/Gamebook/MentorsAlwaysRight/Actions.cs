@@ -95,6 +95,10 @@ namespace SeekerMAUI.Gamebook.MentorsAlwaysRight
                 string template = count > 0 ? $"\n{count} {line}" : String.Empty;
                 return new List<string> { $"{Head}{template}" };
             }
+            else if (!string.IsNullOrEmpty(Head))
+            {
+                return new List<string> { Head };
+            }
 
             if (Enemies == null)
                 return enemies;
