@@ -35,7 +35,10 @@
 			<Fight>Сражаться</Fight>
 			<Luck>Проверить удачу</Luck>
 			<ThreeDice>Кинуть три кубика</ThreeDice>
-			<Button Action="DiceWounds, SpellsDice">Кинуть кубик</Button>
+			<Button Value="Кинуть кубик">
+				<DiceWounds/>
+				<SpellsDice/>
+			</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
