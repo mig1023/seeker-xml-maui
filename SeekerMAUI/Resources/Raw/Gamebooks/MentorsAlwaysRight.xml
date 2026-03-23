@@ -33,8 +33,17 @@
 		</Default>
 		<Buttons>
 			<Luck>Проверить удачу</Luck>
-			<Button Action="Fight, LeechFight">Сражаться</Button>
-			<Button Action="DiceRoll, DiceWounds, StoneThrow, SimpleDice, DicesGame">Кинуть кубик</Button>
+			<Button Value="Сражаться">
+				<Fight/>
+				<LeechFight/>
+			</Button>
+			<Button Value="Кинуть кубик">
+				<DiceRoll/>
+				<DiceWounds/>
+				<StoneThrow/>
+				<SimpleDice/>
+				<DicesGame/>
+			</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
