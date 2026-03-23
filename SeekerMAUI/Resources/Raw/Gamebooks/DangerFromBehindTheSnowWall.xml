@@ -43,8 +43,15 @@
 			<Break>Сломать</Break>
 			<AthleticShape>Рассчитать</AthleticShape>
 			<EscapeFromFire>Уклоняться</EscapeFromFire>
-			<Button Action="SimpleDice, AthleticBonus, DiceWound">Бросьте кубик</Button>
-			<Button Action="Skill, SkillSum">Проверить ловкость</Button>
+			<Button Value="Бросьте кубик">
+				<SimpleDice/>
+				<AthleticBonus/>
+				<DiceWound/>
+			</Button>
+			<Button Value="Проверить ловкость">
+				<Skill/>
+				<SkillSum/>
+			</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
