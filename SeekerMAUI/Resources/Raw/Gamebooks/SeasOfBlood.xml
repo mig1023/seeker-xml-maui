@@ -21,8 +21,18 @@
 			<SellSlaves>Продать невольников</SellSlaves>
 			<HirePirates>Нанять</HirePirates>
 			<HirePiratesRandom>Попытаться нанять</HirePiratesRandom>
-			<Button Action="DayByDice, PathByDice">Бросить кубик</Button>
-			<Button Action="TeamSizeTest, DeadByDice, WoundsByDice, MasteryTest, SlavesByDice, DebtGame">Бросить кубики</Button>
+			<Button Value="Бросить кубик">
+				<DayByDice/>
+				<PathByDice/>
+			</Button>
+			<Button Value="Бросить кубики">
+				<TeamSizeTest/>
+				<DeadByDice/>
+				<WoundsByDice/>
+				<MasteryTest/>
+				<SlavesByDice/>
+				<DebtGame/>
+			</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
