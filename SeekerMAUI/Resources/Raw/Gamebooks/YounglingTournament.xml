@@ -24,8 +24,15 @@
 		<Buttons>
 			<FireFight>Перестрелка</FireFight>
 			<ForceTest>Пройти проверку</ForceTest>
-			<Button Action="SwordFight, MixedFightAttack">Сражаться</Button>
-			<Button Action="SimpleDice, DiceWounds, EnemyDiceWounds">Кинуть кубик</Button>
+			<Button Value="Сражаться">
+				<SwordFight/>
+				<MixedFightAttack/>
+			</Button>
+			<Button Value="Кинуть кубик">
+				<SimpleDice/>
+				<DiceWounds/>
+				<EnemyDiceWounds/>
+			</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
