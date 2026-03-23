@@ -31,7 +31,15 @@
 			</Buttons>
 		</Dictionaries>
 		<Buttons>
-			<Button Action="Test, Dexterity, Ingenuity, Intuition, Eloquence, Observation, Erudition">Бросить кубики</Button>
+			<Button Value="Бросить кубики">
+				<Test/>
+				<Dexterity/>
+				<Ingenuity/>
+				<Intuition/>
+				<Eloquence/>
+				<Observation/>
+				<Erudition/>
+			</Button>
 		</Buttons>
 		<Default>
 			<HideDisabledOption/>
