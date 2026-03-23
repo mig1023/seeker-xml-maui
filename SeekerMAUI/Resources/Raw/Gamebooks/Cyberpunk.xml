@@ -44,7 +44,10 @@
 		</Dictionaries>
 		<Buttons>
 			<Test>Пройти проверку</Test>
-			<Button Action="DiceRoll, OddDiceRoll">Кинуть кубик</Button>
+			<Button Value="Кинуть кубик">
+				<DiceRoll/>
+				<OddDiceRoll/>
+			</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
