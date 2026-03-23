@@ -36,7 +36,10 @@
 			<DiceWounds>Кинуть кубик</DiceWounds>
 			<RedOrBlackGame>Поставить на красное или на чёрное</RedOrBlackGame>
 			<DoubleGame>Поставить на цифры</DoubleGame>
-			<Button Action="DiceGame, DiceLtlGame">Бросить кубик</Button>
+			<Button Value="Бросить кубик">
+				<DiceGame/>
+				<DiceLtlGame/>
+			</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
