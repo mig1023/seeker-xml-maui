@@ -35,7 +35,10 @@
 			<DiceWound>Стрельба</DiceWound>
 			<DicesDoubles>Проверить на дубли</DicesDoubles>
 			<Pursuit>Погоня</Pursuit>
-			<Button Action="FortunetellersAmbush, DiceDoubleWound">Кинуть кубики</Button>
+			<Button Value="Кинуть кубики">
+				<FortunetellersAmbush/>
+				<DiceDoubleWound/>
+			</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
