@@ -291,14 +291,14 @@ namespace SeekerMAUI.Game
 
         private static void AddButtonsTexts(XmlNode xmlNode)
         {
-            if (xmlNode.Attributes["Action"] == null)
+            if (xmlNode.Name == "Button")
             {
-                Data.Constants.LoadButtonText(xmlNode.Name, xmlNode.InnerText);
+                foreach (XmlNode action in xmlNode.SelectNodes("*"))
+                    Data.Constants.LoadButtonText(action.Name, xmlNode.Attributes["Value"].InnerText);
             }
             else
             {
-                foreach (string type in Multiples(xmlNode, "Action"))
-                    Data.Constants.LoadButtonText(type, xmlNode.InnerText);
+                Data.Constants.LoadButtonText(xmlNode.Name, xmlNode.InnerText);
             }
         }
 
