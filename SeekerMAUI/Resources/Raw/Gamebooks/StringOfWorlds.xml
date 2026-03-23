@@ -28,7 +28,10 @@
 			<Skill>Проверить ловкость</Skill>
 			<Break>Выбить дверь</Break>
 			<Bargain>Торг</Bargain>
-			<Button Action="GameOfDice, DiceWounds">Кинуть кубики</Button>
+			<Button Value="Кинуть кубики">
+				<GameOfDice/>
+				<DiceWounds/>
+			</Button>
 		</Buttons>
 	</Introduction>
 	<Paragraphs>
