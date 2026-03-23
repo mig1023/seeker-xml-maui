@@ -44,8 +44,14 @@
 			<Skill>Проверить ловкость</Skill>
 			<LuckRecovery>Восстановить 1 цифру удачи</LuckRecovery>
 			<Break>Ломать дверь</Break>
-			<Button Action="SimpleOneDice, DiceWay">Бросить кубики</Button>
-			<Button Action="DiceWounds, SimpleTwoDice">Бросить кубики</Button>
+			<Button Value="Бросить кубик">
+				<SimpleOneDice/>
+				<DiceWay/>
+			</Button>
+			<Button Value="Бросить кубики">
+				<DiceWounds/>
+				<SimpleTwoDice/>
+			</Button>
 		</Buttons>
 		<Default>
 			<HideDisabledOption/>
