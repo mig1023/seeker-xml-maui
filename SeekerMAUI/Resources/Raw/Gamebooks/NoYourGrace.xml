@@ -2810,7 +2810,7 @@
 					<Traders Value="10"/>
 					<Army Value="-15"/>
 				</Option>
-				<Option Goto="295" Text="Пусть Иво сам разбирается с лошадьми.">
+				<Option Goto="295" Text="Пусть Иво сам разбирается с лошадьми">
 					<Ivo Value="10"/>
 				</Option>
 			</Options>
@@ -3564,7 +3564,7 @@
 					<Army Value="10"/>
 					<Sorcery Value="2"/>
 				</Option>
-				<Option Goto="406" Text="Врежете Иво в нос со всей силы.">
+				<Option Goto="406" Text="Врежете Иво в нос со всей силы">
 					<Ivo Value="-20"/>
 					<Army Value="10"/>
 				</Option>
