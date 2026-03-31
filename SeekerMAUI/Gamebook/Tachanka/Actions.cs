@@ -1,6 +1,4 @@
 ﻿using SeekerMAUI.Game;
-using System;
-using System.Xml.Linq;
 
 namespace SeekerMAUI.Gamebook.Tachanka
 {
