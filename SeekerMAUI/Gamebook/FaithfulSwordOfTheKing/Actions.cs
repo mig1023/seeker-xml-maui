@@ -37,6 +37,8 @@ namespace SeekerMAUI.Gamebook.FaithfulSwordOfTheKing
             if (Character.Protagonist.BulletsAndGubpowder > 0)
                 statusLines.Add($"Выстрелов: {Character.Protagonist.BulletsAndGubpowder}");
 
+            statusLines.Add($"Выбранное искусство: {Constants.MeritalArtsNames[Character.Protagonist.MeritalArt]}");
+
             return statusLines;
         }
 
