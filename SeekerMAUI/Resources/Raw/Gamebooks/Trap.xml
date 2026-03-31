@@ -1569,6 +1569,7 @@
 				<Hitpoints Value="25"/>
 				<Charm Value="5"/>
 			</Modifications>
+			<Triggers>МясоЗавершено</Triggers>
 			<Options>
 				<Option Goto="222"/>
 			</Options>
