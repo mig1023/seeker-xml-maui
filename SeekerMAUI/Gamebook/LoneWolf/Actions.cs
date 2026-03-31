@@ -1,5 +1,4 @@
 ﻿using SeekerMAUI.Game;
-using System;
 using System.Text.RegularExpressions;
 
 namespace SeekerMAUI.Gamebook.LoneWolf
