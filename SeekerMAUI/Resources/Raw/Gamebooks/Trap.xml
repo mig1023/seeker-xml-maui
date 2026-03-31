@@ -1120,8 +1120,8 @@
 		<Paragraph No="158">
 			<Text>Вы получили квест «Работа для Элони».</Text>
 			<Options>
-				<Option Goto="159" Text="У вас есть задание «Мясо»"/>
-				<Option Goto="160" Text="Нет"/>
+				<Option Goto="159" Text="У вас есть задание «Мясо»" Availability="Мясо"/>
+				<Option Goto="160" Text="Нет" Availability="!Мясо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="159">
