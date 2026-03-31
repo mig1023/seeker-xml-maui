@@ -21,6 +21,7 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
         public bool ShadowAndDistance { get; set; }
         public bool OnlyFirstOne { get; set; }
         public bool StrangeFight { get; set; }
+        public bool HelmsSecret { get; set; }
 
         public List<Character> Enemies { get; set; }
 
@@ -161,6 +162,13 @@ namespace SeekerMAUI.Gamebook.StarshipTraveller
             else
             {
                 diceCheck.Add($"На кубикe выпало: {Game.Dice.Symbol(firstDice)}");
+            }
+
+            if (HelmsSecret && Game.Option.IsTriggered("Шлемы"))
+            {
+                dicesResult -= 2;
+                diceCheck.Add($"Вот вам и пригодился открытый секрет про шлемы!\n" +
+                    $"Благодаря ему, выпавшая сумма уменьшается на 2 и теперь равна {dicesResult}!");
             }
 
             if (ByOne)
