@@ -163,7 +163,7 @@
 			<Actions>
 				<Observation/>
 				<Option Goto="230" Text="Заметили">
-					<Text>Если нет, то не нужно пологаться на удачу:</Text>
+					<Text>Если нет, то не нужно полагаться на удачу:</Text>
 				</Option>
 				<Luck/>
 			</Actions>
