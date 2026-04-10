@@ -1574,7 +1574,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="187">
-			<Text>— Да, кажется хочу.</Text>
+			<Text>— Да, кажется, хочу.</Text>
 			<Options>
 				<Option Goto="287" Text="Расскажите про день падения вашего храма"/>
 				<Option Goto="288" Text="Что думаете о Демиане?"/>
