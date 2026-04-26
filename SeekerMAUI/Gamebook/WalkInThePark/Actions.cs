@@ -390,10 +390,12 @@ namespace SeekerMAUI.Gamebook.WalkInThePark
                     else
                         fight.Add($"{enemy.Name} (самочувствие {enemy.Health})");
 
-                    int protagonistRoll = Game.Dice.Roll();
-                    int protagonistHitStrength = protagonistRoll + Character.Protagonist.Strength;
-                    string strength = part1 ? "Сила" : "Охрененность";
-                    string penalty = String.Empty;
+                    var protagonistRoll = Game.Dice.Roll();
+                    var protagonistHitStrength = protagonistRoll + Character.Protagonist.Strength;
+                    var strength = part1 ? "Сила" : "Охрененность";
+                    var penalty = String.Empty;
+
+                    var enemyName = Constants.Enemy[rand.Next(Constants.Enemy.Count)];
 
                     if (armour)
                     {
@@ -414,7 +416,7 @@ namespace SeekerMAUI.Gamebook.WalkInThePark
                         bonus = " + 2 за неуравновешенность";
                     }
 
-                    fight.Add($"{strength} противника: " +
+                    fight.Add($"{strength} {enemyName.ToLower()}а: " +
                         $"{Game.Dice.Symbol(enemyRoll)} + {enemy.Strength}{bonus} = {enemyHitStrength}");
 
                     if (protagonistHitStrength > enemyHitStrength)
@@ -422,9 +424,9 @@ namespace SeekerMAUI.Gamebook.WalkInThePark
                         fight.Add($"GOOD|BOLD|{enemy.Name} {Hit()}");
 
                         if (part1)
-                            fight.Add($"Противник теряет {(double)Character.Protagonist.Damage / 10} ед. Выносливости");
+                            fight.Add($"{enemyName} теряет {(double)Character.Protagonist.Damage / 10} ед. Выносливости");
                         else
-                            fight.Add($"Противник теряет {Character.Protagonist.Damage} ед. Самочувствия");
+                            fight.Add($"{enemyName} теряет {Character.Protagonist.Damage} ед. Самочувствия");
 
                         enemy.SetHealth(part1, enemy.GetHealth(part1) - Character.Protagonist.Damage);
 
@@ -433,7 +435,7 @@ namespace SeekerMAUI.Gamebook.WalkInThePark
                             enemy.Health -= 1;
                             deviceUsed = true;
 
-                            fight.Add($"GOOD|Плюс к тому, противник теряет 1 ед. Самочувствия " +
+                            fight.Add($"GOOD|Плюс к тому, {enemyName} теряет 1 ед. Самочувствия " +
                                 $"от меткого попадания складного лезвия чукотского прибора!");
                         }
 

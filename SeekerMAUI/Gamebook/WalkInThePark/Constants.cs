@@ -10,6 +10,7 @@ namespace SeekerMAUI.Gamebook.WalkInThePark
         public static List<string> How { get; set; }
         public static List<string> What { get; set; }
         public static List<string> Where { get; set; }
+        public static List<string> Enemy { get; set; }
         public static Dictionary<string, string> Rating { get; set; }
 
         public static int StoryPart() =>
