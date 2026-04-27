@@ -1135,7 +1135,7 @@
 			<Actions>
 				<Fight>
 					<Enemy Name="ЮРГЕН" Hitpoints="3" Accuracy="3"/>
-					<Text>...Мартин – сдался!</Text>
+					<Text>...Мартин — сдался!</Text>
 				</Fight>
 			</Actions>
 			<Options>
