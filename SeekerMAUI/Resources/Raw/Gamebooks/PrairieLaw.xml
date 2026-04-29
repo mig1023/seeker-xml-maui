@@ -119,7 +119,7 @@
 			</Actions>
 			<Options>
 				<Option Goto="265" Text="Сумеете доказать воинам, что не таите дурных мыслей"/>
-				<Option Goto="153" Text="Это не удалось – что ж, придется сражаться"/>
+				<Option Goto="153" Text="Это не удалось — что ж, придется сражаться"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="10">
