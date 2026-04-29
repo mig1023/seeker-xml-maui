@@ -598,7 +598,7 @@
 		<Paragraph No="56">
 			<Options>
 				<Option Goto="31" Text="Вы еще не были в аптеке и хотите зайти туда">
-					<Text>Если не хотите – что ж, пора в дорогу:</Text>
+					<Text>Если не хотите — что ж, пора в дорогу:</Text>
 				</Option>
 				<Option Goto="132"/>
 			</Options>
