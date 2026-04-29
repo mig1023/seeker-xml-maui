@@ -311,7 +311,7 @@
 			</Actions>
 			<Options>
 				<Option Goto="531" Text="Выпало четное число, вы выиграли"/>
-				<Option Goto="279" Text="Выпало нечетное – вам не повезло"/>
+				<Option Goto="279" Text="Выпало нечетное — вам не повезло"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="30">
