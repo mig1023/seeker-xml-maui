@@ -1600,7 +1600,7 @@
 				<Option Goto="143" Text="Воспользоваться подзорной трубой" Availability="Подзорная труба"/>
 				<Option Goto="323" Text="Найти лодку Эль-Хабали" Availability="Лодка"/>
 				<Option Goto="54" Text="Рискнуть вплавь"/>
-				<Option Goto="568" Text="Просто поехать дальше – бог с ним, с этим островом"/>
+				<Option Goto="568" Text="Просто поехать дальше — бог с ним, с этим островом"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="174">
