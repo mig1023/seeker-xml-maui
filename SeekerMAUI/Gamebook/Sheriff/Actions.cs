@@ -4,7 +4,7 @@ namespace SeekerMAUI.Gamebook.Sheriff
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
-        public override bool Availability(string option)
+        public override bool AvailabilityNode(string option)
         {
             if (Game.Services.AvailabilityByСomparison(option))
             {
