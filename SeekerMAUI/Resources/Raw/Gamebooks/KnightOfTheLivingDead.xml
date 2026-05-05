@@ -4318,7 +4318,7 @@
 				<Option Goto="452" Text="Узнать об этой части">
 					<Text>...а затем переходи далее:</Text>
 				</Option>
-				<Option Goto="475">
+				<Option Goto="475"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="483">
