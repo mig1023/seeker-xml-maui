@@ -15,9 +15,15 @@ namespace SeekerMAUI.Gamebook.ChooseCthulhu
         public static string CONTRAST_TEXT_LIGHT_SECOND = "#edd8a5";
 
         private static int FirstPartSize = 78;
+        private static int FirstPartReplacedParagraph = 350;
 
-        public static bool IsSecondPart() =>
-            Game.Data.CurrentParagraphID > FirstPartSize;
+        public static bool IsSecondPart()
+        {
+            if (Game.Data.CurrentParagraphID == FirstPartReplacedParagraph)
+                return false;
+
+            return Game.Data.CurrentParagraphID > FirstPartSize;
+        }
 
         public static void ChangeBackground()
         {
