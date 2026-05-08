@@ -388,27 +388,27 @@
 			<Texts>
 				<Text Style="Bold, Center">ПЕРЕД ТОБОЙ РЕЕСТР СУДЕБ</Text>
 				<Text>Замкни все 19 исходов — и тайная награда откроется тому, кто не отступает.</Text>
-				<Text Availability="Ключ Судьбы">Ключ Судьбы получен. Путь к двадцатому — последнему — исходу открыт.</Text>
-				<Text Availability="КОНЦОВКА 1: ЯЩИК ПАНДОРЫ">КОНЦОВКА 1: ЯЩИК ПАНДОРЫ</Text>
-				<Text Availability="КОНЦОВКА 2: ОГНЕННОЕ КРЕЩЕНИЕ">КОНЦОВКА 2: ОГНЕННОЕ КРЕЩЕНИЕ</Text>
-				<Text Availability="КОНЦОВКА 3: АССИМИЛЯЦИЯ">КОНЦОВКА 3: АССИМИЛЯЦИЯ</Text>
-				<Text Availability="КОНЦОВКА 4: ЕДИНСТВЕННЫЙ ВЫЖИВШИЙ">КОНЦОВКА 4: ЕДИНСТВЕННЫЙ ВЫЖИВШИЙ</Text>
-				<Text Availability="КОНЦОВКА 5: ГЕРОИЧЕСКАЯ ЖЕРТВА">КОНЦОВКА 5: ГЕРОИЧЕСКАЯ ЖЕРТВА</Text>
-				<Text Availability="КОНЦОВКА 6: НОВЫЙ БОГ">КОНЦОВКА 6: НОВЫЙ БОГ</Text>
-				<Text Availability="КОНЦОВКА 7: БЕЗРАССУДСТВО">КОНЦОВКА 7: БЕЗРАССУДСТВО</Text>
-				<Text Availability="КОНЦОВКА 8: ПРИМИТИВНОСТЬ">КОНЦОВКА 8: ПРИМИТИВНОСТЬ</Text>
-				<Text Availability="КОНЦОВКА 9: НАИВНОСТЬ">КОНЦОВКА 9: НАИВНОСТЬ</Text>
-				<Text Availability="КОНЦОВКА 10: ЗАПАДНЯ">КОНЦОВКА 10: ЗАПАДНЯ</Text>
-				<Text Availability="КОНЦОВКА 11: КОРОТКОЕ ЗАМЫКАНИЕ">КОНЦОВКА 11: КОРОТКОЕ ЗАМЫКАНИЕ</Text>
-				<Text Availability="КОНЦОВКА 12: НЕ ТОТ ИНСТРУМЕНТ">КОНЦОВКА 12: НЕ ТОТ ИНСТРУМЕНТ</Text>
-				<Text Availability="КОНЦОВКА 13: ОБРАТНЫЙ УДАР">КОНЦОВКА 13: ОБРАТНЫЙ УДАР</Text>
-				<Text Availability="КОНЦОВКА 14: СПИРАЛЬ ПУЛЬ">КОНЦОВКА 14: СПИРАЛЬ ПУЛЬ</Text>
-				<Text Availability="КОНЦОВКА 15: ПЛОХОЙ РЫВОК">КОНЦОВКА 15: ПЛОХОЙ РЫВОК</Text>
-				<Text Availability="КОНЦОВКА 16: ТУПОЙ АРГУМЕНТ">КОНЦОВКА 16: ТУПОЙ АРГУМЕНТ</Text>
-				<Text Availability="КОНЦОВКА 17: ПЛОХОЙ РЫЧАГ">КОНЦОВКА 17: ПЛОХОЙ РЫЧАГ</Text>
-				<Text Availability="КОНЦОВКА 18: НЕТ ВРЕМЕНИ">КОНЦОВКА 18: НЕТ ВРЕМЕНИ</Text>
-				<Text Availability="КОНЦОВКА 19: ПЕТЛЯ">КОНЦОВКА 19: ПЕТЛЯ</Text>
-				<Text Availability="КОНЦОВКА 20: НЕСЛУЧИВШЕЕСЯ">КОНЦОВКА 20: НЕСЛУЧИВШЕЕСЯ</Text>
+				<Text Style="Bold" Availability="Ключ Судьбы">Ключ Судьбы получен. Путь к двадцатому — последнему — исходу открыт.</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 1: ЯЩИК ПАНДОРЫ">КОНЦОВКА 1: ЯЩИК ПАНДОРЫ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 2: ОГНЕННОЕ КРЕЩЕНИЕ">КОНЦОВКА 2: ОГНЕННОЕ КРЕЩЕНИЕ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 3: АССИМИЛЯЦИЯ">КОНЦОВКА 3: АССИМИЛЯЦИЯ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 4: ЕДИНСТВЕННЫЙ ВЫЖИВШИЙ">КОНЦОВКА 4: ЕДИНСТВЕННЫЙ ВЫЖИВШИЙ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 5: ГЕРОИЧЕСКАЯ ЖЕРТВА">КОНЦОВКА 5: ГЕРОИЧЕСКАЯ ЖЕРТВА</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 6: НОВЫЙ БОГ">КОНЦОВКА 6: НОВЫЙ БОГ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 7: БЕЗРАССУДСТВО">КОНЦОВКА 7: БЕЗРАССУДСТВО</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 8: ПРИМИТИВНОСТЬ">КОНЦОВКА 8: ПРИМИТИВНОСТЬ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 9: НАИВНОСТЬ">КОНЦОВКА 9: НАИВНОСТЬ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 10: ЗАПАДНЯ">КОНЦОВКА 10: ЗАПАДНЯ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 11: КОРОТКОЕ ЗАМЫКАНИЕ">КОНЦОВКА 11: КОРОТКОЕ ЗАМЫКАНИЕ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 12: НЕ ТОТ ИНСТРУМЕНТ">КОНЦОВКА 12: НЕ ТОТ ИНСТРУМЕНТ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 13: ОБРАТНЫЙ УДАР">КОНЦОВКА 13: ОБРАТНЫЙ УДАР</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 14: СПИРАЛЬ ПУЛЬ">КОНЦОВКА 14: СПИРАЛЬ ПУЛЬ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 15: ПЛОХОЙ РЫВОК">КОНЦОВКА 15: ПЛОХОЙ РЫВОК</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 16: ТУПОЙ АРГУМЕНТ">КОНЦОВКА 16: ТУПОЙ АРГУМЕНТ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 17: ПЛОХОЙ РЫЧАГ">КОНЦОВКА 17: ПЛОХОЙ РЫЧАГ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 18: НЕТ ВРЕМЕНИ">КОНЦОВКА 18: НЕТ ВРЕМЕНИ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 19: ПЕТЛЯ">КОНЦОВКА 19: ПЕТЛЯ</Text>
+				<Text Style="Bold" Availability="КОНЦОВКА 20: НЕСЛУЧИВШЕЕСЯ">КОНЦОВКА 20: НЕСЛУЧИВШЕЕСЯ</Text>
 			</Texts>
 			<Modifications>
 				<KeyOfDestiny/>
