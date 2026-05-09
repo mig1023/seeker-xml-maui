@@ -2262,7 +2262,7 @@
 			<Actions>
 				<Fight>
 					<Enemy Name="Вордак" Skill="17" Strength="25"/>
-					<SkillPenalty Value="2; Щит разума;"/>
+					<SkillPenalty Value="2;Щит разума;"/>
 					<Text Style="Small">Если Вы не знаете Дисциплину Кай Щит Разума, вычтите 2 пункта от Вашего БОЕВОГО НАВЫКА, поскольку существо нападает на Вас с помощью Силы разума!</Text>
 				</Fight>
 			</Actions>
