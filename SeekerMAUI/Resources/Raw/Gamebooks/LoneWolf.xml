@@ -3716,7 +3716,7 @@
 				</Option>
 				<Fight>
 					<Enemy Name="Страж дозорной башни" Skill="15" Strength="22"/>
-					<SkillPenalty Value="2;; отсутствие оружия"/>
+					<SkillPenalty Value="2;;отсутствие оружия"/>
 				</Fight>
 			</Actions>
 			<Options>
