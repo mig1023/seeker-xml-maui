@@ -2088,11 +2088,11 @@
 			<Actions>
 				<Fight>
 					<Enemy Name="Первый Гиак" Skill="11" Strength="18"/>
-					<SkillPenalty Value="4;; голые руки"/>
+					<SkillPenalty Value="4;;голые руки"/>
 				</Fight>
 				<Fight>
 					<Enemy Name="Второй Гиак" Skill="12" Strength="17"/>
-					<SkillPenalty Value="4;; голые руки"/>
+					<SkillPenalty Value="4;;голые руки"/>
 					<Text Style="Small">Вычтите 4 пункта от Вашего БОЕВОГО НАВЫКА и деритесь с ними по одному.</Text>
 				</Fight>
 			</Actions>
