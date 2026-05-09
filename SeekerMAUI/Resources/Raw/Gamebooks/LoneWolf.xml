@@ -5511,7 +5511,7 @@
 				<Fight>
 					<Enemy Name="Хельгхаст" Skill="21" Strength="30"/>
 					<ImmuneToPsychology/>
-					<SkillPenalty Value="2; Щит разума;"/>
+					<SkillPenalty Value="2;Щит разума;"/>
 				</Fight>
 			</Actions>
 			<Options>
