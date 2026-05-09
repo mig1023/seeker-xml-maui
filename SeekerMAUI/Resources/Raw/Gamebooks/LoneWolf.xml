@@ -6359,7 +6359,7 @@
 			<Actions>
 				<Fight>
 					<Enemy Name="Видоизменённые ледяные варвары" Skill="18" Strength="24"/>
-					<SkillPenalty Value="2; Щит разума;"/>
+					<SkillPenalty Value="2;Щит разума;"/>
 				</Fight>
 			</Actions>
 			<Options>
