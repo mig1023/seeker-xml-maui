@@ -3885,15 +3885,15 @@
 				</Option>
 				<Fight>
 					<Enemy Name="Главарь уличных воров" Skill="15" Strength="23"/>
-					<SkillPenalty Value="4;; голые руки"/>
+					<SkillPenalty Value="4;;голые руки"/>
 				</Fight>
 				<Fight>
 					<Enemy Name="Уличный вор 1" Skill="13" Strength="21"/>
-					<SkillPenalty Value="4;; голые руки"/>
+					<SkillPenalty Value="4;;голые руки"/>
 				</Fight>
 				<Fight>
 					<Enemy Name="Уличный вор 2" Skill="13" Strength="20"/>
-					<SkillPenalty Value="4;; голые руки"/>
+					<SkillPenalty Value="4;;голые руки"/>
 					<Text>Уменьшите свой БОЕВОЙ НАВЫК на 4 и сражайтесь голыми руками.</Text>
 				</Fight>
 			</Actions>
