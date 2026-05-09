@@ -2705,7 +2705,7 @@
 			<Actions>
 				<Fight>
 					<Enemy Name="Вордак" Skill="18" Strength="26"/>
-					<SkillPenalty Value="2; Щит разума;"/>
+					<SkillPenalty Value="2;Щит разума;"/>
 					<ImmuneToPsychology/>
 					<Text Style="Small">Вычтите 2 пункта из Вашего БОЕВОГО НАВЫКА, если Вы не знаете Дисциплину Кай Ментальный Щит.</Text>
 				</Fight>
