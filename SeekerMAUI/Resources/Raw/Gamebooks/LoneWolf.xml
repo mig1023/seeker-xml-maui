@@ -6913,13 +6913,13 @@
 			<Actions>
 				<Option Goto="745" Text="Владеете Соммерсвердом" Availability="Соммерсверд"/>
 				<Option Goto="823" Text="Владеете дисциплиной Кай Телекинез" Availability="Телекинез">
-					<Text>Если вы не владеете ничем из вышеперечисленного, то выберете число из Таблицы случайных чисел:</Text>
+					<Text>Если вы не владеете ничем из вышеперечисленного:</Text>
 				</Option>
 				<Random/>
 			</Actions>
 			<Options>
-				<Option Goto="928" Text="Выбрали 0 — 4"/>
-				<Option Goto="928" Text="Выбрали 5 — 9"/>
+				<Option Goto="928" Text="Выпало 0 — 4"/>
+				<Option Goto="928" Text="Выпало 5 — 9"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="849">
