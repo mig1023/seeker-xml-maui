@@ -4225,9 +4225,9 @@
 				<Random/>
 			</Actions>
 			<Options>
-				<Option Goto="390" Text="Выпало 0-3"/>
-				<Option Goto="600" Text="Выпало 4-6"/>
-				<Option Goto="690" Text="Выпало 7-9"/>
+				<Option Goto="390" Text="Выпало 0 — 3"/>
+				<Option Goto="600" Text="Выпало 4 — 6"/>
+				<Option Goto="690" Text="Выпало 7 — 9"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="521">
