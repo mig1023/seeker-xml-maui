@@ -5905,14 +5905,14 @@
 			<Actions>
 				<Option Goto="745" Text="Есть Соммерсверд" Availability="Соммерсверд"/>
 				<Option Goto="823" Text="Владеете дисциплиной Кай Телекинез" Availability="Телекинез">
-					<Text>Если у вас нет ничего из выше перечисленного, выберите число из Таблицы случайных чисел:</Text>
+					<Text>Если у вас нет ничего из выше перечисленного:</Text>
 				</Option>
 				<Random/>
 			</Actions>
 			<Options>
-				<Option Goto="1014" Text="Выбрали 0 — 1"/>
-				<Option Goto="928" Text="Выбрали 2 — 5"/>
-				<Option Goto="968" Text="Выбрали 6 — 9"/>
+				<Option Goto="1014" Text="Выпало 0 — 1"/>
+				<Option Goto="928" Text="Выпало 2 — 5"/>
+				<Option Goto="968" Text="Выпало 6 — 9"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="732">
