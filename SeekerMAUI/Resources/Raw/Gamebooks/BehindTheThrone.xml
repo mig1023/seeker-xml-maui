@@ -893,5 +893,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="99">
+			<Text>Бель-Иль, ранняя осень 1661 года, утро. Ничего в этот день не предвещало беды, но...</Text>
+			<Options>
+				<Option Goto="88" Text="На горизонте показался французский королевский флот.."/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
