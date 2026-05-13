@@ -6,13 +6,23 @@ namespace SeekerMAUI.Gamebook.BehindTheThrone
     {
         public string Stat { get; set; }
 
-        public override List<string> Status() => new List<string>
+        public override List<string> Status()
         {
-            $"Проворство: {Character.Protagonist.Agility}",
-            $"Меткость: {Character.Protagonist.Marksmanship}",
-            $"Фехтование: {Character.Protagonist.Swashbuckling}",
-            $"Живучесть: {Character.Protagonist.Vitality}",
-        };
+            if (Game.Data.CurrentParagraphID <= Constants.FirstPartSize)
+            {
+                return new List<string>
+                {
+                    $"Проворство: {Character.Protagonist.Agility}",
+                    $"Меткость: {Character.Protagonist.Marksmanship}",
+                    $"Фехтование: {Character.Protagonist.Swashbuckling}",
+                    $"Живучесть: {Character.Protagonist.Vitality}",
+                };
+            }
+            else
+            {
+                return null;
+            }
+        }            
 
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
             GameOverBy(Character.Protagonist.Vitality, out toEndParagraph, out toEndText);
