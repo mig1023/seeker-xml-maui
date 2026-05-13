@@ -29,10 +29,10 @@
 	<Paragraphs>
 		<Paragraph No="0">
 			<Options>
-				<Option Goto="84" Text="В тени трона">
-					<Text Style="Small, Upper">Кэран Кохлан, 2008</Text>
+				<Option Goto="84" Text="В тени трона" Image="Musketeer1">
+					<Text Style="Small, Upper">Кэран Кохлан, перевод Александр Слюта, 2008</Text>
 				</Option>
-				<Option Goto="85" Text="Локмария">
+				<Option Goto="85" Text="Локмария" Image="Musketeer2">
 					<Text Style="Small, Upper">Ivan Miner, 2020</Text>
 				</Option>
 			</Options>
