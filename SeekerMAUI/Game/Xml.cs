@@ -219,9 +219,9 @@ namespace SeekerMAUI.Game
             {
                 Dictionary<string, string> items = new Dictionary<string, string>();
 
-                if (xmlNode.Attributes["ItemsByOrder"] != null)
+                if (xmlNode.Attributes["ByOrder"] != null)
                 {
-                    List<string> lines = xmlNode.Attributes["ItemsByOrder"]
+                    List<string> lines = xmlNode.Attributes["ByOrder"]
                         .InnerText
                         .Split(',')
                         .Select(x => x.Trim())
