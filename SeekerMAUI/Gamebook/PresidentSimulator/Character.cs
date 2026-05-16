@@ -90,13 +90,9 @@ namespace SeekerMAUI.Gamebook.PresidentSimulator
             Rebels = 4;
             AgrarianReform = 0;
 
-            Game.Option.Trigger("Повстанцы-коммунисты");
-            Game.Option.Trigger("Аграрный вопрос");
-            Game.Option.Trigger("AmericanOil");
-            Game.Option.Trigger("Ультраправые террористы");
-            Game.Option.Trigger("Сильные профсоюзы");
-            Game.Option.Trigger("Наркотрафик");
-            Game.Option.Trigger("Смертная казнь");
+            Game.Option.Trigger("Повстанцы-коммунисты, Аграрный вопрос, " +
+                "AmericanOil, Ультраправые террористы, Сильные профсоюзы, " +
+                "Наркотрафик, Смертная казнь");
         }
 
         public Character Clone() => new Character()
