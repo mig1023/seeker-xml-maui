@@ -38,9 +38,7 @@ namespace SeekerMAUI.Gamebook.PrisonerOfMoritaiCastle
             Arrows = 10;
 
             Game.Healing.Add(name: "тонизирующее", healing: 1, portions: 1);
-            Game.Option.Trigger("обезболивающее");
-            Game.Option.Trigger("противопростудное");
-            Game.Option.Trigger("противоядие");
+            Game.Option.Trigger("обезболивающее, противопростудное, противоядие");
         }
 
         public Character Clone() => new Character()
