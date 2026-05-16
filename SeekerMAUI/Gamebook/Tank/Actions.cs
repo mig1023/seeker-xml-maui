@@ -225,8 +225,7 @@ namespace SeekerMAUI.Gamebook.Tank
                     return hitLines;
 
                 case 10:
-                    Game.Option.Trigger("орудие");
-                    Game.Option.Trigger("пулемет 2");
+                    Game.Option.Trigger("орудие, пулемет 2");
                     DisableButtonsExcept("Танк еще цел");
                     return hitLines;
 
