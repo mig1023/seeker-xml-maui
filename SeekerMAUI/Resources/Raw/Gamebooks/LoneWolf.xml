@@ -15,19 +15,19 @@
 			</Color>
 		</Styles>
 		<Dictionaries>
-			<CoefficientN12 ItemsByOrder="6/0, 0/-1, 0/-1, 0/8, 0/8, 1/7, 2/6, 3/5, 4/4, 5/3"/>
-			<CoefficientN10 ItemsByOrder="7/0, 0/-1, 0/8, 0/7, 1/7, 2/6, 3/6, 4/5, 5/4, 6/3"/>
-			<CoefficientN8 ItemsByOrder="8/0, 0/8, 0/7, 1/6, 2/6, 3/5, 4/5, 5/4, 6/3, 7/2"/>
-			<CoefficientN6 ItemsByOrder="9/0, 0/6, 1/6, 2/5, 3/5, 4/4, 5/4, 6/3, 7/2, 8/0"/>
-			<CoefficientN4 ItemsByOrder="10/0, 1/6, 2/5, 3/5, 4/4, 5/4, 6/3, 7/2, 8/1, 9/0"/>
-			<CoefficientN2 ItemsByOrder="11/0, 2/5, 3/5, 4/4, 5/4, 6/3, 7/2, 8/2, 9/1, 10/0"/>
-			<Coefficient0 ItemsByOrder="12/0, 3/5, 4/4, 5/4, 6/3, 7/2, 8/2, 9/1, 10/0, 11/0"/>
-			<Coefficient2 ItemsByOrder="14/0, 4/5, 5/4, 6/3, 7/3, 8/2, 9/2, 10/1, 11/0, 12/0"/>
-			<Coefficient4 ItemsByOrder="16/0, 5/4, 6/3, 7/3, 8/2, 9/2, 10/2, 11/1, 12/0, 14/0"/>
-			<Coefficient6 ItemsByOrder="18/0, 6/4, 7/3, 8/3, 9/2, 10/2, 11/1, 12/0, 14/0, 16/0"/>
-			<Coefficient8 ItemsByOrder="-1/0, 7/4, 8/3, 9/2, 10/2, 11/2, 12/1, 14/0, 16/0, 18/0"/>
-			<Coefficient10 ItemsByOrder="-1/0, 8/3, 9/3, 10/2, 11/2, 12/2, 14/1, 16/0, 18/0, -1/0"/>
-			<Coefficient12 ItemsByOrder="-1/0, 9/3, 10/2, 11/2, 12/2, 14/1, 16/1, 18/0, -1/0, -1/0"/>
+			<CoefficientN12 ByOrder="6/0, 0/-1, 0/-1, 0/8, 0/8, 1/7, 2/6, 3/5, 4/4, 5/3"/>
+			<CoefficientN10 ByOrder="7/0, 0/-1, 0/8, 0/7, 1/7, 2/6, 3/6, 4/5, 5/4, 6/3"/>
+			<CoefficientN8 ByOrder="8/0, 0/8, 0/7, 1/6, 2/6, 3/5, 4/5, 5/4, 6/3, 7/2"/>
+			<CoefficientN6 ByOrder="9/0, 0/6, 1/6, 2/5, 3/5, 4/4, 5/4, 6/3, 7/2, 8/0"/>
+			<CoefficientN4 ByOrder="10/0, 1/6, 2/5, 3/5, 4/4, 5/4, 6/3, 7/2, 8/1, 9/0"/>
+			<CoefficientN2 ByOrder="11/0, 2/5, 3/5, 4/4, 5/4, 6/3, 7/2, 8/2, 9/1, 10/0"/>
+			<Coefficient0 ByOrder="12/0, 3/5, 4/4, 5/4, 6/3, 7/2, 8/2, 9/1, 10/0, 11/0"/>
+			<Coefficient2 ByOrder="14/0, 4/5, 5/4, 6/3, 7/3, 8/2, 9/2, 10/1, 11/0, 12/0"/>
+			<Coefficient4 ByOrder="16/0, 5/4, 6/3, 7/3, 8/2, 9/2, 10/2, 11/1, 12/0, 14/0"/>
+			<Coefficient6 ByOrder="18/0, 6/4, 7/3, 8/3, 9/2, 10/2, 11/1, 12/0, 14/0, 16/0"/>
+			<Coefficient8 ByOrder="-1/0, 7/4, 8/3, 9/2, 10/2, 11/2, 12/1, 14/0, 16/0, 18/0"/>
+			<Coefficient10 ByOrder="-1/0, 8/3, 9/3, 10/2, 11/2, 12/2, 14/1, 16/0, 18/0, -1/0"/>
+			<Coefficient12 ByOrder="-1/0, 9/3, 10/2, 11/2, 12/2, 14/1, 16/1, 18/0, -1/0, -1/0"/>
 		</Dictionaries>
 		<Default>
 			<HideDisabledOption/>
