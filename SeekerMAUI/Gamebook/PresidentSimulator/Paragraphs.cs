@@ -30,7 +30,7 @@ namespace SeekerMAUI.Gamebook.PresidentSimulator
 
             string yearPart = $"{Character.Protagonist.InnerYear}-{part}";
             string yearLine = Constants.TextByYears[yearPart];
-            return yearLine.Split('|').ToList();
+            return yearLine.Split('|').Select(x => $"{x}.").ToList();
         }
 
         public override List<Text> TextsParse(XmlNode xmlNode, bool main = false)
