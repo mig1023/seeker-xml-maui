@@ -1982,7 +1982,7 @@
 				</Option>
 				<Option Goto="216" Text="Зал" Availability="ЗДОРОВЬЕ > 0, ВЛИЯНИЕ > 0"/>
 				<Option Goto="198" Text="Что!?" Availability="ВЛИЯНИЕ &lt; 1"/>
-				<Option Goto="76" Text="Пустяки! Просто царапина.." Availability="ЗДОРОВЬЕ &lt; 1"/>
+				<Option Goto="76" Text="Пустяки! Просто царапина..." Availability="ЗДОРОВЬЕ &lt; 1"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="232">
