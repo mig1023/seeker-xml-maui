@@ -133,6 +133,13 @@ namespace SeekerMAUI.Prototypes
             foreach (string param in GetProperties(modification))
                 SetPropertyByAttr(modification, param, xmlModification);
 
+            Abstract.IModification waybackDefault = modification as Abstract.IModification;
+
+            if ((waybackDefault.Name == "WayBack") && (waybackDefault.Value == 0))
+            {
+                waybackDefault.Value = Game.Data.CurrentParagraphID;
+            }
+
             return modification;
         }
 

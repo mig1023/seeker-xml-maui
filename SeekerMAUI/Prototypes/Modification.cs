@@ -31,10 +31,6 @@ namespace SeekerMAUI.Prototypes
             {
                 Game.Healing.Add(ValueString);
             }
-            else if ((Name == "WayBack") && (Value == 0))
-            {
-                SetProperty(Character, "WayBack", Game.Data.CurrentParagraphID);
-            }
             else if (!String.IsNullOrEmpty(Name))
             {
                 int currentValue = 0;
