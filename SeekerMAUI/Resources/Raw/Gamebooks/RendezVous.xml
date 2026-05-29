@@ -2,7 +2,8 @@
 	<Introduction>
 		<Copyright>
 			<Title>Рандеву</Title>
-			<Author>Ал Торо, 2020</Author>
+			<Author>Ал Торо</Author>
+			<Year>2020</Year>
 		</Copyright>
 		<Styles>
 			<ActionBox Value="efefef"/>
