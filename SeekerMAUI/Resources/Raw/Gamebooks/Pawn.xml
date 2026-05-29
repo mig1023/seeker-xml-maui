@@ -2,7 +2,8 @@
 	<Introduction>
 		<Copyright>
 			<Title>Пешка</Title>
-			<Author>Aleks Otter, 2023</Author>
+			<Author>Aleks Otter</Author>
+			<Year>2023</Year>
 		</Copyright>
 		<Styles>
 			<Color Value="000000">
