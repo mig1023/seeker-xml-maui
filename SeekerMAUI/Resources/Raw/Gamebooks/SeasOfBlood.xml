@@ -2,7 +2,8 @@
 	<Introduction>
 		<Copyright>
 			<Title>Пиратская одиссея</Title>
-			<Author>Эндрю Чапмен, 1985</Author>
+			<Author>Эндрю Чапмен</Author>
+			<Year>1985</Year>
 		</Copyright>
 		<Styles>
 			<Main Value="1e3f82"/>
