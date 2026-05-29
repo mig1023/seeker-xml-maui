@@ -2,7 +2,8 @@
 	<Introduction>
 		<Copyright>
 			<Title>Муравьиная борьба</Title>
-			<Author>Пётр Прокошев, 2023</Author>
+			<Author>Пётр Прокошев</Author>
+			<Year>2023</Year>
 		</Copyright>
 		<Styles>
 			<ActionBox Value="efefef"/>
