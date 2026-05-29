@@ -2,7 +2,8 @@
 	<Introduction>
 		<Copyright>
 			<Title>Последнее хокку</Title>
-			<Author>Юркий Слон, 2021</Author>
+			<Author>Юркий Слон</Author>
+			<Year>2021</Year>
 		</Copyright>
 		<Styles>
 			<Main Value="deb887"/>
