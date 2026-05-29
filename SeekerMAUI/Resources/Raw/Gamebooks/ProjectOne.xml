@@ -2,7 +2,8 @@
 	<Introduction>
 		<Copyright>
 			<Title>Проект 1</Title>
-			<Author>Дмитрий Гавриченко, Пётр Александров, 2008</Author>
+			<Author>Дмитрий Гавриченко, Пётр Александров</Author>
+			<Year>2008</Year>
 		</Copyright>
 		<Styles>
 			<Main Value="232322"/>
