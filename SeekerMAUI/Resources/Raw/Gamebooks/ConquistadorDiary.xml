@@ -2,7 +2,8 @@
 	<Introduction>
 		<Copyright>
 			<Title>Дневник конкистодора</Title>
-			<Author>Андрей Рулин, Пётр Прокошев, Геннадий Логинов, 2019</Author>
+			<Author>Андрей Рулин, Пётр Прокошев, Геннадий Логинов</Author>
+			<Year>2019</Year>
 		</Copyright>
 		<Styles>
 			<Main Value="613a33"/>
