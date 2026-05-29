@@ -2,7 +2,8 @@
 	<Introduction>
 		<Copyright>
 			<Title>Прогулка по парку</Title>
-			<Author>Пётр Александров, 2000</Author>
+			<Author>Пётр Александров</Author>
+			<Year>2000</Year>
 		</Copyright>
 		<Styles>
 			<Main Value="cd1618"/>
