@@ -2,7 +2,8 @@
 	<Introduction>
 		<Copyright>
 			<Title>Звездный Странник</Title>
-			<Author>Стив Джексон, 1983</Author>
+			<Author>Стив Джексон</Author>
+			<Year>1983</Year>
 		</Copyright>
 		<Styles>
 			<System Value="ced1d7"/>
