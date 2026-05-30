@@ -559,5 +559,12 @@
 				<Option Goto="355" Text="Если не хотите"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="83">
+			<Text>Стрелять в раскачивающемся положении в быстро движущуюся цель очень непросто, хотя бы расстояние довольно близкое.\n\nПроверьте свою МЕТКОСТЬ.</Text>
+			<Options>
+				<Option Goto="405" Text="Если проверка успешна"/>
+				<Option Goto="513" Text="А если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
