@@ -670,5 +670,12 @@
 				<Option Goto="20"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="100">
+			<Text>Повар с недовольным видом отвлекается от готовки. Видно, что ему сейчас не до вас.\n\nПроверьте своё ОБАЯНИЕ.</Text>
+			<Options>
+				<Option Goto="605" Text="Если вам удастся разговорить этого человека"/>
+				<Option Goto="201" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
