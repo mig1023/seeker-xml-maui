@@ -114,6 +114,7 @@
 	  <None Remove="Resources\Images\Cover\nightofnecromancer.jpg" />
 	  <None Remove="Resources\Images\Cover\noyourgrace.jpg" />
 	  <None Remove="Resources\Images\Cover\octopusisland.jpg" />
+	  <None Remove="Resources\Images\Cover\ominouspaths.jpg" />
 	  <None Remove="Resources\Images\Cover\orcsday.jpg" />
 	  <None Remove="Resources\Images\Cover\pawn.jpg" />
 	  <None Remove="Resources\Images\Cover\peachkwacho.jpg" />
@@ -402,6 +403,7 @@
 	  <MauiImage Include="Resources\Images\Cover\nightmare.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\noyourgrace.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\octopusisland.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\ominouspaths.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\orcsday.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\pawn.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\peachkwacho.jpg" />
