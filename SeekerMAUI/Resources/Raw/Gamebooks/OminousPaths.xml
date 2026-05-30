@@ -579,5 +579,11 @@
 				<Option Goto="542" Text="Нет - тогда остаётся покинуть заведение"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="86">
+			<Text>Вы осторожно подходите к двери и выглядываете на кухню. Все заняты работой, никто не замечает, как вы проскальзываете к лестнице</Text>
+			<Options>
+				<Option Goto="622"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
