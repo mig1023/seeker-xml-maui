@@ -82,5 +82,11 @@
 				<Option Goto="421"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="11">
+			<Text>Вот где пригодится пилка! Вы наскоро выпиливаете приличный кусок решётки и выбираетесь из ловушки</Text>
+			<Options>
+				<Option Goto="302"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
