@@ -39,5 +39,11 @@
 				<Option Goto="606" Text="Если промахнулись"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="4">
+			<Text>Закрыв бочку, вы ещё раз окидываете взором обстановку и оставляете кладовую. На кухне кипит работа, и вы беспрепятственно проходите к лестнице</Text>
+			<Options>
+				<Option Goto="651"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
