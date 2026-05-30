@@ -214,5 +214,11 @@
 				<Option Goto="333"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="31">
+			<Text>Кожистые крылья какой-то твари накрывают лицо, когти царапают голову... и вся стая бросается и облепляет вас со всех сторон. Вы обречены...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
