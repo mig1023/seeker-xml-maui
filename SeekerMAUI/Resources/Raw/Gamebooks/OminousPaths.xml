@@ -242,5 +242,12 @@
 				<Option Goto="270" Text="Если же у вас не хватает ни на то, ни на другое"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="35">
+			<Text>Следующая развилка появляется уже ближе к сумеркам, солнце почти ушло на запад.</Text>
+			<Options>
+				<Option Goto="152" Text="Северо-западная"/>
+				<Option Goto="296" Text="северная тропинка"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
