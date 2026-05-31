@@ -1057,5 +1057,12 @@
 				<Option Goto="313"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="160">
+			<Text>Однако вы не знаете, где граф живёт. Кажется, так просто найти его не удастся.</Text>
+			<Options>
+				<Option Goto="32" Text="Вы можете осведомиться о графе Хэйсале у прохожих около ближайшего трактира"/>
+				<Option Goto="603" Text="просто проехаться по разным улицам города"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
