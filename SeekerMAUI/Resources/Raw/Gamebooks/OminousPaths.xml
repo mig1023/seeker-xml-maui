@@ -957,5 +957,13 @@
 				<Option Goto="482"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="145">
+			<Text>- Поговорить?.. Ну, говори, только побыстрей.\n\nПовар явно торопится и не может долго с вами болтать. Вы сможете задать лишь один вопрос.</Text>
+			<Options>
+				<Option Goto="469" Text="Как устроена цитадель Алмарка"/>
+				<Option Goto="390" Text="Как охраняется"/>
+				<Option Goto="522" Text="Где живёт сам Алмарк"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
