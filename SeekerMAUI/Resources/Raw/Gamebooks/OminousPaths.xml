@@ -829,5 +829,11 @@
 				<Option Goto="384" Text="Если меньше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="125">
+			<Text>Восстановите 2 СИЛЫ.\n\nМожно идти дальше. Бросив последний взгляд на клубки змей, вы выходите через дверь</Text>
+			<Options>
+				<Option Goto="647"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
