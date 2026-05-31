@@ -926,5 +926,12 @@
 				<Option Goto="609" Text="правую. Если вы уже исследовали какую-либо из них, не заходите туда снова!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="140">
+			<Text>* Проверьте свою МЕТКОСТЬ.</Text>
+			<Options>
+				<Option Goto="261" Text="Если вы достаточно ловки"/>
+				<Option Goto="644" Text="Если же нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
