@@ -1115,5 +1115,12 @@
 				<Option Goto="429"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="169">
+			<Text>Проверьте свою МЕТКОСТЬ.</Text>
+			<Options>
+				<Option Goto="369" Text="Если проверка успешна"/>
+				<Option Goto="668" Text="Если провальна"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
