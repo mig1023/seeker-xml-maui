@@ -862,5 +862,11 @@
 				<Option Goto="94"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="130">
+			<Text>Вы бегом устремляетесь вверх по каменной винтовой лестнице.\n\nЕсли у вас меч Алнора, то вы знаете, что нужно сделать. Если же обычный клинок</Text>
+			<Options>
+				<Option Goto="275"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
