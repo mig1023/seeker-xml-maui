@@ -1077,5 +1077,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="163">
+			<Text>Вы не видите, куда идти и где мост, а рядом всё чаще и чаще мелькают чьи-то тени...\n\nфПроверьте свою УДАЧУ.</Text>
+			<Options>
+				<Option Goto="653" Text="Удачливы"/>
+				<Option Goto="31" Text="Не удачливы"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
