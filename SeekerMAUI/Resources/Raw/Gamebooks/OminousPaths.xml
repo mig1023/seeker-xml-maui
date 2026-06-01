@@ -1487,5 +1487,11 @@
 				<Option Goto="43"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="225">
+			<Text>Два птицечеловека падают замертво, а двое других уже на подлёте к вам. Выхватывайте из ножен меч!\n\nX ПЕРВЫЙ ПТИЦЕЧЕЛОВЕК\n\nЛОВКОСТЬ 7, СИЛА 9\n\nX ВТОРОЙ ПТИЦЕЧЕЛОВЕК\n\nЛОВКОСТЬ 8, СИЛА 8\n\nЕсли вы победили</Text>
+			<Options>
+				<Option Goto="54"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
