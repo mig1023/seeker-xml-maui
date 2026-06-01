@@ -1594,5 +1594,11 @@
 				<Option Goto="10"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="241">
+			<Text>Трапеза проходит тихо-мирно. Утолив свой голод неплохим ужином (+3 СИЛЫ), вы выходите на улицу</Text>
+			<Options>
+				<Option Goto="702"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
