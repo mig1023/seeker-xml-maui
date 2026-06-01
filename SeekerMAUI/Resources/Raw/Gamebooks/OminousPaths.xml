@@ -1170,5 +1170,11 @@
 				<Option Goto="54"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="177">
+			<Text>Хамелеон атакует, выстреливая своим жгучим языком, и каждый достигший цели его выпад отнимет у вас 3 СИЛЫ. Деритесь.\n\nX ГИГАНСТКИЙ ХАМЕЛЕОН\n\nЛОВКОСТЬ 8, СИЛА 11\n\nЕсли вы победили</Text>
+			<Options>
+				<Option Goto="638"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
