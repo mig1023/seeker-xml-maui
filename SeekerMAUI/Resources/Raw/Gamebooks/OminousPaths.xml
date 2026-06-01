@@ -1383,5 +1383,11 @@
 				<Option Goto="647"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="209">
+			<Text>2 АЛМАР\n\nЛОВКОСТЬ 10, СИЛА 12\n\nЕсли вы смогли его одолеть</Text>
+			<Options>
+				<Option Goto="141"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
