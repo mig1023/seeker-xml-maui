@@ -1474,5 +1474,12 @@
 				<Option Goto="593"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="223">
+			<Text>В кого же вы выстрелите, пока вас не заметили?</Text>
+			<Options>
+				<Option Goto="72" Text="В большого высокорослого орка, который совсем недалеко от вас и в которого попасть нетрудно"/>
+				<Option Goto="169" Text="или в одного из лучников-алмаров"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
