@@ -1209,5 +1209,11 @@
 				<Option Goto="270"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="183">
+			<Text>Вы тщетно трёте глаза... и голова бессильно опускается на грудь.\n\nЧерез пару минут вы уже мирно погружены в безмятежный сон</Text>
+			<Options>
+				<Option Goto="365"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
