@@ -2410,5 +2410,11 @@
 				<Option Goto="300"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="365">
+			<Text>Глубокой ночью вы, очнувшись от чего-то, вдруг слышите рядом шорохи, голоса, собираетесь открыть глаза... и неожиданно получаете тяжёлый удар по голове</Text>
+			<Options>
+				<Option Goto="88"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
