@@ -1924,5 +1924,12 @@
 				<Option Goto="76"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="291">
+			<Text>Дверь заперта, а вашего приближения никто, видимо, не услышал и не увидел.</Text>
+			<Options>
+				<Option Goto="377" Text="Постучитесь"/>
+				<Option Goto="466" Text="уйдёте подобру-поздорову"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
