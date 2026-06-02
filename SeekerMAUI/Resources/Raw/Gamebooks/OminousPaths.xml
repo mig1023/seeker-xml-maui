@@ -1938,5 +1938,12 @@
 				<Option Goto="37" Text="Если провальна"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="293">
+			<Text>Покинув заставу, вы возвращаетесь на развилку. Отсюда ведут четыре тропинки. По южной вы пришли. Западная вам ни к чему. Итак, по какой пойдёте:</Text>
+			<Options>
+				<Option Goto="686" Text="по северной"/>
+				<Option Goto="255" Text="по восточной"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
