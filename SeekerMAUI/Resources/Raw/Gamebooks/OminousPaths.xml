@@ -2004,5 +2004,11 @@
 				<Option Goto="97"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="303">
+			<Text>...не удержавшись, покачиваетесь вперёд... И камнем падаете на дно расщелины. Острая нестерпимая боль... и всепоглощающая тьма.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
