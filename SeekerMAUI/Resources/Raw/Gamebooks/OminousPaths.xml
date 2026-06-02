@@ -1865,5 +1865,11 @@
 				<Option Goto="662" Text="оставите в покое и пойдёте дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="282">
+			<Text>Если на вас надето ожерелье из клыков, воспользуйтесь им.\n\nЕсли нет</Text>
+			<Options>
+				<Option Goto="323"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
