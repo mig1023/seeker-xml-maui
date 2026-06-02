@@ -1912,5 +1912,11 @@
 				<Option Goto="533" Text="либо на восток, в лес"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="289">
+			<Text>узник\n\nЛОВКОСТЬ 8, СИЛА 10\n\nЕсли вы победили</Text>
+			<Options>
+				<Option Goto="61"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
