@@ -2378,5 +2378,12 @@
 				<Option Goto="623" Text="Можете спокойно отправиться по ней или для начала проверить, кто живёт в этом доме"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="360">
+			<Text>Проверьте своё ОБАЯНИЕ.</Text>
+			<Options>
+				<Option Goto="558" Text="Если вы сумеете убедить незнакомца в своих благих намерениях"/>
+				<Option Goto="671" Text="А если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
