@@ -2306,5 +2306,11 @@
 				<Option Goto="255" Text="на восток"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="349">
+			<Text>Вы просиживаете здесь ещё с полчаса, но так ничего и не происходит. Наконец, вы решаете, что пора отправиться к реке Лилий, и выходите из трактира</Text>
+			<Options>
+				<Option Goto="222"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
