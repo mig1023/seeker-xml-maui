@@ -1945,5 +1945,11 @@
 				<Option Goto="255" Text="по восточной"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="294">
+			<Text>Увы, но стрела очень метко несёт смерть в ваше сердце... Ваше счастье, что боли вы почти не чувствуете: сознание покидает тело за считанные мгновения...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
