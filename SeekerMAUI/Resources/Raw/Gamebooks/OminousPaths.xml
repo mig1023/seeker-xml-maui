@@ -2772,5 +2772,12 @@
 				<Option Goto="701"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="421">
+			<Text>Киньте кубик.</Text>
+			<Options>
+				<Option Goto="365" Text="Если выпадет 1, 3 или 6"/>
+				<Option Goto="62" Text="Если 2, 4, 5, тогда"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
