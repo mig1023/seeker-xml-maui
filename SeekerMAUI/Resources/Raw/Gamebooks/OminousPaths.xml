@@ -2564,5 +2564,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="389">
+			<Text>Увы, вы даёте промах. Но в ответ слышится другой свист, и та стрела находит цель (отнимите 4 от своей СИЛЫ).</Text>
+			<Options>
+				<Option Goto="156" Text="Теперь можете делать следующий выстрел"/>
+				<Option Goto="688" Text="Если у вас кончился запас стрел"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
