@@ -3200,5 +3200,11 @@
 				<Option Goto="69"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="488">
+			<Text>Заклятие, удар жезлом - и меч рассыпается в руках. Ещё удар - и вы падаете на колени. Увы, но вы ничего не можете поделать с этой колдовской силой. Вы проиграли...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
