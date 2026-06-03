@@ -2927,5 +2927,12 @@
 				<Option Goto="363" Text="тому из двух алмаров, который ближе"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="445">
+			<Text>И тут один из воинов-эльфов обращает внимание на кольцо.\n\n- Откуда оно у вас? - вопрошает он.</Text>
+			<Options>
+				<Option Goto="29" Text="Если имя Нэйома вам знакомо"/>
+				<Option Goto="578" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
