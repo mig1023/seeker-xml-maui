@@ -2889,5 +2889,11 @@
 				<Option Goto="575" Text="Если вы победили, но Нэйом погиб"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="439">
+			<Text>Если на вас надет плащ с нашивкой в виде буквы «А», то вы знаете, что нужно сделать.\n\nНет</Text>
+			<Options>
+				<Option Goto="182"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
