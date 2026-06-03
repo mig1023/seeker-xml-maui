@@ -2972,5 +2972,11 @@
 				<Option Goto="355"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="452">
+			<Text>Неожиданно на следующей развилке вы замечаете на табличке одного из домиков знакомые слова. Улица Кузнечного дела! Вот вы и добрались до неё</Text>
+			<Options>
+				<Option Goto="28"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
