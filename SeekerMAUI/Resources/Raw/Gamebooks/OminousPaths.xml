@@ -2618,5 +2618,11 @@
 				<Option Goto="240"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="397">
+			<Text>Под вашими усилиями часть решётки подаётся и отходит в сторону. Расширив отверстие, вы поскорей выбираетесь наружу</Text>
+			<Options>
+				<Option Goto="621"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
