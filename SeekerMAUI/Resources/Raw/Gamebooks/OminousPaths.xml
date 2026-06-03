@@ -2591,5 +2591,11 @@
 				<Option Goto="108" Text="громко, отчётливо спросите: «Кто там?»"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="393">
+			<Text>До чего ж хороший стрелок вам повстречался! Не успеваете вы отклониться, как стрела уже пронзает точно в сердце.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
