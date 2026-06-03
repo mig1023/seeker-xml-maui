@@ -3116,5 +3116,13 @@
 				<Option Goto="635"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="475">
+			<Text>475.</Text>
+			<Options>
+				<Option Goto="376" Text="Коридор упрямо идёт вперёд"/>
+				<Option Goto="179" Text="а по левую"/>
+				<Option Goto="103" Text="и правую руку - новые двери. Их вид очень напоминает вам дверь, из которой вы немного ранее успешно выбрались на свободу"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
