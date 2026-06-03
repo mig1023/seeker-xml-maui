@@ -3052,5 +3052,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="465">
+			<Text>Шум драки слышен по всему коридору. Напрасно вы надеялись, что товарищи охранника не придут ему на помощь.</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
