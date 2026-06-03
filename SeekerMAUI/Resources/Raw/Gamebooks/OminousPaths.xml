@@ -3104,5 +3104,11 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="473">
+			<Text>Судьба!.. Вы промахнулись, и теперь уже не спастись: на зов одного из алмаров приходят его дружки, а их оказывается слишком уж много для вас одного...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
