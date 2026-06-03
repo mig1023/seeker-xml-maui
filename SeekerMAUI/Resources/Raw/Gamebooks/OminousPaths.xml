@@ -3138,5 +3138,11 @@
 				<Option Goto="47" Text="А если у вас иссяк запас снаряжения"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="478">
+			<Text>Если у вас есть москитная сетка, то, конечно же, воспользуйтесь ею.\n\nА ежели нет</Text>
+			<Options>
+				<Option Goto="407"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
