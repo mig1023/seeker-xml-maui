@@ -3015,5 +3015,11 @@
 				<Option Goto="318" Text="Если вы победили, но ваш спутник пал"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="459">
+			<Text>Под вашим натиском кусок деревянной решётки почти сразу ломается и отходит в сторону. Вы быстро расширяете дыру. Путь свободен!</Text>
+			<Options>
+				<Option Goto="302"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
