@@ -3723,5 +3723,11 @@
 				<Option Goto="20"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="568">
+			<Text>И всё-таки вы не успеваете отбежать на достаточное расстояние. Слышится режущий слух свист тетивы, и стрела пронзает спину точно промеж лопаток...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
