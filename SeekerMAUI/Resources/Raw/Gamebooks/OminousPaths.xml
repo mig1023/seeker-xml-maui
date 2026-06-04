@@ -3526,5 +3526,12 @@
 				<Option Goto="452" Text="вернётесь на прежнюю развилку и выберете другой путь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="538">
+			<Text>Проверьте свою МЕТКОСТЬ.</Text>
+			<Options>
+				<Option Goto="101" Text="Если вы попали"/>
+				<Option Goto="252" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
