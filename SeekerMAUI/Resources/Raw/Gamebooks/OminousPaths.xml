@@ -3552,5 +3552,11 @@
 				<Option Goto="332" Text="на восток"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="542">
+			<Text>Если вам известен какой-либо полезный адрес, можете пойти по нему. Если нет, то пора идти на центральную площадь</Text>
+			<Options>
+				<Option Goto="635"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
