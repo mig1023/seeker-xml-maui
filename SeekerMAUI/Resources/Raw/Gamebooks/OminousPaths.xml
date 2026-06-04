@@ -3337,5 +3337,11 @@
 				<Option Goto="324"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="509">
+			<Text>Промедление - роковое. Заслышав шорох позади, алмар успевает обернуться и почти в упор выпускает смертоносную стрелу...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
