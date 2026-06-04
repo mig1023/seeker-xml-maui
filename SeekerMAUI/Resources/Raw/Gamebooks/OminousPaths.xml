@@ -3685,5 +3685,12 @@
 				<Option Goto="256" Text="Если не слишком"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="562">
+			<Text>фПроверьте свою УДАЧУ.</Text>
+			<Options>
+				<Option Goto="392" Text="Если вам везёт"/>
+				<Option Goto="457" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
