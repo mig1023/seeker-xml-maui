@@ -3239,5 +3239,11 @@
 				<Option Goto="130"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="494">
+			<Text>2 НЕИЗВЕСТНЫЙ\n\nЛОВКОСТЬ 9, СИЛА 6\n\nЕсли вы победили</Text>
+			<Options>
+				<Option Goto="120"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
