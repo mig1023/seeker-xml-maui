@@ -3356,5 +3356,11 @@
 				<Option Goto="294" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="512">
+			<Text>Ничего страшного пока не случается. Вы с успехом причаливаете к острову и, вытащив лодочку на камни, внимательно осматриваетесь</Text>
+			<Options>
+				<Option Goto="161"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
