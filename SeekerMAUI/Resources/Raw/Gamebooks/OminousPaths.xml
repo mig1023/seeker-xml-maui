@@ -3570,5 +3570,11 @@
 				<Option Goto="217"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="545">
+			<Text>Если имя Арвида вам знакомо, то выполните необходимые действия.\n\nЕсли нет</Text>
+			<Options>
+				<Option Goto="251"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
