@@ -3870,5 +3870,11 @@
 				<Option Goto="409"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="591">
+			<Text>Не дослушав первой же вашей фразы, встречный делает выпад. Едва увернувшись, вы осознаёте, что бой неизбежен</Text>
+			<Options>
+				<Option Goto="494"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
