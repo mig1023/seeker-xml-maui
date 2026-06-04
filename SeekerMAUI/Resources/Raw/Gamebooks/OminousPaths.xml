@@ -3499,5 +3499,12 @@
 				<Option Goto="409"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="534">
+			<Text>Проверьте свою ЛОВКОСТЬ.</Text>
+			<Options>
+				<Option Goto="78" Text="Если проверка успешна"/>
+				<Option Goto="278" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
