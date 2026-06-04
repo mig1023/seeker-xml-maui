@@ -3812,5 +3812,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="582">
+			<Text>Проверьте свою МЕТКОСТЬ два раза.</Text>
+			<Options>
+				<Option Goto="327" Text="Если обе проверки пройдены"/>
+				<Option Goto="473" Text="Если хоть одна провалена"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
