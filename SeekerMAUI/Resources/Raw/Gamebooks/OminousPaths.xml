@@ -3678,5 +3678,12 @@
 				<Option Goto="159" Text="или на восток"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="561">
+			<Text>Надет ли на вас необычный амулет с изображением Алмарка? Если нет - проверьте своё ОБАЯНИЕ.</Text>
+			<Options>
+				<Option Goto="185" Text="Если ваши слова прозвучат убедительно"/>
+				<Option Goto="256" Text="Если не слишком"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
