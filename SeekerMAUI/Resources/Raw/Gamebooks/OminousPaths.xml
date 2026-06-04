@@ -3448,5 +3448,12 @@
 				<Option Goto="542" Text="Если не хотите ни сюда, ни туда"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="526">
+			<Text>В полутьме вы натыкаетесь на развилку.</Text>
+			<Options>
+				<Option Goto="637" Text="Пойти прямо по коридору, к большой прочной двери"/>
+				<Option Goto="475" Text="или направо. Из-за двери виднеется колышущееся свечение, но на удивление тихо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
