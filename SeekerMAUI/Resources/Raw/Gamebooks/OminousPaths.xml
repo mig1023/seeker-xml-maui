@@ -4384,5 +4384,11 @@
 				<Option Goto="484" Text="пойдёте дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="671">
+			<Text>Незнакомец некоторое время недоверчиво разглядывает вас, а затем своим камнем наносит резкий удар (-2 СИЛЫ). Похоже, он принял вас за стражника, и придётся драться</Text>
+			<Options>
+				<Option Goto="289"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
