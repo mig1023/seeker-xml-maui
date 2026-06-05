@@ -3957,5 +3957,13 @@
 				<Option Goto="429"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="605">
+			<Text>- Ну что, зачем пришёл, вояка? - по-свойски спрашивает повар. - Опять окорок перехватить или нет?</Text>
+			<Options>
+				<Option Goto="201" Text="Что вы ответите: что пришли «окорок перехватить»"/>
+				<Option Goto="145" Text="поговорить"/>
+				<Option Goto="18" Text="проверить, как тут у них идут дела"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
