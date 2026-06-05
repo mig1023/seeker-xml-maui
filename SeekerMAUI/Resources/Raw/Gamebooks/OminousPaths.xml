@@ -4468,5 +4468,13 @@
 				<Option Goto="74"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="684">
+			<Text>684.</Text>
+			<Options>
+				<Option Goto="432" Text="Пробегает пара минут, ничего не происходит. Дальше сидеть без дела нет смысла. Вы можете за 2 золотых заказать себе ужин"/>
+				<Option Goto="570" Text="подсесть к неугомонной компании эльфов"/>
+				<Option Goto="98" Text="выйти из трактира и поскакать к реке Лилий"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
