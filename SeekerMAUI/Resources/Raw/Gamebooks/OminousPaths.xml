@@ -4208,5 +4208,11 @@
 				<Option Goto="247"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="644">
+			<Text>К несчастью, вы промахиваетесь, а лук у противника наготове. Вы не успеваете даже добежать до врагов: метко пущенная стрела почти пробивает насквозь...</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
