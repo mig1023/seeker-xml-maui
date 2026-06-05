@@ -4449,5 +4449,12 @@
 				<Gameover/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="681">
+			<Text>фПроверьте свою УДАЧУ.</Text>
+			<Options>
+				<Option Goto="443" Text="Удачливы"/>
+				<Option Goto="571" Text="Нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
