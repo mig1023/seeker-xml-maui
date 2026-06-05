@@ -4266,5 +4266,12 @@
 				<Option Goto="509" Text="Не повезло"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="653">
+			<Text>Проверьте свою УДАЧУ ещё раз.</Text>
+			<Options>
+				<Option Goto="267" Text="Если и в этот госпожа Судьба на вашей стороне"/>
+				<Option Goto="402" Text="Если всё-таки нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
