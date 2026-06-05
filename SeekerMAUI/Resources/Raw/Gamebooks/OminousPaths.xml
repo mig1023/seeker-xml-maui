@@ -4436,5 +4436,12 @@
 				<Option Goto="515" Text="Если не получилось"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="679">
+			<Text>Через некоторое время тропинка раздваивается. Какое выберете направление:</Text>
+			<Options>
+				<Option Goto="107" Text="северное, на котором виднеется множество следов сапог разных размеров"/>
+				<Option Goto="245" Text="или северо-восточное"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
