@@ -3932,5 +3932,11 @@
 				<Option Goto="20"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="601">
+			<Text>ПТИЦЕЧЕЛОВЕК\n\nЛОВКОСТЬ 10, СИЛА 8\n\nЕсли вы повергли его</Text>
+			<Options>
+				<Option Goto="364"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
