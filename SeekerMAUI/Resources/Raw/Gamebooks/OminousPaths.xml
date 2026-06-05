@@ -4259,5 +4259,12 @@
 				<Option Goto="355"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="652">
+			<Text>Ну, на этот случай есть верный меч! Подождав, пока враг отвернётся, вы с обнажённым клинком выскакиваете к нему. Вот только успеете ли?..\n\nПроверьте свою УДАЧУ.</Text>
+			<Options>
+				<Option Goto="450" Text="Если повезло"/>
+				<Option Goto="509" Text="Не повезло"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
