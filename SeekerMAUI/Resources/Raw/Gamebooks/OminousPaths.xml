@@ -3965,5 +3965,12 @@
 				<Option Goto="18" Text="проверить, как тут у них идут дела"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="606">
+			<Text>Ответная стрела от алмара - и вы не успеваете увернуться (вычтите 4 из СИЛЫ).</Text>
+			<Options>
+				<Option Goto="3" Text="Повторите выстрел"/>
+				<Option Goto="326" Text="Если стрел не осталось вовсе"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
