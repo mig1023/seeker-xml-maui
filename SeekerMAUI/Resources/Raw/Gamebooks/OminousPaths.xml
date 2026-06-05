@@ -4273,5 +4273,13 @@
 				<Option Goto="402" Text="Если всё-таки нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="654">
+			<Text>По обе стороны от прохода вы замечаете двери: точь-в-точь как та, которая служила входом в вашу камеру.</Text>
+			<Options>
+				<Option Goto="103" Text="Заглянете в левую"/>
+				<Option Goto="179" Text="правую"/>
+				<Option Goto="312" Text="продолжите путь вперёд"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
