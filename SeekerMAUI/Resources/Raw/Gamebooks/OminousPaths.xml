@@ -4377,5 +4377,12 @@
 				<Option Goto="149"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="670">
+			<Text>В правой стене вы видите другую дверь, сравнительно небольшую. Опыт подсказывает, что за ней может располагаться склад или помещение для рабочей прислуги.</Text>
+			<Options>
+				<Option Goto="334" Text="Откроете"/>
+				<Option Goto="484" Text="пойдёте дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
