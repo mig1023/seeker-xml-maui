@@ -286,8 +286,8 @@
 		<Paragraph No="39">
 			<Text>Проверьте свою МЕТКОСТЬ.</Text>
 			<Options>
-				<Option Goto="374" Text="Если она вас не подвела"/>
-				<Option Goto="492" Text="Если всё-таки подвела"/>
+				<Option Goto="374" Text="Она вас не подвела"/>
+				<Option Goto="492" Text="Всё-таки подвела"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="40">
