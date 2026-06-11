@@ -214,10 +214,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="29">
-			<Text>29.</Text>
 			<Options>
-				<Option Goto="495" Text="Если Нэйом жив"/>
-				<Option Goto="610" Text="Нет"/>
+				<Option Goto="495" Text="Нэйом жив"/>
+				<Option Goto="610" Text="Он погиб"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="30">
