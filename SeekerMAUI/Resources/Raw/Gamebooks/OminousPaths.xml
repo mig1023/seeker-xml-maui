@@ -259,7 +259,7 @@
 			<Text>Следующая развилка появляется уже ближе к сумеркам, солнце почти ушло на запад.</Text>
 			<Options>
 				<Option Goto="152" Text="Северо-западная"/>
-				<Option Goto="296" Text="северная тропинка"/>
+				<Option Goto="296" Text="Северная тропинка"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="36">
