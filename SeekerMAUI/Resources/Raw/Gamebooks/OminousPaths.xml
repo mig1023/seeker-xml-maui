@@ -318,8 +318,8 @@
 		<Paragraph No="44">
 			<Text>Вы и Нэйом против\n\nX АЛМАР\n\nЛОВКОСТЬ 10, СИЛА 12</Text>
 			<Options>
-				<Option Goto="480" Text="Если вы с Нэйомом победили"/>
-				<Option Goto="649" Text="А ежели союзник пал, но вы сразили врага"/>
+				<Option Goto="480" Text="Вы с Нэйомом победили"/>
+				<Option Goto="649" Text="Союзник пал, но вы сразили врага"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="45">
