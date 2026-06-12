@@ -635,8 +635,10 @@
 		<Paragraph No="91">
 			<Text>Вот где может пригодиться свеча! Однако есть ли у вас огниво, что давали в королевском дворце?</Text>
 			<Options>
-				<Option Goto="641" Text="Есть предмет"/>
-				<Option Goto="337" Text="А если нет, то зажечь свечу вам нечем!"/>
+				<Option Goto="641" Text="Есть">
+					<Text>А если нет, то зажечь свечу вам нечем!..</Text>
+				</Option>
+				<Option Goto="337"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="92">
