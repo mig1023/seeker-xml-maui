@@ -966,10 +966,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="140">
-			<Text>* Проверьте свою МЕТКОСТЬ.</Text>
+			<Text>Проверьте свою МЕТКОСТЬ.</Text>
 			<Options>
-				<Option Goto="261" Text="Если вы достаточно ловки"/>
-				<Option Goto="644" Text="Если же нет"/>
+				<Option Goto="261" Text="Вы достаточно ловки"/>
+				<Option Goto="644" Text="Ловкости не хватило"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="141">
