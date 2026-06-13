@@ -1163,8 +1163,8 @@
 		<Paragraph No="169">
 			<Text>Проверьте свою МЕТКОСТЬ.</Text>
 			<Options>
-				<Option Goto="369" Text="Если проверка успешна"/>
-				<Option Goto="668" Text="Если провальна"/>
+				<Option Goto="369" Text="Проверка успешна"/>
+				<Option Goto="668" Text="Провалена"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="170">
