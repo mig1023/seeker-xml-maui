@@ -920,8 +920,8 @@
 		<Paragraph No="133">
 			<Text>Проверьте свою СИЛУ.</Text>
 			<Options>
-				<Option Goto="340" Text="Если её у вас хватает"/>
-				<Option Goto="700" Text="Если нет"/>
+				<Option Goto="340" Text="У вас хватило сил"/>
+				<Option Goto="700" Text="Не хватило"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="134">
