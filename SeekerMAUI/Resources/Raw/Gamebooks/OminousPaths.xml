@@ -1078,8 +1078,8 @@
 		<Paragraph No="156">
 			<Text>* Проверьте свою МЕТКОСТЬ.</Text>
 			<Options>
-				<Option Goto="15" Text="Если она вас не подвела"/>
-				<Option Goto="389" Text="Если всё-таки подвела"/>
+				<Option Goto="15" Text="Меткость вас не подвела"/>
+				<Option Goto="389" Text="Всё-таки подвела"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="157">
