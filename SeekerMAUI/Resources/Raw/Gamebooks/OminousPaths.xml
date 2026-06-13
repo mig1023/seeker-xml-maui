@@ -840,8 +840,8 @@
 		<Paragraph No="121">
 			<Text>Проверьте своё ОБАЯНИЕ.</Text>
 			<Options>
-				<Option Goto="489" Text="Если всё в порядке"/>
-				<Option Goto="627" Text="Если не совсем"/>
+				<Option Goto="489" Text="Всё в порядке"/>
+				<Option Goto="627" Text="Не совсем"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="122">
