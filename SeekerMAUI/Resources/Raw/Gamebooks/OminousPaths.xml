@@ -1404,8 +1404,8 @@
 		<Paragraph No="205">
 			<Text>Улочка заворачивает правее, и вновь вы слегка придерживаете коня на перекрёстке. Куда:</Text>
 			<Options>
-				<Option Goto="452" Text="прямо"/>
-				<Option Goto="537" Text="налево"/>
+				<Option Goto="452" Text="Прямо"/>
+				<Option Goto="537" Text="Налево"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="206">
