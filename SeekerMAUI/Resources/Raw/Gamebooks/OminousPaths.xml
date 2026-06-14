@@ -1428,9 +1428,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="209">
-			<Text>2 АЛМАР\n\nЛОВКОСТЬ 10, СИЛА 12\n\nЕсли вы смогли его одолеть</Text>
+			<Text>2 АЛМАР\n\nЛОВКОСТЬ 10, СИЛА 12</Text>
 			<Options>
-				<Option Goto="141"/>
+				<Option Goto="141" Text="Вы смогли его одолеть"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="210">
