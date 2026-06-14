@@ -1550,10 +1550,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="228">
-			<Text>228.</Text>
 			<Options>
-				<Option Goto="372" Text="Если вы, бродя с Нэйомом по этим полутёмным коридорам, до этого боя уже сражались с алмарами"/>
-				<Option Goto="438" Text="Если нет"/>
+				<Option Goto="372" Text="Бродя с Нэйомом по этим полутёмным коридорам, до этого боя уже сражались с алмарами"/>
+				<Option Goto="438" Text="Этого не было"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="229">
