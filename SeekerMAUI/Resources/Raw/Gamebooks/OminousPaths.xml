@@ -1970,9 +1970,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="289">
-			<Text>узник\n\nЛОВКОСТЬ 8, СИЛА 10\n\nЕсли вы победили</Text>
+			<Text>узник\n\nЛОВКОСТЬ 8, СИЛА 10</Text>
 			<Options>
-				<Option Goto="61"/>
+				<Option Goto="61" Text="Вы победили"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="290">
