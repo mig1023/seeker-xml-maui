@@ -2394,8 +2394,8 @@
 		<Paragraph No="351">
 			<Text>Проверьте свою МЕТКОСТЬ.</Text>
 			<Options>
-				<Option Goto="272" Text="Если всё хорошо"/>
-				<Option Goto="527" Text="Ежели нет"/>
+				<Option Goto="272" Text="Всё хорошо"/>
+				<Option Goto="527" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="352">
