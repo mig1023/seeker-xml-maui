@@ -2452,8 +2452,8 @@
 		<Paragraph No="360">
 			<Text>Проверьте своё ОБАЯНИЕ.</Text>
 			<Options>
-				<Option Goto="558" Text="Если вы сумеете убедить незнакомца в своих благих намерениях"/>
-				<Option Goto="671" Text="А если нет"/>
+				<Option Goto="558" Text="Сумели убедить незнакомца в своих благих намерениях"/>
+				<Option Goto="671" Text="Не получилось"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="361">
