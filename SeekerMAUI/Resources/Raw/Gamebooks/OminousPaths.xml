@@ -2335,8 +2335,8 @@
 		<Paragraph No="343">
 			<Text>Проверьте свою УДАЧУ.</Text>
 			<Options>
-				<Option Goto="115" Text="Если вам повезёт"/>
-				<Option Goto="187" Text="Если нет"/>
+				<Option Goto="115" Text="Вам повезло"/>
+				<Option Goto="187" Text="Не повезло"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="344">
