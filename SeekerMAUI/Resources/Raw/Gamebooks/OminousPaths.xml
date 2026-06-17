@@ -2167,8 +2167,8 @@
 		<Paragraph No="319">
 			<Text>фПроверьте свою УДАЧУ.</Text>
 			<Options>
-				<Option Goto="64" Text="Если Судьба за вас"/>
-				<Option Goto="408" Text="Против"/>
+				<Option Goto="64" Text="Судьба за вас"/>
+				<Option Goto="408" Text="Она против"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="320">
