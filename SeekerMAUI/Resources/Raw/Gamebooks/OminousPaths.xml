@@ -2970,9 +2970,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="439">
-			<Text>Если на вас надет плащ с нашивкой в виде буквы «А», то вы знаете, что нужно сделать.\n\nНет</Text>
+			<Text>Если на вас надет плащ с нашивкой в виде буквы «А», то вы знаете, что нужно сделать.</Text>
 			<Options>
-				<Option Goto="182"/>
+				<Option Goto="182" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="440">
