@@ -3010,8 +3010,8 @@
 		<Paragraph No="445">
 			<Text>И тут один из воинов-эльфов обращает внимание на кольцо.\n\n- Откуда оно у вас? - вопрошает он.</Text>
 			<Options>
-				<Option Goto="29" Text="Если имя Нэйома вам знакомо"/>
-				<Option Goto="578" Text="Если нет"/>
+				<Option Goto="29" Text="Имя Нэйома вам знакомо"/>
+				<Option Goto="578" Text="Не знаете такого"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="446">
