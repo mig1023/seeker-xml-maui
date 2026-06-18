@@ -2853,8 +2853,8 @@
 		<Paragraph No="421">
 			<Text>Киньте кубик.</Text>
 			<Options>
-				<Option Goto="365" Text="Если выпадет 1, 3 или 6"/>
-				<Option Goto="62" Text="Если 2, 4, 5, тогда"/>
+				<Option Goto="365" Text="Выпало 1, 3 или 6"/>
+				<Option Goto="62" Text="Выпало 2, 4, 5"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="422">
