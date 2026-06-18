@@ -3032,8 +3032,8 @@
 		<Paragraph No="448">
 			<Text>Проверьте свою МЕТКОСТЬ.</Text>
 			<Options>
-				<Option Goto="151" Text="Если выстрел произведён успешно"/>
-				<Option Goto="274" Text="Если нет"/>
+				<Option Goto="151" Text="Выстрел произведён успешно"/>
+				<Option Goto="274" Text="Промах"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="449">
