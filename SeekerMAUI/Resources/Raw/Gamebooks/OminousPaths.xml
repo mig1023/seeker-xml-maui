@@ -3328,9 +3328,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="494">
-			<Text>2 НЕИЗВЕСТНЫЙ\n\nЛОВКОСТЬ 9, СИЛА 6\n\nЕсли вы победили</Text>
+			<Text>2 НЕИЗВЕСТНЫЙ\n\nЛОВКОСТЬ 9, СИЛА 6</Text>
 			<Options>
-				<Option Goto="120"/>
+				<Option Goto="120" Text="Победили"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="495">
