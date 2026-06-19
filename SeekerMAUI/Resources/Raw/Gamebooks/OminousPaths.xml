@@ -3915,8 +3915,8 @@
 		<Paragraph No="582">
 			<Text>Проверьте свою МЕТКОСТЬ два раза.</Text>
 			<Options>
-				<Option Goto="327" Text="Если обе проверки пройдены"/>
-				<Option Goto="473" Text="Если хоть одна провалена"/>
+				<Option Goto="327" Text="Обе проверки пройдены"/>
+				<Option Goto="473" Text="Хоть одна провалена"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="583">
