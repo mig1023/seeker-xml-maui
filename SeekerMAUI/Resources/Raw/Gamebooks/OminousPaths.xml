@@ -4035,9 +4035,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="601">
-			<Text>ПТИЦЕЧЕЛОВЕК\n\nЛОВКОСТЬ 10, СИЛА 8\n\nЕсли вы повергли его</Text>
+			<Text>ПТИЦЕЧЕЛОВЕК\n\nЛОВКОСТЬ 10, СИЛА 8</Text>
 			<Options>
-				<Option Goto="364"/>
+				<Option Goto="364" Text="Вы повергли его"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="602">
