@@ -3509,8 +3509,8 @@
 		<Paragraph No="521">
 			<Text>2 ОХРАННИК\n\nЛОВКОСТЬ 7, СИЛА 8</Text>
 			<Options>
-				<Option Goto="253" Text="Если у вас получилось одолеть его не больше, чем за 6 раундов атаки"/>
-				<Option Goto="465" Text="Если бой затянулся"/>
+				<Option Goto="253" Text="Получилось одолеть его не больше, чем за 6 раундов атаки"/>
+				<Option Goto="465" Text="Бой затянулся"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="522">
