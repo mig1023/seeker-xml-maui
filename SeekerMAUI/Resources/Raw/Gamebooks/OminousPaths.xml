@@ -3572,8 +3572,8 @@
 		<Paragraph No="530">
 			<Text>Проверьте своё ОБАЯНИЕ.</Text>
 			<Options>
-				<Option Goto="34" Text="Если вы сумеете убедить стражников в том, что вы - торговец"/>
-				<Option Goto="270" Text="Если нет"/>
+				<Option Goto="34" Text="Сумели убедить стражников в том, что вы - торговец"/>
+				<Option Goto="270" Text="Не получилось"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="531">
