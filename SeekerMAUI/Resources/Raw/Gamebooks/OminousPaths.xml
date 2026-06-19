@@ -3675,8 +3675,8 @@
 		<Paragraph No="546">
 			<Text>Киньте кубик один раз.</Text>
 			<Options>
-				<Option Goto="433" Text="Если у вас выпадет 2, 3 либо 5"/>
-				<Option Goto="365" Text="А если 1, 4 или 6"/>
+				<Option Goto="433" Text="Выпало 2, 3 либо 5"/>
+				<Option Goto="365" Text="Выпало 1, 4 или 6"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="547">
