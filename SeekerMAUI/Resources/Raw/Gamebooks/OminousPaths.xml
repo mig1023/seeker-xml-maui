@@ -3667,9 +3667,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="545">
-			<Text>Если имя Арвида вам знакомо, то выполните необходимые действия.\n\nЕсли нет</Text>
+			<Text>Если имя Арвида вам знакомо, то выполните необходимые действия.</Text>
 			<Options>
-				<Option Goto="251"/>
+				<Option Goto="251" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="546">
