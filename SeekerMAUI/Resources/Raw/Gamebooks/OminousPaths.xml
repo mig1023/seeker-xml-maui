@@ -3744,8 +3744,8 @@
 		<Paragraph No="556">
 			<Text>Проверьте свою МЕТКОСТЬ.</Text>
 			<Options>
-				<Option Goto="58" Text="Если проверка прошла хорошо"/>
-				<Option Goto="146" Text="Если нет"/>
+				<Option Goto="58" Text="Проверка прошла хорошо"/>
+				<Option Goto="146" Text="Прошла плохо"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="557">
