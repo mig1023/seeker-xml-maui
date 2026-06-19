@@ -3225,9 +3225,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="478">
-			<Text>Если у вас есть москитная сетка, то, конечно же, воспользуйтесь ею.\n\nА ежели нет</Text>
+			<Text>Если у вас есть москитная сетка, то, конечно же, воспользуйтесь ею.</Text>
 			<Options>
-				<Option Goto="407"/>
+				<Option Goto="407" Text="Сетки нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="479">
