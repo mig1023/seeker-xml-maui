@@ -4715,9 +4715,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="704">
-			<Text>Если на вас надет плащ с нашивкой в виде буквы «А», перейдите на нужный параграф.\n\nЕсли нет</Text>
+			<Text>Если на вас надет плащ с нашивкой в виде буквы «А», перейдите на нужный параграф.т</Text>
 			<Options>
-				<Option Goto="116"/>
+				<Option Goto="116" Text="Плаща нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="705">
