@@ -4563,7 +4563,7 @@
 			<Text>фПроверьте свою УДАЧУ.</Text>
 			<Options>
 				<Option Goto="443" Text="Удачливы"/>
-				<Option Goto="571" Text="Нет"/>
+				<Option Goto="571" Text="Не повезло"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="682">
