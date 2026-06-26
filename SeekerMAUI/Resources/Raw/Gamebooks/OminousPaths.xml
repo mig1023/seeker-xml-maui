@@ -1076,7 +1076,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="156">
-			<Text>* Проверьте свою МЕТКОСТЬ.</Text>
+			<Text>Проверьте свою МЕТКОСТЬ.</Text>
 			<Options>
 				<Option Goto="15" Text="Меткость вас не подвела"/>
 				<Option Goto="389" Text="Всё-таки подвела"/>
