@@ -1341,7 +1341,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="190">
-			<Text>Вы медленно, без рывков, натягиваете тетиву...\n\nПроверьте свою МЕТКОСТЬ.</Text>
+			<Text>Вы медленно, без рывков, натягиваете тетиву...</Text>
+			<Actions>
+				<Accuracy/>
+			</Actions>
 			<Options>
 				<Option Goto="656" Text="Вы попали"/>
 				<Option Goto="477" Text="Промахнулись"/>
