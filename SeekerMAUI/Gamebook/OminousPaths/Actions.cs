@@ -21,7 +21,7 @@ namespace SeekerMAUI.Gamebook.OminousPaths
 
         public override List<string> Representer()
         {
-            List<string> enemies = new List<string>();
+            var enemies = new List<string>();
 
             if (!String.IsNullOrEmpty(Head))
             {
@@ -33,7 +33,7 @@ namespace SeekerMAUI.Gamebook.OminousPaths
 
             foreach (Character enemy in Enemies)
             {
-                string line = $"{enemy.Name}\nловкость {enemy.Skill}  сила {enemy.Strength}";
+                var line = $"{enemy.Name}\nловкость {enemy.Skill}  сила {enemy.Strength}";
                 enemies.Add(line);
             }
 
@@ -42,15 +42,15 @@ namespace SeekerMAUI.Gamebook.OminousPaths
 
         public List<string> Luck()
         {
-            List<string> luckCheck = new List<string>
+            var luckCheck = new List<string>
             {
                 "Цифры удачи:",
                 "BIG|" + Luckiness.Numbers()
             };
 
-            int goodLuck = Game.Dice.Roll();
-            bool isLuck = Character.Protagonist.Luck[goodLuck];
-            string not = isLuck ? "не " : String.Empty;
+            var goodLuck = Game.Dice.Roll();
+            var isLuck = Character.Protagonist.Luck[goodLuck];
+            var not = isLuck ? "не " : String.Empty;
 
             luckCheck.Add($"Проверка удачи: {Game.Dice.Symbol(goodLuck)} - {not}зачёркунтый");
             luckCheck.Add(Result(isLuck, "УСПЕХ", "НЕУДАЧА"));
@@ -64,9 +64,9 @@ namespace SeekerMAUI.Gamebook.OminousPaths
 
         public List<string> LuckRecovery()
         {
-            List<string> luckRecovery = new List<string> { "Восстановление удачи:" };
+            var luckRecovery = new List<string> { "Восстановление удачи:" };
 
-            bool success = Luckiness.Recovery(luckRecovery);
+            var success = Luckiness.Recovery(luckRecovery);
 
             if (!success)
             {
@@ -82,10 +82,10 @@ namespace SeekerMAUI.Gamebook.OminousPaths
         public List<string> Charm()
         {
             Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
-            bool goodCharm = (firstDice + secondDice) <= Character.Protagonist.Charm;
-            string charmLine = goodCharm ? "<=" : ">";
+            var goodCharm = (firstDice + secondDice) <= Character.Protagonist.Charm;
+            var charmLine = goodCharm ? "<=" : ">";
 
-            List<string> luckCheck = new List<string> { $"Проверка обаяния: " +
+            var luckCheck = new List<string> { $"Проверка обаяния: " +
                 $"{Game.Dice.Symbol(firstDice)} + " +
                 $"{Game.Dice.Symbol(secondDice)} " +
                 $"{charmLine} {Character.Protagonist.Charm}" };
@@ -114,17 +114,39 @@ namespace SeekerMAUI.Gamebook.OminousPaths
         public List<string> Skill()
         {
             Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
-            bool goodSkill = (firstDice + secondDice) <= Character.Protagonist.Skill;
-            string skillLine = goodSkill ? "<=" : ">";
+            var goodSkill = (firstDice + secondDice) <= Character.Protagonist.Skill;
+            var skillLine = goodSkill ? "<=" : ">";
 
-            List<string> luckCheck = new List<string> { $"Проверка ловкости: " +
+            var skillCheck = new List<string> { $"Проверка ловкости: " +
                 $"{Game.Dice.Symbol(firstDice)} + " +
                 $"{Game.Dice.Symbol(secondDice)} {skillLine} " +
                 $"{Character.Protagonist.Skill}" };
 
-            luckCheck.Add(Result(goodSkill, "УСПЕХ", "НЕУДАЧА"));
+            skillCheck.Add(Result(goodSkill, "УСПЕХ", "НЕУДАЧА"));
 
-            return luckCheck;
+            return skillCheck;
+        }
+
+        public List<string> Accuracy()
+        {
+            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+
+            var accuracyCheck = new List<string>();
+
+            var accuracy = 19 - Character.Protagonist.Skill;
+            accuracyCheck.Add($"Текущая меткость: 19 - Ловскость ({Character.Protagonist.Skill}) = {accuracy}");
+
+            var goodAccuracy = (firstDice + secondDice) <= accuracy;
+            var accuracyLine = goodAccuracy ? "<=" : ">";
+
+            accuracyCheck.Add($"Проверка меткости: " +
+                $"{Game.Dice.Symbol(firstDice)} + " +
+                $"{Game.Dice.Symbol(secondDice)} {accuracyLine} " +
+                $"{accuracy}");
+
+            accuracyCheck.Add(Result(goodAccuracy, "ТОЧНО В ЦЕЛЬ!", "ПРОМАХ..."));
+
+            return accuracyCheck;
         }
 
         private static bool NoMoreEnemies(List<Character> enemies, bool EnemyWoundsLimit) =>
@@ -132,21 +154,21 @@ namespace SeekerMAUI.Gamebook.OminousPaths
 
         public List<string> Fight()
         {
-            List<string> fight = new List<string>();
+            var fight = new List<string>();
 
-            List<Character> FightEnemies = new List<Character>();
+            var FightEnemies = new List<Character>();
 
             foreach (Character enemy in Enemies)
                 FightEnemies.Add(enemy.Clone());
 
-            int round = 1;
+            var round = 1;
 
             while (true)
             {
                 fight.Add($"HEAD|BOLD|Раунд: {round}");
 
-                bool attackAlready = false;
-                int protagonistHitStrength = 0;
+                var attackAlready = false;
+                var protagonistHitStrength = 0;
 
                 foreach (Character enemy in FightEnemies)
                 {
@@ -168,7 +190,7 @@ namespace SeekerMAUI.Gamebook.OminousPaths
                     }
 
                     Game.Dice.DoubleRoll(out int enemyRollFirst, out int enemyRollSecond);
-                    int enemyHitStrength = enemyRollFirst + enemyRollSecond + enemy.Skill;
+                    var enemyHitStrength = enemyRollFirst + enemyRollSecond + enemy.Skill;
 
                     fight.Add($"Мощность его удара: " +
                         $"{Game.Dice.Symbol(enemyRollFirst)} + " +
@@ -181,7 +203,7 @@ namespace SeekerMAUI.Gamebook.OminousPaths
 
                         enemy.Strength -= 2;
 
-                        bool enemyLost = NoMoreEnemies(FightEnemies, EnemyWoundsLimit);
+                        var enemyLost = NoMoreEnemies(FightEnemies, EnemyWoundsLimit);
 
                         if (enemyLost)
                             return Win(fight);
@@ -196,7 +218,7 @@ namespace SeekerMAUI.Gamebook.OminousPaths
 
                         Character.Protagonist.Strength -= 2;
 
-                        bool failByLimit = HeroWoundsLimit && (Character.Protagonist.Strength <= 2);
+                        var failByLimit = HeroWoundsLimit && (Character.Protagonist.Strength <= 2);
 
                         if ((Character.Protagonist.Strength <= 0) || failByLimit)
                             return Fail(fight);
