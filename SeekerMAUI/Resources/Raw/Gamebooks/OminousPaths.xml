@@ -3071,7 +3071,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="448">
-			<Text>Проверьте свою МЕТКОСТЬ.</Text>
+			<Actions>
+				<Accuracy/>
+			</Actions>
 			<Options>
 				<Option Goto="151" Text="Выстрел произведён успешно"/>
 				<Option Goto="274" Text="Промах"/>
