@@ -6,6 +6,9 @@ namespace SeekerMAUI.Gamebook.OminousPaths
     {
         public List<Character> Enemies { get; set; }
 
+        public bool HeroWoundsLimit { get; set; }
+        public bool EnemyWoundsLimit { get; set; }
+
         public override List<string> Status() => new List<string>
         {
             $"Ловкость: {Character.Protagonist.Skill}",
@@ -122,6 +125,93 @@ namespace SeekerMAUI.Gamebook.OminousPaths
             luckCheck.Add(Result(goodSkill, "УСПЕХ", "НЕУДАЧА"));
 
             return luckCheck;
+        }
+
+        private static bool NoMoreEnemies(List<Character> enemies, bool EnemyWoundsLimit) =>
+            enemies.Where(x => x.Strength > (EnemyWoundsLimit ? 2 : 0)).Count() == 0;
+
+        public List<string> Fight()
+        {
+            List<string> fight = new List<string>();
+
+            List<Character> FightEnemies = new List<Character>();
+
+            foreach (Character enemy in Enemies)
+                FightEnemies.Add(enemy.Clone());
+
+            int round = 1;
+
+            while (true)
+            {
+                fight.Add($"HEAD|BOLD|Раунд: {round}");
+
+                bool attackAlready = false;
+                int protagonistHitStrength = 0;
+
+                foreach (Character enemy in FightEnemies)
+                {
+                    if (enemy.Strength <= 0)
+                        continue;
+
+                    fight.Add($"{enemy.Name} (сила {enemy.Strength})");
+
+                    if (!attackAlready)
+                    {
+                        Game.Dice.DoubleRoll(out int protagonistRollFirst, out int protagonistRollSecond);
+                        int protagonistSkill = Character.Protagonist.Skill;
+                        protagonistHitStrength = protagonistRollFirst + protagonistRollSecond + protagonistSkill;
+
+                        fight.Add($"Мощность вашего удара: " +
+                            $"{Game.Dice.Symbol(protagonistRollFirst)} + " +
+                            $"{Game.Dice.Symbol(protagonistRollSecond)} + " +
+                            $"{protagonistSkill} = {protagonistHitStrength}");
+                    }
+
+                    Game.Dice.DoubleRoll(out int enemyRollFirst, out int enemyRollSecond);
+                    int enemyHitStrength = enemyRollFirst + enemyRollSecond + enemy.Skill;
+
+                    fight.Add($"Мощность его удара: " +
+                        $"{Game.Dice.Symbol(enemyRollFirst)} + " +
+                        $"{Game.Dice.Symbol(enemyRollSecond)} + " +
+                        $"{enemy.Skill} = {enemyHitStrength}");
+
+                    if ((protagonistHitStrength > enemyHitStrength) && !attackAlready)
+                    {
+                        fight.Add($"GOOD|{enemy.Name} ранен");
+
+                        enemy.Strength -= 2;
+
+                        bool enemyLost = NoMoreEnemies(FightEnemies, EnemyWoundsLimit);
+
+                        if (enemyLost)
+                            return Win(fight);
+                    }
+                    else if (protagonistHitStrength > enemyHitStrength)
+                    {
+                        fight.Add($"BOLD|{enemy.Name} не смог вас ранить");
+                    }
+                    else if (protagonistHitStrength < enemyHitStrength)
+                    {
+                        fight.Add($"BAD|{enemy.Name} ранил вас");
+
+                        Character.Protagonist.Strength -= 2;
+
+                        bool failByLimit = HeroWoundsLimit && (Character.Protagonist.Strength <= 2);
+
+                        if ((Character.Protagonist.Strength <= 0) || failByLimit)
+                            return Fail(fight);
+                    }
+                    else
+                    {
+                        fight.Add("BOLD|Ничья в раунде");
+                    }
+
+                    attackAlready = true;
+                    fight.Add(String.Empty);
+                }
+
+                round += 1;
+            }
         }
     }
 }
