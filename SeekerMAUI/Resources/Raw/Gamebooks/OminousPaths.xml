@@ -880,7 +880,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="121">
-			<Text>Проверьте своё ОБАЯНИЕ.</Text>
+			<Actions>
+				<Charm/>
+			</Actions>
 			<Options>
 				<Option Goto="489" Text="Всё в порядке"/>
 				<Option Goto="627" Text="Не совсем"/>
