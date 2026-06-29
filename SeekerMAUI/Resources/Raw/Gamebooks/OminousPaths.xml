@@ -3698,7 +3698,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="534">
-			<Text>Проверьте свою ЛОВКОСТЬ.</Text>
+			<Actions>
+				<Skill/>
+			</Actions>
 			<Options>
 				<Option Goto="78" Text="Проверка успешна"/>
 				<Option Goto="278" Text="Нет"/>
