@@ -3658,7 +3658,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="530">
-			<Text>Проверьте своё ОБАЯНИЕ.</Text>
+			<Actions>
+				<Charm/>
+			</Actions>
 			<Options>
 				<Option Goto="34" Text="Сумели убедить стражников в том, что вы — торговец"/>
 				<Option Goto="270" Text="Не получилось"/>
