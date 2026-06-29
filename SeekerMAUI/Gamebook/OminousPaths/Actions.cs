@@ -127,6 +127,22 @@ namespace SeekerMAUI.Gamebook.OminousPaths
             return skillCheck;
         }
 
+        public List<string> Strength()
+        {
+            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+            var goodStrength = (firstDice + secondDice) <= Character.Protagonist.Strength;
+            var skillLine = goodStrength ? "<=" : ">";
+
+            var strengthCheck = new List<string> { $"Проверка силы: " +
+                $"{Game.Dice.Symbol(firstDice)} + " +
+                $"{Game.Dice.Symbol(secondDice)} {skillLine} " +
+                $"{Character.Protagonist.Strength}" };
+
+            strengthCheck.Add(Result(goodStrength, "УСПЕХ", "НЕУДАЧА"));
+
+            return strengthCheck;
+        }
+
         public List<string> Accuracy()
         {
             Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
