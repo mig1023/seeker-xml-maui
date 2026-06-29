@@ -2521,7 +2521,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="360">
-			<Text>Проверьте своё ОБАЯНИЕ.</Text>
+			<Actions>
+				<Charm/>
+			</Actions>
 			<Options>
 				<Option Goto="558" Text="Сумели убедить незнакомца в своих благих намерениях"/>
 				<Option Goto="671" Text="Не получилось"/>
