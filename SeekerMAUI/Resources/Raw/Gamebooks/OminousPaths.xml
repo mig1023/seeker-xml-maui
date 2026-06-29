@@ -965,7 +965,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="133">
-			<Text>Проверьте свою СИЛУ.</Text>
+			<Actions>
+				<Strength/>
+			</Actions>
 			<Options>
 				<Option Goto="340" Text="У вас хватило сил"/>
 				<Option Goto="700" Text="Не хватило"/>
