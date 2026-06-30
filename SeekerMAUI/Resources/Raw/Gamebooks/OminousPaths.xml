@@ -2721,7 +2721,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="357">
-			<Text>2 ВАРАН\n\nЛОВКОСТЬ 7, СИЛА 7</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="ВАРАН" Skill="7" Strength="7"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="486" Text="Вы победили"/>
 			</Options>
