@@ -2221,7 +2221,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="289">
-			<Text>узник\n\nЛОВКОСТЬ 8, СИЛА 10</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="УЗНИК" Skill="8" Strength="10"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="61" Text="Вы победили"/>
 			</Options>
