@@ -1624,7 +1624,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="209">
-			<Text>2 АЛМАР\n\nЛОВКОСТЬ 10, СИЛА 12</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="АЛМАР" Skill="10" Strength="112"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="141" Text="Вы смогли его одолеть"/>
 			</Options>
