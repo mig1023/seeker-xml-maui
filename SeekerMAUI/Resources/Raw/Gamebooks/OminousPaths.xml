@@ -4506,7 +4506,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="601">
-			<Text>ПТИЦЕЧЕЛОВЕК\n\nЛОВКОСТЬ 10, СИЛА 8</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="ПТИЦЕЧЕЛОВЕК" Skill="10" Strength="8"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="364" Text="Вы повергли его"/>
 			</Options>
