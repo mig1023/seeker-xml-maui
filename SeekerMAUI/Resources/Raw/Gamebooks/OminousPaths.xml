@@ -3918,7 +3918,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="521">
-			<Text>2 ОХРАННИК\n\nЛОВКОСТЬ 7, СИЛА 8</Text>
+			<Actions>
+				<Fight>
+					<Enemy Name="ОХРАННИК" Skill="7" Strength="8"/>
+				</Fight>
+			</Actions>
 			<Options>
 				<Option Goto="253" Text="Получилось одолеть его не больше, чем за 6 раундов атаки"/>
 				<Option Goto="465" Text="Бой затянулся"/>
