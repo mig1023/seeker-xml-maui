@@ -1940,6 +1940,9 @@
 		</Paragraph>
 		<Paragraph No="241">
 			<Text>Трапеза проходит тихо-мирно. Утолив свой голод неплохим ужином (+3 СИЛЫ), вы выходите на улицу.</Text>
+			<Modifications>
+				<Strength Value="3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="702"/>
 			</Options>
