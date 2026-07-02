@@ -3743,6 +3743,9 @@
 		</Paragraph>
 		<Paragraph No="477">
 			<Text>Эх, промашка!.. Ответная стрела прилетает незамедлительно, при этом вы не успеваете увернуться (-4 СИЛЫ).</Text>
+			<Modifications>
+				<Strength Value="-4"/>
+			</Modifications>
 			<Options>
 				<Option Goto="190" Text="Следующий выстрел"/>
 				<Option Goto="47" Text="У вас иссяк запас снаряжения"/>
