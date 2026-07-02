@@ -3849,6 +3849,9 @@
 		</Paragraph>
 		<Paragraph No="492">
 			<Text>А вот кто-то из алмаров, в отличие от вас, не промахивается — в плече чувствуется острая боль от стрелы (-4 СИЛЫ). Освободившись от неё...</Text>
+			<Modifications>
+				<Strength Value="-4"/>
+			</Modifications>
 			<Options>
 				<Option Goto="39" Text="Делайте новый выстрел"/>
 				<Option Goto="326" Text="Стрел нет"/>
