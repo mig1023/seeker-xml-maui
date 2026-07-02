@@ -3095,6 +3095,9 @@
 		</Paragraph>
 		<Paragraph No="389">
 			<Text>Увы, вы даёте промах. Но в ответ слышится другой свист, и та стрела находит цель (отнимите 4 от своей СИЛЫ).</Text>
+			<Modifications>
+				<Strength Value="-4"/>
+			</Modifications>
 			<Options>
 				<Option Goto="156" Text="Сделать следующий выстрел"/>
 				<Option Goto="688" Text="Кончился запас стрел"/>
