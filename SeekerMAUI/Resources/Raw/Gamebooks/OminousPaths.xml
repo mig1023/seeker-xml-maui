@@ -2703,6 +2703,9 @@
 		</Paragraph>
 		<Paragraph No="338">
 			<Text>Без пользы ударившись о дверь (-2 СИЛЫ), вы отступаете. Она не поддаётся. За ней всё так же тихо: вы хотя бы не наделали много шума.\n\nВозможно, стоит немного подождать...</Text>
+			<Modifications>
+				<Strength Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="616"/>
 			</Options>
