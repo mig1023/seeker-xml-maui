@@ -5228,6 +5228,9 @@
 		</Paragraph>
 		<Paragraph No="671">
 			<Text>Незнакомец некоторое время недоверчиво разглядывает вас, а затем своим камнем наносит резкий удар (-2 СИЛЫ). Похоже, он принял вас за стражника, и придётся драться...</Text>
+			<Modifications>
+				<Strength Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="289"/>
 			</Options>
