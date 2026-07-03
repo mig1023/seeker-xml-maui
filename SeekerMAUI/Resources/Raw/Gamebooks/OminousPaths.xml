@@ -4727,6 +4727,9 @@
 		</Paragraph>
 		<Paragraph No="606">
 			<Text>Ответная стрела от алмара — и вы не успеваете увернуться (вычтите 4 из СИЛЫ).</Text>
+			<Modifications>
+				<Strength Value="-4"/>
+			</Modifications>
 			<Options>
 				<Option Goto="3" Text="Повторите выстрел"/>
 				<Option Goto="326" Text="Стрел не осталось вовсе"/>
