@@ -2088,7 +2088,11 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="241">
-			<Text>Трапеза проходит тихо-мирно. Утолив свой голод неплохим ужином (+3 СИЛЫ), вы выходите на улицу.</Text>
+			<Texts>
+				<Text>Трапеза проходит тихо-мирно. Утолив свой голод неплохим ужином...</Text>
+				<Text Style="Small">+3 СИЛЫ.</Text>
+				<Text>...вы выходите на улицу.</Text>
+			</Texts>
 			<Modifications>
 				<Strength Value="3"/>
 			</Modifications>
