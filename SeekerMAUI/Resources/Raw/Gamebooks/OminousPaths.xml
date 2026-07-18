@@ -1163,7 +1163,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="125">
-			<Text>Восстановите 2 СИЛЫ.\n\nМожно идти дальше. Бросив последний взгляд на клубки змей, вы выходите через дверь.</Text>
+			<Texts>
+				<Text Style="Small">Восстановите 2 СИЛЫ.</Text>
+				<Text>Можно идти дальше. Бросив последний взгляд на клубки змей, вы выходите через дверь.</Text>
+			</Texts>
 			<Modifications>
 				<Strength Value="2"/>
 			</Modifications>
