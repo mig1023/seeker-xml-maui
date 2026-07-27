@@ -4861,7 +4861,7 @@
 					<Text>Поедете:</Text>
 				</Option>
 				<Option Goto="105" Text="На Симферополь (если вы там еще не были)"/>
-				<Option Goto="113" Text="на Осма"/>
+				<Option Goto="113" Text="На Осма"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="433">
