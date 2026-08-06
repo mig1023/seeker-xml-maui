@@ -215,7 +215,7 @@ namespace SeekerMAUI.Gamebook.OminousPaths
 
                     if ((protagonistHitStrength > enemyHitStrength) && !attackAlready)
                     {
-                        fight.Add($"GOOD|{enemy.Name} ранен");
+                        fight.Add($"GOOD|BOLD|{enemy.Name} ранен");
 
                         enemy.Strength -= 2;
 
@@ -230,7 +230,7 @@ namespace SeekerMAUI.Gamebook.OminousPaths
                     }
                     else if (protagonistHitStrength < enemyHitStrength)
                     {
-                        fight.Add($"BAD|{enemy.Name} ранил вас");
+                        fight.Add($"BAD|BOLD|{enemy.Name} ранил вас");
 
                         Character.Protagonist.Strength -= 2;
 
@@ -241,7 +241,7 @@ namespace SeekerMAUI.Gamebook.OminousPaths
                     }
                     else
                     {
-                        fight.Add("BOLD|Ничья в раунде");
+                        fight.Add("BOLD|BOLD|Ничья в раунде");
                     }
 
                     attackAlready = true;
