@@ -5906,7 +5906,7 @@
 			<Actions>
 				<Option Goto="745" Text="Есть Соммерсверд" Availability="Соммерсверд"/>
 				<Option Goto="823" Text="Владеете дисциплиной Кай Телекинез" Availability="Телекинез">
-					<Text>Если у вас нет ничего из выше перечисленного:</Text>
+					<Text>Если у вас нет ничего из вышеперечисленного:</Text>
 				</Option>
 				<Random/>
 			</Actions>
