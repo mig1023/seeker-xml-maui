@@ -1,0 +1,25 @@
+<Gamebook>
+	<Introduction>
+		<Copyright>
+			<Title>19 августа</Title>
+			<Author>Андрей Рулин</Author>
+			<Year>2026</Year>
+		</Copyright>
+		<Styles>
+			<Main Value="646464"/>
+			<SystemFont Value="ffffff"/>
+			<Color Value="8f8f8f">
+				<Continue/>
+				<StatusBar/>
+			</Color>
+		</Styles>
+	</Introduction>
+	<Paragraphs>
+		<Paragraph No="0">
+			<Text>Приключения в параллельных мирах – это для слабаков! Вот создать параллельный мир самому – путь настоящего героя! Особенно, если это надо сделать 19 августа 1991 года. По силам ли герою окажется столь сложная задача, или его путь в Паутине миров будет завершён, решать только вам!</Text>
+			<Options>
+				<Start Goto="1"/>
+			</Options>
+		</Paragraph>
+	</Paragraphs>
+</Gamebook>

@@ -62,6 +62,7 @@
 	  <None Remove="Resources\Images\Cover\alamutfortress.jpg" />
 	  <None Remove="Resources\Images\Cover\alcatraz.jpg" />
 	  <None Remove="Resources\Images\Cover\ants.jpg" />
+	  <None Remove="Resources\Images\Cover\august.jpg" />
 	  <None Remove="Resources\Images\Cover\bangkoksky.jpg" />
 	  <None Remove="Resources\Images\Cover\behindthethrone.jpg" />
 	  <None Remove="Resources\Images\Cover\blackcastledungeon.jpg" />
@@ -352,6 +353,7 @@
 	  <MauiImage Include="Resources\Images\Cover\alamutfortress.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\alcatraz.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\ants.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\august.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\bangkoksky.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\behindthethrone.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\blackcastledungeon.jpg" />
