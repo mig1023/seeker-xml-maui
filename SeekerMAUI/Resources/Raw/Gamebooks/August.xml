@@ -112,5 +112,13 @@
 				<Option Goto="94" Text="Официальные типографии"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="13">
+			<Text>Охранник настораживается.\n\n- И к кому вы пришли?\n\nПридётся угадывать. Как назло, на языке вертятся только три варианта, которые, наверное, назвал бы любой советский гражданин.</Text>
+			<Options>
+				<Option Goto="105" Text="К Иванову"/>
+				<Option Goto="175" Text="К Петрову"/>
+				<Option Goto="12" Text="К Сидорову"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
