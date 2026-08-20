@@ -980,5 +980,12 @@
 				<Option Goto="70" Text="Согласиться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="143">
+			<Text>- Михаил Павлов, - представляетесь вы. - Из вычислительного отдела. Милиционер одобрительно кивает и ждёт продолжения разговора.</Text>
+			<Options>
+				<Option Goto="8" Text="Спросите прямо"/>
+				<Option Goto="144" Text="Скажите, что заблудились"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
