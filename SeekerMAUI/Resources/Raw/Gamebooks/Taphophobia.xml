@@ -414,5 +414,13 @@
 				<Option Goto="95" Text="Тщательно исследовать пространство гроба"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="54">
+			<Text>Вы нажимаете 0. Идут бесконечные длинные гудки.</Text>
+			<Options>
+				<Option Goto="30" Text="Сбросить и перезвонить заново по последнему номеру"/>
+				<Option Goto="276" Text="Положить трубку и вернуться к"/>
+				<Option Goto="276" Text="списку номеров"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
