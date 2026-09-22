@@ -26,5 +26,11 @@
 				<Start Goto="136"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="1">
+			<Text>Вы делаете резкий рывок, но спотыкаетесь и вас погребает огромным количеством тяжелой сыпучей земли. Игра окончена.</Text>
+			<Options>
+				<Option Goto="136" Text="Начать игру заново"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
