@@ -179,5 +179,11 @@
 				<Option Goto="136" Text="Игра окончена. Начать игру заново"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="21">
+			<Text>Телефон включается. Вам удалось вспомнить или подобрать и ввести правильный PIN-код.</Text>
+			<Options>
+				<Option Goto="203" Text="Дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
