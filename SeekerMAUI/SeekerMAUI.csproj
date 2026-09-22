@@ -143,6 +143,7 @@
 	  <None Remove="Resources\Images\Cover\swordandfate.jpg" />
 	  <None Remove="Resources\Images\Cover\tachanka.jpg" />
 	  <None Remove="Resources\Images\Cover\tank.jpg" />
+	  <None Remove="Resources\Images\Cover\taphophobia.jpg" />
 	  <None Remove="Resources\Images\Cover\tenementbuilding.jpg" />
 	  <None Remove="Resources\Images\Cover\thanatos.jpg" />
 	  <None Remove="Resources\Images\Cover\thosewhoareabouttodie.jpg" />
@@ -432,6 +433,7 @@
 	  <MauiImage Include="Resources\Images\Cover\swordandfate.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\tachanka.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\tank.jpg" />
+	  <MauiImage Include="Resources\Images\Cover\taphophobia.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\tenementbuilding.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\thanatos.jpg" />
 	  <MauiImage Include="Resources\Images\Cover\thosewhoareabouttodie.jpg" />
