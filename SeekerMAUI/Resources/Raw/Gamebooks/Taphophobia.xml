@@ -373,5 +373,12 @@
 				<Option Goto="66" Text="Вернуться за стол"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="48">
+			<Text>Вы понемногу, плавно ссыпаете землю вдоль своего тела в освободившуюся часть гроба. Чувствуете, как ваши карманы и обувь наполняются ею.</Text>
+			<Options>
+				<Option Goto="1" Text="Сделать резкий рывок вверх"/>
+				<Option Goto="182" Text="Прессовать землю ногами"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
