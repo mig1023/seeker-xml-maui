@@ -562,5 +562,11 @@
 				<Option Goto="163" Text="В 2000-x"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="72">
+			<Text>Попробовав разорвать портфель грубой силой вы убеждаетесь, что это невозможно сделать в вашем ослабленном положении. Он слишком прочен.</Text>
+			<Options>
+				<Option Goto="52" Text="Подумать как можно открыть замок"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
