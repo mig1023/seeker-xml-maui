@@ -583,5 +583,22 @@
 				<Option Goto="223" Text="Подойти к запертой двери"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="75">
+			<Text>Похоже, такого номера не существует. Вы набираете номер повторно:</Text>
+			<Options>
+				<Option Goto="167" Text="342-15-2011-00"/>
+				<Option Goto="167" Text="142-18-2011-00"/>
+				<Option Goto="167" Text="642-15-2011-00"/>
+				<Option Goto="167" Text="442-14-2011-00"/>
+				<Option Goto="167" Text="742-15-2011-000"/>
+				<Option Goto="167" Text="342-18-2011-000"/>
+				<Option Goto="208" Text="442-15-2011-000"/>
+				<Option Goto="167" Text="442-11-2011-000"/>
+				<Option Goto="167" Text="942-15-2011-0000"/>
+				<Option Goto="167" Text="42-19-2011-0000"/>
+				<Option Goto="167" Text="742-15-2011-0000"/>
+				<Option Goto="167" Text="842-19-2011-0000"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
