@@ -210,5 +210,15 @@
 				<Option Goto="136" Text="перезагрузимся"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="26">
+			<Text>Вопрос третий. Кто изобрел электромагнитный телеграф?</Text>
+			<Options>
+				<Option Goto="185" Text="Сэмюэль Морзе"/>
+				<Option Goto="339" Text="Павел Шиллинг"/>
+				<Option Goto="185" Text="Павел Дуров"/>
+				<Option Goto="185" Text="Александр Попов"/>
+				<Option Goto="185" Text="Генрих Герц"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
