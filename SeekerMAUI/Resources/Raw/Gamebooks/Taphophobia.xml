@@ -449,5 +449,12 @@
 				<Option Goto="171" Text="Рассказать об анхе"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="59">
+			<Text>Да мне как-то пофиг ты или не ты. Ты рядом встал, байк упал. – Сотку должен отдать! Так, что? Платишь деньгами или мордой? – –</Text>
+			<Options>
+				<Option Goto="42" Text="Хорошо, я оплачу"/>
+				<Option Goto="42" Text="Это ты сейчас своей мордой ответишь, если не отвалишь от меня!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
