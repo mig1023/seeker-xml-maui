@@ -291,5 +291,11 @@
 				<Option Goto="80" Text="Заглянуть в печь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="36">
+			<Text>Ура! Вы освобождаете отмычку и вынимаете ее из замочной скважины..</Text>
+			<Options>
+				<Option Goto="82" Text="Попробовать взломать замок еще раз"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
