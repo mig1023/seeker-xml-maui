@@ -146,5 +146,11 @@
 				<Option Goto="223" Text="Подойти к запертой двери"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="16">
+			<Text>Отмычка соскочила со штифта. Похоже, вы слишком сильно или слишком слабо надавили на нее.</Text>
+			<Options>
+				<Option Goto="82" Text="Попробовать еще раз"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
