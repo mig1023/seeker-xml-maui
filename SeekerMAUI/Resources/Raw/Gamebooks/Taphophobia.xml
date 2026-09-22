@@ -360,5 +360,12 @@
 				<Option Goto="81" Text="Подойти к двери"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="46">
+			<Text>Вы набираете номер службы спасения. Случайно нажимаете на сброс.</Text>
+			<Options>
+				<Option Goto="103" Text="Позвонить на номер службы спасения еще раз"/>
+				<Option Goto="276" Text="Вернуться к списку номеров"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
