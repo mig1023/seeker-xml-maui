@@ -1203,5 +1203,13 @@
 				<Option Goto="57" Text="Воткнуть проволоку в левое парное отверстие"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="155">
+			<Text>Вы набираете случайный номер. Включается фонограмма: Набранного вами номера не – существует.</Text>
+			<Options>
+				<Option Goto="180" Text="Попробовать набрать другой"/>
+				<Option Goto="180" Text="случайный номер"/>
+				<Option Goto="276" Text="Вернуться к списку номеров"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
