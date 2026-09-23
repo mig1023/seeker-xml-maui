@@ -767,5 +767,22 @@
 				<Option Goto="136" Text="НАЧАТЬ ИГРУ"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="100">
+			<Text>Оператор бросает трубку. Набрать номер:</Text>
+			<Options>
+				<Option Goto="75" Text="342-15-2011-00"/>
+				<Option Goto="75" Text="142-18-2011-00"/>
+				<Option Goto="75" Text="642-15-2011-00"/>
+				<Option Goto="75" Text="442-14-2011-00"/>
+				<Option Goto="75" Text="742-15-2011-000"/>
+				<Option Goto="75" Text="342-18-2011-000"/>
+				<Option Goto="208" Text="442-15-2011-000"/>
+				<Option Goto="75" Text="442-11-2011-000"/>
+				<Option Goto="75" Text="942-15-2011-0000"/>
+				<Option Goto="75" Text="42-19-2011-0000"/>
+				<Option Goto="75" Text="742-15-2011-0000"/>
+				<Option Goto="75" Text="842-19-2011-0000"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
