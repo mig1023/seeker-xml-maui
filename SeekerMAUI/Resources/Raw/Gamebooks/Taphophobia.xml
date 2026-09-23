@@ -755,5 +755,11 @@
 				<Option Goto="187" Text="Заорать изо всей силы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="98">
+			<Text>Телефон выключился. К сожалению, вас не успели спасти. Спасатели нашли ваше обескровленное тело, опоздав всего на 30 минут. Игра окончена.</Text>
+			<Options>
+				<Option Goto="136" Text="Начать игру заново"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
