@@ -1217,5 +1217,11 @@
 				<Option Goto="277" Text="Сорвать с шеи крест"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="157">
+			<Text>Вы начинаете восстанавливать дыхание, разминаете конечности, стараетесь думать о чем-то отвлеченном. Вы согреваетесь. Кажется получается.</Text>
+			<Options>
+				<Option Goto="106" Text="Дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
