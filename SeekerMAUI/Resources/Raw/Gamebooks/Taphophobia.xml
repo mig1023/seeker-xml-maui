@@ -667,5 +667,11 @@
 				<Option Goto="104" Text="Отчаяние охватывает вас"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="85">
+			<Text>По странному стечению обстоятельств телефоны обоих ваших друзей «выключены или находятся за пределами зоны действия телефонной сети».</Text>
+			<Options>
+				<Option Goto="276" Text="Вернуться к списку номеров"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
