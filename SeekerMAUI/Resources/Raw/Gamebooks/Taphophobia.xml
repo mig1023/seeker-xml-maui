@@ -1267,5 +1267,11 @@
 				<Option Goto="276" Text="Вернуться к списку номеров"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="163">
+			<Text>К сожалению, вы ответили неправильно на этот вопрос.</Text>
+			<Options>
+				<Option Goto="253" Text="Попробуем еще раз?"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
