@@ -655,5 +655,11 @@
 				<Option Goto="16" Text="оставляете его в исходном положении"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="83">
+			<Text>К сожалению, вы ответили неправильно на этот вопрос.</Text>
+			<Options>
+				<Option Goto="129" Text="Попробуем еще раз?"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
