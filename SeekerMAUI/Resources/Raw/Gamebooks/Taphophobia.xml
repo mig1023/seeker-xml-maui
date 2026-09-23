@@ -930,5 +930,12 @@
 				<Option Goto="225" Text="Повернуть отмычку вправо и вытащить ее"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="121">
+			<Text>Вы смотрите в писсуар и видите, среди ароматических шариков, в нем какой-то небольшой блестящий предмет.</Text>
+			<Options>
+				<Option Goto="29" Text="Достать предмет из писсуара"/>
+				<Option Goto="291" Text="Ничего не делать"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
