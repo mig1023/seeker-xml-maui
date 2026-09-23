@@ -1403,5 +1403,14 @@
 				<Option Goto="143" Text="Зажечь спичку"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="180">
+			<Text>Вы набираете другой случайный номер. Идут длинные гудки. Никто не берет трубку.</Text>
+			<Options>
+				<Option Goto="49" Text="Попробовать набрать еще один"/>
+				<Option Goto="49" Text="случайный номер"/>
+				<Option Goto="180" Text="Позвонить на этот номер еще раз"/>
+				<Option Goto="276" Text="Вернуться к списку номеров"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
