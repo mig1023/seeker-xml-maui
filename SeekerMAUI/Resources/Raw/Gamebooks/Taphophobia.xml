@@ -691,5 +691,12 @@
 				<Option Goto="118" Text="Осмотреть помещение подробнее"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="89">
+			<Text>Опустившись на колено, вы заглядываете в замочную скважину. В ней только тьма и холод сквозняка. Похоже, на улице очень холодно.</Text>
+			<Options>
+				<Option Goto="267" Text="Вернуться к печке"/>
+				<Option Goto="132" Text="Подергать за ручку и стучать в дверь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
