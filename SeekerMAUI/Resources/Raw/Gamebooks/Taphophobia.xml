@@ -943,5 +943,17 @@
 				<Option Goto="136" Text="перезагрузимся"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="123">
+			<Text>Вопрос первый. Какой горной системы не существует на планете Земля ?</Text>
+			<Options>
+				<Option Goto="163" Text="Апеннины"/>
+				<Option Goto="163" Text="Урал"/>
+				<Option Goto="71" Text="Рук"/>
+				<Option Goto="163" Text="Альпы"/>
+				<Option Goto="163" Text="Юра"/>
+				<Option Goto="163" Text="Кордильеры"/>
+				<Option Goto="163" Text="Карпаты"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
