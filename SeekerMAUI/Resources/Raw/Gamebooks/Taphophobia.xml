@@ -1161,5 +1161,21 @@
 				<Option Goto="111" Text="привела к моей гибели!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="150">
+			<Text>Вы ввели первую цифру кода. Теперь нужно ввести вторую.</Text>
+			<Options>
+				<Option Goto="66" Text="Закрыть «книгу» и поставить ее на место"/>
+				<Option Goto="236" Text="Ввести 1"/>
+				<Option Goto="236" Text="Ввести 2"/>
+				<Option Goto="236" Text="Ввести 3"/>
+				<Option Goto="236" Text="Ввести 4"/>
+				<Option Goto="236" Text="Ввести 5"/>
+				<Option Goto="236" Text="Ввести 6"/>
+				<Option Goto="236" Text="Ввести 7"/>
+				<Option Goto="236" Text="Ввести 8"/>
+				<Option Goto="236" Text="Ввести 9"/>
+				<Option Goto="236" Text="Ввести 0"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
