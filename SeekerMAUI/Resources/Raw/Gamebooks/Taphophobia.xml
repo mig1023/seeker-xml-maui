@@ -1332,5 +1332,11 @@
 				<Option Goto="101" Text="Попробовать ввести код еще раз"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="171">
+			<Text>Вы рассказываете капитану про коптский крест, который был надет на вашу шею, про спички с этим же знаком, и о визите в бар с таким названием.</Text>
+			<Options>
+				<Option Goto="255" Text="Дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
