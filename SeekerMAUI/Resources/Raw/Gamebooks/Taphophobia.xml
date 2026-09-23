@@ -613,5 +613,13 @@
 				<Option Goto="126" Text="Разговор об отце"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="78">
+			<Text>Опустившись на колено, вы заглядываете в замочную скважину. За ней темно, запах улицы и сырой осенней листвы.</Text>
+			<Options>
+				<Option Goto="191" Text="Дернуть за ручку двери"/>
+				<Option Goto="102" Text="Постучать в дверь и покричать"/>
+				<Option Goto="68" Text="Посмотреть на предмет за саркофагом"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
