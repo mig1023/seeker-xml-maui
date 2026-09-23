@@ -698,5 +698,15 @@
 				<Option Goto="132" Text="Подергать за ручку и стучать в дверь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="90">
+			<Text>Вопрос третий. Задача: Блокнот и карандаш вместе стоят 11 копеек. Блокнот дороже карандаша на 10 копеек. Сколько стоит карандаш?</Text>
+			<Options>
+				<Option Goto="163" Text="Копейку"/>
+				<Option Goto="163" Text="Полторы копейки"/>
+				<Option Goto="163" Text="Две копейки"/>
+				<Option Goto="99" Text="Полкопейки"/>
+				<Option Goto="163" Text="Пять копеек"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
