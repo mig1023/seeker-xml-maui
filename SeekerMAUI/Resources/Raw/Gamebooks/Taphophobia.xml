@@ -1045,5 +1045,11 @@
 				<Option Goto="170" Text="Ввести 0"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="134">
+			<Text>Вы выпиваете содержимое пузырька. По вкусу как вишневый сок. Вдруг вам становится плохо, темнеет в глазах. Вы выпадаете из реальности, теряя сознание.</Text>
+			<Options>
+				<Option Goto="290" Text="Дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
