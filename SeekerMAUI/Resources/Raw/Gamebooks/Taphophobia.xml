@@ -800,5 +800,14 @@
 				<Option Goto="150" Text="Ввести 0"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="102">
+			<Text>Вы стучите в окованную дверь и кричите что есть силы. Глухо как в танке. Это бесполезно.</Text>
+			<Options>
+				<Option Goto="191" Text="Дернуть за ручку двери"/>
+				<Option Goto="78" Text="Посмотреть в замочную"/>
+				<Option Goto="78" Text="скважину"/>
+				<Option Goto="68" Text="Посмотреть на предмет за саркофагом"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
