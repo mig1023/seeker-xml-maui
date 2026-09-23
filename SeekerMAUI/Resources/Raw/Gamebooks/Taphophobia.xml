@@ -761,5 +761,11 @@
 				<Option Goto="136" Text="Начать игру заново"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="99">
+			<Text>Отлично! Вы успешно ответили на все вопросы. Итак, если вы готовы, то можно</Text>
+			<Options>
+				<Option Goto="136" Text="НАЧАТЬ ИГРУ"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
