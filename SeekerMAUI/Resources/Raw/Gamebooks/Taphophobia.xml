@@ -1281,5 +1281,11 @@
 				<Option Goto="297" Text="Меня похоронили заживо. Пожалуйста, помогите!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="165">
+			<Text>Вы внимательно рассматриваете и описываете капитану ветхое клеймо, которое показалось под обивкой на крышке гроба.</Text>
+			<Options>
+				<Option Goto="255" Text="Дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
