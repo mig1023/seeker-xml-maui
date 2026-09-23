@@ -1325,5 +1325,12 @@
 				<Option Goto="169" Text="Попытаться перезвонить на телефон Центра еще раз"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="170">
+			<Text>Введенный вами код не подошел к замочку.</Text>
+			<Options>
+				<Option Goto="66" Text="Закрыть «книгу» и поставить ее на место"/>
+				<Option Goto="101" Text="Попробовать ввести код еще раз"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
