@@ -849,5 +849,11 @@
 				<Option Goto="80" Text="Заглянуть в печь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="109">
+			<Text>Вы открываете дверь. В лицо ударяет порыв свежего ночного воздуха.</Text>
+			<Options>
+				<Option Goto="298" Text="Выйти на улицу"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
