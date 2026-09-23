@@ -1295,5 +1295,21 @@
 				<Option Goto="276" Text="списку номеров"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="167">
+			<Text>Похоже, такого номера не существует. Вы набираете номер в третий раз: 742-15-2011-0000</Text>
+			<Options>
+				<Option Goto="251" Text="342-15-2011-00"/>
+				<Option Goto="251" Text="142-18-2011-00"/>
+				<Option Goto="251" Text="642-15-2011-00"/>
+				<Option Goto="251" Text="442-14-2011-00"/>
+				<Option Goto="251" Text="742-15-2011-000"/>
+				<Option Goto="251" Text="342-18-2011-000"/>
+				<Option Goto="208" Text="442-15-2011-000"/>
+				<Option Goto="251" Text="442-11-2011-000"/>
+				<Option Goto="251" Text="942-15-2011-0000"/>
+				<Option Goto="251" Text="42-19-2011-0000"/>
+				<Option Goto="251" Text="842-19-2011-0000"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
