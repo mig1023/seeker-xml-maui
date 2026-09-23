@@ -1374,5 +1374,11 @@
 				<Option Goto="20" Text="Сделать жгут из сорванной обивки гроба и перетянуть им ногу"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="177">
+			<Text>К сожалению, вы ответили неправильно на этот вопрос.</Text>
+			<Options>
+				<Option Goto="110" Text="Попробуем еще раз?"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
