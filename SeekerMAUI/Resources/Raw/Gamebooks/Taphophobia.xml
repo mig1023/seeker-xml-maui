@@ -1063,5 +1063,11 @@
 				<Option Goto="114" Text="Заехать на стоянку перед баром"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="137">
+			<Text>Через некоторое время ожидания, появляется устойчивый сотовый сигнал в половину мощности. Раздается звонок телефона с неизвестного номера.</Text>
+			<Options>
+				<Option Goto="58" Text="Ответить"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
