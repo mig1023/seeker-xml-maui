@@ -1008,5 +1008,12 @@
 				<Option Goto="177" Text="Правитель Бирмы"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="130">
+			<Text>Вы идете вдоль стены налево и наталкиваетесь на глухую стену из кирпича. Видно, что она была сооружена гораздо позже этого здания.</Text>
+			<Options>
+				<Option Goto="152" Text="Утеплиться в земле"/>
+				<Option Goto="35" Text="Пойти вглубь помещения, во тьму"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
