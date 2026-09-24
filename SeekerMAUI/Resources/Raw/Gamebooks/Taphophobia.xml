@@ -1945,5 +1945,11 @@
 				<Option Goto="185" Text="Спортивный инвентарь"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="254">
+			<Text>Замок щелкает и открывается, внутри лежит папка с бумагами. Вдруг, вам становится нехорошо, вы падаете и тьма застилает ваш глаза.</Text>
+			<Options>
+				<Option Goto="51" Text="Дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
