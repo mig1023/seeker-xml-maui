@@ -1694,5 +1694,14 @@
 				<Option Goto="276" Text="Вернуться к списку номеров"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="222">
+			<Text>Вы лежите и ждете. Ничего не происходит. Вам становится холодно. Сигнал на телефоне так и не появляется.</Text>
+			<Options>
+				<Option Goto="20" Text="Продолжать ждать"/>
+				<Option Goto="241" Text="Попробовать поменять положение"/>
+				<Option Goto="241" Text="телефона в гробу"/>
+				<Option Goto="169" Text="Попытаться перезвонить на телефон Центра"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
