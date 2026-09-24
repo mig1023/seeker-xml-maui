@@ -1665,5 +1665,15 @@
 				<Option Goto="44" Text="Осмотреть дверную ручку"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="218">
+			<Text>Вопрос первый. Что такое оферта?</Text>
+			<Options>
+				<Option Goto="83" Text="Винодельческий термин"/>
+				<Option Goto="83" Text="Кодекс чести мафии на Сицилии"/>
+				<Option Goto="124" Text="Юридический термин"/>
+				<Option Goto="83" Text="Вид ремесла"/>
+				<Option Goto="83" Text="Оружейный термин"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
