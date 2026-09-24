@@ -1412,5 +1412,11 @@
 				<Option Goto="276" Text="Вернуться к списку номеров"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="181">
+			<Text>Вы тщательно разминаете затекшие ноги, проделав несколько энергичных упражнений.</Text>
+			<Options>
+				<Option Goto="125" Text="Вставать!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
