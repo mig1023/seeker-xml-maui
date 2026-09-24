@@ -1849,5 +1849,11 @@
 				<Option Goto="169" Text="Попытаться перезвонить на телефон Центра еще раз"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="242">
+			<Text>Вы натягиваете футболку на голову и лицо, зажав конец во рту. Это должно надежно защитить ваши дыхательные пути и глаза от земли.</Text>
+			<Options>
+				<Option Goto="125" Text="Вставать!"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
