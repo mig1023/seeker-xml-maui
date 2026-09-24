@@ -2180,5 +2180,14 @@
 				<Option Goto="245" Text="Звонить по телефону на разные номера"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="284">
+			<Text>Вопрос второй. Как расшифровывается аббревиатура КГБ?</Text>
+			<Options>
+				<Option Goto="177" Text="Комитет Государственного Банка"/>
+				<Option Goto="177" Text="Комиссия Государственной Безопасности"/>
+				<Option Goto="188" Text="Комитет Государственной Безопасности"/>
+				<Option Goto="177" Text="Комиссия Генерального Банка"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
