@@ -1981,5 +1981,11 @@
 				<Option Goto="193" Text="Будет 6"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="258">
+			<Text>Вы раздвигаете доски и встаете. Огромный поток земли засыпает вас, не оставляя пространства для дыхания. Вы поспешили и погибли. Игра окончена.</Text>
+			<Options>
+				<Option Goto="136" Text="Начать игру заново"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
