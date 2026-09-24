@@ -1935,5 +1935,15 @@
 				<Option Goto="35" Text="Пойти прямо, вглубь темноты помещения"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="253">
+			<Text>Вопрос первый. Что такое гобой?</Text>
+			<Options>
+				<Option Goto="185" Text="Растение"/>
+				<Option Goto="185" Text="Сорт сыра"/>
+				<Option Goto="173" Text="Музыкальный инструмент"/>
+				<Option Goto="185" Text="Птица"/>
+				<Option Goto="185" Text="Спортивный инвентарь"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
