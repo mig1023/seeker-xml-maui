@@ -1723,5 +1723,11 @@
 				<Option Goto="81" Text="Подойти к двери"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="225">
+			<Text>Бесполезно — отмычка не поддается.</Text>
+			<Options>
+				<Option Goto="55" Text="Попробовать еще раз"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
