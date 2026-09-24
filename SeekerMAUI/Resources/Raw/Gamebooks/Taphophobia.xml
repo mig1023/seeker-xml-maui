@@ -2114,5 +2114,14 @@
 				<Option Goto="217" Text="Подойти к двери"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="276">
+			<Text>Вы открываете записную книжку и сенсорную клавиатуру телефона. Вы набираете:</Text>
+			<Options>
+				<Option Goto="162" Text="Номер бывшей подруги"/>
+				<Option Goto="85" Text="Номера друзей"/>
+				<Option Goto="46" Text="Номер службы спасения"/>
+				<Option Goto="155" Text="Случайный номер"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
