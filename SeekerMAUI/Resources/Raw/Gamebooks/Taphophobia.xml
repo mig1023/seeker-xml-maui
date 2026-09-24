@@ -1463,5 +1463,17 @@
 				<Option Goto="136" Text="Игра окончена. Начать игру заново"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="188">
+			<Text>Вопрос третий. В какой части света находится королевство Бутан?</Text>
+			<Options>
+				<Option Goto="177" Text="Африка"/>
+				<Option Goto="177" Text="Европа"/>
+				<Option Goto="99" Text="Азия"/>
+				<Option Goto="177" Text="Южная Америка"/>
+				<Option Goto="177" Text="Серверная Америка"/>
+				<Option Goto="177" Text="Австралия и острова Океании"/>
+				<Option Goto="177" Text="Такого государства не существует"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
