@@ -1820,5 +1820,12 @@
 				<Option Goto="289" Text="Размять ноги"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="238">
+			<Text>Это дорогой кожаный портфель. Он очень качественный и прочный. Похоже, кто-то забыл его тут. Он заперт на замок и не открывается без ключа.</Text>
+			<Options>
+				<Option Goto="52" Text="Подумать"/>
+				<Option Goto="72" Text="Разорвать портфель силой"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
