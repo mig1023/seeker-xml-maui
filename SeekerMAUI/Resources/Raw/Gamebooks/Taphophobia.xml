@@ -1971,5 +1971,15 @@
 				<Option Goto="45" Text="Подойти к люку в потолке"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="257">
+			<Text>Вопрос второй. Сколько будет 2+2x2+2?</Text>
+			<Options>
+				<Option Goto="193" Text="Будет 14"/>
+				<Option Goto="193" Text="Будет 12"/>
+				<Option Goto="193" Text="Будет 10"/>
+				<Option Goto="186" Text="Будет 8"/>
+				<Option Goto="193" Text="Будет 6"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
