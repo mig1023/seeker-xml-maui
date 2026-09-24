@@ -1687,5 +1687,12 @@
 				<Option Goto="73" Text="Дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="221">
+			<Text>Вы набираете номер своей бывшей девушки еще пять раз с одинаковым результатом — проклятый цербер — автоответчик, который вы сбрасываете. Вы в ярости!</Text>
+			<Options>
+				<Option Goto="295" Text="Перезвонить еще раз"/>
+				<Option Goto="276" Text="Вернуться к списку номеров"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
