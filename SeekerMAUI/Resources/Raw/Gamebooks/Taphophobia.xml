@@ -1493,5 +1493,11 @@
 				<Option Goto="136" Text="Игра окончена. Начать игру заново"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="192">
+			<Text>Эпизоды Выберите эпизод игры, для быстрого перехода к ключевому параграфу. Базовые</Text>
+			<Options>
+				<Option Goto="87" Text="Сюжетные направления к финалам"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
