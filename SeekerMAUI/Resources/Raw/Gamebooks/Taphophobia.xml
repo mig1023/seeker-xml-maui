@@ -1633,5 +1633,11 @@
 				<Option Goto="41" Text="Пойти вдоль стены, вглубь помещения"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="213">
+			<Text>Вы включаете УФ-лампу и направляете ее свет на полотно.</Text>
+			<Options>
+				<Option Goto="62" Text="Вернуться за стол"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
