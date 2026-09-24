@@ -2160,5 +2160,12 @@
 				<Option Goto="34" Text="Я не хочу больше подбирать код"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="281">
+			<Text>Вы берете двухтомник и рассматриваете его. Похоже, он на иностранном языке. На обложке написано: «Vögel in der Schweiz». В первом томе, кажется, есть закладка.</Text>
+			<Options>
+				<Option Goto="249" Text="Открыть книгу на странице с закладкой"/>
+				<Option Goto="66" Text="Поставить оба тома на место"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
