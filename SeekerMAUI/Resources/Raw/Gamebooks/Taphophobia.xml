@@ -1797,5 +1797,21 @@
 				<Option Goto="297" Text="Меня похоронили заживо. Пожалуйста, помогите!"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="236">
+			<Text>Вы ввели вторую цифру кода. Теперь нужно ввести третью.</Text>
+			<Options>
+				<Option Goto="66" Text="Закрыть «книгу» и поставить ее на место"/>
+				<Option Goto="170" Text="Ввести 1"/>
+				<Option Goto="170" Text="Ввести 2"/>
+				<Option Goto="170" Text="Ввести 3"/>
+				<Option Goto="170" Text="Ввести 4"/>
+				<Option Goto="170" Text="Ввести 5"/>
+				<Option Goto="170" Text="Ввести 6"/>
+				<Option Goto="170" Text="Ввести 7"/>
+				<Option Goto="170" Text="Ввести 8"/>
+				<Option Goto="170" Text="Ввести 9"/>
+				<Option Goto="170" Text="Ввести 0"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
