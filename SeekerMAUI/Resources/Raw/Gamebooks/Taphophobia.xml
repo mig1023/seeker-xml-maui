@@ -1993,5 +1993,12 @@
 				<Option Goto="28" Text="Дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="260">
+			<Text>Вы натягиваете футболку на голову и лицо, зажав конец во рту. Это должно надежно защитить ваши дыхательные пути и глаза от земли.</Text>
+			<Options>
+				<Option Goto="219" Text="Вставать!"/>
+				<Option Goto="181" Text="Размять ноги"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
