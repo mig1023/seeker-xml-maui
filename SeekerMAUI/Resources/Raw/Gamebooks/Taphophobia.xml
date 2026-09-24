@@ -1564,5 +1564,11 @@
 				<Option Goto="5" Text="Проверить заряд телефона"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="203">
+			<Text>Действовать дальше, не снимая наручников, будет трудно и неэффективно.</Text>
+			<Options>
+				<Option Goto="283" Text="Попробовать разорвать наручники"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
