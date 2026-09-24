@@ -1447,5 +1447,15 @@
 				<Option Goto="218" Text="Попробуем еще раз?"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="186">
+			<Text>Вопрос третий. В каком году Ю. Гагарин полетел в космос?</Text>
+			<Options>
+				<Option Goto="193" Text="1957"/>
+				<Option Goto="193" Text="1959"/>
+				<Option Goto="99" Text="1961"/>
+				<Option Goto="193" Text="1962"/>
+				<Option Goto="193" Text="1967"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
