@@ -2532,5 +2532,11 @@
 				<Option Goto="136" Text="Игра окончена. Начать игру заново"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="334">
+			<Text>Услышав крик вы убегаете вперед. Через некоторое время вдалеке показывается ваш город.</Text>
+			<Options>
+				<Option Goto="371" Text="Дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
