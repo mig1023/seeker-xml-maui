@@ -2647,5 +2647,13 @@
 				<Option Goto="358" Text="Бежать направо"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="352">
+			<Text>Вы бежите по прямой освещенной аллее. Перед вами возникает развилка на три дороги. Оглянувшись вы видите, как в начале аллеи появляется бегущая собака.</Text>
+			<Options>
+				<Option Goto="367" Text="Двигаться налево"/>
+				<Option Goto="319" Text="Двигаться прямо"/>
+				<Option Goto="360" Text="Двигаться направо"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
