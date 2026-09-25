@@ -2484,5 +2484,13 @@
 				<Option Goto="115" Text="Заглянуть под стол"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="327">
+			<Text>Вы толкаете край лестницы и она с шумом падает во двор. Собака отвлекается от вас и забегает в открытую дверь.</Text>
+			<Options>
+				<Option Goto="369" Text="Спрыгнуть вниз к собаке"/>
+				<Option Goto="335" Text="Закрыть дверь и спрыгнуть вниз, во"/>
+				<Option Goto="335" Text="вторую половину двора"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
