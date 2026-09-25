@@ -2564,5 +2564,11 @@
 				<Option Goto="363" Text="Осмотреться"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="339">
+			<Text>Открыто достижение «Эрудиция» (1/40)! Посмотреть и записать</Text>
+			<Options>
+				<Option Goto="99" Text="Продолжить"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
