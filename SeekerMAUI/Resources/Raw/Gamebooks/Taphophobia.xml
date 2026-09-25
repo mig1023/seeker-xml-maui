@@ -2519,5 +2519,12 @@
 				<Option Goto="342" Text="Дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="332">
+			<Text>Вы поворачиваете налево и, пробежав десять метров, видите перед собой два поворота направо.</Text>
+			<Options>
+				<Option Goto="355" Text="Забежать в ближний поворот"/>
+				<Option Goto="355" Text="Забежать в дальний поворот"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
