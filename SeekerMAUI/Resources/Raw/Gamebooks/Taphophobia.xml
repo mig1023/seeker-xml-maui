@@ -2395,5 +2395,12 @@
 				<Option Goto="136" Text="Игра окончена. Начать игру заново"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="314">
+			<Text>За дверью раздается тихое, но грозное рычание.</Text>
+			<Options>
+				<Option Goto="369" Text="Открыть дверь"/>
+				<Option Goto="325" Text="Осмотреть предмет в листве"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
