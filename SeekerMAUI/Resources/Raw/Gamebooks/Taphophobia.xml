@@ -2691,5 +2691,12 @@
 				<Option Goto="247" Text="Спуститься вниз"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="358">
+			<Text>Вы поворачиваете направо и видите перед собой развилку на два поворота. Налево аллея теряется во тьме, а справа горит свет.</Text>
+			<Options>
+				<Option Goto="355" Text="Повернуть налево, во тьму"/>
+				<Option Goto="315" Text="Повернуть направо, на свет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
