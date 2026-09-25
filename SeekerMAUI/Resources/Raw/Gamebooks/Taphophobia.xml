@@ -2203,5 +2203,16 @@
 				<Option Goto="350" Text="Взять куколку"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="287">
+			<Text>Вопрос третий. Какого витамина не существует?</Text>
+			<Options>
+				<Option Goto="83" Text="Витамина К"/>
+				<Option Goto="83" Text="Витамина U"/>
+				<Option Goto="99" Text="Витамина V"/>
+				<Option Goto="83" Text="Витамина B"/>
+				<Option Goto="83" Text="Витамина PP"/>
+				<Option Goto="83" Text="Витамина E"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
