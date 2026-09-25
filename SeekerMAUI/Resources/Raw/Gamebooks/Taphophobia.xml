@@ -2422,5 +2422,13 @@
 				<Option Goto="371" Text="Дальше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="318">
+			<Text>В револьвере 1 патрон из 6. Ваш ход. Смотритель протягивает вам револьвер. Становится так тихо, что вы слышите стук своего сердца.</Text>
+			<Options>
+				<Option Goto="311" Text="Покрутить барабан и выстрелить"/>
+				<Option Goto="306" Text="Покрутить барабан и выстрелить"/>
+				<Option Goto="333" Text="Выстрелить в охранника"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
