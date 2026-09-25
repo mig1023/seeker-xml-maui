@@ -2297,5 +2297,11 @@
 				<Option Goto="136" Text="Игра окончена. Начать игру заново"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="299">
+			<Text>Вы зажигаете спичку и видите вперед собой подножие и смутные очертания какого-то сооружения, вроде саркофага из которого вы выбрались.</Text>
+			<Options>
+				<Option Goto="143" Text="Подойти ближе"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
