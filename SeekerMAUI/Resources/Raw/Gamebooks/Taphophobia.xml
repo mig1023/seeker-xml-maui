@@ -2416,5 +2416,11 @@
 				<Option Goto="333" Text="Выстрелить в охранника"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="317">
+			<Text>Вы возвращаетесь к охранникам. Вот. Ты забыл свой выигрыш. Хотел нам подарить? Теперь иди. – Открыто достижение «Игромания» (31/40)! Посмотреть и записать</Text>
+			<Options>
+				<Option Goto="371" Text="Дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
