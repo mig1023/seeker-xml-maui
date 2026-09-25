@@ -2315,5 +2315,11 @@
 				<Option Goto="276" Text="Перейти к номерам в телефоне"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="302">
+			<Text>В ступоре от такого человеческого равнодушия, вы набираете номер службы спасения.</Text>
+			<Options>
+				<Option Goto="164" Text="Далее"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
