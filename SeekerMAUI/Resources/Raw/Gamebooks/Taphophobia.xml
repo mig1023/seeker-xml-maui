@@ -2513,5 +2513,11 @@
 				<Option Goto="136" Text="Игра окончена. Начать игру заново"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="331">
+			<Text>Распорядитель заливается кровью и падает на пол. Похоже, он проиграл.</Text>
+			<Options>
+				<Option Goto="342" Text="Дальше"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
