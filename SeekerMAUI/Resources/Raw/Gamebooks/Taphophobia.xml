@@ -2471,5 +2471,12 @@
 				<Option Goto="305" Text="Вылезти в люк"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="325">
+			<Text>Осмотрев продолговатый предмет в куче листьев, вы понимаете, что это старая деревянная лестница.</Text>
+			<Options>
+				<Option Goto="369" Text="Открыть дверь"/>
+				<Option Goto="307" Text="Приставить лестницу к стене, взобраться на нее и посмотреть за стену"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
