@@ -2499,5 +2499,13 @@
 				<Option Goto="372" Text="Посмотреть завернутый предмет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="329">
+			<Text>Вы еще раз бьёте по люку рукой. Бесполезно надеяться открыть его без тяжелых инструментов.</Text>
+			<Options>
+				<Option Goto="15" Text="Попробовать срезать верхние стропы лестницы большими ножницами"/>
+				<Option Goto="356" Text="Ударить в люк рукой"/>
+				<Option Goto="247" Text="Спуститься вниз"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
