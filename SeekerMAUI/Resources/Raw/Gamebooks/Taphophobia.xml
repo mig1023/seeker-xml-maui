@@ -1364,10 +1364,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="185">
-			<Text>К сожалению, вы ответили неправильно на этот вопрос.</Text>
-			<Options>
-				<Option Goto="218" Text="Попробуем еще раз?"/>
-			</Options>
+			<Text>[не используется]</Text>
 		</Paragraph>
 		<Paragraph No="186">
 			<Text>[не используется]</Text>
