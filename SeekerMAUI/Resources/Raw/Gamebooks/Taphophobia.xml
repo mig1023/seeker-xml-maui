@@ -538,14 +538,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="71">
-			<Text>Вопрос второй. Когда в продаже появились первые мобильные радиотелефоны?</Text>
-			<Options>
-				<Option Goto="163" Text="В 1960-x"/>
-				<Option Goto="163" Text="В 1970-x"/>
-				<Option Goto="90" Text="В 1980-x"/>
-				<Option Goto="163" Text="В 1990-x"/>
-				<Option Goto="163" Text="В 2000-x"/>
-			</Options>
+			<Text>[не используется]</Text>
 		</Paragraph>
 		<Paragraph No="72">
 			<Text>Попробовав разорвать портфель грубой силой вы убеждаетесь, что это невозможно сделать в вашем ослабленном положении. Он слишком прочен.</Text>
