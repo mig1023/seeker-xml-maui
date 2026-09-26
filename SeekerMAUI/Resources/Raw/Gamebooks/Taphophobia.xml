@@ -1862,14 +1862,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="253">
-			<Text>Вопрос первый. Что такое гобой?</Text>
-			<Options>
-				<Option Goto="185" Text="Растение"/>
-				<Option Goto="185" Text="Сорт сыра"/>
-				<Option Goto="173" Text="Музыкальный инструмент"/>
-				<Option Goto="185" Text="Птица"/>
-				<Option Goto="185" Text="Спортивный инвентарь"/>
-			</Options>
+			<Text>[не используется]</Text>
 		</Paragraph>
 		<Paragraph No="254">
 			<Text>Замок щелкает и открывается, внутри лежит папка с бумагами. Вдруг, вам становится нехорошо, вы падаете и тьма застилает ваш глаза.</Text>
