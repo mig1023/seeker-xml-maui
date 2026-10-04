@@ -1347,10 +1347,7 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="192">
-			<Text>Эпизоды Выберите эпизод игры, для быстрого перехода к ключевому параграфу. Базовые</Text>
-			<Options>
-				<Option Goto="87" Text="Сюжетные направления к финалам"/>
-			</Options>
+			<Text>[не используется]</Text>
 		</Paragraph>
 		<Paragraph No="193">
 			<Text>[не используется]</Text>
