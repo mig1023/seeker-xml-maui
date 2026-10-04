@@ -1584,7 +1584,7 @@
 		<Paragraph No="229">
 			<Text>Телефон выключается. Вы остаетесь в полной тьме. Теперь вам остается только...</Text>
 			<Options>
-				<Option Goto="220" Text="ждать и надеяться"/>
+				<Option Goto="220" Text="Ждать и надеяться"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="230">
