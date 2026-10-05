@@ -2178,9 +2178,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="310">
-			<Text>Открыто достижение «Рекурсия» (19/40)! Посмотреть и записать</Text>
+			<Text>Открыто достижение «Рекурсия»!</Text>
 			<Options>
-				<Option Goto="136" Text="Далее"/>
+				<Option Goto="136"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="311">
