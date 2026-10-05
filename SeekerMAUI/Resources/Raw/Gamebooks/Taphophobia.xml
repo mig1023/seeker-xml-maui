@@ -2111,7 +2111,7 @@
 		<Paragraph No="302">
 			<Text>В ступоре от такого человеческого равнодушия, вы набираете номер службы спасения.</Text>
 			<Options>
-				<Option Goto="164" Text="Далее"/>
+				<Option Goto="164"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="303">
