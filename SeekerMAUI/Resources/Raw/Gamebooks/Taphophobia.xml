@@ -2368,7 +2368,7 @@
 		<Paragraph No="334">
 			<Text>Услышав крик вы убегаете вперед. Через некоторое время вдалеке показывается ваш город.</Text>
 			<Options>
-				<Option Goto="371" Text="Дальше"/>
+				<Option Goto="371"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="335">
