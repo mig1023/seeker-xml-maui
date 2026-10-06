@@ -2349,7 +2349,7 @@
 		<Paragraph No="331">
 			<Text>Распорядитель заливается кровью и падает на пол. Похоже, он проиграл.</Text>
 			<Options>
-				<Option Goto="342" Text="Дальше"/>
+				<Option Goto="342"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="332">
