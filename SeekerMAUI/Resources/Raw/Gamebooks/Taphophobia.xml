@@ -2398,9 +2398,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="339">
-			<Text>Открыто достижение «Эрудиция» (1/40)! Посмотреть и записать</Text>
+			<Text>Открыто достижение «Эрудиция»!</Text>
 			<Options>
-				<Option Goto="99" Text="Продолжить"/>
+				<Option Goto="99"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="340">
