@@ -186,5 +186,11 @@
 				<Option Goto="188" Text="Если решишь продолжить свой путь на север"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="25">
+			<Text>Хотя температура в туннеле очень высока, жидкость из бамбуковой трубки помогает тебе перенести жару</Text>
+			<Options>
+				<Option Goto="197"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
