@@ -1363,4 +1363,16 @@
 		<Setting>Ужасы</Setting>
 		<Color>000000</Color>
 	</Taphophobia>
+	<DeathtrapDungeon>
+		<Title>Лабиринт Страха</Title>
+		<Author>Ян Ливингстон</Author>
+		<Translator>Неизвестен</Translator>
+		<Year>1981</Year>
+		<Text>За пределами пространства и времени, за бесчисленными поворотами и смертельными ловушками тёмного Лабиринта Страха тебя поджидают неизъяснимые ужасы и опасности. И тот, кто посмеет войти в развёрнутую пасть страшного лабиринта, сам станет главным героем книги, и с этого момента только от него зависит, как будет развиваться её сюжет и чем она закончится!</Text>
+		<Paragraphs>400</Paragraphs>
+		<Size>1</Size>
+		<Playthrough>На пару часов</Playthrough>
+		<Setting>Фэнтези</Setting>
+		<Color>d8d8d8</Color>
+	</DeathtrapDungeon>
 </Gamebooks>
