@@ -336,5 +336,11 @@
 				<Option Goto="335" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="48">
+			<Text>Лишь огромная сила и железная воля не позволяют тебе без сознания повалиться на начинающий плавиться пол. Сжав зубы, ты спешишь вперед</Text>
+			<Options>
+				<Option Goto="197"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
