@@ -231,5 +231,11 @@
 				<Option Goto="3" Text="Если нет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="32">
+			<Text>И вновь развилка! На этот раз коридор поворачивает на восток, но ты опять решаешь придерживаться следов мокрых ног, которые упорно продолжают вести в северном направлении</Text>
+			<Options>
+				<Option Goto="37"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
