@@ -217,5 +217,12 @@
 				<Option Goto="90"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="30">
+			<Text>Как следует, разбежавшись, ты прыгаешь. Испытай удачу.</Text>
+			<Options>
+				<Option Goto="160" Text="Если тебе повезет"/>
+				<Option Goto="319" Text="Если не повезет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
