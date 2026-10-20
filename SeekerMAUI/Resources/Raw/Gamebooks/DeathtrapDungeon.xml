@@ -506,5 +506,12 @@
 				<Option Goto="122"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="73">
+			<Text>73.</Text>
+			<Options>
+				<Option Goto="126" Text="Теперь ты можешь подойти и обыскать Варвара (если еще не сделал этого)"/>
+				<Option Goto="83" Text="выйти из комнаты и отправиться дальше на запад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
