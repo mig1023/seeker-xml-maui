@@ -809,5 +809,12 @@
 				<Option Goto="60"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="119">
+			<Text>Впереди ты различаешь какое-то препятствие, однако темнота не позволяет рассмотреть, что это такое.</Text>
+			<Options>
+				<Option Goto="56" Text="Если хочешь продолжать идти на восток"/>
+				<Option Goto="293" Text="Если хочешь вернуться к перекрестку и повернуть на запад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
