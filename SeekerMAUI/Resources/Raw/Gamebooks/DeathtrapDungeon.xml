@@ -600,5 +600,11 @@
 				<Option Goto="187"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="87">
+			<Text>Дверь отворяется, и ты входишь в обширную залу</Text>
+			<Options>
+				<Option Goto="379"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
