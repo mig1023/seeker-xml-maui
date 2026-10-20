@@ -744,5 +744,12 @@
 				<Option Goto="14" Text="Вернешься к развилке и повернешь на север"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="109">
+			<Text>Пройдя несколько метров, ты видишь, что туннель раздваивается.</Text>
+			<Options>
+				<Option Goto="43" Text="Если хочешь продолжать свой путь на запад"/>
+				<Option Goto="24" Text="Если хочешь повернуть на север"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
