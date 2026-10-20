@@ -581,5 +581,12 @@
 				<Option Goto="37"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="84">
+			<Text>Брось две кости.</Text>
+			<Options>
+				<Option Goto="152" Text="Если выпавшее число больше восьми"/>
+				<Option Goto="121" Text="Если выпавшее число меньше или равно восьми"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
