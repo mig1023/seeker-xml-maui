@@ -849,5 +849,12 @@
 				<Option Goto="81"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="125">
+			<Text>Плющ продолжает самозабвенно нахваливать своего мерзкорожего братца, и ты на цыпочках крадешься к двери. Испытай удачу.</Text>
+			<Options>
+				<Option Goto="69" Text="Если тебе повезет"/>
+				<Option Goto="139" Text="Если не повезет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
