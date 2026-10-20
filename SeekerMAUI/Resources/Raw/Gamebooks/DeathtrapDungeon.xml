@@ -555,5 +555,11 @@
 				<Option Goto="383" Text="Если не повезет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="80">
+			<Text>Наконец, ты перешагиваешь через последний брус и направляешься дальше на восток, по-прежнему ведомый двумя парами мокрых следов</Text>
+			<Options>
+				<Option Goto="313"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
