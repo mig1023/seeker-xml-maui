@@ -575,5 +575,11 @@
 				<Option Goto="214"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="83">
+			<Text>Вскоре ты подходишь к развилке. Внимательно присмотревшись, ты замечаешь три пары следов, ведущих из южного коридора в северном направлении. Ты решаешь идти по ним</Text>
+			<Options>
+				<Option Goto="37"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
