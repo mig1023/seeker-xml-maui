@@ -453,5 +453,12 @@
 				<Option Goto="190" Text="Если выпавшее число больше уровня твоего МАСТЕРСТВА"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="65">
+			<Text>Ты выпил снадобье, найденное в черной кожаной книге?</Text>
+			<Options>
+				<Option Goto="345" Text="Если выпил"/>
+				<Option Goto="372" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
