@@ -1192,5 +1192,11 @@
 				<Option Goto="315"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="176">
+			<Text>Осторожно пробуя ногой каждую ступеньку, ты медленно поднимаешься по лестнице. Вскоре ты оказываешься на самом верху и без помех углубляешься в новый туннель</Text>
+			<Options>
+				<Option Goto="277"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
