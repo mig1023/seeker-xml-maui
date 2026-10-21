@@ -1301,5 +1301,12 @@
 				<Option Goto="121" Text="Если выпавшее число равно или больше восьми"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="192">
+			<Text>Пройдя несколько сот метров, ты замечаешь медную решетку в полу.</Text>
+			<Options>
+				<Option Goto="120" Text="Если хочешь остановиться и поднять ее"/>
+				<Option Goto="292" Text="Если решишь продолжить свой путь на север"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
