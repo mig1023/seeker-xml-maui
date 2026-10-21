@@ -1380,5 +1380,12 @@
 				<Option Goto="258"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="204">
+			<Text>Как только ты опускаешь череп на мраморный постамент, срабатывает секретная пружина, и арбалеты выпускают в воздух тучу стрел. Испытай удачу.</Text>
+			<Options>
+				<Option Goto="131" Text="Если тебе повезет"/>
+				<Option Goto="199" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
