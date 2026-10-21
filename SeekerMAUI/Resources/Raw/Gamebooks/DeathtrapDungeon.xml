@@ -1367,5 +1367,12 @@
 				<Option Goto="305"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="202">
+			<Text>Реакция кобры оказывается лучше твоей, – раздувая капюшон, она стремительно бросается на тебя. Испытай удачу.</Text>
+			<Options>
+				<Option Goto="18" Text="Если тебе повезет"/>
+				<Option Goto="42" Text="Если не повезет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
