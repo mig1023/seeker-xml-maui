@@ -1438,5 +1438,12 @@
 				<Option Goto="285"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="213">
+			<Text>Вскоре ты подходишь к развилке и слышишь странное жужжание, доносящееся из западного коридора.</Text>
+			<Options>
+				<Option Goto="108" Text="Если хочешь отправиться на запад и найти источник этого звука"/>
+				<Option Goto="14" Text="Если решишь продолжать свой путь на север"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
