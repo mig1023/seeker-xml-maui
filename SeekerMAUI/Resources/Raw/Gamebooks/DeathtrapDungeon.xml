@@ -1531,5 +1531,11 @@
 				<Option Goto="83" Text="покинуть зал и продолжить свой путь на запад"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="227">
+			<Text>Все еще ухмыляясь, мерзкий старичок смотрит на тебя и кричит: «Неверно!»</Text>
+			<Options>
+				<Option Goto="85"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
