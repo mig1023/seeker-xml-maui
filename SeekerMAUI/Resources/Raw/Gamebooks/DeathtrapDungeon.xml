@@ -1524,5 +1524,12 @@
 				<Option Goto="21" Text="Если не повезет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="226">
+			<Text>Мясо содержит укрепляющее силы волшебное снадобье – прибавь 3 к уровню своей ВЫНОСЛИВОСТИ.</Text>
+			<Options>
+				<Option Goto="41" Text="Теперь ты можешь подойти к постаменту (если еще не сделал этого)"/>
+				<Option Goto="83" Text="покинуть зал и продолжить свой путь на запад"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
