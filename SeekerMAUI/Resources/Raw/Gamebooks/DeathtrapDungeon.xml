@@ -922,5 +922,11 @@
 				<Option Goto="247" Text="Если не читал"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="135">
+			<Text>Оставив позади нору скалоеда, ты вскоре вновь оказываешься у перекрестка и, убыстряя шаг, поворачиваешь на восток</Text>
+			<Options>
+				<Option Goto="68"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
