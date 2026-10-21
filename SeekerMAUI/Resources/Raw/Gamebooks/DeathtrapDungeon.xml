@@ -1511,5 +1511,11 @@
 				<Option Goto="313"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="224">
+			<Text>Дальше на север пути нет. Ты поворачиваешь обратно, проходишь мимо деревянного кресла, подходишь к развилке и отправляешься на запад</Text>
+			<Options>
+				<Option Goto="43"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
