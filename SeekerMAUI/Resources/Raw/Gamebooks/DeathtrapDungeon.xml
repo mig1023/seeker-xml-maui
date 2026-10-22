@@ -2003,5 +2003,12 @@
 				<Option Goto="305"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="298">
+			<Text>Прислоненный к сырой стене туннеля, лежит заплечный мешок.</Text>
+			<Options>
+				<Option Goto="304" Text="Если хочешь заглянуть в него"/>
+				<Option Goto="279" Text="Если решишь не открывать мешок и продолжить свой путь на север"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
