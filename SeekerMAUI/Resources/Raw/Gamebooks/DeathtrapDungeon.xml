@@ -1596,5 +1596,12 @@
 				<Option Goto="314"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="237">
+			<Text>Вскоре туннель круто поворачивает налево и далее идет в северном направлении. В западной стене ты видишь закрытую деревянную дверь.</Text>
+			<Options>
+				<Option Goto="12" Text="Если решишь открыть дверь"/>
+				<Option Goto="100" Text="Если решишь продолжать свой путь на север"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
