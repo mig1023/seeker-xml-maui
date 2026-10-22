@@ -1950,5 +1950,12 @@
 				<Option Goto="19" Text="Если не повезет"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="290">
+			<Text>Брось две кости.</Text>
+			<Options>
+				<Option Goto="152" Text="Если выпавшее число равно восьми"/>
+				<Option Goto="121" Text="Если выпавшее число не равно восьми"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
