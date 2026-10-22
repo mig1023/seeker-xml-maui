@@ -1564,5 +1564,12 @@
 				<Option Goto="110"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="232">
+			<Text>232.</Text>
+			<Options>
+				<Option Goto="286" Text="Если ты безоружен"/>
+				<Option Goto="320" Text="Если ты, невзирая на запрет, оставил оружие при себе"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
