@@ -1797,5 +1797,12 @@
 				<Option Goto="305"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="267">
+			<Text>Пройдя несколько метров, ты оказываешься на распутье – влево и вправо, исчезая во тьме, отходят узкие коридоры.</Text>
+			<Options>
+				<Option Goto="352" Text="Если решишь повернуть на запад"/>
+				<Option Goto="68" Text="Если решишь повернуть на восток"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
