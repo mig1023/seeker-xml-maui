@@ -2454,5 +2454,11 @@
 				<Option Goto="84" Text="Если больше"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="366">
+			<Text>Жара все усиливается. Рухнув на начинающий плавиться пол, ты теряешь сознание. Твое приключение подошло к бесславному концу!</Text>
+			<Options>
+				<Gameover/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
