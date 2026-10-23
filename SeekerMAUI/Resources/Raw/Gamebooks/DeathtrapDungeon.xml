@@ -2519,5 +2519,12 @@
 				<Option Goto="110"/>
 			</Options>
 		</Paragraph>
+		<Paragraph No="376">
+			<Text>Гном взволнованно восклицает: «Чудесно! Остался/ еще один! Покажи мне бриллиант!».</Text>
+			<Options>
+				<Option Goto="62" Text="Если у тебя есть бриллиант"/>
+				<Option Goto="3" Text="Если нет"/>
+			</Options>
+		</Paragraph>
 	</Paragraphs>
 </Gamebook>
