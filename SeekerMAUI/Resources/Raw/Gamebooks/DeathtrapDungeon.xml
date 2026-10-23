@@ -460,8 +460,8 @@
 		<Paragraph No="65">
 			<Text>Ты выпил снадобье, найденное в черной кожаной книге?</Text>
 			<Options>
-				<Option Goto="345" Text="Если выпил"/>
-				<Option Goto="372" Text="Если нет"/>
+				<Option Goto="345" Text="Выпил"/>
+				<Option Goto="372" Text="Нет"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="66">
