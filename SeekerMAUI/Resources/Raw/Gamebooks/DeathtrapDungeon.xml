@@ -1299,8 +1299,8 @@
 		<Paragraph No="191">
 			<Text>Брось две кости.</Text>
 			<Options>
-				<Option Goto="152" Text="Если выпавшее число меньше восьми"/>
-				<Option Goto="121" Text="Если выпавшее число равно или больше восьми"/>
+				<Option Goto="152" Text="Выпавшее число меньше восьми"/>
+				<Option Goto="121" Text="Выпавшее число равно или больше восьми"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="192">
