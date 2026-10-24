@@ -1590,9 +1590,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="235">
-			<Text>Дротик вонзается тебе в бедро. Отними 2 от уровня своей ВЫНОСЛИВОСТИ.\n\nЕсли ты еще жив</Text>
+			<Text>Дротик вонзается тебе в бедро. Отними 2 от уровня своей ВЫНОСЛИВОСТИ.</Text>
 			<Options>
-				<Option Goto="73"/>
+				<Option Goto="73" Text="Ты все еще жив"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="236">
