@@ -620,8 +620,8 @@
 		<Paragraph No="89">
 			<Text>Спустившись на пол, ты стараешься сдернуть веревочную петлю с шеи идола. Испытай удачу.</Text>
 			<Options>
-				<Option Goto="54" Text="Если тебе повезет"/>
-				<Option Goto="261" Text="Если не повезет"/>
+				<Option Goto="54" Text="Повезло"/>
+				<Option Goto="261" Text="Не повезло"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="90">
