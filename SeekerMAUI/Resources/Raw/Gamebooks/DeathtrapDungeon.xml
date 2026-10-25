@@ -2255,8 +2255,8 @@
 		<Paragraph No="335">
 			<Text>Ты с разбегу кидаешься в воду. Испытай удачу.</Text>
 			<Options>
-				<Option Goto="67" Text="Если тебе повезет"/>
-				<Option Goto="101" Text="Если не повезет"/>
+				<Option Goto="67" Text="Повезло"/>
+				<Option Goto="101" Text="Не повезло"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="336">
