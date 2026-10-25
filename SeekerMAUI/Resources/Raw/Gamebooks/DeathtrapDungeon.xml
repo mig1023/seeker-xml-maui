@@ -2091,8 +2091,8 @@
 		<Paragraph No="310">
 			<Text>Ты достигаешь дальней стены пещеры и видишь перед собой две двери.</Text>
 			<Options>
-				<Option Goto="339" Text="Если хочешь открыть левую дверь"/>
-				<Option Goto="262" Text="Если хочешь открыть правую дверь"/>
+				<Option Goto="339" Text="Открыть левую дверь"/>
+				<Option Goto="262" Text="Открыть правую дверь"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="311">
