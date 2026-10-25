@@ -6,12 +6,30 @@
 			<Year>1981</Year>
 		</Copyright>
 		<Styles>
-			<Main Value="d8d8d8"/>
-			<Continue Value="e7e7e7"/>
-			<System Value="efefef"/>
-			<SystemFont Value="8f8f8f"/>
-			<ButtonFont Value="000000"/>
+			<Background Value="252d3b"/>
+			<ActionBox Value="706e70"/>
+			<Action Value="253451"/>
+			<GoodColor Value="104210"/>
+			<Color Value="d3d5d7">
+				<Font/>
+				<ButtonFont/>
+				<SystemFont/>
+				<AdditionalFont/>
+			</Color>
+			<Color Value="333644">
+				<Continue/>
+				<System/>
+			</Color>
+			<Color Value="1c1b1d">
+				<Main/>
+				<Option/>
+				<StatusBar/>
+			</Color>
 		</Styles>
+		<Buttons>
+			<Fight>Сражаться</Fight>
+			<Luck>Проверить удачу</Luck>
+		</Buttons>
 		<Default>
 			<HideDisabledOption/>
 		</Default>
