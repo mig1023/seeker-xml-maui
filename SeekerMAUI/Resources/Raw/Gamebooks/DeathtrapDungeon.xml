@@ -2129,8 +2129,8 @@
 		<Paragraph No="316">
 			<Text>Вскоре ты подходишь к развилке.</Text>
 			<Options>
-				<Option Goto="241" Text="Если хочешь продолжать свой путь на север"/>
-				<Option Goto="296" Text="Если решишь повернуть на запад"/>
+				<Option Goto="241" Text="Продолжать свой путь на север"/>
+				<Option Goto="296" Text="Повернуть на запад"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="317">
