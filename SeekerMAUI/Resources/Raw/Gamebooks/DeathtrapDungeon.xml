@@ -1958,8 +1958,8 @@
 		<Paragraph No="290">
 			<Text>Брось две кости.</Text>
 			<Options>
-				<Option Goto="152" Text="Если выпавшее число равно восьми"/>
-				<Option Goto="121" Text="Если выпавшее число не равно восьми"/>
+				<Option Goto="152" Text="Повезло"/>
+				<Option Goto="121" Text="Не повезло"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="291">
