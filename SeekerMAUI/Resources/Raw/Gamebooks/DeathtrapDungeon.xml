@@ -931,6 +931,7 @@
 		<Paragraph No="123">
 			<Text>Ожерелье – амулет, прибавляющий силы. Прибавь 1 к уровню своего МАСТЕРСТВА и 1 к уровню своей ВЫНОСЛИВОСТИ. Затем продолжай свой путь на север.</Text>
 			<Modifications>
+				<Skill Value="1"/>
 				<Strength Value="1"/>
 			</Modifications>
 			<Options>
