@@ -3034,6 +3034,7 @@
 			<Modifications>
 				<Skill Value="1"/>
 				<Strength Value="1"/>
+				<Luck Value="1"/>
 			</Modifications>
 			<Options>
 				<Option Goto="100"/>
