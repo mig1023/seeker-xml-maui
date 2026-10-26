@@ -2669,6 +2669,9 @@
 		</Paragraph>
 		<Paragraph No="353">
 			<Text>Ты не успеваешь отпрыгнуть в сторону, и булыжник с хрустом врезается тебе в плечо. Отними 1 от уровня своего МАСТЕРСТВА и 4 от уровня своей ВЫНОСЛИВОСТИ.</Text>
+			<Modifications>
+				<Strength Value="-4"/>
+			</Modifications>
 			<Options>
 				<Option Goto="325" Text="Ты все еще жив"/>
 			</Options>
