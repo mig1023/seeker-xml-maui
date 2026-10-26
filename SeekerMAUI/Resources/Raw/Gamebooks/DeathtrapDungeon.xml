@@ -1051,6 +1051,9 @@
 					<Text></Text>
 				</Fight>
 			</Actions>
+			<Modifications>
+				<Strength Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="201" Text="Удалось победить"/>
 			</Options>
