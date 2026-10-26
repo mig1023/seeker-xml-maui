@@ -772,6 +772,9 @@
 		</Paragraph>
 		<Paragraph No="103">
 			<Text>Ты вдыхаешь ядовитый газ и чувствуешь, как тысячи крошечных иголок впиваются в твои легкие. Отними 3 от уровня своей ВЫНОСЛИВОСТИ.</Text>
+			<Modifications>
+				<Strength Value="-3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="77" Text="Ты все ещё жив"/>
 			</Options>
