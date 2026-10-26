@@ -85,6 +85,9 @@
 					<Text>Если тебе удалось победить...</Text>
 				</Fight>
 			</Actions>
+			<Modifications>
+				<Strength Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="364"/>
 			</Options>
