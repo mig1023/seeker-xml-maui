@@ -1456,6 +1456,9 @@
 					<Enemy Name="ПЕРВЫЙ ОРК" Skill="6" Strength="4"/>
 				</Fight>
 			</Actions>
+			<Modifications>
+				<Strength Value="-3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="257" Text="Удалось победить"/>
 			</Options>
