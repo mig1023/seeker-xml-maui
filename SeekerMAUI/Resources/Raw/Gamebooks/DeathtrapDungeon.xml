@@ -1737,6 +1737,9 @@
 		</Paragraph>
 		<Paragraph No="226">
 			<Text>Мясо содержит укрепляющее силы волшебное снадобье – прибавь 3 к уровню своей ВЫНОСЛИВОСТИ.</Text>
+			<Modifications>
+				<Strength Value="3"/>
+			</Modifications>
 			<Options>
 				<Option Goto="41" Text="Подойти к постаменту (если еще не сделал этого)"/>
 				<Option Goto="83" Text="Покинуть зал и продолжить свой путь на запад"/>
