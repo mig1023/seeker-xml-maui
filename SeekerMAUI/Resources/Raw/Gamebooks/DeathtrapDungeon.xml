@@ -1803,6 +1803,9 @@
 		</Paragraph>
 		<Paragraph No="235">
 			<Text>Дротик вонзается тебе в бедро. Отними 2 от уровня своей ВЫНОСЛИВОСТИ.</Text>
+			<Modifications>
+				<Strength Value="-2"/>
+			</Modifications>
 			<Options>
 				<Option Goto="73" Text="Ты все еще жив"/>
 			</Options>
