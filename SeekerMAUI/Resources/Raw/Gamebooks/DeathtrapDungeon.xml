@@ -32,6 +32,7 @@
 			<DiceWounds>Бросить кость</DiceWounds>
 			<Skill>Проверить ловкость</Skill>
 			<Dice>Бросить две кости</Dice>
+			<DiceEight>Бросить две кости</DiceEight>
 		</Buttons>
 		<Default>
 			<HideDisabledOption/>
@@ -2385,7 +2386,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="290">
-			<Text>Брось две кости.</Text>
+			<Actions>
+				<DiceEight/>
+			</Actions>
 			<Options>
 				<Option Goto="152" Text="Выпавшее число равно восьми"/>
 				<Option Goto="121" Text="Выпавшее число не равно восьми"/>
