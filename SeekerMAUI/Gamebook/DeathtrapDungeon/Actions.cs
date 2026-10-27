@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Maui.Controls.Shapes;
+using System;
 
 namespace SeekerMAUI.Gamebook.DeathtrapDungeon
 {
@@ -30,6 +31,30 @@ namespace SeekerMAUI.Gamebook.DeathtrapDungeon
                 enemies.Add($"{enemy.Name}\nмастерство {enemy.Skill}  выносливость {enemy.Strength}");
 
             return enemies;
+        }
+
+        public List<string> Luck()
+        {
+            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+
+            bool goodLuck = (firstDice + secondDice) <= Character.Protagonist.Luck;
+            string luckLine = goodLuck ? "<=" : ">";
+
+            List<string> luckCheck = new List<string> {
+                $"Проверка удачи: {Game.Dice.Symbol(firstDice)} + " +
+                $"{Game.Dice.Symbol(secondDice)} {luckLine} {Character.Protagonist.Luck}" };
+
+            luckCheck.Add(goodLuck ? "BIG|GOOD|УСПЕХ :)" : "BIG|BAD|НЕУДАЧА :(");
+
+            if (Character.Protagonist.Luck > 2)
+            {
+                Character.Protagonist.Luck -= 1;
+                luckCheck.Add("Уровень удачи снижен на единицу");
+            }
+
+            Game.Buttons.Disable(goodLuck, "Повезло", "Не повезло");
+
+            return luckCheck;
         }
 
         private static bool NoMoreEnemies(List<Character> enemies) =>
@@ -65,7 +90,7 @@ namespace SeekerMAUI.Gamebook.DeathtrapDungeon
                         Game.Dice.DoubleRoll(out int protagonistRollFirst, out int protagonistRollSecond);
                         protagonistHitStrength = protagonistRollFirst + protagonistRollSecond + Character.Protagonist.Skill;
 
-                        fight.Add($"Сила вашего удара: " +
+                        fight.Add($"Сила твоего удара: " +
                             $"{Game.Dice.Symbol(protagonistRollFirst)} + " +
                             $"{Game.Dice.Symbol(protagonistRollSecond)} + " +
                             $"{Character.Protagonist.Skill} = {protagonistHitStrength}");
@@ -81,25 +106,31 @@ namespace SeekerMAUI.Gamebook.DeathtrapDungeon
 
                     if ((protagonistHitStrength > enemyHitStrength) && !attackAlready)
                     {
-                        fight.Add($"GOOD|{enemy.Name} ранен");
+                        fight.Add($"GOOD|BOLD|{enemy.Name} ранен");
 
                         enemy.Strength -= 2;
 
                         if (fightEnemies.Where(x => x.Strength > 0).Count() == 0)
-                            return Win(fight);
+                        {
+                            fight.Add($"BIG|GOOD|BOLD|\nТы ПОБЕДИЛ :)");
+                            return fight;
+                        }
                     }
                     else if (protagonistHitStrength > enemyHitStrength)
                     {
-                        fight.Add($"BOLD|{enemy.Name} не смог вас ранить");
+                        fight.Add($"BOLD|{enemy.Name} не смог тебя ранить");
                     }
                     else if (protagonistHitStrength < enemyHitStrength)
                     {
-                        fight.Add($"BAD|{enemy.Name} ранил вас");
+                        fight.Add($"BAD|BOLD|{enemy.Name} ранил тебя");
 
                         Character.Protagonist.Strength -= 2;
 
                         if (Character.Protagonist.Strength <= 0)
-                            return Fail(fight);
+                        {
+                            fight.Add($"BIG|BAD|BOLD|\nТы ПРОИГРАЛ :(");
+                            return fight;
+                        }
                     }
                     else
                     {
