@@ -92,6 +92,22 @@ namespace SeekerMAUI.Gamebook.DeathtrapDungeon
             return skillCheck;
         }
 
+        public List<string> DiceEight()
+        {
+            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+            bool diceEight = (firstDice + secondDice) == 8;
+            string diceLine = diceEight ? "=" : "не равно";
+
+            List<string> skillCheck = new List<string> {
+                $"Бросаем кости: {Game.Dice.Symbol(firstDice)} + {Game.Dice.Symbol(secondDice)} " +
+                $"{diceLine} 8" };
+
+            skillCheck.Add(Result(diceEight, "ВЫПАЛО ВОСЕМЬ!", "ВЫПАЛО НЕ ВОСЕМЬ!"));
+            Game.Buttons.Disable(diceEight, "Выпавшее число равно восьми", "Выпавшее число не равно восьми");
+
+            return skillCheck;
+        }
+
         public List<string> DiceWounds()
         {
             List<string> diceCheck = new List<string> { };
