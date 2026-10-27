@@ -60,6 +60,22 @@ namespace SeekerMAUI.Gamebook.DeathtrapDungeon
             return luckCheck;
         }
 
+        public List<string> Skill()
+        {
+            Game.Dice.DoubleRoll(out int firstDice, out int secondDice);
+            bool goodSkill = (firstDice + secondDice) <= Character.Protagonist.Skill;
+            string skillLine = goodSkill ? "<=" : ">";
+
+            List<string> skillCheck = new List<string> {
+                $"Проверка мастерства: {Game.Dice.Symbol(firstDice)} + {Game.Dice.Symbol(secondDice)} " +
+                $"{skillLine} {Character.Protagonist.Skill} мастество" };
+
+            skillCheck.Add(Result(goodSkill, "МАСТЕРСТВО ХВАТИЛО", "МАСТЕРСТВА НЕ ХВАТИЛО"));
+            Game.Buttons.Disable(goodSkill, "Мастерства хватило", "Мастерства не хватило");
+
+            return skillCheck;
+        }
+
         public List<string> DiceWounds()
         {
             List<string> diceCheck = new List<string> { };
