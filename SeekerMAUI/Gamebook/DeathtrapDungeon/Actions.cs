@@ -1,10 +1,13 @@
-﻿using Microsoft.Maui.Controls.Shapes;
-using System;
+﻿using System;
 
 namespace SeekerMAUI.Gamebook.DeathtrapDungeon
 {
     class Actions : Prototypes.Actions, Abstract.IActions
     {
+        public int WoundsByDice { get; set; }
+
+        public int WoundsBonus { get; set; }
+
         public List<Character> Enemies { get; set; }
 
         public override List<string> Status() => new List<string>
@@ -55,6 +58,33 @@ namespace SeekerMAUI.Gamebook.DeathtrapDungeon
             Game.Buttons.Disable(goodLuck, "Повезло", "Не повезло");
 
             return luckCheck;
+        }
+
+        public List<string> DiceWounds()
+        {
+            List<string> diceCheck = new List<string> { };
+
+            int dice = Game.Dice.Roll();
+
+            diceCheck.Add($"На кости выпало: {Game.Dice.Symbol(dice)}");
+
+            if (WoundsByDice > 0)
+            {
+                diceCheck.Add($"За каждую попадание отнимается: {WoundsByDice}");
+                dice *= WoundsByDice;
+            }
+
+            if (WoundsBonus > 0)
+            {
+                diceCheck.Add($"Прибавляем к выпавшему: {WoundsBonus}");
+                dice += WoundsBonus;
+            }
+
+            Character.Protagonist.Strength -= dice;
+
+            diceCheck.Add($"BIG|BAD|Ты потерял выносливости: {dice}");
+
+            return diceCheck;
         }
 
         private static bool NoMoreEnemies(List<Character> enemies) =>
