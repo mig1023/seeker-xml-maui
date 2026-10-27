@@ -2659,7 +2659,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="335">
-			<Text>Ты с разбегу кидаешься в воду. Испытай удачу.</Text>
+			<Text>Ты с разбегу кидаешься в воду.</Text>
+			<Actions>
+				<Luck/>
+			</Actions>
 			<Options>
 				<Option Goto="67" Text="Повезло"/>
 				<Option Goto="101" Text="Не повезло"/>
