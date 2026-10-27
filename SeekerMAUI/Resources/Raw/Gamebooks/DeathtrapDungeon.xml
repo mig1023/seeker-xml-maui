@@ -2312,8 +2312,8 @@
 		<Paragraph No="290">
 			<Text>Брось две кости.</Text>
 			<Options>
-				<Option Goto="152" Text="Повезло"/>
-				<Option Goto="121" Text="Не повезло"/>
+				<Option Goto="152" Text="Выпавшее число равно восьми"/>
+				<Option Goto="121" Text="Выпавшее число не равно восьми"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="291">
@@ -2343,6 +2343,7 @@
 					<Enemy Name="КРОВОЖОР" Skill="12" Strength="10"/>
 					<Text>Как только ты сможешь нанести Кровожору первый удачный удар, испытай удачу:</Text>
 				</Fight>
+				<Luck/>
 			</Actions>
 			<Options>
 				<Option Goto="97" Text="Повезло"/>
