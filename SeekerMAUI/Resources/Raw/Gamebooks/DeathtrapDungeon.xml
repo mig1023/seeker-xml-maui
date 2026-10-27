@@ -31,6 +31,7 @@
 			<Luck>Испытать удачу</Luck>
 			<DiceWounds>Бросить кость</DiceWounds>
 			<Skill>Проверить ловкость</Skill>
+			<Dice>Бросить две кости</Dice>
 		</Buttons>
 		<Default>
 			<HideDisabledOption/>
@@ -697,7 +698,9 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="84">
-			<Text>Брось две кости.</Text>
+			<Actions>
+				<Dice/>
+			</Actions>
 			<Options>
 				<Option Goto="152" Text="Выпавшее число больше восьми"/>
 				<Option Goto="121" Text="Выпавшее число меньше или равно восьми"/>
