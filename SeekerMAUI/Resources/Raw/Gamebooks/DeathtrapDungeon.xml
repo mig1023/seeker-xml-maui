@@ -2083,7 +2083,10 @@
 			</Options>
 		</Paragraph>
 		<Paragraph No="235">
-			<Text>Дротик вонзается тебе в бедро. Отними 2 от уровня своей ВЫНОСЛИВОСТИ.</Text>
+			<Texts>
+				<Text>Дротик вонзается тебе в бедро.</Text>
+				<Text Style="Small">Отними 2 от уровня своей ВЫНОСЛИВОСТИ.</Text>
+			</Texts>
 			<Modifications>
 				<Strength Value="-2"/>
 			</Modifications>
