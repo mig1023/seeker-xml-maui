@@ -2985,8 +2985,8 @@
 				<Strength Value="-1"/>
 			</Modifications>
 			<Options>
-				<Option Goto="303" Text="Есть кувшин с кислотой"/>
-				<Option Goto="236" Text="Нет кувшина"/>
+				<Option Goto="303" Text="Есть кувшин с кислотой" Availability="Кислота"/>
+				<Option Goto="236" Text="Нет кувшина" Availability="!Кислота"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="340">
