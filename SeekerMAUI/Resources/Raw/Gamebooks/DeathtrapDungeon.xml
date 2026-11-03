@@ -3075,8 +3075,8 @@
 		<Paragraph No="351">
 			<Text>Идол выточен из очень гладкого камня и забраться на него – далеко не простое дело. Есть у тебя веревка?</Text>
 			<Options>
-				<Option Goto="396" Text="Есть"/>
-				<Option Goto="186" Text="Нет"/>
+				<Option Goto="396" Text="Есть" Availability="Веревка"/>
+				<Option Goto="186" Text="Нет" Availability="!Веревка"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="352">
