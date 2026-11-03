@@ -460,8 +460,8 @@
 		<Paragraph No="47">
 			<Text>У тебя есть полая деревянная трубка?</Text>
 			<Options>
-				<Option Goto="10" Text="Есть"/>
-				<Option Goto="335" Text="Нет"/>
+				<Option Goto="10" Text="Есть" Availability="Деревянная трубка"/>
+				<Option Goto="335" Text="Нет" Availability="!Деревянная трубка"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="48">
