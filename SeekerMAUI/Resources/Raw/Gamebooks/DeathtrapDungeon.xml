@@ -310,8 +310,8 @@
 		<Paragraph No="31">
 			<Text>Гном улыбается и говорит: «Хорошо! А теперь покажи мне сапфир!».</Text>
 			<Options>
-				<Option Goto="376" Text="У тебя есть сапфир"/>
-				<Option Goto="3" Text="Нет сапфира"/>
+				<Option Goto="376" Text="У тебя есть сапфир" Availability="Сапфир"/>
+				<Option Goto="3" Text="Нет сапфира" Availability="!Сапфир"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="32">
