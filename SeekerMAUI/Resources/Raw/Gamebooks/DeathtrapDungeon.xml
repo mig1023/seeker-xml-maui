@@ -1427,7 +1427,7 @@
 			<Modifications>
 				<Luck Value="1"/>
 			</Modifications>
-			<Triggers>Медный ключ</Triggers>
+			<Triggers>Медный ключ, Сапфир</Triggers>
 			<Options>
 				<Option Goto="142"/>
 			</Options>
