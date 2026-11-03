@@ -2066,7 +2066,7 @@
 			<Options>
 				<Option Goto="88" Text="Войдешь и заговоришь с ними"/>
 				<Option Goto="5" Text="Постараешься прокрасться мимо них незамеченным"/>
-				<Option Goto="385" Text="Выпьешь Раздвоитель (если он у тебя есть)"/>
+				<Option Goto="385" Text="Выпьешь Раздвоитель" Availability="Раздвоитесь"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="231">
