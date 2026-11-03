@@ -1274,6 +1274,7 @@
 			<Modifications>
 				<Strength Value="1"/>
 			</Modifications>
+			<Triggers>Бамбуковая трубка</Triggers>
 			<Options>
 				<Option Goto="182"/>
 			</Options>
