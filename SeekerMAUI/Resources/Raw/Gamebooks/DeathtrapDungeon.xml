@@ -2847,8 +2847,8 @@
 		<Paragraph No="324">
 			<Text>Ты беседовал с закованным в кандалы слугой Смотрителя Лабиринта?</Text>
 			<Options>
-				<Option Goto="256" Text="Беседовал"/>
-				<Option Goto="79" Text="Нет"/>
+				<Option Goto="256" Text="Беседовал" Availability="Беседа"/>
+				<Option Goto="79" Text="Нет" Availability="!Беседа"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="325">
