@@ -1759,7 +1759,7 @@
 				</Fight>
 			</Actions>
 			<Options>
-				<Option Goto="384" Text="Удалось победить"/>
+				<Option Goto="364" Text="Удалось победить"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="197">
