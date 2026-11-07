@@ -3533,7 +3533,7 @@
 				<Luck Value="2"/>
 			</Modifications>
 			<Options>
-				<Option Goto="52" Text="Открыть красную книгу (если до сих пор еще не сделал этого)"/>
+				<Option Goto="52" Text="Открыть красную книгу" Availability="!Красная книжка"/>
 				<Option Goto="369" Text="Отправиться с Тромом дальше на север"/>
 			</Options>
 		</Paragraph>
