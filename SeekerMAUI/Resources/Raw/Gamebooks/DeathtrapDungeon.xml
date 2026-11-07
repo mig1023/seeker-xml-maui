@@ -2036,7 +2036,7 @@
 				<Strength Value="3"/>
 			</Modifications>
 			<Options>
-				<Option Goto="41" Text="Подойти к постаменту (если еще не сделал этого)"/>
+				<Option Goto="41" Text="Подойти к постаменту" Availability="!Постамент"/>
 				<Option Goto="83" Text="Покинуть зал и продолжить свой путь на запад"/>
 			</Options>
 		</Paragraph>
