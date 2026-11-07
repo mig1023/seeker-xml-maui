@@ -2394,6 +2394,7 @@
 			<Modifications>
 				<Strength Value="3"/>
 			</Modifications>
+			<Triggers>Смазать рану</Triggers>
 			<Options>
 				<Option Goto="330" Text="Отведать найденного у Ниндзя продовольствия" Availability="!Продовольствие ниндзя"/>
 				<Option Goto="127" Text="Забрать бриллиант и покинуть мраморную пещеру"/>
