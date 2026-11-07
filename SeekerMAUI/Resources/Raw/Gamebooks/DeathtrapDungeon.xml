@@ -666,7 +666,7 @@
 		<Paragraph No="73">
 			<Text>Теперь ты можешь:</Text>
 			<Options>
-				<Option Goto="126" Text="Подойти и обыскать Варвара (если еще не сделал этого)"/>
+				<Option Goto="126" Text="Подойти и обыскать Варвара" Availability="!Варвар"/>
 				<Option Goto="83" Text="Выйти из комнаты и отправиться дальше на запад"/>
 			</Options>
 		</Paragraph>
