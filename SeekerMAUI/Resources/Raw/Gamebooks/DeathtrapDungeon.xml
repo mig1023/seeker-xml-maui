@@ -1537,7 +1537,7 @@
 				<Skill Value="2"/>
 			</Modifications>
 			<Options>
-				<Option Goto="337" Text="Попить из левого фонтана (если еще не сделал этого)"/>
+				<Option Goto="337" Text="Попить из левого фонтана" Availability="!Левый фонтан"/>
 				<Option Goto="368" Text="Отправиться дальше на север"/>
 			</Options>
 		</Paragraph>
