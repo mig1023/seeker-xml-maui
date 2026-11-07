@@ -2975,7 +2975,7 @@
 			</Modifications>
 			<Triggers>Левый фонтан</Triggers>
 			<Options>
-				<Option Goto="173" Text="Попить из правого фонтана (если еще не сделал этого)"/>
+				<Option Goto="173" Text="Попить из правого фонтана" Availability="!Правый фонтан"/>
 				<Option Goto="368" Text="Отправиться дальше на север"/>
 			</Options>
 		</Paragraph>
