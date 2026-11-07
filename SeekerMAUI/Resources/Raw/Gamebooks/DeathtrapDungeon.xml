@@ -2904,6 +2904,7 @@
 			<Modifications>
 				<Strength Value="1"/>
 			</Modifications>
+			<Triggers>Продовольствие ниндзя</Triggers>
 			<Options>
 				<Option Goto="269" Text="Смазать свои раны из найденной тобой склянки (если еще не сделал этого)"/>
 				<Option Goto="127" Text="Забрать бриллиант и покинуть пещеру"/>
