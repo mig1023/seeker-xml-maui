@@ -356,7 +356,7 @@
 		<Paragraph No="41">
 			<Text>Секутор пытается уйти с линии атаки, но один из твоих кинжалов достигает цели.</Text>
 			<Options>
-				<Option Goto="222,58"/>
+				<Option Goto="22,58"/>
 			</Options>
 		</Paragraph>
 		<Paragraph No="42">
