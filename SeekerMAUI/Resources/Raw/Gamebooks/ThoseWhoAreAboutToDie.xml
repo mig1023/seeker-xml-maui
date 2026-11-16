@@ -18,6 +18,13 @@
 				<StatusFont/>
 			</Color>
 		</Styles>
+		<Dictionaries>
+			<Availabilities>
+				<Item Name="СИЛА" Value="Strength"/>
+				<Item Name="РЕАКЦИЯ" Value="Reaction"/>
+				<Item Name="ВЫНОСЛИВОСТЬ" Value="Endurance"/>
+			</Availabilities>
+		</Dictionaries>
 	</Introduction>
 	<Paragraphs>
 		<Paragraph No="0">

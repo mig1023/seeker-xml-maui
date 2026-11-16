@@ -16,15 +16,44 @@ namespace SeekerMAUI.Gamebook.ThoseWhoAreAboutToDie
         public override bool GameOver(out int toEndParagraph, out string toEndText) =>
             GameOverBy(Character.Protagonist.Endurance, out toEndParagraph, out toEndText);
 
+        private bool AvailabilityNode(string option)
+        {
+            if (Game.Services.AvailabilityByСomparison(option))
+            {
+                return Game.Services.AvailabilityByProperty(Character.Protagonist,
+                    option, Constants.Availabilities);
+            }
+
+            return AvailabilityTrigger(option);
+        }
+
         public override bool Availability(string option)
         {
-            if (option.Contains(">") || option.Contains("<"))
+            if (String.IsNullOrEmpty(option))
             {
-                return !Params.Fail(option);
+                return true;
+            }
+            else if (option.Contains(","))
+            {
+                var availability = option
+                    .Split(',')
+                    .Where(x => !AvailabilityNode(x.Trim()))
+                    .Count() == 0;
+
+                return availability;
+            }
+            else if (option.Contains("|"))
+            {
+                var availability = option
+                   .Split('|')
+                   .Where(x => AvailabilityNode(x.Trim()))
+                   .Count() > 0;
+
+                return availability;
             }
             else
             {
-                return AvailabilityTrigger(option);
+                return AvailabilityNode(option);
             }
         }
 
